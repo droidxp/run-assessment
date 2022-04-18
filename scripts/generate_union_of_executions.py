@@ -7,7 +7,7 @@
 import os
 
 tools = ['droidbot']
-executions = [1,2]
+executions = [1,2,3]
 non_relevant_categories = [] 
 
 print(f"[Info] Computing the union of executions {executions}")

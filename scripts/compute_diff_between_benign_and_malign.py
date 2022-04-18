@@ -14,6 +14,8 @@ malicious_apps = {}
 print(f"[Info] Processing files in {src_dir}")
 print(f"[Info] Number of files: {len(files)}")  
 
+methods_in_diff = {}
+
 for f in files:
     elements = f.split('-')
 
@@ -33,7 +35,8 @@ for f in files:
         methods = set()
         
         for line in lines:
-            methods.add(line)
+            method = line.replace('\n', '')
+            methods.add(f"\042{method}\042")
 
     if classification == 'benign':
         benign_apps[(tool, apk)] = methods
@@ -56,11 +59,24 @@ for (tool, apk), bMethods in benign_apps.items():
     with open(file_name, 'w') as fh:
         fh.writelines(dMethods)
 
+    for m in dMethods:
+        total = methods_in_diff.get(m, 0)
+        methods_in_diff[m] = total + 1
+
 summary_file = f"{diffs_dir}/summary.csv"
+methods_in_diff_file = f"{diffs_dir}/methods_in_diff.csv"
 
 with open(summary_file, 'w') as fh:
     fh.write("tool,apk,methods_in_diff\n")
     for ((tool, apk), ms) in summary.items():
         fh.write(f"{tool},{apk},{ms}\n")
+
+with open(methods_in_diff_file, 'w') as fh:
+    fh.write("method,occurrences\n")
+    
+    for (m, t) in methods_in_diff.items():
+        fh.write(f"{m},{t}\n")
+
+    
             
 print(f"[Info] Results exported to {diffs_dir}")
