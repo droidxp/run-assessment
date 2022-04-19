@@ -16,6 +16,14 @@ print(f"[Info] Number of files: {len(files)}")
 
 methods_in_diff = {}
 
+sensitive_methods = []
+
+with open('sensitive_methods.txt', 'r') as fh:
+    lines = fh.readlines()
+
+    for line in lines:
+        sensitive_methods.append(line.replace('\n', ''))
+        
 for f in files:
     elements = f.split('-')
 
@@ -36,7 +44,8 @@ for f in files:
         
         for line in lines:
             method = line.replace('\n', '')
-            methods.add(f"\042{method}\042")
+            if method in sensitive_methods:
+                methods.add(f"\042{method}\042")
 
     if classification == 'benign':
         benign_apps[(tool, apk)] = methods
