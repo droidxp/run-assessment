@@ -1,0 +1,236 @@
+DUA-Forensics args to Soot: -w -cp /home/hcosta/bench/benchmark/libs/droidfax.jar:/home/hcosta/Android/Sdk/platforms/android-28/android.jar -p cg verbose:false,implicit-entry:true -p cg.spark verbose:false,on-fly-cg:true,rta:false -d /home/hcosta/bench/benchmark/trace/180/1/droidbot/benign-app-84-C11C411C3BE3FB59250DFD525AE49F2B931BFEEED9C85B45D1EFB075331FB581.apk.logcat -process-dir /home/hcosta/bench/benchmark/data/input/benign-app-84-C11C411C3BE3FB59250DFD525AE49F2B931BFEEED9C85B45D1EFB075331FB581.apk 
+Soot started on Tue Apr 19 16:41:28 CEST 2022
+Warning: com.ironsource.mobilcore.BaseFlowBasedAdUnit is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+get type from 'Z'
+Warning: org.apache.http.NameValuePair is a phantom class!
+Warning: org.apache.http.client.utils.URLEncodedUtils is a phantom class!
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.0 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+hcai's internal transform
+Running static analysis for security-relevant feature characterization
+[GatorHierarchy] [32mVERBOSE[0m [HIER] All classes: 1510
+[GatorHierarchy] [32mVERBOSE[0m [App: 361, Lib : 1144, Phantom: 5]
+[GatorHierarchy] [32mVERBOSE[0m [HIER] Activities: 10, lib activities: 3
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App views: 10, Lib views: 24
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App Dialogs: 0, Lib Dialogs: 4
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing starting at 1650379289123
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing finished at 1650379291220
+[Instantiated app classes] [32mVERBOSE[0m total number: 287
+[WARNING] [32mVERBOSE[0m Callback method :onTransact in Class com.google.a.a.a.g added
+[WARNING] [32mVERBOSE[0m Callback method :onRestoreInstanceState in Class android.support.v13.app.FragmentTabHost added
+[WARNING] [32mVERBOSE[0m Callback method :onTabChanged in Class android.support.v13.app.FragmentTabHost added
+[WARNING] [32mVERBOSE[0m Callback method :setOnTabChangedListener in Class android.support.v13.app.FragmentTabHost added
+[WARNING] [32mVERBOSE[0m Callback method :onSaveInstanceState in Class android.support.v13.app.FragmentTabHost added
+[WARNING] [32mVERBOSE[0m Callback method :onDetachedFromWindow in Class android.support.v13.app.FragmentTabHost added
+[WARNING] [32mVERBOSE[0m Callback method :onAttachedToWindow in Class android.support.v13.app.FragmentTabHost added
+[WARNING] [32mVERBOSE[0m Callback method :setup in Class android.support.v13.app.FragmentTabHost added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.wigball.android.games.dotsandboxes.s added
+[WARNING] [32mVERBOSE[0m Callback method :onLowMemory in Class android.support.v4.app.Fragment added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateContextMenu in Class android.support.v4.app.Fragment added
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class android.support.v4.app.Fragment added
+[WARNING] [32mVERBOSE[0m Callback method :onBackPressed in Class com.wigball.android.games.dotsandboxes.k added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.wigball.android.games.dotsandboxes.k added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateOptionsMenu in Class com.wigball.android.games.dotsandboxes.k added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyUp in Class com.wigball.android.games.dotsandboxes.k added
+[WARNING] [32mVERBOSE[0m Callback method :onOptionsItemSelected in Class com.wigball.android.games.dotsandboxes.k added
+[WARNING] [32mVERBOSE[0m Callback method :onTransact in Class de.androidpit.app.services.b added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.wigball.android.games.dotsandboxes.b added
+[WARNING] [32mVERBOSE[0m Callback method :onTransact in Class com.google.a.a.a.d added
+[WARNING] [32mVERBOSE[0m Callback method :asBinder in Class com.google.a.a.a.d added
+[WARNING] [32mVERBOSE[0m Callback method :onRestoreInstanceState in Class android.support.v4.app.FragmentTabHost added
+[WARNING] [32mVERBOSE[0m Callback method :onTabChanged in Class android.support.v4.app.FragmentTabHost added
+[WARNING] [32mVERBOSE[0m Callback method :setOnTabChangedListener in Class android.support.v4.app.FragmentTabHost added
+[WARNING] [32mVERBOSE[0m Callback method :onSaveInstanceState in Class android.support.v4.app.FragmentTabHost added
+[WARNING] [32mVERBOSE[0m Callback method :onDetachedFromWindow in Class android.support.v4.app.FragmentTabHost added
+[WARNING] [32mVERBOSE[0m Callback method :onAttachedToWindow in Class android.support.v4.app.FragmentTabHost added
+[WARNING] [32mVERBOSE[0m Callback method :setup in Class android.support.v4.app.FragmentTabHost added
+[WARNING] [32mVERBOSE[0m Callback method :onWindowFocusChanged in Class com.google.ads.AdActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.google.ads.AdActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.google.ads.AdActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.google.ads.AdActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class com.google.ads.AdActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.google.ads.AdActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.wigball.android.games.dotsandboxes.s added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.wigball.android.games.dotsandboxes.b added
+[WARNING] [32mVERBOSE[0m Callback method :surfaceCreated in Class com.wigball.android.games.dotsandboxes.canvas.GameCanvas added
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class com.wigball.android.games.dotsandboxes.canvas.GameCanvas added
+[WARNING] [32mVERBOSE[0m Callback method :surfaceDestroyed in Class com.wigball.android.games.dotsandboxes.canvas.GameCanvas added
+[WARNING] [32mVERBOSE[0m Callback method :surfaceChanged in Class com.wigball.android.games.dotsandboxes.canvas.GameCanvas added
+[WARNING] [32mVERBOSE[0m Callback method :surfaceCreated in Class com.wigball.android.games.dotsandboxes.canvas.StartBackground added
+[WARNING] [32mVERBOSE[0m Callback method :surfaceDestroyed in Class com.wigball.android.games.dotsandboxes.canvas.StartBackground added
+[WARNING] [32mVERBOSE[0m Callback method :surfaceChanged in Class com.wigball.android.games.dotsandboxes.canvas.StartBackground added
+[WARNING] [32mVERBOSE[0m Callback method :onBackPressed in Class com.wigball.android.games.dotsandboxes.k added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.wigball.android.games.dotsandboxes.k added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateOptionsMenu in Class com.wigball.android.games.dotsandboxes.k added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyUp in Class com.wigball.android.games.dotsandboxes.k added
+[WARNING] [32mVERBOSE[0m Callback method :onOptionsItemSelected in Class com.wigball.android.games.dotsandboxes.k added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class android.support.v4.app.h added
+[WARNING] [32mVERBOSE[0m Callback method :onPanelClosed in Class android.support.v4.app.h added
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class android.support.v4.app.h added
+[WARNING] [32mVERBOSE[0m Callback method :onMenuItemSelected in Class android.support.v4.app.h added
+[WARNING] [32mVERBOSE[0m Callback method :onBackPressed in Class android.support.v4.app.h added
+[WARNING] [32mVERBOSE[0m Callback method :onRetainNonConfigurationInstance in Class android.support.v4.app.h added
+[WARNING] [32mVERBOSE[0m Callback method :onNewIntent in Class android.support.v4.app.h added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class android.support.v4.app.h added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class android.support.v4.app.h added
+[WARNING] [32mVERBOSE[0m Callback method :onCreatePanelMenu in Class android.support.v4.app.h added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class android.support.v4.app.h added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateView in Class android.support.v4.app.h added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class android.support.v4.app.h added
+[WARNING] [32mVERBOSE[0m Callback method :onPreparePanel in Class android.support.v4.app.h added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class android.support.v4.app.h added
+[WARNING] [32mVERBOSE[0m Callback method :onSaveInstanceState in Class android.support.v4.app.h added
+[WARNING] [32mVERBOSE[0m Callback method :startActivityForResult in Class android.support.v4.app.h added
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class android.support.v4.app.h added
+[WARNING] [32mVERBOSE[0m Callback method :onPostResume in Class android.support.v4.app.h added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class android.support.v4.app.h added
+[WARNING] [32mVERBOSE[0m Callback method :onLowMemory in Class android.support.v4.app.h added
+[WARNING] [32mVERBOSE[0m Callback method :onMeasure in Class com.google.ads.AdView added
+[WARNING] [32mVERBOSE[0m Callback method :generateLayoutParams in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :draw in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :onRestoreInstanceState in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :onRequestFocusInDescendants in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :generateDefaultLayoutParams in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :onMeasure in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :addView in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :onSaveInstanceState in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :onLayout in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :addTouchables in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :onDetachedFromWindow in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :computeScroll in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :onAttachedToWindow in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :onInterceptTouchEvent in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :verifyDrawable in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :dispatchPopulateAccessibilityEvent in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :onSizeChanged in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :dispatchKeyEvent in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :addFocusables in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :onDraw in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :generateLayoutParams in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :drawableStateChanged in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :getChildDrawingOrder in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :checkLayoutParams in Class android.support.v4.view.ViewPager added
+2 ICC links found and 0 cg edges added due to ICC links
+dynamic conflated call graph: 245 methods; 245 nodes; 312 edges.
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=13
+maxpossibleFlows=12
+maxpossibleFlows=3
+3 taint flow paths FOUND from <android.content.res.Resources: java.lang.String getString(int)> to <android.graphics.Paint: void setStyle(android.graphics.Paint$Style)>
+maxpossibleFlows=2
+maxpossibleFlows=2
+2 taint flow paths FOUND from <java.lang.StringBuilder: java.lang.String toString()> to <android.util.Log: int d(java.lang.String,java.lang.String)>
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+3 taint flow paths FOUND from <android.graphics.Paint: int getTextWidths(java.lang.String,float[])> to <android.graphics.Paint: void setStyle(android.graphics.Paint$Style)>
+maxpossibleFlows=13
+maxpossibleFlows=12
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=15
+maxpossibleFlows=12
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=13
+maxpossibleFlows=12
+maxpossibleFlows=2
+maxpossibleFlows=15
+maxpossibleFlows=12
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=12
+2 taint flow paths FOUND from <android.view.View: android.content.res.Resources getResources()> to <android.graphics.Paint: void setStyle(android.graphics.Paint$Style)>
+maxpossibleFlows=12
+2 taint flow paths FOUND from <android.content.res.Resources: android.graphics.drawable.Drawable getDrawable(int)> to <android.graphics.Paint: void setStyle(android.graphics.Paint$Style)>
+maxpossibleFlows=2
+2 taint flow paths FOUND from <java.lang.StringBuilder: java.lang.String toString()> to <android.util.Log: int d(java.lang.String,java.lang.String)>
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+2 taint flow paths FOUND from <java.lang.StringBuilder: java.lang.String toString()> to <android.util.Log: int i(java.lang.String,java.lang.String)>
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=4
+maxpossibleFlows=13
+maxpossibleFlows=3
+3 taint flow paths FOUND from <android.content.res.Resources: java.lang.String getString(int)> to <android.graphics.Paint: void setStyle(android.graphics.Paint$Style)>
+maxpossibleFlows=4
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=12
+12 taint flow paths FOUND from <android.view.View: android.content.res.Resources getResources()> to <android.graphics.drawable.Drawable: void setBounds(int,int,int,int)>
+maxpossibleFlows=3
+maxpossibleFlows=3
+3 taint flow paths FOUND from <android.content.res.Resources: java.lang.String getString(int)> to <android.graphics.Typeface: android.graphics.Typeface create(android.graphics.Typeface,int)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+[WARNING] [32mVERBOSE[0m Callback method :onAttachedToWindow in Class android.support.v13.app.FragmentTabHost
+[WARNING] [32mVERBOSE[0m Callback method :onDetachedFromWindow in Class android.support.v13.app.FragmentTabHost
+[WARNING] [32mVERBOSE[0m Callback method :onRestoreInstanceState in Class android.support.v13.app.FragmentTabHost
+[WARNING] [32mVERBOSE[0m Callback method :onSaveInstanceState in Class android.support.v13.app.FragmentTabHost
+[WARNING] [32mVERBOSE[0m Callback method :onTabChanged in Class android.support.v13.app.FragmentTabHost
+[WARNING] [32mVERBOSE[0m Callback method :setOnTabChangedListener in Class android.support.v13.app.FragmentTabHost
+[WARNING] [32mVERBOSE[0m Callback method :setup in Class android.support.v13.app.FragmentTabHost
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class android.support.v4.app.Fragment
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class android.support.v4.app.Fragment
+[WARNING] [32mVERBOSE[0m Callback method :onCreateContextMenu in Class android.support.v4.app.Fragment
+[WARNING] [32mVERBOSE[0m Callback method :onLowMemory in Class android.support.v4.app.Fragment
+[WARNING] [32mVERBOSE[0m Callback method :onAttachedToWindow in Class android.support.v4.app.FragmentTabHost
+[WARNING] [32mVERBOSE[0m Callback method :onDetachedFromWindow in Class android.support.v4.app.FragmentTabHost
+[WARNING] [32mVERBOSE[0m Callback method :onRestoreInstanceState in Class android.support.v4.app.FragmentTabHost
+[WARNING] [32mVERBOSE[0m Callback method :onSaveInstanceState in Class android.support.v4.app.FragmentTabHost
+[WARNING] [32mVERBOSE[0m Callback method :onTabChanged in Class android.support.v4.app.FragmentTabHost
+[WARNING] [32mVERBOSE[0m Callback method :setOnTabChangedListener in Class android.support.v4.app.FragmentTabHost
+[WARNING] [32mVERBOSE[0m Callback method :setup in Class android.support.v4.app.FragmentTabHost
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.google.ads.AdActivity
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class com.google.ads.AdActivity
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.google.ads.AdActivity
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.google.ads.AdActivity
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.google.ads.AdActivity
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.google.ads.AdActivity
+[WARNING] [32mVERBOSE[0m Callback method :onWindowFocusChanged in Class com.google.ads.AdActivity
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class com.wigball.android.games.dotsandboxes.canvas.GameCanvas
+[WARNING] [32mVERBOSE[0m Callback method :surfaceChanged in Class com.wigball.android.games.dotsandboxes.canvas.GameCanvas
+[WARNING] [32mVERBOSE[0m Callback method :surfaceCreated in Class com.wigball.android.games.dotsandboxes.canvas.GameCanvas
+[WARNING] [32mVERBOSE[0m Callback method :surfaceDestroyed in Class com.wigball.android.games.dotsandboxes.canvas.GameCanvas
+[WARNING] [32mVERBOSE[0m Callback method :surfaceChanged in Class com.wigball.android.games.dotsandboxes.canvas.StartBackground
+[WARNING] [32mVERBOSE[0m Callback method :surfaceCreated in Class com.wigball.android.games.dotsandboxes.canvas.StartBackground
+[WARNING] [32mVERBOSE[0m Callback method :surfaceDestroyed in Class com.wigball.android.games.dotsandboxes.canvas.StartBackground
+Result for benign-app-84-C11C411C3BE3FB59250DFD525AE49F2B931BFEEED9C85B45D1EFB075331FB581.apkcom.wigball.android.games.dotsandboxes

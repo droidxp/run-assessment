@@ -1,0 +1,696 @@
+DUA-Forensics args to Soot: -w -cp /home/handrick/Documents/UNB/benchmark/libs/droidfax.jar:/home/handrick/Android/Sdk/platforms/android-19/android.jar -p cg verbose:false,implicit-entry:true -p cg.spark verbose:false,on-fly-cg:true,rta:false -d /home/handrick/Documents/UNB/benchmark/trace/180/1/droidbot/malicious-app-92-4AF75669FF2E26EB26A62DDE3F864FD296D0656FE4B6823024EFDF6530A54534.apk.logcat -process-dir /home/handrick/Documents/UNB/benchmark/data/input/malicious-app-92-4AF75669FF2E26EB26A62DDE3F864FD296D0656FE4B6823024EFDF6530A54534.apk 
+Soot started on Fri Apr 15 00:37:59 CEST 2022
+Warning: com.ironsource.mobilcore.BaseFlowBasedAdUnit is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+Warning: cn.appmedia.ad.AdManager is a phantom class!
+Warning: cn.appmedia.ad.AdViewListener is a phantom class!
+Warning: cn.appmedia.ad.BannerAdView is a phantom class!
+Warning: cn.domob.android.ads.DomobAdListener is a phantom class!
+Warning: cn.domob.android.ads.DomobAdManager is a phantom class!
+Warning: cn.domob.android.ads.DomobAdView is a phantom class!
+Warning: com.adchina.android.ads.AdEngine is a phantom class!
+Warning: com.adchina.android.ads.AdListener is a phantom class!
+Warning: com.adchina.android.ads.AdManager is a phantom class!
+Warning: com.adchina.android.ads.views.AdView is a phantom class!
+Warning: com.adchina.android.ads.views.ShrinkFSAdView is a phantom class!
+Warning: com.energysource.szj.embeded.AdListener is a phantom class!
+Warning: com.energysource.szj.embeded.AdView is a phantom class!
+Warning: com.adwo.adsdk.AdListener is a phantom class!
+Warning: com.adwo.adsdk.SplashAdListener is a phantom class!
+Warning: com.adwo.adsdk.FSAdUtil is a phantom class!
+Warning: com.adwo.adsdk.AdwoAdView is a phantom class!
+Warning: com.adwo.adsdk.ErrorCode is a phantom class!
+Warning: com.adwo.adsdk.FSAd is a phantom class!
+Warning: com.mt.airad.AirAD$AirADListener is a phantom class!
+Warning: com.mt.airad.AirAD is a phantom class!
+Warning: com.casee.adsdk.CaseeAdView$AdListener is a phantom class!
+Warning: com.casee.adsdk.CaseeAdView is a phantom class!
+Warning: com.fractalist.android.ads.AdStatusListener is a phantom class!
+Warning: com.fractalist.android.ads.FullScreenAdCloseListener is a phantom class!
+Warning: com.fractalist.android.ads.ADView is a phantom class!
+Warning: com.greystripe.android.sdk.BannerListener is a phantom class!
+Warning: com.greystripe.android.sdk.BannerView is a phantom class!
+Warning: com.greystripe.android.sdk.GSSDK is a phantom class!
+Warning: com.izp.views.IZPDelegate is a phantom class!
+Warning: com.izp.views.IZPView is a phantom class!
+Warning: com.inmobi.androidsdk.InMobiAdDelegate is a phantom class!
+Warning: com.inmobi.androidsdk.impl.InMobiAdView is a phantom class!
+Warning: com.inmobi.androidsdk.EducationType is a phantom class!
+Warning: com.inmobi.androidsdk.EthnicityType is a phantom class!
+Warning: com.inmobi.androidsdk.GenderType is a phantom class!
+Warning: com.lmmob.ad.sdk.LmMobAdRequestListener is a phantom class!
+Warning: com.lmmob.ad.sdk.LmMobAdView is a phantom class!
+Warning: com.mdotm.android.ads.MdotMView$MdotMActionListener is a phantom class!
+Warning: com.mdotm.android.ads.MdotMView is a phantom class!
+Warning: com.millennialmedia.android.MMAdView$MMAdListener is a phantom class!
+Warning: com.millennialmedia.android.MMAdView is a phantom class!
+Warning: com.smaato.SOMA.AdListener is a phantom class!
+Warning: com.smaato.SOMA.SOMABanner is a phantom class!
+Warning: com.smaato.SOMA.AdDownloader is a phantom class!
+Warning: com.smaato.SOMA.ErrorCode is a phantom class!
+Warning: com.smaato.SOMA.SOMAReceivedBanner is a phantom class!
+Warning: com.madhouse.android.ads.AdListener is a phantom class!
+Warning: com.madhouse.android.ads.AdView is a phantom class!
+Warning: com.vpon.adon.android.AdListener is a phantom class!
+Warning: com.vpon.adon.android.AdView is a phantom class!
+Warning: com.winad.android.ads.ADListener is a phantom class!
+Warning: com.winad.android.ads.AdView is a phantom class!
+Warning: com.wiyun.ad.AdView$AdListener is a phantom class!
+Warning: com.wiyun.ad.AdView is a phantom class!
+Warning: com.wooboo.adlib_android.AdListener is a phantom class!
+Warning: com.wooboo.adlib_android.WoobooAdView is a phantom class!
+Warning: net.youmi.android.AdViewListener is a phantom class!
+Warning: net.youmi.android.AdView is a phantom class!
+Warning: com.zestadz.android.ZestADZAdView$ZestADZListener is a phantom class!
+Warning: com.zestadz.android.ZestADZAdView is a phantom class!
+Warning: com.adwo.adsdk.AdwoSplashAdActivity is a phantom class!
+Warning: com.google.android.apps.analytics.GoogleAnalyticsTracker is a phantom class!
+Warning: com.energysource.szj.embeded.AdManager is a phantom class!
+Warning: com.l.adlib_android.AdListenerEx is a phantom class!
+Warning: com.l.adlib_android.AdView is a phantom class!
+Warning: com.l.adlib_android.AdViewFull is a phantom class!
+Warning: com.lmmob.ad.sdk.LmMobEngine is a phantom class!
+Warning: com.madhouse.android.ads.AdManager is a phantom class!
+Warning: com.mdotm.android.ads.MdotMManager is a phantom class!
+Warning: com.smaato.SOMA.AdDownloader$MediaType is a phantom class!
+Warning: com.smaato.SOMA.SOMABanner$AnimationType is a phantom class!
+Warning: com.vpon.adon.android.AdOnPlatform is a phantom class!
+Warning: com.zestadz.android.AdManager is a phantom class!
+Warning: net.youmi.android.AdManager is a phantom class!
+No main class given. Inferred 'com.baidu.AdType' as main class.
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.1 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+hcai's internal transform
+Running static analysis for security-relevant feature characterization
+[GatorHierarchy] [32mVERBOSE[0m [HIER] All classes: 1383
+[GatorHierarchy] [32mVERBOSE[0m [App: 306, Lib : 999, Phantom: 78]
+[GatorHierarchy] [32mVERBOSE[0m [HIER] Activities: 7, lib activities: 2
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App views: 8, Lib views: 26
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App Dialogs: 1, Lib Dialogs: 4
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing starting at 1649975880585
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing finished at 1649975883904
+[Instantiated app classes] [32mVERBOSE[0m total number: 311
+[WARNING] [32mVERBOSE[0m Callback method :onTouch in Class com.asai.android.aframe.view.PasterView added
+[WARNING] [32mVERBOSE[0m Callback method :onLongClick in Class com.asai.android.aframe.view.PasterView added
+[WARNING] [32mVERBOSE[0m Callback method :setX in Class com.asai.android.aframe.view.PasterView added
+[WARNING] [32mVERBOSE[0m Callback method :getY in Class com.asai.android.aframe.view.PasterView added
+[WARNING] [32mVERBOSE[0m Callback method :getX in Class com.asai.android.aframe.view.PasterView added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.asai.android.yourspinbottle.YourSpinBottle added
+[WARNING] [32mVERBOSE[0m Callback method :onSingleTapUp in Class com.asai.android.yourspinbottle.YourSpinBottle added
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class com.asai.android.yourspinbottle.YourSpinBottle added
+[WARNING] [32mVERBOSE[0m Callback method :onPrepareOptionsMenu in Class com.asai.android.yourspinbottle.YourSpinBottle added
+[WARNING] [32mVERBOSE[0m Callback method :onDown in Class com.asai.android.yourspinbottle.YourSpinBottle added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.asai.android.yourspinbottle.YourSpinBottle added
+[WARNING] [32mVERBOSE[0m Callback method :onFling in Class com.asai.android.yourspinbottle.YourSpinBottle added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.asai.android.yourspinbottle.YourSpinBottle added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.asai.android.yourspinbottle.YourSpinBottle added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateOptionsMenu in Class com.asai.android.yourspinbottle.YourSpinBottle added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.asai.android.yourspinbottle.YourSpinBottle added
+[WARNING] [32mVERBOSE[0m Callback method :onScroll in Class com.asai.android.yourspinbottle.YourSpinBottle added
+[WARNING] [32mVERBOSE[0m Callback method :onLongPress in Class com.asai.android.yourspinbottle.YourSpinBottle added
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class com.asai.android.yourspinbottle.YourSpinBottle added
+[WARNING] [32mVERBOSE[0m Callback method :onShowPress in Class com.asai.android.yourspinbottle.YourSpinBottle added
+[WARNING] [32mVERBOSE[0m Callback method :onOptionsItemSelected in Class com.asai.android.yourspinbottle.YourSpinBottle added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.asai.android.yourspinbottle.YourSpinBottle added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.asai.android.yourspinbottle.YourSpinBottle added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.feedback.ui.FeedbackConversation added
+[WARNING] [32mVERBOSE[0m Callback method :onListItemClick in Class com.feedback.ui.FeedbackConversation added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.feedback.ui.FeedbackConversation added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.feedback.ui.FeedbackConversation added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class com.feedback.ui.FeedbackConversation added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.asai.android.yourspinbottle.ImageChangeActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.asai.android.yourspinbottle.ImageChangeActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onSizeChanged in Class com.feedback.ui.ThreadView added
+[WARNING] [32mVERBOSE[0m Callback method :onTouch in Class com.asai.android.aframe.view.StampView added
+[WARNING] [32mVERBOSE[0m Callback method :onLongClick in Class com.asai.android.aframe.view.StampView added
+[WARNING] [32mVERBOSE[0m Callback method :setX in Class com.asai.android.aframe.view.StampView added
+[WARNING] [32mVERBOSE[0m Callback method :getY in Class com.asai.android.aframe.view.StampView added
+[WARNING] [32mVERBOSE[0m Callback method :getX in Class com.asai.android.aframe.view.StampView added
+[WARNING] [32mVERBOSE[0m Callback method :setY in Class com.asai.android.aframe.view.StampView added
+[WARNING] [32mVERBOSE[0m Callback method :onBind in Class com.admogo.UpdateService added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class com.admogo.UpdateService added
+[WARNING] [32mVERBOSE[0m Callback method :onReceive in Class com.google.ads.InstallReceiver added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.asai.android.yourspinbottle.GridActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onItemClick in Class com.asai.android.yourspinbottle.GridActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.asai.android.yourspinbottle.GridActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onListItemClick in Class com.feedback.ui.FeedbackConversations added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.feedback.ui.FeedbackConversations added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateContextMenu in Class com.feedback.ui.FeedbackConversations added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.feedback.ui.FeedbackConversations added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class com.feedback.ui.FeedbackConversations added
+[WARNING] [32mVERBOSE[0m Callback method :onRestart in Class com.feedback.ui.FeedbackConversations added
+[WARNING] [32mVERBOSE[0m Callback method :onContextItemSelected in Class com.feedback.ui.FeedbackConversations added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.feedback.ui.SendFeedback added
+[WARNING] [32mVERBOSE[0m Callback method :onWindowFocusChanged in Class com.google.ads.AdActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPrepared in Class com.google.ads.AdActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.google.ads.AdActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.google.ads.AdActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.google.ads.AdActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCompletion in Class com.google.ads.AdActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onError in Class com.google.ads.AdActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onFling in Class com.asai.android.yourspinbottle.view.MyGallery added
+[WARNING] [32mVERBOSE[0m Callback method :onScroll in Class com.asai.android.yourspinbottle.view.MyGallery added
+[WARNING] [32mVERBOSE[0m Callback method :onMeasure in Class com.admogo.AdMogoLayout added
+[WARNING] [32mVERBOSE[0m Callback method :onInterceptTouchEvent in Class com.admogo.AdMogoLayout added
+[WARNING] [32mVERBOSE[0m Callback method :onWindowVisibilityChanged in Class com.admogo.AdMogoLayout added
+2 ICC links found and 1 cg edges added due to ICC links
+dynamic conflated call graph: 368 methods; 368 nodes; 631 edges.
+maxpossibleFlows=3
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+3 taint flow paths FOUND from <android.location.LocationManager: android.location.Location getLastKnownLocation(java.lang.String)> to <android.util.Log: int i(java.lang.String,java.lang.String)>
+maxpossibleFlows=1
+maxpossibleFlows=3
+maxpossibleFlows=3
+3 taint flow paths FOUND from <android.content.ContextWrapper: android.content.res.AssetManager getAssets()> to <android.util.Log: int e(java.lang.String,java.lang.String)>
+maxpossibleFlows=3
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=4
+4 taint flow paths FOUND from <android.content.ContextWrapper: android.content.SharedPreferences getSharedPreferences(java.lang.String,int)> to <android.util.Log: int w(java.lang.String,java.lang.String)>
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=6
+3 taint flow paths FOUND from <java.util.Date: long getTime()> to <android.util.Log: int i(java.lang.String,java.lang.String)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=3
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=3
+1 taint flow paths FOUND from <android.content.ContextWrapper: android.content.ContentResolver getContentResolver()> to <org.json.JSONObject: org.json.JSONObject put(java.lang.String,double)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=3
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=1
+maxpossibleFlows=2
+2 taint flow paths FOUND from <org.json.JSONArray: org.json.JSONArray put(java.lang.Object)> to <android.util.Log: int i(java.lang.String,java.lang.String)>
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=2
+2 taint flow paths FOUND from <org.json.JSONObject: java.lang.String getString(java.lang.String)> to <android.util.Log: int i(java.lang.String,java.lang.String)>
+maxpossibleFlows=3
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=3
+maxpossibleFlows=1
+maxpossibleFlows=3
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=2
+1 taint flow paths FOUND from <android.app.Activity: android.content.Intent getIntent()> to <android.view.View: void startAnimation(android.view.animation.Animation)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <java.lang.String: byte[] getBytes()> to <java.io.OutputStream: void write(byte[])>
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=3
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=3
+1 taint flow paths FOUND from <android.telephony.TelephonyManager: java.lang.String getNetworkOperatorName()> to <org.json.JSONObject: org.json.JSONObject put(java.lang.String,double)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+3 taint flow paths FOUND from <android.view.View: android.content.res.Resources getResources()> to <android.view.View: void setVerticalScrollBarEnabled(boolean)>
+maxpossibleFlows=3
+maxpossibleFlows=3
+1 taint flow paths FOUND from <android.view.Display: int getWidth()> to <android.util.Log: int d(java.lang.String,java.lang.String)>
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+2 taint flow paths FOUND from <java.lang.String: byte[] getBytes(java.lang.String)> to <java.util.zip.Deflater: void setInput(byte[])>
+maxpossibleFlows=3
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=3
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=4
+4 taint flow paths FOUND from <java.lang.ref.Reference: java.lang.Object get()> to <android.util.Log: int w(java.lang.String,java.lang.String)>
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=1
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=3
+1 taint flow paths FOUND from <java.lang.StringBuilder: java.lang.String toString()> to <org.json.JSONObject: org.json.JSONObject put(java.lang.String,double)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.hardware.SensorManager: android.hardware.Sensor getDefaultSensor(int)> to <android.app.Activity: void setContentView(int)>
+maxpossibleFlows=2
+1 taint flow paths FOUND from <android.view.MotionEvent: float getY()> to <android.util.Log: int d(java.lang.String,java.lang.String)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.content.ContextWrapper: android.content.pm.PackageManager getPackageManager()> to <org.json.JSONObject: org.json.JSONObject put(java.lang.String,int)>
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=3
+3 taint flow paths FOUND from <android.content.res.Resources: android.util.DisplayMetrics getDisplayMetrics()> to <android.view.View: void setVerticalScrollBarEnabled(boolean)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=1
+maxpossibleFlows=3
+maxpossibleFlows=3
+1 taint flow paths FOUND from <java.util.Random: double nextDouble()> to <android.util.Log: int d(java.lang.String,java.lang.String)>
+maxpossibleFlows=6
+3 taint flow paths FOUND from <android.app.Activity: java.lang.Object getSystemService(java.lang.String)> to <org.json.JSONObject: org.json.JSONObject put(java.lang.String,int)>
+maxpossibleFlows=1
+maxpossibleFlows=2
+1 taint flow paths FOUND from <android.view.MotionEvent: float getX()> to <android.util.Log: int d(java.lang.String,java.lang.String)>
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.content.ContextWrapper: java.lang.String getPackageName()> to <org.json.JSONObject: org.json.JSONObject put(java.lang.String,int)>
+maxpossibleFlows=3
+maxpossibleFlows=3
+1 taint flow paths FOUND from <android.view.Display: int getHeight()> to <android.util.Log: int d(java.lang.String,java.lang.String)>
+maxpossibleFlows=2
+1 taint flow paths FOUND from <android.app.Activity: android.content.Intent getIntent()> to <android.view.View: void startAnimation(android.view.animation.Animation)>
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.content.ContextWrapper: android.content.pm.PackageManager getPackageManager()> to <org.json.JSONObject: org.json.JSONObject put(java.lang.String,int)>
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <java.lang.String: byte[] getBytes()> to <java.io.OutputStream: void write(byte[])>
+maxpossibleFlows=3
+maxpossibleFlows=3
+3 taint flow paths FOUND from <android.view.View: android.content.res.Resources getResources()> to <android.view.View: void setVerticalScrollBarEnabled(boolean)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=3
+maxpossibleFlows=3
+3 taint flow paths FOUND from <android.view.View: android.content.res.Resources getResources()> to <android.view.View: void setHorizontalScrollBarEnabled(boolean)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+2 taint flow paths FOUND from <java.lang.String: byte[] getBytes(java.lang.String)> to <java.util.zip.Deflater: void setInput(byte[])>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.hardware.SensorManager: android.hardware.Sensor getDefaultSensor(int)> to <android.app.Activity: void setContentView(int)>
+maxpossibleFlows=2
+1 taint flow paths FOUND from <android.app.Activity: android.content.Intent getIntent()> to <android.widget.AbsSpinner: void setSelection(int)>
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=3
+1 taint flow paths FOUND from <android.content.ContextWrapper: android.content.ContentResolver getContentResolver()> to <org.json.JSONObject: org.json.JSONObject put(java.lang.String,double)>
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=1
+maxpossibleFlows=4
+4 taint flow paths FOUND from <android.content.ContextWrapper: android.content.SharedPreferences getSharedPreferences(java.lang.String,int)> to <android.util.Log: int w(java.lang.String,java.lang.String)>
+maxpossibleFlows=3
+3 taint flow paths FOUND from <android.location.LocationManager: android.location.Location getLastKnownLocation(java.lang.String)> to <android.util.Log: int i(java.lang.String,java.lang.String)>
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+1 taint flow paths FOUND from <android.view.Display: int getWidth()> to <android.util.Log: int d(java.lang.String,java.lang.String)>
+maxpossibleFlows=3
+3 taint flow paths FOUND from <android.content.ContextWrapper: android.content.res.AssetManager getAssets()> to <android.util.Log: int e(java.lang.String,java.lang.String)>
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.google.ads.AdActivity
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.google.ads.AdActivity
+[WARNING] [32mVERBOSE[0m Callback method :onCompletion in Class com.google.ads.AdActivity
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.google.ads.AdActivity
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.google.ads.AdActivity
+[WARNING] [32mVERBOSE[0m Callback method :onError in Class com.google.ads.AdActivity
+[WARNING] [32mVERBOSE[0m Callback method :onPrepared in Class com.google.ads.AdActivity
+[WARNING] [32mVERBOSE[0m Callback method :onWindowFocusChanged in Class com.google.ads.AdActivity
+[WARNING] [32mVERBOSE[0m Callback method :getX in Class com.asai.android.aframe.view.PasterView
+[WARNING] [32mVERBOSE[0m Callback method :getY in Class com.asai.android.aframe.view.PasterView
+[WARNING] [32mVERBOSE[0m Callback method :onLongClick in Class com.asai.android.aframe.view.PasterView
+[WARNING] [32mVERBOSE[0m Callback method :onTouch in Class com.asai.android.aframe.view.PasterView
+[WARNING] [32mVERBOSE[0m Callback method :setX in Class com.asai.android.aframe.view.PasterView
+[WARNING] [32mVERBOSE[0m Callback method :getX in Class com.asai.android.aframe.view.StampView
+[WARNING] [32mVERBOSE[0m Callback method :getY in Class com.asai.android.aframe.view.StampView
+[WARNING] [32mVERBOSE[0m Callback method :onLongClick in Class com.asai.android.aframe.view.StampView
+[WARNING] [32mVERBOSE[0m Callback method :onTouch in Class com.asai.android.aframe.view.StampView
+[WARNING] [32mVERBOSE[0m Callback method :setX in Class com.asai.android.aframe.view.StampView
+[WARNING] [32mVERBOSE[0m Callback method :setY in Class com.asai.android.aframe.view.StampView
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.asai.android.yourspinbottle.GridActivity
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.asai.android.yourspinbottle.GridActivity
+[WARNING] [32mVERBOSE[0m Callback method :onItemClick in Class com.asai.android.yourspinbottle.GridActivity
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.asai.android.yourspinbottle.GridActivity
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.asai.android.yourspinbottle.ImageChangeActivity
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.asai.android.yourspinbottle.ImageChangeActivity
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.asai.android.yourspinbottle.ImageChangeActivity
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.asai.android.yourspinbottle.YourSpinBottle
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class com.asai.android.yourspinbottle.YourSpinBottle
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.asai.android.yourspinbottle.YourSpinBottle
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.asai.android.yourspinbottle.YourSpinBottle
+[WARNING] [32mVERBOSE[0m Callback method :onCreateOptionsMenu in Class com.asai.android.yourspinbottle.YourSpinBottle
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.asai.android.yourspinbottle.YourSpinBottle
+[WARNING] [32mVERBOSE[0m Callback method :onDown in Class com.asai.android.yourspinbottle.YourSpinBottle
+[WARNING] [32mVERBOSE[0m Callback method :onFling in Class com.asai.android.yourspinbottle.YourSpinBottle
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.asai.android.yourspinbottle.YourSpinBottle
+[WARNING] [32mVERBOSE[0m Callback method :onLongPress in Class com.asai.android.yourspinbottle.YourSpinBottle
+[WARNING] [32mVERBOSE[0m Callback method :onOptionsItemSelected in Class com.asai.android.yourspinbottle.YourSpinBottle
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.asai.android.yourspinbottle.YourSpinBottle
+[WARNING] [32mVERBOSE[0m Callback method :onPrepareOptionsMenu in Class com.asai.android.yourspinbottle.YourSpinBottle
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.asai.android.yourspinbottle.YourSpinBottle
+[WARNING] [32mVERBOSE[0m Callback method :onScroll in Class com.asai.android.yourspinbottle.YourSpinBottle
+[WARNING] [32mVERBOSE[0m Callback method :onShowPress in Class com.asai.android.yourspinbottle.YourSpinBottle
+[WARNING] [32mVERBOSE[0m Callback method :onSingleTapUp in Class com.asai.android.yourspinbottle.YourSpinBottle
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.asai.android.yourspinbottle.YourSpinBottle
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class com.asai.android.yourspinbottle.YourSpinBottle
+Result for malicious-app-92-4AF75669FF2E26EB26A62DDE3F864FD296D0656FE4B6823024EFDF6530A54534.apkcom.asai.android.yourspinbottle

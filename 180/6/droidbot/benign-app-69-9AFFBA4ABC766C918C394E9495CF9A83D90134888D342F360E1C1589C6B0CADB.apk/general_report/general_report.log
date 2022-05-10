@@ -1,0 +1,22 @@
+DUA-Forensics args to Soot: -w -cp /home/hcosta/bench/benchmark/libs/droidfax.jar:/home/hcosta/Android/Sdk/platforms/android-28/android.jar -p cg verbose:false,implicit-entry:true -p cg.spark verbose:false,on-fly-cg:true,rta:false -d /home/hcosta/bench/benchmark/trace/180/2/droidbot/benign-app-69-9AFFBA4ABC766C918C394E9495CF9A83D90134888D342F360E1C1589C6B0CADB.apk.logcat -process-dir /home/hcosta/bench/benchmark/data/input/benign-app-69-9AFFBA4ABC766C918C394E9495CF9A83D90134888D342F360E1C1589C6B0CADB.apk 
+Soot started on Wed Apr 20 17:10:42 CEST 2022
+Warning: com.ironsource.mobilcore.BaseFlowBasedAdUnit is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+get type from 'I'
+get type from 'I'
+get type from 'Z'
+get type from 'Z'
+No main class given. Inferred 'org.joda.time.tz.ZoneInfoCompiler' as main class.
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.1 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 1.3 seconds.
+[Spark] Solution found in 1.3 seconds.
+hcai's internal transform
+Running static analysis for method/class coverage characterization
+1 ICC links found and 1 cg edges added due to ICC links
+dynamic conflated call graph: 904 methods; 904 nodes; 1315 edges.
+feature-vector-key = benign-app-69-9AFFBA4ABC766C918C394E9495CF9A83D90134888D342F360E1C1589C6B0CADB.apk
+Result for benign-app-69-9AFFBA4ABC766C918C394E9495CF9A83D90134888D342F360E1C1589C6B0CADB.apkcom.mhuang.overclocking

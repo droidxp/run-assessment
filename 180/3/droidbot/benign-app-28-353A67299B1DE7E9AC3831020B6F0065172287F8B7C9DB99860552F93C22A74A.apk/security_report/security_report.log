@@ -1,0 +1,377 @@
+DUA-Forensics args to Soot: -w -cp /home/handrick/Documents/UNB/benchmark/libs/droidfax.jar:/home/handrick/Android/Sdk/platforms/android-19/android.jar -p cg verbose:false,implicit-entry:true -p cg.spark verbose:false,on-fly-cg:true,rta:false -d /home/handrick/Documents/UNB/benchmark/trace/180/3/droidbot/benign-app-28-353A67299B1DE7E9AC3831020B6F0065172287F8B7C9DB99860552F93C22A74A.apk.logcat -process-dir /home/handrick/Documents/UNB/benchmark/data/input/benign-app-28-353A67299B1DE7E9AC3831020B6F0065172287F8B7C9DB99860552F93C22A74A.apk 
+Soot started on Sat Apr 16 01:08:44 CEST 2022
+Warning: com.ironsource.mobilcore.BaseFlowBasedAdUnit is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+get type from 'Z'
+Warning: com.nuance.nmdp.speechkit.GenericCommand$Listener is a phantom class!
+Warning: com.nuance.nmdp.speechkit.DataUploadCommand$Listener is a phantom class!
+Warning: com.nuance.nmdp.speechkit.DataUploadCommand is a phantom class!
+Warning: com.nuance.nmdp.speechkit.SpeechKit is a phantom class!
+Warning: com.nuance.nmdp.speechkit.Recognizer is a phantom class!
+Warning: com.nuance.nmdp.speechkit.Vocalizer is a phantom class!
+Warning: com.nuance.nmdp.speechkit.Recognizer$Listener is a phantom class!
+Warning: com.nuance.nmdp.speechkit.Vocalizer$Listener is a phantom class!
+Warning: com.nuance.nmdp.speechkit.SpeechError is a phantom class!
+Warning: com.nuance.nmdp.speechkit.GenericCommand is a phantom class!
+Warning: com.nuance.nmdp.speechkit.GenericResult is a phantom class!
+Warning: com.nuance.nmdp.speechkit.DataUploadResult is a phantom class!
+Warning: com.nuance.nmdp.speechkit.Recognition is a phantom class!
+get type from 'Z'
+get type from 'Z'
+Warning: com.nuance.nmdp.speechkit.SpeechKit$CmdSetType is a phantom class!
+Warning: com.nuance.nmdp.speechkit.recognitionresult.DetailedResult is a phantom class!
+Warning: com.nuance.nmdp.speechkit.util.dataupload.Action$ActionType is a phantom class!
+Warning: com.nuance.nmdp.speechkit.util.dataupload.Action is a phantom class!
+Warning: com.nuance.nmdp.speechkit.util.dataupload.Data$DataType is a phantom class!
+Warning: com.nuance.nmdp.speechkit.util.dataupload.Data is a phantom class!
+Warning: com.nuance.nmdp.speechkit.util.dataupload.DataBlock is a phantom class!
+Warning: com.nuance.nmdp.speechkit.util.pdx.PdxValue$Dictionary is a phantom class!
+Warning: com.nuance.nmdp.speechkit.util.pdx.PdxValue is a phantom class!
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.0 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+hcai's internal transform
+Running static analysis for security-relevant feature characterization
+[GatorHierarchy] [32mVERBOSE[0m [HIER] All classes: 2694
+[GatorHierarchy] [32mVERBOSE[0m [App: 1489, Lib : 1180, Phantom: 25]
+[GatorHierarchy] [32mVERBOSE[0m [HIER] Activities: 11, lib activities: 1
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App views: 35, Lib views: 24
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App Dialogs: 0, Lib Dialogs: 3
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing starting at 1650064127426
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing finished at 1650064141698
+[Instantiated app classes] [32mVERBOSE[0m total number: 1093
+[WARNING] [32mVERBOSE[0m Callback method :onLowMemory in Class android.support.v4.app.Fragment added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateContextMenu in Class android.support.v4.app.Fragment added
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class android.support.v4.app.Fragment added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.mopub.mobileads.MraidActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.mopub.mobileads.MraidActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.mopub.mobileads.MraidActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.mopub.mobileads.MraidActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onBackPressed in Class com.mopub.mobileads.MraidVideoPlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.mopub.mobileads.MraidVideoPlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.mopub.mobileads.MraidVideoPlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.mopub.mobileads.MraidVideoPlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class com.mopub.mobileads.MraidVideoPlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.mopub.mobileads.MraidVideoPlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onRestoreInstanceState in Class android.support.v4.app.FragmentTabHost added
+[WARNING] [32mVERBOSE[0m Callback method :onTabChanged in Class android.support.v4.app.FragmentTabHost added
+[WARNING] [32mVERBOSE[0m Callback method :setOnTabChangedListener in Class android.support.v4.app.FragmentTabHost added
+[WARNING] [32mVERBOSE[0m Callback method :onSaveInstanceState in Class android.support.v4.app.FragmentTabHost added
+[WARNING] [32mVERBOSE[0m Callback method :onDetachedFromWindow in Class android.support.v4.app.FragmentTabHost added
+[WARNING] [32mVERBOSE[0m Callback method :onAttachedToWindow in Class android.support.v4.app.FragmentTabHost added
+[WARNING] [32mVERBOSE[0m Callback method :setup in Class android.support.v4.app.FragmentTabHost added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPanelClosed in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onMenuItemSelected in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onBackPressed in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onRetainNonConfigurationInstance in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onNewIntent in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreatePanelMenu in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :dump in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateView in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPreparePanel in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onSaveInstanceState in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :startActivityForResult in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPostResume in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onLowMemory in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :getItem in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getView in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getDropDownView in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getFilter in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getCount in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getItemId in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :hasStableIds in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :onLowMemory in Class android.support.v4.app.Fragment added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateContextMenu in Class android.support.v4.app.Fragment added
+[WARNING] [32mVERBOSE[0m Callback method :onCancel in Class android.support.v4.app.DialogFragment added
+[WARNING] [32mVERBOSE[0m Callback method :onDismiss in Class android.support.v4.app.DialogFragment added
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class android.support.v4.app.Fragment added
+[WARNING] [32mVERBOSE[0m Callback method :getItem in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getView in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getDropDownView in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getFilter in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getCount in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getItemId in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :hasStableIds in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :onDetachedFromWindow in Class android.support.v4.widget.ContentLoadingProgressBar added
+[WARNING] [32mVERBOSE[0m Callback method :onAttachedToWindow in Class android.support.v4.widget.ContentLoadingProgressBar added
+[WARNING] [32mVERBOSE[0m Callback method :generateLayoutParams in Class android.support.v4.widget.DrawerLayout added
+[WARNING] [32mVERBOSE[0m Callback method :drawChild in Class android.support.v4.widget.DrawerLayout added
+[WARNING] [32mVERBOSE[0m Callback method :onRestoreInstanceState in Class android.support.v4.widget.DrawerLayout added
+[WARNING] [32mVERBOSE[0m Callback method :generateDefaultLayoutParams in Class android.support.v4.widget.DrawerLayout added
+[WARNING] [32mVERBOSE[0m Callback method :onMeasure in Class android.support.v4.widget.DrawerLayout added
+[WARNING] [32mVERBOSE[0m Callback method :onSaveInstanceState in Class android.support.v4.widget.DrawerLayout added
+[WARNING] [32mVERBOSE[0m Callback method :requestLayout in Class android.support.v4.widget.DrawerLayout added
+[WARNING] [32mVERBOSE[0m Callback method :onLayout in Class android.support.v4.widget.DrawerLayout added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class android.support.v4.widget.DrawerLayout added
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class android.support.v4.widget.DrawerLayout added
+[WARNING] [32mVERBOSE[0m Callback method :onDetachedFromWindow in Class android.support.v4.widget.DrawerLayout added
+[WARNING] [32mVERBOSE[0m Callback method :computeScroll in Class android.support.v4.widget.DrawerLayout added
+[WARNING] [32mVERBOSE[0m Callback method :onAttachedToWindow in Class android.support.v4.widget.DrawerLayout added
+[WARNING] [32mVERBOSE[0m Callback method :onInterceptTouchEvent in Class android.support.v4.widget.DrawerLayout added
+[WARNING] [32mVERBOSE[0m Callback method :requestDisallowInterceptTouchEvent in Class android.support.v4.widget.DrawerLayout added
+[WARNING] [32mVERBOSE[0m Callback method :generateLayoutParams in Class android.support.v4.widget.DrawerLayout added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyUp in Class android.support.v4.widget.DrawerLayout added
+[WARNING] [32mVERBOSE[0m Callback method :checkLayoutParams in Class android.support.v4.widget.DrawerLayout added
+[WARNING] [32mVERBOSE[0m Callback method :onMeasure in Class android.support.v4.view.PagerTitleStrip added
+[WARNING] [32mVERBOSE[0m Callback method :requestLayout in Class android.support.v4.view.PagerTitleStrip added
+[WARNING] [32mVERBOSE[0m Callback method :onLayout in Class android.support.v4.view.PagerTitleStrip added
+[WARNING] [32mVERBOSE[0m Callback method :setBackgroundColor in Class android.support.v4.view.PagerTabStrip added
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class android.support.v4.view.PagerTabStrip added
+[WARNING] [32mVERBOSE[0m Callback method :onDetachedFromWindow in Class android.support.v4.view.PagerTitleStrip added
+[WARNING] [32mVERBOSE[0m Callback method :onAttachedToWindow in Class android.support.v4.view.PagerTitleStrip added
+[WARNING] [32mVERBOSE[0m Callback method :setBackgroundResource in Class android.support.v4.view.PagerTabStrip added
+[WARNING] [32mVERBOSE[0m Callback method :setPadding in Class android.support.v4.view.PagerTabStrip added
+[WARNING] [32mVERBOSE[0m Callback method :onDraw in Class android.support.v4.view.PagerTabStrip added
+[WARNING] [32mVERBOSE[0m Callback method :setBackgroundDrawable in Class android.support.v4.view.PagerTabStrip added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.mopub.mobileads.MoPubActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.mopub.mobileads.MoPubActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onLowMemory in Class android.support.v4.app.Fragment added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateContextMenu in Class android.support.v4.app.Fragment added
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class android.support.v4.app.Fragment added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.millennialmedia.android.MMActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onWindowFocusChanged in Class com.millennialmedia.android.MMActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class com.millennialmedia.android.MMActivity added
+[WARNING] [32mVERBOSE[0m Callback method :finish in Class com.millennialmedia.android.MMActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onRestoreInstanceState in Class com.millennialmedia.android.MMActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onRetainNonConfigurationInstance in Class com.millennialmedia.android.MMActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.millennialmedia.android.MMActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.millennialmedia.android.MMActivity added
+[WARNING] [32mVERBOSE[0m Callback method :dispatchTouchEvent in Class com.millennialmedia.android.MMActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.millennialmedia.android.MMActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.millennialmedia.android.MMActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class com.millennialmedia.android.MMActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onRestart in Class com.millennialmedia.android.MMActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onSaveInstanceState in Class com.millennialmedia.android.MMActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class com.millennialmedia.android.MMActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.millennialmedia.android.MMActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onReceive in Class com.millennialmedia.android.MMBroadcastReceiver added
+[WARNING] [32mVERBOSE[0m Callback method :draw in Class com.mopub.mobileads.resource.CircleDrawable added
+[WARNING] [32mVERBOSE[0m Callback method :setColorFilter in Class com.mopub.mobileads.resource.CircleDrawable added
+[WARNING] [32mVERBOSE[0m Callback method :getOpacity in Class com.mopub.mobileads.resource.CircleDrawable added
+[WARNING] [32mVERBOSE[0m Callback method :setAlpha in Class com.mopub.mobileads.resource.CircleDrawable added
+[WARNING] [32mVERBOSE[0m Callback method :generateLayoutParams in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :draw in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :onRestoreInstanceState in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :onRequestFocusInDescendants in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :generateDefaultLayoutParams in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :onMeasure in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :addView in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :canScrollHorizontally in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :onSaveInstanceState in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :onLayout in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :addTouchables in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :onDetachedFromWindow in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :computeScroll in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :onAttachedToWindow in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :onInterceptTouchEvent in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :verifyDrawable in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :dispatchPopulateAccessibilityEvent in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :onSizeChanged in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :dispatchKeyEvent in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :addFocusables in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :removeView in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :onDraw in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :generateLayoutParams in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :drawableStateChanged in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :getChildDrawingOrder in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :checkLayoutParams in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :draw in Class com.millennialmedia.android.AdViewOverlayView$CloseDrawable added
+[WARNING] [32mVERBOSE[0m Callback method :setColorFilter in Class com.millennialmedia.android.AdViewOverlayView$CloseDrawable added
+[WARNING] [32mVERBOSE[0m Callback method :getOpacity in Class com.millennialmedia.android.AdViewOverlayView$CloseDrawable added
+[WARNING] [32mVERBOSE[0m Callback method :setAlpha in Class com.millennialmedia.android.AdViewOverlayView$CloseDrawable added
+[WARNING] [32mVERBOSE[0m Callback method :draw in Class android.support.v4.widget.SwipeRefreshLayout added
+[WARNING] [32mVERBOSE[0m Callback method :onMeasure in Class android.support.v4.widget.SwipeRefreshLayout added
+[WARNING] [32mVERBOSE[0m Callback method :onLayout in Class android.support.v4.widget.SwipeRefreshLayout added
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class android.support.v4.widget.SwipeRefreshLayout added
+[WARNING] [32mVERBOSE[0m Callback method :onDetachedFromWindow in Class android.support.v4.widget.SwipeRefreshLayout added
+[WARNING] [32mVERBOSE[0m Callback method :onAttachedToWindow in Class android.support.v4.widget.SwipeRefreshLayout added
+[WARNING] [32mVERBOSE[0m Callback method :onInterceptTouchEvent in Class android.support.v4.widget.SwipeRefreshLayout added
+[WARNING] [32mVERBOSE[0m Callback method :requestDisallowInterceptTouchEvent in Class android.support.v4.widget.SwipeRefreshLayout added
+[WARNING] [32mVERBOSE[0m Callback method :setActionView in Class android.support.v4.internal.view.SupportMenuItem is not concrete
+[WARNING] [32mVERBOSE[0m Callback method :setShowAsAction in Class android.support.v4.internal.view.SupportMenuItem is not concrete
+[WARNING] [32mVERBOSE[0m Callback method :getActionView in Class android.support.v4.internal.view.SupportMenuItem is not concrete
+[WARNING] [32mVERBOSE[0m Callback method :setShowAsActionFlags in Class android.support.v4.internal.view.SupportMenuItem is not concrete
+[WARNING] [32mVERBOSE[0m Callback method :setActionView in Class android.support.v4.internal.view.SupportMenuItem is not concrete
+[WARNING] [32mVERBOSE[0m Callback method :isActionViewExpanded in Class android.support.v4.internal.view.SupportMenuItem is not concrete
+[WARNING] [32mVERBOSE[0m Callback method :collapseActionView in Class android.support.v4.internal.view.SupportMenuItem is not concrete
+[WARNING] [32mVERBOSE[0m Callback method :expandActionView in Class android.support.v4.internal.view.SupportMenuItem is not concrete
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class toftwood.games.adverts.AdvertsActivity added
+[WARNING] [32mVERBOSE[0m Callback method :handleMessage in Class com.millennialmedia.android.CachedVideoPlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCompletion in Class com.millennialmedia.android.CachedVideoPlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onError in Class com.millennialmedia.android.CachedVideoPlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPrepared in Class com.millennialmedia.android.VideoPlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCompletion in Class com.millennialmedia.android.BridgeMMSpeechkit added
+[WARNING] [32mVERBOSE[0m Callback method :onAnimationEnd in Class android.support.v4.widget.SwipeRefreshLayout$BaseAnimationListener added
+[WARNING] [32mVERBOSE[0m Callback method :onAnimationStart in Class android.support.v4.widget.SwipeRefreshLayout$BaseAnimationListener added
+[WARNING] [32mVERBOSE[0m Callback method :onAnimationRepeat in Class android.support.v4.widget.SwipeRefreshLayout$BaseAnimationListener added
+[WARNING] [32mVERBOSE[0m Callback method :onTouch in Class android.support.v4.widget.AutoScrollHelper added
+[WARNING] [32mVERBOSE[0m Callback method :getType in Class android.support.v4.content.FileProvider added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class android.support.v4.content.FileProvider added
+[WARNING] [32mVERBOSE[0m Callback method :query in Class android.support.v4.content.FileProvider added
+[WARNING] [32mVERBOSE[0m Callback method :update in Class android.support.v4.content.FileProvider added
+[WARNING] [32mVERBOSE[0m Callback method :openFile in Class android.support.v4.content.FileProvider added
+[WARNING] [32mVERBOSE[0m Callback method :insert in Class android.support.v4.content.FileProvider added
+[WARNING] [32mVERBOSE[0m Callback method :delete in Class android.support.v4.content.FileProvider added
+[WARNING] [32mVERBOSE[0m Callback method :attachInfo in Class android.support.v4.content.FileProvider added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.mopub.mobileads.BaseInterstitialActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.mopub.mobileads.BaseInterstitialActivity added
+[WARNING] [32mVERBOSE[0m Callback method :generateLayoutParams in Class android.support.v4.widget.SlidingPaneLayout added
+[WARNING] [32mVERBOSE[0m Callback method :drawChild in Class android.support.v4.widget.SlidingPaneLayout added
+[WARNING] [32mVERBOSE[0m Callback method :draw in Class android.support.v4.widget.SlidingPaneLayout added
+[WARNING] [32mVERBOSE[0m Callback method :onRestoreInstanceState in Class android.support.v4.widget.SlidingPaneLayout added
+[WARNING] [32mVERBOSE[0m Callback method :generateDefaultLayoutParams in Class android.support.v4.widget.SlidingPaneLayout added
+[WARNING] [32mVERBOSE[0m Callback method :onMeasure in Class android.support.v4.widget.SlidingPaneLayout added
+[WARNING] [32mVERBOSE[0m Callback method :requestChildFocus in Class android.support.v4.widget.SlidingPaneLayout added
+[WARNING] [32mVERBOSE[0m Callback method :onSaveInstanceState in Class android.support.v4.widget.SlidingPaneLayout added
+[WARNING] [32mVERBOSE[0m Callback method :onLayout in Class android.support.v4.widget.SlidingPaneLayout added
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class android.support.v4.widget.SlidingPaneLayout added
+[WARNING] [32mVERBOSE[0m Callback method :onDetachedFromWindow in Class android.support.v4.widget.SlidingPaneLayout added
+[WARNING] [32mVERBOSE[0m Callback method :computeScroll in Class android.support.v4.widget.SlidingPaneLayout added
+[WARNING] [32mVERBOSE[0m Callback method :onAttachedToWindow in Class android.support.v4.widget.SlidingPaneLayout added
+[WARNING] [32mVERBOSE[0m Callback method :onInterceptTouchEvent in Class android.support.v4.widget.SlidingPaneLayout added
+[WARNING] [32mVERBOSE[0m Callback method :onSizeChanged in Class android.support.v4.widget.SlidingPaneLayout added
+[WARNING] [32mVERBOSE[0m Callback method :generateLayoutParams in Class android.support.v4.widget.SlidingPaneLayout added
+[WARNING] [32mVERBOSE[0m Callback method :checkLayoutParams in Class android.support.v4.widget.SlidingPaneLayout added
+[WARNING] [32mVERBOSE[0m Callback method :onMeasure in Class com.google.ads.AdView added
+[WARNING] [32mVERBOSE[0m Callback method :onWindowVisibilityChanged in Class com.google.ads.AdView added
+[WARNING] [32mVERBOSE[0m Callback method :onWindowFocusChanged in Class com.google.ads.AdActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.google.ads.AdActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.google.ads.AdActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.google.ads.AdActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.google.ads.AdActivity added
+[WARNING] [32mVERBOSE[0m Callback method :destroy in Class com.mopub.mobileads.BaseWebView added
+[WARNING] [32mVERBOSE[0m Callback method :loadUrl in Class com.mopub.mobileads.BaseHtmlWebView added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.mopub.common.MoPubBrowser added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.mopub.common.MoPubBrowser added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.mopub.common.MoPubBrowser added
+[WARNING] [32mVERBOSE[0m Callback method :onTouch in Class android.support.v4.widget.AutoScrollHelper added
+[WARNING] [32mVERBOSE[0m Callback method :getItem in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getView in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getDropDownView in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getFilter in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getCount in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getItemId in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :hasStableIds in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.millennialmedia.android.BridgeMMNotification added
+[WARNING] [32mVERBOSE[0m Callback method :onPageStarted in Class com.millennialmedia.android.MMWebViewClient added
+[WARNING] [32mVERBOSE[0m Callback method :onPageFinished in Class com.millennialmedia.android.MMWebViewClient added
+[WARNING] [32mVERBOSE[0m Callback method :shouldOverrideUrlLoading in Class com.millennialmedia.android.MMWebViewClient added
+[WARNING] [32mVERBOSE[0m Callback method :onReceivedError in Class com.millennialmedia.android.MMWebViewClient added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class toftwood.games.snakesandladders.SnakesAndLaddersActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onSingleTapUp in Class toftwood.games.snakesandladders.SnakesAndLaddersActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class toftwood.games.snakesandladders.SnakesAndLaddersActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDown in Class toftwood.games.snakesandladders.SnakesAndLaddersActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class toftwood.games.snakesandladders.SnakesAndLaddersActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onFling in Class toftwood.games.snakesandladders.SnakesAndLaddersActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class toftwood.games.snakesandladders.SnakesAndLaddersActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class toftwood.games.adverts.AdvertsActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onScroll in Class toftwood.games.snakesandladders.SnakesAndLaddersActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onLongPress in Class toftwood.games.snakesandladders.SnakesAndLaddersActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onShowPress in Class toftwood.games.snakesandladders.SnakesAndLaddersActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class toftwood.games.snakesandladders.SnakesAndLaddersActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onMeasure in Class com.google.ads.AdView added
+[WARNING] [32mVERBOSE[0m Callback method :onWindowVisibilityChanged in Class com.google.ads.AdView added
+[WARNING] [32mVERBOSE[0m Callback method :onMeasure in Class android.support.v4.view.PagerTitleStrip added
+[WARNING] [32mVERBOSE[0m Callback method :requestLayout in Class android.support.v4.view.PagerTitleStrip added
+[WARNING] [32mVERBOSE[0m Callback method :onLayout in Class android.support.v4.view.PagerTitleStrip added
+[WARNING] [32mVERBOSE[0m Callback method :onDetachedFromWindow in Class android.support.v4.view.PagerTitleStrip added
+[WARNING] [32mVERBOSE[0m Callback method :onAttachedToWindow in Class android.support.v4.view.PagerTitleStrip added
+[WARNING] [32mVERBOSE[0m Callback method :onWindowFocusChanged in Class com.millennialmedia.android.MMLayout added
+[WARNING] [32mVERBOSE[0m Callback method :onRestoreInstanceState in Class com.millennialmedia.android.MMLayout added
+[WARNING] [32mVERBOSE[0m Callback method :onSaveInstanceState in Class com.millennialmedia.android.MMLayout added
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class com.millennialmedia.android.MMLayout added
+[WARNING] [32mVERBOSE[0m Callback method :onDetachedFromWindow in Class com.millennialmedia.android.MMLayout added
+[WARNING] [32mVERBOSE[0m Callback method :onAttachedToWindow in Class com.millennialmedia.android.MMLayout added
+[WARNING] [32mVERBOSE[0m Callback method :destroy in Class com.mopub.mobileads.BaseWebView added
+[WARNING] [32mVERBOSE[0m Callback method :onCompletion in Class com.millennialmedia.android.VideoPlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onError in Class com.millennialmedia.android.VideoPlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPrepared in Class com.millennialmedia.android.VideoPlayerActivity added
+0 ICC links found and 0 cg edges added due to ICC links
+dynamic conflated call graph: 331 methods; 331 nodes; 441 edges.
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=3
+3 taint flow paths FOUND from <android.content.ContextWrapper: android.content.res.Resources getResources()> to <android.content.res.Resources: java.io.InputStream openRawResource(int)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.app.Activity: android.view.Window getWindow()> to <android.app.Activity: void setContentView(android.view.View)>
+maxpossibleFlows=1
+maxpossibleFlows=3
+3 taint flow paths FOUND from <android.content.ContextWrapper: android.content.res.Resources getResources()> to <android.content.res.Resources: java.io.InputStream openRawResource(int)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.app.Activity: android.view.Window getWindow()> to <android.app.Activity: void setContentView(android.view.View)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.app.Activity: android.view.Window getWindow()> to <android.view.Window: void setFlags(int,int)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class android.support.v4.app.Fragment
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class android.support.v4.app.Fragment
+[WARNING] [32mVERBOSE[0m Callback method :onCreateContextMenu in Class android.support.v4.app.Fragment
+[WARNING] [32mVERBOSE[0m Callback method :onLowMemory in Class android.support.v4.app.Fragment
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class android.support.v4.app.DialogFragment
+[WARNING] [32mVERBOSE[0m Callback method :onCancel in Class android.support.v4.app.DialogFragment
+[WARNING] [32mVERBOSE[0m Callback method :onDismiss in Class android.support.v4.app.DialogFragment
+[WARNING] [32mVERBOSE[0m Callback method :onAttachedToWindow in Class android.support.v4.app.FragmentTabHost
+[WARNING] [32mVERBOSE[0m Callback method :onDetachedFromWindow in Class android.support.v4.app.FragmentTabHost
+[WARNING] [32mVERBOSE[0m Callback method :onRestoreInstanceState in Class android.support.v4.app.FragmentTabHost
+[WARNING] [32mVERBOSE[0m Callback method :onSaveInstanceState in Class android.support.v4.app.FragmentTabHost
+[WARNING] [32mVERBOSE[0m Callback method :onTabChanged in Class android.support.v4.app.FragmentTabHost
+[WARNING] [32mVERBOSE[0m Callback method :setOnTabChangedListener in Class android.support.v4.app.FragmentTabHost
+[WARNING] [32mVERBOSE[0m Callback method :setup in Class android.support.v4.app.FragmentTabHost
+[WARNING] [32mVERBOSE[0m Hierarchy.virtualDispatch called with non-concrete receiver class: android.support.v4.widget.AutoScrollHelper, subsig: boolean onTouch(android.view.View,android.view.MotionEvent)
+[WARNING] [32mVERBOSE[0m Callback method :onTouch in Class android.support.v4.widget.AutoScrollHelper
+[WARNING] [32mVERBOSE[0m Callback method :onAnimationEnd in Class android.support.v4.widget.SwipeRefreshLayout$BaseAnimationListener
+[WARNING] [32mVERBOSE[0m Callback method :onAnimationRepeat in Class android.support.v4.widget.SwipeRefreshLayout$BaseAnimationListener
+[WARNING] [32mVERBOSE[0m Callback method :onAnimationStart in Class android.support.v4.widget.SwipeRefreshLayout$BaseAnimationListener
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.google.ads.AdActivity
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.google.ads.AdActivity
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.google.ads.AdActivity
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.google.ads.AdActivity
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.google.ads.AdActivity
+[WARNING] [32mVERBOSE[0m Callback method :onWindowFocusChanged in Class com.google.ads.AdActivity
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.millennialmedia.android.VideoPlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onCompletion in Class com.millennialmedia.android.VideoPlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onError in Class com.millennialmedia.android.VideoPlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onPrepared in Class com.millennialmedia.android.VideoPlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.millennialmedia.android.BridgeMMNotification
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.millennialmedia.android.BridgeMMNotification
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.millennialmedia.android.BridgeMMSpeechkit
+[WARNING] [32mVERBOSE[0m Callback method :onCompletion in Class com.millennialmedia.android.BridgeMMSpeechkit
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class toftwood.games.snakesandladders.SnakesAndLaddersActivity
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class toftwood.games.snakesandladders.SnakesAndLaddersActivity
+[WARNING] [32mVERBOSE[0m Callback method :onDown in Class toftwood.games.snakesandladders.SnakesAndLaddersActivity
+[WARNING] [32mVERBOSE[0m Callback method :onFling in Class toftwood.games.snakesandladders.SnakesAndLaddersActivity
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class toftwood.games.snakesandladders.SnakesAndLaddersActivity
+[WARNING] [32mVERBOSE[0m Callback method :onLongPress in Class toftwood.games.snakesandladders.SnakesAndLaddersActivity
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class toftwood.games.snakesandladders.SnakesAndLaddersActivity
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class toftwood.games.snakesandladders.SnakesAndLaddersActivity
+[WARNING] [32mVERBOSE[0m Callback method :onScroll in Class toftwood.games.snakesandladders.SnakesAndLaddersActivity
+[WARNING] [32mVERBOSE[0m Callback method :onShowPress in Class toftwood.games.snakesandladders.SnakesAndLaddersActivity
+[WARNING] [32mVERBOSE[0m Callback method :onSingleTapUp in Class toftwood.games.snakesandladders.SnakesAndLaddersActivity
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class toftwood.games.snakesandladders.SnakesAndLaddersActivity
+Result for benign-app-28-353A67299B1DE7E9AC3831020B6F0065172287F8B7C9DB99860552F93C22A74A.apktoftwood.games.snakesandladders

@@ -1,0 +1,151 @@
+DUA-Forensics args to Soot: -w -cp /home/handrick/Documents/UNB/benchmark/libs/droidfax.jar:/home/handrick/Android/Sdk/platforms/android-19/android.jar -p cg verbose:false,implicit-entry:true -p cg.spark verbose:false,on-fly-cg:true,rta:false -d /home/handrick/Documents/UNB/benchmark/trace/180/2/droidbot/malicious-app-35-C42B95620CAAAE1C03DFE1F2C756A3583CD0731D8522EE3275E9196DB8027753.apk.logcat -process-dir /home/handrick/Documents/UNB/benchmark/data/input/malicious-app-35-C42B95620CAAAE1C03DFE1F2C756A3583CD0731D8522EE3275E9196DB8027753.apk 
+Soot started on Fri Apr 15 12:40:08 CEST 2022
+Warning: com.ironsource.mobilcore.BaseFlowBasedAdUnit is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.0 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+hcai's internal transform
+Running static analysis for security-relevant feature characterization
+[GatorHierarchy] [32mVERBOSE[0m [HIER] All classes: 899
+[GatorHierarchy] [32mVERBOSE[0m [App: 100, Lib : 796, Phantom: 3]
+[GatorHierarchy] [32mVERBOSE[0m [HIER] Activities: 9, lib activities: 1
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App views: 1, Lib views: 14
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App Dialogs: 0, Lib Dialogs: 3
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing starting at 1650019209427
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing finished at 1650019211498
+[Instantiated app classes] [32mVERBOSE[0m total number: 104
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.magicwach.rdefense.CreditsActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.magicwach.rdefense.CreditsActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.magicwach.rdefense.CreditsActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onBind in Class com.xxx.yyy.MyService added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.xxx.yyy.MyService added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.xxx.yyy.MyService added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class com.xxx.yyy.MyService added
+[WARNING] [32mVERBOSE[0m Callback method :onReceive in Class com.xxx.yyy.MyAlarmReceiver added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateDialog in Class com.magicwach.rdefense.TitleActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.magicwach.rdefense.TitleActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.magicwach.rdefense.TitleActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.magicwach.rdefense.GameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.magicwach.rdefense.GameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.magicwach.rdefense.GameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateOptionsMenu in Class com.magicwach.rdefense.GameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class com.magicwach.rdefense.GameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onOptionsItemSelected in Class com.magicwach.rdefense.GameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.magicwach.rdefense.GameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onReceive in Class com.xxx.yyy.ApkReceiver added
+[WARNING] [32mVERBOSE[0m Callback method :onReceive in Class com.xxx.yyy.MyBoolService added
+[WARNING] [32mVERBOSE[0m Callback method :onReceive in Class com.xxx.yyy.NetWorkReceiver added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.magicwach.rdefense.MixerSelectActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.magicwach.rdefense.MixerSelectActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.magicwach.rdefense.MixerSelectActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.magicwach.rdefense.DebugActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.magicwach.rdefense.DebugActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.magicwach.rdefense.RewardActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.magicwach.rdefense.RewardActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.magicwach.rdefense.RewardActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.magicwach.rdefense.OptionsActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.magicwach.rdefense.OptionsActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.magicwach.rdefense.OptionsActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onReceive in Class com.xxx.yyy.CustomBroadcastReceiver added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.magicwach.rdefense.AchievementActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.magicwach.rdefense.AchievementActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.magicwach.rdefense.AchievementActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.magicwach.rdefense.LevelSelectActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.magicwach.rdefense.LevelSelectActivity added
+0 ICC links found and 0 cg edges added due to ICC links
+dynamic conflated call graph: 155 methods; 155 nodes; 201 edges.
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.content.ContextWrapper: android.content.SharedPreferences getSharedPreferences(java.lang.String,int)> to <android.app.AlarmManager: void set(int,long,android.app.PendingIntent)>
+maxpossibleFlows=14
+maxpossibleFlows=14
+maxpossibleFlows=14
+maxpossibleFlows=14
+maxpossibleFlows=2
+2 taint flow paths FOUND from <java.lang.StringBuffer: java.lang.String toString()> to <android.widget.TextView: void setText(java.lang.CharSequence)>
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.content.ContextWrapper: java.lang.Object getSystemService(java.lang.String)> to <android.app.AlarmManager: void set(int,long,android.app.PendingIntent)>
+maxpossibleFlows=1
+1 taint flow paths FOUND from <java.util.Date: long getTime()> to <android.app.AlarmManager: void set(int,long,android.app.PendingIntent)>
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.net.ConnectivityManager: android.net.NetworkInfo getActiveNetworkInfo()> to <android.app.AlarmManager: void set(int,long,android.app.PendingIntent)>
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.view.View: int getId()> to <android.app.Activity: void startActivity(android.content.Intent)>
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.app.PendingIntent: android.app.PendingIntent getBroadcast(android.content.Context,int,android.content.Intent,int)> to <android.app.AlarmManager: void set(int,long,android.app.PendingIntent)>
+maxpossibleFlows=14
+maxpossibleFlows=14
+maxpossibleFlows=14
+maxpossibleFlows=14
+maxpossibleFlows=14
+maxpossibleFlows=14
+maxpossibleFlows=14
+maxpossibleFlows=14
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.telephony.TelephonyManager: java.lang.String getDeviceId()> to <android.app.AlarmManager: void set(int,long,android.app.PendingIntent)>
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.net.NetworkInfo: java.lang.String getExtraInfo()> to <android.app.AlarmManager: void set(int,long,android.app.PendingIntent)>
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.net.NetworkInfo: java.lang.String getTypeName()> to <android.app.AlarmManager: void set(int,long,android.app.PendingIntent)>
+maxpossibleFlows=14
+maxpossibleFlows=14
+maxpossibleFlows=14
+maxpossibleFlows=14
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.telephony.TelephonyManager: java.lang.String getSubscriberId()> to <android.app.AlarmManager: void set(int,long,android.app.PendingIntent)>
+maxpossibleFlows=54
+maxpossibleFlows=54
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.content.ContextWrapper: android.content.SharedPreferences getSharedPreferences(java.lang.String,int)> to <android.app.AlarmManager: void set(int,long,android.app.PendingIntent)>
+maxpossibleFlows=14
+1 taint flow paths FOUND from <android.content.ContextWrapper: android.content.SharedPreferences getSharedPreferences(java.lang.String,int)> to <android.widget.TextView: void setText(java.lang.CharSequence)>
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.content.ContextWrapper: android.content.SharedPreferences getSharedPreferences(java.lang.String,int)> to <android.content.ContextWrapper: android.content.ComponentName startService(android.content.Intent)>
+maxpossibleFlows=14
+14 taint flow paths FOUND from <android.content.ContextWrapper: android.content.SharedPreferences getSharedPreferences(java.lang.String,int)> to <android.widget.TextView: void setEnabled(boolean)>
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.view.View: int getId()> to <android.app.Activity: void startActivity(android.content.Intent)>
+maxpossibleFlows=14
+maxpossibleFlows=14
+maxpossibleFlows=2
+maxpossibleFlows=14
+maxpossibleFlows=14
+maxpossibleFlows=14
+maxpossibleFlows=54
+maxpossibleFlows=14
+14 taint flow paths FOUND from <android.content.ContextWrapper: android.content.SharedPreferences getSharedPreferences(java.lang.String,int)> to <android.app.Activity: void setRequestedOrientation(int)>
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.magicwach.rdefense.AchievementActivity
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.magicwach.rdefense.AchievementActivity
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.magicwach.rdefense.AchievementActivity
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.magicwach.rdefense.AchievementActivity
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.magicwach.rdefense.CreditsActivity
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.magicwach.rdefense.CreditsActivity
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.magicwach.rdefense.CreditsActivity
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.magicwach.rdefense.CreditsActivity
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.magicwach.rdefense.DebugActivity
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.magicwach.rdefense.DebugActivity
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.magicwach.rdefense.DebugActivity
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.magicwach.rdefense.LevelSelectActivity
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.magicwach.rdefense.LevelSelectActivity
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.magicwach.rdefense.LevelSelectActivity
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.magicwach.rdefense.MixerSelectActivity
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.magicwach.rdefense.MixerSelectActivity
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.magicwach.rdefense.MixerSelectActivity
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.magicwach.rdefense.MixerSelectActivity
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.magicwach.rdefense.OptionsActivity
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.magicwach.rdefense.OptionsActivity
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.magicwach.rdefense.OptionsActivity
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.magicwach.rdefense.OptionsActivity
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.magicwach.rdefense.RewardActivity
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.magicwach.rdefense.RewardActivity
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.magicwach.rdefense.RewardActivity
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.magicwach.rdefense.RewardActivity
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.magicwach.rdefense.TitleActivity
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.magicwach.rdefense.TitleActivity
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.magicwach.rdefense.TitleActivity
+[WARNING] [32mVERBOSE[0m Callback method :onCreateDialog in Class com.magicwach.rdefense.TitleActivity
+Result for malicious-app-35-C42B95620CAAAE1C03DFE1F2C756A3583CD0731D8522EE3275E9196DB8027753.apkcom.magicwach.rdefense

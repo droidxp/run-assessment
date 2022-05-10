@@ -1,0 +1,798 @@
+DUA-Forensics args to Soot: -w -cp /home/hcosta/bench/benchmark/libs/droidfax.jar:/home/hcosta/Android/Sdk/platforms/android-28/android.jar -p cg verbose:false,implicit-entry:true -p cg.spark verbose:false,on-fly-cg:true,rta:false -d /home/hcosta/bench/benchmark/trace/180/1/droidbot/benign-app-82-BCA240132F73FB1965DEB6547EC5887077238C7BD431B3AFA516A5309E704ADA.apk.logcat -process-dir /home/hcosta/bench/benchmark/data/input/benign-app-82-BCA240132F73FB1965DEB6547EC5887077238C7BD431B3AFA516A5309E704ADA.apk 
+Soot started on Tue Apr 19 16:34:15 CEST 2022
+Warning: com.ironsource.mobilcore.BaseFlowBasedAdUnit is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+Warning: android.graphics.AvoidXfermode$Mode is a phantom class!
+Warning: android.graphics.AvoidXfermode is a phantom class!
+get type from 'Z'
+Warning: org.apache.http.HttpEntity is a phantom class!
+Warning: org.apache.http.HttpResponse is a phantom class!
+Warning: org.apache.http.StatusLine is a phantom class!
+Warning: org.apache.http.client.HttpClient is a phantom class!
+Warning: org.apache.http.client.entity.UrlEncodedFormEntity is a phantom class!
+Warning: org.apache.http.client.methods.HttpPost is a phantom class!
+Warning: org.apache.http.client.methods.HttpUriRequest is a phantom class!
+Warning: org.apache.http.impl.client.DefaultHttpClient is a phantom class!
+Warning: org.apache.http.message.BasicNameValuePair is a phantom class!
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.2 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+hcai's internal transform
+Running static analysis for security-relevant feature characterization
+[GatorHierarchy] [32mVERBOSE[0m [HIER] All classes: 2055
+[GatorHierarchy] [32mVERBOSE[0m [App: 808, Lib : 1233, Phantom: 14]
+[GatorHierarchy] [32mVERBOSE[0m [HIER] Activities: 13, lib activities: 1
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App views: 5, Lib views: 20
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App Dialogs: 0, Lib Dialogs: 4
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing starting at 1650378856296
+array element type: (filled narr)int
+array element type: (filled narr)int
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing finished at 1650378859034
+[Instantiated app classes] [32mVERBOSE[0m total number: 524
+[WARNING] [32mVERBOSE[0m Callback method :onWindowFocusChanged in Class org.anddev.andengine.ui.activity.BaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class org.anddev.andengine.ui.activity.BaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class org.anddev.andengine.ui.activity.BaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class org.anddev.andengine.ui.activity.BaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class org.anddev.andengine.ui.activity.BaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :surfaceCreated in Class org.anddev.andengine.opengl.view.GLSurfaceView added
+[WARNING] [32mVERBOSE[0m Callback method :surfaceDestroyed in Class org.anddev.andengine.opengl.view.GLSurfaceView added
+[WARNING] [32mVERBOSE[0m Callback method :surfaceChanged in Class org.anddev.andengine.opengl.view.GLSurfaceView added
+[WARNING] [32mVERBOSE[0m Callback method :onTouch in Class org.anddev.andengine.engine.Engine added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.anddev.andengine.engine.Engine added
+[WARNING] [32mVERBOSE[0m Callback method :onLocationChanged in Class org.anddev.andengine.engine.Engine added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.anddev.andengine.engine.Engine added
+[WARNING] [32mVERBOSE[0m Callback method :onProviderDisabled in Class org.anddev.andengine.engine.Engine added
+[WARNING] [32mVERBOSE[0m Callback method :onStatusChanged in Class org.anddev.andengine.engine.Engine added
+[WARNING] [32mVERBOSE[0m Callback method :onProviderEnabled in Class org.anddev.andengine.engine.Engine added
+[WARNING] [32mVERBOSE[0m Callback method :onWindowFocusChanged in Class org.anddev.andengine.ui.activity.BaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class org.anddev.andengine.ui.activity.BaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class org.anddev.andengine.ui.activity.BaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class org.anddev.andengine.ui.activity.BaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class org.anddev.andengine.ui.activity.BaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onWindowFocusChanged in Class org.anddev.andengine.ui.activity.BaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class org.anddev.andengine.ui.activity.BaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class org.anddev.andengine.ui.activity.BaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class org.anddev.andengine.ui.activity.BaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class org.anddev.andengine.ui.activity.BaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.divmob.common.game.Game added
+[WARNING] [32mVERBOSE[0m Callback method :onWindowFocusChanged in Class org.anddev.andengine.ui.activity.BaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class org.anddev.andengine.ui.activity.BaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class org.anddev.andengine.ui.activity.BaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class org.anddev.andengine.ui.activity.BaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class org.anddev.andengine.ui.activity.BaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.divmob.common.menu.MMenu added
+[WARNING] [32mVERBOSE[0m Callback method :onWindowFocusChanged in Class org.anddev.andengine.ui.activity.BaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class org.anddev.andengine.ui.activity.BaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class org.anddev.andengine.ui.activity.BaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class org.anddev.andengine.ui.activity.BaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class org.anddev.andengine.ui.activity.BaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onWindowFocusChanged in Class com.google.ads.AdActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.google.ads.AdActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.google.ads.AdActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.google.ads.AdActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class com.google.ads.AdActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.google.ads.AdActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onTouch in Class org.anddev.andengine.engine.Engine added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.anddev.andengine.engine.Engine added
+[WARNING] [32mVERBOSE[0m Callback method :onLocationChanged in Class org.anddev.andengine.engine.Engine added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.anddev.andengine.engine.Engine added
+[WARNING] [32mVERBOSE[0m Callback method :onProviderDisabled in Class org.anddev.andengine.engine.Engine added
+[WARNING] [32mVERBOSE[0m Callback method :onStatusChanged in Class org.anddev.andengine.engine.Engine added
+[WARNING] [32mVERBOSE[0m Callback method :onProviderEnabled in Class org.anddev.andengine.engine.Engine added
+[WARNING] [32mVERBOSE[0m Callback method :onTouch in Class org.anddev.andengine.engine.Engine added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.anddev.andengine.engine.Engine added
+[WARNING] [32mVERBOSE[0m Callback method :onLocationChanged in Class org.anddev.andengine.engine.Engine added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.anddev.andengine.engine.Engine added
+[WARNING] [32mVERBOSE[0m Callback method :onProviderDisabled in Class org.anddev.andengine.engine.Engine added
+[WARNING] [32mVERBOSE[0m Callback method :onStatusChanged in Class org.anddev.andengine.engine.Engine added
+[WARNING] [32mVERBOSE[0m Callback method :onProviderEnabled in Class org.anddev.andengine.engine.Engine added
+[WARNING] [32mVERBOSE[0m Callback method :onTouch in Class org.anddev.andengine.engine.Engine added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.anddev.andengine.engine.Engine added
+[WARNING] [32mVERBOSE[0m Callback method :onLocationChanged in Class org.anddev.andengine.engine.Engine added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.anddev.andengine.engine.Engine added
+[WARNING] [32mVERBOSE[0m Callback method :onProviderDisabled in Class org.anddev.andengine.engine.Engine added
+[WARNING] [32mVERBOSE[0m Callback method :onStatusChanged in Class org.anddev.andengine.engine.Engine added
+[WARNING] [32mVERBOSE[0m Callback method :onProviderEnabled in Class org.anddev.andengine.engine.Engine added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.divmob.common.menu.MMenu added
+[WARNING] [32mVERBOSE[0m Callback method :onWindowFocusChanged in Class org.anddev.andengine.ui.activity.BaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class org.anddev.andengine.ui.activity.BaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class org.anddev.andengine.ui.activity.BaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class org.anddev.andengine.ui.activity.BaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class org.anddev.andengine.ui.activity.BaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onWindowFocusChanged in Class org.anddev.andengine.ui.activity.BaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class org.anddev.andengine.ui.activity.BaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class org.anddev.andengine.ui.activity.BaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class org.anddev.andengine.ui.activity.BaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class org.anddev.andengine.ui.activity.BaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.divmob.common.game.Game added
+[WARNING] [32mVERBOSE[0m Callback method :onWindowFocusChanged in Class org.anddev.andengine.ui.activity.BaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class org.anddev.andengine.ui.activity.BaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class org.anddev.andengine.ui.activity.BaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class org.anddev.andengine.ui.activity.BaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class org.anddev.andengine.ui.activity.BaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.divmob.common.menu.MMenu added
+[WARNING] [32mVERBOSE[0m Callback method :onWindowFocusChanged in Class org.anddev.andengine.ui.activity.BaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class org.anddev.andengine.ui.activity.BaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class org.anddev.andengine.ui.activity.BaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class org.anddev.andengine.ui.activity.BaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class org.anddev.andengine.ui.activity.BaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.divmob.common.game.Game added
+[WARNING] [32mVERBOSE[0m Callback method :onWindowFocusChanged in Class org.anddev.andengine.ui.activity.BaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class org.anddev.andengine.ui.activity.BaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class org.anddev.andengine.ui.activity.BaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class org.anddev.andengine.ui.activity.BaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class org.anddev.andengine.ui.activity.BaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.divmob.tangram.GameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onWindowFocusChanged in Class org.anddev.andengine.ui.activity.BaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class org.anddev.andengine.ui.activity.BaseGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.divmob.tangram.GameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.divmob.tangram.GameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class org.anddev.andengine.ui.activity.BaseGameActivity added
+0 ICC links found and 0 cg edges added due to ICC links
+dynamic conflated call graph: 760 methods; 760 nodes; 1044 edges.
+maxpossibleFlows=6
+maxpossibleFlows=78
+78 taint flow paths FOUND from <android.content.ContextWrapper: android.content.res.AssetManager getAssets()> to <android.graphics.BitmapFactory: android.graphics.Bitmap decodeStream(java.io.InputStream,android.graphics.Rect,android.graphics.BitmapFactory$Options)>
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=11
+maxpossibleFlows=11
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=78
+maxpossibleFlows=2
+maxpossibleFlows=78
+maxpossibleFlows=24
+24 taint flow paths FOUND from <android.content.ContextWrapper: java.io.File getDatabasePath(java.lang.String)> to <android.webkit.WebSettings: void setDisplayZoomControls(boolean)>
+maxpossibleFlows=11
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=11
+maxpossibleFlows=11
+maxpossibleFlows=6
+maxpossibleFlows=24
+maxpossibleFlows=24
+maxpossibleFlows=12
+maxpossibleFlows=24
+maxpossibleFlows=24
+maxpossibleFlows=24
+maxpossibleFlows=24
+maxpossibleFlows=24
+maxpossibleFlows=12
+maxpossibleFlows=24
+maxpossibleFlows=12
+maxpossibleFlows=24
+maxpossibleFlows=24
+maxpossibleFlows=24
+maxpossibleFlows=24
+maxpossibleFlows=12
+maxpossibleFlows=24
+maxpossibleFlows=12
+maxpossibleFlows=24
+maxpossibleFlows=24
+maxpossibleFlows=24
+maxpossibleFlows=24
+24 taint flow paths FOUND from <android.view.View: android.content.Context getContext()> to <android.webkit.WebSettings: void setUserAgentString(java.lang.String)>
+maxpossibleFlows=6
+maxpossibleFlows=11
+maxpossibleFlows=6
+maxpossibleFlows=10
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=6
+maxpossibleFlows=11
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=5
+maxpossibleFlows=12
+maxpossibleFlows=6
+maxpossibleFlows=29
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=151
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=6
+6 taint flow paths FOUND from <java.lang.StringBuilder: java.lang.String toString()> to <android.content.res.AssetManager: android.content.res.AssetFileDescriptor openFd(java.lang.String)>
+maxpossibleFlows=11
+maxpossibleFlows=24
+maxpossibleFlows=24
+maxpossibleFlows=12
+maxpossibleFlows=24
+maxpossibleFlows=24
+maxpossibleFlows=24
+maxpossibleFlows=24
+maxpossibleFlows=24
+maxpossibleFlows=12
+maxpossibleFlows=24
+maxpossibleFlows=12
+maxpossibleFlows=24
+maxpossibleFlows=24
+maxpossibleFlows=24
+maxpossibleFlows=24
+maxpossibleFlows=12
+maxpossibleFlows=24
+maxpossibleFlows=12
+maxpossibleFlows=24
+maxpossibleFlows=24
+maxpossibleFlows=24
+maxpossibleFlows=24
+24 taint flow paths FOUND from <android.content.ContextWrapper: android.content.Context getApplicationContext()> to <android.webkit.WebSettings: void setUserAgentString(java.lang.String)>
+maxpossibleFlows=6
+maxpossibleFlows=9
+maxpossibleFlows=9
+maxpossibleFlows=6
+maxpossibleFlows=9
+maxpossibleFlows=11
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=12
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=12
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=11
+maxpossibleFlows=11
+maxpossibleFlows=24
+24 taint flow paths FOUND from <java.io.File: java.lang.String getAbsolutePath()> to <android.webkit.WebSettings: void setDisplayZoomControls(boolean)>
+maxpossibleFlows=5
+maxpossibleFlows=11
+maxpossibleFlows=6
+maxpossibleFlows=11
+maxpossibleFlows=24
+24 taint flow paths FOUND from <android.content.ContextWrapper: java.io.File getCacheDir()> to <android.webkit.WebSettings: void setDisplayZoomControls(boolean)>
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=10
+maxpossibleFlows=11
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=24
+maxpossibleFlows=24
+24 taint flow paths FOUND from <android.webkit.WebView: android.webkit.WebSettings getSettings()> to <android.webkit.WebSettings: void setSavePassword(boolean)>
+maxpossibleFlows=12
+maxpossibleFlows=6
+maxpossibleFlows=8
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=11
+maxpossibleFlows=11
+maxpossibleFlows=11
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=11
+maxpossibleFlows=11
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=11
+maxpossibleFlows=10
+maxpossibleFlows=11
+maxpossibleFlows=6
+maxpossibleFlows=12
+maxpossibleFlows=11
+maxpossibleFlows=6
+maxpossibleFlows=11
+maxpossibleFlows=11
+maxpossibleFlows=11
+maxpossibleFlows=11
+maxpossibleFlows=11
+maxpossibleFlows=6
+maxpossibleFlows=10
+maxpossibleFlows=11
+maxpossibleFlows=12
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=29
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=24
+24 taint flow paths FOUND from <android.content.ContextWrapper: java.io.File getDatabasePath(java.lang.String)> to <android.webkit.WebSettings: void setDisplayZoomControls(boolean)>
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=24
+maxpossibleFlows=24
+maxpossibleFlows=12
+maxpossibleFlows=6
+maxpossibleFlows=24
+maxpossibleFlows=6
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=24
+maxpossibleFlows=24
+maxpossibleFlows=12
+maxpossibleFlows=24
+24 taint flow paths FOUND from <android.webkit.WebView: android.webkit.WebSettings getSettings()> to <android.webkit.WebSettings: void setSavePassword(boolean)>
+maxpossibleFlows=12
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=6
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=24
+maxpossibleFlows=24
+maxpossibleFlows=12
+maxpossibleFlows=6
+maxpossibleFlows=24
+maxpossibleFlows=6
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=24
+23 taint flow paths FOUND from <java.io.File: java.lang.String getAbsolutePath()> to <android.webkit.WebSettings: void setAppCacheEnabled(boolean)>
+maxpossibleFlows=78
+78 taint flow paths FOUND from <android.content.ContextWrapper: android.content.res.AssetManager getAssets()> to <android.graphics.BitmapFactory: android.graphics.Bitmap decodeStream(java.io.InputStream,android.graphics.Rect,android.graphics.BitmapFactory$Options)>
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=24
+maxpossibleFlows=24
+maxpossibleFlows=12
+maxpossibleFlows=6
+maxpossibleFlows=24
+maxpossibleFlows=6
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=24
+23 taint flow paths FOUND from <java.io.File: java.lang.String getAbsolutePath()> to <android.webkit.WebSettings: void setAppCacheMaxSize(long)>
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=24
+maxpossibleFlows=24
+maxpossibleFlows=12
+maxpossibleFlows=6
+maxpossibleFlows=24
+maxpossibleFlows=6
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=24
+maxpossibleFlows=24
+maxpossibleFlows=12
+maxpossibleFlows=24
+24 taint flow paths FOUND from <android.webkit.WebView: android.webkit.WebSettings getSettings()> to <android.webkit.WebView: void setScrollBarStyle(int)>
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=24
+maxpossibleFlows=24
+maxpossibleFlows=12
+maxpossibleFlows=6
+maxpossibleFlows=24
+maxpossibleFlows=6
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=24
+maxpossibleFlows=24
+maxpossibleFlows=12
+maxpossibleFlows=24
+24 taint flow paths FOUND from <android.webkit.WebView: android.webkit.WebSettings getSettings()> to <android.webkit.WebSettings: void setSupportMultipleWindows(boolean)>
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=24
+maxpossibleFlows=24
+maxpossibleFlows=12
+maxpossibleFlows=6
+maxpossibleFlows=24
+maxpossibleFlows=6
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=24
+24 taint flow paths FOUND from <java.io.File: java.lang.String getAbsolutePath()> to <android.webkit.WebSettings: void setDatabaseEnabled(boolean)>
+maxpossibleFlows=6
+maxpossibleFlows=2
+maxpossibleFlows=151
+maxpossibleFlows=9
+maxpossibleFlows=8
+maxpossibleFlows=12
+maxpossibleFlows=6
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=6
+maxpossibleFlows=12
+maxpossibleFlows=6
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=24
+24 taint flow paths FOUND from <android.content.ContextWrapper: java.io.File getDatabasePath(java.lang.String)> to <android.webkit.WebSettings: void setDomStorageEnabled(boolean)>
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=6
+maxpossibleFlows=12
+maxpossibleFlows=6
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=24
+maxpossibleFlows=24
+maxpossibleFlows=12
+maxpossibleFlows=6
+maxpossibleFlows=24
+maxpossibleFlows=6
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=24
+maxpossibleFlows=24
+maxpossibleFlows=12
+maxpossibleFlows=24
+24 taint flow paths FOUND from <android.webkit.WebView: android.webkit.WebSettings getSettings()> to <android.webkit.WebView: void setWebChromeClient(android.webkit.WebChromeClient)>
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=24
+maxpossibleFlows=24
+maxpossibleFlows=12
+maxpossibleFlows=6
+maxpossibleFlows=24
+maxpossibleFlows=6
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=24
+maxpossibleFlows=24
+maxpossibleFlows=12
+maxpossibleFlows=24
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=24
+24 taint flow paths FOUND from <android.content.ContextWrapper: java.io.File getDatabasePath(java.lang.String)> to <android.webkit.WebSettings: void setSupportZoom(boolean)>
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=24
+maxpossibleFlows=24
+maxpossibleFlows=12
+maxpossibleFlows=6
+maxpossibleFlows=24
+maxpossibleFlows=6
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=24
+maxpossibleFlows=24
+maxpossibleFlows=12
+maxpossibleFlows=24
+24 taint flow paths FOUND from <android.webkit.WebView: android.webkit.WebSettings getSettings()> to <android.webkit.WebSettings: void setJavaScriptEnabled(boolean)>
+maxpossibleFlows=12
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=6
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=24
+24 taint flow paths FOUND from <android.content.ContextWrapper: java.io.File getDatabasePath(java.lang.String)> to <android.webkit.WebSettings: void setBuiltInZoomControls(boolean)>
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=6
+maxpossibleFlows=12
+maxpossibleFlows=6
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=24
+maxpossibleFlows=24
+maxpossibleFlows=12
+maxpossibleFlows=6
+maxpossibleFlows=24
+maxpossibleFlows=6
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=24
+24 taint flow paths FOUND from <java.io.File: java.lang.String getAbsolutePath()> to <android.webkit.WebSettings: void setAppCachePath(java.lang.String)>
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=24
+maxpossibleFlows=24
+maxpossibleFlows=12
+maxpossibleFlows=6
+maxpossibleFlows=24
+maxpossibleFlows=6
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=24
+maxpossibleFlows=24
+maxpossibleFlows=12
+maxpossibleFlows=24
+24 taint flow paths FOUND from <android.webkit.WebView: android.webkit.WebSettings getSettings()> to <android.webkit.WebView: void setDownloadListener(android.webkit.DownloadListener)>
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=24
+24 taint flow paths FOUND from <android.content.ContextWrapper: java.io.File getDatabasePath(java.lang.String)> to <android.webkit.WebSettings: void setDatabasePath(java.lang.String)>
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=24
+maxpossibleFlows=24
+24 taint flow paths FOUND from <android.view.View: android.content.Context getContext()> to <android.webkit.WebSettings: void setUserAgentString(java.lang.String)>
+maxpossibleFlows=6
+6 taint flow paths FOUND from <android.content.ContextWrapper: android.content.res.AssetManager getAssets()> to <android.content.res.AssetManager: android.content.res.AssetFileDescriptor openFd(java.lang.String)>
+maxpossibleFlows=78
+78 taint flow paths FOUND from <android.content.ContextWrapper: android.content.res.AssetManager getAssets()> to <android.content.res.AssetManager: java.io.InputStream open(java.lang.String)>
+[WARNING] [32mVERBOSE[0m Callback method :surfaceChanged in Class org.anddev.andengine.opengl.view.GLSurfaceView
+[WARNING] [32mVERBOSE[0m Callback method :surfaceCreated in Class org.anddev.andengine.opengl.view.GLSurfaceView
+[WARNING] [32mVERBOSE[0m Callback method :surfaceDestroyed in Class org.anddev.andengine.opengl.view.GLSurfaceView
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.google.ads.AdActivity
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class com.google.ads.AdActivity
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.google.ads.AdActivity
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.google.ads.AdActivity
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.google.ads.AdActivity
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.google.ads.AdActivity
+[WARNING] [32mVERBOSE[0m Callback method :onWindowFocusChanged in Class com.google.ads.AdActivity
+Result for benign-app-82-BCA240132F73FB1965DEB6547EC5887077238C7BD431B3AFA516A5309E704ADA.apkcom.divmob.tangram

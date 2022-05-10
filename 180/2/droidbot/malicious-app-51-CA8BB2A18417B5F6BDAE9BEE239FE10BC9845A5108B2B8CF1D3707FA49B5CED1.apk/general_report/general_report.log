@@ -1,0 +1,21 @@
+DUA-Forensics args to Soot: -w -cp /home/handrick/Documents/UNB/benchmark/libs/droidfax.jar:/home/handrick/Android/Sdk/platforms/android-19/android.jar -p cg verbose:false,implicit-entry:true -p cg.spark verbose:false,on-fly-cg:true,rta:false -d /home/handrick/Documents/UNB/benchmark/trace/180/2/droidbot/malicious-app-51-CA8BB2A18417B5F6BDAE9BEE239FE10BC9845A5108B2B8CF1D3707FA49B5CED1.apk.logcat -process-dir /home/handrick/Documents/UNB/benchmark/data/input/malicious-app-51-CA8BB2A18417B5F6BDAE9BEE239FE10BC9845A5108B2B8CF1D3707FA49B5CED1.apk 
+Soot started on Fri Apr 15 13:08:19 CEST 2022
+Warning: com.ironsource.mobilcore.BaseFlowBasedAdUnit is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+Warning: com.aaaa.ZhuamobActivity is a phantom class!
+get type from 'Z'
+Warning: com.zhuamob.android.ZhuamobLayout is a phantom class!
+No main class given. Inferred 'processing.core.PApplet' as main class.
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.2 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+hcai's internal transform
+Running static analysis for method/class coverage characterization
+0 ICC links found and 0 cg edges added due to ICC links
+dynamic conflated call graph: 1306 methods; 1306 nodes; 2512 edges.
+feature-vector-key = malicious-app-51-CA8BB2A18417B5F6BDAE9BEE239FE10BC9845A5108B2B8CF1D3707FA49B5CED1.apk
+Result for malicious-app-51-CA8BB2A18417B5F6BDAE9BEE239FE10BC9845A5108B2B8CF1D3707FA49B5CED1.apkcgApps.TapHero

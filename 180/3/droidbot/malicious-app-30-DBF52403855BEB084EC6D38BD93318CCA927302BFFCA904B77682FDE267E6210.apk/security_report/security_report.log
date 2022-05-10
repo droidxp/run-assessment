@@ -1,0 +1,100 @@
+DUA-Forensics args to Soot: -w -cp /home/handrick/Documents/UNB/benchmark/libs/droidfax.jar:/home/handrick/Android/Sdk/platforms/android-19/android.jar -p cg verbose:false,implicit-entry:true -p cg.spark verbose:false,on-fly-cg:true,rta:false -d /home/handrick/Documents/UNB/benchmark/trace/180/3/droidbot/malicious-app-30-DBF52403855BEB084EC6D38BD93318CCA927302BFFCA904B77682FDE267E6210.apk.logcat -process-dir /home/handrick/Documents/UNB/benchmark/data/input/malicious-app-30-DBF52403855BEB084EC6D38BD93318CCA927302BFFCA904B77682FDE267E6210.apk 
+Soot started on Sat Apr 16 00:27:06 CEST 2022
+Warning: com.ironsource.mobilcore.BaseFlowBasedAdUnit is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+get type from 'Z'
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.0 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+hcai's internal transform
+Running static analysis for security-relevant feature characterization
+[GatorHierarchy] [32mVERBOSE[0m [HIER] All classes: 1453
+[GatorHierarchy] [32mVERBOSE[0m [App: 401, Lib : 1049, Phantom: 3]
+[GatorHierarchy] [32mVERBOSE[0m [HIER] Activities: 7, lib activities: 1
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App views: 9, Lib views: 24
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App Dialogs: 0, Lib Dialogs: 3
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing starting at 1650061627869
+array element type: (filled narr)int
+array element type: (filled narr)int
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing finished at 1650061636359
+[Instantiated app classes] [32mVERBOSE[0m total number: 368
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.pa.a.MA added
+[WARNING] [32mVERBOSE[0m Callback method :finish in Class com.pa.a.MA added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.app.packp.MainActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.pa.a.MA added
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class com.pa.a.MA added
+[WARNING] [32mVERBOSE[0m Callback method :onMeasure in Class com.google.ads.AdView added
+[WARNING] [32mVERBOSE[0m Callback method :onReceive in Class com.QLJGameCommon.QLJP.AdPushReceiver added
+[WARNING] [32mVERBOSE[0m Callback method :onUnbind in Class com.QLJGameCommon.QLJP.AdPushService added
+[WARNING] [32mVERBOSE[0m Callback method :onBind in Class com.QLJGameCommon.QLJP.AdPushService added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.QLJGameCommon.QLJP.AdPushService added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.QLJGameCommon.QLJP.AdPushService added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class com.QLJGameCommon.QLJP.AdPushService added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.pa.a.MA added
+[WARNING] [32mVERBOSE[0m Callback method :finish in Class com.pa.a.MA added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.pa.a.MA added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.pa.a.MA added
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class com.pa.a.MA added
+[WARNING] [32mVERBOSE[0m Callback method :onUnbind in Class com.QLJGameCommon.QLJP.AdPushService added
+[WARNING] [32mVERBOSE[0m Callback method :onBind in Class com.QLJGameCommon.QLJP.AdPushService added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.QLJGameCommon.QLJP.AdPushService added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.QLJGameCommon.QLJP.AdPushService added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class com.QLJGameCommon.QLJP.AdPushService added
+[WARNING] [32mVERBOSE[0m Callback method :onBind in Class com.pa.a.MS added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.pa.a.MS added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.app.packp.MainService added
+[WARNING] [32mVERBOSE[0m Callback method :onStartCommand in Class com.app.packp.MainService added
+[WARNING] [32mVERBOSE[0m Callback method :onReceive in Class com.ushe.Ushemr added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.QLJGameCommon.QLJP.AdPushActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onRestoreInstanceState in Class com.QLJGameCommon.QLJP.AdPushActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.QLJGameCommon.QLJP.AdPushActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.QLJGameCommon.QLJP.AdPushActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onSaveInstanceState in Class com.QLJGameCommon.QLJP.AdPushActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.pa.a.MA added
+[WARNING] [32mVERBOSE[0m Callback method :finish in Class com.pa.a.MA added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.ushe.Ushema added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.pa.a.MA added
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class com.pa.a.MA added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.QLJGameCommon.QLJP.AdPushActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onRestoreInstanceState in Class com.QLJGameCommon.QLJP.AdPushActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.QLJGameCommon.QLJP.AdPushActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.QLJGameCommon.QLJP.AdPushActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onSaveInstanceState in Class com.QLJGameCommon.QLJP.AdPushActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onBind in Class com.pa.a.MS added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.pa.a.MS added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.pa.a.MS added
+[WARNING] [32mVERBOSE[0m Callback method :onStartCommand in Class com.pa.a.MS added
+[WARNING] [32mVERBOSE[0m Callback method :onWindowFocusChanged in Class com.google.ads.AdActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.google.ads.AdActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.google.ads.AdActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.google.ads.AdActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class com.google.ads.AdActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.google.ads.AdActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onBind in Class com.umeng.common.net.DownloadingService added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.umeng.common.net.DownloadingService added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.umeng.common.net.DownloadingService added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class com.umeng.common.net.DownloadingService added
+[WARNING] [32mVERBOSE[0m Callback method :onBackPressed in Class bayaba.engine.SavingPrivateFly.Button added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class bayaba.engine.SavingPrivateFly.Button added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class bayaba.engine.SavingPrivateFly.Button added
+[WARNING] [32mVERBOSE[0m Callback method :onReceive in Class com.QLJGameCommon.QLJP.AdPushReceiver added
+[WARNING] [32mVERBOSE[0m Callback method :onReceive in Class com.app.packp.MainReceiver added
+[WARNING] [32mVERBOSE[0m Callback method :onReceive in Class com.pa.a.MR added
+[WARNING] [32mVERBOSE[0m Callback method :onBind in Class com.pa.a.MS added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.pa.a.MS added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.pa.a.MS added
+[WARNING] [32mVERBOSE[0m Callback method :onStartCommand in Class com.pa.a.MS added
+0 ICC links found and 0 cg edges added due to ICC links
+dynamic conflated call graph: 0 methods; 0 nodes; 0 edges.
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.google.ads.AdActivity
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class com.google.ads.AdActivity
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.google.ads.AdActivity
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.google.ads.AdActivity
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.google.ads.AdActivity
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.google.ads.AdActivity
+[WARNING] [32mVERBOSE[0m Callback method :onWindowFocusChanged in Class com.google.ads.AdActivity
+Result for malicious-app-30-DBF52403855BEB084EC6D38BD93318CCA927302BFFCA904B77682FDE267E6210.apkbayaba.engine.SavingPrivateFly

@@ -1,0 +1,61 @@
+DUA-Forensics args to Soot: -w -cp /home/hcosta/bench/benchmark/libs/droidfax.jar:/home/hcosta/Android/Sdk/platforms/android-28/android.jar -p cg verbose:false,implicit-entry:true -p cg.spark verbose:false,on-fly-cg:true,rta:false -d /home/hcosta/bench/benchmark/trace/180/4/droidbot/benign-app-86-C85108609A0C8F00BF574365EB3A507EA8B9F4736BD11DD8CBDEB724CEAC860F.apk.logcat -process-dir /home/hcosta/bench/benchmark/data/input/benign-app-86-C85108609A0C8F00BF574365EB3A507EA8B9F4736BD11DD8CBDEB724CEAC860F.apk 
+Soot started on Thu Apr 21 05:56:37 CEST 2022
+Warning: com.ironsource.mobilcore.BaseFlowBasedAdUnit is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.0 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+hcai's internal transform
+Running static analysis for security-relevant feature characterization
+[GatorHierarchy] [32mVERBOSE[0m [HIER] All classes: 1050
+[GatorHierarchy] [32mVERBOSE[0m [App: 101, Lib : 946, Phantom: 3]
+[GatorHierarchy] [32mVERBOSE[0m [HIER] Activities: 1, lib activities: 3
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App views: 0, Lib views: 8
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App Dialogs: 0, Lib Dialogs: 4
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing starting at 1650513398505
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing finished at 1650513399133
+[Instantiated app classes] [32mVERBOSE[0m total number: 116
+[WARNING] [32mVERBOSE[0m Callback method :onReceive in Class eu.chainfire.triangleaway.BootCompleteReceiver added
+[WARNING] [32mVERBOSE[0m Callback method :onHandleIntent in Class eu.chainfire.triangleaway.BootCompleteService added
+[WARNING] [32mVERBOSE[0m Callback method :onBind in Class eu.chainfire.triangleaway.SystemResetService added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class eu.chainfire.triangleaway.SystemResetService added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class eu.chainfire.triangleaway.SystemResetService added
+[WARNING] [32mVERBOSE[0m Callback method :onStartCommand in Class eu.chainfire.triangleaway.SystemResetService added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class eu.chainfire.libsuperuser.Application added
+[WARNING] [32mVERBOSE[0m Callback method :onUserLeaveHint in Class eu.chainfire.triangleaway.TriangleAwayActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class eu.chainfire.triangleaway.TriangleAwayActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onBind in Class eu.chainfire.triangleaway.SuRestoredService added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class eu.chainfire.triangleaway.SuRestoredService added
+[WARNING] [32mVERBOSE[0m Callback method :onStartCommand in Class eu.chainfire.triangleaway.SuRestoredService added
+[WARNING] [32mVERBOSE[0m Callback method :onReceive in Class eu.chainfire.triangleaway.SuRestoredReceiver added
+0 ICC links found and 0 cg edges added due to ICC links
+dynamic conflated call graph: 117 methods; 117 nodes; 117 edges.
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.os.HandlerThread: android.os.Looper getLooper()> to <android.app.AlarmManager: void setRepeating(int,long,long,android.app.PendingIntent)>
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.content.ContextWrapper: java.lang.Object getSystemService(java.lang.String)> to <android.app.AlarmManager: void setRepeating(int,long,long,android.app.PendingIntent)>
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.app.PendingIntent: android.app.PendingIntent getService(android.content.Context,int,android.content.Intent,int)> to <android.app.AlarmManager: void setRepeating(int,long,long,android.app.PendingIntent)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.preference.PreferenceManager: android.content.SharedPreferences getDefaultSharedPreferences(android.content.Context)> to <android.content.ContextWrapper: android.content.ComponentName startService(android.content.Intent)>
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.preference.PreferenceManager: android.content.SharedPreferences getDefaultSharedPreferences(android.content.Context)> to <android.content.ContextWrapper: android.content.ComponentName startService(android.content.Intent)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.preference.PreferenceManager: android.content.SharedPreferences getDefaultSharedPreferences(android.content.Context)> to <android.content.Intent: android.content.Intent putExtra(java.lang.String,boolean)>
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.os.HandlerThread: android.os.Looper getLooper()> to <android.app.AlarmManager: void setRepeating(int,long,long,android.app.PendingIntent)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+Result for benign-app-86-C85108609A0C8F00BF574365EB3A507EA8B9F4736BD11DD8CBDEB724CEAC860F.apkeu.chainfire.triangleaway

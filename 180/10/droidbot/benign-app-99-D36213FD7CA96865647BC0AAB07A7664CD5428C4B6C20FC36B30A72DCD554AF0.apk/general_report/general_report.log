@@ -1,0 +1,130 @@
+DUA-Forensics args to Soot: -w -cp /home/hcosta/bench/benchmark/libs/droidfax.jar:/home/hcosta/Android/Sdk/platforms/android-28/android.jar -p cg verbose:false,implicit-entry:true -p cg.spark verbose:false,on-fly-cg:true,rta:false -d /home/hcosta/bench/benchmark/trace/180/6/droidbot/benign-app-99-D36213FD7CA96865647BC0AAB07A7664CD5428C4B6C20FC36B30A72DCD554AF0.apk.logcat -process-dir /home/hcosta/bench/benchmark/data/input/benign-app-99-D36213FD7CA96865647BC0AAB07A7664CD5428C4B6C20FC36B30A72DCD554AF0.apk 
+Soot started on Fri Apr 22 08:57:45 CEST 2022
+Warning: com.ironsource.mobilcore.BaseFlowBasedAdUnit is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+Warning: org.apache.http.impl.client.DefaultHttpClient is a phantom class!
+Warning: org.apache.commons.logging.Log is a phantom class!
+Warning: com.google.code.rome.android.repackaged.com.sun.syndication.feed.WireFeed is a phantom class!
+Warning: com.google.code.rome.android.repackaged.com.sun.syndication.feed.atom.Feed is a phantom class!
+Warning: com.google.code.rome.android.repackaged.com.sun.syndication.feed.rss.Channel is a phantom class!
+Warning: com.google.code.rome.android.repackaged.com.sun.syndication.feed.synd.SyndFeed is a phantom class!
+Warning: com.google.code.rome.android.repackaged.com.sun.syndication.io.FeedException is a phantom class!
+Warning: com.google.code.rome.android.repackaged.com.sun.syndication.io.SyndFeedInput is a phantom class!
+Warning: com.google.code.rome.android.repackaged.com.sun.syndication.io.SyndFeedOutput is a phantom class!
+Warning: com.google.code.rome.android.repackaged.com.sun.syndication.io.WireFeedInput is a phantom class!
+Warning: com.google.code.rome.android.repackaged.com.sun.syndication.io.WireFeedOutput is a phantom class!
+Warning: javax.xml.stream.Location is a phantom class!
+Warning: javax.xml.stream.XMLEventReader is a phantom class!
+Warning: javax.xml.stream.XMLInputFactory is a phantom class!
+Warning: javax.xml.stream.events.Attribute is a phantom class!
+Warning: javax.xml.stream.events.Characters is a phantom class!
+Warning: javax.xml.stream.events.StartElement is a phantom class!
+Warning: javax.xml.stream.events.XMLEvent is a phantom class!
+Warning: org.apache.commons.httpclient.Header is a phantom class!
+Warning: org.apache.commons.httpclient.HttpClient is a phantom class!
+Warning: org.apache.commons.httpclient.HttpConnectionManager is a phantom class!
+Warning: org.apache.commons.httpclient.HttpMethod is a phantom class!
+Warning: org.apache.commons.httpclient.HttpMethodBase is a phantom class!
+Warning: org.apache.commons.httpclient.MultiThreadedHttpConnectionManager is a phantom class!
+Warning: org.apache.commons.httpclient.URI is a phantom class!
+Warning: org.apache.commons.httpclient.URIException is a phantom class!
+Warning: org.apache.commons.httpclient.methods.ByteArrayRequestEntity is a phantom class!
+Warning: org.apache.commons.httpclient.methods.DeleteMethod is a phantom class!
+Warning: org.apache.commons.httpclient.methods.EntityEnclosingMethod is a phantom class!
+Warning: org.apache.commons.httpclient.methods.GetMethod is a phantom class!
+Warning: org.apache.commons.httpclient.methods.HeadMethod is a phantom class!
+Warning: org.apache.commons.httpclient.methods.OptionsMethod is a phantom class!
+Warning: org.apache.commons.httpclient.methods.PostMethod is a phantom class!
+Warning: org.apache.commons.httpclient.methods.PutMethod is a phantom class!
+Warning: org.apache.commons.httpclient.methods.RequestEntity is a phantom class!
+Warning: org.apache.commons.httpclient.methods.TraceMethod is a phantom class!
+Warning: org.apache.commons.httpclient.params.HttpConnectionManagerParams is a phantom class!
+Warning: org.apache.commons.logging.LogFactory is a phantom class!
+Warning: org.apache.http.Header is a phantom class!
+Warning: org.apache.http.HttpEntity is a phantom class!
+Warning: org.apache.http.HttpEntityEnclosingRequest is a phantom class!
+Warning: org.apache.http.HttpResponse is a phantom class!
+Warning: org.apache.http.StatusLine is a phantom class!
+Warning: org.apache.http.client.ClientProtocolException is a phantom class!
+Warning: org.apache.http.client.HttpClient is a phantom class!
+Warning: org.apache.http.client.methods.HttpDelete is a phantom class!
+Warning: org.apache.http.client.methods.HttpGet is a phantom class!
+Warning: org.apache.http.client.methods.HttpHead is a phantom class!
+Warning: org.apache.http.client.methods.HttpOptions is a phantom class!
+Warning: org.apache.http.client.methods.HttpPost is a phantom class!
+Warning: org.apache.http.client.methods.HttpPut is a phantom class!
+Warning: org.apache.http.client.methods.HttpTrace is a phantom class!
+Warning: org.apache.http.client.methods.HttpUriRequest is a phantom class!
+Warning: org.apache.http.conn.ClientConnectionManager is a phantom class!
+Warning: org.apache.http.conn.params.ConnManagerParams is a phantom class!
+Warning: org.apache.http.conn.params.ConnPerRoute is a phantom class!
+Warning: org.apache.http.conn.params.ConnPerRouteBean is a phantom class!
+Warning: org.apache.http.conn.scheme.PlainSocketFactory is a phantom class!
+Warning: org.apache.http.conn.scheme.Scheme is a phantom class!
+Warning: org.apache.http.conn.scheme.SchemeRegistry is a phantom class!
+Warning: org.apache.http.entity.ByteArrayEntity is a phantom class!
+Warning: org.apache.http.impl.conn.tsccm.ThreadSafeClientConnManager is a phantom class!
+Warning: org.apache.http.params.BasicHttpParams is a phantom class!
+Warning: org.apache.http.params.HttpProtocolParams is a phantom class!
+Warning: org.codehaus.jackson.JsonEncoding is a phantom class!
+Warning: org.codehaus.jackson.JsonFactory is a phantom class!
+Warning: org.codehaus.jackson.JsonGenerationException is a phantom class!
+Warning: org.codehaus.jackson.JsonGenerator is a phantom class!
+Warning: org.codehaus.jackson.JsonParseException is a phantom class!
+Warning: org.codehaus.jackson.map.ObjectMapper is a phantom class!
+Warning: org.codehaus.jackson.map.type.TypeFactory is a phantom class!
+Warning: org.codehaus.jackson.type.JavaType is a phantom class!
+get type from 'Z'
+get type from 'Z'
+get type from 'Lorg/simpleframework/xml/DefaultType;'
+get type from 'Z'
+get type from 'Z'
+get type from 'Z'
+get type from 'Z'
+get type from 'Z'
+get type from 'Z'
+get type from 'Z'
+get type from 'Z'
+get type from 'Z'
+get type from 'Z'
+get type from 'Z'
+get type from 'Z'
+get type from 'Z'
+get type from 'Z'
+get type from 'Z'
+get type from 'Z'
+get type from 'Z'
+get type from 'Z'
+get type from 'D'
+Warning: org.springframework.security.crypto.encrypt.BytesEncryptor is a phantom class!
+Warning: org.springframework.security.crypto.keygen.BytesKeyGenerator is a phantom class!
+Warning: org.springframework.security.crypto.encrypt.TextEncryptor is a phantom class!
+Warning: org.springframework.security.crypto.encrypt.HexEncodingTextEncryptor is a phantom class!
+Warning: org.springframework.security.crypto.keygen.StringKeyGenerator is a phantom class!
+Warning: org.springframework.security.crypto.keygen.HexEncodingStringKeyGenerator is a phantom class!
+Warning: org.springframework.security.crypto.keygen.SharedKeyGenerator is a phantom class!
+Warning: org.springframework.security.crypto.util.CipherUtils is a phantom class!
+Warning: org.springframework.security.crypto.util.EncodingUtils is a phantom class!
+Warning: org.springframework.social.connect.Connection is a phantom class!
+Warning: org.springframework.social.connect.ConnectionData is a phantom class!
+Warning: org.springframework.social.connect.ConnectionFactory is a phantom class!
+Warning: org.springframework.social.connect.ConnectionFactoryLocator is a phantom class!
+Warning: org.springframework.social.connect.ConnectionKey is a phantom class!
+Warning: org.springframework.social.connect.ConnectionRepository is a phantom class!
+Warning: org.springframework.social.connect.DuplicateConnectionException is a phantom class!
+Warning: org.springframework.social.connect.NoSuchConnectionException is a phantom class!
+Warning: org.springframework.social.connect.UsersConnectionRepository is a phantom class!
+No main class given. Inferred 'test.com.android.app.opensource.util.RequestUtilsTest' as main class.
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.0 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+hcai's internal transform
+Running static analysis for method/class coverage characterization
+0 ICC links found and 0 cg edges added due to ICC links
+dynamic conflated call graph: 283 methods; 283 nodes; 347 edges.
+feature-vector-key = benign-app-99-D36213FD7CA96865647BC0AAB07A7664CD5428C4B6C20FC36B30A72DCD554AF0.apk
+Result for benign-app-99-D36213FD7CA96865647BC0AAB07A7664CD5428C4B6C20FC36B30A72DCD554AF0.apkcom.android.app.yuludaquan

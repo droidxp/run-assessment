@@ -1,0 +1,776 @@
+DUA-Forensics args to Soot: -w -cp /home/handrick/Documents/UNB/benchmark/libs/droidfax.jar:/home/handrick/Android/Sdk/platforms/android-19/android.jar -p cg verbose:false,implicit-entry:true -p cg.spark verbose:false,on-fly-cg:true,rta:false -d /home/handrick/Documents/UNB/benchmark/trace/180/3/droidbot/malicious-app-14-4B146AA4FD45E2491A93C4B48801EC147BA0A5ED2AF7ABEE9C2F58BC798C5EC1.apk.logcat -process-dir /home/handrick/Documents/UNB/benchmark/data/input/malicious-app-14-4B146AA4FD45E2491A93C4B48801EC147BA0A5ED2AF7ABEE9C2F58BC798C5EC1.apk 
+Soot started on Sat Apr 16 00:42:29 CEST 2022
+Warning: com.ironsource.mobilcore.BaseFlowBasedAdUnit is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.0 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+hcai's internal transform
+Running static analysis for security-relevant feature characterization
+[GatorHierarchy] [32mVERBOSE[0m [HIER] All classes: 1710
+[GatorHierarchy] [32mVERBOSE[0m [App: 699, Lib : 1008, Phantom: 3]
+[GatorHierarchy] [32mVERBOSE[0m [HIER] Activities: 8, lib activities: 1
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App views: 33, Lib views: 22
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App Dialogs: 3, Lib Dialogs: 3
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing starting at 1650062551344
+second round from stmt: $u0#33 = $u0#32[$u2#5]
+array element type: (filled narr)int
+array element type: (filled narr)int
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing finished at 1650062558201
+[Instantiated app classes] [32mVERBOSE[0m total number: 640
+[WARNING] [32mVERBOSE[0m Callback method :onReceive in Class com.playphone.psgn.PSGNPushReceiver added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class hll.kxyfyh.act.DefaultActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onBackPressed in Class com.cwillay.coarn.rwoin.c added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.cwillay.niwin.UweAHawnw added
+[WARNING] [32mVERBOSE[0m Callback method :finish in Class com.cwillay.niwin.UweAHawnw added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.cwillay.niwin.UweAHawnw added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.cwillay.niwin.UweAHawnw added
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class com.cwillay.niwin.UweAHawnw added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class kxyfyh.yk.d.b added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class kxyfyh.yk.d.b added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.cwillay.coarn.TawnActivity added
+[WARNING] [32mVERBOSE[0m Callback method :finish in Class com.cwillay.coarn.TawnActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.cwillay.coarn.TawnActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.cwillay.coarn.TawnActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class com.cwillay.coarn.TawnActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onReceive in Class com.cwillay.coarn.NatuIwin added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.cwillay.MaveActivity added
+[WARNING] [32mVERBOSE[0m Callback method :finish in Class com.cwillay.MaveActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.cwillay.MaveActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onServiceConnected in Class com.playphone.psgn.android.BillingService added
+[WARNING] [32mVERBOSE[0m Callback method :onServiceDisconnected in Class com.playphone.psgn.android.BillingService added
+[WARNING] [32mVERBOSE[0m Callback method :onBind in Class com.playphone.psgn.android.BillingService added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.playphone.psgn.android.BillingService added
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class com.playphone.psgn.PSGNProxyActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onBackPressed in Class com.playphone.psgn.PSGNProxyActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.playphone.psgn.PSGNTrackingActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.playphone.psgn.PSGNTrackingActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.playphone.psgn.PSGNProxyActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.playphone.psgn.PSGNTrackingActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class com.playphone.psgn.PSGNTrackingActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onRestart in Class com.playphone.psgn.PSGNTrackingActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class com.playphone.psgn.PSGNProxyActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.playphone.psgn.PSGNTrackingActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.cwillay.tusrck.LuwnActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.cwillay.tusrck.LuwnActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onBackPressed in Class com.cwillay.tusrck.wowalu.t added
+[WARNING] [32mVERBOSE[0m Callback method :onWindowFocusChanged in Class com.cwillay.tusrck.wowalu.t added
+[WARNING] [32mVERBOSE[0m Callback method :onBind in Class com.playphone.psgn.PSGNService added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.playphone.psgn.PSGNService added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.playphone.psgn.PSGNService added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class com.playphone.psgn.PSGNService added
+[WARNING] [32mVERBOSE[0m Callback method :onReceive in Class com.cwillay.tusrck.BwoienAwinl added
+[WARNING] [32mVERBOSE[0m Callback method :onBind in Class com.cwillay.WiwslRwsn added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.cwillay.WiwslRwsn added
+[WARNING] [32mVERBOSE[0m Callback method :onStartCommand in Class com.cwillay.WiwslRwsn added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.playphone.psgn.PSGNTrackingActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.playphone.psgn.PSGNTrackingActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.playphone.psgn.PSGNTrackingActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.playphone.psgn.PSGNTrackingActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class com.playphone.psgn.PSGNTrackingActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onRestart in Class com.playphone.psgn.PSGNTrackingActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.playphone.psgn.PSGNTrackingActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onReceive in Class com.playphone.psgn.InstallReferrerReceiver added
+[WARNING] [32mVERBOSE[0m Callback method :onBind in Class com.cwillay.niwin.GeunAwneui added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.cwillay.niwin.GeunAwneui added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.cwillay.niwin.GeunAwneui added
+[WARNING] [32mVERBOSE[0m Callback method :onStartCommand in Class com.cwillay.niwin.GeunAwneui added
+[WARNING] [32mVERBOSE[0m Callback method :onReceive in Class com.cwillay.niwin.RTawsnActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onTransact in Class com.android.vending.billing.IMarketBillingService$Stub added
+[WARNING] [32mVERBOSE[0m Callback method :asBinder in Class com.android.vending.billing.IMarketBillingService$Stub added
+[WARNING] [32mVERBOSE[0m Callback method :onReceive in Class com.playphone.psgn.android.BillingReceiver added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class hll.kxyfyh.act.GameMain added
+[WARNING] [32mVERBOSE[0m Callback method :onWindowFocusChanged in Class hll.kxyfyh.act.GameMain added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class hll.kxyfyh.act.GameMain added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.playphone.psgn.PSGNTrackingActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class hll.kxyfyh.act.GameMain added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class hll.kxyfyh.act.GameMain added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class com.playphone.psgn.PSGNTrackingActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onRestart in Class com.playphone.psgn.PSGNTrackingActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class hll.kxyfyh.act.GameMain added
+[WARNING] [32mVERBOSE[0m Callback method :onReceive in Class com.cwillay.FwaunActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onBind in Class com.cwillay.coarn.SwsueActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.cwillay.coarn.SwsueActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.cwillay.coarn.SwsueActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStartCommand in Class com.cwillay.coarn.SwsueActivity added
+1 ICC links found and 1 cg edges added due to ICC links
+dynamic conflated call graph: 752 methods; 752 nodes; 1805 edges.
+maxpossibleFlows=3
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=2
+2 taint flow paths FOUND from <android.content.ContextWrapper: android.content.res.AssetManager getAssets()> to <android.content.res.AssetManager: java.io.InputStream open(java.lang.String)>
+maxpossibleFlows=3
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=8
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=6
+6 taint flow paths FOUND from <java.lang.StackTraceElement: java.lang.String getClassName()> to <android.util.Log: int d(java.lang.String,java.lang.String)>
+maxpossibleFlows=3
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <java.io.File: java.lang.String getName()> to <java.net.URL: java.net.URLConnection openConnection()>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.app.AlertDialog$Builder: android.app.AlertDialog create()> to <android.app.AlertDialog: void setButton(java.lang.CharSequence,android.content.DialogInterface$OnClickListener)>
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <java.lang.ClassNotFoundException: java.lang.Throwable getCause()> to <java.util.Properties: void storeToXML(java.io.OutputStream,java.lang.String,java.lang.String)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=6
+6 taint flow paths FOUND from <java.lang.StackTraceElement: int getLineNumber()> to <android.util.Log: int d(java.lang.String,java.lang.String)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+2 taint flow paths FOUND from <android.app.PendingIntent: android.app.PendingIntent getBroadcast(android.content.Context,int,android.content.Intent,int)> to <android.app.AlarmManager: void setRepeating(int,long,long,android.app.PendingIntent)>
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+2 taint flow paths FOUND from <android.content.Intent: java.lang.String getAction()> to <android.os.Handler: boolean sendEmptyMessageDelayed(int,long)>
+maxpossibleFlows=6
+2 taint flow paths FOUND from <java.lang.StringBuilder: java.lang.String toString()> to <android.util.Log: int d(java.lang.String,java.lang.String)>
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=3
+maxpossibleFlows=1
+maxpossibleFlows=3
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+2 taint flow paths FOUND from <android.os.Environment: java.lang.String getExternalStorageState()> to <android.util.Log: int d(java.lang.String,java.lang.String)>
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=8
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=8
+maxpossibleFlows=2
+maxpossibleFlows=6
+6 taint flow paths FOUND from <java.lang.StackTraceElement: java.lang.String getMethodName()> to <android.util.Log: int d(java.lang.String,java.lang.String)>
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=8
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=6
+6 taint flow paths FOUND from <java.lang.Thread: java.lang.StackTraceElement[] getStackTrace()> to <android.util.Log: int d(java.lang.String,java.lang.String)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.app.Activity: java.lang.Object getSystemService(java.lang.String)> to <android.content.ContextWrapper: android.content.ComponentName startService(android.content.Intent)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <java.io.File: java.io.File getParentFile()> to <java.io.Writer: void write(java.lang.String)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.os.PowerManager: android.os.PowerManager$WakeLock newWakeLock(int,java.lang.String)> to <android.content.ContextWrapper: android.content.ComponentName startService(android.content.Intent)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=12
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.content.ContextWrapper: java.io.File getCacheDir()> to <java.util.Properties: void storeToXML(java.io.OutputStream,java.lang.String,java.lang.String)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=8
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.content.ContextWrapper: java.lang.String getPackageName()> to <java.net.URL: java.net.URLConnection openConnection()>
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <java.security.Provider: java.lang.Object put(java.lang.Object,java.lang.Object)> to <java.util.Properties: void storeToXML(java.io.OutputStream,java.lang.String,java.lang.String)>
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+2 taint flow paths FOUND from <java.util.Calendar: long getTimeInMillis()> to <android.app.AlarmManager: void setRepeating(int,long,long,android.app.PendingIntent)>
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+2 taint flow paths FOUND from <java.util.Calendar: java.util.Calendar getInstance()> to <android.app.AlarmManager: void setRepeating(int,long,long,android.app.PendingIntent)>
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=6
+6 taint flow paths FOUND from <java.lang.StackTraceElement: java.lang.String getClassName()> to <android.util.Log: int d(java.lang.String,java.lang.String)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <java.io.File: java.lang.String getName()> to <java.net.URL: java.net.URLConnection openConnection()>
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+2 taint flow paths FOUND from <android.content.Intent: java.lang.String getAction()> to <android.os.Handler: boolean sendEmptyMessageDelayed(int,long)>
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=12
+11 taint flow paths FOUND from <java.lang.StringBuilder: java.lang.String toString()> to <java.lang.String: boolean startsWith(java.lang.String)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=3
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=3
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.app.Activity: java.lang.Object getSystemService(java.lang.String)> to <android.content.ContextWrapper: android.content.ComponentName startService(android.content.Intent)>
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=8
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=8
+maxpossibleFlows=8
+maxpossibleFlows=2
+maxpossibleFlows=8
+maxpossibleFlows=8
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=8
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=3
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=3
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.app.Activity: java.lang.Object getSystemService(java.lang.String)> to <android.content.Intent: android.content.Intent setClass(android.content.Context,java.lang.Class)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.app.AlertDialog$Builder: android.app.AlertDialog create()> to <android.app.AlertDialog: void setButton(java.lang.CharSequence,android.content.DialogInterface$OnClickListener)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <java.lang.ClassNotFoundException: java.lang.Throwable getCause()> to <java.util.Properties: void storeToXML(java.io.OutputStream,java.lang.String,java.lang.String)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.app.AlertDialog$Builder: android.app.AlertDialog create()> to <android.app.AlertDialog: void setTitle(java.lang.CharSequence)>
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.app.AlertDialog$Builder: android.app.AlertDialog create()> to <android.app.AlertDialog: void setButton2(java.lang.CharSequence,android.content.DialogInterface$OnClickListener)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <java.io.File: java.io.File getParentFile()> to <java.io.Writer: void write(java.lang.String)>
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <java.io.File: java.lang.String getName()> to <java.net.HttpURLConnection: void setRequestMethod(java.lang.String)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=2
+2 taint flow paths FOUND from <android.app.PendingIntent: android.app.PendingIntent getBroadcast(android.content.Context,int,android.content.Intent,int)> to <android.app.AlarmManager: void setRepeating(int,long,long,android.app.PendingIntent)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.content.Intent: java.lang.String getAction()> to <android.os.Handler: boolean sendMessageDelayed(android.os.Message,long)>
+maxpossibleFlows=2
+2 taint flow paths FOUND from <android.content.ContextWrapper: android.content.res.AssetManager getAssets()> to <android.content.res.AssetManager: java.io.InputStream open(java.lang.String)>
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class kxyfyh.yk.d.b
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class kxyfyh.yk.d.b
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class kxyfyh.yk.d.b
+Result for malicious-app-14-4B146AA4FD45E2491A93C4B48801EC147BA0A5ED2AF7ABEE9C2F58BC798C5EC1.apkcom.playphone.flyingred

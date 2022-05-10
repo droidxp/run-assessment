@@ -1,0 +1,108 @@
+DUA-Forensics args to Soot: -w -cp /home/hcosta/bench/benchmark/libs/droidfax.jar:/home/hcosta/Android/Sdk/platforms/android-28/android.jar -p cg verbose:false,implicit-entry:true -p cg.spark verbose:false,on-fly-cg:true,rta:false -d /home/hcosta/bench/benchmark/trace/180/1/droidbot/benign-app-83-C06D8F084C95407F8637B1126AFEEA7B55C4D652CE6915E2251942F1B518142C.apk.logcat -process-dir /home/hcosta/bench/benchmark/data/input/benign-app-83-C06D8F084C95407F8637B1126AFEEA7B55C4D652CE6915E2251942F1B518142C.apk 
+Soot started on Tue Apr 19 16:39:24 CEST 2022
+Warning: com.ironsource.mobilcore.BaseFlowBasedAdUnit is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+Warning: org.apache.http.NameValuePair is a phantom class!
+Warning: org.apache.http.HttpEntity is a phantom class!
+Warning: org.apache.http.HttpResponse is a phantom class!
+Warning: org.apache.http.client.entity.UrlEncodedFormEntity is a phantom class!
+Warning: org.apache.http.client.methods.HttpPost is a phantom class!
+Warning: org.apache.http.client.methods.HttpUriRequest is a phantom class!
+Warning: org.apache.http.impl.client.DefaultHttpClient is a phantom class!
+Warning: org.apache.http.params.HttpProtocolParams is a phantom class!
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.0 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+hcai's internal transform
+Running static analysis for security-relevant feature characterization
+[GatorHierarchy] [32mVERBOSE[0m [HIER] All classes: 1648
+[GatorHierarchy] [32mVERBOSE[0m [App: 500, Lib : 1137, Phantom: 11]
+[GatorHierarchy] [32mVERBOSE[0m [HIER] Activities: 3, lib activities: 1
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App views: 7, Lib views: 19
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App Dialogs: 0, Lib Dialogs: 3
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing starting at 1650379165109
+array element type: (filled narr)int
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing finished at 1650379169273
+[Instantiated app classes] [32mVERBOSE[0m total number: 428
+[WARNING] [32mVERBOSE[0m Callback method :onWindowFocusChanged in Class com.google.ads.AdActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.google.ads.AdActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.google.ads.AdActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.google.ads.AdActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class com.google.ads.AdActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.google.ads.AdActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class Runtime.MMFRuntime added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class Runtime.MMFRuntime added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class Runtime.MMFRuntime added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateOptionsMenu in Class Runtime.MMFRuntime added
+[WARNING] [32mVERBOSE[0m Callback method :dispatchKeyEvent in Class Runtime.MMFRuntime added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class Runtime.MMFRuntime added
+[WARNING] [32mVERBOSE[0m Callback method :onOptionsItemSelected in Class Runtime.MMFRuntime added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class Runtime.MMFRuntime added
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class Runtime.MMFRuntime added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class Runtime.MMFRuntime added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class Runtime.MMFRuntime added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateOptionsMenu in Class Runtime.MMFRuntime added
+[WARNING] [32mVERBOSE[0m Callback method :dispatchKeyEvent in Class Runtime.MMFRuntime added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class Runtime.MMFRuntime added
+[WARNING] [32mVERBOSE[0m Callback method :onOptionsItemSelected in Class Runtime.MMFRuntime added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class Runtime.MMFRuntime added
+0 ICC links found and 0 cg edges added due to ICC links
+dynamic conflated call graph: 845 methods; 845 nodes; 1224 edges.
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.view.ContextThemeWrapper: android.content.res.Resources getResources()> to <android.content.res.Resources: java.io.InputStream openRawResource(int)>
+maxpossibleFlows=1
+maxpossibleFlows=10
+maxpossibleFlows=1
+1 taint flow paths FOUND from <java.lang.StringBuilder: java.lang.String toString()> to <android.content.res.Resources: java.io.InputStream openRawResource(int)>
+maxpossibleFlows=10
+maxpossibleFlows=10
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.content.ContextWrapper: android.content.Context getApplicationContext()> to <android.view.View: void setFocusable(boolean)>
+maxpossibleFlows=1
+maxpossibleFlows=10
+maxpossibleFlows=10
+maxpossibleFlows=10
+maxpossibleFlows=10
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=10
+maxpossibleFlows=10
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=3
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.view.ContextThemeWrapper: android.content.res.Resources getResources()> to <android.content.res.Resources: java.io.InputStream openRawResource(int)>
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.content.ContextWrapper: android.content.Context getApplicationContext()> to <android.view.View: void setFocusable(boolean)>
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.content.ContextWrapper: android.content.Context getApplicationContext()> to <android.view.View: void setFocusableInTouchMode(boolean)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=10
+maxpossibleFlows=3
+maxpossibleFlows=10
+maxpossibleFlows=10
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=10
+maxpossibleFlows=10
+maxpossibleFlows=10
+maxpossibleFlows=10
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=10
+maxpossibleFlows=10
+maxpossibleFlows=3
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.google.ads.AdActivity
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class com.google.ads.AdActivity
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.google.ads.AdActivity
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.google.ads.AdActivity
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.google.ads.AdActivity
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.google.ads.AdActivity
+[WARNING] [32mVERBOSE[0m Callback method :onWindowFocusChanged in Class com.google.ads.AdActivity
+Result for benign-app-83-C06D8F084C95407F8637B1126AFEEA7B55C4D652CE6915E2251942F1B518142C.apkcom.ColePowered.PlanetWars

@@ -1,0 +1,1360 @@
+DUA-Forensics args to Soot: -w -cp /home/handrick/Documents/UNB/benchmark/libs/droidfax.jar:/home/handrick/Android/Sdk/platforms/android-19/android.jar -p cg verbose:false,implicit-entry:true -p cg.spark verbose:false,on-fly-cg:true,rta:false -d /home/handrick/Documents/UNB/benchmark/trace/180/2/droidbot/benign-app-40-4B94B568839B873F6220C9A516D080B74A0925D62AD577218BECBEA4DAF0E707.apk.logcat -process-dir /home/handrick/Documents/UNB/benchmark/data/input/benign-app-40-4B94B568839B873F6220C9A516D080B74A0925D62AD577218BECBEA4DAF0E707.apk 
+Soot started on Fri Apr 15 13:15:11 CEST 2022
+Warning: com.ironsource.mobilcore.BaseFlowBasedAdUnit is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+Warning: com.sun.image.codec.jpeg.JPEGDecodeParam is a phantom class!
+get type from 'Z'
+get type from 'Z'
+Warning: com.sun.image.codec.jpeg.JPEGCodec is a phantom class!
+Warning: com.sun.image.codec.jpeg.JPEGImageDecoder is a phantom class!
+Warning: java.awt.image.BufferedImage is a phantom class!
+Warning: javax.servlet.ServletContextEvent is a phantom class!
+Warning: javax.servlet.ServletContextListener is a phantom class!
+Warning: org.apache.avalon.framework.logger.Logger is a phantom class!
+Warning: org.apache.log4j.Priority is a phantom class!
+Warning: org.apache.log4j.Logger is a phantom class!
+Warning: org.apache.log.Logger is a phantom class!
+Warning: org.apache.log.Hierarchy is a phantom class!
+Warning: org.apache.log4j.Category is a phantom class!
+No main class given. Inferred 'com.drew.imaging.jpeg.JpegMetadataReader' as main class.
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.1 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 1.0 seconds.
+[Spark] Solution found in 1.0 seconds.
+hcai's internal transform
+Running static analysis for security-relevant feature characterization
+[GatorHierarchy] [32mVERBOSE[0m [HIER] All classes: 2212
+[GatorHierarchy] [32mVERBOSE[0m [App: 1038, Lib : 1159, Phantom: 15]
+[GatorHierarchy] [32mVERBOSE[0m [HIER] Activities: 7, lib activities: 2
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App views: 10, Lib views: 26
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App Dialogs: 3, Lib Dialogs: 4
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing starting at 1650021314154
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing finished at 1650021323138
+[Instantiated app classes] [32mVERBOSE[0m total number: 826
+[WARNING] [32mVERBOSE[0m Callback method :fling in Class com.jiongji.andriod.card.util.CustomScrollView added
+[WARNING] [32mVERBOSE[0m Callback method :onTransact in Class com.meizu.interfaces.IMStorePurchaseService$Stub added
+[WARNING] [32mVERBOSE[0m Callback method :asBinder in Class com.meizu.interfaces.IMStorePurchaseService$Stub added
+[WARNING] [32mVERBOSE[0m Callback method :onBind in Class com.jiongji.andriod.card.service.UpgradeService added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.jiongji.andriod.card.service.UpgradeService added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.jiongji.andriod.card.service.UpgradeService added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class com.jiongji.andriod.card.service.UpgradeService added
+[WARNING] [32mVERBOSE[0m Callback method :onEnabled in Class com.jiongji.andriod.card.appwidget.ExampleAppWidgetProvider added
+[WARNING] [32mVERBOSE[0m Callback method :onUpdate in Class com.jiongji.andriod.card.appwidget.ExampleAppWidgetProvider added
+[WARNING] [32mVERBOSE[0m Callback method :onDeleted in Class com.jiongji.andriod.card.appwidget.ExampleAppWidgetProvider added
+[WARNING] [32mVERBOSE[0m Callback method :onDisabled in Class com.jiongji.andriod.card.appwidget.ExampleAppWidgetProvider added
+[WARNING] [32mVERBOSE[0m Callback method :onReceive in Class com.jiongji.andriod.card.appwidget.ExampleAppWidgetProvider added
+[WARNING] [32mVERBOSE[0m Callback method :getItem in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getView in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getDropDownView in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getFilter in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getCount in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getItemId in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :hasStableIds in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :onSizeChanged in Class com.feedback.ui.ThreadView added
+[WARNING] [32mVERBOSE[0m Callback method :onBind in Class com.jiongji.andriod.card.service.MessageService added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.jiongji.andriod.card.service.MessageService added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.jiongji.andriod.card.service.MessageService added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class com.jiongji.andriod.card.service.MessageService added
+[WARNING] [32mVERBOSE[0m Callback method :onLowMemory in Class android.support.v4.app.Fragment added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateContextMenu in Class android.support.v4.app.Fragment added
+[WARNING] [32mVERBOSE[0m Callback method :onCancel in Class android.support.v4.app.DialogFragment added
+[WARNING] [32mVERBOSE[0m Callback method :onDismiss in Class android.support.v4.app.DialogFragment added
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class android.support.v4.app.Fragment added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.jiongji.andriod.card.JiongjiApplication added
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class com.jiongji.andriod.card.adapter.ViewFlow added
+[WARNING] [32mVERBOSE[0m Callback method :onMeasure in Class com.jiongji.andriod.card.adapter.ViewFlow added
+[WARNING] [32mVERBOSE[0m Callback method :getSelectedItemPosition in Class com.jiongji.andriod.card.adapter.ViewFlow added
+[WARNING] [32mVERBOSE[0m Callback method :onLayout in Class com.jiongji.andriod.card.adapter.ViewFlow added
+[WARNING] [32mVERBOSE[0m Callback method :onScrollChanged in Class com.jiongji.andriod.card.adapter.ViewFlow added
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class com.jiongji.andriod.card.adapter.ViewFlow added
+[WARNING] [32mVERBOSE[0m Callback method :computeScroll in Class com.jiongji.andriod.card.adapter.ViewFlow added
+[WARNING] [32mVERBOSE[0m Callback method :setAdapter in Class com.jiongji.andriod.card.adapter.ViewFlow added
+[WARNING] [32mVERBOSE[0m Callback method :onInterceptTouchEvent in Class com.jiongji.andriod.card.adapter.ViewFlow added
+[WARNING] [32mVERBOSE[0m Callback method :getSelectedView in Class com.jiongji.andriod.card.adapter.ViewFlow added
+[WARNING] [32mVERBOSE[0m Callback method :getAdapter in Class com.jiongji.andriod.card.adapter.ViewFlow added
+[WARNING] [32mVERBOSE[0m Callback method :setSelection in Class com.jiongji.andriod.card.adapter.ViewFlow added
+[WARNING] [32mVERBOSE[0m Callback method :getItem in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getView in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getDropDownView in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getFilter in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getCount in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getItemId in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :hasStableIds in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :onLowMemory in Class android.support.v4.app.Fragment added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateContextMenu in Class android.support.v4.app.Fragment added
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class android.support.v4.app.Fragment added
+[WARNING] [32mVERBOSE[0m Callback method :getItem in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getView in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getDropDownView in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getFilter in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getCount in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getItemId in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :hasStableIds in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :onTransact in Class com.alipay.android.app.IRemoteServiceCallback$Stub added
+[WARNING] [32mVERBOSE[0m Callback method :asBinder in Class com.alipay.android.app.IRemoteServiceCallback$Stub added
+[WARNING] [32mVERBOSE[0m Callback method :onTransact in Class com.alipay.android.app.IAlixPay$Stub added
+[WARNING] [32mVERBOSE[0m Callback method :asBinder in Class com.alipay.android.app.IAlixPay$Stub added
+[WARNING] [32mVERBOSE[0m Callback method :onLowMemory in Class android.support.v4.app.Fragment added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateContextMenu in Class android.support.v4.app.Fragment added
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class android.support.v4.app.Fragment added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.feedback.ui.SendFeedback added
+[WARNING] [32mVERBOSE[0m Callback method :generateLayoutParams in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :draw in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :onRestoreInstanceState in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :onRequestFocusInDescendants in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :generateDefaultLayoutParams in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :onMeasure in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :addView in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :onSaveInstanceState in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :onLayout in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :addTouchables in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :computeScroll in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :onAttachedToWindow in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :onInterceptTouchEvent in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :verifyDrawable in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :dispatchPopulateAccessibilityEvent in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :onSizeChanged in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :dispatchKeyEvent in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :addFocusables in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :onDraw in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :generateLayoutParams in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :drawableStateChanged in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :checkLayoutParams in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :onTransact in Class com.alipay.android.app.IAliPay$Stub added
+[WARNING] [32mVERBOSE[0m Callback method :asBinder in Class com.alipay.android.app.IAliPay$Stub added
+[WARNING] [32mVERBOSE[0m Callback method :onMeasure in Class com.jiongji.andriod.card.util.wheel.widget.WheelView added
+[WARNING] [32mVERBOSE[0m Callback method :onLayout in Class com.jiongji.andriod.card.util.wheel.widget.WheelView added
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class com.jiongji.andriod.card.util.wheel.widget.WheelView added
+[WARNING] [32mVERBOSE[0m Callback method :onDraw in Class com.jiongji.andriod.card.util.wheel.widget.WheelView added
+[WARNING] [32mVERBOSE[0m Callback method :onTransact in Class com.meizu.mstore.license.ILicensingService$Stub added
+[WARNING] [32mVERBOSE[0m Callback method :asBinder in Class com.meizu.mstore.license.ILicensingService$Stub added
+[WARNING] [32mVERBOSE[0m Callback method :onBind in Class com.jiongji.andriod.card.appwidget.UpdateService added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.jiongji.andriod.card.appwidget.UpdateService added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.jiongji.andriod.card.appwidget.UpdateService added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class com.jiongji.andriod.card.appwidget.UpdateService added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.feedback.ui.FeedbackConversation added
+[WARNING] [32mVERBOSE[0m Callback method :onListItemClick in Class com.feedback.ui.FeedbackConversation added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.feedback.ui.FeedbackConversation added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.feedback.ui.FeedbackConversation added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class com.feedback.ui.FeedbackConversation added
+[WARNING] [32mVERBOSE[0m Callback method :onTransact in Class com.meizu.interfaces.IMStorePurchaseServiceCallback$Stub added
+[WARNING] [32mVERBOSE[0m Callback method :asBinder in Class com.meizu.interfaces.IMStorePurchaseServiceCallback$Stub added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.jiongji.andriod.card.upload.AgreementActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPanelClosed in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onMenuItemSelected in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onBackPressed in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onRetainNonConfigurationInstance in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreatePanelMenu in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :dump in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateView in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPreparePanel in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onSaveInstanceState in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :startActivityForResult in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPostResume in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onLowMemory in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onBind in Class com.jiongji.andriod.card.service.DownloadService added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.jiongji.andriod.card.service.DownloadService added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.jiongji.andriod.card.service.DownloadService added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class com.jiongji.andriod.card.service.DownloadService added
+[WARNING] [32mVERBOSE[0m Callback method :onMeasure in Class android.support.v4.view.PagerTitleStrip added
+[WARNING] [32mVERBOSE[0m Callback method :requestLayout in Class android.support.v4.view.PagerTitleStrip added
+[WARNING] [32mVERBOSE[0m Callback method :onLayout in Class android.support.v4.view.PagerTitleStrip added
+[WARNING] [32mVERBOSE[0m Callback method :onDetachedFromWindow in Class android.support.v4.view.PagerTitleStrip added
+[WARNING] [32mVERBOSE[0m Callback method :onAttachedToWindow in Class android.support.v4.view.PagerTitleStrip added
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class com.jiongji.andriod.card.upload.UploadPictureActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.jiongji.andriod.card.upload.UploadPictureActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.jiongji.andriod.card.upload.UploadPictureActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class com.jiongji.andriod.card.upload.UploadPictureActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onMeasure in Class com.jiongji.andriod.card.adapter.CircleFlowIndicator added
+[WARNING] [32mVERBOSE[0m Callback method :onAnimationEnd in Class com.jiongji.andriod.card.adapter.CircleFlowIndicator added
+[WARNING] [32mVERBOSE[0m Callback method :onAnimationRepeat in Class com.jiongji.andriod.card.adapter.CircleFlowIndicator added
+[WARNING] [32mVERBOSE[0m Callback method :onAnimationStart in Class com.jiongji.andriod.card.adapter.CircleFlowIndicator added
+[WARNING] [32mVERBOSE[0m Callback method :onDraw in Class com.jiongji.andriod.card.adapter.CircleFlowIndicator added
+[WARNING] [32mVERBOSE[0m Callback method :onListItemClick in Class com.feedback.ui.FeedbackConversations added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.feedback.ui.FeedbackConversations added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateContextMenu in Class com.feedback.ui.FeedbackConversations added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.feedback.ui.FeedbackConversations added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class com.feedback.ui.FeedbackConversations added
+[WARNING] [32mVERBOSE[0m Callback method :onRestart in Class com.feedback.ui.FeedbackConversations added
+[WARNING] [32mVERBOSE[0m Callback method :onContextItemSelected in Class com.feedback.ui.FeedbackConversations added
+[WARNING] [32mVERBOSE[0m Callback method :onBind in Class com.jiongji.andriod.card.service.PlayerService added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.jiongji.andriod.card.service.PlayerService added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.jiongji.andriod.card.service.PlayerService added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class com.jiongji.andriod.card.service.PlayerService added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.jiongji.andriod.card.activity.LinearLayoutDataControl added
+[WARNING] [32mVERBOSE[0m Callback method :onSingleTapUp in Class com.jiongji.andriod.card.activity.LinearLayoutDataControl added
+[WARNING] [32mVERBOSE[0m Callback method :onPrepareOptionsMenu in Class com.jiongji.andriod.card.activity.LinearLayoutDataControl added
+[WARNING] [32mVERBOSE[0m Callback method :beforeTextChanged in Class com.jiongji.andriod.card.activity.LinearLayoutDataControl added
+[WARNING] [32mVERBOSE[0m Callback method :onDown in Class com.jiongji.andriod.card.activity.LinearLayoutDataControl added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.jiongji.andriod.card.activity.LinearLayoutDataControl added
+[WARNING] [32mVERBOSE[0m Callback method :onFling in Class com.jiongji.andriod.card.activity.LinearLayoutDataControl added
+[WARNING] [32mVERBOSE[0m Callback method :dispatchTouchEvent in Class com.jiongji.andriod.card.activity.LinearLayoutDataControl added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.jiongji.andriod.card.activity.LinearLayoutDataControl added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateOptionsMenu in Class com.jiongji.andriod.card.activity.LinearLayoutDataControl added
+[WARNING] [32mVERBOSE[0m Callback method :afterTextChanged in Class com.jiongji.andriod.card.activity.LinearLayoutDataControl added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.jiongji.andriod.card.activity.LinearLayoutDataControl added
+[WARNING] [32mVERBOSE[0m Callback method :onScroll in Class com.jiongji.andriod.card.activity.LinearLayoutDataControl added
+[WARNING] [32mVERBOSE[0m Callback method :onTextChanged in Class com.jiongji.andriod.card.activity.LinearLayoutDataControl added
+[WARNING] [32mVERBOSE[0m Callback method :onRestart in Class com.jiongji.andriod.card.activity.LinearLayoutDataControl added
+[WARNING] [32mVERBOSE[0m Callback method :onLongPress in Class com.jiongji.andriod.card.activity.LinearLayoutDataControl added
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class com.jiongji.andriod.card.activity.LinearLayoutDataControl added
+[WARNING] [32mVERBOSE[0m Callback method :onShowPress in Class com.jiongji.andriod.card.activity.LinearLayoutDataControl added
+[WARNING] [32mVERBOSE[0m Callback method :onOptionsItemSelected in Class com.jiongji.andriod.card.activity.LinearLayoutDataControl added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.jiongji.andriod.card.activity.LinearLayoutDataControl added
+0 ICC links found and 0 cg edges added due to ICC links
+dynamic conflated call graph: 763 methods; 763 nodes; 1255 edges.
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=1
+1 taint flow paths FOUND from <org.json.JSONArray: org.json.JSONArray put(java.lang.Object)> to <android.util.Log: int i(java.lang.String,java.lang.String)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.view.animation.AnimationUtils: android.view.animation.Animation loadAnimation(android.content.Context,int)> to <android.app.Activity: void setVolumeControlStream(int)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <java.util.Locale: java.util.Locale getDefault()> to <org.json.JSONObject: org.json.JSONObject put(java.lang.String,double)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.app.Activity: android.view.WindowManager getWindowManager()> to <android.app.Activity: void setVolumeControlStream(int)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.telephony.TelephonyManager: java.lang.String getNetworkOperatorName()> to <org.json.JSONObject: org.json.JSONObject put(java.lang.String,double)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.view.Window: android.view.WindowManager$LayoutParams getAttributes()> to <android.view.Window: void setAttributes(android.view.WindowManager$LayoutParams)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.view.Display: int getWidth()> to <android.app.Activity: void setVolumeControlStream(int)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.provider.Settings$Secure: java.lang.String getString(android.content.ContentResolver,java.lang.String)> to <android.os.Handler: boolean sendMessage(android.os.Message)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.content.ContextWrapper: android.content.pm.PackageManager getPackageManager()> to <org.json.JSONObject: org.json.JSONObject put(java.lang.String,int)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.os.Environment: java.lang.String getExternalStorageState()> to <android.os.Handler: boolean sendMessage(android.os.Message)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+2 taint flow paths FOUND from <android.content.ContextWrapper: android.content.res.Resources getResources()> to <android.content.res.Resources: java.io.InputStream openRawResource(int)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=6
+6 taint flow paths FOUND from <android.view.LayoutInflater: android.view.View inflate(int,android.view.ViewGroup)> to <android.view.View: void setBackgroundResource(int)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.app.Activity: android.view.LayoutInflater getLayoutInflater()> to <android.view.View: void setBackgroundResource(int)>
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.app.Dialog: android.view.Window getWindow()> to <android.view.Window: void setAttributes(android.view.WindowManager$LayoutParams)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+1 taint flow paths FOUND from <android.content.ContextWrapper: java.lang.String getPackageName()> to <org.json.JSONObject: org.json.JSONObject put(java.lang.String,int)>
+maxpossibleFlows=1
+maxpossibleFlows=2
+2 taint flow paths FOUND from <android.content.ContextWrapper: android.content.res.AssetManager getAssets()> to <android.widget.TextView: void setTextColor(int)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.view.ContextThemeWrapper: android.content.res.Resources getResources()> to <android.widget.TextView: void setSelected(boolean)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.view.View: int getVisibility()> to <android.view.View: void setVisibility(int)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.content.ContextWrapper: android.content.ContentResolver getContentResolver()> to <android.os.Handler: boolean sendMessage(android.os.Message)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <org.json.JSONObject: java.lang.String getString(java.lang.String)> to <android.util.Log: int i(java.lang.String,java.lang.String)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.content.res.Resources: android.graphics.drawable.Drawable getDrawable(int)> to <android.widget.TextView: void setSelected(boolean)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=2
+1 taint flow paths FOUND from <java.lang.StringBuilder: java.lang.String toString()> to <android.os.Handler: boolean sendMessage(android.os.Message)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=5
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <java.util.Locale: java.lang.String getCountry()> to <org.json.JSONObject: org.json.JSONObject put(java.lang.String,double)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <java.util.Locale: java.lang.String getLanguage()> to <org.json.JSONObject: org.json.JSONObject put(java.lang.String,double)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.app.Activity: java.lang.Object getSystemService(java.lang.String)> to <android.util.Log: int i(java.lang.String,java.lang.String)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.view.Display: int getHeight()> to <android.app.Activity: void setVolumeControlStream(int)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <java.util.Calendar: java.util.Calendar getInstance(java.util.Locale)> to <org.json.JSONObject: org.json.JSONObject put(java.lang.String,double)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <java.util.Calendar: java.util.TimeZone getTimeZone()> to <org.json.JSONObject: org.json.JSONObject put(java.lang.String,double)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.provider.Settings$Secure: java.lang.String getString(android.content.ContentResolver,java.lang.String)> to <android.os.Handler: boolean sendMessage(android.os.Message)>
+maxpossibleFlows=1
+1 taint flow paths FOUND from <org.json.JSONArray: org.json.JSONArray put(java.lang.Object)> to <android.util.Log: int i(java.lang.String,java.lang.String)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.provider.Settings$Secure: java.lang.String getString(android.content.ContentResolver,java.lang.String)> to <android.util.Log: int v(java.lang.String,java.lang.String)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+2 taint flow paths FOUND from <android.content.ContextWrapper: android.content.res.AssetManager getAssets()> to <android.widget.TextView: void setTextColor(int)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.content.ContextWrapper: android.content.pm.PackageManager getPackageManager()> to <org.json.JSONObject: org.json.JSONObject put(java.lang.String,int)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.provider.Settings$Secure: java.lang.String getString(android.content.ContentResolver,java.lang.String)> to <android.content.ContextWrapper: android.content.ComponentName startService(android.content.Intent)>
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+2 taint flow paths FOUND from <android.content.ContextWrapper: android.content.res.AssetManager getAssets()> to <android.view.View: void setBackgroundColor(int)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+2 taint flow paths FOUND from <android.content.ContextWrapper: android.content.res.AssetManager getAssets()> to <android.widget.TextView: void setTextSize(float)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=6
+6 taint flow paths FOUND from <android.view.LayoutInflater: android.view.View inflate(int,android.view.ViewGroup)> to <android.view.View: void setBackgroundResource(int)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.view.ContextThemeWrapper: android.content.res.Resources getResources()> to <android.widget.TextView: void setSelected(boolean)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <java.util.Locale: java.util.Locale getDefault()> to <org.json.JSONObject: org.json.JSONObject put(java.lang.String,double)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+2 taint flow paths FOUND from <android.content.ContextWrapper: android.content.res.AssetManager getAssets()> to <android.view.View: void setVisibility(int)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+2 taint flow paths FOUND from <android.content.ContextWrapper: android.content.res.AssetManager getAssets()> to <android.widget.TextView: void setTypeface(android.graphics.Typeface)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.view.ContextThemeWrapper: android.content.res.Resources getResources()> to <android.widget.TextView: void setCompoundDrawablesWithIntrinsicBounds(android.graphics.drawable.Drawable,android.graphics.drawable.Drawable,android.graphics.drawable.Drawable,android.graphics.drawable.Drawable)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+2 taint flow paths FOUND from <android.content.ContextWrapper: android.content.res.AssetManager getAssets()> to <android.widget.TextView: void setText(java.lang.CharSequence)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.content.ContextWrapper: android.content.res.AssetManager getAssets()> to <android.widget.TextView: void setSingleLine(boolean)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.view.ContextThemeWrapper: android.content.res.Resources getResources()> to <android.widget.TextView: void setTextAppearance(android.content.Context,int)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+2 taint flow paths FOUND from <android.content.ContextWrapper: android.content.res.Resources getResources()> to <android.content.res.Resources: java.io.InputStream openRawResource(int)>
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.view.Window: android.view.WindowManager$LayoutParams getAttributes()> to <android.view.Window: void setAttributes(android.view.WindowManager$LayoutParams)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=6
+6 taint flow paths FOUND from <android.view.LayoutInflater: android.view.View inflate(int,android.view.ViewGroup)> to <android.widget.TextView: void setPadding(int,int,int,int)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.view.animation.AnimationUtils: android.view.animation.Animation loadAnimation(android.content.Context,int)> to <android.app.Activity: void setVolumeControlStream(int)>
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class android.support.v4.app.Fragment
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class android.support.v4.app.Fragment
+[WARNING] [32mVERBOSE[0m Callback method :onCreateContextMenu in Class android.support.v4.app.Fragment
+[WARNING] [32mVERBOSE[0m Callback method :onLowMemory in Class android.support.v4.app.Fragment
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class android.support.v4.app.DialogFragment
+[WARNING] [32mVERBOSE[0m Callback method :onCancel in Class android.support.v4.app.DialogFragment
+[WARNING] [32mVERBOSE[0m Callback method :onDismiss in Class android.support.v4.app.DialogFragment
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.jiongji.andriod.card.activity.LinearLayoutDataControl
+[WARNING] [32mVERBOSE[0m Callback method :afterTextChanged in Class com.jiongji.andriod.card.activity.LinearLayoutDataControl
+[WARNING] [32mVERBOSE[0m Callback method :beforeTextChanged in Class com.jiongji.andriod.card.activity.LinearLayoutDataControl
+[WARNING] [32mVERBOSE[0m Callback method :dispatchTouchEvent in Class com.jiongji.andriod.card.activity.LinearLayoutDataControl
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class com.jiongji.andriod.card.activity.LinearLayoutDataControl
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.jiongji.andriod.card.activity.LinearLayoutDataControl
+[WARNING] [32mVERBOSE[0m Callback method :onCreateOptionsMenu in Class com.jiongji.andriod.card.activity.LinearLayoutDataControl
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.jiongji.andriod.card.activity.LinearLayoutDataControl
+[WARNING] [32mVERBOSE[0m Callback method :onDown in Class com.jiongji.andriod.card.activity.LinearLayoutDataControl
+[WARNING] [32mVERBOSE[0m Callback method :onFling in Class com.jiongji.andriod.card.activity.LinearLayoutDataControl
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.jiongji.andriod.card.activity.LinearLayoutDataControl
+[WARNING] [32mVERBOSE[0m Callback method :onLongPress in Class com.jiongji.andriod.card.activity.LinearLayoutDataControl
+[WARNING] [32mVERBOSE[0m Callback method :onOptionsItemSelected in Class com.jiongji.andriod.card.activity.LinearLayoutDataControl
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.jiongji.andriod.card.activity.LinearLayoutDataControl
+[WARNING] [32mVERBOSE[0m Callback method :onPrepareOptionsMenu in Class com.jiongji.andriod.card.activity.LinearLayoutDataControl
+[WARNING] [32mVERBOSE[0m Callback method :onRestart in Class com.jiongji.andriod.card.activity.LinearLayoutDataControl
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.jiongji.andriod.card.activity.LinearLayoutDataControl
+[WARNING] [32mVERBOSE[0m Callback method :onScroll in Class com.jiongji.andriod.card.activity.LinearLayoutDataControl
+[WARNING] [32mVERBOSE[0m Callback method :onShowPress in Class com.jiongji.andriod.card.activity.LinearLayoutDataControl
+[WARNING] [32mVERBOSE[0m Callback method :onSingleTapUp in Class com.jiongji.andriod.card.activity.LinearLayoutDataControl
+[WARNING] [32mVERBOSE[0m Callback method :onTextChanged in Class com.jiongji.andriod.card.activity.LinearLayoutDataControl
+[WARNING] [32mVERBOSE[0m Callback method :onAnimationEnd in Class com.jiongji.andriod.card.adapter.CircleFlowIndicator
+[WARNING] [32mVERBOSE[0m Callback method :onAnimationRepeat in Class com.jiongji.andriod.card.adapter.CircleFlowIndicator
+[WARNING] [32mVERBOSE[0m Callback method :onAnimationStart in Class com.jiongji.andriod.card.adapter.CircleFlowIndicator
+[WARNING] [32mVERBOSE[0m Callback method :onDraw in Class com.jiongji.andriod.card.adapter.CircleFlowIndicator
+[WARNING] [32mVERBOSE[0m Callback method :onMeasure in Class com.jiongji.andriod.card.adapter.CircleFlowIndicator
+Result for benign-app-40-4B94B568839B873F6220C9A516D080B74A0925D62AD577218BECBEA4DAF0E707.apkcom.jiongji.andriod.card

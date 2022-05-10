@@ -1,0 +1,1048 @@
+DUA-Forensics args to Soot: -w -cp /home/hcosta/bench/benchmark/libs/droidfax.jar:/home/hcosta/Android/Sdk/platforms/android-28/android.jar -p cg verbose:false,implicit-entry:true -p cg.spark verbose:false,on-fly-cg:true,rta:false -d /home/hcosta/bench/benchmark/trace/180/6/droidbot/benign-app-3-054E1E67998AA305B1D4A9CD3F638A9E9CAD964DDF8F052B24B2C37E0C552D6E.apk.logcat -process-dir /home/hcosta/bench/benchmark/data/input/benign-app-3-054E1E67998AA305B1D4A9CD3F638A9E9CAD964DDF8F052B24B2C37E0C552D6E.apk 
+Soot started on Fri Apr 22 09:04:31 CEST 2022
+Warning: com.ironsource.mobilcore.BaseFlowBasedAdUnit is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+Warning: org.apache.http.HttpEntity is a phantom class!
+Warning: org.apache.http.HttpResponse is a phantom class!
+Warning: org.apache.http.StatusLine is a phantom class!
+Warning: org.apache.http.client.ClientProtocolException is a phantom class!
+Warning: org.apache.http.client.HttpClient is a phantom class!
+Warning: org.apache.http.client.entity.UrlEncodedFormEntity is a phantom class!
+Warning: org.apache.http.client.methods.HttpPost is a phantom class!
+Warning: org.apache.http.client.methods.HttpUriRequest is a phantom class!
+Warning: org.apache.http.entity.StringEntity is a phantom class!
+Warning: org.apache.http.impl.client.DefaultHttpClient is a phantom class!
+Warning: org.apache.http.message.BasicNameValuePair is a phantom class!
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.0 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+hcai's internal transform
+Running static analysis for security-relevant feature characterization
+[GatorHierarchy] [32mVERBOSE[0m [HIER] All classes: 1239
+[GatorHierarchy] [32mVERBOSE[0m [App: 102, Lib : 1123, Phantom: 14]
+[GatorHierarchy] [32mVERBOSE[0m [HIER] Activities: 10, lib activities: 5
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App views: 8, Lib views: 19
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App Dialogs: 0, Lib Dialogs: 3
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing starting at 1650611072329
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing finished at 1650611078999
+[Instantiated app classes] [32mVERBOSE[0m total number: 133
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.textualindices.refractionlite.Menu added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.textualindices.refractionlite.Menu added
+[WARNING] [32mVERBOSE[0m Callback method :onScroll in Class com.textualindices.refractionlite.SolutionsOnlineActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.textualindices.refractionlite.SolutionsOnlineActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onScrollStateChanged in Class com.textualindices.refractionlite.SolutionsOnlineActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDraw in Class com.textualindices.refractionlite.MenuViewBackup added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.textualindices.refractionlite.LevelActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onNewIntent in Class com.textualindices.refractionlite.LevelActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.textualindices.refractionlite.LevelActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.textualindices.refractionlite.LevelActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.textualindices.refractionlite.LevelActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateOptionsMenu in Class com.textualindices.refractionlite.LevelActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onMenuOpened in Class com.textualindices.refractionlite.LevelActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.textualindices.refractionlite.LevelActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onRestart in Class com.textualindices.refractionlite.LevelActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onOptionsItemSelected in Class com.textualindices.refractionlite.LevelActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.textualindices.refractionlite.LevelActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onOptionsMenuClosed in Class com.textualindices.refractionlite.LevelActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.textualindices.refractionlite.Help added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.textualindices.refractionlite.Help added
+[WARNING] [32mVERBOSE[0m Callback method :onItemClick in Class com.textualindices.refractionlite.LevelSelectGridView added
+[WARNING] [32mVERBOSE[0m Callback method :onDraw in Class com.textualindices.refractionlite.LevelSelectGridView added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.textualindices.refractionlite.SectorActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.textualindices.refractionlite.SectorActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.textualindices.refractionlite.SectorActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.textualindices.refractionlite.SectorActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPrepareDialogBuilder in Class com.textualindices.refractionlite.ListPreferenceMultiSelect added
+[WARNING] [32mVERBOSE[0m Callback method :onDialogClosed in Class com.textualindices.refractionlite.ListPreferenceMultiSelect added
+[WARNING] [32mVERBOSE[0m Callback method :setEntries in Class com.textualindices.refractionlite.ListPreferenceMultiSelect added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.textualindices.refractionlite.SolutionsActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.textualindices.refractionlite.Credits added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.textualindices.refractionlite.LevelSelect added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.textualindices.refractionlite.LevelSelect added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.textualindices.refractionlite.LevelSelect added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.textualindices.refractionlite.Options added
+[WARNING] [32mVERBOSE[0m Callback method :onReceive in Class com.aduru.sdk.receivers.AduruInstallReceiver added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateContextMenu in Class com.textualindices.refractionlite.SolutionsLocalActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.textualindices.refractionlite.SolutionsLocalActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onContextItemSelected in Class com.textualindices.refractionlite.SolutionsLocalActivity added
+3 ICC links found and 1 cg edges added due to ICC links
+dynamic conflated call graph: 766 methods; 766 nodes; 1299 edges.
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.view.View: int getWidth()> to <android.util.Log: int d(java.lang.String,java.lang.String)>
+maxpossibleFlows=3
+maxpossibleFlows=5
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=3
+3 taint flow paths FOUND from <android.content.ContextWrapper: android.content.res.AssetManager getAssets()> to <android.view.View: void setBackgroundColor(int)>
+maxpossibleFlows=6
+6 taint flow paths FOUND from <android.content.Intent: java.lang.String getStringExtra(java.lang.String)> to <android.util.Log: int d(java.lang.String,java.lang.String)>
+maxpossibleFlows=3
+maxpossibleFlows=6
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=6
+maxpossibleFlows=3
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=6
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=3
+maxpossibleFlows=4
+maxpossibleFlows=3
+maxpossibleFlows=6
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=6
+maxpossibleFlows=3
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=6
+maxpossibleFlows=54
+maxpossibleFlows=1
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=3
+maxpossibleFlows=4
+maxpossibleFlows=6
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=9
+1 taint flow paths FOUND from <java.text.DateFormat: java.lang.String format(java.util.Date)> to <java.text.DateFormat: void setTimeZone(java.util.TimeZone)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=6
+maxpossibleFlows=3
+maxpossibleFlows=6
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=6
+maxpossibleFlows=3
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=6
+maxpossibleFlows=1
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=3
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=5
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=5
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=11
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=6
+6 taint flow paths FOUND from <android.app.Activity: android.content.Intent getIntent()> to <android.util.Log: int d(java.lang.String,java.lang.String)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=3
+maxpossibleFlows=1
+maxpossibleFlows=3
+3 taint flow paths FOUND from <android.content.Intent: android.os.Bundle getExtras()> to <android.view.View: void setBackgroundColor(int)>
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.view.View: int getHeight()> to <android.util.Log: int d(java.lang.String,java.lang.String)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=6
+6 taint flow paths FOUND from <android.view.View: android.content.Context getContext()> to <android.view.View: void setClickable(boolean)>
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=6
+maxpossibleFlows=4
+maxpossibleFlows=15
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=3
+maxpossibleFlows=60
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=1
+maxpossibleFlows=3
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=4
+4 taint flow paths FOUND from <java.security.Provider: java.util.Set keySet()> to <android.util.Log: int v(java.lang.String,java.lang.String)>
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=6
+maxpossibleFlows=6
+6 taint flow paths FOUND from <android.view.View: android.content.res.Resources getResources()> to <android.widget.TextView: void setText(java.lang.CharSequence)>
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=54
+maxpossibleFlows=4
+maxpossibleFlows=15
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=3
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=6
+maxpossibleFlows=6
+6 taint flow paths FOUND from <java.lang.reflect.Array: java.lang.Object newInstance(java.lang.Class,int[])> to <android.widget.TextView: void setText(java.lang.CharSequence)>
+maxpossibleFlows=3
+2 taint flow paths FOUND from <android.content.ContextWrapper: android.content.Context getBaseContext()> to <android.util.Log: int d(java.lang.String,java.lang.String)>
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=9
+9 taint flow paths FOUND from <java.util.TimeZone: java.util.TimeZone getTimeZone(java.lang.String)> to <java.text.DateFormat: void setTimeZone(java.util.TimeZone)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.app.PendingIntent: android.app.PendingIntent getBroadcast(android.content.Context,int,android.content.Intent,int)> to <android.app.NotificationManager: void notify(int,android.app.Notification)>
+maxpossibleFlows=3
+3 taint flow paths FOUND from <java.lang.StringBuilder: java.lang.String toString()> to <android.util.Log: int d(java.lang.String,java.lang.String)>
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=54
+maxpossibleFlows=4
+maxpossibleFlows=15
+maxpossibleFlows=5
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=3
+3 taint flow paths FOUND from <android.content.ContextWrapper: android.content.Context getApplicationContext()> to <android.app.Activity: void setContentView(int)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <java.util.UUID: java.lang.String toString()> to <android.util.Log: int v(java.lang.String,java.lang.String)>
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=6
+maxpossibleFlows=6
+6 taint flow paths FOUND from <android.preference.PreferenceManager: android.content.SharedPreferences getDefaultSharedPreferences(android.content.Context)> to <android.widget.TextView: void setText(java.lang.CharSequence)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=6
+6 taint flow paths FOUND from <android.content.res.Resources: android.util.DisplayMetrics getDisplayMetrics()> to <android.view.View: void setClickable(boolean)>
+maxpossibleFlows=1
+maxpossibleFlows=4
+4 taint flow paths FOUND from <java.lang.StringBuffer: java.lang.String toString()> to <android.util.Log: int v(java.lang.String,java.lang.String)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=3
+maxpossibleFlows=6
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=6
+6 taint flow paths FOUND from <android.content.ContextWrapper: android.content.res.Resources getResources()> to <android.view.View: void setClickable(boolean)>
+maxpossibleFlows=6
+6 taint flow paths FOUND from <android.content.Intent: int getIntExtra(java.lang.String,int)> to <android.util.Log: int d(java.lang.String,java.lang.String)>
+maxpossibleFlows=6
+6 taint flow paths FOUND from <android.content.Intent: boolean getBooleanExtra(java.lang.String,boolean)> to <android.util.Log: int d(java.lang.String,java.lang.String)>
+maxpossibleFlows=6
+6 taint flow paths FOUND from <java.io.File: java.lang.String getAbsolutePath()> to <android.util.Log: int v(java.lang.String,java.lang.String)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.app.PendingIntent: android.app.PendingIntent getActivity(android.content.Context,int,android.content.Intent,int)> to <android.content.Intent: android.content.Intent setAction(java.lang.String)>
+maxpossibleFlows=8
+7 taint flow paths FOUND from <java.util.ArrayList: java.util.Iterator iterator()> to <android.util.Log: int d(java.lang.String,java.lang.String)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=3
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=6
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=6
+maxpossibleFlows=1
+maxpossibleFlows=3
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.app.Activity: java.lang.Object getSystemService(java.lang.String)> to <android.app.NotificationManager: void notify(int,android.app.Notification)>
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.content.Context: java.lang.String getString(int)> to <android.content.Intent: android.content.Intent setAction(java.lang.String)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.webkit.WebView: android.webkit.WebSettings getSettings()> to <android.webkit.WebSettings: void setSavePassword(boolean)>
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.view.View: int getWidth()> to <android.util.Log: int d(java.lang.String,java.lang.String)>
+maxpossibleFlows=4
+maxpossibleFlows=5
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=4
+maxpossibleFlows=6
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=6
+maxpossibleFlows=4
+maxpossibleFlows=3
+maxpossibleFlows=4
+4 taint flow paths FOUND from <java.security.Provider: java.util.Set keySet()> to <android.util.Log: int v(java.lang.String,java.lang.String)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.webkit.WebView: android.webkit.WebSettings getSettings()> to <android.webkit.WebSettings: void setSavePassword(boolean)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.app.PendingIntent: android.app.PendingIntent getActivity(android.content.Context,int,android.content.Intent,int)> to <android.content.Intent: android.content.Intent setAction(java.lang.String)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.webkit.WebView: android.webkit.WebSettings getSettings()> to <android.webkit.WebSettings: void setSaveFormData(boolean)>
+maxpossibleFlows=3
+3 taint flow paths FOUND from <android.content.ContextWrapper: android.content.res.AssetManager getAssets()> to <android.view.View: void setBackgroundColor(int)>
+maxpossibleFlows=3
+1 taint flow paths FOUND from <android.content.ContextWrapper: android.content.res.AssetManager getAssets()> to <android.content.Intent: android.content.Intent setClass(android.content.Context,java.lang.Class)>
+maxpossibleFlows=3
+3 taint flow paths FOUND from <android.content.ContextWrapper: android.content.res.AssetManager getAssets()> to <android.widget.TextView: void setTextSize(float)>
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+3 taint flow paths FOUND from <android.content.ContextWrapper: android.content.res.AssetManager getAssets()> to <android.widget.TextView: void setTypeface(android.graphics.Typeface)>
+maxpossibleFlows=5
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=6
+maxpossibleFlows=4
+maxpossibleFlows=6
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=6
+6 taint flow paths FOUND from <android.view.View: android.content.Context getContext()> to <android.view.View: void setClickable(boolean)>
+maxpossibleFlows=1
+maxpossibleFlows=3
+3 taint flow paths FOUND from <android.content.ContextWrapper: android.content.res.AssetManager getAssets()> to <android.widget.TextView: void setText(java.lang.CharSequence)>
+maxpossibleFlows=4
+2 taint flow paths FOUND from <android.content.ContextWrapper: android.content.res.AssetManager getAssets()> to <android.view.View: void setKeepScreenOn(boolean)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.webkit.WebView: android.webkit.WebSettings getSettings()> to <android.webkit.WebSettings: void setSupportZoom(boolean)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.webkit.WebView: android.webkit.WebSettings getSettings()> to <android.webkit.WebSettings: void setJavaScriptEnabled(boolean)>
+maxpossibleFlows=5
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=6
+maxpossibleFlows=4
+maxpossibleFlows=6
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=6
+6 taint flow paths FOUND from <android.view.View: android.content.Context getContext()> to <android.view.View: void setFocusable(boolean)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=54
+maxpossibleFlows=4
+maxpossibleFlows=54
+maxpossibleFlows=4
+maxpossibleFlows=5
+maxpossibleFlows=54
+maxpossibleFlows=4
+maxpossibleFlows=6
+maxpossibleFlows=60
+maxpossibleFlows=4
+maxpossibleFlows=54
+maxpossibleFlows=54
+maxpossibleFlows=3
+maxpossibleFlows=4
+maxpossibleFlows=288
+286 taint flow paths FOUND from <java.lang.StringBuilder: java.lang.String toString()> to <android.graphics.Paint: void setTextAlign(android.graphics.Paint$Align)>
+maxpossibleFlows=5
+maxpossibleFlows=6
+6 taint flow paths FOUND from <android.content.Intent: java.lang.String getStringExtra(java.lang.String)> to <android.app.Activity: void setContentView(android.view.View)>
+maxpossibleFlows=3
+3 taint flow paths FOUND from <android.content.ContextWrapper: android.content.res.AssetManager getAssets()> to <android.widget.TextView: void setPadding(int,int,int,int)>
+maxpossibleFlows=3
+1 taint flow paths FOUND from <android.content.ContextWrapper: android.content.res.AssetManager getAssets()> to <android.content.Intent: android.content.Intent putExtra(java.lang.String,int)>
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=3
+3 taint flow paths FOUND from <android.app.Activity: android.content.Intent getIntent()> to <android.app.Activity: void setContentView(int)>
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=5
+maxpossibleFlows=4
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=6
+6 taint flow paths FOUND from <android.content.Intent: java.lang.String getStringExtra(java.lang.String)> to <android.app.Activity: void setVolumeControlStream(int)>
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.app.PendingIntent: android.app.PendingIntent getBroadcast(android.content.Context,int,android.content.Intent,int)> to <android.app.NotificationManager: void notify(int,android.app.Notification)>
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=9
+1 taint flow paths FOUND from <java.text.DateFormat: java.lang.String format(java.util.Date)> to <java.text.DateFormat: void setTimeZone(java.util.TimeZone)>
+maxpossibleFlows=3
+1 taint flow paths FOUND from <android.content.ContextWrapper: android.content.res.AssetManager getAssets()> to <android.widget.TabHost$TabSpec: android.widget.TabHost$TabSpec setContent(android.content.Intent)>
+maxpossibleFlows=6
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=11
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=6
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=15
+maxpossibleFlows=3
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=15
+maxpossibleFlows=3
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=15
+15 taint flow paths FOUND from <java.lang.StringBuilder: java.lang.String toString()> to <android.content.res.AssetManager: java.io.InputStream open(java.lang.String)>
+[WARNING] [32mVERBOSE[0m Callback method :onDraw in Class com.textualindices.refractionlite.LevelSelectGridView
+[WARNING] [32mVERBOSE[0m Callback method :onItemClick in Class com.textualindices.refractionlite.LevelSelectGridView
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.textualindices.refractionlite.SolutionsOnlineActivity
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.textualindices.refractionlite.SolutionsOnlineActivity
+[WARNING] [32mVERBOSE[0m Callback method :onScroll in Class com.textualindices.refractionlite.SolutionsOnlineActivity
+[WARNING] [32mVERBOSE[0m Callback method :onScrollStateChanged in Class com.textualindices.refractionlite.SolutionsOnlineActivity
+Result for benign-app-3-054E1E67998AA305B1D4A9CD3F638A9E9CAD964DDF8F052B24B2C37E0C552D6E.apkcom.textualindices.refractionlite

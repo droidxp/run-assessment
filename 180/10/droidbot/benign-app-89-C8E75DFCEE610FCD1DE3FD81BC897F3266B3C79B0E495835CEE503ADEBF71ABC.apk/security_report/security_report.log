@@ -1,0 +1,55 @@
+DUA-Forensics args to Soot: -w -cp /home/hcosta/bench/benchmark/libs/droidfax.jar:/home/hcosta/Android/Sdk/platforms/android-28/android.jar -p cg verbose:false,implicit-entry:true -p cg.spark verbose:false,on-fly-cg:true,rta:false -d /home/hcosta/bench/benchmark/trace/180/6/droidbot/benign-app-89-C8E75DFCEE610FCD1DE3FD81BC897F3266B3C79B0E495835CEE503ADEBF71ABC.apk.logcat -process-dir /home/hcosta/bench/benchmark/data/input/benign-app-89-C8E75DFCEE610FCD1DE3FD81BC897F3266B3C79B0E495835CEE503ADEBF71ABC.apk 
+Soot started on Fri Apr 22 08:46:59 CEST 2022
+Warning: com.ironsource.mobilcore.BaseFlowBasedAdUnit is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.0 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+hcai's internal transform
+Running static analysis for security-relevant feature characterization
+[GatorHierarchy] [32mVERBOSE[0m [HIER] All classes: 1058
+[GatorHierarchy] [32mVERBOSE[0m [App: 46, Lib : 1009, Phantom: 3]
+[GatorHierarchy] [32mVERBOSE[0m [HIER] Activities: 2, lib activities: 3
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App views: 2, Lib views: 10
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App Dialogs: 0, Lib Dialogs: 2
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing starting at 1650610019843
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing finished at 1650610020314
+[Instantiated app classes] [32mVERBOSE[0m total number: 71
+[WARNING] [32mVERBOSE[0m Callback method :onBind in Class com.touchmusicfree.TMService added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.touchmusicfree.TMService added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.touchmusicfree.TMService added
+[WARNING] [32mVERBOSE[0m Callback method :onTransact in Class com.touchmusicfree.TMSInterface$Stub added
+[WARNING] [32mVERBOSE[0m Callback method :asBinder in Class com.touchmusicfree.TMSInterface$Stub added
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class com.touchmusicfree.TouchMusic added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.touchmusicfree.TouchMusic added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateOptionsMenu in Class com.touchmusicfree.TouchMusic added
+[WARNING] [32mVERBOSE[0m Callback method :onSaveInstanceState in Class com.touchmusicfree.TouchMusic added
+[WARNING] [32mVERBOSE[0m Callback method :onOptionsItemSelected in Class com.touchmusicfree.TouchMusic added
+[WARNING] [32mVERBOSE[0m Callback method :onWindowFocusChanged in Class com.admob.android.ads.AdView added
+[WARNING] [32mVERBOSE[0m Callback method :onMeasure in Class com.admob.android.ads.AdView added
+[WARNING] [32mVERBOSE[0m Callback method :setBackgroundColor in Class com.admob.android.ads.AdView added
+[WARNING] [32mVERBOSE[0m Callback method :onDetachedFromWindow in Class com.admob.android.ads.AdView added
+[WARNING] [32mVERBOSE[0m Callback method :onAttachedToWindow in Class com.admob.android.ads.AdView added
+[WARNING] [32mVERBOSE[0m Callback method :getVisibility in Class com.admob.android.ads.AdView added
+[WARNING] [32mVERBOSE[0m Callback method :setVisibility in Class com.admob.android.ads.AdView added
+[WARNING] [32mVERBOSE[0m Callback method :onOptionsItemSelected in Class com.touchmusicfree.Settings added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.touchmusicfree.Settings added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateOptionsMenu in Class com.touchmusicfree.Settings added
+0 ICC links found and 0 cg edges added due to ICC links
+dynamic conflated call graph: 53 methods; 53 nodes; 42 edges.
+maxpossibleFlows=3
+3 taint flow paths FOUND from <android.app.Activity: java.lang.Object getSystemService(java.lang.String)> to <android.content.ContextWrapper: boolean bindService(android.content.Intent,android.content.ServiceConnection,int)>
+maxpossibleFlows=3
+3 taint flow paths FOUND from <android.preference.PreferenceManager: android.content.SharedPreferences getDefaultSharedPreferences(android.content.Context)> to <android.content.ContextWrapper: boolean bindService(android.content.Intent,android.content.ServiceConnection,int)>
+maxpossibleFlows=3
+3 taint flow paths FOUND from <android.app.Activity: java.lang.Object getSystemService(java.lang.String)> to <android.content.ContextWrapper: boolean bindService(android.content.Intent,android.content.ServiceConnection,int)>
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+3 taint flow paths FOUND from <android.preference.PreferenceManager: android.content.SharedPreferences getDefaultSharedPreferences(android.content.Context)> to <android.app.Activity: void setRequestedOrientation(int)>
+Result for benign-app-89-C8E75DFCEE610FCD1DE3FD81BC897F3266B3C79B0E495835CEE503ADEBF71ABC.apkcom.touchmusicfree

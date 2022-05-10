@@ -1,0 +1,285 @@
+DUA-Forensics args to Soot: -w -cp /home/handrick/Documents/UNB/benchmark/libs/droidfax.jar:/home/handrick/Android/Sdk/platforms/android-19/android.jar -p cg verbose:false,implicit-entry:true -p cg.spark verbose:false,on-fly-cg:true,rta:false -d /home/handrick/Documents/UNB/benchmark/trace/180/3/droidbot/benign-app-101-D4703192836F76C1AB44C692BE1A8231BB97E5D0365B82F3C99478651EA56215.apk.logcat -process-dir /home/handrick/Documents/UNB/benchmark/data/input/benign-app-101-D4703192836F76C1AB44C692BE1A8231BB97E5D0365B82F3C99478651EA56215.apk 
+Soot started on Sat Apr 16 00:45:50 CEST 2022
+Warning: com.ironsource.mobilcore.BaseFlowBasedAdUnit is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+get type from 'Z'
+get type from 'Z'
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.0 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+hcai's internal transform
+Running static analysis for security-relevant feature characterization
+[GatorHierarchy] [32mVERBOSE[0m [HIER] All classes: 2675
+[GatorHierarchy] [32mVERBOSE[0m [App: 1410, Lib : 1262, Phantom: 3]
+[GatorHierarchy] [32mVERBOSE[0m [HIER] Activities: 19, lib activities: 3
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App views: 18, Lib views: 26
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App Dialogs: 1, Lib Dialogs: 4
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing starting at 1650062753682
+second round from stmt: $u9#11 = $u0[$u2#9]
+second round from stmt: $u3 = $u6#7[$u4#4]
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing finished at 1650062817365
+[Instantiated app classes] [32mVERBOSE[0m total number: 1158
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.google.zxing.client.android.HelpActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.google.zxing.client.android.HelpActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onSaveInstanceState in Class com.google.zxing.client.android.HelpActivity added
+[WARNING] [32mVERBOSE[0m Callback method :startDocument in Class com.appMobi.appMobiLib.AssetCacheHandler added
+[WARNING] [32mVERBOSE[0m Callback method :startElement in Class com.appMobi.appMobiLib.AssetCacheHandler added
+[WARNING] [32mVERBOSE[0m Callback method :endDocument in Class com.appMobi.appMobiLib.AssetCacheHandler added
+[WARNING] [32mVERBOSE[0m Callback method :characters in Class com.appMobi.appMobiLib.AssetCacheHandler added
+[WARNING] [32mVERBOSE[0m Callback method :endElement in Class com.appMobi.appMobiLib.AssetCacheHandler added
+[WARNING] [32mVERBOSE[0m Callback method :onLowMemory in Class android.support.v4.app.Fragment added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateContextMenu in Class android.support.v4.app.Fragment added
+[WARNING] [32mVERBOSE[0m Callback method :onDismiss in Class android.support.v4.app.DialogFragment added
+[WARNING] [32mVERBOSE[0m Callback method :onCancel in Class android.support.v4.app.DialogFragment added
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class android.support.v4.app.Fragment added
+[WARNING] [32mVERBOSE[0m Callback method :onMediaScannerConnected in Class org.apache.cordova.CameraLauncher added
+[WARNING] [32mVERBOSE[0m Callback method :onScanCompleted in Class org.apache.cordova.CameraLauncher added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.google.zxing.client.android.CaptureActivity added
+[WARNING] [32mVERBOSE[0m Callback method :surfaceDestroyed in Class com.google.zxing.client.android.CaptureActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class com.google.zxing.client.android.CaptureActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPrepareOptionsMenu in Class com.google.zxing.client.android.CaptureActivity added
+[WARNING] [32mVERBOSE[0m Callback method :surfaceChanged in Class com.google.zxing.client.android.CaptureActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.google.zxing.client.android.CaptureActivity added
+[WARNING] [32mVERBOSE[0m Callback method :surfaceCreated in Class com.google.zxing.client.android.CaptureActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.google.zxing.client.android.CaptureActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateOptionsMenu in Class com.google.zxing.client.android.CaptureActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.google.zxing.client.android.CaptureActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onOptionsItemSelected in Class com.google.zxing.client.android.CaptureActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.google.zxing.client.android.CaptureActivity added
+[WARNING] [32mVERBOSE[0m Callback method :setImageResource in Class fm.flycast.ReflectionView added
+[WARNING] [32mVERBOSE[0m Callback method :onSizeChanged in Class fm.flycast.ReflectionView added
+[WARNING] [32mVERBOSE[0m Callback method :setImageBitmap in Class fm.flycast.ReflectionView added
+[WARNING] [32mVERBOSE[0m Callback method :setImageDrawable in Class fm.flycast.ReflectionView added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.appMobi.appMobiLib.ReleaseListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :getItem in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getView in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getDropDownView in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getFilter in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getCount in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getItemId in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :hasStableIds in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :onUnbind in Class com.appMobi.appMobiLib.LocalService added
+[WARNING] [32mVERBOSE[0m Callback method :onBind in Class com.appMobi.appMobiLib.LocalService added
+[WARNING] [32mVERBOSE[0m Callback method :onRebind in Class com.appMobi.appMobiLib.LocalService added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.appMobi.appMobiLib.LocalService added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.appMobi.appMobiLib.LocalService added
+[WARNING] [32mVERBOSE[0m Callback method :onFinishInflate in Class com.google.zxing.client.android.book.SearchBookContentsListItem added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPanelClosed in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPostCreate in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onMenuItemSelected in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onBackPressed in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onRetainNonConfigurationInstance in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreatePanelMenu in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :dump in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateView in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPreparePanel in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onSaveInstanceState in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :startActivityForResult in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPostResume in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onLowMemory in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onHandleIntent in Class com.google.android.c2dm.C2DMBaseReceiver added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.appMobi.appMobiLib.GoogleAdActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onHandleIntent in Class com.google.android.c2dm.C2DMBaseReceiver added
+[WARNING] [32mVERBOSE[0m Callback method :onListItemClick in Class com.google.zxing.client.android.share.AppPickerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.google.zxing.client.android.share.AppPickerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.appMobi.appMobiLib.AppMobiActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onWindowFocusChanged in Class com.appMobi.appMobiLib.AppMobiActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onAttachedToWindow in Class com.appMobi.appMobiLib.AppMobiActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class com.appMobi.appMobiLib.AppMobiActivity added
+[WARNING] [32mVERBOSE[0m Callback method :finish in Class com.appMobi.appMobiLib.AppMobiActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.appMobi.appMobiLib.AppMobiActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.pipelineinteractive.pipeline.firedupdroid8b.MainActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.pipelineinteractive.pipeline.firedupdroid8b.MainActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateOptionsMenu in Class com.appMobi.appMobiLib.AppMobiActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.pipelineinteractive.pipeline.firedupdroid8b.MainActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class com.appMobi.appMobiLib.AppMobiActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onRestart in Class com.appMobi.appMobiLib.AppMobiActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class com.appMobi.appMobiLib.AppMobiActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onOptionsItemSelected in Class com.appMobi.appMobiLib.AppMobiActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.appMobi.appMobiLib.AppMobiActivity added
+[WARNING] [32mVERBOSE[0m Callback method :getItem in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getView in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getDropDownView in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getFilter in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getCount in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getItemId in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :hasStableIds in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :onLowMemory in Class android.support.v4.app.Fragment added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateContextMenu in Class android.support.v4.app.Fragment added
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class android.support.v4.app.Fragment added
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class com.google.zxing.client.android.book.SearchBookContentsActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.google.zxing.client.android.book.SearchBookContentsActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.google.zxing.client.android.book.SearchBookContentsActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.apache.cordova.CompassListener added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.apache.cordova.CompassListener added
+[WARNING] [32mVERBOSE[0m Callback method :onListItemClick in Class com.google.zxing.client.android.share.BookmarkPickerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.google.zxing.client.android.share.BookmarkPickerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onUnbind in Class com.appMobi.appMobiLib.LocalService added
+[WARNING] [32mVERBOSE[0m Callback method :onBind in Class com.appMobi.appMobiLib.LocalService added
+[WARNING] [32mVERBOSE[0m Callback method :onRebind in Class com.appMobi.appMobiLib.LocalService added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.appMobi.appMobiLib.LocalService added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.appMobi.appMobiLib.LocalService added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.apache.cordova.AccelListener added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.apache.cordova.AccelListener added
+[WARNING] [32mVERBOSE[0m Callback method :surfaceCreated in Class com.appMobi.appMobiLib.GLSurfaceView1 added
+[WARNING] [32mVERBOSE[0m Callback method :onDetachedFromWindow in Class com.appMobi.appMobiLib.GLSurfaceView1 added
+[WARNING] [32mVERBOSE[0m Callback method :surfaceDestroyed in Class com.appMobi.appMobiLib.GLSurfaceView1 added
+[WARNING] [32mVERBOSE[0m Callback method :surfaceChanged in Class com.appMobi.appMobiLib.GLSurfaceView1 added
+[WARNING] [32mVERBOSE[0m Callback method :onHandleIntent in Class com.google.android.c2dm.C2DMBaseReceiver added
+[WARNING] [32mVERBOSE[0m Callback method :onSharedPreferenceChanged in Class com.google.zxing.client.android.PreferencesActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.google.zxing.client.android.PreferencesActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.google.zxing.client.android.share.ShareActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class com.google.zxing.client.android.share.ShareActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.google.zxing.client.android.share.ShareActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onTransact in Class com.android.vending.billing.IMarketBillingService$Stub added
+[WARNING] [32mVERBOSE[0m Callback method :asBinder in Class com.android.vending.billing.IMarketBillingService$Stub added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class fm.flycast.SleepTimerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDraw in Class fm.flycast.FlyProgressView added
+[WARNING] [32mVERBOSE[0m Callback method :onLowMemory in Class android.support.v4.app.Fragment added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateContextMenu in Class android.support.v4.app.Fragment added
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class android.support.v4.app.Fragment added
+[WARNING] [32mVERBOSE[0m Callback method :onLocationChanged in Class org.apache.cordova.CordovaLocationListener added
+[WARNING] [32mVERBOSE[0m Callback method :onProviderDisabled in Class org.apache.cordova.CordovaLocationListener added
+[WARNING] [32mVERBOSE[0m Callback method :onStatusChanged in Class org.apache.cordova.CordovaLocationListener added
+[WARNING] [32mVERBOSE[0m Callback method :onProviderEnabled in Class org.apache.cordova.CordovaLocationListener added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.google.zxing.client.android.wifi.WifiActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.google.zxing.client.android.wifi.WifiActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.google.zxing.client.android.wifi.WifiActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.google.zxing.client.android.wifi.WifiActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class org.apache.cordova.CordovaActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class org.apache.cordova.CordovaActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPrepareOptionsMenu in Class org.apache.cordova.CordovaActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onNewIntent in Class org.apache.cordova.CordovaActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class org.apache.cordova.CordovaActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class org.apache.cordova.CordovaActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateOptionsMenu in Class org.apache.cordova.CordovaActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyUp in Class org.apache.cordova.CordovaActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class org.apache.cordova.CordovaActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onSaveInstanceState in Class org.apache.cordova.CordovaActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class org.apache.cordova.CordovaActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onOptionsItemSelected in Class org.apache.cordova.CordovaActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class org.apache.cordova.CordovaActivity added
+[WARNING] [32mVERBOSE[0m Callback method :getItem in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getView in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getDropDownView in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getFilter in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getCount in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getItemId in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :hasStableIds in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :onDraw in Class com.google.zxing.client.android.ViewfinderView added
+[WARNING] [32mVERBOSE[0m Callback method :onReceive in Class com.google.android.c2dm.C2DMBroadcastReceiver added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.appMobi.appMobiLib.AppMobiActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onWindowFocusChanged in Class com.appMobi.appMobiLib.AppMobiActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onAttachedToWindow in Class com.appMobi.appMobiLib.AppMobiActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class com.appMobi.appMobiLib.AppMobiActivity added
+[WARNING] [32mVERBOSE[0m Callback method :finish in Class com.appMobi.appMobiLib.AppMobiActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.appMobi.appMobiLib.AppMobiActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.appMobi.appMobiLib.AppMobiActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.appMobi.appMobiLib.AppMobiActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateOptionsMenu in Class com.appMobi.appMobiLib.AppMobiActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.appMobi.appMobiLib.AppMobiActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class com.appMobi.appMobiLib.AppMobiActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onRestart in Class com.appMobi.appMobiLib.AppMobiActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class com.appMobi.appMobiLib.AppMobiActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onOptionsItemSelected in Class com.appMobi.appMobiLib.AppMobiActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.appMobi.appMobiLib.AppMobiActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.appMobi.appMobiLib.oauth.VerificationActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.google.zxing.client.android.encode.EncodeActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateOptionsMenu in Class com.google.zxing.client.android.encode.EncodeActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onOptionsItemSelected in Class com.google.zxing.client.android.encode.EncodeActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.google.zxing.client.android.encode.EncodeActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onWindowFocusChanged in Class com.google.ads.GoogleAdView added
+[WARNING] [32mVERBOSE[0m Callback method :onRestoreInstanceState in Class com.google.ads.GoogleAdView added
+[WARNING] [32mVERBOSE[0m Callback method :reset in Class com.google.ads.GoogleAdView added
+[WARNING] [32mVERBOSE[0m Callback method :onSaveInstanceState in Class com.google.ads.GoogleAdView added
+[WARNING] [32mVERBOSE[0m Callback method :setDisplayedChild in Class com.google.ads.GoogleAdView added
+[WARNING] [32mVERBOSE[0m Callback method :onDetachedFromWindow in Class com.google.ads.GoogleAdView added
+[WARNING] [32mVERBOSE[0m Callback method :onReceive in Class com.appMobiCloud.google_play.BillingReceiver added
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class com.appMobi.appMobiLib.AppMobiVersionedCameraPreview added
+[WARNING] [32mVERBOSE[0m Callback method :surfaceCreated in Class com.appMobi.appMobiLib.AppMobiVersionedCameraPreview added
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class com.appMobi.appMobiLib.AppMobiVersionedCameraPreview added
+[WARNING] [32mVERBOSE[0m Callback method :surfaceDestroyed in Class com.appMobi.appMobiLib.AppMobiVersionedCameraPreview added
+[WARNING] [32mVERBOSE[0m Callback method :surfaceChanged in Class com.appMobi.appMobiLib.AppMobiVersionedCameraPreview added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.appMobi.appMobiLib.PodcastActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.appMobi.appMobiLib.PodcastActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.appMobi.appMobiLib.PodcastActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.appMobi.appMobiLib.PodcastActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class org.apache.cordova.CordovaActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class org.apache.cordova.CordovaActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPrepareOptionsMenu in Class org.apache.cordova.CordovaActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onNewIntent in Class org.apache.cordova.CordovaActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class org.apache.cordova.CordovaActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class org.apache.cordova.CordovaActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateOptionsMenu in Class org.apache.cordova.CordovaActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyUp in Class org.apache.cordova.CordovaActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class org.apache.cordova.CordovaActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onSaveInstanceState in Class org.apache.cordova.CordovaActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class org.apache.cordova.CordovaActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onOptionsItemSelected in Class org.apache.cordova.CordovaActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class org.apache.cordova.CordovaActivity added
+0 ICC links found and 0 cg edges added due to ICC links
+dynamic conflated call graph: 0 methods; 0 nodes; 0 edges.
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class android.support.v4.app.Fragment
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class android.support.v4.app.Fragment
+[WARNING] [32mVERBOSE[0m Callback method :onCreateContextMenu in Class android.support.v4.app.Fragment
+[WARNING] [32mVERBOSE[0m Callback method :onLowMemory in Class android.support.v4.app.Fragment
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class android.support.v4.app.DialogFragment
+[WARNING] [32mVERBOSE[0m Callback method :onCancel in Class android.support.v4.app.DialogFragment
+[WARNING] [32mVERBOSE[0m Callback method :onDismiss in Class android.support.v4.app.DialogFragment
+[WARNING] [32mVERBOSE[0m Hierarchy.virtualDispatch called with non-concrete receiver class: com.appMobi.appMobiLib.AppMobiVersionedCameraPreview, subsig: void onConfigurationChanged(android.content.res.Configuration)
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class com.appMobi.appMobiLib.AppMobiVersionedCameraPreview
+[WARNING] [32mVERBOSE[0m Hierarchy.virtualDispatch called with non-concrete receiver class: com.appMobi.appMobiLib.AppMobiVersionedCameraPreview, subsig: boolean onTouchEvent(android.view.MotionEvent)
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class com.appMobi.appMobiLib.AppMobiVersionedCameraPreview
+[WARNING] [32mVERBOSE[0m Hierarchy.virtualDispatch called with non-concrete receiver class: com.appMobi.appMobiLib.AppMobiVersionedCameraPreview, subsig: void surfaceChanged(android.view.SurfaceHolder,int,int,int)
+[WARNING] [32mVERBOSE[0m Callback method :surfaceChanged in Class com.appMobi.appMobiLib.AppMobiVersionedCameraPreview
+[WARNING] [32mVERBOSE[0m Hierarchy.virtualDispatch called with non-concrete receiver class: com.appMobi.appMobiLib.AppMobiVersionedCameraPreview, subsig: void surfaceCreated(android.view.SurfaceHolder)
+[WARNING] [32mVERBOSE[0m Callback method :surfaceCreated in Class com.appMobi.appMobiLib.AppMobiVersionedCameraPreview
+[WARNING] [32mVERBOSE[0m Hierarchy.virtualDispatch called with non-concrete receiver class: com.appMobi.appMobiLib.AppMobiVersionedCameraPreview, subsig: void surfaceDestroyed(android.view.SurfaceHolder)
+[WARNING] [32mVERBOSE[0m Callback method :surfaceDestroyed in Class com.appMobi.appMobiLib.AppMobiVersionedCameraPreview
+[WARNING] [32mVERBOSE[0m Callback method :onDetachedFromWindow in Class com.appMobi.appMobiLib.GLSurfaceView1
+[WARNING] [32mVERBOSE[0m Callback method :surfaceChanged in Class com.appMobi.appMobiLib.GLSurfaceView1
+[WARNING] [32mVERBOSE[0m Callback method :surfaceCreated in Class com.appMobi.appMobiLib.GLSurfaceView1
+[WARNING] [32mVERBOSE[0m Callback method :surfaceDestroyed in Class com.appMobi.appMobiLib.GLSurfaceView1
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.google.zxing.client.android.CaptureActivity
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class com.google.zxing.client.android.CaptureActivity
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.google.zxing.client.android.CaptureActivity
+[WARNING] [32mVERBOSE[0m Callback method :onCreateOptionsMenu in Class com.google.zxing.client.android.CaptureActivity
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.google.zxing.client.android.CaptureActivity
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.google.zxing.client.android.CaptureActivity
+[WARNING] [32mVERBOSE[0m Callback method :onOptionsItemSelected in Class com.google.zxing.client.android.CaptureActivity
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.google.zxing.client.android.CaptureActivity
+[WARNING] [32mVERBOSE[0m Callback method :onPrepareOptionsMenu in Class com.google.zxing.client.android.CaptureActivity
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.google.zxing.client.android.CaptureActivity
+[WARNING] [32mVERBOSE[0m Callback method :surfaceChanged in Class com.google.zxing.client.android.CaptureActivity
+[WARNING] [32mVERBOSE[0m Callback method :surfaceCreated in Class com.google.zxing.client.android.CaptureActivity
+[WARNING] [32mVERBOSE[0m Callback method :surfaceDestroyed in Class com.google.zxing.client.android.CaptureActivity
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class org.apache.cordova.AccelListener
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.apache.cordova.AccelListener
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.apache.cordova.AccelListener
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class org.apache.cordova.CameraLauncher
+[WARNING] [32mVERBOSE[0m Callback method :onMediaScannerConnected in Class org.apache.cordova.CameraLauncher
+[WARNING] [32mVERBOSE[0m Callback method :onScanCompleted in Class org.apache.cordova.CameraLauncher
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class org.apache.cordova.CompassListener
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.apache.cordova.CompassListener
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.apache.cordova.CompassListener
+[WARNING] [32mVERBOSE[0m Callback method :onLocationChanged in Class org.apache.cordova.CordovaLocationListener
+[WARNING] [32mVERBOSE[0m Callback method :onProviderDisabled in Class org.apache.cordova.CordovaLocationListener
+[WARNING] [32mVERBOSE[0m Callback method :onProviderEnabled in Class org.apache.cordova.CordovaLocationListener
+[WARNING] [32mVERBOSE[0m Callback method :onStatusChanged in Class org.apache.cordova.CordovaLocationListener
+Result for benign-app-101-D4703192836F76C1AB44C692BE1A8231BB97E5D0365B82F3C99478651EA56215.apkandroid

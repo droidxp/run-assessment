@@ -1,0 +1,788 @@
+DUA-Forensics args to Soot: -w -cp /home/handrick/Documents/UNB/benchmark/libs/droidfax.jar:/home/handrick/Android/Sdk/platforms/android-19/android.jar -p cg verbose:false,implicit-entry:true -p cg.spark verbose:false,on-fly-cg:true,rta:false -d /home/handrick/Documents/UNB/benchmark/trace/180/2/droidbot/malicious-app-66-C8B3808292A61899B8BCC02A55E665655F678F2B923F206FA502144ACB2F2498.apk.logcat -process-dir /home/handrick/Documents/UNB/benchmark/data/input/malicious-app-66-C8B3808292A61899B8BCC02A55E665655F678F2B923F206FA502144ACB2F2498.apk 
+Soot started on Fri Apr 15 13:02:01 CEST 2022
+Warning: com.ironsource.mobilcore.BaseFlowBasedAdUnit is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+get type from 'I'
+get type from 'I'
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.0 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+hcai's internal transform
+Running static analysis for security-relevant feature characterization
+[GatorHierarchy] [32mVERBOSE[0m [HIER] All classes: 1666
+[GatorHierarchy] [32mVERBOSE[0m [App: 601, Lib : 1062, Phantom: 3]
+[GatorHierarchy] [32mVERBOSE[0m [HIER] Activities: 17, lib activities: 4
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App views: 32, Lib views: 28
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App Dialogs: 1, Lib Dialogs: 5
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing starting at 1650020522802
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing finished at 1650020527628
+[Instantiated app classes] [32mVERBOSE[0m total number: 424
+[WARNING] [32mVERBOSE[0m Callback method :onPanelClosed in Class com.actionbarsherlock.app.SherlockActivity added
+[WARNING] [32mVERBOSE[0m Callback method :addContentView in Class com.actionbarsherlock.app.SherlockActivity added
+[WARNING] [32mVERBOSE[0m Callback method :openOptionsMenu in Class com.actionbarsherlock.app.SherlockActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPostCreate in Class com.actionbarsherlock.app.SherlockActivity added
+[WARNING] [32mVERBOSE[0m Callback method :setContentView in Class com.actionbarsherlock.app.SherlockActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class com.actionbarsherlock.app.SherlockActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPrepareOptionsMenu in Class com.actionbarsherlock.app.SherlockActivity added
+[WARNING] [32mVERBOSE[0m Callback method :closeOptionsMenu in Class com.actionbarsherlock.app.SherlockActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onRestoreInstanceState in Class com.actionbarsherlock.app.SherlockActivity added
+[WARNING] [32mVERBOSE[0m Callback method :setContentView in Class com.actionbarsherlock.app.SherlockActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.actionbarsherlock.app.SherlockActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onTitleChanged in Class com.actionbarsherlock.app.SherlockActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.actionbarsherlock.app.SherlockActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class de.ub0r.android.websms.AboutActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateOptionsMenu in Class com.actionbarsherlock.app.SherlockActivity added
+[WARNING] [32mVERBOSE[0m Callback method :invalidateOptionsMenu in Class com.actionbarsherlock.app.SherlockActivity added
+[WARNING] [32mVERBOSE[0m Callback method :dispatchKeyEvent in Class com.actionbarsherlock.app.SherlockActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onMenuOpened in Class com.actionbarsherlock.app.SherlockActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.actionbarsherlock.app.SherlockActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onSaveInstanceState in Class com.actionbarsherlock.app.SherlockActivity added
+[WARNING] [32mVERBOSE[0m Callback method :setContentView in Class com.actionbarsherlock.app.SherlockActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onOptionsItemSelected in Class com.actionbarsherlock.app.SherlockActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPostResume in Class com.actionbarsherlock.app.SherlockActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPanelClosed in Class com.actionbarsherlock.app.SherlockActivity added
+[WARNING] [32mVERBOSE[0m Callback method :addContentView in Class com.actionbarsherlock.app.SherlockActivity added
+[WARNING] [32mVERBOSE[0m Callback method :openOptionsMenu in Class com.actionbarsherlock.app.SherlockActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPostCreate in Class com.actionbarsherlock.app.SherlockActivity added
+[WARNING] [32mVERBOSE[0m Callback method :setContentView in Class com.actionbarsherlock.app.SherlockActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class com.actionbarsherlock.app.SherlockActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPrepareOptionsMenu in Class com.actionbarsherlock.app.SherlockActivity added
+[WARNING] [32mVERBOSE[0m Callback method :closeOptionsMenu in Class com.actionbarsherlock.app.SherlockActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onRestoreInstanceState in Class com.actionbarsherlock.app.SherlockActivity added
+[WARNING] [32mVERBOSE[0m Callback method :setContentView in Class com.actionbarsherlock.app.SherlockActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.actionbarsherlock.app.SherlockActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onTitleChanged in Class com.actionbarsherlock.app.SherlockActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.actionbarsherlock.app.SherlockActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class de.ub0r.android.websms.CaptchaActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateOptionsMenu in Class com.actionbarsherlock.app.SherlockActivity added
+[WARNING] [32mVERBOSE[0m Callback method :invalidateOptionsMenu in Class com.actionbarsherlock.app.SherlockActivity added
+[WARNING] [32mVERBOSE[0m Callback method :dispatchKeyEvent in Class com.actionbarsherlock.app.SherlockActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onMenuOpened in Class com.actionbarsherlock.app.SherlockActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class de.ub0r.android.websms.CaptchaActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onSaveInstanceState in Class com.actionbarsherlock.app.SherlockActivity added
+[WARNING] [32mVERBOSE[0m Callback method :setContentView in Class com.actionbarsherlock.app.SherlockActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onOptionsItemSelected in Class com.actionbarsherlock.app.SherlockActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class de.ub0r.android.websms.CaptchaActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPostResume in Class com.actionbarsherlock.app.SherlockActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPanelClosed in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onMenuItemSelected in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onBackPressed in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onRetainNonConfigurationInstance in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreatePanelMenu in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :dump in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateView in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPreparePanel in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onSaveInstanceState in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :startActivityForResult in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPostResume in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onLowMemory in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :setTranslationY in Class com.actionbarsherlock.internal.nineoldandroids.view.NineViewGroup added
+[WARNING] [32mVERBOSE[0m Callback method :getAlpha in Class com.actionbarsherlock.internal.nineoldandroids.view.NineViewGroup added
+[WARNING] [32mVERBOSE[0m Callback method :getTranslationY in Class com.actionbarsherlock.internal.nineoldandroids.view.NineViewGroup added
+[WARNING] [32mVERBOSE[0m Callback method :setTranslationX in Class com.actionbarsherlock.internal.nineoldandroids.view.NineViewGroup added
+[WARNING] [32mVERBOSE[0m Callback method :setAlpha in Class com.actionbarsherlock.internal.nineoldandroids.view.NineViewGroup added
+[WARNING] [32mVERBOSE[0m Callback method :getTranslationX in Class com.actionbarsherlock.internal.nineoldandroids.view.NineViewGroup added
+[WARNING] [32mVERBOSE[0m Callback method :setVisibility in Class com.actionbarsherlock.internal.nineoldandroids.view.NineViewGroup added
+[WARNING] [32mVERBOSE[0m Callback method :onLowMemory in Class android.support.v4.app.Fragment added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateContextMenu in Class android.support.v4.app.Fragment added
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class android.support.v4.app.Fragment added
+[WARNING] [32mVERBOSE[0m Callback method :addView in Class com.actionbarsherlock.internal.widget.IcsAdapterView added
+[WARNING] [32mVERBOSE[0m Callback method :onInitializeAccessibilityNodeInfo in Class com.actionbarsherlock.internal.widget.IcsAdapterView added
+[WARNING] [32mVERBOSE[0m Callback method :canAnimate in Class com.actionbarsherlock.internal.widget.IcsAdapterView added
+[WARNING] [32mVERBOSE[0m Callback method :dispatchRestoreInstanceState in Class com.actionbarsherlock.internal.widget.IcsAdapterView added
+[WARNING] [32mVERBOSE[0m Callback method :removeViewAt in Class com.actionbarsherlock.internal.widget.IcsAdapterView added
+[WARNING] [32mVERBOSE[0m Callback method :onInitializeAccessibilityEvent in Class com.actionbarsherlock.internal.widget.IcsAdapterView added
+[WARNING] [32mVERBOSE[0m Callback method :addView in Class com.actionbarsherlock.internal.widget.IcsAdapterView added
+[WARNING] [32mVERBOSE[0m Callback method :removeAllViews in Class com.actionbarsherlock.internal.widget.IcsAdapterView added
+[WARNING] [32mVERBOSE[0m Callback method :onLayout in Class com.actionbarsherlock.internal.widget.IcsAdapterView added
+[WARNING] [32mVERBOSE[0m Callback method :onDetachedFromWindow in Class com.actionbarsherlock.internal.widget.IcsAdapterView added
+[WARNING] [32mVERBOSE[0m Callback method :dispatchSaveInstanceState in Class com.actionbarsherlock.internal.widget.IcsAdapterView added
+[WARNING] [32mVERBOSE[0m Callback method :setFocusableInTouchMode in Class com.actionbarsherlock.internal.widget.IcsAdapterView added
+[WARNING] [32mVERBOSE[0m Callback method :onRequestSendAccessibilityEvent in Class com.actionbarsherlock.internal.widget.IcsAdapterView added
+[WARNING] [32mVERBOSE[0m Callback method :addView in Class com.actionbarsherlock.internal.widget.IcsAdapterView added
+[WARNING] [32mVERBOSE[0m Callback method :dispatchPopulateAccessibilityEvent in Class com.actionbarsherlock.internal.widget.IcsAdapterView added
+[WARNING] [32mVERBOSE[0m Callback method :addView in Class com.actionbarsherlock.internal.widget.IcsAdapterView added
+[WARNING] [32mVERBOSE[0m Callback method :removeView in Class com.actionbarsherlock.internal.widget.IcsAdapterView added
+[WARNING] [32mVERBOSE[0m Callback method :setFocusable in Class com.actionbarsherlock.internal.widget.IcsAdapterView added
+[WARNING] [32mVERBOSE[0m Callback method :setOnClickListener in Class com.actionbarsherlock.internal.widget.IcsAdapterView added
+[WARNING] [32mVERBOSE[0m Callback method :onHoverEvent in Class com.actionbarsherlock.internal.widget.ActionBarContainer added
+[WARNING] [32mVERBOSE[0m Callback method :onMeasure in Class com.actionbarsherlock.internal.widget.ActionBarContainer added
+[WARNING] [32mVERBOSE[0m Callback method :onFinishInflate in Class com.actionbarsherlock.internal.widget.ActionBarContainer added
+[WARNING] [32mVERBOSE[0m Callback method :onLayout in Class com.actionbarsherlock.internal.widget.ActionBarContainer added
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class com.actionbarsherlock.internal.widget.ActionBarContainer added
+[WARNING] [32mVERBOSE[0m Callback method :setTranslationY in Class com.actionbarsherlock.internal.nineoldandroids.widget.NineFrameLayout added
+[WARNING] [32mVERBOSE[0m Callback method :onInterceptTouchEvent in Class com.actionbarsherlock.internal.widget.ActionBarContainer added
+[WARNING] [32mVERBOSE[0m Callback method :getAlpha in Class com.actionbarsherlock.internal.nineoldandroids.widget.NineFrameLayout added
+[WARNING] [32mVERBOSE[0m Callback method :getTranslationY in Class com.actionbarsherlock.internal.nineoldandroids.widget.NineFrameLayout added
+[WARNING] [32mVERBOSE[0m Callback method :setAlpha in Class com.actionbarsherlock.internal.nineoldandroids.widget.NineFrameLayout added
+[WARNING] [32mVERBOSE[0m Callback method :onDraw in Class com.actionbarsherlock.internal.widget.ActionBarContainer added
+[WARNING] [32mVERBOSE[0m Callback method :setVisibility in Class com.actionbarsherlock.internal.nineoldandroids.widget.NineFrameLayout added
+[WARNING] [32mVERBOSE[0m Callback method :onReceive in Class de.ub0r.android.websms.connector.sms.ConnectorSMS added
+[WARNING] [32mVERBOSE[0m Callback method :measureChildWithMargins in Class com.actionbarsherlock.internal.widget.IcsLinearLayout added
+[WARNING] [32mVERBOSE[0m Callback method :generateLayoutParams in Class com.actionbarsherlock.internal.view.menu.ActionMenuView added
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class com.actionbarsherlock.internal.view.menu.ActionMenuView added
+[WARNING] [32mVERBOSE[0m Callback method :getShowDividers in Class com.actionbarsherlock.internal.widget.IcsLinearLayout added
+[WARNING] [32mVERBOSE[0m Callback method :generateLayoutParams in Class com.actionbarsherlock.internal.view.menu.ActionMenuView added
+[WARNING] [32mVERBOSE[0m Callback method :generateDefaultLayoutParams in Class com.actionbarsherlock.internal.view.menu.ActionMenuView added
+[WARNING] [32mVERBOSE[0m Callback method :onMeasure in Class com.actionbarsherlock.internal.view.menu.ActionMenuView added
+[WARNING] [32mVERBOSE[0m Callback method :generateDefaultLayoutParams in Class com.actionbarsherlock.internal.view.menu.ActionMenuView added
+[WARNING] [32mVERBOSE[0m Callback method :onLayout in Class com.actionbarsherlock.internal.view.menu.ActionMenuView added
+[WARNING] [32mVERBOSE[0m Callback method :setMeasureWithLargestChildEnabled in Class com.actionbarsherlock.internal.widget.IcsLinearLayout added
+[WARNING] [32mVERBOSE[0m Callback method :setShowDividers in Class com.actionbarsherlock.internal.widget.IcsLinearLayout added
+[WARNING] [32mVERBOSE[0m Callback method :onDetachedFromWindow in Class com.actionbarsherlock.internal.view.menu.ActionMenuView added
+[WARNING] [32mVERBOSE[0m Callback method :generateLayoutParams in Class com.actionbarsherlock.internal.view.menu.ActionMenuView added
+[WARNING] [32mVERBOSE[0m Callback method :getAlpha in Class com.actionbarsherlock.internal.nineoldandroids.widget.NineLinearLayout added
+[WARNING] [32mVERBOSE[0m Callback method :getDividerPadding in Class com.actionbarsherlock.internal.widget.IcsLinearLayout added
+[WARNING] [32mVERBOSE[0m Callback method :setTranslationX in Class com.actionbarsherlock.internal.nineoldandroids.widget.NineLinearLayout added
+[WARNING] [32mVERBOSE[0m Callback method :setDividerDrawable in Class com.actionbarsherlock.internal.widget.IcsLinearLayout added
+[WARNING] [32mVERBOSE[0m Callback method :dispatchPopulateAccessibilityEvent in Class com.actionbarsherlock.internal.view.menu.ActionMenuView added
+[WARNING] [32mVERBOSE[0m Callback method :setDividerPadding in Class com.actionbarsherlock.internal.widget.IcsLinearLayout added
+[WARNING] [32mVERBOSE[0m Callback method :setAlpha in Class com.actionbarsherlock.internal.nineoldandroids.widget.NineLinearLayout added
+[WARNING] [32mVERBOSE[0m Callback method :onDraw in Class com.actionbarsherlock.internal.view.menu.ActionMenuView added
+[WARNING] [32mVERBOSE[0m Callback method :generateLayoutParams in Class com.actionbarsherlock.internal.view.menu.ActionMenuView added
+[WARNING] [32mVERBOSE[0m Callback method :getTranslationX in Class com.actionbarsherlock.internal.nineoldandroids.widget.NineLinearLayout added
+[WARNING] [32mVERBOSE[0m Callback method :setVisibility in Class com.actionbarsherlock.internal.nineoldandroids.widget.NineLinearLayout added
+[WARNING] [32mVERBOSE[0m Callback method :isMeasureWithLargestChildEnabled in Class com.actionbarsherlock.internal.widget.IcsLinearLayout added
+[WARNING] [32mVERBOSE[0m Callback method :checkLayoutParams in Class com.actionbarsherlock.internal.view.menu.ActionMenuView added
+[WARNING] [32mVERBOSE[0m Callback method :onMeasure in Class com.actionbarsherlock.internal.view.menu.ListMenuItemView added
+[WARNING] [32mVERBOSE[0m Callback method :onFinishInflate in Class com.actionbarsherlock.internal.view.menu.ListMenuItemView added
+[WARNING] [32mVERBOSE[0m Callback method :getType in Class de.ub0r.android.lib.LogProvider added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class de.ub0r.android.lib.LogProvider added
+[WARNING] [32mVERBOSE[0m Callback method :query in Class de.ub0r.android.lib.LogProvider added
+[WARNING] [32mVERBOSE[0m Callback method :update in Class de.ub0r.android.lib.LogProvider added
+[WARNING] [32mVERBOSE[0m Callback method :openFile in Class de.ub0r.android.lib.LogProvider added
+[WARNING] [32mVERBOSE[0m Callback method :insert in Class de.ub0r.android.lib.LogProvider added
+[WARNING] [32mVERBOSE[0m Callback method :delete in Class de.ub0r.android.lib.LogProvider added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPanelClosed in Class com.actionbarsherlock.app.SherlockFragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :addContentView in Class com.actionbarsherlock.app.SherlockFragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :openOptionsMenu in Class com.actionbarsherlock.app.SherlockFragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPostCreate in Class com.actionbarsherlock.app.SherlockFragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :setContentView in Class com.actionbarsherlock.app.SherlockFragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class com.actionbarsherlock.app.SherlockFragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onMenuItemSelected in Class com.actionbarsherlock.app.SherlockFragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onBackPressed in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPrepareOptionsMenu in Class com.actionbarsherlock.app.SherlockFragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :closeOptionsMenu in Class com.actionbarsherlock.app.SherlockFragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onRestoreInstanceState in Class com.actionbarsherlock.app.SherlockFragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onRetainNonConfigurationInstance in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :setContentView in Class com.actionbarsherlock.app.SherlockFragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.actionbarsherlock.app.SherlockFragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onTitleChanged in Class com.actionbarsherlock.app.SherlockFragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.actionbarsherlock.app.SherlockFragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreatePanelMenu in Class com.actionbarsherlock.app.SherlockFragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :dump in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateView in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateOptionsMenu in Class com.actionbarsherlock.app.SherlockFragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :invalidateOptionsMenu in Class com.actionbarsherlock.app.SherlockFragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :dispatchKeyEvent in Class com.actionbarsherlock.app.SherlockFragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onMenuOpened in Class com.actionbarsherlock.app.SherlockFragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.actionbarsherlock.app.SherlockFragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPreparePanel in Class com.actionbarsherlock.app.SherlockFragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onSaveInstanceState in Class com.actionbarsherlock.app.SherlockFragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :startActivityForResult in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :setContentView in Class com.actionbarsherlock.app.SherlockFragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onOptionsItemSelected in Class com.actionbarsherlock.app.SherlockFragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPostResume in Class com.actionbarsherlock.app.SherlockFragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onLowMemory in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onLowMemory in Class android.support.v4.app.Fragment added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateContextMenu in Class android.support.v4.app.Fragment added
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class android.support.v4.app.Fragment added
+[WARNING] [32mVERBOSE[0m Callback method :onLowMemory in Class android.support.v4.app.Fragment added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateContextMenu in Class android.support.v4.app.Fragment added
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class android.support.v4.app.Fragment added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class de.ub0r.android.websms.PreferencesBehaviorActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onOptionsItemSelected in Class de.ub0r.android.websms.PreferencesBehaviorActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onMeasure in Class com.actionbarsherlock.internal.widget.ScrollingTabContainerView$TabView added
+[WARNING] [32mVERBOSE[0m Callback method :onLowMemory in Class android.support.v4.app.Fragment added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateContextMenu in Class android.support.v4.app.Fragment added
+[WARNING] [32mVERBOSE[0m Callback method :onCancel in Class android.support.v4.app.DialogFragment added
+[WARNING] [32mVERBOSE[0m Callback method :onDismiss in Class android.support.v4.app.DialogFragment added
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class android.support.v4.app.Fragment added
+[WARNING] [32mVERBOSE[0m Callback method :onWindowFocusChanged in Class com.actionbarsherlock.widget.SearchView added
+[WARNING] [32mVERBOSE[0m Callback method :clearFocus in Class com.actionbarsherlock.widget.SearchView added
+[WARNING] [32mVERBOSE[0m Callback method :onInitializeAccessibilityNodeInfo in Class com.actionbarsherlock.widget.SearchView added
+[WARNING] [32mVERBOSE[0m Callback method :onInitializeAccessibilityEvent in Class com.actionbarsherlock.widget.SearchView added
+[WARNING] [32mVERBOSE[0m Callback method :onMeasure in Class com.actionbarsherlock.widget.SearchView added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.actionbarsherlock.widget.SearchView added
+[WARNING] [32mVERBOSE[0m Callback method :onDetachedFromWindow in Class com.actionbarsherlock.widget.SearchView added
+[WARNING] [32mVERBOSE[0m Callback method :requestFocus in Class com.actionbarsherlock.widget.SearchView added
+[WARNING] [32mVERBOSE[0m Callback method :onMeasure in Class com.actionbarsherlock.internal.widget.FakeDialogPhoneWindow added
+[WARNING] [32mVERBOSE[0m Callback method :getItem in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getView in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getDropDownView in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getFilter in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getCount in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getItemId in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :hasStableIds in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :onPanelClosed in Class com.actionbarsherlock.app.SherlockActivity added
+[WARNING] [32mVERBOSE[0m Callback method :addContentView in Class com.actionbarsherlock.app.SherlockActivity added
+[WARNING] [32mVERBOSE[0m Callback method :openOptionsMenu in Class com.actionbarsherlock.app.SherlockActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPostCreate in Class com.actionbarsherlock.app.SherlockActivity added
+[WARNING] [32mVERBOSE[0m Callback method :setContentView in Class com.actionbarsherlock.app.SherlockActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class com.actionbarsherlock.app.SherlockActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPrepareOptionsMenu in Class com.actionbarsherlock.app.SherlockActivity added
+[WARNING] [32mVERBOSE[0m Callback method :closeOptionsMenu in Class com.actionbarsherlock.app.SherlockActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onRestoreInstanceState in Class com.actionbarsherlock.app.SherlockActivity added
+[WARNING] [32mVERBOSE[0m Callback method :setContentView in Class com.actionbarsherlock.app.SherlockActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.actionbarsherlock.app.SherlockActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onTitleChanged in Class com.actionbarsherlock.app.SherlockActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.actionbarsherlock.app.SherlockActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateOptionsMenu in Class com.actionbarsherlock.app.SherlockActivity added
+[WARNING] [32mVERBOSE[0m Callback method :invalidateOptionsMenu in Class com.actionbarsherlock.app.SherlockActivity added
+[WARNING] [32mVERBOSE[0m Callback method :dispatchKeyEvent in Class com.actionbarsherlock.app.SherlockActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onMenuOpened in Class com.actionbarsherlock.app.SherlockActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.actionbarsherlock.app.SherlockActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onSaveInstanceState in Class com.actionbarsherlock.app.SherlockActivity added
+[WARNING] [32mVERBOSE[0m Callback method :setContentView in Class com.actionbarsherlock.app.SherlockActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onOptionsItemSelected in Class com.actionbarsherlock.app.SherlockActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPostResume in Class com.actionbarsherlock.app.SherlockActivity added
+[WARNING] [32mVERBOSE[0m Callback method :measureChildWithMargins in Class com.actionbarsherlock.internal.widget.IcsLinearLayout added
+[WARNING] [32mVERBOSE[0m Callback method :getShowDividers in Class com.actionbarsherlock.internal.widget.IcsLinearLayout added
+[WARNING] [32mVERBOSE[0m Callback method :onMeasure in Class com.actionbarsherlock.internal.widget.IcsLinearLayout added
+[WARNING] [32mVERBOSE[0m Callback method :setMeasureWithLargestChildEnabled in Class com.actionbarsherlock.internal.widget.IcsLinearLayout added
+[WARNING] [32mVERBOSE[0m Callback method :setShowDividers in Class com.actionbarsherlock.internal.widget.IcsLinearLayout added
+[WARNING] [32mVERBOSE[0m Callback method :getAlpha in Class com.actionbarsherlock.internal.nineoldandroids.widget.NineLinearLayout added
+[WARNING] [32mVERBOSE[0m Callback method :getDividerPadding in Class com.actionbarsherlock.internal.widget.IcsLinearLayout added
+[WARNING] [32mVERBOSE[0m Callback method :setTranslationX in Class com.actionbarsherlock.internal.nineoldandroids.widget.NineLinearLayout added
+[WARNING] [32mVERBOSE[0m Callback method :setDividerDrawable in Class com.actionbarsherlock.internal.widget.IcsLinearLayout added
+[WARNING] [32mVERBOSE[0m Callback method :setDividerPadding in Class com.actionbarsherlock.internal.widget.IcsLinearLayout added
+[WARNING] [32mVERBOSE[0m Callback method :setAlpha in Class com.actionbarsherlock.internal.nineoldandroids.widget.NineLinearLayout added
+[WARNING] [32mVERBOSE[0m Callback method :onDraw in Class com.actionbarsherlock.internal.widget.IcsLinearLayout added
+[WARNING] [32mVERBOSE[0m Callback method :getTranslationX in Class com.actionbarsherlock.internal.nineoldandroids.widget.NineLinearLayout added
+[WARNING] [32mVERBOSE[0m Callback method :setVisibility in Class com.actionbarsherlock.internal.nineoldandroids.widget.NineLinearLayout added
+[WARNING] [32mVERBOSE[0m Callback method :isMeasureWithLargestChildEnabled in Class com.actionbarsherlock.internal.widget.IcsLinearLayout added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPanelClosed in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onMenuItemSelected in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onBackPressed in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onRetainNonConfigurationInstance in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreatePanelMenu in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :dump in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateView in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPreparePanel in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onSaveInstanceState in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :startActivityForResult in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPostResume in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onLowMemory in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onLowMemory in Class android.support.v4.app.Fragment added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateContextMenu in Class android.support.v4.app.Fragment added
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class android.support.v4.app.Fragment added
+[WARNING] [32mVERBOSE[0m Callback method :addView in Class com.actionbarsherlock.internal.widget.IcsAdapterView added
+[WARNING] [32mVERBOSE[0m Callback method :onInitializeAccessibilityNodeInfo in Class com.actionbarsherlock.internal.widget.IcsAdapterView added
+[WARNING] [32mVERBOSE[0m Callback method :canAnimate in Class com.actionbarsherlock.internal.widget.IcsAdapterView added
+[WARNING] [32mVERBOSE[0m Callback method :onRestoreInstanceState in Class com.actionbarsherlock.internal.widget.IcsAbsSpinner added
+[WARNING] [32mVERBOSE[0m Callback method :dispatchRestoreInstanceState in Class com.actionbarsherlock.internal.widget.IcsAdapterView added
+[WARNING] [32mVERBOSE[0m Callback method :removeViewAt in Class com.actionbarsherlock.internal.widget.IcsAdapterView added
+[WARNING] [32mVERBOSE[0m Callback method :onInitializeAccessibilityEvent in Class com.actionbarsherlock.internal.widget.IcsAdapterView added
+[WARNING] [32mVERBOSE[0m Callback method :generateDefaultLayoutParams in Class com.actionbarsherlock.internal.widget.IcsAbsSpinner added
+[WARNING] [32mVERBOSE[0m Callback method :onMeasure in Class com.actionbarsherlock.internal.widget.IcsAbsSpinner added
+[WARNING] [32mVERBOSE[0m Callback method :addView in Class com.actionbarsherlock.internal.widget.IcsAdapterView added
+[WARNING] [32mVERBOSE[0m Callback method :onSaveInstanceState in Class com.actionbarsherlock.internal.widget.IcsAbsSpinner added
+[WARNING] [32mVERBOSE[0m Callback method :removeAllViews in Class com.actionbarsherlock.internal.widget.IcsAdapterView added
+[WARNING] [32mVERBOSE[0m Callback method :requestLayout in Class com.actionbarsherlock.internal.widget.IcsAbsSpinner added
+[WARNING] [32mVERBOSE[0m Callback method :onLayout in Class com.actionbarsherlock.internal.widget.IcsAdapterView added
+[WARNING] [32mVERBOSE[0m Callback method :onDetachedFromWindow in Class com.actionbarsherlock.internal.widget.IcsAdapterView added
+[WARNING] [32mVERBOSE[0m Callback method :dispatchSaveInstanceState in Class com.actionbarsherlock.internal.widget.IcsAdapterView added
+[WARNING] [32mVERBOSE[0m Callback method :setFocusableInTouchMode in Class com.actionbarsherlock.internal.widget.IcsAdapterView added
+[WARNING] [32mVERBOSE[0m Callback method :onRequestSendAccessibilityEvent in Class com.actionbarsherlock.internal.widget.IcsAdapterView added
+[WARNING] [32mVERBOSE[0m Callback method :addView in Class com.actionbarsherlock.internal.widget.IcsAdapterView added
+[WARNING] [32mVERBOSE[0m Callback method :dispatchPopulateAccessibilityEvent in Class com.actionbarsherlock.internal.widget.IcsAdapterView added
+[WARNING] [32mVERBOSE[0m Callback method :addView in Class com.actionbarsherlock.internal.widget.IcsAdapterView added
+[WARNING] [32mVERBOSE[0m Callback method :removeView in Class com.actionbarsherlock.internal.widget.IcsAdapterView added
+[WARNING] [32mVERBOSE[0m Callback method :setFocusable in Class com.actionbarsherlock.internal.widget.IcsAdapterView added
+[WARNING] [32mVERBOSE[0m Callback method :setOnClickListener in Class com.actionbarsherlock.internal.widget.IcsAdapterView added
+[WARNING] [32mVERBOSE[0m Callback method :onPanelClosed in Class com.actionbarsherlock.app.SherlockPreferenceActivity added
+[WARNING] [32mVERBOSE[0m Callback method :addContentView in Class com.actionbarsherlock.app.SherlockPreferenceActivity added
+[WARNING] [32mVERBOSE[0m Callback method :openOptionsMenu in Class com.actionbarsherlock.app.SherlockPreferenceActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPostCreate in Class com.actionbarsherlock.app.SherlockPreferenceActivity added
+[WARNING] [32mVERBOSE[0m Callback method :setContentView in Class com.actionbarsherlock.app.SherlockPreferenceActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class com.actionbarsherlock.app.SherlockPreferenceActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPrepareOptionsMenu in Class com.actionbarsherlock.app.SherlockPreferenceActivity added
+[WARNING] [32mVERBOSE[0m Callback method :closeOptionsMenu in Class com.actionbarsherlock.app.SherlockPreferenceActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onRestoreInstanceState in Class com.actionbarsherlock.app.SherlockPreferenceActivity added
+[WARNING] [32mVERBOSE[0m Callback method :setContentView in Class com.actionbarsherlock.app.SherlockPreferenceActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.actionbarsherlock.app.SherlockPreferenceActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onTitleChanged in Class com.actionbarsherlock.app.SherlockPreferenceActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.actionbarsherlock.app.SherlockPreferenceActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateOptionsMenu in Class com.actionbarsherlock.app.SherlockPreferenceActivity added
+[WARNING] [32mVERBOSE[0m Callback method :invalidateOptionsMenu in Class com.actionbarsherlock.app.SherlockPreferenceActivity added
+[WARNING] [32mVERBOSE[0m Callback method :dispatchKeyEvent in Class com.actionbarsherlock.app.SherlockPreferenceActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onMenuOpened in Class com.actionbarsherlock.app.SherlockPreferenceActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.actionbarsherlock.app.SherlockPreferenceActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onSaveInstanceState in Class com.actionbarsherlock.app.SherlockPreferenceActivity added
+[WARNING] [32mVERBOSE[0m Callback method :setContentView in Class com.actionbarsherlock.app.SherlockPreferenceActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onOptionsItemSelected in Class com.actionbarsherlock.app.SherlockPreferenceActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPostResume in Class com.actionbarsherlock.app.SherlockPreferenceActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class de.ub0r.android.websms.PreferencesAppearanceActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onOptionsItemSelected in Class de.ub0r.android.websms.PreferencesAppearanceActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class de.ub0r.android.websms.WebSMSApp added
+[WARNING] [32mVERBOSE[0m Callback method :generateLayoutParams in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :draw in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :onRestoreInstanceState in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :onRequestFocusInDescendants in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :generateDefaultLayoutParams in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :onMeasure in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :addView in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :onSaveInstanceState in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :onLayout in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :addTouchables in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :computeScroll in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :onAttachedToWindow in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :onInterceptTouchEvent in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :verifyDrawable in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :dispatchPopulateAccessibilityEvent in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :onSizeChanged in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :dispatchKeyEvent in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :addFocusables in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :onDraw in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :generateLayoutParams in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :drawableStateChanged in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :checkLayoutParams in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :generateLayoutParams in Class com.actionbarsherlock.internal.widget.ActionBarView added
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class com.actionbarsherlock.internal.widget.ActionBarView added
+[WARNING] [32mVERBOSE[0m Callback method :onRestoreInstanceState in Class com.actionbarsherlock.internal.widget.ActionBarView added
+[WARNING] [32mVERBOSE[0m Callback method :generateDefaultLayoutParams in Class com.actionbarsherlock.internal.widget.ActionBarView added
+[WARNING] [32mVERBOSE[0m Callback method :onMeasure in Class com.actionbarsherlock.internal.widget.ActionBarView added
+[WARNING] [32mVERBOSE[0m Callback method :onFinishInflate in Class com.actionbarsherlock.internal.widget.ActionBarView added
+[WARNING] [32mVERBOSE[0m Callback method :onSaveInstanceState in Class com.actionbarsherlock.internal.widget.ActionBarView added
+[WARNING] [32mVERBOSE[0m Callback method :onLayout in Class com.actionbarsherlock.internal.widget.ActionBarView added
+[WARNING] [32mVERBOSE[0m Callback method :onDetachedFromWindow in Class com.actionbarsherlock.internal.widget.ActionBarView added
+[WARNING] [32mVERBOSE[0m Callback method :setTranslationY in Class com.actionbarsherlock.internal.nineoldandroids.view.NineViewGroup added
+[WARNING] [32mVERBOSE[0m Callback method :shouldDelayChildPressedState in Class com.actionbarsherlock.internal.widget.ActionBarView added
+[WARNING] [32mVERBOSE[0m Callback method :getAlpha in Class com.actionbarsherlock.internal.nineoldandroids.view.NineViewGroup added
+[WARNING] [32mVERBOSE[0m Callback method :getTranslationY in Class com.actionbarsherlock.internal.nineoldandroids.view.NineViewGroup added
+[WARNING] [32mVERBOSE[0m Callback method :setTranslationX in Class com.actionbarsherlock.internal.nineoldandroids.view.NineViewGroup added
+[WARNING] [32mVERBOSE[0m Callback method :setAlpha in Class com.actionbarsherlock.internal.nineoldandroids.view.NineViewGroup added
+[WARNING] [32mVERBOSE[0m Callback method :generateLayoutParams in Class com.actionbarsherlock.internal.widget.ActionBarView added
+[WARNING] [32mVERBOSE[0m Callback method :getTranslationX in Class com.actionbarsherlock.internal.nineoldandroids.view.NineViewGroup added
+[WARNING] [32mVERBOSE[0m Callback method :setVisibility in Class com.actionbarsherlock.internal.widget.AbsActionBarView added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class de.ub0r.android.websms.connector.common.ConnectorService added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class de.ub0r.android.websms.connector.common.ConnectorService added
+[WARNING] [32mVERBOSE[0m Callback method :onHandleIntent in Class de.ub0r.android.websms.connector.common.ConnectorService added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class de.ub0r.android.websms.connector.common.ConnectorService added
+[WARNING] [32mVERBOSE[0m Callback method :onPopulateAccessibilityEvent in Class com.actionbarsherlock.internal.widget.ActionBarView$HomeView added
+[WARNING] [32mVERBOSE[0m Callback method :onMeasure in Class com.actionbarsherlock.internal.widget.ActionBarView$HomeView added
+[WARNING] [32mVERBOSE[0m Callback method :onFinishInflate in Class com.actionbarsherlock.internal.widget.ActionBarView$HomeView added
+[WARNING] [32mVERBOSE[0m Callback method :onLayout in Class com.actionbarsherlock.internal.widget.ActionBarView$HomeView added
+[WARNING] [32mVERBOSE[0m Callback method :dispatchHoverEvent in Class com.actionbarsherlock.internal.widget.ActionBarView$HomeView added
+[WARNING] [32mVERBOSE[0m Callback method :dispatchPopulateAccessibilityEvent in Class com.actionbarsherlock.internal.widget.ActionBarView$HomeView added
+[WARNING] [32mVERBOSE[0m Callback method :onPanelClosed in Class com.actionbarsherlock.app.SherlockActivity added
+[WARNING] [32mVERBOSE[0m Callback method :addContentView in Class com.actionbarsherlock.app.SherlockActivity added
+[WARNING] [32mVERBOSE[0m Callback method :openOptionsMenu in Class com.actionbarsherlock.app.SherlockActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPostCreate in Class com.actionbarsherlock.app.SherlockActivity added
+[WARNING] [32mVERBOSE[0m Callback method :setContentView in Class com.actionbarsherlock.app.SherlockActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class com.actionbarsherlock.app.SherlockActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPrepareOptionsMenu in Class com.actionbarsherlock.app.SherlockActivity added
+[WARNING] [32mVERBOSE[0m Callback method :closeOptionsMenu in Class com.actionbarsherlock.app.SherlockActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onRestoreInstanceState in Class com.actionbarsherlock.app.SherlockActivity added
+[WARNING] [32mVERBOSE[0m Callback method :setContentView in Class com.actionbarsherlock.app.SherlockActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.actionbarsherlock.app.SherlockActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onTitleChanged in Class com.actionbarsherlock.app.SherlockActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.actionbarsherlock.app.SherlockActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class de.ub0r.android.websms.HelpActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateOptionsMenu in Class com.actionbarsherlock.app.SherlockActivity added
+[WARNING] [32mVERBOSE[0m Callback method :invalidateOptionsMenu in Class com.actionbarsherlock.app.SherlockActivity added
+[WARNING] [32mVERBOSE[0m Callback method :dispatchKeyEvent in Class com.actionbarsherlock.app.SherlockActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onMenuOpened in Class com.actionbarsherlock.app.SherlockActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.actionbarsherlock.app.SherlockActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onSaveInstanceState in Class com.actionbarsherlock.app.SherlockActivity added
+[WARNING] [32mVERBOSE[0m Callback method :setContentView in Class com.actionbarsherlock.app.SherlockActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onOptionsItemSelected in Class com.actionbarsherlock.app.SherlockActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class de.ub0r.android.websms.HelpActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPostResume in Class com.actionbarsherlock.app.SherlockActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onLongClick in Class com.actionbarsherlock.internal.view.menu.ActionMenuItemView added
+[WARNING] [32mVERBOSE[0m Callback method :onPopulateAccessibilityEvent in Class com.actionbarsherlock.internal.view.menu.ActionMenuItemView added
+[WARNING] [32mVERBOSE[0m Callback method :onMeasure in Class com.actionbarsherlock.internal.view.menu.ActionMenuItemView added
+[WARNING] [32mVERBOSE[0m Callback method :onFinishInflate in Class com.actionbarsherlock.internal.view.menu.ActionMenuItemView added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.actionbarsherlock.internal.view.menu.ActionMenuItemView added
+[WARNING] [32mVERBOSE[0m Callback method :setEnabled in Class com.actionbarsherlock.internal.view.menu.ActionMenuItemView added
+[WARNING] [32mVERBOSE[0m Callback method :dispatchHoverEvent in Class com.actionbarsherlock.internal.view.menu.ActionMenuItemView added
+[WARNING] [32mVERBOSE[0m Callback method :onDetachedFromWindow in Class com.actionbarsherlock.internal.view.menu.ActionMenuItemView added
+[WARNING] [32mVERBOSE[0m Callback method :onAttachedToWindow in Class com.actionbarsherlock.internal.view.menu.ActionMenuItemView added
+[WARNING] [32mVERBOSE[0m Callback method :dispatchPopulateAccessibilityEvent in Class com.actionbarsherlock.internal.view.menu.ActionMenuItemView added
+[WARNING] [32mVERBOSE[0m Callback method :getAlpha in Class com.actionbarsherlock.internal.nineoldandroids.widget.NineLinearLayout added
+[WARNING] [32mVERBOSE[0m Callback method :setTranslationX in Class com.actionbarsherlock.internal.nineoldandroids.widget.NineLinearLayout added
+[WARNING] [32mVERBOSE[0m Callback method :setAlpha in Class com.actionbarsherlock.internal.nineoldandroids.widget.NineLinearLayout added
+[WARNING] [32mVERBOSE[0m Callback method :getTranslationX in Class com.actionbarsherlock.internal.nineoldandroids.widget.NineLinearLayout added
+[WARNING] [32mVERBOSE[0m Callback method :setVisibility in Class com.actionbarsherlock.internal.nineoldandroids.widget.NineLinearLayout added
+[WARNING] [32mVERBOSE[0m Callback method :onPanelClosed in Class com.actionbarsherlock.app.SherlockListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :addContentView in Class com.actionbarsherlock.app.SherlockListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :openOptionsMenu in Class com.actionbarsherlock.app.SherlockListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPostCreate in Class com.actionbarsherlock.app.SherlockListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :setContentView in Class com.actionbarsherlock.app.SherlockListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class com.actionbarsherlock.app.SherlockListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPrepareOptionsMenu in Class com.actionbarsherlock.app.SherlockListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :closeOptionsMenu in Class com.actionbarsherlock.app.SherlockListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onRestoreInstanceState in Class com.actionbarsherlock.app.SherlockListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :setContentView in Class com.actionbarsherlock.app.SherlockListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.actionbarsherlock.app.SherlockListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onTitleChanged in Class com.actionbarsherlock.app.SherlockListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.actionbarsherlock.app.SherlockListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateOptionsMenu in Class com.actionbarsherlock.app.SherlockListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :invalidateOptionsMenu in Class com.actionbarsherlock.app.SherlockListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :dispatchKeyEvent in Class com.actionbarsherlock.app.SherlockListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onMenuOpened in Class com.actionbarsherlock.app.SherlockListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.actionbarsherlock.app.SherlockListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onSaveInstanceState in Class com.actionbarsherlock.app.SherlockListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :setContentView in Class com.actionbarsherlock.app.SherlockListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onOptionsItemSelected in Class com.actionbarsherlock.app.SherlockListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPostResume in Class com.actionbarsherlock.app.SherlockListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class de.ub0r.android.websms.HeaderPreferenceFragment added
+[WARNING] [32mVERBOSE[0m Callback method :onMeasure in Class android.support.v4.view.PagerTitleStrip added
+[WARNING] [32mVERBOSE[0m Callback method :requestLayout in Class android.support.v4.view.PagerTitleStrip added
+[WARNING] [32mVERBOSE[0m Callback method :onLayout in Class android.support.v4.view.PagerTitleStrip added
+[WARNING] [32mVERBOSE[0m Callback method :onDetachedFromWindow in Class android.support.v4.view.PagerTitleStrip added
+[WARNING] [32mVERBOSE[0m Callback method :onAttachedToWindow in Class android.support.v4.view.PagerTitleStrip added
+[WARNING] [32mVERBOSE[0m Callback method :getItem in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getView in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getDropDownView in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getFilter in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getCount in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getItemId in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :hasStableIds in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class de.ub0r.android.websms.PreferencesActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onOptionsItemSelected in Class de.ub0r.android.websms.PreferencesActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class de.ub0r.android.websms.PreferencesActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class de.ub0r.android.websms.connector.common.ConnectorPreferenceActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class de.ub0r.android.websms.connector.common.ConnectorPreferenceActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onOptionsItemSelected in Class de.ub0r.android.websms.connector.common.ConnectorPreferenceActivity added
+[WARNING] [32mVERBOSE[0m Callback method :setTranslationY in Class com.actionbarsherlock.internal.nineoldandroids.widget.NineFrameLayout added
+[WARNING] [32mVERBOSE[0m Callback method :getAlpha in Class com.actionbarsherlock.internal.nineoldandroids.widget.NineFrameLayout added
+[WARNING] [32mVERBOSE[0m Callback method :getTranslationY in Class com.actionbarsherlock.internal.nineoldandroids.widget.NineFrameLayout added
+[WARNING] [32mVERBOSE[0m Callback method :setAlpha in Class com.actionbarsherlock.internal.nineoldandroids.widget.NineFrameLayout added
+[WARNING] [32mVERBOSE[0m Callback method :setVisibility in Class com.actionbarsherlock.internal.nineoldandroids.widget.NineFrameLayout added
+[WARNING] [32mVERBOSE[0m Callback method :onBuildHeaders in Class de.ub0r.android.websms.Preferences11Activity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class de.ub0r.android.websms.Preferences11Activity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class de.ub0r.android.websms.Preferences11Activity added
+[WARNING] [32mVERBOSE[0m Callback method :onReceive in Class de.ub0r.android.websms.WebSMSReceiver added
+[WARNING] [32mVERBOSE[0m Callback method :getItem in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getView in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getDropDownView in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getFilter in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getCount in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getItemId in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :hasStableIds in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getAlpha in Class com.actionbarsherlock.internal.nineoldandroids.widget.NineHorizontalScrollView added
+[WARNING] [32mVERBOSE[0m Callback method :setAlpha in Class com.actionbarsherlock.internal.nineoldandroids.widget.NineHorizontalScrollView added
+[WARNING] [32mVERBOSE[0m Callback method :setVisibility in Class com.actionbarsherlock.internal.nineoldandroids.widget.NineHorizontalScrollView added
+[WARNING] [32mVERBOSE[0m Callback method :onFocusChanged in Class com.actionbarsherlock.widget.SearchView$SearchAutoComplete added
+[WARNING] [32mVERBOSE[0m Callback method :onWindowFocusChanged in Class com.actionbarsherlock.widget.SearchView$SearchAutoComplete added
+[WARNING] [32mVERBOSE[0m Callback method :enoughToFilter in Class com.actionbarsherlock.widget.SearchView$SearchAutoComplete added
+[WARNING] [32mVERBOSE[0m Callback method :performCompletion in Class com.actionbarsherlock.widget.SearchView$SearchAutoComplete added
+[WARNING] [32mVERBOSE[0m Callback method :replaceText in Class com.actionbarsherlock.widget.SearchView$SearchAutoComplete added
+[WARNING] [32mVERBOSE[0m Callback method :setThreshold in Class com.actionbarsherlock.widget.SearchView$SearchAutoComplete added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyPreIme in Class com.actionbarsherlock.widget.SearchView$SearchAutoComplete added
+[WARNING] [32mVERBOSE[0m Callback method :onReceive in Class de.ub0r.android.websms.connector.common.Connector added
+[WARNING] [32mVERBOSE[0m Callback method :onMenuItemClick in Class com.actionbarsherlock.internal.ActionBarSherlockCompat added
+[WARNING] [32mVERBOSE[0m Callback method :onReceive in Class de.ub0r.android.websms.connector.common.Connector added
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class com.actionbarsherlock.internal.widget.AbsActionBarView added
+[WARNING] [32mVERBOSE[0m Callback method :onInitializeAccessibilityEvent in Class com.actionbarsherlock.internal.widget.ActionBarContextView added
+[WARNING] [32mVERBOSE[0m Callback method :generateDefaultLayoutParams in Class com.actionbarsherlock.internal.widget.ActionBarContextView added
+[WARNING] [32mVERBOSE[0m Callback method :onMeasure in Class com.actionbarsherlock.internal.widget.ActionBarContextView added
+[WARNING] [32mVERBOSE[0m Callback method :onLayout in Class com.actionbarsherlock.internal.widget.ActionBarContextView added
+[WARNING] [32mVERBOSE[0m Callback method :onDetachedFromWindow in Class com.actionbarsherlock.internal.widget.ActionBarContextView added
+[WARNING] [32mVERBOSE[0m Callback method :setTranslationY in Class com.actionbarsherlock.internal.nineoldandroids.view.NineViewGroup added
+[WARNING] [32mVERBOSE[0m Callback method :shouldDelayChildPressedState in Class com.actionbarsherlock.internal.widget.ActionBarContextView added
+[WARNING] [32mVERBOSE[0m Callback method :getAlpha in Class com.actionbarsherlock.internal.nineoldandroids.view.NineViewGroup added
+[WARNING] [32mVERBOSE[0m Callback method :getTranslationY in Class com.actionbarsherlock.internal.nineoldandroids.view.NineViewGroup added
+[WARNING] [32mVERBOSE[0m Callback method :setTranslationX in Class com.actionbarsherlock.internal.nineoldandroids.view.NineViewGroup added
+[WARNING] [32mVERBOSE[0m Callback method :setAlpha in Class com.actionbarsherlock.internal.nineoldandroids.view.NineViewGroup added
+[WARNING] [32mVERBOSE[0m Callback method :generateLayoutParams in Class com.actionbarsherlock.internal.widget.ActionBarContextView added
+[WARNING] [32mVERBOSE[0m Callback method :getTranslationX in Class com.actionbarsherlock.internal.nineoldandroids.view.NineViewGroup added
+[WARNING] [32mVERBOSE[0m Callback method :setVisibility in Class com.actionbarsherlock.internal.widget.AbsActionBarView added
+[WARNING] [32mVERBOSE[0m Callback method :onPanelClosed in Class com.actionbarsherlock.app.SherlockExpandableListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :addContentView in Class com.actionbarsherlock.app.SherlockExpandableListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :openOptionsMenu in Class com.actionbarsherlock.app.SherlockExpandableListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPostCreate in Class com.actionbarsherlock.app.SherlockExpandableListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :setContentView in Class com.actionbarsherlock.app.SherlockExpandableListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class com.actionbarsherlock.app.SherlockExpandableListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPrepareOptionsMenu in Class com.actionbarsherlock.app.SherlockExpandableListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :closeOptionsMenu in Class com.actionbarsherlock.app.SherlockExpandableListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :setContentView in Class com.actionbarsherlock.app.SherlockExpandableListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.actionbarsherlock.app.SherlockExpandableListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onTitleChanged in Class com.actionbarsherlock.app.SherlockExpandableListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.actionbarsherlock.app.SherlockExpandableListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateOptionsMenu in Class com.actionbarsherlock.app.SherlockExpandableListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :invalidateOptionsMenu in Class com.actionbarsherlock.app.SherlockExpandableListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :dispatchKeyEvent in Class com.actionbarsherlock.app.SherlockExpandableListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onMenuOpened in Class com.actionbarsherlock.app.SherlockExpandableListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.actionbarsherlock.app.SherlockExpandableListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :setContentView in Class com.actionbarsherlock.app.SherlockExpandableListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onOptionsItemSelected in Class com.actionbarsherlock.app.SherlockExpandableListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPostResume in Class com.actionbarsherlock.app.SherlockExpandableListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class de.ub0r.android.websms.connector.common.InfoActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class com.actionbarsherlock.internal.widget.AbsActionBarView added
+[WARNING] [32mVERBOSE[0m Callback method :setTranslationY in Class com.actionbarsherlock.internal.nineoldandroids.view.NineViewGroup added
+[WARNING] [32mVERBOSE[0m Callback method :getAlpha in Class com.actionbarsherlock.internal.nineoldandroids.view.NineViewGroup added
+[WARNING] [32mVERBOSE[0m Callback method :getTranslationY in Class com.actionbarsherlock.internal.nineoldandroids.view.NineViewGroup added
+[WARNING] [32mVERBOSE[0m Callback method :setTranslationX in Class com.actionbarsherlock.internal.nineoldandroids.view.NineViewGroup added
+[WARNING] [32mVERBOSE[0m Callback method :setAlpha in Class com.actionbarsherlock.internal.nineoldandroids.view.NineViewGroup added
+[WARNING] [32mVERBOSE[0m Callback method :getTranslationX in Class com.actionbarsherlock.internal.nineoldandroids.view.NineViewGroup added
+[WARNING] [32mVERBOSE[0m Callback method :setVisibility in Class com.actionbarsherlock.internal.widget.AbsActionBarView added
+[WARNING] [32mVERBOSE[0m Callback method :onPanelClosed in Class com.actionbarsherlock.app.SherlockActivity added
+[WARNING] [32mVERBOSE[0m Callback method :addContentView in Class com.actionbarsherlock.app.SherlockActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateDialog in Class de.ub0r.android.websms.WebSMS added
+[WARNING] [32mVERBOSE[0m Callback method :onDateSet in Class de.ub0r.android.websms.WebSMS added
+[WARNING] [32mVERBOSE[0m Callback method :openOptionsMenu in Class com.actionbarsherlock.app.SherlockActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPostCreate in Class com.actionbarsherlock.app.SherlockActivity added
+[WARNING] [32mVERBOSE[0m Callback method :setContentView in Class com.actionbarsherlock.app.SherlockActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class com.actionbarsherlock.app.SherlockActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPrepareOptionsMenu in Class com.actionbarsherlock.app.SherlockActivity added
+[WARNING] [32mVERBOSE[0m Callback method :closeOptionsMenu in Class com.actionbarsherlock.app.SherlockActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onLongClick in Class de.ub0r.android.websms.WebSMS added
+[WARNING] [32mVERBOSE[0m Callback method :onRestoreInstanceState in Class com.actionbarsherlock.app.SherlockActivity added
+[WARNING] [32mVERBOSE[0m Callback method :setContentView in Class com.actionbarsherlock.app.SherlockActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onNewIntent in Class de.ub0r.android.websms.WebSMS added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class de.ub0r.android.websms.WebSMS added
+[WARNING] [32mVERBOSE[0m Callback method :onTitleChanged in Class com.actionbarsherlock.app.SherlockActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onTimeSet in Class de.ub0r.android.websms.WebSMS added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.actionbarsherlock.app.SherlockActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class de.ub0r.android.websms.WebSMS added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateOptionsMenu in Class com.actionbarsherlock.app.SherlockActivity added
+[WARNING] [32mVERBOSE[0m Callback method :invalidateOptionsMenu in Class com.actionbarsherlock.app.SherlockActivity added
+[WARNING] [32mVERBOSE[0m Callback method :dispatchKeyEvent in Class com.actionbarsherlock.app.SherlockActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onMenuOpened in Class com.actionbarsherlock.app.SherlockActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class de.ub0r.android.websms.WebSMS added
+[WARNING] [32mVERBOSE[0m Callback method :onSaveInstanceState in Class de.ub0r.android.websms.WebSMS added
+[WARNING] [32mVERBOSE[0m Callback method :setContentView in Class com.actionbarsherlock.app.SherlockActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class de.ub0r.android.websms.WebSMS added
+[WARNING] [32mVERBOSE[0m Callback method :onOptionsItemSelected in Class com.actionbarsherlock.app.SherlockActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class de.ub0r.android.websms.WebSMS added
+[WARNING] [32mVERBOSE[0m Callback method :onPostResume in Class com.actionbarsherlock.app.SherlockActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class de.ub0r.android.websms.WebSMS added
+[WARNING] [32mVERBOSE[0m Callback method :onLowMemory in Class android.support.v4.app.Fragment added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateContextMenu in Class android.support.v4.app.Fragment added
+[WARNING] [32mVERBOSE[0m Callback method :onCancel in Class android.support.v4.app.DialogFragment added
+[WARNING] [32mVERBOSE[0m Callback method :onDismiss in Class android.support.v4.app.DialogFragment added
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class android.support.v4.app.Fragment added
+0 ICC links found and 0 cg edges added due to ICC links
+dynamic conflated call graph: 252 methods; 252 nodes; 445 edges.
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.view.ContextThemeWrapper: android.content.res.Resources getResources()> to <android.app.Activity: void setTitle(int)>
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=3
+3 taint flow paths FOUND from <android.content.Intent: java.lang.String getAction()> to <android.content.ContextWrapper: void sendBroadcast(android.content.Intent)>
+maxpossibleFlows=2
+1 taint flow paths FOUND from <java.lang.StringBuilder: java.lang.String toString()> to <android.widget.TextView: void setText(java.lang.CharSequence)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=4
+4 taint flow paths FOUND from <android.widget.EditText: android.text.Editable getText()> to <android.widget.TextView: void setText(java.lang.CharSequence)>
+maxpossibleFlows=3
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+1 taint flow paths FOUND from <android.preference.PreferenceManager: android.content.SharedPreferences getDefaultSharedPreferences(android.content.Context)> to <android.widget.TextView: void setText(java.lang.CharSequence)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=8
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.app.Activity: android.content.Intent getIntent()> to <android.app.Activity: void startActivity(android.content.Intent)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=3
+3 taint flow paths FOUND from <android.content.Intent: int getFlags()> to <android.content.ContextWrapper: void sendBroadcast(android.content.Intent)>
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.app.Activity: java.lang.Object getSystemService(java.lang.String)> to <android.app.Activity: void startActivity(android.content.Intent)>
+maxpossibleFlows=1
+maxpossibleFlows=3
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.content.Context: java.lang.String getString(int)> to <android.app.Activity: void startActivity(android.content.Intent)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+1 taint flow paths FOUND from <java.lang.StringBuilder: java.lang.String toString()> to <android.widget.TextView: void setText(java.lang.CharSequence)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <java.lang.StringBuilder: java.lang.String toString()> to <android.app.Activity: void startActivity(android.content.Intent)>
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.preference.PreferenceManager: android.content.SharedPreferences getDefaultSharedPreferences(android.content.Context)> to <android.view.View: void setVisibility(int)>
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.view.ContextThemeWrapper: android.content.res.Resources getResources()> to <android.app.Activity: void setTitle(int)>
+maxpossibleFlows=1
+maxpossibleFlows=3
+3 taint flow paths FOUND from <android.content.Intent: java.lang.String getAction()> to <android.content.ContextWrapper: void sendBroadcast(android.content.Intent)>
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=16
+16 taint flow paths FOUND from <java.lang.StringBuilder: java.lang.String toString()> to <android.util.Log: int d(java.lang.String,java.lang.String)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+2 taint flow paths FOUND from <java.lang.StringBuilder: java.lang.String toString()> to <android.util.Log: int i(java.lang.String,java.lang.String)>
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class android.support.v4.app.Fragment
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class android.support.v4.app.Fragment
+[WARNING] [32mVERBOSE[0m Callback method :onCreateContextMenu in Class android.support.v4.app.Fragment
+[WARNING] [32mVERBOSE[0m Callback method :onLowMemory in Class android.support.v4.app.Fragment
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class android.support.v4.app.DialogFragment
+[WARNING] [32mVERBOSE[0m Callback method :onCancel in Class android.support.v4.app.DialogFragment
+[WARNING] [32mVERBOSE[0m Callback method :onDismiss in Class android.support.v4.app.DialogFragment
+[WARNING] [32mVERBOSE[0m Callback method :onMenuItemClick in Class com.actionbarsherlock.internal.ActionBarSherlockCompat
+[WARNING] [32mVERBOSE[0m Callback method :dispatchHoverEvent in Class com.actionbarsherlock.internal.view.menu.ActionMenuItemView
+[WARNING] [32mVERBOSE[0m Callback method :dispatchPopulateAccessibilityEvent in Class com.actionbarsherlock.internal.view.menu.ActionMenuItemView
+[WARNING] [32mVERBOSE[0m Callback method :onAttachedToWindow in Class com.actionbarsherlock.internal.view.menu.ActionMenuItemView
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.actionbarsherlock.internal.view.menu.ActionMenuItemView
+[WARNING] [32mVERBOSE[0m Callback method :onDetachedFromWindow in Class com.actionbarsherlock.internal.view.menu.ActionMenuItemView
+[WARNING] [32mVERBOSE[0m Callback method :onFinishInflate in Class com.actionbarsherlock.internal.view.menu.ActionMenuItemView
+[WARNING] [32mVERBOSE[0m Callback method :onLongClick in Class com.actionbarsherlock.internal.view.menu.ActionMenuItemView
+[WARNING] [32mVERBOSE[0m Callback method :onMeasure in Class com.actionbarsherlock.internal.view.menu.ActionMenuItemView
+[WARNING] [32mVERBOSE[0m Callback method :onPopulateAccessibilityEvent in Class com.actionbarsherlock.internal.view.menu.ActionMenuItemView
+[WARNING] [32mVERBOSE[0m Callback method :setEnabled in Class com.actionbarsherlock.internal.view.menu.ActionMenuItemView
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class de.ub0r.android.websms.CaptchaActivity
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class de.ub0r.android.websms.CaptchaActivity
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class de.ub0r.android.websms.CaptchaActivity
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class de.ub0r.android.websms.CaptchaActivity
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class de.ub0r.android.websms.HelpActivity
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class de.ub0r.android.websms.HelpActivity
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class de.ub0r.android.websms.HelpActivity
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class de.ub0r.android.websms.WebSMS
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class de.ub0r.android.websms.WebSMS
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class de.ub0r.android.websms.WebSMS
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class de.ub0r.android.websms.WebSMS
+[WARNING] [32mVERBOSE[0m Callback method :onCreateDialog in Class de.ub0r.android.websms.WebSMS
+[WARNING] [32mVERBOSE[0m Callback method :onDateSet in Class de.ub0r.android.websms.WebSMS
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class de.ub0r.android.websms.WebSMS
+[WARNING] [32mVERBOSE[0m Callback method :onLongClick in Class de.ub0r.android.websms.WebSMS
+[WARNING] [32mVERBOSE[0m Callback method :onNewIntent in Class de.ub0r.android.websms.WebSMS
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class de.ub0r.android.websms.WebSMS
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class de.ub0r.android.websms.WebSMS
+[WARNING] [32mVERBOSE[0m Callback method :onSaveInstanceState in Class de.ub0r.android.websms.WebSMS
+[WARNING] [32mVERBOSE[0m Callback method :onTimeSet in Class de.ub0r.android.websms.WebSMS
+Result for malicious-app-66-C8B3808292A61899B8BCC02A55E665655F678F2B923F206FA502144ACB2F2498.apkde.ub0r.android.websms

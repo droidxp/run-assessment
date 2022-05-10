@@ -1,0 +1,728 @@
+DUA-Forensics args to Soot: -w -cp /home/hcosta/bench/benchmark/libs/droidfax.jar:/home/hcosta/Android/Sdk/platforms/android-28/android.jar -p cg verbose:false,implicit-entry:true -p cg.spark verbose:false,on-fly-cg:true,rta:false -d /home/hcosta/bench/benchmark/trace/180/5/droidbot/benign-app-10-1B104A74097BB885FD18695BBAAA7FD2896E077392C88009BDBB89059C1F2392.apk.logcat -process-dir /home/hcosta/bench/benchmark/data/input/benign-app-10-1B104A74097BB885FD18695BBAAA7FD2896E077392C88009BDBB89059C1F2392.apk 
+Soot started on Thu Apr 21 12:37:31 CEST 2022
+Warning: com.ironsource.mobilcore.BaseFlowBasedAdUnit is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+Warning: org.apache.http.impl.client.DefaultHttpClient is a phantom class!
+Warning: org.apache.http.HttpResponse is a phantom class!
+Warning: org.apache.http.HttpEntity is a phantom class!
+Warning: org.apache.http.client.RedirectHandler is a phantom class!
+Warning: org.apache.http.protocol.HttpContext is a phantom class!
+Warning: org.apache.http.Header is a phantom class!
+Warning: org.apache.http.HttpHost is a phantom class!
+Warning: org.apache.http.StatusLine is a phantom class!
+Warning: org.apache.http.client.entity.UrlEncodedFormEntity is a phantom class!
+Warning: org.apache.http.client.methods.HttpGet is a phantom class!
+Warning: org.apache.http.client.methods.HttpPost is a phantom class!
+Warning: org.apache.http.client.methods.HttpRequestBase is a phantom class!
+Warning: org.apache.http.client.methods.HttpUriRequest is a phantom class!
+Warning: org.apache.http.client.params.HttpClientParams is a phantom class!
+Warning: org.apache.http.conn.ClientConnectionManager is a phantom class!
+Warning: org.apache.http.message.BasicNameValuePair is a phantom class!
+Warning: org.apache.http.params.BasicHttpParams is a phantom class!
+Warning: org.apache.http.params.HttpProtocolParams is a phantom class!
+Warning: org.apache.http.util.EntityUtils is a phantom class!
+No main class given. Inferred 'com.android.remotecontrolppt.ByteAndInt' as main class.
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.0 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+hcai's internal transform
+Running static analysis for security-relevant feature characterization
+[GatorHierarchy] [32mVERBOSE[0m [HIER] All classes: 1340
+[GatorHierarchy] [32mVERBOSE[0m [App: 203, Lib : 1115, Phantom: 22]
+[GatorHierarchy] [32mVERBOSE[0m [HIER] Activities: 4, lib activities: 2
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App views: 24, Lib views: 23
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App Dialogs: 0, Lib Dialogs: 3
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing starting at 1650537452483
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing finished at 1650537454357
+[Instantiated app classes] [32mVERBOSE[0m total number: 204
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.android.remotecontrolppt.RemoteControlPPTActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onSingleTapUp in Class com.android.remotecontrolppt.RemoteControlPPTActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class com.android.remotecontrolppt.RemoteControlPPTActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDown in Class com.android.remotecontrolppt.RemoteControlPPTActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onFling in Class com.android.remotecontrolppt.RemoteControlPPTActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.android.remotecontrolppt.RemoteControlPPTActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onScroll in Class com.android.remotecontrolppt.RemoteControlPPTActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onLongPress in Class com.android.remotecontrolppt.RemoteControlPPTActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onShowPress in Class com.android.remotecontrolppt.RemoteControlPPTActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.android.remotecontrolppt.RemoteControlPPTActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.android.remotecontrolppt.RemoteControlPPTActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.android.remotecontrolppt.welcomeActivity added
+[WARNING] [32mVERBOSE[0m Callback method :addView in Class net.youmi.android.AdView added
+[WARNING] [32mVERBOSE[0m Callback method :onWindowFocusChanged in Class net.youmi.android.AdView added
+[WARNING] [32mVERBOSE[0m Callback method :onMeasure in Class net.youmi.android.AdView added
+[WARNING] [32mVERBOSE[0m Callback method :addView in Class net.youmi.android.AdView added
+[WARNING] [32mVERBOSE[0m Callback method :onLayout in Class net.youmi.android.AdView added
+[WARNING] [32mVERBOSE[0m Callback method :onDetachedFromWindow in Class net.youmi.android.AdView added
+[WARNING] [32mVERBOSE[0m Callback method :addView in Class net.youmi.android.AdView added
+[WARNING] [32mVERBOSE[0m Callback method :onAttachedToWindow in Class net.youmi.android.AdView added
+[WARNING] [32mVERBOSE[0m Callback method :addView in Class net.youmi.android.AdView added
+[WARNING] [32mVERBOSE[0m Callback method :addView in Class net.youmi.android.AdView added
+[WARNING] [32mVERBOSE[0m Callback method :addViewInLayout in Class net.youmi.android.AdView added
+[WARNING] [32mVERBOSE[0m Callback method :setVisibility in Class net.youmi.android.AdView added
+[WARNING] [32mVERBOSE[0m Callback method :addViewInLayout in Class net.youmi.android.AdView added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class net.youmi.android.AdActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class net.youmi.android.AdActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.android.remotecontrolppt.fastcontrolActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onListItemClick in Class com.android.remotecontrolppt.fastcontrolActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.android.remotecontrolppt.fastcontrolActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.android.remotecontrolppt.fastcontrolActivity added
+0 ICC links found and 0 cg edges added due to ICC links
+dynamic conflated call graph: 490 methods; 490 nodes; 811 edges.
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=106
+106 taint flow paths FOUND from <java.lang.String: byte[] getBytes(java.lang.String)> to <java.io.OutputStream: void write(byte[])>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=1
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=12
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=15
+maxpossibleFlows=15
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=1
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=15
+maxpossibleFlows=30
+30 taint flow paths FOUND from <java.lang.StringBuilder: java.lang.String toString()> to <java.util.Properties: java.lang.Object setProperty(java.lang.String,java.lang.String)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=12
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=1
+maxpossibleFlows=6
+maxpossibleFlows=5
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=6
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=5
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.view.animation.AnimationUtils: android.view.animation.Animation loadAnimation(android.content.Context,int)> to <android.app.Activity: boolean onKeyDown(int,android.view.KeyEvent)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=6
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=5
+maxpossibleFlows=6
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=5
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=5
+maxpossibleFlows=1
+maxpossibleFlows=5
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=5
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.view.LayoutInflater: android.view.View inflate(int,android.view.ViewGroup)> to <android.widget.Spinner: void setAdapter(android.widget.SpinnerAdapter)>
+maxpossibleFlows=12
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=1
+maxpossibleFlows=6
+maxpossibleFlows=5
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.view.View: int getId()> to <android.view.View: void startAnimation(android.view.animation.Animation)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=12
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=6
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=5
+maxpossibleFlows=7
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=5
+maxpossibleFlows=1
+maxpossibleFlows=5
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=6
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=5
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.view.animation.AnimationUtils: android.view.animation.Animation loadAnimation(android.content.Context,int)> to <android.app.Activity: boolean onKeyDown(int,android.view.KeyEvent)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=3
+3 taint flow paths FOUND from <android.view.animation.AnimationUtils: android.view.animation.Animation loadAnimation(android.content.Context,int)> to <android.view.View: void startAnimation(android.view.animation.Animation)>
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=106
+106 taint flow paths FOUND from <java.lang.String: byte[] getBytes(java.lang.String)> to <java.io.OutputStream: void write(byte[])>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=15
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=15
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=15
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=30
+30 taint flow paths FOUND from <java.lang.StringBuilder: java.lang.String toString()> to <java.util.Properties: java.lang.Object setProperty(java.lang.String,java.lang.String)>
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=6
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=6
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=5
+maxpossibleFlows=1
+maxpossibleFlows=6
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=6
+maxpossibleFlows=1
+maxpossibleFlows=5
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=6
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=6
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=5
+maxpossibleFlows=1
+maxpossibleFlows=6
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=6
+maxpossibleFlows=1
+maxpossibleFlows=5
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.view.LayoutInflater: android.view.View inflate(int,android.view.ViewGroup)> to <android.widget.Spinner: void setAdapter(android.widget.SpinnerAdapter)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=14
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=6
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=6
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=5
+maxpossibleFlows=1
+maxpossibleFlows=6
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=6
+maxpossibleFlows=1
+maxpossibleFlows=5
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=3
+3 taint flow paths FOUND from <android.view.animation.AnimationUtils: android.view.animation.Animation loadAnimation(android.content.Context,int)> to <android.view.View: void setVisibility(int)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=10
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=1
+maxpossibleFlows=5
+maxpossibleFlows=6
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=5
+maxpossibleFlows=1
+maxpossibleFlows=5
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=5
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=5
+maxpossibleFlows=1
+maxpossibleFlows=5
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=5
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=7
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.android.remotecontrolppt.RemoteControlPPTActivity
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.android.remotecontrolppt.RemoteControlPPTActivity
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.android.remotecontrolppt.RemoteControlPPTActivity
+[WARNING] [32mVERBOSE[0m Callback method :onDown in Class com.android.remotecontrolppt.RemoteControlPPTActivity
+[WARNING] [32mVERBOSE[0m Callback method :onFling in Class com.android.remotecontrolppt.RemoteControlPPTActivity
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.android.remotecontrolppt.RemoteControlPPTActivity
+[WARNING] [32mVERBOSE[0m Callback method :onLongPress in Class com.android.remotecontrolppt.RemoteControlPPTActivity
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.android.remotecontrolppt.RemoteControlPPTActivity
+[WARNING] [32mVERBOSE[0m Callback method :onScroll in Class com.android.remotecontrolppt.RemoteControlPPTActivity
+[WARNING] [32mVERBOSE[0m Callback method :onShowPress in Class com.android.remotecontrolppt.RemoteControlPPTActivity
+[WARNING] [32mVERBOSE[0m Callback method :onSingleTapUp in Class com.android.remotecontrolppt.RemoteControlPPTActivity
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class com.android.remotecontrolppt.RemoteControlPPTActivity
+Result for benign-app-10-1B104A74097BB885FD18695BBAAA7FD2896E077392C88009BDBB89059C1F2392.apkcom.android.remotecontrolppt

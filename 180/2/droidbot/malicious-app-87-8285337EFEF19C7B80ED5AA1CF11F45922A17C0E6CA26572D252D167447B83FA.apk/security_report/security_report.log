@@ -1,0 +1,2046 @@
+DUA-Forensics args to Soot: -w -cp /home/handrick/Documents/UNB/benchmark/libs/droidfax.jar:/home/handrick/Android/Sdk/platforms/android-19/android.jar -p cg verbose:false,implicit-entry:true -p cg.spark verbose:false,on-fly-cg:true,rta:false -d /home/handrick/Documents/UNB/benchmark/trace/180/2/droidbot/malicious-app-87-8285337EFEF19C7B80ED5AA1CF11F45922A17C0E6CA26572D252D167447B83FA.apk.logcat -process-dir /home/handrick/Documents/UNB/benchmark/data/input/malicious-app-87-8285337EFEF19C7B80ED5AA1CF11F45922A17C0E6CA26572D252D167447B83FA.apk 
+Soot started on Fri Apr 15 12:49:10 CEST 2022
+Warning: com.ironsource.mobilcore.BaseFlowBasedAdUnit is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+Warning: cn.aduu.adsdk.AdManager is a phantom class!
+Warning: cn.aduu.adsdk.AdView is a phantom class!
+Warning: cn.aduu.adsdk.AdViewListener is a phantom class!
+Warning: cn.appmedia.ad.AdManager is a phantom class!
+Warning: cn.appmedia.ad.AdViewListener is a phantom class!
+Warning: cn.appmedia.ad.BannerAdView is a phantom class!
+Warning: cn.casee.adsdk.CaseeAdView$AdListener is a phantom class!
+Warning: cn.casee.adsdk.CaseeAdView is a phantom class!
+Warning: cn.domob.android.ads.DomobAdListener is a phantom class!
+Warning: cn.domob.android.ads.DomobAdView is a phantom class!
+Warning: com.adchina.android.ads.AdEngine is a phantom class!
+Warning: com.adchina.android.ads.AdListener is a phantom class!
+Warning: com.adchina.android.ads.AdManager is a phantom class!
+Warning: com.adchina.android.ads.views.AdView is a phantom class!
+Warning: com.baidu.mobads.AdViewListener is a phantom class!
+Warning: com.baidu.mobads.AdService is a phantom class!
+Warning: com.baidu.mobads.AdView is a phantom class!
+Warning: com.energysource.szj.embeded.AdListener is a phantom class!
+Warning: com.energysource.szj.embeded.AdView is a phantom class!
+Warning: com.adwo.adsdk.AdListener is a phantom class!
+Warning: com.adwo.adsdk.AdwoAdView is a phantom class!
+Warning: com.adwo.adsdk.ErrorCode is a phantom class!
+Warning: com.mt.airad.AirAD$AirADListener is a phantom class!
+Warning: com.mt.airad.AirAD is a phantom class!
+Warning: com.fractalist.android.ads.AdStatusListener is a phantom class!
+Warning: com.fractalist.android.ads.ADView is a phantom class!
+Warning: com.greystripe.android.sdk.BannerListener is a phantom class!
+Warning: com.greystripe.android.sdk.BannerView is a phantom class!
+Warning: com.inmobi.androidsdk.IMAdListener is a phantom class!
+Warning: com.inmobi.androidsdk.IMAdView is a phantom class!
+Warning: com.inmobi.androidsdk.IMAdRequest$ErrorCode is a phantom class!
+Warning: com.inmobi.androidsdk.IMAdRequest is a phantom class!
+Warning: com.izp.views.IZPDelegate is a phantom class!
+Warning: com.izp.views.IZPView is a phantom class!
+Warning: com.lmmob.ad.sdk.LmMobAdRequestListener is a phantom class!
+Warning: com.lmmob.ad.sdk.LmMobAdView is a phantom class!
+Warning: com.l.adlib_android.AdListenerEx is a phantom class!
+Warning: com.l.adlib_android.AdView is a phantom class!
+Warning: com.mdotm.android.ads.MdotMView$MdotMActionListener is a phantom class!
+Warning: com.mdotm.android.ads.MdotMView is a phantom class!
+Warning: com.millennialmedia.android.MMAdView$MMAdListener is a phantom class!
+Warning: com.millennialmedia.android.MMAdView is a phantom class!
+Warning: com.tencent.mobwin.AdListener is a phantom class!
+Warning: com.tencent.mobwin.AdView is a phantom class!
+Warning: com.mobisage.android.IMobiSageAdViewListener is a phantom class!
+Warning: com.mobisage.android.MobiSageAdBanner is a phantom class!
+Warning: com.donson.momark.util.AdViewListener is a phantom class!
+Warning: com.donson.momark.view.view.AdView is a phantom class!
+Warning: com.smaato.SOMA.AdListener is a phantom class!
+Warning: com.smaato.SOMA.SOMABanner is a phantom class!
+Warning: com.smaato.SOMA.AdDownloader is a phantom class!
+Warning: com.smaato.SOMA.ErrorCode is a phantom class!
+Warning: com.smaato.SOMA.SOMAReceivedBanner is a phantom class!
+Warning: com.madhouse.android.ads.AdListener is a phantom class!
+Warning: com.madhouse.android.ads.AdView is a phantom class!
+Warning: com.umengAd.controller.UmengAdListener is a phantom class!
+Warning: com.umengAd.android.AdView is a phantom class!
+Warning: com.vpon.adon.android.AdListener is a phantom class!
+Warning: com.vpon.adon.android.AdView is a phantom class!
+Warning: com.wooboo.adlib_android.AdListener is a phantom class!
+Warning: net.youmi.android.AdViewListener is a phantom class!
+Warning: net.youmi.android.AdView is a phantom class!
+Warning: com.zestadz.android.ZestADZAdView$ZestADZListener is a phantom class!
+Warning: com.zestadz.android.ZestADZAdView is a phantom class!
+Warning: com.baidu.mobads.AdType is a phantom class!
+Warning: com.donson.momark.AdManager is a phantom class!
+Warning: com.energysource.szj.embeded.AdManager is a phantom class!
+get type from 'Z'
+Warning: com.greystripe.android.sdk.GSSDK is a phantom class!
+Warning: com.ignitevision.android.ads.AdManager is a phantom class!
+Warning: com.ignitevision.android.ads.AdView is a phantom class!
+Warning: com.lmmob.ad.sdk.LmMobEngine is a phantom class!
+Warning: com.madhouse.android.ads.AdManager is a phantom class!
+Warning: com.mdotm.android.ads.MdotMManager is a phantom class!
+Warning: com.vpon.adon.android.AdOnPlatform is a phantom class!
+Warning: com.wiyun.ad.AdView is a phantom class!
+Warning: com.wooboo.adlib_android.WoobooAdView is a phantom class!
+Warning: com.wqmobile.sdk.widget.ADView is a phantom class!
+Warning: com.zestadz.android.AdManager is a phantom class!
+Warning: net.youmi.android.AdManager is a phantom class!
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.0 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+hcai's internal transform
+Running static analysis for security-relevant feature characterization
+[GatorHierarchy] [32mVERBOSE[0m [HIER] All classes: 1462
+[GatorHierarchy] [32mVERBOSE[0m [App: 337, Lib : 1043, Phantom: 82]
+[GatorHierarchy] [32mVERBOSE[0m [HIER] Activities: 5, lib activities: 1
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App views: 15, Lib views: 25
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App Dialogs: 0, Lib Dialogs: 4
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing starting at 1650019751248
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing finished at 1650019754616
+[Instantiated app classes] [32mVERBOSE[0m total number: 345
+[WARNING] [32mVERBOSE[0m Callback method :finish in Class com.kuguo.ad.MainActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.kuguo.ad.MainActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.kuguo.ad.MainActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class com.kuguo.ad.MainActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onWindowFocusChanged in Class com.google.ads.AdActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.google.ads.AdActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.google.ads.AdActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.google.ads.AdActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class com.google.ads.AdActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.google.ads.AdActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onMeasure in Class com.adview.AdViewLayout added
+[WARNING] [32mVERBOSE[0m Callback method :onInterceptTouchEvent in Class com.adview.AdViewLayout added
+[WARNING] [32mVERBOSE[0m Callback method :setVisibility in Class com.adview.AdViewLayout added
+[WARNING] [32mVERBOSE[0m Callback method :onWindowVisibilityChanged in Class com.adview.AdViewLayout added
+[WARNING] [32mVERBOSE[0m Callback method :onReceive in Class com.kuguo.ad.MainReceiver added
+[WARNING] [32mVERBOSE[0m Callback method :finish in Class com.kuguo.ad.BoutiqueActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onItemClick in Class com.kuguo.ad.BoutiqueActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.kuguo.ad.BoutiqueActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.example.kuguo112.MainActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.gamayun.biketothefuturefree.ActivityPlay added
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class com.gamayun.biketothefuturefree.ActivityPlay added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.gamayun.biketothefuturefree.ActivityPlay added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.gamayun.biketothefuturefree.ActivityPlay added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.gamayun.biketothefuturefree.ActivityPlay added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class com.gamayun.biketothefuturefree.ActivityPlay added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyUp in Class com.gamayun.biketothefuturefree.ActivityPlay added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.gamayun.biketothefuturefree.ActivityPlay added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class com.gamayun.biketothefuturefree.ActivityPlay added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class com.gamayun.biketothefuturefree.ActivityPlay added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.gamayun.biketothefuturefree.ActivityPlay added
+[WARNING] [32mVERBOSE[0m Callback method :onBind in Class com.kuguo.ad.MainService added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.kuguo.ad.MainService added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.kuguo.ad.MainService added
+[WARNING] [32mVERBOSE[0m Callback method :onStartCommand in Class com.kuguo.ad.MainService added
+0 ICC links found and 0 cg edges added due to ICC links
+dynamic conflated call graph: 631 methods; 631 nodes; 995 edges.
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=9
+maxpossibleFlows=1
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=20
+20 taint flow paths FOUND from <android.telephony.TelephonyManager: java.lang.String getNetworkOperator()> to <org.json.JSONObject: org.json.JSONObject put(java.lang.String,int)>
+maxpossibleFlows=10
+maxpossibleFlows=10
+1 taint flow paths FOUND from <org.json.JSONArray: org.json.JSONArray put(java.lang.Object)> to <org.apache.http.params.BasicHttpParams: org.apache.http.params.HttpParams setParameter(java.lang.String,java.lang.Object)>
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=3
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=3
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=3
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=1
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=1
+maxpossibleFlows=3
+maxpossibleFlows=1
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=4
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=9
+2 taint flow paths FOUND from <android.content.ContextWrapper: java.io.File getDatabasePath(java.lang.String)> to <android.webkit.WebSettings: void setDisplayZoomControls(boolean)>
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=9
+maxpossibleFlows=3
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=8
+maxpossibleFlows=8
+maxpossibleFlows=8
+maxpossibleFlows=4
+maxpossibleFlows=8
+maxpossibleFlows=8
+maxpossibleFlows=8
+maxpossibleFlows=8
+maxpossibleFlows=4
+maxpossibleFlows=8
+maxpossibleFlows=4
+maxpossibleFlows=8
+maxpossibleFlows=8
+maxpossibleFlows=8
+maxpossibleFlows=8
+maxpossibleFlows=4
+maxpossibleFlows=8
+maxpossibleFlows=4
+maxpossibleFlows=8
+maxpossibleFlows=4
+maxpossibleFlows=8
+maxpossibleFlows=8
+maxpossibleFlows=8
+8 taint flow paths FOUND from <android.view.View: android.content.Context getContext()> to <android.webkit.WebSettings: void setUserAgentString(java.lang.String)>
+maxpossibleFlows=3
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=9
+9 taint flow paths FOUND from <java.lang.String: byte[] getBytes(java.lang.String)> to <java.io.OutputStream: void write(byte[])>
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=5
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=3
+maxpossibleFlows=20
+maxpossibleFlows=20
+20 taint flow paths FOUND from <org.apache.http.impl.client.AbstractHttpClient: org.apache.http.params.HttpParams getParams()> to <org.apache.http.params.BasicHttpParams: org.apache.http.params.HttpParams setParameter(java.lang.String,java.lang.Object)>
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=9
+9 taint flow paths FOUND from <android.os.Environment: java.io.File getExternalStorageDirectory()> to <java.io.OutputStream: void write(byte[])>
+maxpossibleFlows=3
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+2 taint flow paths FOUND from <android.content.Intent: java.lang.String getAction()> to <android.os.Handler: boolean sendEmptyMessageDelayed(int,long)>
+maxpossibleFlows=4
+maxpossibleFlows=9
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=4
+3 taint flow paths FOUND from <java.lang.StringBuilder: java.lang.String toString()> to <android.view.Window: void setFlags(int,int)>
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=9
+2 taint flow paths FOUND from <java.lang.Long: long longValue()> to <android.webkit.WebSettings: void setDisplayZoomControls(boolean)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=8
+maxpossibleFlows=8
+maxpossibleFlows=8
+maxpossibleFlows=4
+maxpossibleFlows=8
+maxpossibleFlows=8
+maxpossibleFlows=8
+maxpossibleFlows=8
+maxpossibleFlows=4
+maxpossibleFlows=8
+maxpossibleFlows=4
+maxpossibleFlows=8
+maxpossibleFlows=8
+maxpossibleFlows=8
+maxpossibleFlows=8
+maxpossibleFlows=4
+maxpossibleFlows=8
+maxpossibleFlows=4
+maxpossibleFlows=8
+maxpossibleFlows=4
+maxpossibleFlows=8
+maxpossibleFlows=8
+maxpossibleFlows=8
+8 taint flow paths FOUND from <android.content.ContextWrapper: android.content.Context getApplicationContext()> to <android.webkit.WebSettings: void setUserAgentString(java.lang.String)>
+maxpossibleFlows=3
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=9
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=10
+10 taint flow paths FOUND from <java.io.File: java.lang.String getAbsolutePath()> to <android.webkit.WebSettings: void setDisplayZoomControls(boolean)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=9
+1 taint flow paths FOUND from <android.app.Activity: java.lang.Object getSystemService(java.lang.String)> to <org.json.JSONObject: org.json.JSONObject put(java.lang.String,int)>
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.os.PowerManager: android.os.PowerManager$WakeLock newWakeLock(int,java.lang.String)> to <android.content.ContextWrapper: android.content.ComponentName startService(android.content.Intent)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=9
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=9
+2 taint flow paths FOUND from <android.content.ContextWrapper: java.io.File getCacheDir()> to <android.webkit.WebSettings: void setDisplayZoomControls(boolean)>
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+4 taint flow paths FOUND from <android.app.Activity: android.view.Window getWindow()> to <android.view.Window: void setFlags(int,int)>
+maxpossibleFlows=3
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+3 taint flow paths FOUND from <android.content.ContextWrapper: java.lang.String getPackageName()> to <android.view.Window: void setFlags(int,int)>
+maxpossibleFlows=1
+maxpossibleFlows=8
+8 taint flow paths FOUND from <android.webkit.WebView: android.webkit.WebSettings getSettings()> to <android.webkit.WebSettings: void setSavePassword(boolean)>
+maxpossibleFlows=3
+maxpossibleFlows=10
+1 taint flow paths FOUND from <android.telephony.TelephonyManager: android.telephony.CellLocation getCellLocation()> to <org.json.JSONObject: org.json.JSONObject put(java.lang.String,int)>
+maxpossibleFlows=10
+1 taint flow paths FOUND from <android.telephony.gsm.GsmCellLocation: int getCid()> to <org.json.JSONObject: org.json.JSONObject put(java.lang.String,int)>
+maxpossibleFlows=10
+1 taint flow paths FOUND from <android.telephony.gsm.GsmCellLocation: int getLac()> to <org.json.JSONObject: org.json.JSONObject put(java.lang.String,int)>
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=3
+3 taint flow paths FOUND from <java.util.Calendar: long getTimeInMillis()> to <android.app.AlarmManager: void setRepeating(int,long,long,android.app.PendingIntent)>
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+1 taint flow paths FOUND from <java.util.Calendar: java.util.Calendar getInstance()> to <android.util.Log: int d(java.lang.String,java.lang.String)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <java.util.Calendar: int get(int)> to <android.util.Log: int d(java.lang.String,java.lang.String)>
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=3
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=9
+2 taint flow paths FOUND from <android.content.ContextWrapper: java.io.File getDatabasePath(java.lang.String)> to <android.webkit.WebSettings: void setDisplayZoomControls(boolean)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=20
+20 taint flow paths FOUND from <android.telephony.TelephonyManager: java.lang.String getNetworkOperator()> to <org.json.JSONObject: org.json.JSONObject put(java.lang.String,int)>
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=3
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=8
+maxpossibleFlows=4
+maxpossibleFlows=8
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=8
+maxpossibleFlows=8
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=8
+maxpossibleFlows=3
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=8
+maxpossibleFlows=3
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=8
+8 taint flow paths FOUND from <android.webkit.WebView: android.webkit.WebSettings getSettings()> to <android.webkit.WebSettings: void setSavePassword(boolean)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.app.Activity: java.lang.Object getSystemService(java.lang.String)> to <android.content.ContextWrapper: android.content.ComponentName startService(android.content.Intent)>
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=3
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=9
+maxpossibleFlows=4
+maxpossibleFlows=8
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=9
+maxpossibleFlows=8
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=9
+8 taint flow paths FOUND from <java.io.File: java.lang.String getAbsolutePath()> to <android.webkit.WebSettings: void setAppCacheEnabled(boolean)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.app.Activity: java.lang.Object getSystemService(java.lang.String)> to <android.content.Intent: android.content.Intent setClass(android.content.Context,java.lang.Class)>
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=4
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=4
+3 taint flow paths FOUND from <java.lang.StringBuilder: java.lang.String toString()> to <android.view.Window: void setFlags(int,int)>
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=3
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=9
+maxpossibleFlows=4
+maxpossibleFlows=8
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=9
+9 taint flow paths FOUND from <java.lang.Long: long longValue()> to <android.webkit.WebSettings: void setAppCacheMaxSize(long)>
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=3
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=8
+maxpossibleFlows=4
+maxpossibleFlows=8
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=8
+maxpossibleFlows=8
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=8
+maxpossibleFlows=3
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=8
+maxpossibleFlows=3
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=8
+8 taint flow paths FOUND from <android.webkit.WebView: android.webkit.WebSettings getSettings()> to <android.webkit.WebView: void setScrollBarStyle(int)>
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=3
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=8
+maxpossibleFlows=4
+maxpossibleFlows=8
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=8
+maxpossibleFlows=8
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=8
+maxpossibleFlows=3
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=8
+maxpossibleFlows=3
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=8
+8 taint flow paths FOUND from <android.webkit.WebView: android.webkit.WebSettings getSettings()> to <android.webkit.WebSettings: void setSupportMultipleWindows(boolean)>
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=3
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=9
+maxpossibleFlows=4
+maxpossibleFlows=8
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=9
+9 taint flow paths FOUND from <java.lang.Long: long longValue()> to <android.webkit.WebSettings: void setDatabaseEnabled(boolean)>
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=4
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=3
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=3
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=3
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=9
+9 taint flow paths FOUND from <android.content.ContextWrapper: java.io.File getDatabasePath(java.lang.String)> to <android.webkit.WebSettings: void setDomStorageEnabled(boolean)>
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=3
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=3
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=3
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=20
+20 taint flow paths FOUND from <android.telephony.TelephonyManager: java.lang.String getNetworkOperator()> to <org.apache.http.params.BasicHttpParams: org.apache.http.params.HttpParams setParameter(java.lang.String,java.lang.Object)>
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=3
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=8
+maxpossibleFlows=4
+maxpossibleFlows=8
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=8
+maxpossibleFlows=8
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=8
+maxpossibleFlows=3
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=8
+maxpossibleFlows=3
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=8
+8 taint flow paths FOUND from <android.webkit.WebView: android.webkit.WebSettings getSettings()> to <android.webkit.WebView: void setWebChromeClient(android.webkit.WebChromeClient)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=10
+10 taint flow paths FOUND from <android.telephony.TelephonyManager: java.lang.String getNetworkOperator()> to <org.json.JSONObject: org.json.JSONObject put(java.lang.String,boolean)>
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=3
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=8
+maxpossibleFlows=4
+maxpossibleFlows=8
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=8
+maxpossibleFlows=8
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=8
+maxpossibleFlows=3
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=8
+maxpossibleFlows=3
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=8
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=3
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=9
+2 taint flow paths FOUND from <android.content.ContextWrapper: java.io.File getDatabasePath(java.lang.String)> to <android.webkit.WebSettings: void setSupportZoom(boolean)>
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=3
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=8
+maxpossibleFlows=4
+maxpossibleFlows=8
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=8
+maxpossibleFlows=8
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=8
+maxpossibleFlows=3
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=8
+maxpossibleFlows=3
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=8
+8 taint flow paths FOUND from <android.webkit.WebView: android.webkit.WebSettings getSettings()> to <android.webkit.WebSettings: void setJavaScriptEnabled(boolean)>
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=3
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=3
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=3
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=9
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=9
+maxpossibleFlows=2
+maxpossibleFlows=9
+9 taint flow paths FOUND from <java.lang.String: byte[] getBytes(java.lang.String)> to <java.io.OutputStream: void write(byte[])>
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=3
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=9
+2 taint flow paths FOUND from <android.content.ContextWrapper: java.io.File getDatabasePath(java.lang.String)> to <android.webkit.WebSettings: void setBuiltInZoomControls(boolean)>
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=3
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=3
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=3
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=3
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=9
+maxpossibleFlows=4
+maxpossibleFlows=8
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=9
+9 taint flow paths FOUND from <java.lang.Long: long longValue()> to <android.webkit.WebSettings: void setAppCachePath(java.lang.String)>
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=4
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=4
+3 taint flow paths FOUND from <java.lang.StringBuilder: java.lang.String toString()> to <android.app.Activity: void setContentView(int)>
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=3
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=8
+maxpossibleFlows=4
+maxpossibleFlows=8
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=8
+maxpossibleFlows=8
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=8
+maxpossibleFlows=3
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=8
+maxpossibleFlows=3
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=8
+8 taint flow paths FOUND from <android.webkit.WebView: android.webkit.WebSettings getSettings()> to <android.webkit.WebView: void setDownloadListener(android.webkit.DownloadListener)>
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=3
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=9
+9 taint flow paths FOUND from <android.content.ContextWrapper: java.io.File getDatabasePath(java.lang.String)> to <android.webkit.WebSettings: void setDatabasePath(java.lang.String)>
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=3
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=8
+maxpossibleFlows=4
+maxpossibleFlows=8
+8 taint flow paths FOUND from <android.view.View: android.content.Context getContext()> to <android.webkit.WebSettings: void setUserAgentString(java.lang.String)>
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=2
+2 taint flow paths FOUND from <java.lang.StringBuilder: java.lang.String toString()> to <android.util.Log: int d(java.lang.String,java.lang.String)>
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=3
+3 taint flow paths FOUND from <java.util.Calendar: long getTimeInMillis()> to <android.app.AlarmManager: void setRepeating(int,long,long,android.app.PendingIntent)>
+maxpossibleFlows=1
+maxpossibleFlows=2
+2 taint flow paths FOUND from <android.content.Intent: java.lang.String getAction()> to <android.os.Handler: boolean sendEmptyMessageDelayed(int,long)>
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.gamayun.biketothefuturefree.ActivityPlay
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class com.gamayun.biketothefuturefree.ActivityPlay
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class com.gamayun.biketothefuturefree.ActivityPlay
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.gamayun.biketothefuturefree.ActivityPlay
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.gamayun.biketothefuturefree.ActivityPlay
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.gamayun.biketothefuturefree.ActivityPlay
+[WARNING] [32mVERBOSE[0m Callback method :onKeyUp in Class com.gamayun.biketothefuturefree.ActivityPlay
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.gamayun.biketothefuturefree.ActivityPlay
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.gamayun.biketothefuturefree.ActivityPlay
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class com.gamayun.biketothefuturefree.ActivityPlay
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class com.gamayun.biketothefuturefree.ActivityPlay
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.gamayun.biketothefuturefree.ActivityPlay
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.google.ads.AdActivity
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class com.google.ads.AdActivity
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.google.ads.AdActivity
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.google.ads.AdActivity
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.google.ads.AdActivity
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.google.ads.AdActivity
+[WARNING] [32mVERBOSE[0m Callback method :onWindowFocusChanged in Class com.google.ads.AdActivity
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.kuguo.ad.BoutiqueActivity
+[WARNING] [32mVERBOSE[0m Callback method :finish in Class com.kuguo.ad.BoutiqueActivity
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.kuguo.ad.BoutiqueActivity
+[WARNING] [32mVERBOSE[0m Callback method :onItemClick in Class com.kuguo.ad.BoutiqueActivity
+Result for malicious-app-87-8285337EFEF19C7B80ED5AA1CF11F45922A17C0E6CA26572D252D167447B83FA.apkcom.gamayun.biketothefuturefree

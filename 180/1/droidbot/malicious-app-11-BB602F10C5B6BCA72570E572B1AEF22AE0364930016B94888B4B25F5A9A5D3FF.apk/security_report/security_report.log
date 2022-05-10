@@ -1,0 +1,216 @@
+DUA-Forensics args to Soot: -w -cp /home/handrick/Documents/UNB/benchmark/libs/droidfax.jar:/home/handrick/Android/Sdk/platforms/android-19/android.jar -p cg verbose:false,implicit-entry:true -p cg.spark verbose:false,on-fly-cg:true,rta:false -d /home/handrick/Documents/UNB/benchmark/trace/180/1/droidbot/malicious-app-11-BB602F10C5B6BCA72570E572B1AEF22AE0364930016B94888B4B25F5A9A5D3FF.apk.logcat -process-dir /home/handrick/Documents/UNB/benchmark/data/input/malicious-app-11-BB602F10C5B6BCA72570E572B1AEF22AE0364930016B94888B4B25F5A9A5D3FF.apk 
+Soot started on Fri Apr 15 01:26:06 CEST 2022
+Warning: com.ironsource.mobilcore.BaseFlowBasedAdUnit is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.0 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+hcai's internal transform
+Running static analysis for security-relevant feature characterization
+[GatorHierarchy] [32mVERBOSE[0m [HIER] All classes: 798
+[GatorHierarchy] [32mVERBOSE[0m [App: 70, Lib : 725, Phantom: 3]
+[GatorHierarchy] [32mVERBOSE[0m [HIER] Activities: 5, lib activities: 3
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App views: 3, Lib views: 15
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App Dialogs: 0, Lib Dialogs: 2
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing starting at 1649978767347
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing finished at 1649978768998
+[Instantiated app classes] [32mVERBOSE[0m total number: 96
+[WARNING] [32mVERBOSE[0m Callback method :onTransact in Class com.omesoft.nosick.IPlayback$Stub added
+[WARNING] [32mVERBOSE[0m Callback method :asBinder in Class com.omesoft.nosick.IPlayback$Stub added
+[WARNING] [32mVERBOSE[0m Callback method :finish in Class com.omesoft.nosick.dao.ShowList added
+[WARNING] [32mVERBOSE[0m Callback method :onListItemClick in Class com.omesoft.nosick.dao.ShowList added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.omesoft.nosick.dao.ShowList added
+[WARNING] [32mVERBOSE[0m Callback method :onMeasure in Class com.wooboo.adlib_android.WoobooAdView added
+[WARNING] [32mVERBOSE[0m Callback method :setBackgroundColor in Class com.wooboo.adlib_android.WoobooAdView added
+[WARNING] [32mVERBOSE[0m Callback method :onDetachedFromWindow in Class com.wooboo.adlib_android.WoobooAdView added
+[WARNING] [32mVERBOSE[0m Callback method :onAttachedToWindow in Class com.wooboo.adlib_android.WoobooAdView added
+[WARNING] [32mVERBOSE[0m Callback method :getVisibility in Class com.wooboo.adlib_android.WoobooAdView added
+[WARNING] [32mVERBOSE[0m Callback method :setVisibility in Class com.wooboo.adlib_android.WoobooAdView added
+[WARNING] [32mVERBOSE[0m Callback method :onWindowVisibilityChanged in Class com.wooboo.adlib_android.WoobooAdView added
+[WARNING] [32mVERBOSE[0m Callback method :onBind in Class com.omesoft.nosick.MusicService added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.omesoft.nosick.MusicService added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.omesoft.nosick.MusicService added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class com.omesoft.nosick.MusicService added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.omesoft.nosick.WebAbout added
+[WARNING] [32mVERBOSE[0m Callback method :onBindView in Class com.omesoft.nosick.dao.SeekBarPref added
+[WARNING] [32mVERBOSE[0m Callback method :finish in Class com.omesoft.nosick.dao.Setting added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.omesoft.nosick.dao.Setting added
+[WARNING] [32mVERBOSE[0m Callback method :setPreferenceScreen in Class com.omesoft.nosick.dao.Setting added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.omesoft.nosick.ActivityMain added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.omesoft.nosick.ActivityMain added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.omesoft.nosick.ActivityMain added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.omesoft.nosick.dao.ShowInfo added
+0 ICC links found and 0 cg edges added due to ICC links
+dynamic conflated call graph: 203 methods; 203 nodes; 223 edges.
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.content.ContextWrapper: android.content.res.AssetManager getAssets()> to <android.content.res.AssetManager: java.io.InputStream open(java.lang.String)>
+maxpossibleFlows=2
+maxpossibleFlows=2
+2 taint flow paths FOUND from <java.net.URLConnection: java.io.OutputStream getOutputStream()> to <android.util.Log: int w(java.lang.String,java.lang.String)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+2 taint flow paths FOUND from <java.lang.StringBuilder: java.lang.String toString()> to <java.net.URL: java.net.URLConnection openConnection()>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.content.ContextWrapper: android.content.pm.PackageManager getPackageManager()> to <android.util.Log: int d(java.lang.String,java.lang.String)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=336
+maxpossibleFlows=672
+maxpossibleFlows=336
+maxpossibleFlows=336
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.content.ContextWrapper: android.content.res.Resources getResources()> to <android.content.res.Resources: android.content.res.AssetFileDescriptor openRawResourceFd(int)>
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.os.Bundle: java.lang.String getString(java.lang.String)> to <android.util.Log: int d(java.lang.String,java.lang.String)>
+maxpossibleFlows=2
+2 taint flow paths FOUND from <android.telephony.TelephonyManager: java.lang.String getLine1Number()> to <java.net.URL: java.net.URLConnection openConnection()>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.os.Bundle: int getInt(java.lang.String,int)> to <android.util.Log: int d(java.lang.String,java.lang.String)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.content.ContextWrapper: java.lang.String getPackageName()> to <android.util.Log: int d(java.lang.String,java.lang.String)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+2 taint flow paths FOUND from <java.lang.StringBuilder: java.lang.String toString()> to <java.net.URL: java.net.URLConnection openConnection()>
+maxpossibleFlows=2
+2 taint flow paths FOUND from <java.net.URLConnection: java.io.OutputStream getOutputStream()> to <android.util.Log: int w(java.lang.String,java.lang.String)>
+maxpossibleFlows=1
+1 taint flow paths FOUND from <java.lang.StringBuilder: java.lang.String toString()> to <android.util.Log: int d(java.lang.String,java.lang.String)>
+maxpossibleFlows=336
+maxpossibleFlows=336
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.content.ContextWrapper: android.content.res.AssetManager getAssets()> to <android.content.res.AssetManager: java.io.InputStream open(java.lang.String)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=8
+maxpossibleFlows=1
+maxpossibleFlows=8
+8 taint flow paths FOUND from <java.lang.StringBuilder: java.lang.String toString()> to <android.widget.TextView: void setText(java.lang.CharSequence)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=8
+maxpossibleFlows=336
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=4
+4 taint flow paths FOUND from <java.lang.StringBuilder: java.lang.String toString()> to <java.net.URLConnection: void setRequestProperty(java.lang.String,java.lang.String)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=336
+maxpossibleFlows=336
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.content.ContextWrapper: android.content.res.Resources getResources()> to <android.content.res.Resources: android.content.res.AssetFileDescriptor openRawResourceFd(int)>
+maxpossibleFlows=1
+maxpossibleFlows=2
+2 taint flow paths FOUND from <java.net.URLConnection: java.io.OutputStream getOutputStream()> to <java.io.Writer: void write(java.lang.String)>
+maxpossibleFlows=2
+maxpossibleFlows=2
+2 taint flow paths FOUND from <java.lang.StringBuilder: java.lang.String toString()> to <java.net.HttpURLConnection: void setRequestMethod(java.lang.String)>
+Result for malicious-app-11-BB602F10C5B6BCA72570E572B1AEF22AE0364930016B94888B4B25F5A9A5D3FF.apkcom.omesoft.nosick

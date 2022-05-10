@@ -1,0 +1,37 @@
+DUA-Forensics args to Soot: -w -cp /home/handrick/Documents/UNB/benchmark/libs/droidfax.jar:/home/handrick/Android/Sdk/platforms/android-19/android.jar -p cg verbose:false,implicit-entry:true -p cg.spark verbose:false,on-fly-cg:true,rta:false -d /home/handrick/Documents/UNB/benchmark/trace/180/1/droidbot/malicious-app-86-B50AB10475662C6CE87211984066534A5C3A1F65E666A3EE27AE56C6313F393A.apk.logcat -process-dir /home/handrick/Documents/UNB/benchmark/data/input/malicious-app-86-B50AB10475662C6CE87211984066534A5C3A1F65E666A3EE27AE56C6313F393A.apk 
+Soot started on Fri Apr 15 00:55:41 CEST 2022
+Warning: com.ironsource.mobilcore.BaseFlowBasedAdUnit is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.0 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+hcai's internal transform
+Running static analysis for security-relevant feature characterization
+[GatorHierarchy] [32mVERBOSE[0m [HIER] All classes: 790
+[GatorHierarchy] [32mVERBOSE[0m [App: 101, Lib : 686, Phantom: 3]
+[GatorHierarchy] [32mVERBOSE[0m [HIER] Activities: 1, lib activities: 3
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App views: 0, Lib views: 7
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App Dialogs: 0, Lib Dialogs: 4
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing starting at 1649976942266
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing finished at 1649976943293
+[Instantiated app classes] [32mVERBOSE[0m total number: 116
+[WARNING] [32mVERBOSE[0m Callback method :onReceive in Class eu.chainfire.triangleaway.BootCompleteReceiver added
+[WARNING] [32mVERBOSE[0m Callback method :onReceive in Class eu.chainfire.triangleaway.SuRestoredReceiver added
+[WARNING] [32mVERBOSE[0m Callback method :onUserLeaveHint in Class eu.chainfire.triangleaway.TriangleAwayActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class eu.chainfire.triangleaway.TriangleAwayActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class eu.chainfire.libsuperuser.Application added
+[WARNING] [32mVERBOSE[0m Callback method :onBind in Class eu.chainfire.triangleaway.SystemResetService added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class eu.chainfire.triangleaway.SystemResetService added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class eu.chainfire.triangleaway.SystemResetService added
+[WARNING] [32mVERBOSE[0m Callback method :onStartCommand in Class eu.chainfire.triangleaway.SystemResetService added
+[WARNING] [32mVERBOSE[0m Callback method :onHandleIntent in Class eu.chainfire.triangleaway.BootCompleteService added
+[WARNING] [32mVERBOSE[0m Callback method :onBind in Class eu.chainfire.triangleaway.SuRestoredService added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class eu.chainfire.triangleaway.SuRestoredService added
+[WARNING] [32mVERBOSE[0m Callback method :onStartCommand in Class eu.chainfire.triangleaway.SuRestoredService added
+0 ICC links found and 0 cg edges added due to ICC links
+dynamic conflated call graph: 67 methods; 67 nodes; 67 edges.
+Result for malicious-app-86-B50AB10475662C6CE87211984066534A5C3A1F65E666A3EE27AE56C6313F393A.apkeu.chainfire.triangleaway

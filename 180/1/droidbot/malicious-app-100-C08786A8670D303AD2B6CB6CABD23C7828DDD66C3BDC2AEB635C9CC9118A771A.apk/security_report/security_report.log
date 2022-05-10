@@ -1,0 +1,775 @@
+DUA-Forensics args to Soot: -w -cp /home/handrick/Documents/UNB/benchmark/libs/droidfax.jar:/home/handrick/Android/Sdk/platforms/android-19/android.jar -p cg verbose:false,implicit-entry:true -p cg.spark verbose:false,on-fly-cg:true,rta:false -d /home/handrick/Documents/UNB/benchmark/trace/180/1/droidbot/malicious-app-100-C08786A8670D303AD2B6CB6CABD23C7828DDD66C3BDC2AEB635C9CC9118A771A.apk.logcat -process-dir /home/handrick/Documents/UNB/benchmark/data/input/malicious-app-100-C08786A8670D303AD2B6CB6CABD23C7828DDD66C3BDC2AEB635C9CC9118A771A.apk 
+Soot started on Fri Apr 15 00:34:25 CEST 2022
+Warning: com.ironsource.mobilcore.BaseFlowBasedAdUnit is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+Warning: javax.naming.Context is a phantom class!
+Warning: javax.naming.Name is a phantom class!
+Warning: javax.naming.NamingEnumeration is a phantom class!
+Warning: javax.naming.NamingException is a phantom class!
+Warning: javax.naming.RefAddr is a phantom class!
+Warning: javax.naming.Reference is a phantom class!
+Warning: javax.naming.Referenceable is a phantom class!
+Warning: javax.naming.StringRefAddr is a phantom class!
+Warning: javax.naming.directory.Attribute is a phantom class!
+Warning: javax.naming.directory.Attributes is a phantom class!
+Warning: javax.naming.directory.DirContext is a phantom class!
+Warning: javax.naming.directory.InitialDirContext is a phantom class!
+Warning: javax.naming.spi.ObjectFactory is a phantom class!
+Warning: javax.sql.XAConnection is a phantom class!
+Warning: javax.sql.XADataSource is a phantom class!
+Warning: javax.transaction.xa.XAException is a phantom class!
+Warning: javax.transaction.xa.XAResource is a phantom class!
+Warning: javax.transaction.xa.Xid is a phantom class!
+No main class given. Inferred 'oracle.sql.converter.CharacterConverterGB18030' as main class.
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.4 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+hcai's internal transform
+Running static analysis for security-relevant feature characterization
+[GatorHierarchy] [32mVERBOSE[0m [HIER] All classes: 1557
+[GatorHierarchy] [32mVERBOSE[0m [App: 541, Lib : 995, Phantom: 21]
+[GatorHierarchy] [32mVERBOSE[0m [HIER] Activities: 12, lib activities: 3
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App views: 1, Lib views: 22
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App Dialogs: 0, Lib Dialogs: 4
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing starting at 1649975667222
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing finished at 1649975688536
+[Instantiated app classes] [32mVERBOSE[0m total number: 470
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.liuyu.goOracle.SetupActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.liuyu.goOracle.SetupActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.liuyu.goOracle.SetupActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.liuyu.goOracle.SetupActivity added
+[WARNING] [32mVERBOSE[0m Callback method :finish in Class com.liuyu.goOracle.SiteActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.liuyu.goOracle.SiteActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.liuyu.goOracle.SiteActivity added
+[WARNING] [32mVERBOSE[0m Callback method :finish in Class com.liuyu.goOracle.MainActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.liuyu.goOracle.MainActivity added
+[WARNING] [32mVERBOSE[0m Callback method :finish in Class com.liuyu.goOracle.MonitorActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateContextMenu in Class com.liuyu.goOracle.MonitorActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.liuyu.goOracle.MonitorActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.liuyu.goOracle.MonitorActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onContextItemSelected in Class com.liuyu.goOracle.MonitorActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.liuyu.goOracle.OutputSetup added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.liuyu.goOracle.FilterActivity added
+[WARNING] [32mVERBOSE[0m Callback method :setLogWriter in Class oracle.jdbc.pool.OracleDataSource added
+[WARNING] [32mVERBOSE[0m Callback method :getPooledConnection in Class oracle.jdbc.pool.OracleConnectionPoolDataSource added
+[WARNING] [32mVERBOSE[0m Callback method :getLogWriter in Class oracle.jdbc.pool.OracleDataSource added
+[WARNING] [32mVERBOSE[0m Callback method :getConnection in Class oracle.jdbc.pool.OracleDataSource added
+[WARNING] [32mVERBOSE[0m Callback method :getPooledConnection in Class oracle.jdbc.pool.OracleConnectionPoolDataSource added
+[WARNING] [32mVERBOSE[0m Callback method :setLoginTimeout in Class oracle.jdbc.pool.OracleDataSource added
+[WARNING] [32mVERBOSE[0m Callback method :getLoginTimeout in Class oracle.jdbc.pool.OracleDataSource added
+[WARNING] [32mVERBOSE[0m Callback method :getConnection in Class oracle.jdbc.pool.OracleDataSource added
+[WARNING] [32mVERBOSE[0m Callback method :removeConnectionEventListener in Class oracle.jdbc.pool.OraclePooledConnection added
+[WARNING] [32mVERBOSE[0m Callback method :getConnection in Class oracle.jdbc.xa.OracleXAConnection added
+[WARNING] [32mVERBOSE[0m Callback method :addConnectionEventListener in Class oracle.jdbc.pool.OraclePooledConnection added
+[WARNING] [32mVERBOSE[0m Callback method :close in Class oracle.jdbc.pool.OraclePooledConnection added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.liuyu.goOracle.MonitorSetup added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.liuyu.goOracle.CurrentInfo added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.waps.OffersWebView added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.waps.OffersWebView added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.waps.OffersWebView added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.waps.OffersWebView added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.liuyu.goOracle.Splash added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.liuyu.goOracle.Splash added
+[WARNING] [32mVERBOSE[0m Callback method :finish in Class com.liuyu.goOracle.SqlActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.liuyu.goOracle.SqlActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.liuyu.goOracle.SqlActivity added
+[WARNING] [32mVERBOSE[0m Callback method :setLogWriter in Class oracle.jdbc.pool.OracleDataSource added
+[WARNING] [32mVERBOSE[0m Callback method :getLogWriter in Class oracle.jdbc.pool.OracleDataSource added
+[WARNING] [32mVERBOSE[0m Callback method :getConnection in Class oracle.jdbc.pool.OracleConnectionCacheImpl added
+[WARNING] [32mVERBOSE[0m Callback method :setLoginTimeout in Class oracle.jdbc.pool.OracleDataSource added
+[WARNING] [32mVERBOSE[0m Callback method :getLoginTimeout in Class oracle.jdbc.pool.OracleDataSource added
+[WARNING] [32mVERBOSE[0m Callback method :getConnection in Class oracle.jdbc.pool.OracleConnectionCacheImpl added
+[WARNING] [32mVERBOSE[0m Callback method :finish in Class com.liuyu.goOracle.OutPutActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.liuyu.goOracle.OutPutActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.liuyu.goOracle.OutPutActivity added
+1 ICC links found and 1 cg edges added due to ICC links
+dynamic conflated call graph: 364 methods; 364 nodes; 621 edges.
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.content.ContextWrapper: android.content.SharedPreferences getSharedPreferences(java.lang.String,int)> to <android.webkit.WebSettings: void setJavaScriptEnabled(boolean)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=3
+2 taint flow paths FOUND from <java.lang.String: byte[] getBytes(java.lang.String)> to <java.io.OutputStream: void write(byte[])>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=9
+9 taint flow paths FOUND from <java.lang.String: java.lang.String trim()> to <android.util.Log: int d(java.lang.String,java.lang.String)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=3
+3 taint flow paths FOUND from <android.view.ContextThemeWrapper: android.content.res.Resources getResources()> to <android.widget.TabHost$TabSpec: android.widget.TabHost$TabSpec setContent(android.content.Intent)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.app.ActivityManager: java.util.List getRunningTasks(int)> to <android.webkit.WebSettings: void setJavaScriptEnabled(boolean)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+2 taint flow paths FOUND from <android.os.Environment: java.io.File getExternalStorageDirectory()> to <java.lang.String: boolean startsWith(java.lang.String)>
+maxpossibleFlows=2
+2 taint flow paths FOUND from <java.lang.StringBuilder: java.lang.String toString()> to <java.lang.String: boolean startsWith(java.lang.String)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=7
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.content.ContextWrapper: android.content.pm.PackageManager getPackageManager()> to <java.lang.String: boolean startsWith(java.lang.String)>
+maxpossibleFlows=2
+2 taint flow paths FOUND from <java.util.ArrayList: java.lang.Object get(int)> to <java.lang.String: boolean startsWith(java.lang.String)>
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.os.Environment: java.lang.String getExternalStorageState()> to <java.lang.String: boolean startsWith(java.lang.String)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+1 taint flow paths FOUND from <android.os.Bundle: java.lang.String getString(java.lang.String)> to <android.util.Log: int d(java.lang.String,java.lang.String)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.content.ComponentName: java.lang.String getShortClassName()> to <android.webkit.WebSettings: void setJavaScriptEnabled(boolean)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+1 taint flow paths FOUND from <java.util.Locale: java.util.Locale getDefault()> to <android.util.Log: int d(java.lang.String,java.lang.String)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.app.Activity: android.content.Intent getIntent()> to <android.webkit.WebSettings: void setJavaScriptEnabled(boolean)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <java.lang.String: byte[] getBytes()> to <java.io.OutputStream: void write(byte[])>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.view.LayoutInflater: android.view.View inflate(int,android.view.ViewGroup,boolean)> to <android.widget.TabHost$TabSpec: android.widget.TabHost$TabSpec setContent(android.content.Intent)>
+maxpossibleFlows=2
+2 taint flow paths FOUND from <java.io.File: java.lang.String toString()> to <java.lang.String: boolean startsWith(java.lang.String)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.app.Activity: java.lang.Object getSystemService(java.lang.String)> to <android.webkit.WebSettings: void setJavaScriptEnabled(boolean)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.os.Bundle: java.lang.Object get(java.lang.String)> to <android.util.Log: int d(java.lang.String,java.lang.String)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.content.Intent: android.os.Bundle getExtras()> to <android.webkit.WebSettings: void setJavaScriptEnabled(boolean)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+1 taint flow paths FOUND from <android.net.NetworkInfo: java.lang.String getTypeName()> to <android.util.Log: int d(java.lang.String,java.lang.String)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.widget.TabHost: android.widget.FrameLayout getTabContentView()> to <android.widget.TabHost$TabSpec: android.widget.TabHost$TabSpec setContent(android.content.Intent)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+2 taint flow paths FOUND from <android.content.ContextWrapper: java.lang.String getPackageName()> to <android.util.Log: int d(java.lang.String,java.lang.String)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.webkit.WebView: android.webkit.WebSettings getSettings()> to <android.webkit.WebSettings: void setJavaScriptEnabled(boolean)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=3
+3 taint flow paths FOUND from <android.content.res.Resources: android.graphics.drawable.Drawable getDrawable(int)> to <android.widget.TabHost$TabSpec: android.widget.TabHost$TabSpec setContent(android.content.Intent)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+2 taint flow paths FOUND from <android.os.Environment: java.io.File getExternalStorageDirectory()> to <java.lang.String: boolean startsWith(java.lang.String)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.content.ContextWrapper: android.content.SharedPreferences getSharedPreferences(java.lang.String,int)> to <android.webkit.WebSettings: void setJavaScriptEnabled(boolean)>
+maxpossibleFlows=1
+maxpossibleFlows=3
+2 taint flow paths FOUND from <java.lang.String: byte[] getBytes(java.lang.String)> to <java.io.OutputStream: void write(byte[])>
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <java.lang.String: byte[] getBytes(java.lang.String)> to <android.content.ContextWrapper: java.io.FileOutputStream openFileOutput(java.lang.String,int)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.content.ContextWrapper: android.content.SharedPreferences getSharedPreferences(java.lang.String,int)> to <android.webkit.WebView: void setWebViewClient(android.webkit.WebViewClient)>
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.content.ContextWrapper: android.content.SharedPreferences getSharedPreferences(java.lang.String,int)> to <android.webkit.WebSettings: void setCacheMode(int)>
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.content.ContextWrapper: android.content.SharedPreferences getSharedPreferences(java.lang.String,int)> to <android.webkit.WebView: void setScrollBarStyle(int)>
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.content.ContextWrapper: android.content.SharedPreferences getSharedPreferences(java.lang.String,int)> to <android.view.View: void setVerticalScrollBarEnabled(boolean)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+2 taint flow paths FOUND from <java.lang.StringBuilder: java.lang.String toString()> to <org.apache.http.message.AbstractHttpMessage: void setHeader(java.lang.String,java.lang.String)>
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.content.ContextWrapper: android.content.SharedPreferences getSharedPreferences(java.lang.String,int)> to <android.view.View: void setEnabled(boolean)>
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.content.ContextWrapper: android.content.SharedPreferences getSharedPreferences(java.lang.String,int)> to <android.view.View: void setHorizontalScrollBarEnabled(boolean)>
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.content.ContextWrapper: android.content.SharedPreferences getSharedPreferences(java.lang.String,int)> to <android.widget.ProgressBar: void setVisibility(int)>
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.content.ContextWrapper: android.content.SharedPreferences getSharedPreferences(java.lang.String,int)> to <android.app.Activity: void setContentView(android.view.View)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.content.ContextWrapper: android.content.SharedPreferences getSharedPreferences(java.lang.String,int)> to <android.webkit.WebView: void setDownloadListener(android.webkit.DownloadListener)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=3
+3 taint flow paths FOUND from <android.view.ContextThemeWrapper: android.content.res.Resources getResources()> to <android.widget.TabHost$TabSpec: android.widget.TabHost$TabSpec setContent(android.content.Intent)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=9
+9 taint flow paths FOUND from <java.lang.String: java.lang.String trim()> to <android.util.Log: int d(java.lang.String,java.lang.String)>
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.liuyu.goOracle.SetupActivity
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.liuyu.goOracle.SetupActivity
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.liuyu.goOracle.SetupActivity
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.liuyu.goOracle.SetupActivity
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.liuyu.goOracle.SetupActivity
+Result for malicious-app-100-C08786A8670D303AD2B6CB6CABD23C7828DDD66C3BDC2AEB635C9CC9118A771A.apkcom.liuyu.goOracle

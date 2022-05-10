@@ -1,0 +1,216 @@
+DUA-Forensics args to Soot: -w -cp /home/handrick/Documents/UNB/benchmark/libs/droidfax.jar:/home/handrick/Android/Sdk/platforms/android-19/android.jar -p cg verbose:false,implicit-entry:true -p cg.spark verbose:false,on-fly-cg:true,rta:false -d /home/handrick/Documents/UNB/benchmark/trace/180/1/droidbot/benign-app-31-3FCA7AC2ED1C542BAA476A4071DEA24E5AED3FA5C1D18D9CACF5337F3F10386C.apk.logcat -process-dir /home/handrick/Documents/UNB/benchmark/data/input/benign-app-31-3FCA7AC2ED1C542BAA476A4071DEA24E5AED3FA5C1D18D9CACF5337F3F10386C.apk 
+Soot started on Fri Apr 15 00:48:57 CEST 2022
+Warning: com.ironsource.mobilcore.BaseFlowBasedAdUnit is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.0 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+hcai's internal transform
+Running static analysis for security-relevant feature characterization
+[GatorHierarchy] [32mVERBOSE[0m [HIER] All classes: 958
+[GatorHierarchy] [32mVERBOSE[0m [App: 150, Lib : 805, Phantom: 3]
+[GatorHierarchy] [32mVERBOSE[0m [HIER] Activities: 4, lib activities: 1
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App views: 9, Lib views: 24
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App Dialogs: 0, Lib Dialogs: 4
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing starting at 1649976538687
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing finished at 1649976540685
+[Instantiated app classes] [32mVERBOSE[0m total number: 193
+[WARNING] [32mVERBOSE[0m Callback method :onReceive in Class com.admob.android.ads.analytics.InstallReceiver added
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class com.admob.android.ads.AdMobActivity added
+[WARNING] [32mVERBOSE[0m Callback method :finish in Class com.admob.android.ads.AdMobActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.admob.android.ads.AdMobActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.admob.android.ads.AdMobActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onWindowFocusChanged in Class ix.com.android.VirtualRecorder.VROptionsDialog added
+[WARNING] [32mVERBOSE[0m Callback method :onUserInteraction in Class ix.com.android.VirtualRecorder.VROptionsDialog added
+[WARNING] [32mVERBOSE[0m Callback method :surfaceDestroyed in Class ix.com.android.VirtualRecorder.VROptionsDialog added
+[WARNING] [32mVERBOSE[0m Callback method :onStopTrackingTouch in Class ix.com.android.VirtualRecorder.VROptionsDialog added
+[WARNING] [32mVERBOSE[0m Callback method :surfaceChanged in Class ix.com.android.VirtualRecorder.VROptionsDialog added
+[WARNING] [32mVERBOSE[0m Callback method :surfaceCreated in Class ix.com.android.VirtualRecorder.VROptionsDialog added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class ix.com.android.VirtualRecorder.VROptionsDialog added
+[WARNING] [32mVERBOSE[0m Callback method :onProgressChanged in Class ix.com.android.VirtualRecorder.VROptionsDialog added
+[WARNING] [32mVERBOSE[0m Callback method :onStartTrackingTouch in Class ix.com.android.VirtualRecorder.VROptionsDialog added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class ix.com.android.VirtualRecorder.VROptionsDialog added
+[WARNING] [32mVERBOSE[0m Callback method :onWindowFocusChanged in Class ix.com.android.VirtualRecorder.VirtualRecorder added
+[WARNING] [32mVERBOSE[0m Callback method :surfaceDestroyed in Class ix.com.android.VirtualRecorder.VirtualRecorder added
+[WARNING] [32mVERBOSE[0m Callback method :onStopTrackingTouch in Class ix.com.android.VirtualRecorder.VirtualRecorder added
+[WARNING] [32mVERBOSE[0m Callback method :onPrepareOptionsMenu in Class ix.com.android.VirtualRecorder.VirtualRecorder added
+[WARNING] [32mVERBOSE[0m Callback method :surfaceChanged in Class ix.com.android.VirtualRecorder.VirtualRecorder added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class ix.com.android.VirtualRecorder.VirtualRecorder added
+[WARNING] [32mVERBOSE[0m Callback method :surfaceCreated in Class ix.com.android.VirtualRecorder.VirtualRecorder added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class ix.com.android.VirtualRecorder.VirtualRecorder added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateOptionsMenu in Class ix.com.android.VirtualRecorder.VirtualRecorder added
+[WARNING] [32mVERBOSE[0m Callback method :onProgressChanged in Class ix.com.android.VirtualRecorder.VirtualRecorder added
+[WARNING] [32mVERBOSE[0m Callback method :onStartTrackingTouch in Class ix.com.android.VirtualRecorder.VirtualRecorder added
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class ix.com.android.VirtualRecorder.VirtualRecorder added
+[WARNING] [32mVERBOSE[0m Callback method :onOptionsItemSelected in Class ix.com.android.VirtualRecorder.VirtualRecorder added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class ix.com.android.VirtualRecorder.VirtualRecorder added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class ix.com.android.VirtualRecorder.VirtualRecorder added
+[WARNING] [32mVERBOSE[0m Callback method :onWindowFocusChanged in Class com.admob.android.ads.AdView added
+[WARNING] [32mVERBOSE[0m Callback method :onMeasure in Class com.admob.android.ads.AdView added
+[WARNING] [32mVERBOSE[0m Callback method :setEnabled in Class com.admob.android.ads.AdView added
+[WARNING] [32mVERBOSE[0m Callback method :setBackgroundColor in Class com.admob.android.ads.AdView added
+[WARNING] [32mVERBOSE[0m Callback method :onDetachedFromWindow in Class com.admob.android.ads.AdView added
+[WARNING] [32mVERBOSE[0m Callback method :onAttachedToWindow in Class com.admob.android.ads.AdView added
+[WARNING] [32mVERBOSE[0m Callback method :setVisibility in Class com.admob.android.ads.AdView added
+[WARNING] [32mVERBOSE[0m Callback method :onWindowVisibilityChanged in Class com.admob.android.ads.AdView added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateDialog in Class ix.com.android.VirtualRecorder.VRFileBrowser added
+[WARNING] [32mVERBOSE[0m Callback method :onPrepareOptionsMenu in Class ix.com.android.VirtualRecorder.VRFileBrowser added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class ix.com.android.VirtualRecorder.VRFileBrowser added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateOptionsMenu in Class ix.com.android.VirtualRecorder.VRFileBrowser added
+[WARNING] [32mVERBOSE[0m Callback method :onOptionsItemSelected in Class ix.com.android.VirtualRecorder.VRFileBrowser added
+0 ICC links found and 0 cg edges added due to ICC links
+dynamic conflated call graph: 103 methods; 103 nodes; 112 edges.
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=74
+74 taint flow paths FOUND from <android.view.View: int getWidth()> to <android.graphics.drawable.Drawable: void setBounds(int,int,int,int)>
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+2 taint flow paths FOUND from <android.widget.ProgressBar: int getMax()> to <android.widget.TextView: void setTextColor(int)>
+maxpossibleFlows=74
+74 taint flow paths FOUND from <android.graphics.drawable.BitmapDrawable: int getIntrinsicWidth()> to <android.graphics.drawable.Drawable: void setBounds(int,int,int,int)>
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.content.res.Resources: java.lang.CharSequence getText(int)> to <android.app.AlertDialog: void setTitle(java.lang.CharSequence)>
+maxpossibleFlows=2
+1 taint flow paths FOUND from <android.view.ContextThemeWrapper: android.content.res.Resources getResources()> to <android.widget.TextView: void setEnabled(boolean)>
+maxpossibleFlows=4
+4 taint flow paths FOUND from <android.view.View: int getVisibility()> to <android.widget.TextView: void setEnabled(boolean)>
+maxpossibleFlows=2
+maxpossibleFlows=3
+3 taint flow paths FOUND from <android.view.View: int getId()> to <android.widget.TextView: void setText(java.lang.CharSequence)>
+maxpossibleFlows=2
+2 taint flow paths FOUND from <java.lang.StringBuilder: java.lang.String toString()> to <android.widget.TextView: void setTextColor(int)>
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+2 taint flow paths FOUND from <android.app.Activity: java.lang.Object getSystemService(java.lang.String)> to <android.app.Activity: void setContentView(int)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.os.PowerManager: android.os.PowerManager$WakeLock newWakeLock(int,java.lang.String)> to <android.app.Activity: void setContentView(int)>
+maxpossibleFlows=74
+74 taint flow paths FOUND from <android.view.View: int getHeight()> to <android.graphics.drawable.Drawable: void setBounds(int,int,int,int)>
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=74
+74 taint flow paths FOUND from <android.graphics.drawable.BitmapDrawable: int getIntrinsicHeight()> to <android.graphics.drawable.Drawable: void setBounds(int,int,int,int)>
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.app.AlertDialog$Builder: android.app.AlertDialog create()> to <android.app.AlertDialog: void setTitle(java.lang.CharSequence)>
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+1 taint flow paths FOUND from <android.view.SurfaceView: android.view.SurfaceHolder getHolder()> to <android.widget.ProgressBar: void setProgress(int)>
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+1 taint flow paths FOUND from <android.content.res.Resources: android.graphics.drawable.Drawable getDrawable(int)> to <android.widget.TextView: void setEnabled(boolean)>
+maxpossibleFlows=2
+2 taint flow paths FOUND from <android.widget.ProgressBar: int getMax()> to <android.widget.TextView: void setTextColor(int)>
+maxpossibleFlows=2
+2 taint flow paths FOUND from <android.widget.ProgressBar: int getMax()> to <android.widget.TextView: void setText(java.lang.CharSequence)>
+maxpossibleFlows=74
+74 taint flow paths FOUND from <android.view.View: int getWidth()> to <android.graphics.drawable.Drawable: void setBounds(int,int,int,int)>
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+1 taint flow paths FOUND from <android.view.ContextThemeWrapper: android.content.res.Resources getResources()> to <android.widget.TextView: void setEnabled(boolean)>
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.content.res.Resources: java.lang.CharSequence getText(int)> to <android.app.AlertDialog: void setTitle(java.lang.CharSequence)>
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+1 taint flow paths FOUND from <android.view.ContextThemeWrapper: android.content.res.Resources getResources()> to <android.widget.ProgressBar: void setProgress(int)>
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+2 taint flow paths FOUND from <android.app.Activity: java.lang.Object getSystemService(java.lang.String)> to <android.app.Activity: void setContentView(int)>
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.content.res.Resources: java.lang.CharSequence getText(int)> to <android.app.AlertDialog: void setButton(int,java.lang.CharSequence,android.content.DialogInterface$OnClickListener)>
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=6
+6 taint flow paths FOUND from <android.view.View: int getVisibility()> to <android.view.View: void setVisibility(int)>
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.content.res.Resources: java.lang.CharSequence getText(int)> to <android.app.AlertDialog: void setMessage(java.lang.CharSequence)>
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class ix.com.android.VirtualRecorder.VROptionsDialog
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class ix.com.android.VirtualRecorder.VROptionsDialog
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class ix.com.android.VirtualRecorder.VROptionsDialog
+[WARNING] [32mVERBOSE[0m Callback method :onProgressChanged in Class ix.com.android.VirtualRecorder.VROptionsDialog
+[WARNING] [32mVERBOSE[0m Callback method :onStartTrackingTouch in Class ix.com.android.VirtualRecorder.VROptionsDialog
+[WARNING] [32mVERBOSE[0m Callback method :onStopTrackingTouch in Class ix.com.android.VirtualRecorder.VROptionsDialog
+[WARNING] [32mVERBOSE[0m Callback method :onUserInteraction in Class ix.com.android.VirtualRecorder.VROptionsDialog
+[WARNING] [32mVERBOSE[0m Callback method :onWindowFocusChanged in Class ix.com.android.VirtualRecorder.VROptionsDialog
+[WARNING] [32mVERBOSE[0m Callback method :surfaceChanged in Class ix.com.android.VirtualRecorder.VROptionsDialog
+[WARNING] [32mVERBOSE[0m Callback method :surfaceCreated in Class ix.com.android.VirtualRecorder.VROptionsDialog
+[WARNING] [32mVERBOSE[0m Callback method :surfaceDestroyed in Class ix.com.android.VirtualRecorder.VROptionsDialog
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class ix.com.android.VirtualRecorder.VirtualRecorder
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class ix.com.android.VirtualRecorder.VirtualRecorder
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class ix.com.android.VirtualRecorder.VirtualRecorder
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class ix.com.android.VirtualRecorder.VirtualRecorder
+[WARNING] [32mVERBOSE[0m Callback method :onCreateOptionsMenu in Class ix.com.android.VirtualRecorder.VirtualRecorder
+[WARNING] [32mVERBOSE[0m Callback method :onOptionsItemSelected in Class ix.com.android.VirtualRecorder.VirtualRecorder
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class ix.com.android.VirtualRecorder.VirtualRecorder
+[WARNING] [32mVERBOSE[0m Callback method :onPrepareOptionsMenu in Class ix.com.android.VirtualRecorder.VirtualRecorder
+[WARNING] [32mVERBOSE[0m Callback method :onProgressChanged in Class ix.com.android.VirtualRecorder.VirtualRecorder
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class ix.com.android.VirtualRecorder.VirtualRecorder
+[WARNING] [32mVERBOSE[0m Callback method :onStartTrackingTouch in Class ix.com.android.VirtualRecorder.VirtualRecorder
+[WARNING] [32mVERBOSE[0m Callback method :onStopTrackingTouch in Class ix.com.android.VirtualRecorder.VirtualRecorder
+[WARNING] [32mVERBOSE[0m Callback method :onWindowFocusChanged in Class ix.com.android.VirtualRecorder.VirtualRecorder
+[WARNING] [32mVERBOSE[0m Callback method :surfaceChanged in Class ix.com.android.VirtualRecorder.VirtualRecorder
+[WARNING] [32mVERBOSE[0m Callback method :surfaceCreated in Class ix.com.android.VirtualRecorder.VirtualRecorder
+[WARNING] [32mVERBOSE[0m Callback method :surfaceDestroyed in Class ix.com.android.VirtualRecorder.VirtualRecorder
+Result for benign-app-31-3FCA7AC2ED1C542BAA476A4071DEA24E5AED3FA5C1D18D9CACF5337F3F10386C.apkix.com.android.VirtualRecorder

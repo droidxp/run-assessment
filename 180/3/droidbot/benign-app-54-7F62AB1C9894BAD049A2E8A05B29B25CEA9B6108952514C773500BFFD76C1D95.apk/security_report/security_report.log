@@ -1,0 +1,84 @@
+DUA-Forensics args to Soot: -w -cp /home/handrick/Documents/UNB/benchmark/libs/droidfax.jar:/home/handrick/Android/Sdk/platforms/android-19/android.jar -p cg verbose:false,implicit-entry:true -p cg.spark verbose:false,on-fly-cg:true,rta:false -d /home/handrick/Documents/UNB/benchmark/trace/180/3/droidbot/benign-app-54-7F62AB1C9894BAD049A2E8A05B29B25CEA9B6108952514C773500BFFD76C1D95.apk.logcat -process-dir /home/handrick/Documents/UNB/benchmark/data/input/benign-app-54-7F62AB1C9894BAD049A2E8A05B29B25CEA9B6108952514C773500BFFD76C1D95.apk 
+Soot started on Sat Apr 16 00:54:53 CEST 2022
+Warning: com.ironsource.mobilcore.BaseFlowBasedAdUnit is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.0 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+hcai's internal transform
+Running static analysis for security-relevant feature characterization
+[GatorHierarchy] [32mVERBOSE[0m [HIER] All classes: 1257
+[GatorHierarchy] [32mVERBOSE[0m [App: 449, Lib : 805, Phantom: 3]
+[GatorHierarchy] [32mVERBOSE[0m [HIER] Activities: 5, lib activities: 2
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App views: 2, Lib views: 14
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App Dialogs: 1, Lib Dialogs: 4
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing starting at 1650063295029
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing finished at 1650063300011
+[Instantiated app classes] [32mVERBOSE[0m total number: 412
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.tech.game.king.AboutUss added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.tech.game.king.AboutUss added
+[WARNING] [32mVERBOSE[0m Callback method :wrap in Class org.cocos2d.opengl.GLDebugWrapper added
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class com.tech.game.king.SplashScreen added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.tech.game.king.SplashScreen added
+[WARNING] [32mVERBOSE[0m Callback method :onWindowFocusChanged in Class org.cocos2d.opengl.GLSurfaceView added
+[WARNING] [32mVERBOSE[0m Callback method :surfaceCreated in Class org.cocos2d.opengl.GLSurfaceView added
+[WARNING] [32mVERBOSE[0m Callback method :onDetachedFromWindow in Class org.cocos2d.opengl.GLSurfaceView added
+[WARNING] [32mVERBOSE[0m Callback method :surfaceDestroyed in Class org.cocos2d.opengl.GLSurfaceView added
+[WARNING] [32mVERBOSE[0m Callback method :surfaceChanged in Class org.cocos2d.opengl.GLSurfaceView added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.tech.game.king.Sample added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.tech.game.king.Sample added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.tech.game.king.Sample added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.tech.game.king.Sample added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class com.tech.game.king.Sample added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.tech.game.king.Sample added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.tech.game.king.Info added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.tech.game.king.Info added
+[WARNING] [32mVERBOSE[0m Callback method :onListItemClick in Class org.cocos2d.Cocos2D added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class org.cocos2d.Cocos2D added
+0 ICC links found and 0 cg edges added due to ICC links
+dynamic conflated call graph: 442 methods; 442 nodes; 607 edges.
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.app.Activity: android.view.WindowManager getWindowManager()> to <android.app.Activity: void setContentView(android.view.View)>
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.app.Activity: android.view.Window getWindow()> to <android.app.Activity: void setContentView(android.view.View)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.app.Activity: android.view.WindowManager getWindowManager()> to <android.app.Activity: void setContentView(android.view.View)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+2 taint flow paths FOUND from <android.app.Activity: android.view.Window getWindow()> to <android.view.Window: void setFlags(int,int)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.tech.game.king.AboutUss
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.tech.game.king.AboutUss
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.tech.game.king.AboutUss
+[WARNING] [32mVERBOSE[0m Callback method :onDetachedFromWindow in Class org.cocos2d.opengl.GLSurfaceView
+[WARNING] [32mVERBOSE[0m Callback method :onWindowFocusChanged in Class org.cocos2d.opengl.GLSurfaceView
+[WARNING] [32mVERBOSE[0m Callback method :surfaceChanged in Class org.cocos2d.opengl.GLSurfaceView
+[WARNING] [32mVERBOSE[0m Callback method :surfaceCreated in Class org.cocos2d.opengl.GLSurfaceView
+[WARNING] [32mVERBOSE[0m Callback method :surfaceDestroyed in Class org.cocos2d.opengl.GLSurfaceView
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.tech.game.king.Info
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.tech.game.king.Info
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.tech.game.king.Info
+Result for benign-app-54-7F62AB1C9894BAD049A2E8A05B29B25CEA9B6108952514C773500BFFD76C1D95.apkcom.tech.game.king

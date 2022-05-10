@@ -1,0 +1,316 @@
+DUA-Forensics args to Soot: -w -cp /home/hcosta/bench/benchmark/libs/droidfax.jar:/home/hcosta/Android/Sdk/platforms/android-28/android.jar -p cg verbose:false,implicit-entry:true -p cg.spark verbose:false,on-fly-cg:true,rta:false -d /home/hcosta/bench/benchmark/trace/180/5/droidbot/benign-app-92-CC7EA610F55254C13F38709569EA9E57A202B9CA2C6171672A5E673305069E24.apk.logcat -process-dir /home/hcosta/bench/benchmark/data/input/benign-app-92-CC7EA610F55254C13F38709569EA9E57A202B9CA2C6171672A5E673305069E24.apk 
+Soot started on Thu Apr 21 12:37:26 CEST 2022
+Warning: com.ironsource.mobilcore.BaseFlowBasedAdUnit is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+Warning: org.apache.http.HttpHost is a phantom class!
+Warning: org.apache.http.impl.DefaultHttpClientConnection is a phantom class!
+Warning: org.apache.http.HttpRequest is a phantom class!
+Warning: org.apache.http.HttpException is a phantom class!
+Warning: org.apache.http.ParseException is a phantom class!
+Warning: org.apache.http.HttpResponse is a phantom class!
+Warning: org.apache.http.impl.client.DefaultHttpClient is a phantom class!
+Warning: org.apache.http.client.methods.HttpUriRequest is a phantom class!
+Warning: org.apache.http.HttpEntity is a phantom class!
+Warning: org.apache.http.Header is a phantom class!
+Warning: org.apache.http.HttpConnectionMetrics is a phantom class!
+Warning: org.apache.http.HttpVersion is a phantom class!
+Warning: org.apache.http.ProtocolVersion is a phantom class!
+Warning: org.apache.http.StatusLine is a phantom class!
+Warning: org.apache.http.client.methods.HttpGet is a phantom class!
+Warning: org.apache.http.client.methods.HttpPost is a phantom class!
+Warning: org.apache.http.conn.ClientConnectionManager is a phantom class!
+Warning: org.apache.http.conn.scheme.PlainSocketFactory is a phantom class!
+Warning: org.apache.http.conn.scheme.Scheme is a phantom class!
+Warning: org.apache.http.conn.scheme.SchemeRegistry is a phantom class!
+Warning: org.apache.http.entity.StringEntity is a phantom class!
+Warning: org.apache.http.impl.conn.tsccm.ThreadSafeClientConnManager is a phantom class!
+Warning: org.apache.http.message.BasicHttpRequest is a phantom class!
+Warning: org.apache.http.params.BasicHttpParams is a phantom class!
+Warning: org.apache.http.params.HttpProtocolParams is a phantom class!
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.0 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+hcai's internal transform
+Running static analysis for security-relevant feature characterization
+[GatorHierarchy] [32mVERBOSE[0m [HIER] All classes: 1051
+[GatorHierarchy] [32mVERBOSE[0m [App: 65, Lib : 958, Phantom: 28]
+[GatorHierarchy] [32mVERBOSE[0m [HIER] Activities: 2, lib activities: 1
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App views: 2, Lib views: 12
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App Dialogs: 1, Lib Dialogs: 3
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing starting at 1650537447021
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing finished at 1650537447534
+[Instantiated app classes] [32mVERBOSE[0m total number: 89
+[WARNING] [32mVERBOSE[0m Callback method :onReceive in Class com.google.android.apps.analytics.AnalyticsReceiver added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.asai.android.yourspinbottle.ImageChangeActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.asai.android.yourspinbottle.ImageChangeActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.asai.android.yourspinbottle.ImageChangeActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onSingleTapUp in Class com.asai.android.yourspinbottle.YourSpinBottle added
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class com.asai.android.yourspinbottle.YourSpinBottle added
+[WARNING] [32mVERBOSE[0m Callback method :onDown in Class com.asai.android.yourspinbottle.YourSpinBottle added
+[WARNING] [32mVERBOSE[0m Callback method :onFling in Class com.asai.android.yourspinbottle.YourSpinBottle added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.asai.android.yourspinbottle.YourSpinBottle added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.asai.android.yourspinbottle.YourSpinBottle added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateOptionsMenu in Class com.asai.android.yourspinbottle.YourSpinBottle added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.asai.android.yourspinbottle.YourSpinBottle added
+[WARNING] [32mVERBOSE[0m Callback method :onScroll in Class com.asai.android.yourspinbottle.YourSpinBottle added
+[WARNING] [32mVERBOSE[0m Callback method :onLongPress in Class com.asai.android.yourspinbottle.YourSpinBottle added
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class com.asai.android.yourspinbottle.YourSpinBottle added
+[WARNING] [32mVERBOSE[0m Callback method :onShowPress in Class com.asai.android.yourspinbottle.YourSpinBottle added
+[WARNING] [32mVERBOSE[0m Callback method :onOptionsItemSelected in Class com.asai.android.yourspinbottle.YourSpinBottle added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.asai.android.yourspinbottle.YourSpinBottle added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.asai.android.util.view.ColorPickerDialog added
+[WARNING] [32mVERBOSE[0m Callback method :onRestoreInstanceState in Class com.asai.android.util.view.AutoScrollTextView added
+[WARNING] [32mVERBOSE[0m Callback method :onSaveInstanceState in Class com.asai.android.util.view.AutoScrollTextView added
+[WARNING] [32mVERBOSE[0m Callback method :onDraw in Class com.asai.android.util.view.AutoScrollTextView added
+1 ICC links found and 1 cg edges added due to ICC links
+dynamic conflated call graph: 343 methods; 343 nodes; 433 edges.
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=6
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=4
+4 taint flow paths FOUND from <java.lang.Double: long longValue()> to <android.view.View: void startAnimation(android.view.animation.Animation)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.os.Environment: java.io.File getExternalStorageDirectory()> to <android.content.Intent: android.content.Intent putExtra(java.lang.String,android.os.Parcelable)>
+maxpossibleFlows=12
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <java.lang.StringBuilder: java.lang.String toString()> to <android.content.Intent: android.content.Intent putExtra(java.lang.String,android.os.Parcelable)>
+maxpossibleFlows=4
+maxpossibleFlows=11
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <java.lang.Throwable: java.lang.String getMessage()> to <android.util.Log: int d(java.lang.String,java.lang.String,java.lang.Throwable)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=6
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=11
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=6
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=12
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=6
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=6
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=6
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=6
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.app.Activity: android.view.Window getWindow()> to <android.app.Activity: void setContentView(int)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=4
+4 taint flow paths FOUND from <java.lang.Double: long longValue()> to <android.view.View: void startAnimation(android.view.animation.Animation)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=12
+maxpossibleFlows=11
+maxpossibleFlows=11
+maxpossibleFlows=12
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.app.Activity: android.view.Window getWindow()> to <android.app.Activity: void setContentView(int)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=6
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=6
+maxpossibleFlows=1
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.os.Environment: java.io.File getExternalStorageDirectory()> to <android.content.Intent: android.content.Intent putExtra(java.lang.String,android.os.Parcelable)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.os.Environment: java.io.File getExternalStorageDirectory()> to <android.app.Activity: void startActivityForResult(android.content.Intent,int)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.app.Activity: android.view.Window getWindow()> to <android.view.Window: void setFlags(int,int)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <java.lang.StringBuilder: java.lang.String toString()> to <android.util.Log: int d(java.lang.String,java.lang.String,java.lang.Throwable)>
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.asai.android.yourspinbottle.ImageChangeActivity
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.asai.android.yourspinbottle.ImageChangeActivity
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.asai.android.yourspinbottle.ImageChangeActivity
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.asai.android.yourspinbottle.ImageChangeActivity
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.asai.android.yourspinbottle.YourSpinBottle
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class com.asai.android.yourspinbottle.YourSpinBottle
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.asai.android.yourspinbottle.YourSpinBottle
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.asai.android.yourspinbottle.YourSpinBottle
+[WARNING] [32mVERBOSE[0m Callback method :onCreateOptionsMenu in Class com.asai.android.yourspinbottle.YourSpinBottle
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.asai.android.yourspinbottle.YourSpinBottle
+[WARNING] [32mVERBOSE[0m Callback method :onDown in Class com.asai.android.yourspinbottle.YourSpinBottle
+[WARNING] [32mVERBOSE[0m Callback method :onFling in Class com.asai.android.yourspinbottle.YourSpinBottle
+[WARNING] [32mVERBOSE[0m Callback method :onLongPress in Class com.asai.android.yourspinbottle.YourSpinBottle
+[WARNING] [32mVERBOSE[0m Callback method :onOptionsItemSelected in Class com.asai.android.yourspinbottle.YourSpinBottle
+[WARNING] [32mVERBOSE[0m Callback method :onScroll in Class com.asai.android.yourspinbottle.YourSpinBottle
+[WARNING] [32mVERBOSE[0m Callback method :onShowPress in Class com.asai.android.yourspinbottle.YourSpinBottle
+[WARNING] [32mVERBOSE[0m Callback method :onSingleTapUp in Class com.asai.android.yourspinbottle.YourSpinBottle
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.asai.android.yourspinbottle.YourSpinBottle
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class com.asai.android.yourspinbottle.YourSpinBottle
+Result for benign-app-92-CC7EA610F55254C13F38709569EA9E57A202B9CA2C6171672A5E673305069E24.apkcom.asai.android.yourspinbottle

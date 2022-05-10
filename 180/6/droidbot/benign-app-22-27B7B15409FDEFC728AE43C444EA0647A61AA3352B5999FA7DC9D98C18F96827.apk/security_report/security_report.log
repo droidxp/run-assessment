@@ -1,0 +1,318 @@
+DUA-Forensics args to Soot: -w -cp /home/hcosta/bench/benchmark/libs/droidfax.jar:/home/hcosta/Android/Sdk/platforms/android-28/android.jar -p cg verbose:false,implicit-entry:true -p cg.spark verbose:false,on-fly-cg:true,rta:false -d /home/hcosta/bench/benchmark/trace/180/2/droidbot/benign-app-22-27B7B15409FDEFC728AE43C444EA0647A61AA3352B5999FA7DC9D98C18F96827.apk.logcat -process-dir /home/hcosta/bench/benchmark/data/input/benign-app-22-27B7B15409FDEFC728AE43C444EA0647A61AA3352B5999FA7DC9D98C18F96827.apk 
+Soot started on Wed Apr 20 17:08:11 CEST 2022
+Warning: com.ironsource.mobilcore.BaseFlowBasedAdUnit is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.0 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+hcai's internal transform
+Running static analysis for security-relevant feature characterization
+[GatorHierarchy] [32mVERBOSE[0m [HIER] All classes: 1264
+[GatorHierarchy] [32mVERBOSE[0m [App: 216, Lib : 1045, Phantom: 3]
+[GatorHierarchy] [32mVERBOSE[0m [HIER] Activities: 7, lib activities: 1
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App views: 14, Lib views: 22
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App Dialogs: 8, Lib Dialogs: 3
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing starting at 1650467292154
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing finished at 1650467293455
+[Instantiated app classes] [32mVERBOSE[0m total number: 251
+[WARNING] [32mVERBOSE[0m Callback method :getType in Class teq.qDial.PhotoFromHomeProvider added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class teq.qDial.PhotoFromHomeProvider added
+[WARNING] [32mVERBOSE[0m Callback method :query in Class teq.qDial.PhotoFromHomeProvider added
+[WARNING] [32mVERBOSE[0m Callback method :update in Class teq.qDial.PhotoFromHomeProvider added
+[WARNING] [32mVERBOSE[0m Callback method :openFile in Class teq.qDial.PhotoFromHomeProvider added
+[WARNING] [32mVERBOSE[0m Callback method :insert in Class teq.qDial.PhotoFromHomeProvider added
+[WARNING] [32mVERBOSE[0m Callback method :delete in Class teq.qDial.PhotoFromHomeProvider added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class teq.qDial.ChooseWidgetActivityBase added
+[WARNING] [32mVERBOSE[0m Callback method :onDraw in Class teq.common.TabHandleView added
+[WARNING] [32mVERBOSE[0m Callback method :onPrepareOptionsMenu in Class teq.qDial.QDialActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onNewIntent in Class teq.qDial.QDialActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class teq.qDial.QDialActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class teq.qDial.QDialActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateOptionsMenu in Class teq.qDial.QDialActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyUp in Class teq.qDial.QDialActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class teq.qDial.QDialActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onOptionsItemSelected in Class teq.qDial.QDialActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class teq.qDial.QDialActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onEnabled in Class teq.qDial.WidgetProviderBase added
+[WARNING] [32mVERBOSE[0m Callback method :onUpdate in Class teq.qDial.WidgetProviderBase added
+[WARNING] [32mVERBOSE[0m Callback method :onDeleted in Class teq.qDial.WidgetProviderBase added
+[WARNING] [32mVERBOSE[0m Callback method :onDisabled in Class teq.qDial.WidgetProviderBase added
+[WARNING] [32mVERBOSE[0m Callback method :onReceive in Class teq.qDial.WidgetProviderBase added
+[WARNING] [32mVERBOSE[0m Callback method :onDraw in Class teq.common.TabBody added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class teq.qDial.ChooseWidgetActivityBase added
+[WARNING] [32mVERBOSE[0m Callback method :onEnabled in Class teq.qDial.WidgetProviderBase added
+[WARNING] [32mVERBOSE[0m Callback method :onUpdate in Class teq.qDial.WidgetProviderBase added
+[WARNING] [32mVERBOSE[0m Callback method :onDeleted in Class teq.qDial.WidgetProviderBase added
+[WARNING] [32mVERBOSE[0m Callback method :onDisabled in Class teq.qDial.WidgetProviderBase added
+[WARNING] [32mVERBOSE[0m Callback method :onReceive in Class teq.qDial.WidgetProviderBase added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class teq.qDial.ChooseWidgetActivityBase added
+[WARNING] [32mVERBOSE[0m Callback method :onEnabled in Class teq.qDial.WidgetProviderBase added
+[WARNING] [32mVERBOSE[0m Callback method :onUpdate in Class teq.qDial.WidgetProviderBase added
+[WARNING] [32mVERBOSE[0m Callback method :onDeleted in Class teq.qDial.WidgetProviderBase added
+[WARNING] [32mVERBOSE[0m Callback method :onDisabled in Class teq.qDial.WidgetProviderBase added
+[WARNING] [32mVERBOSE[0m Callback method :onReceive in Class teq.qDial.WidgetProviderBase added
+[WARNING] [32mVERBOSE[0m Callback method :onReceive in Class com.admob.android.ads.analytics.InstallReceiver added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class teq.qDial.CreateShortcutActivity added
+[WARNING] [32mVERBOSE[0m Callback method :addView in Class teq.common.TabHandleHost added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyUp in Class teq.common.SelectFolderDialog added
+[WARNING] [32mVERBOSE[0m Callback method :addView in Class teq.common.HorizontalIconSelector added
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class teq.common.HorizontalIconSelector added
+[WARNING] [32mVERBOSE[0m Callback method :onReceive in Class teq.qDial.KeyRegister added
+[WARNING] [32mVERBOSE[0m Callback method :onNewIntent in Class teq.qDial.ContactDetailsActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class teq.qDial.ContactDetailsActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class teq.qDial.ContactDetailsActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onEnabled in Class teq.qDial.WidgetProviderBase added
+[WARNING] [32mVERBOSE[0m Callback method :onUpdate in Class teq.qDial.WidgetProviderBase added
+[WARNING] [32mVERBOSE[0m Callback method :onDeleted in Class teq.qDial.WidgetProviderBase added
+[WARNING] [32mVERBOSE[0m Callback method :onDisabled in Class teq.qDial.WidgetProviderBase added
+[WARNING] [32mVERBOSE[0m Callback method :onReceive in Class teq.qDial.WidgetProviderBase added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class teq.qDial.ChooseWidgetActivityBase added
+0 ICC links found and 0 cg edges added due to ICC links
+dynamic conflated call graph: 236 methods; 236 nodes; 306 edges.
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=3
+3 taint flow paths FOUND from <android.content.ContextWrapper: android.content.res.Resources getResources()> to <android.widget.TextView: void setText(java.lang.CharSequence)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.view.ContextThemeWrapper: android.content.res.Resources getResources()> to <android.widget.TextView: void setText(java.lang.CharSequence)>
+maxpossibleFlows=1
+maxpossibleFlows=3
+3 taint flow paths FOUND from <android.app.Dialog: android.content.Context getContext()> to <android.widget.TextView: void setText(java.lang.CharSequence)>
+maxpossibleFlows=1
+maxpossibleFlows=3
+3 taint flow paths FOUND from <android.content.res.Resources: java.lang.String getString(int)> to <android.widget.TextView: void setText(java.lang.CharSequence)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.view.View: int getVisibility()> to <android.view.View: void setVisibility(int)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=3
+3 taint flow paths FOUND from <android.content.ContextWrapper: android.content.res.Resources getResources()> to <android.widget.TextView: void setText(java.lang.CharSequence)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.app.Dialog: android.content.Context getContext()> to <android.view.View: void setScrollBarStyle(int)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.view.ContextThemeWrapper: android.content.res.Resources getResources()> to <android.app.Activity: void setContentView(android.view.View)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.content.ContextWrapper: android.content.res.Resources getResources()> to <android.app.Dialog: void setContentView(android.view.View)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.view.View: int getVisibility()> to <android.view.View: void setVisibility(int)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+Result for benign-app-22-27B7B15409FDEFC728AE43C444EA0647A61AA3352B5999FA7DC9D98C18F96827.apkteq.qDial

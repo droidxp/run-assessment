@@ -1,0 +1,36 @@
+DUA-Forensics args to Soot: -w -cp /home/handrick/Documents/UNB/benchmark/libs/droidfax.jar:/home/handrick/Android/Sdk/platforms/android-19/android.jar -p cg verbose:false,implicit-entry:true -p cg.spark verbose:false,on-fly-cg:true,rta:false -d /home/handrick/Documents/UNB/benchmark/trace/180/1/droidbot/malicious-app-17-86A34754D9A80B8483067DF420E107AC8BC4BEE0E2B2BC7B29A287730F5A153C.apk.logcat -process-dir /home/handrick/Documents/UNB/benchmark/data/input/malicious-app-17-86A34754D9A80B8483067DF420E107AC8BC4BEE0E2B2BC7B29A287730F5A153C.apk 
+Soot started on Fri Apr 15 01:11:26 CEST 2022
+Warning: com.ironsource.mobilcore.BaseFlowBasedAdUnit is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+get type from 'Z'
+get type from 'Z'
+get type from 'Z'
+get type from 'Z'
+Warning: org.springframework.http.converter.AbstractHttpMessageConverter is a phantom class!
+Warning: org.springframework.http.HttpInputMessage is a phantom class!
+Warning: org.springframework.http.converter.HttpMessageNotReadableException is a phantom class!
+Warning: org.springframework.http.HttpOutputMessage is a phantom class!
+Warning: org.springframework.http.converter.HttpMessageNotWritableException is a phantom class!
+Warning: org.springframework.web.servlet.view.AbstractView is a phantom class!
+Warning: javax.servlet.http.HttpServletRequest is a phantom class!
+Warning: javax.servlet.http.HttpServletResponse is a phantom class!
+Warning: java.awt.Color is a phantom class!
+Warning: java.awt.Font is a phantom class!
+Warning: java.awt.Point is a phantom class!
+Warning: java.awt.Rectangle is a phantom class!
+Warning: javax.servlet.ServletOutputStream is a phantom class!
+Warning: org.springframework.util.CollectionUtils is a phantom class!
+Warning: org.springframework.validation.BindingResult is a phantom class!
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.0 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+hcai's internal transform
+Running static analysis for method/class coverage characterization
+0 ICC links found and 0 cg edges added due to ICC links
+dynamic conflated call graph: 1107 methods; 1107 nodes; 1557 edges.
+feature-vector-key = malicious-app-17-86A34754D9A80B8483067DF420E107AC8BC4BEE0E2B2BC7B29A287730F5A153C.apk
+Result for malicious-app-17-86A34754D9A80B8483067DF420E107AC8BC4BEE0E2B2BC7B29A287730F5A153C.apkcom.chinat2t10513zw.templte

@@ -1,0 +1,147 @@
+DUA-Forensics args to Soot: -w -cp /home/hcosta/bench/benchmark/libs/droidfax.jar:/home/hcosta/Android/Sdk/platforms/android-28/android.jar -p cg verbose:false,implicit-entry:true -p cg.spark verbose:false,on-fly-cg:true,rta:false -d /home/hcosta/bench/benchmark/trace/180/3/droidbot/benign-app-60-893E4CB68E8C2610FCA249111D9F5E5F3C8C67D7F733047E2E2FB4E5754454C5.apk.logcat -process-dir /home/hcosta/bench/benchmark/data/input/benign-app-60-893E4CB68E8C2610FCA249111D9F5E5F3C8C67D7F733047E2E2FB4E5754454C5.apk 
+Soot started on Wed Apr 20 23:31:36 CEST 2022
+Warning: com.ironsource.mobilcore.BaseFlowBasedAdUnit is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.0 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+hcai's internal transform
+Running static analysis for security-relevant feature characterization
+[GatorHierarchy] [32mVERBOSE[0m [HIER] All classes: 954
+[GatorHierarchy] [32mVERBOSE[0m [App: 38, Lib : 913, Phantom: 3]
+[GatorHierarchy] [32mVERBOSE[0m [HIER] Activities: 1, lib activities: 1
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App views: 3, Lib views: 11
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App Dialogs: 0, Lib Dialogs: 2
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing starting at 1650490297218
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing finished at 1650490298580
+[Instantiated app classes] [32mVERBOSE[0m total number: 34
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.resetgame.volleyball.Vapp added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.resetgame.volleyball.Vapp added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.resetgame.volleyball.Vapp added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyUp in Class com.resetgame.volleyball.Vapp added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.resetgame.volleyball.Vapp added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.resetgame.volleyball.Vapp added
+[WARNING] [32mVERBOSE[0m Callback method :reset in Class com.google.ads.GoogleAdView added
+[WARNING] [32mVERBOSE[0m Callback method :setDisplayedChild in Class com.google.ads.GoogleAdView added
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class com.google.ads.GoogleAdView$AdWebView added
+[WARNING] [32mVERBOSE[0m Callback method :onTrackballEvent in Class com.resetgame.volleyball.Vviews added
+[WARNING] [32mVERBOSE[0m Callback method :surfaceCreated in Class com.resetgame.volleyball.Vviews added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.resetgame.volleyball.Vviews added
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class com.resetgame.volleyball.Vviews added
+[WARNING] [32mVERBOSE[0m Callback method :surfaceDestroyed in Class com.resetgame.volleyball.Vviews added
+[WARNING] [32mVERBOSE[0m Callback method :surfaceChanged in Class com.resetgame.volleyball.Vviews added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyUp in Class com.resetgame.volleyball.Vviews added
+0 ICC links found and 0 cg edges added due to ICC links
+dynamic conflated call graph: 269 methods; 269 nodes; 378 edges.
+maxpossibleFlows=2
+2 taint flow paths FOUND from <android.content.res.Resources: android.util.DisplayMetrics getDisplayMetrics()> to <android.widget.ViewAnimator: void setInAnimation(android.content.Context,int)>
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=20
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=2
+2 taint flow paths FOUND from <android.content.ContextWrapper: android.content.res.Resources getResources()> to <android.widget.ViewAnimator: void setInAnimation(android.content.Context,int)>
+maxpossibleFlows=19
+maxpossibleFlows=1
+maxpossibleFlows=21
+21 taint flow paths FOUND from <android.content.res.Resources: int getIdentifier(java.lang.String,java.lang.String,java.lang.String)> to <android.content.res.Resources: java.io.InputStream openRawResource(int)>
+maxpossibleFlows=19
+maxpossibleFlows=1
+maxpossibleFlows=21
+21 taint flow paths FOUND from <android.view.ContextThemeWrapper: android.content.res.Resources getResources()> to <android.content.res.Resources: java.io.InputStream openRawResource(int)>
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+2 taint flow paths FOUND from <android.app.Activity: android.view.Window getWindow()> to <android.view.Window: void setFlags(int,int)>
+maxpossibleFlows=2
+2 taint flow paths FOUND from <android.webkit.WebView: android.webkit.WebSettings getSettings()> to <android.widget.ViewAnimator: void setInAnimation(android.content.Context,int)>
+maxpossibleFlows=2
+maxpossibleFlows=19
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=21
+21 taint flow paths FOUND from <android.content.ContextWrapper: java.lang.String getPackageName()> to <android.content.res.Resources: java.io.InputStream openRawResource(int)>
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+2 taint flow paths FOUND from <android.content.res.Resources: android.util.DisplayMetrics getDisplayMetrics()> to <android.widget.ViewAnimator: void setInAnimation(android.content.Context,int)>
+maxpossibleFlows=2
+maxpossibleFlows=20
+maxpossibleFlows=19
+maxpossibleFlows=19
+maxpossibleFlows=2
+maxpossibleFlows=19
+maxpossibleFlows=2
+2 taint flow paths FOUND from <android.content.res.Resources: android.util.DisplayMetrics getDisplayMetrics()> to <android.webkit.WebSettings: void setSupportZoom(boolean)>
+maxpossibleFlows=2
+2 taint flow paths FOUND from <android.content.res.Resources: android.util.DisplayMetrics getDisplayMetrics()> to <android.webkit.WebSettings: void setJavaScriptEnabled(boolean)>
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+2 taint flow paths FOUND from <android.content.res.Resources: android.util.DisplayMetrics getDisplayMetrics()> to <android.webkit.WebView: void setWebViewClient(android.webkit.WebViewClient)>
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+2 taint flow paths FOUND from <android.app.Activity: android.view.Window getWindow()> to <android.view.Window: void setFlags(int,int)>
+maxpossibleFlows=2
+2 taint flow paths FOUND from <android.content.res.Resources: android.util.DisplayMetrics getDisplayMetrics()> to <android.webkit.WebSettings: void setCacheMode(int)>
+maxpossibleFlows=2
+2 taint flow paths FOUND from <android.content.res.Resources: android.util.DisplayMetrics getDisplayMetrics()> to <android.view.View: void setVerticalScrollBarEnabled(boolean)>
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=21
+21 taint flow paths FOUND from <android.content.res.Resources: int getIdentifier(java.lang.String,java.lang.String,java.lang.String)> to <android.content.res.Resources: java.io.InputStream openRawResource(int)>
+maxpossibleFlows=2
+2 taint flow paths FOUND from <android.content.res.Resources: android.util.DisplayMetrics getDisplayMetrics()> to <android.view.View: void setHorizontalScrollBarEnabled(boolean)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+2 taint flow paths FOUND from <android.content.res.Resources: android.util.DisplayMetrics getDisplayMetrics()> to <android.widget.ViewAnimator: void setOutAnimation(android.content.Context,int)>
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+2 taint flow paths FOUND from <android.app.Activity: android.view.Window getWindow()> to <android.app.Activity: void setContentView(int)>
+maxpossibleFlows=2
+2 taint flow paths FOUND from <android.content.res.Resources: android.util.DisplayMetrics getDisplayMetrics()> to <android.webkit.WebView: void setInitialScale(int)>
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.resetgame.volleyball.Vviews
+[WARNING] [32mVERBOSE[0m Callback method :onKeyUp in Class com.resetgame.volleyball.Vviews
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class com.resetgame.volleyball.Vviews
+[WARNING] [32mVERBOSE[0m Callback method :onTrackballEvent in Class com.resetgame.volleyball.Vviews
+[WARNING] [32mVERBOSE[0m Callback method :surfaceChanged in Class com.resetgame.volleyball.Vviews
+[WARNING] [32mVERBOSE[0m Callback method :surfaceCreated in Class com.resetgame.volleyball.Vviews
+[WARNING] [32mVERBOSE[0m Callback method :surfaceDestroyed in Class com.resetgame.volleyball.Vviews
+Result for benign-app-60-893E4CB68E8C2610FCA249111D9F5E5F3C8C67D7F733047E2E2FB4E5754454C5.apkcom.resetgame.volleyball

@@ -1,0 +1,435 @@
+DUA-Forensics args to Soot: -w -cp /home/handrick/Documents/UNB/benchmark/libs/droidfax.jar:/home/handrick/Android/Sdk/platforms/android-19/android.jar -p cg verbose:false,implicit-entry:true -p cg.spark verbose:false,on-fly-cg:true,rta:false -d /home/handrick/Documents/UNB/benchmark/trace/180/3/droidbot/malicious-app-99-2875570F5F00B29A4CD9BB8F33FDFB93EF97063DA532DB6A9A9E195960926D35.apk.logcat -process-dir /home/handrick/Documents/UNB/benchmark/data/input/malicious-app-99-2875570F5F00B29A4CD9BB8F33FDFB93EF97063DA532DB6A9A9E195960926D35.apk 
+Soot started on Sat Apr 16 00:37:32 CEST 2022
+Warning: com.ironsource.mobilcore.BaseFlowBasedAdUnit is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+Warning: com.google.code.rome.android.repackaged.com.sun.syndication.feed.WireFeed is a phantom class!
+Warning: com.google.code.rome.android.repackaged.com.sun.syndication.feed.atom.Feed is a phantom class!
+Warning: com.google.code.rome.android.repackaged.com.sun.syndication.feed.rss.Channel is a phantom class!
+Warning: com.google.code.rome.android.repackaged.com.sun.syndication.feed.synd.SyndFeed is a phantom class!
+Warning: com.google.code.rome.android.repackaged.com.sun.syndication.io.FeedException is a phantom class!
+Warning: com.google.code.rome.android.repackaged.com.sun.syndication.io.SyndFeedInput is a phantom class!
+Warning: com.google.code.rome.android.repackaged.com.sun.syndication.io.SyndFeedOutput is a phantom class!
+Warning: com.google.code.rome.android.repackaged.com.sun.syndication.io.WireFeedInput is a phantom class!
+Warning: com.google.code.rome.android.repackaged.com.sun.syndication.io.WireFeedOutput is a phantom class!
+Warning: javax.xml.stream.Location is a phantom class!
+Warning: javax.xml.stream.XMLEventReader is a phantom class!
+Warning: javax.xml.stream.XMLInputFactory is a phantom class!
+Warning: javax.xml.stream.events.Attribute is a phantom class!
+Warning: javax.xml.stream.events.Characters is a phantom class!
+Warning: javax.xml.stream.events.StartElement is a phantom class!
+Warning: javax.xml.stream.events.XMLEvent is a phantom class!
+Warning: org.apache.commons.httpclient.Header is a phantom class!
+Warning: org.apache.commons.httpclient.HttpClient is a phantom class!
+Warning: org.apache.commons.httpclient.HttpConnectionManager is a phantom class!
+Warning: org.apache.commons.httpclient.HttpMethod is a phantom class!
+Warning: org.apache.commons.httpclient.HttpMethodBase is a phantom class!
+Warning: org.apache.commons.httpclient.MultiThreadedHttpConnectionManager is a phantom class!
+Warning: org.apache.commons.httpclient.URI is a phantom class!
+Warning: org.apache.commons.httpclient.URIException is a phantom class!
+Warning: org.apache.commons.httpclient.methods.ByteArrayRequestEntity is a phantom class!
+Warning: org.apache.commons.httpclient.methods.DeleteMethod is a phantom class!
+Warning: org.apache.commons.httpclient.methods.EntityEnclosingMethod is a phantom class!
+Warning: org.apache.commons.httpclient.methods.GetMethod is a phantom class!
+Warning: org.apache.commons.httpclient.methods.HeadMethod is a phantom class!
+Warning: org.apache.commons.httpclient.methods.OptionsMethod is a phantom class!
+Warning: org.apache.commons.httpclient.methods.PostMethod is a phantom class!
+Warning: org.apache.commons.httpclient.methods.PutMethod is a phantom class!
+Warning: org.apache.commons.httpclient.methods.RequestEntity is a phantom class!
+Warning: org.apache.commons.httpclient.methods.TraceMethod is a phantom class!
+Warning: org.apache.commons.httpclient.params.HttpConnectionManagerParams is a phantom class!
+Warning: org.apache.commons.logging.LogFactory is a phantom class!
+Warning: org.codehaus.jackson.JsonEncoding is a phantom class!
+Warning: org.codehaus.jackson.JsonFactory is a phantom class!
+Warning: org.codehaus.jackson.JsonGenerationException is a phantom class!
+Warning: org.codehaus.jackson.JsonGenerator is a phantom class!
+Warning: org.codehaus.jackson.JsonParseException is a phantom class!
+Warning: org.codehaus.jackson.map.ObjectMapper is a phantom class!
+Warning: org.codehaus.jackson.map.type.TypeFactory is a phantom class!
+Warning: org.codehaus.jackson.type.JavaType is a phantom class!
+get type from 'Z'
+get type from 'Z'
+get type from 'Lorg/simpleframework/xml/DefaultType;'
+get type from 'Z'
+get type from 'Z'
+get type from 'Z'
+get type from 'Z'
+get type from 'Z'
+get type from 'Z'
+get type from 'Z'
+get type from 'Z'
+get type from 'Z'
+get type from 'Z'
+get type from 'Z'
+get type from 'Z'
+get type from 'Z'
+get type from 'Z'
+get type from 'Z'
+get type from 'Z'
+get type from 'Z'
+get type from 'Z'
+get type from 'D'
+Warning: org.springframework.security.crypto.encrypt.BytesEncryptor is a phantom class!
+Warning: org.springframework.security.crypto.keygen.BytesKeyGenerator is a phantom class!
+Warning: org.springframework.security.crypto.encrypt.TextEncryptor is a phantom class!
+Warning: org.springframework.security.crypto.encrypt.HexEncodingTextEncryptor is a phantom class!
+Warning: org.springframework.security.crypto.keygen.StringKeyGenerator is a phantom class!
+Warning: org.springframework.security.crypto.keygen.HexEncodingStringKeyGenerator is a phantom class!
+Warning: org.springframework.security.crypto.keygen.SharedKeyGenerator is a phantom class!
+Warning: org.springframework.security.crypto.util.CipherUtils is a phantom class!
+Warning: org.springframework.security.crypto.util.EncodingUtils is a phantom class!
+Warning: org.springframework.social.connect.Connection is a phantom class!
+Warning: org.springframework.social.connect.ConnectionData is a phantom class!
+Warning: org.springframework.social.connect.ConnectionFactory is a phantom class!
+Warning: org.springframework.social.connect.ConnectionFactoryLocator is a phantom class!
+Warning: org.springframework.social.connect.ConnectionKey is a phantom class!
+Warning: org.springframework.social.connect.ConnectionRepository is a phantom class!
+Warning: org.springframework.social.connect.DuplicateConnectionException is a phantom class!
+Warning: org.springframework.social.connect.NoSuchConnectionException is a phantom class!
+Warning: org.springframework.social.connect.UsersConnectionRepository is a phantom class!
+No main class given. Inferred 'test.com.android.app.opensource.util.RequestUtilsTest' as main class.
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.0 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+hcai's internal transform
+Running static analysis for security-relevant feature characterization
+[GatorHierarchy] [32mVERBOSE[0m [HIER] All classes: 1684
+[GatorHierarchy] [32mVERBOSE[0m [App: 644, Lib : 975, Phantom: 65]
+[GatorHierarchy] [32mVERBOSE[0m [HIER] Activities: 6, lib activities: 1
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App views: 1, Lib views: 10
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App Dialogs: 4, Lib Dialogs: 4
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing starting at 1650062254199
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing finished at 1650062257578
+[Instantiated app classes] [32mVERBOSE[0m total number: 535
+[WARNING] [32mVERBOSE[0m Callback method :onMenuItemSelected in Class com.android.app.yuludaquan.DataPageViewDetailActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.android.app.yuludaquan.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateOptionsMenu in Class com.android.app.yuludaquan.DataPageViewDetailActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.android.app.yuludaquan.DataPageViewDetailActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.android.app.yuludaquan.ZhangActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.android.app.yuludaquan.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.android.app.yuludaquan.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.android.app.yuludaquan.ZhangActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onMenuItemSelected in Class com.android.app.yuludaquan.JieActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.android.app.yuludaquan.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateOptionsMenu in Class com.android.app.yuludaquan.JieActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.android.app.yuludaquan.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.android.app.yuludaquan.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.android.app.yuludaquan.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onBind in Class com.android.app.opensource.OpenService added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.android.app.opensource.OpenService added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.android.app.opensource.OpenService added
+[WARNING] [32mVERBOSE[0m Callback method :onStartCommand in Class com.android.app.opensource.OpenService added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class com.android.app.opensource.OpenService added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.android.app.yuludaquan.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.android.app.yuludaquan.HelpActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class org.springframework.social.connect.sqlite.support.SQLiteConnectionRepositoryHelper added
+[WARNING] [32mVERBOSE[0m Callback method :onUpgrade in Class org.springframework.social.connect.sqlite.support.SQLiteConnectionRepositoryHelper added
+[WARNING] [32mVERBOSE[0m Callback method :onReceive in Class com.android.app.opensource.OpenReceiver added
+[WARNING] [32mVERBOSE[0m Callback method :onTerminate in Class com.android.app.yuludaquan.MainApplication added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.android.app.yuludaquan.MainApplication added
+[WARNING] [32mVERBOSE[0m Callback method :onMenuItemSelected in Class com.android.app.yuludaquan.HomeActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.android.app.yuludaquan.HomeActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.android.app.yuludaquan.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateOptionsMenu in Class com.android.app.yuludaquan.HomeActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.android.app.yuludaquan.HomeActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class com.android.app.yuludaquan.HomeActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.android.app.yuludaquan.HomeActivity added
+0 ICC links found and 0 cg edges added due to ICC links
+dynamic conflated call graph: 461 methods; 461 nodes; 707 edges.
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=3
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+2 taint flow paths FOUND from <android.content.Intent: java.lang.String getStringExtra(java.lang.String)> to <android.widget.TextView: void setText(java.lang.CharSequence)>
+maxpossibleFlows=253
+maxpossibleFlows=1
+maxpossibleFlows=142
+142 taint flow paths FOUND from <java.lang.String: java.lang.String toString()> to <android.util.Log: int d(java.lang.String,java.lang.String)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <org.apache.http.impl.client.AbstractHttpClient: org.apache.http.params.HttpParams getParams()> to <org.apache.http.params.AbstractHttpParams: org.apache.http.params.HttpParams setIntParameter(java.lang.String,int)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.os.Environment: java.io.File getExternalStorageDirectory()> to <android.util.Log: int d(java.lang.String,java.lang.String)>
+maxpossibleFlows=2
+maxpossibleFlows=2
+2 taint flow paths FOUND from <java.lang.StringBuilder: java.lang.String toString()> to <android.widget.TextView: void setText(java.lang.CharSequence)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=3
+3 taint flow paths FOUND from <android.content.res.Resources: android.content.res.AssetManager getAssets()> to <android.content.res.AssetManager: java.io.InputStream open(java.lang.String)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.content.ContextWrapper: android.content.Context getApplicationContext()> to <android.util.Log: int i(java.lang.String,java.lang.String)>
+maxpossibleFlows=1
+1 taint flow paths FOUND from <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilderFactory newInstance()> to <android.content.res.AssetManager: java.io.InputStream open(java.lang.String)>
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=4
+1 taint flow paths FOUND from <android.content.ContextWrapper: android.content.pm.PackageManager getPackageManager()> to <android.util.Log: int d(java.lang.String,java.lang.String)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=3
+3 taint flow paths FOUND from <android.content.ContextWrapper: android.content.res.Resources getResources()> to <android.content.res.AssetManager: java.io.InputStream open(java.lang.String)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+2 taint flow paths FOUND from <android.app.Activity: android.content.Intent getIntent()> to <android.widget.TextView: void setText(java.lang.CharSequence)>
+maxpossibleFlows=3
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <java.io.File: java.lang.String getAbsolutePath()> to <android.util.Log: int d(java.lang.String,java.lang.String)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=3
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.os.Bundle: java.lang.Object get(java.lang.String)> to <android.util.Log: int i(java.lang.String,java.lang.String)>
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+1 taint flow paths FOUND from <android.graphics.Bitmap: android.graphics.Bitmap createBitmap(int,int,android.graphics.Bitmap$Config)> to <android.app.Activity: void setContentView(android.view.View)>
+maxpossibleFlows=253
+maxpossibleFlows=142
+142 taint flow paths FOUND from <java.util.AbstractSequentialList: java.lang.Object get(int)> to <android.util.Log: int d(java.lang.String,java.lang.String)>
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+1 taint flow paths FOUND from <android.content.Intent: java.lang.String getDataString()> to <android.util.Log: int d(java.lang.String,java.lang.String)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.content.ContextWrapper: java.lang.String getPackageName()> to <android.util.Log: int i(java.lang.String,java.lang.String)>
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=3
+3 taint flow paths FOUND from <android.content.res.Resources: android.content.res.AssetManager getAssets()> to <android.content.res.AssetManager: java.io.InputStream open(java.lang.String)>
+maxpossibleFlows=2
+2 taint flow paths FOUND from <android.content.Intent: java.lang.String getStringExtra(java.lang.String)> to <android.widget.TextView: void setText(java.lang.CharSequence)>
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=253
+maxpossibleFlows=253
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=253
+maxpossibleFlows=2
+maxpossibleFlows=1
+1 taint flow paths FOUND from <org.apache.http.impl.client.AbstractHttpClient: org.apache.http.params.HttpParams getParams()> to <org.apache.http.params.AbstractHttpParams: org.apache.http.params.HttpParams setIntParameter(java.lang.String,int)>
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=2
+2 taint flow paths FOUND from <android.content.Intent: java.lang.String getStringExtra(java.lang.String)> to <android.app.Activity: void setContentView(android.view.View)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=142
+142 taint flow paths FOUND from <java.lang.String: java.lang.String toString()> to <android.util.Log: int d(java.lang.String,java.lang.String)>
+maxpossibleFlows=1
+1 taint flow paths FOUND from <java.lang.String: java.lang.String toString()> to <android.util.Log: int i(java.lang.String,java.lang.String)>
+Result for malicious-app-99-2875570F5F00B29A4CD9BB8F33FDFB93EF97063DA532DB6A9A9E195960926D35.apkcom.android.app.yuludaquan

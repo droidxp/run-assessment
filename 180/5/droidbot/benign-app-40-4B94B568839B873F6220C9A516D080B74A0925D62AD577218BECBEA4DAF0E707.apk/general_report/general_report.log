@@ -1,0 +1,69 @@
+DUA-Forensics args to Soot: -w -cp /home/hcosta/bench/benchmark/libs/droidfax.jar:/home/hcosta/Android/Sdk/platforms/android-28/android.jar -p cg verbose:false,implicit-entry:true -p cg.spark verbose:false,on-fly-cg:true,rta:false -d /home/hcosta/bench/benchmark/trace/180/1/droidbot/benign-app-40-4B94B568839B873F6220C9A516D080B74A0925D62AD577218BECBEA4DAF0E707.apk.logcat -process-dir /home/hcosta/bench/benchmark/data/input/benign-app-40-4B94B568839B873F6220C9A516D080B74A0925D62AD577218BECBEA4DAF0E707.apk 
+Soot started on Wed Apr 20 10:39:26 CEST 2022
+Warning: com.ironsource.mobilcore.BaseFlowBasedAdUnit is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+Warning: com.sun.image.codec.jpeg.JPEGDecodeParam is a phantom class!
+get type from 'Z'
+get type from 'Z'
+Warning: org.apache.http.client.ClientProtocolException is a phantom class!
+Warning: org.apache.http.HttpResponse is a phantom class!
+Warning: org.apache.http.client.HttpClient is a phantom class!
+Warning: org.apache.http.HttpRequestInterceptor is a phantom class!
+Warning: org.apache.http.conn.ClientConnectionManager is a phantom class!
+Warning: org.apache.http.HttpEntity is a phantom class!
+Warning: org.apache.http.client.methods.HttpUriRequest is a phantom class!
+Warning: org.apache.http.entity.AbstractHttpEntity is a phantom class!
+Warning: org.apache.http.HttpRequest is a phantom class!
+Warning: org.apache.http.HttpHost is a phantom class!
+Warning: org.apache.http.client.ResponseHandler is a phantom class!
+Warning: org.apache.http.protocol.HttpContext is a phantom class!
+Warning: org.apache.http.impl.client.DefaultHttpClient is a phantom class!
+Warning: org.apache.http.protocol.BasicHttpProcessor is a phantom class!
+Warning: com.sun.image.codec.jpeg.JPEGCodec is a phantom class!
+Warning: com.sun.image.codec.jpeg.JPEGImageDecoder is a phantom class!
+Warning: java.awt.image.BufferedImage is a phantom class!
+Warning: javax.servlet.ServletContextEvent is a phantom class!
+Warning: javax.servlet.ServletContextListener is a phantom class!
+Warning: org.apache.avalon.framework.logger.Logger is a phantom class!
+Warning: org.apache.log4j.Priority is a phantom class!
+Warning: org.apache.log4j.Logger is a phantom class!
+Warning: org.apache.log.Logger is a phantom class!
+Warning: org.apache.http.Header is a phantom class!
+Warning: org.apache.http.HttpEntityEnclosingRequest is a phantom class!
+Warning: org.apache.http.StatusLine is a phantom class!
+Warning: org.apache.http.auth.AuthSchemeRegistry is a phantom class!
+Warning: org.apache.http.client.CredentialsProvider is a phantom class!
+Warning: org.apache.http.client.entity.UrlEncodedFormEntity is a phantom class!
+Warning: org.apache.http.client.methods.HttpGet is a phantom class!
+Warning: org.apache.http.client.methods.HttpPost is a phantom class!
+Warning: org.apache.http.client.params.HttpClientParams is a phantom class!
+Warning: org.apache.http.conn.params.ConnManagerParams is a phantom class!
+Warning: org.apache.http.conn.scheme.PlainSocketFactory is a phantom class!
+Warning: org.apache.http.conn.scheme.Scheme is a phantom class!
+Warning: org.apache.http.conn.scheme.SchemeRegistry is a phantom class!
+Warning: org.apache.http.cookie.CookieSpecRegistry is a phantom class!
+Warning: org.apache.http.entity.ByteArrayEntity is a phantom class!
+Warning: org.apache.http.entity.InputStreamEntity is a phantom class!
+Warning: org.apache.http.impl.client.RequestWrapper is a phantom class!
+Warning: org.apache.http.impl.conn.tsccm.ThreadSafeClientConnManager is a phantom class!
+Warning: org.apache.http.message.BasicNameValuePair is a phantom class!
+Warning: org.apache.http.params.BasicHttpParams is a phantom class!
+Warning: org.apache.http.params.HttpProtocolParams is a phantom class!
+Warning: org.apache.http.protocol.BasicHttpContext is a phantom class!
+Warning: org.apache.http.util.EntityUtils is a phantom class!
+Warning: org.apache.log.Hierarchy is a phantom class!
+Warning: org.apache.log4j.Category is a phantom class!
+No main class given. Inferred 'com.drew.imaging.jpeg.JpegMetadataReader' as main class.
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.1 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.8 seconds.
+[Spark] Solution found in 0.8 seconds.
+hcai's internal transform
+Running static analysis for method/class coverage characterization
+0 ICC links found and 0 cg edges added due to ICC links
+dynamic conflated call graph: 991 methods; 991 nodes; 1794 edges.
+feature-vector-key = benign-app-40-4B94B568839B873F6220C9A516D080B74A0925D62AD577218BECBEA4DAF0E707.apk
+Result for benign-app-40-4B94B568839B873F6220C9A516D080B74A0925D62AD577218BECBEA4DAF0E707.apkcom.jiongji.andriod.card

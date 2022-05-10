@@ -1,0 +1,41 @@
+DUA-Forensics args to Soot: -w -cp /home/handrick/Documents/UNB/benchmark/libs/droidfax.jar:/home/handrick/Android/Sdk/platforms/android-19/android.jar -p cg verbose:false,implicit-entry:true -p cg.spark verbose:false,on-fly-cg:true,rta:false -d /home/handrick/Documents/UNB/benchmark/trace/180/3/droidbot/benign-app-81-B9EB293313E272E7DC8C202D2561CB152A70318FA25768C6DFF2A6D3F300EBA5.apk.logcat -process-dir /home/handrick/Documents/UNB/benchmark/data/input/benign-app-81-B9EB293313E272E7DC8C202D2561CB152A70318FA25768C6DFF2A6D3F300EBA5.apk 
+Soot started on Sat Apr 16 01:05:46 CEST 2022
+Warning: com.ironsource.mobilcore.BaseFlowBasedAdUnit is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+get type from 'I'
+get type from 'I'
+Warning: com.google.ads.AdSenseSpec is a phantom class!
+Warning: com.google.ads.AdViewListener is a phantom class!
+Warning: com.google.ads.GoogleAdView is a phantom class!
+Warning: com.inneractive.api.ads.InneractiveAdListener is a phantom class!
+Warning: com.inneractive.api.ads.InneractiveAd is a phantom class!
+Warning: com.mdotm.android.ads.MdotMView$MdotMActionListener is a phantom class!
+Warning: com.mdotm.android.ads.MdotMView is a phantom class!
+Warning: com.millennialmedia.android.MMAdView$MMAdListener is a phantom class!
+Warning: com.millennialmedia.android.MMAdView is a phantom class!
+Warning: com.mobclix.android.sdk.MobclixAdViewListener is a phantom class!
+Warning: com.mobclix.android.sdk.MobclixMMABannerXLAdView is a phantom class!
+Warning: com.mobclix.android.sdk.MobclixAdView is a phantom class!
+Warning: com.mobfox.sdk.BannerListener is a phantom class!
+Warning: com.mobfox.sdk.MobFoxView is a phantom class!
+Warning: com.mobfox.sdk.RequestException is a phantom class!
+Warning: com.google.ads.AdSenseSpec$AdFormat is a phantom class!
+Warning: com.google.ads.AdSenseSpec$ExpandDirection is a phantom class!
+Warning: com.google.ads.AdSpec$Parameter is a phantom class!
+Warning: com.google.ads.AdSpec is a phantom class!
+get type from 'Z'
+Warning: com.inneractive.api.ads.InneractiveAd$IaAdType is a phantom class!
+Warning: com.mdotm.android.ads.MdotMManager is a phantom class!
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.0 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+hcai's internal transform
+Running static analysis for method/class coverage characterization
+0 ICC links found and 0 cg edges added due to ICC links
+dynamic conflated call graph: 447 methods; 447 nodes; 526 edges.
+feature-vector-key = benign-app-81-B9EB293313E272E7DC8C202D2561CB152A70318FA25768C6DFF2A6D3F300EBA5.apk
+Result for benign-app-81-B9EB293313E272E7DC8C202D2561CB152A70318FA25768C6DFF2A6D3F300EBA5.apkmobi.infolife.cachepro

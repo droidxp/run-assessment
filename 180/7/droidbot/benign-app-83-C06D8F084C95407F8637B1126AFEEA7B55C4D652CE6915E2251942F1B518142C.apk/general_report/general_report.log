@@ -1,0 +1,25 @@
+DUA-Forensics args to Soot: -w -cp /home/hcosta/bench/benchmark/libs/droidfax.jar:/home/hcosta/Android/Sdk/platforms/android-28/android.jar -p cg verbose:false,implicit-entry:true -p cg.spark verbose:false,on-fly-cg:true,rta:false -d /home/hcosta/bench/benchmark/trace/180/3/droidbot/benign-app-83-C06D8F084C95407F8637B1126AFEEA7B55C4D652CE6915E2251942F1B518142C.apk.logcat -process-dir /home/hcosta/bench/benchmark/data/input/benign-app-83-C06D8F084C95407F8637B1126AFEEA7B55C4D652CE6915E2251942F1B518142C.apk 
+Soot started on Wed Apr 20 23:37:52 CEST 2022
+Warning: com.ironsource.mobilcore.BaseFlowBasedAdUnit is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+Warning: org.apache.http.NameValuePair is a phantom class!
+Warning: org.apache.http.HttpEntity is a phantom class!
+Warning: org.apache.http.HttpResponse is a phantom class!
+Warning: org.apache.http.client.entity.UrlEncodedFormEntity is a phantom class!
+Warning: org.apache.http.client.methods.HttpPost is a phantom class!
+Warning: org.apache.http.client.methods.HttpUriRequest is a phantom class!
+Warning: org.apache.http.impl.client.DefaultHttpClient is a phantom class!
+Warning: org.apache.http.params.HttpProtocolParams is a phantom class!
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.0 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+hcai's internal transform
+Running static analysis for method/class coverage characterization
+0 ICC links found and 0 cg edges added due to ICC links
+dynamic conflated call graph: 769 methods; 769 nodes; 1127 edges.
+feature-vector-key = benign-app-83-C06D8F084C95407F8637B1126AFEEA7B55C4D652CE6915E2251942F1B518142C.apk
+Result for benign-app-83-C06D8F084C95407F8637B1126AFEEA7B55C4D652CE6915E2251942F1B518142C.apkcom.ColePowered.PlanetWars

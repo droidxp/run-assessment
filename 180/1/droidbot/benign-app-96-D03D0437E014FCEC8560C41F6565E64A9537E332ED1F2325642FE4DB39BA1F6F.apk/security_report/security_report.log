@@ -1,0 +1,81 @@
+DUA-Forensics args to Soot: -w -cp /home/handrick/Documents/UNB/benchmark/libs/droidfax.jar:/home/handrick/Android/Sdk/platforms/android-19/android.jar -p cg verbose:false,implicit-entry:true -p cg.spark verbose:false,on-fly-cg:true,rta:false -d /home/handrick/Documents/UNB/benchmark/trace/180/1/droidbot/benign-app-96-D03D0437E014FCEC8560C41F6565E64A9537E332ED1F2325642FE4DB39BA1F6F.apk.logcat -process-dir /home/handrick/Documents/UNB/benchmark/data/input/benign-app-96-D03D0437E014FCEC8560C41F6565E64A9537E332ED1F2325642FE4DB39BA1F6F.apk 
+Soot started on Fri Apr 15 01:24:07 CEST 2022
+Warning: com.ironsource.mobilcore.BaseFlowBasedAdUnit is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.1 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+hcai's internal transform
+Running static analysis for security-relevant feature characterization
+[GatorHierarchy] [32mVERBOSE[0m [HIER] All classes: 836
+[GatorHierarchy] [32mVERBOSE[0m [App: 128, Lib : 705, Phantom: 3]
+[GatorHierarchy] [32mVERBOSE[0m [HIER] Activities: 4, lib activities: 1
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App views: 4, Lib views: 9
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App Dialogs: 0, Lib Dialogs: 2
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing starting at 1649978648083
+array element type: (filled narr)int
+array element type: (filled narr)int
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing finished at 1649978649322
+[Instantiated app classes] [32mVERBOSE[0m total number: 162
+[WARNING] [32mVERBOSE[0m Callback method :onReceive in Class com.admob.android.ads.analytics.InstallReceiver added
+[WARNING] [32mVERBOSE[0m Callback method :onWindowFocusChanged in Class com.admob.android.ads.AdView added
+[WARNING] [32mVERBOSE[0m Callback method :onMeasure in Class com.admob.android.ads.AdView added
+[WARNING] [32mVERBOSE[0m Callback method :setEnabled in Class com.admob.android.ads.AdView added
+[WARNING] [32mVERBOSE[0m Callback method :setBackgroundColor in Class com.admob.android.ads.AdView added
+[WARNING] [32mVERBOSE[0m Callback method :onDetachedFromWindow in Class com.admob.android.ads.AdView added
+[WARNING] [32mVERBOSE[0m Callback method :onAttachedToWindow in Class com.admob.android.ads.AdView added
+[WARNING] [32mVERBOSE[0m Callback method :setVisibility in Class com.admob.android.ads.AdView added
+[WARNING] [32mVERBOSE[0m Callback method :onWindowVisibilityChanged in Class com.admob.android.ads.AdView added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.BubbleBurster.Classic.REPL added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.BubbleBurster.Classic.REPL added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.BubbleBurster.Classic.HighScoreView added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.BubbleBurster.Classic.HighScoreView added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.BubbleBurster.Classic.ExplainGame added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.BubbleBurster.Classic.ExplainGame added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.BubbleBurster.Classic.Main added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.BubbleBurster.Classic.Main added
+0 ICC links found and 0 cg edges added due to ICC links
+dynamic conflated call graph: 48 methods; 48 nodes; 71 edges.
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=10
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+3 taint flow paths FOUND from <android.app.Activity: android.view.Window getWindow()> to <android.app.Activity: void setContentView(int)>
+maxpossibleFlows=3
+maxpossibleFlows=10
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+3 taint flow paths FOUND from <android.app.Activity: android.view.Window getWindow()> to <android.app.Activity: void setContentView(int)>
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+3 taint flow paths FOUND from <android.app.Activity: android.view.Window getWindow()> to <android.view.Window: void setFlags(int,int)>
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+3 taint flow paths FOUND from <android.app.Activity: android.view.Window getWindow()> to <android.view.View: void setBackgroundResource(int)>
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.BubbleBurster.Classic.ExplainGame
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.BubbleBurster.Classic.ExplainGame
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.BubbleBurster.Classic.ExplainGame
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.BubbleBurster.Classic.HighScoreView
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.BubbleBurster.Classic.HighScoreView
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.BubbleBurster.Classic.HighScoreView
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.BubbleBurster.Classic.Main
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.BubbleBurster.Classic.Main
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.BubbleBurster.Classic.Main
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.BubbleBurster.Classic.REPL
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.BubbleBurster.Classic.REPL
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.BubbleBurster.Classic.REPL
+Result for benign-app-96-D03D0437E014FCEC8560C41F6565E64A9537E332ED1F2325642FE4DB39BA1F6F.apkcom.BubbleBurster.Classic

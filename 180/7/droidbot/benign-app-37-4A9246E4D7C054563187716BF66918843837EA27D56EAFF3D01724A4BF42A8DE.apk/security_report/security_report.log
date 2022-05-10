@@ -1,0 +1,1102 @@
+DUA-Forensics args to Soot: -w -cp /home/hcosta/bench/benchmark/libs/droidfax.jar:/home/hcosta/Android/Sdk/platforms/android-28/android.jar -p cg verbose:false,implicit-entry:true -p cg.spark verbose:false,on-fly-cg:true,rta:false -d /home/hcosta/bench/benchmark/trace/180/3/droidbot/benign-app-37-4A9246E4D7C054563187716BF66918843837EA27D56EAFF3D01724A4BF42A8DE.apk.logcat -process-dir /home/hcosta/bench/benchmark/data/input/benign-app-37-4A9246E4D7C054563187716BF66918843837EA27D56EAFF3D01724A4BF42A8DE.apk 
+Soot started on Wed Apr 20 23:31:57 CEST 2022
+Warning: com.ironsource.mobilcore.BaseFlowBasedAdUnit is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+Warning: com.inmobi.androidsdk.InMobiAdDelegate is a phantom class!
+Warning: com.inmobi.androidsdk.impl.InMobiAdView is a phantom class!
+Warning: com.inmobi.androidsdk.EducationType is a phantom class!
+Warning: com.inmobi.androidsdk.EthnicityType is a phantom class!
+Warning: com.inmobi.androidsdk.GenderType is a phantom class!
+Warning: com.oneriot.OneRiotAdActionListener is a phantom class!
+Warning: com.oneriot.OneRiotAd is a phantom class!
+Warning: com.qwapi.adclient.android.view.AdEventsListener is a phantom class!
+Warning: com.qwapi.adclient.android.view.QWAdView is a phantom class!
+Warning: com.qwapi.adclient.android.data.Ad is a phantom class!
+Warning: com.qwapi.adclient.android.requestparams.AdRequestParams is a phantom class!
+Warning: com.qwapi.adclient.android.data.Status is a phantom class!
+Warning: org.apache.http.client.CookieStore is a phantom class!
+Warning: org.apache.http.HttpResponse is a phantom class!
+Warning: org.apache.http.client.HttpClient is a phantom class!
+Warning: org.apache.http.client.methods.HttpGet is a phantom class!
+Warning: org.apache.http.impl.client.DefaultHttpClient is a phantom class!
+Warning: org.apache.http.client.ClientProtocolException is a phantom class!
+Warning: com.qwapi.adclient.android.requestparams.AnimationType is a phantom class!
+Warning: com.qwapi.adclient.android.requestparams.DisplayMode is a phantom class!
+Warning: com.qwapi.adclient.android.requestparams.Gender is a phantom class!
+Warning: com.qwapi.adclient.android.requestparams.MediaType is a phantom class!
+Warning: com.qwapi.adclient.android.requestparams.Placement is a phantom class!
+Warning: org.apache.http.client.methods.HttpUriRequest is a phantom class!
+Warning: org.apache.http.client.methods.HttpPost is a phantom class!
+Warning: org.apache.http.client.ResponseHandler is a phantom class!
+Warning: org.apache.http.client.methods.HttpPut is a phantom class!
+Warning: org.apache.http.Header is a phantom class!
+Warning: org.apache.http.HttpEntity is a phantom class!
+Warning: org.apache.http.HttpVersion is a phantom class!
+Warning: org.apache.http.ProtocolVersion is a phantom class!
+Warning: org.apache.http.StatusLine is a phantom class!
+Warning: org.apache.http.client.HttpResponseException is a phantom class!
+Warning: org.apache.http.client.entity.UrlEncodedFormEntity is a phantom class!
+Warning: org.apache.http.conn.ClientConnectionManager is a phantom class!
+Warning: org.apache.http.conn.scheme.PlainSocketFactory is a phantom class!
+Warning: org.apache.http.conn.scheme.Scheme is a phantom class!
+Warning: org.apache.http.conn.scheme.SchemeRegistry is a phantom class!
+Warning: org.apache.http.cookie.Cookie is a phantom class!
+Warning: org.apache.http.entity.ByteArrayEntity is a phantom class!
+Warning: org.apache.http.entity.StringEntity is a phantom class!
+Warning: org.apache.http.impl.client.BasicResponseHandler is a phantom class!
+Warning: org.apache.http.impl.conn.tsccm.ThreadSafeClientConnManager is a phantom class!
+Warning: org.apache.http.message.BasicNameValuePair is a phantom class!
+Warning: org.apache.http.params.BasicHttpParams is a phantom class!
+Warning: org.apache.http.params.HttpProtocolParams is a phantom class!
+Warning: org.apache.http.util.EncodingUtils is a phantom class!
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.0 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+hcai's internal transform
+Running static analysis for security-relevant feature characterization
+[GatorHierarchy] [32mVERBOSE[0m [HIER] All classes: 2291
+[GatorHierarchy] [32mVERBOSE[0m [App: 823, Lib : 1418, Phantom: 50]
+[GatorHierarchy] [32mVERBOSE[0m [HIER] Activities: 16, lib activities: 2
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App views: 31, Lib views: 28
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App Dialogs: 8, Lib Dialogs: 4
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing starting at 1650490318214
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing finished at 1650490323635
+[Instantiated app classes] [32mVERBOSE[0m total number: 741
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.androgames.BubbleBurst.Introduction added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.mobclix.android.sdk.MobclixBrowserActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onRestoreInstanceState in Class com.mobclix.android.sdk.MobclixBrowserActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.mobclix.android.sdk.MobclixBrowserActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.mobclix.android.sdk.MobclixBrowserActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.mobclix.android.sdk.MobclixBrowserActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateOptionsMenu in Class com.mobclix.android.sdk.MobclixBrowserActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.mobclix.android.sdk.MobclixBrowserActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class com.mobclix.android.sdk.MobclixBrowserActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onSaveInstanceState in Class com.mobclix.android.sdk.MobclixBrowserActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class com.mobclix.android.sdk.MobclixBrowserActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onOptionsItemSelected in Class com.mobclix.android.sdk.MobclixBrowserActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.mobclix.android.sdk.MobclixBrowserActivity added
+[WARNING] [32mVERBOSE[0m Callback method :handleMessage in Class com.millennialmedia.android.VideoPlayer added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.millennialmedia.android.VideoPlayer added
+[WARNING] [32mVERBOSE[0m Callback method :dispatchTouchEvent in Class com.millennialmedia.android.VideoPlayer added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.millennialmedia.android.VideoPlayer added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.millennialmedia.android.VideoPlayer added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class com.millennialmedia.android.VideoPlayer added
+[WARNING] [32mVERBOSE[0m Callback method :onSaveInstanceState in Class com.millennialmedia.android.VideoPlayer added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.millennialmedia.android.VideoPlayer added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class com.scoreloop.client.android.core.ui.PaymentDialog added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.scoreloop.client.android.core.ui.WebViewDialog added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.mobclix.android.sdk.Mobclix$ObjectOnClickListener added
+[WARNING] [32mVERBOSE[0m Callback method :onReceive in Class com.google.ads.InstallReceiver added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.androgames.BubbleBurst.Help added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.androgames.BubbleBurst.Help added
+[WARNING] [32mVERBOSE[0m Callback method :invalidate in Class com.androgames.BubbleBurst.BoardSurfaceView added
+[WARNING] [32mVERBOSE[0m Callback method :surfaceCreated in Class com.androgames.BubbleBurst.BoardSurfaceView added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class com.androgames.BubbleBurst.BoardSurfaceView added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class com.androgames.BubbleBurst.BoardSurfaceView added
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class com.androgames.BubbleBurst.BoardSurfaceView added
+[WARNING] [32mVERBOSE[0m Callback method :surfaceDestroyed in Class com.androgames.BubbleBurst.BoardSurfaceView added
+[WARNING] [32mVERBOSE[0m Callback method :surfaceChanged in Class com.androgames.BubbleBurst.BoardSurfaceView added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.millennialmedia.android.MMAdViewOverlayActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.millennialmedia.android.MMAdViewOverlayActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.millennialmedia.android.MMAdViewOverlayActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.millennialmedia.android.MMAdViewOverlayActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.millennialmedia.android.MMAdViewOverlayActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onItemSelected in Class com.androgames.BubbleBurst.TopScores added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.androgames.BubbleBurst.TopScores added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateOptionsMenu in Class com.androgames.BubbleBurst.TopScores added
+[WARNING] [32mVERBOSE[0m Callback method :onNothingSelected in Class com.androgames.BubbleBurst.TopScores added
+[WARNING] [32mVERBOSE[0m Callback method :onOptionsItemSelected in Class com.androgames.BubbleBurst.TopScores added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateDialog in Class com.androgames.BubbleBurst.ScoreBoard added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.androgames.BubbleBurst.ScoreBoard added
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class com.androgames.BubbleBurst.ScoreBoard added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.androgames.BubbleBurst.ScoreBoard added
+[WARNING] [32mVERBOSE[0m Callback method :onCompletion in Class com.androgames.BubbleBurst.ScoreBoard added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.mdotm.android.ads.MdotmLandingPage added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.giffads.android.sdk.v3.RpnActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.giffads.android.sdk.v3.RpnActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.giffads.android.sdk.v3.RpnActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateOptionsMenu in Class com.giffads.android.sdk.v3.RpnActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.androgames.BubbleBurst.Scores added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.androgames.BubbleBurst.Scores added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.androgames.BubbleBurst.Upgrade added
+[WARNING] [32mVERBOSE[0m Callback method :onReceive in Class com.mobclix.android.sdk.MobclixReferralReceiver added
+[WARNING] [32mVERBOSE[0m Callback method :onItemSelected in Class com.androgames.BubbleBurst.Options added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.androgames.BubbleBurst.Options added
+[WARNING] [32mVERBOSE[0m Callback method :onNothingSelected in Class com.androgames.BubbleBurst.Options added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.androgames.BubbleBurst.Options added
+[WARNING] [32mVERBOSE[0m Callback method :onWindowFocusChanged in Class com.mobclix.android.sdk.MobclixAdView added
+[WARNING] [32mVERBOSE[0m Callback method :onRestoreInstanceState in Class com.mobclix.android.sdk.MobclixAdView added
+[WARNING] [32mVERBOSE[0m Callback method :setLayoutParams in Class com.mobclix.android.sdk.MobclixAdView added
+[WARNING] [32mVERBOSE[0m Callback method :onSaveInstanceState in Class com.mobclix.android.sdk.MobclixAdView added
+[WARNING] [32mVERBOSE[0m Callback method :onDetachedFromWindow in Class com.mobclix.android.sdk.MobclixAdView added
+[WARNING] [32mVERBOSE[0m Callback method :onVisibilityChanged in Class com.mobclix.android.sdk.MobclixAdView added
+[WARNING] [32mVERBOSE[0m Callback method :onWindowFocusChanged in Class com.mobclix.android.sdk.MobclixAdView added
+[WARNING] [32mVERBOSE[0m Callback method :onRestoreInstanceState in Class com.mobclix.android.sdk.MobclixAdView added
+[WARNING] [32mVERBOSE[0m Callback method :setLayoutParams in Class com.mobclix.android.sdk.MobclixAdView added
+[WARNING] [32mVERBOSE[0m Callback method :onSaveInstanceState in Class com.mobclix.android.sdk.MobclixAdView added
+[WARNING] [32mVERBOSE[0m Callback method :onDetachedFromWindow in Class com.mobclix.android.sdk.MobclixAdView added
+[WARNING] [32mVERBOSE[0m Callback method :onVisibilityChanged in Class com.mobclix.android.sdk.MobclixAdView added
+[WARNING] [32mVERBOSE[0m Callback method :onWindowFocusChanged in Class com.google.ads.AdActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPrepared in Class com.google.ads.AdActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.google.ads.AdActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.google.ads.AdActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.google.ads.AdActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCompletion in Class com.google.ads.AdActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.androgames.BubbleBurst.BBFreeApp added
+[WARNING] [32mVERBOSE[0m Callback method :onListItemClick in Class com.androgames.BubbleBurst.PendingGameChoice added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateContextMenu in Class com.androgames.BubbleBurst.PendingGameChoice added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.androgames.BubbleBurst.PendingGameChoice added
+[WARNING] [32mVERBOSE[0m Callback method :onContextItemSelected in Class com.androgames.BubbleBurst.PendingGameChoice added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.scoreloop.client.android.core.ui.WebViewDialog added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.androgames.BubbleBurst.BubbleBurst added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateDialog in Class com.androgames.BubbleBurst.BubbleBurst added
+[WARNING] [32mVERBOSE[0m Callback method :onNewIntent in Class com.androgames.BubbleBurst.BubbleBurst added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.androgames.BubbleBurst.BubbleBurst added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.androgames.BubbleBurst.BubbleBurst added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.androgames.BubbleBurst.BubbleBurst added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateOptionsMenu in Class com.androgames.BubbleBurst.BubbleBurst added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyUp in Class com.androgames.BubbleBurst.BubbleBurst added
+[WARNING] [32mVERBOSE[0m Callback method :onSaveInstanceState in Class com.androgames.BubbleBurst.BubbleBurst added
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class com.androgames.BubbleBurst.BubbleBurst added
+[WARNING] [32mVERBOSE[0m Callback method :onOptionsItemSelected in Class com.androgames.BubbleBurst.BubbleBurst added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.androgames.BubbleBurst.BubbleBurst added
+[WARNING] [32mVERBOSE[0m Callback method :onCompletion in Class com.androgames.BubbleBurst.BubbleBurst added
+0 ICC links found and 0 cg edges added due to ICC links
+dynamic conflated call graph: 425 methods; 425 nodes; 537 edges.
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=17
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=17
+maxpossibleFlows=1
+maxpossibleFlows=17
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=17
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=17
+maxpossibleFlows=1
+maxpossibleFlows=17
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.content.ContextWrapper: android.content.SharedPreferences getSharedPreferences(java.lang.String,int)> to <android.app.AlertDialog$Builder: android.app.AlertDialog$Builder setTitle(int)>
+maxpossibleFlows=12
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=13
+maxpossibleFlows=1
+maxpossibleFlows=17
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=13
+maxpossibleFlows=1
+maxpossibleFlows=17
+maxpossibleFlows=13
+maxpossibleFlows=1
+maxpossibleFlows=12
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=17
+maxpossibleFlows=1
+maxpossibleFlows=13
+maxpossibleFlows=17
+maxpossibleFlows=17
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=13
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=16
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=16
+maxpossibleFlows=1
+maxpossibleFlows=16
+maxpossibleFlows=1
+maxpossibleFlows=12
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=17
+17 taint flow paths FOUND from <android.view.ContextThemeWrapper: android.content.res.Resources getResources()> to <android.view.Window: void setFlags(int,int)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=17
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=17
+maxpossibleFlows=17
+17 taint flow paths FOUND from <java.lang.StringBuilder: java.lang.String toString()> to <android.widget.TextView: void setText(java.lang.CharSequence)>
+maxpossibleFlows=17
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=17
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=17
+maxpossibleFlows=1
+maxpossibleFlows=17
+maxpossibleFlows=1
+maxpossibleFlows=17
+maxpossibleFlows=17
+maxpossibleFlows=17
+maxpossibleFlows=15
+maxpossibleFlows=17
+17 taint flow paths FOUND from <android.content.ContextWrapper: android.content.Context getApplicationContext()> to <android.view.View: void setFocusable(boolean)>
+maxpossibleFlows=17
+maxpossibleFlows=17
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=18
+18 taint flow paths FOUND from <android.content.ContextWrapper: android.content.pm.PackageManager getPackageManager()> to <android.view.View: void setBackgroundColor(int)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=17
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=17
+maxpossibleFlows=1
+maxpossibleFlows=17
+maxpossibleFlows=1
+maxpossibleFlows=12
+maxpossibleFlows=1
+maxpossibleFlows=17
+maxpossibleFlows=17
+17 taint flow paths FOUND from <android.content.res.Resources: android.util.DisplayMetrics getDisplayMetrics()> to <android.view.Window: void setFlags(int,int)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=16
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=16
+maxpossibleFlows=1
+maxpossibleFlows=16
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=17
+maxpossibleFlows=17
+maxpossibleFlows=1
+maxpossibleFlows=17
+maxpossibleFlows=1
+maxpossibleFlows=17
+17 taint flow paths FOUND from <android.content.ContextWrapper: android.content.res.Resources getResources()> to <android.graphics.Typeface: android.graphics.Typeface create(android.graphics.Typeface,int)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=17
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=17
+maxpossibleFlows=1
+maxpossibleFlows=17
+maxpossibleFlows=1
+maxpossibleFlows=12
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=12
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=12
+maxpossibleFlows=1
+maxpossibleFlows=12
+maxpossibleFlows=1
+maxpossibleFlows=12
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=12
+maxpossibleFlows=1
+maxpossibleFlows=12
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=17
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=17
+maxpossibleFlows=1
+maxpossibleFlows=12
+maxpossibleFlows=1
+maxpossibleFlows=12
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=17
+maxpossibleFlows=12
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=17
+maxpossibleFlows=1
+maxpossibleFlows=17
+maxpossibleFlows=12
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=17
+17 taint flow paths FOUND from <android.view.LayoutInflater: android.view.View inflate(int,android.view.ViewGroup)> to <android.widget.TextView: void setEnabled(boolean)>
+maxpossibleFlows=17
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=17
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=17
+maxpossibleFlows=1
+maxpossibleFlows=17
+maxpossibleFlows=1
+maxpossibleFlows=17
+maxpossibleFlows=12
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=17
+17 taint flow paths FOUND from <android.app.Activity: java.lang.Object getSystemService(java.lang.String)> to <android.widget.TextView: void setEnabled(boolean)>
+maxpossibleFlows=12
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=12
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=12
+maxpossibleFlows=1
+maxpossibleFlows=12
+maxpossibleFlows=1
+maxpossibleFlows=12
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=12
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=17
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=17
+maxpossibleFlows=1
+maxpossibleFlows=17
+maxpossibleFlows=1
+maxpossibleFlows=12
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=12
+maxpossibleFlows=1
+maxpossibleFlows=15
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=12
+maxpossibleFlows=1
+maxpossibleFlows=15
+maxpossibleFlows=169
+169 taint flow paths FOUND from <android.graphics.Bitmap: android.graphics.Bitmap createBitmap(int,int,android.graphics.Bitmap$Config)> to <android.graphics.drawable.Drawable: void setBounds(int,int,int,int)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=17
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=17
+maxpossibleFlows=1
+maxpossibleFlows=17
+maxpossibleFlows=1
+maxpossibleFlows=12
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=12
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=12
+maxpossibleFlows=1
+maxpossibleFlows=12
+maxpossibleFlows=1
+maxpossibleFlows=12
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=12
+maxpossibleFlows=1
+maxpossibleFlows=17
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=17
+17 taint flow paths FOUND from <android.app.Activity: android.view.Window getWindow()> to <android.view.Window: void setFlags(int,int)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=18
+maxpossibleFlows=18
+18 taint flow paths FOUND from <android.view.View: android.view.ViewGroup$LayoutParams getLayoutParams()> to <android.webkit.WebSettings: void setCacheMode(int)>
+maxpossibleFlows=17
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=17
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=17
+maxpossibleFlows=17
+17 taint flow paths FOUND from <android.content.ContextWrapper: java.lang.String getPackageName()> to <android.widget.TextView: void setText(java.lang.CharSequence)>
+maxpossibleFlows=17
+maxpossibleFlows=17
+maxpossibleFlows=17
+maxpossibleFlows=15
+maxpossibleFlows=17
+17 taint flow paths FOUND from <android.view.SurfaceView: android.view.SurfaceHolder getHolder()> to <android.view.View: void setFocusable(boolean)>
+maxpossibleFlows=1
+maxpossibleFlows=18
+maxpossibleFlows=18
+maxpossibleFlows=1
+maxpossibleFlows=18
+maxpossibleFlows=18
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=18
+maxpossibleFlows=1
+maxpossibleFlows=18
+maxpossibleFlows=1
+maxpossibleFlows=18
+maxpossibleFlows=18
+maxpossibleFlows=1
+maxpossibleFlows=18
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=18
+maxpossibleFlows=18
+maxpossibleFlows=1
+maxpossibleFlows=18
+maxpossibleFlows=1
+maxpossibleFlows=18
+maxpossibleFlows=18
+18 taint flow paths FOUND from <android.webkit.WebView: android.webkit.WebSettings getSettings()> to <android.webkit.WebSettings: void setCacheMode(int)>
+maxpossibleFlows=8
+maxpossibleFlows=8
+maxpossibleFlows=8
+maxpossibleFlows=12
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=12
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=12
+maxpossibleFlows=1
+maxpossibleFlows=12
+maxpossibleFlows=1
+maxpossibleFlows=12
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=12
+maxpossibleFlows=1
+maxpossibleFlows=12
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=12
+maxpossibleFlows=1
+maxpossibleFlows=15
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=12
+maxpossibleFlows=1
+maxpossibleFlows=15
+maxpossibleFlows=169
+167 taint flow paths FOUND from <android.view.View: android.content.res.Resources getResources()> to <android.graphics.drawable.Drawable: void setBounds(int,int,int,int)>
+maxpossibleFlows=17
+17 taint flow paths FOUND from <android.content.res.Resources: android.graphics.drawable.Drawable getDrawable(int)> to <android.graphics.Typeface: android.graphics.Typeface create(android.graphics.Typeface,int)>
+maxpossibleFlows=17
+maxpossibleFlows=17
+maxpossibleFlows=17
+maxpossibleFlows=17
+maxpossibleFlows=17
+maxpossibleFlows=17
+maxpossibleFlows=17
+maxpossibleFlows=17
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=12
+maxpossibleFlows=1
+maxpossibleFlows=12
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=12
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=1
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=1
+maxpossibleFlows=12
+maxpossibleFlows=1
+maxpossibleFlows=12
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.content.ContextWrapper: android.content.SharedPreferences getSharedPreferences(java.lang.String,int)> to <android.app.AlertDialog$Builder: android.app.AlertDialog$Builder setTitle(int)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=18
+18 taint flow paths FOUND from <android.content.ContextWrapper: android.content.pm.PackageManager getPackageManager()> to <android.view.View: void setBackgroundColor(int)>
+maxpossibleFlows=17
+17 taint flow paths FOUND from <android.content.ContextWrapper: android.content.SharedPreferences getSharedPreferences(java.lang.String,int)> to <android.view.Window: void setFlags(int,int)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=18
+18 taint flow paths FOUND from <android.content.ContextWrapper: android.content.pm.PackageManager getPackageManager()> to <android.webkit.WebSettings: void setCacheMode(int)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=13
+maxpossibleFlows=1
+maxpossibleFlows=17
+17 taint flow paths FOUND from <android.view.ContextThemeWrapper: android.content.res.Resources getResources()> to <android.widget.TextView: void setEnabled(boolean)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=18
+18 taint flow paths FOUND from <android.content.ContextWrapper: android.content.pm.PackageManager getPackageManager()> to <android.webkit.WebSettings: void setPluginsEnabled(boolean)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.content.ContextWrapper: android.content.SharedPreferences getSharedPreferences(java.lang.String,int)> to <android.app.AlertDialog$Builder: android.app.AlertDialog$Builder setPositiveButton(int,android.content.DialogInterface$OnClickListener)>
+maxpossibleFlows=17
+maxpossibleFlows=17
+maxpossibleFlows=17
+17 taint flow paths FOUND from <android.content.ContextWrapper: android.content.res.Resources getResources()> to <android.graphics.Typeface: android.graphics.Typeface create(android.graphics.Typeface,int)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=18
+18 taint flow paths FOUND from <android.content.ContextWrapper: android.content.pm.PackageManager getPackageManager()> to <android.widget.ViewAnimator: void setOutAnimation(android.content.Context,int)>
+maxpossibleFlows=17
+maxpossibleFlows=17
+maxpossibleFlows=17
+maxpossibleFlows=1
+maxpossibleFlows=16
+maxpossibleFlows=1
+maxpossibleFlows=17
+maxpossibleFlows=17
+maxpossibleFlows=17
+maxpossibleFlows=17
+maxpossibleFlows=17
+maxpossibleFlows=16
+maxpossibleFlows=17
+maxpossibleFlows=17
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=17
+maxpossibleFlows=17
+maxpossibleFlows=1
+maxpossibleFlows=17
+maxpossibleFlows=1
+maxpossibleFlows=17
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=17
+maxpossibleFlows=17
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=17
+17 taint flow paths FOUND from <android.content.ContextWrapper: android.content.SharedPreferences getSharedPreferences(java.lang.String,int)> to <android.widget.TextView: void setText(java.lang.CharSequence)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=18
+18 taint flow paths FOUND from <android.content.ContextWrapper: android.content.pm.PackageManager getPackageManager()> to <android.widget.ViewAnimator: void setInAnimation(android.content.Context,int)>
+maxpossibleFlows=17
+maxpossibleFlows=17
+maxpossibleFlows=17
+17 taint flow paths FOUND from <android.content.ContextWrapper: android.content.res.Resources getResources()> to <android.graphics.Paint: void setStyle(android.graphics.Paint$Style)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=13
+maxpossibleFlows=1
+maxpossibleFlows=12
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=17
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=12
+maxpossibleFlows=1
+maxpossibleFlows=215
+215 taint flow paths FOUND from <android.content.ContextWrapper: android.content.res.Resources getResources()> to <android.graphics.drawable.Drawable: void setBounds(int,int,int,int)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=18
+18 taint flow paths FOUND from <android.content.ContextWrapper: android.content.pm.PackageManager getPackageManager()> to <android.webkit.WebView: void setBackgroundColor(int)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=12
+maxpossibleFlows=1
+maxpossibleFlows=12
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=15
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=12
+maxpossibleFlows=1
+maxpossibleFlows=15
+maxpossibleFlows=1
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=1
+maxpossibleFlows=15
+maxpossibleFlows=12
+maxpossibleFlows=1
+maxpossibleFlows=414
+57 taint flow paths FOUND from <android.graphics.Bitmap: android.graphics.Bitmap createBitmap(int,int,android.graphics.Bitmap$Config)> to <android.graphics.Path: void setFillType(android.graphics.Path$FillType)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=18
+18 taint flow paths FOUND from <android.content.ContextWrapper: android.content.pm.PackageManager getPackageManager()> to <android.webkit.WebSettings: void setSupportZoom(boolean)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=18
+18 taint flow paths FOUND from <android.content.ContextWrapper: android.content.pm.PackageManager getPackageManager()> to <android.webkit.WebSettings: void setJavaScriptEnabled(boolean)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=17
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=17
+17 taint flow paths FOUND from <android.content.ContextWrapper: android.content.Context getApplicationContext()> to <android.view.View: void setFocusable(boolean)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=18
+18 taint flow paths FOUND from <android.content.ContextWrapper: android.content.pm.PackageManager getPackageManager()> to <android.webkit.WebView: void setWebViewClient(android.webkit.WebViewClient)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=13
+maxpossibleFlows=1
+maxpossibleFlows=17
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=17
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=12
+maxpossibleFlows=17
+maxpossibleFlows=17
+maxpossibleFlows=1
+maxpossibleFlows=17
+maxpossibleFlows=12
+maxpossibleFlows=1
+maxpossibleFlows=12
+maxpossibleFlows=1
+maxpossibleFlows=12
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=17
+maxpossibleFlows=1
+maxpossibleFlows=12
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=17
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=12
+maxpossibleFlows=1
+maxpossibleFlows=117
+117 taint flow paths FOUND from <android.content.ContextWrapper: android.content.res.Resources getResources()> to <android.graphics.drawable.BitmapDrawable: void setFilterBitmap(boolean)>
+maxpossibleFlows=17
+maxpossibleFlows=17
+maxpossibleFlows=51
+51 taint flow paths FOUND from <android.content.ContextWrapper: android.content.res.Resources getResources()> to <android.graphics.Paint: void setARGB(int,int,int,int)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=18
+18 taint flow paths FOUND from <android.content.ContextWrapper: android.content.pm.PackageManager getPackageManager()> to <android.view.View: void setVerticalScrollBarEnabled(boolean)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.view.ContextThemeWrapper: android.content.res.Resources getResources()> to <android.content.res.Resources: java.io.InputStream openRawResource(int)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=18
+18 taint flow paths FOUND from <android.content.ContextWrapper: android.content.pm.PackageManager getPackageManager()> to <android.view.View: void setHorizontalScrollBarEnabled(boolean)>
+maxpossibleFlows=17
+maxpossibleFlows=17
+maxpossibleFlows=17
+maxpossibleFlows=16
+maxpossibleFlows=17
+17 taint flow paths FOUND from <android.view.ContextThemeWrapper: android.content.res.Resources getResources()> to <android.app.Activity: void setContentView(int)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.content.ContextWrapper: android.content.SharedPreferences getSharedPreferences(java.lang.String,int)> to <android.app.AlertDialog$Builder: android.app.AlertDialog$Builder setNegativeButton(int,android.content.DialogInterface$OnClickListener)>
+maxpossibleFlows=16
+16 taint flow paths FOUND from <android.content.ContextWrapper: android.content.SharedPreferences getSharedPreferences(java.lang.String,int)> to <android.app.Activity: void startActivityForResult(android.content.Intent,int)>
+maxpossibleFlows=17
+maxpossibleFlows=17
+maxpossibleFlows=17
+maxpossibleFlows=13
+maxpossibleFlows=16
+maxpossibleFlows=17
+17 taint flow paths FOUND from <android.view.ContextThemeWrapper: android.content.res.Resources getResources()> to <android.app.Activity: void setVolumeControlStream(int)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=18
+18 taint flow paths FOUND from <android.content.ContextWrapper: android.content.pm.PackageManager getPackageManager()> to <android.webkit.WebView: void setInitialScale(int)>
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.google.ads.AdActivity
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.google.ads.AdActivity
+[WARNING] [32mVERBOSE[0m Callback method :onCompletion in Class com.google.ads.AdActivity
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.google.ads.AdActivity
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.google.ads.AdActivity
+[WARNING] [32mVERBOSE[0m Callback method :onPrepared in Class com.google.ads.AdActivity
+[WARNING] [32mVERBOSE[0m Callback method :onWindowFocusChanged in Class com.google.ads.AdActivity
+[WARNING] [32mVERBOSE[0m Callback method :invalidate in Class com.androgames.BubbleBurst.BoardSurfaceView
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class com.androgames.BubbleBurst.BoardSurfaceView
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class com.androgames.BubbleBurst.BoardSurfaceView
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class com.androgames.BubbleBurst.BoardSurfaceView
+[WARNING] [32mVERBOSE[0m Callback method :surfaceChanged in Class com.androgames.BubbleBurst.BoardSurfaceView
+[WARNING] [32mVERBOSE[0m Callback method :surfaceCreated in Class com.androgames.BubbleBurst.BoardSurfaceView
+[WARNING] [32mVERBOSE[0m Callback method :surfaceDestroyed in Class com.androgames.BubbleBurst.BoardSurfaceView
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.androgames.BubbleBurst.BubbleBurst
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class com.androgames.BubbleBurst.BubbleBurst
+[WARNING] [32mVERBOSE[0m Callback method :onCompletion in Class com.androgames.BubbleBurst.BubbleBurst
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.androgames.BubbleBurst.BubbleBurst
+[WARNING] [32mVERBOSE[0m Callback method :onCreateDialog in Class com.androgames.BubbleBurst.BubbleBurst
+[WARNING] [32mVERBOSE[0m Callback method :onCreateOptionsMenu in Class com.androgames.BubbleBurst.BubbleBurst
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.androgames.BubbleBurst.BubbleBurst
+[WARNING] [32mVERBOSE[0m Callback method :onKeyUp in Class com.androgames.BubbleBurst.BubbleBurst
+[WARNING] [32mVERBOSE[0m Callback method :onNewIntent in Class com.androgames.BubbleBurst.BubbleBurst
+[WARNING] [32mVERBOSE[0m Callback method :onOptionsItemSelected in Class com.androgames.BubbleBurst.BubbleBurst
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.androgames.BubbleBurst.BubbleBurst
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.androgames.BubbleBurst.BubbleBurst
+[WARNING] [32mVERBOSE[0m Callback method :onSaveInstanceState in Class com.androgames.BubbleBurst.BubbleBurst
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.androgames.BubbleBurst.BubbleBurst
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.androgames.BubbleBurst.Options
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.androgames.BubbleBurst.Options
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.androgames.BubbleBurst.Options
+[WARNING] [32mVERBOSE[0m Callback method :onItemSelected in Class com.androgames.BubbleBurst.Options
+[WARNING] [32mVERBOSE[0m Callback method :onNothingSelected in Class com.androgames.BubbleBurst.Options
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.androgames.BubbleBurst.ScoreBoard
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class com.androgames.BubbleBurst.ScoreBoard
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.androgames.BubbleBurst.ScoreBoard
+[WARNING] [32mVERBOSE[0m Callback method :onCompletion in Class com.androgames.BubbleBurst.ScoreBoard
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.androgames.BubbleBurst.ScoreBoard
+[WARNING] [32mVERBOSE[0m Callback method :onCreateDialog in Class com.androgames.BubbleBurst.ScoreBoard
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.androgames.BubbleBurst.Scores
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.androgames.BubbleBurst.Scores
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.androgames.BubbleBurst.Scores
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.mobclix.android.sdk.Mobclix$ObjectOnClickListener
+Result for benign-app-37-4A9246E4D7C054563187716BF66918843837EA27D56EAFF3D01724A4BF42A8DE.apkcom.androgames.BubbleBurst

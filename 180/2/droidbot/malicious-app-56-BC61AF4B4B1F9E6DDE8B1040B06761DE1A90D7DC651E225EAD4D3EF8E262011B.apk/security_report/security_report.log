@@ -1,0 +1,130 @@
+DUA-Forensics args to Soot: -w -cp /home/handrick/Documents/UNB/benchmark/libs/droidfax.jar:/home/handrick/Android/Sdk/platforms/android-19/android.jar -p cg verbose:false,implicit-entry:true -p cg.spark verbose:false,on-fly-cg:true,rta:false -d /home/handrick/Documents/UNB/benchmark/trace/180/2/droidbot/malicious-app-56-BC61AF4B4B1F9E6DDE8B1040B06761DE1A90D7DC651E225EAD4D3EF8E262011B.apk.logcat -process-dir /home/handrick/Documents/UNB/benchmark/data/input/malicious-app-56-BC61AF4B4B1F9E6DDE8B1040B06761DE1A90D7DC651E225EAD4D3EF8E262011B.apk 
+Soot started on Fri Apr 15 12:45:10 CEST 2022
+Warning: com.ironsource.mobilcore.BaseFlowBasedAdUnit is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+Warning: dalvik.system.VMRuntime is a phantom class!
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.0 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+hcai's internal transform
+Running static analysis for security-relevant feature characterization
+[GatorHierarchy] [32mVERBOSE[0m [HIER] All classes: 938
+[GatorHierarchy] [32mVERBOSE[0m [App: 186, Lib : 748, Phantom: 4]
+[GatorHierarchy] [32mVERBOSE[0m [HIER] Activities: 9, lib activities: 1
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App views: 3, Lib views: 14
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App Dialogs: 7, Lib Dialogs: 2
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing starting at 1650019511605
+array element type: (filled narr)int
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing finished at 1650019512754
+[Instantiated app classes] [32mVERBOSE[0m total number: 147
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.yy.fontmaster.view.BottombarActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.yy.fontmaster.view.BottombarActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.yy.fontmaster.more.ActMore added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.yy.fontmaster.view.PJActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onTerminate in Class com.yy.fontmaster.SoftApplication added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.yy.fontmaster.SoftApplication added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.yy.fontmaster.view.PJActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.yy.fontmaster.welcome.ActWelcome added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.yy.fontmaster.view.PJActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.yy.fontmaster.view.PJActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.yy.fontmaster.view.PJActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.yy.fontmaster.view.PJActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onFling in Class framework.view.OneShotGallery added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.yy.fontmaster.view.BottombarActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.yy.fontmaster.view.BottombarActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.yy.fontmaster.view.BottombarActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.yy.fontmaster.view.PJActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.yy.fontmaster.view.BottombarActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onItemLongClick in Class com.yy.fontmaster.local.ActLocal added
+[WARNING] [32mVERBOSE[0m Callback method :onItemClick in Class com.yy.fontmaster.local.ActLocal added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.yy.fontmaster.view.BottombarActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.yy.fontmaster.view.BottombarActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.yy.fontmaster.local.ActLocal added
+[WARNING] [32mVERBOSE[0m Callback method :setPressed in Class framework.view.ListInnerButton added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.yy.fontmaster.view.PJActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.yy.fontmaster.view.TitlebarActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.yy.fontmaster.view.TitlebarActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.yy.fontmaster.view.PJActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.yy.fontmaster.view.BottombarActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onItemClick in Class com.yy.fontmaster.online.ActOnline added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.yy.fontmaster.view.BottombarActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.yy.fontmaster.online.ActOnline added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.yy.fontmaster.view.PJActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.yy.fontmaster.pkg.ActFlashPkg added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.yy.fontmaster.view.TitlebarActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.yy.fontmaster.view.TitlebarActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.yy.fontmaster.view.PJActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.yy.fontmaster.view.PJActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.yy.fontmaster.detail.ActFontDetail added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.yy.fontmaster.view.TitlebarActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class com.yy.fontmaster.detail.ActFontDetail added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.yy.fontmaster.detail.ActFontDetail added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.yy.fontmaster.view.PJActivity added
+0 ICC links found and 0 cg edges added due to ICC links
+dynamic conflated call graph: 174 methods; 174 nodes; 215 edges.
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=20
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=20
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=20
+maxpossibleFlows=1
+1 taint flow paths FOUND from <dalvik.system.VMRuntime: dalvik.system.VMRuntime getRuntime()> to <dalvik.system.VMRuntime: float setTargetHeapUtilization(float)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=20
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <dalvik.system.VMRuntime: dalvik.system.VMRuntime getRuntime()> to <dalvik.system.VMRuntime: float setTargetHeapUtilization(float)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <dalvik.system.VMRuntime: dalvik.system.VMRuntime getRuntime()> to <dalvik.system.VMRuntime: long setMinimumHeapSize(long)>
+maxpossibleFlows=20
+maxpossibleFlows=20
+maxpossibleFlows=20
+maxpossibleFlows=20
+[WARNING] [32mVERBOSE[0m Hierarchy.virtualDispatch called with non-concrete receiver class: com.yy.fontmaster.view.TitlebarActivity, subsig: void <init>()
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.yy.fontmaster.view.TitlebarActivity
+[WARNING] [32mVERBOSE[0m Hierarchy.virtualDispatch called with non-concrete receiver class: com.yy.fontmaster.view.TitlebarActivity, subsig: void onClick(android.view.View)
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.yy.fontmaster.view.TitlebarActivity
+[WARNING] [32mVERBOSE[0m Hierarchy.virtualDispatch called with non-concrete receiver class: com.yy.fontmaster.view.TitlebarActivity, subsig: void onCreate(android.os.Bundle)
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.yy.fontmaster.view.TitlebarActivity
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.yy.fontmaster.local.ActLocal
+[WARNING] [32mVERBOSE[0m Callback method :onItemClick in Class com.yy.fontmaster.local.ActLocal
+[WARNING] [32mVERBOSE[0m Callback method :onItemLongClick in Class com.yy.fontmaster.local.ActLocal
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.yy.fontmaster.local.ActLocal
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.yy.fontmaster.online.ActOnline
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.yy.fontmaster.online.ActOnline
+[WARNING] [32mVERBOSE[0m Callback method :onItemClick in Class com.yy.fontmaster.online.ActOnline
+Result for malicious-app-56-BC61AF4B4B1F9E6DDE8B1040B06761DE1A90D7DC651E225EAD4D3EF8E262011B.apkcom.yy.fontmaster

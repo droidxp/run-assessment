@@ -1,0 +1,116 @@
+DUA-Forensics args to Soot: -w -cp /home/handrick/Documents/UNB/benchmark/libs/droidfax.jar:/home/handrick/Android/Sdk/platforms/android-19/android.jar -p cg verbose:false,implicit-entry:true -p cg.spark verbose:false,on-fly-cg:true,rta:false -d /home/handrick/Documents/UNB/benchmark/trace/180/2/droidbot/benign-app-44-69AA48CAA0D324455E0F3B8F98686386639445BA2F947211AA73B25244044F65.apk.logcat -process-dir /home/handrick/Documents/UNB/benchmark/data/input/benign-app-44-69AA48CAA0D324455E0F3B8F98686386639445BA2F947211AA73B25244044F65.apk 
+Soot started on Fri Apr 15 12:34:09 CEST 2022
+Warning: com.ironsource.mobilcore.BaseFlowBasedAdUnit is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+Warning: com.amazon.android.Kiwi is a phantom class!
+Warning: com.amazon.android.framework.context.ContextManager is a phantom class!
+Warning: com.amazon.android.framework.exception.KiwiException is a phantom class!
+Warning: com.amazon.android.framework.prompt.Prompt is a phantom class!
+Warning: com.amazon.android.framework.prompt.PromptContent is a phantom class!
+Warning: com.amazon.android.framework.prompt.PromptManager is a phantom class!
+Warning: com.amazon.android.framework.prompt.SimplePrompt is a phantom class!
+Warning: com.amazon.android.framework.resource.Resource is a phantom class!
+Warning: com.amazon.android.framework.task.Task is a phantom class!
+Warning: com.amazon.android.framework.task.TaskManager is a phantom class!
+Warning: com.amazon.android.framework.task.command.AbstractCommandTask is a phantom class!
+Warning: com.amazon.android.framework.task.pipeline.TaskPipelineId is a phantom class!
+Warning: com.amazon.android.framework.util.KiwiLogger is a phantom class!
+Warning: com.amazon.android.licensing.LicenseFailurePromptContentMapper is a phantom class!
+Warning: com.amazon.venezia.command.FailureResult is a phantom class!
+Warning: com.amazon.venezia.command.SuccessResult is a phantom class!
+Warning: com.ansca.corona.CoronaActivity is a phantom class!
+Warning: com.ansca.corona.CoronaEnvironment is a phantom class!
+Warning: com.ansca.corona.CoronaRuntime is a phantom class!
+Warning: com.ansca.corona.CoronaRuntimeListener is a phantom class!
+Warning: com.ansca.corona.CoronaRuntimeTask is a phantom class!
+Warning: com.ansca.corona.CoronaRuntimeTaskDispatcher is a phantom class!
+Warning: com.g5e.KDNativeFacebook is a phantom class!
+Warning: com.g5e.KDNativeStore is a phantom class!
+get type from 'Lcom/flurry/org/codehaus/jackson/annotate/JsonAutoDetect$Visibility;'
+get type from 'Lcom/flurry/org/codehaus/jackson/annotate/JsonAutoDetect$Visibility;'
+get type from 'Lcom/flurry/org/codehaus/jackson/annotate/JsonAutoDetect$Visibility;'
+get type from 'Lcom/flurry/org/codehaus/jackson/annotate/JsonAutoDetect$Visibility;'
+get type from 'Lcom/flurry/org/codehaus/jackson/annotate/JsonAutoDetect$Visibility;'
+get type from 'Lcom/flurry/org/codehaus/jackson/annotate/JsonMethod;'
+get type from 'Lcom/flurry/org/codehaus/jackson/annotate/JsonTypeInfo$As;'
+get type from 'Lcom/flurry/org/codehaus/jackson/map/annotate/JsonSerialize$Inclusion;'
+get type from 'Lcom/flurry/org/codehaus/jackson/map/annotate/JsonSerialize$Typing;'
+Warning: com.millennialmedia.android.MMInterstitial is a phantom class!
+Warning: com.mobclix.android.sdk.MobclixFullScreenAdViewListener is a phantom class!
+Warning: com.mobclix.android.sdk.MobclixFullScreenAdView is a phantom class!
+Warning: com.mobclix.android.sdk.MobclixAdViewListener is a phantom class!
+Warning: com.mobclix.android.sdk.MobclixAdView is a phantom class!
+Warning: com.inmobi.androidsdk.IMAdInterstitialListener is a phantom class!
+Warning: com.inmobi.androidsdk.IMAdInterstitial is a phantom class!
+Warning: com.inmobi.androidsdk.IMAdRequest$ErrorCode is a phantom class!
+Warning: com.google.ads.InterstitialAd is a phantom class!
+Warning: com.inmobi.androidsdk.IMAdListener is a phantom class!
+Warning: com.inmobi.androidsdk.IMAdView is a phantom class!
+Warning: com.millennialmedia.android.RequestListener is a phantom class!
+Warning: com.millennialmedia.android.MMAd is a phantom class!
+Warning: com.millennialmedia.android.MMException is a phantom class!
+Warning: com.google.ads.AdListener is a phantom class!
+Warning: com.google.ads.Ad is a phantom class!
+Warning: com.google.ads.AdRequest$ErrorCode is a phantom class!
+Warning: com.jumptap.adtag.JtAdViewListener is a phantom class!
+Warning: com.jumptap.adtag.JtAdView is a phantom class!
+Warning: com.thoughtworks.paranamer.Paranamer is a phantom class!
+get type from 'Z'
+get type from 'Z'
+get type from 'Z'
+get type from 'Z'
+get type from 'Z'
+get type from 'Z'
+get type from 'Z'
+get type from 'Z'
+get type from 'Z'
+Warning: org.joda.time.DateMidnight is a phantom class!
+Warning: org.joda.time.format.DateTimeFormatter is a phantom class!
+Warning: org.joda.time.DateTime is a phantom class!
+Warning: org.joda.time.ReadableInstant is a phantom class!
+Warning: org.joda.time.LocalDate is a phantom class!
+Warning: org.joda.time.LocalDateTime is a phantom class!
+Warning: org.joda.time.ReadablePeriod is a phantom class!
+Warning: org.joda.time.ReadablePartial is a phantom class!
+Warning: com.google.ads.AdRequest is a phantom class!
+Warning: com.google.ads.AdSize is a phantom class!
+Warning: com.google.ads.AdView is a phantom class!
+Warning: com.ideaworks3d.marmalade.LoaderActivity is a phantom class!
+Warning: com.inmobi.androidsdk.IMAdInterstitial$State is a phantom class!
+Warning: com.inmobi.androidsdk.IMAdRequest is a phantom class!
+Warning: com.jumptap.adtag.JtAdInterstitial is a phantom class!
+Warning: com.jumptap.adtag.JtAdWidgetSettings is a phantom class!
+Warning: com.jumptap.adtag.JtAdWidgetSettingsFactory is a phantom class!
+Warning: com.jumptap.adtag.utils.JtException is a phantom class!
+Warning: com.millennialmedia.android.MMAdView is a phantom class!
+Warning: com.millennialmedia.android.MMSDK is a phantom class!
+Warning: com.mobclix.android.sdk.MobclixIABRectangleMAdView is a phantom class!
+Warning: com.mobclix.android.sdk.MobclixMMABannerXLAdView is a phantom class!
+Warning: com.naef.jnlua.JavaFunction is a phantom class!
+Warning: com.naef.jnlua.LuaState is a phantom class!
+Warning: com.naef.jnlua.LuaType is a phantom class!
+Warning: com.naef.jnlua.NamedJavaFunction is a phantom class!
+Warning: com.thoughtworks.paranamer.CachingParanamer is a phantom class!
+Warning: org.joda.time.DateMidnight$Property is a phantom class!
+Warning: org.joda.time.DateTimeZone is a phantom class!
+Warning: org.joda.time.LocalDate$Property is a phantom class!
+Warning: org.joda.time.LocalDateTime$Property is a phantom class!
+Warning: org.joda.time.Period is a phantom class!
+Warning: org.joda.time.ReadableDateTime is a phantom class!
+Warning: org.joda.time.format.ISODateTimeFormat is a phantom class!
+Warning: org.w3c.dom.bootstrap.DOMImplementationRegistry is a phantom class!
+Warning: org.xerial.snappy.Snappy is a phantom class!
+No main class given. Inferred 'com.flurry.org.apache.avro.Protocol' as main class.
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.3 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 5.0 seconds.
+[Spark] Solution found in 5.0 seconds.
+hcai's internal transform
+Running static analysis for method/class coverage characterization
+0 ICC links found and 0 cg edges added due to ICC links
+dynamic conflated call graph: 259 methods; 259 nodes; 304 edges.
+feature-vector-key = benign-app-44-69AA48CAA0D324455E0F3B8F98686386639445BA2F947211AA73B25244044F65.apk
+Result for benign-app-44-69AA48CAA0D324455E0F3B8F98686386639445BA2F947211AA73B25244044F65.apkcom.g5e.rcmlegion.android.full

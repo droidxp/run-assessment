@@ -1,0 +1,561 @@
+DUA-Forensics args to Soot: -w -cp /home/handrick/Documents/UNB/benchmark/libs/droidfax.jar:/home/handrick/Android/Sdk/platforms/android-19/android.jar -p cg verbose:false,implicit-entry:true -p cg.spark verbose:false,on-fly-cg:true,rta:false -d /home/handrick/Documents/UNB/benchmark/trace/180/3/droidbot/malicious-app-80-37B4CF755480F1B55E6140DB3A2CDB11CCB3771FEE1D001F79EE32B70FB28120.apk.logcat -process-dir /home/handrick/Documents/UNB/benchmark/data/input/malicious-app-80-37B4CF755480F1B55E6140DB3A2CDB11CCB3771FEE1D001F79EE32B70FB28120.apk 
+Soot started on Sat Apr 16 00:42:53 CEST 2022
+Warning: com.ironsource.mobilcore.BaseFlowBasedAdUnit is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.0 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+hcai's internal transform
+Running static analysis for security-relevant feature characterization
+[GatorHierarchy] [32mVERBOSE[0m [HIER] All classes: 1410
+[GatorHierarchy] [32mVERBOSE[0m [App: 415, Lib : 992, Phantom: 3]
+[GatorHierarchy] [32mVERBOSE[0m [HIER] Activities: 27, lib activities: 1
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App views: 18, Lib views: 23
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App Dialogs: 1, Lib Dialogs: 3
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing starting at 1650062575232
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing finished at 1650062579028
+[Instantiated app classes] [32mVERBOSE[0m total number: 407
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class zok.android.phonics.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class zok.android.phonics.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class zok.android.phonics.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class zok.android.phonics.MoreGamesActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class zok.android.phonics.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class zok.android.phonics.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.adfeiwo.ad.coverscreen.SA added
+[WARNING] [32mVERBOSE[0m Callback method :onNewIntent in Class com.adfeiwo.ad.coverscreen.SA added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.adfeiwo.ad.coverscreen.SA added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.adfeiwo.ad.coverscreen.SA added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.adfeiwo.ad.coverscreen.SA added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.adfeiwo.ad.coverscreen.SA added
+[WARNING] [32mVERBOSE[0m Callback method :onSaveInstanceState in Class com.adfeiwo.ad.coverscreen.SA added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.adfeiwo.ad.coverscreen.SA added
+[WARNING] [32mVERBOSE[0m Callback method :onAnimationEnd in Class zok.android.phonics.AnimationListenerAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :onAnimationStart in Class zok.android.phonics.AnimationListenerAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :onAnimationRepeat in Class zok.android.phonics.AnimationListenerAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class zok.android.phonics.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class zok.android.phonics.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class zok.android.phonics.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class zok.android.phonics.SplashScreenActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class zok.android.phonics.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class zok.android.phonics.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class zok.android.phonics.notification.ImageNotificationActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class zok.android.phonics.notification.ImageNotificationActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onBackPressed in Class com.adfeiwo.ad.coverscreen.WA added
+[WARNING] [32mVERBOSE[0m Callback method :onNewIntent in Class com.adfeiwo.ad.coverscreen.WA added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.adfeiwo.ad.coverscreen.WA added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.adfeiwo.ad.coverscreen.WA added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.adfeiwo.ad.coverscreen.WA added
+[WARNING] [32mVERBOSE[0m Callback method :onReceive in Class com.adfeiwo.ad.coverscreen.SR added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class we.fada.come.Yshunv added
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class we.fada.come.Yshunv added
+[WARNING] [32mVERBOSE[0m Callback method :finish in Class we.fada.come.Yshunv added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class we.fada.come.Yshunv added
+[WARNING] [32mVERBOSE[0m Callback method :onRestart in Class we.fada.come.Yshunv added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class zok.android.phonics.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onWindowFocusChanged in Class zok.android.phonics.CubeActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class zok.android.phonics.CubeActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class zok.android.phonics.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class zok.android.phonics.CubeActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class zok.android.phonics.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class zok.android.phonics.CubeActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class we.auto.WActivity added
+[WARNING] [32mVERBOSE[0m Callback method :finish in Class we.auto.WActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class we.auto.WActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class we.fd.LCActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class we.fd.LCActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class zok.android.phonics.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class zok.android.phonics.BeginningSoundActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class zok.android.phonics.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class zok.android.phonics.BeginningSoundActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class zok.android.phonics.BeginningSoundActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class zok.android.phonics.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class zok.android.phonics.BeginningSoundActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class zok.android.phonics.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class zok.android.phonics.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class zok.android.phonics.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class zok.android.phonics.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class zok.android.phonics.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class zok.android.phonics.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onReceive in Class we.fd.LCReceiver added
+[WARNING] [32mVERBOSE[0m Callback method :onBackPressed in Class we.fd.ui.t added
+[WARNING] [32mVERBOSE[0m Callback method :onWindowFocusChanged in Class we.fd.ui.t added
+[WARNING] [32mVERBOSE[0m Callback method :onBind in Class we.auto.LService added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class we.auto.LService added
+[WARNING] [32mVERBOSE[0m Callback method :onStartCommand in Class we.auto.LService added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class we.fada.go.Ysapk added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class zok.android.phonics.HomeActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class zok.android.phonics.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class zok.android.phonics.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class zok.android.phonics.HomeActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class zok.android.phonics.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class zok.android.phonics.HomeActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class zok.android.phonics.HomeActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class zok.android.phonics.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class zok.android.phonics.BubblesActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class zok.android.phonics.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class zok.android.phonics.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class zok.android.phonics.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class zok.android.phonics.BubblesActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onReceive in Class we.auto.KReceiver added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class zok.android.phonics.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onWindowFocusChanged in Class zok.android.phonics.PuzzleActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPrepareOptionsMenu in Class zok.android.phonics.PuzzleActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class zok.android.phonics.PuzzleActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class zok.android.phonics.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class zok.android.phonics.PuzzleActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class zok.android.phonics.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class zok.android.phonics.PuzzleActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onTouch in Class zok.android.phonics.PuzzleView added
+[WARNING] [32mVERBOSE[0m Callback method :onDraw in Class zok.android.phonics.PuzzleView added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class zok.android.phonics.PromoActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class zok.android.phonics.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class zok.android.phonics.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class zok.android.phonics.PromoActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class zok.android.phonics.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class zok.android.phonics.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onReceive in Class we.fada.go.Yangs added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class zok.android.phonics.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class zok.android.phonics.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class zok.android.phonics.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class zok.android.phonics.GetFullVersionActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class zok.android.phonics.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class zok.android.phonics.BaseActivity added
+0 ICC links found and 0 cg edges added due to ICC links
+dynamic conflated call graph: 801 methods; 801 nodes; 1425 edges.
+maxpossibleFlows=2
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.content.ContextWrapper: android.content.res.AssetManager getAssets()> to <android.content.res.AssetManager: java.io.InputStream open(java.lang.String)>
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=3
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=4
+4 taint flow paths FOUND from <java.util.Scanner: java.lang.Object next()> to <java.lang.String: boolean startsWith(java.lang.String)>
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.content.ContextWrapper: java.io.File getDir(java.lang.String,int)> to <android.content.res.AssetManager: java.io.InputStream open(java.lang.String)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.content.ContextWrapper: android.content.Context getBaseContext()> to <android.view.View: void setFocusableInTouchMode(boolean)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.content.Intent: java.lang.String getAction()> to <android.os.Handler: boolean sendMessageDelayed(android.os.Message,long)>
+maxpossibleFlows=4
+4 taint flow paths FOUND from <java.lang.StringBuilder: java.lang.String toString()> to <android.util.Log: int d(java.lang.String,java.lang.String)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.preference.PreferenceManager: android.content.SharedPreferences getDefaultSharedPreferences(android.content.Context)> to <android.view.View: void setFocusableInTouchMode(boolean)>
+maxpossibleFlows=1
+1 taint flow paths FOUND from <java.io.File: java.io.File[] listFiles()> to <android.content.res.AssetManager: java.io.InputStream open(java.lang.String)>
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <java.io.File: java.lang.String getAbsolutePath()> to <android.content.res.AssetManager: java.io.InputStream open(java.lang.String)>
+maxpossibleFlows=1
+1 taint flow paths FOUND from <java.util.HashMap: java.lang.Object get(java.lang.Object)> to <android.util.Log: int e(java.lang.String,java.lang.String)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <java.util.AbstractList: java.util.Iterator iterator()> to <java.lang.String: boolean startsWith(java.lang.String)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.app.Activity: java.lang.Object getSystemService(java.lang.String)> to <android.content.ContextWrapper: android.content.ComponentName startService(android.content.Intent)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.os.PowerManager: android.os.PowerManager$WakeLock newWakeLock(int,java.lang.String)> to <android.content.ContextWrapper: android.content.ComponentName startService(android.content.Intent)>
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <java.util.AbstractSequentialList: java.lang.Object get(int)> to <android.widget.ImageView: void setVisibility(int)>
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=4
+4 taint flow paths FOUND from <java.lang.StringBuilder: java.lang.String toString()> to <android.util.Log: int d(java.lang.String,java.lang.String)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <java.lang.StringBuilder: java.lang.String toString()> to <android.util.Log: int e(java.lang.String,java.lang.String)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.content.Intent: java.lang.String getAction()> to <android.os.Handler: boolean sendMessageDelayed(android.os.Message,long)>
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.content.ContextWrapper: android.content.res.AssetManager getAssets()> to <android.content.res.AssetManager: java.io.InputStream open(java.lang.String)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <java.util.AbstractSequentialList: java.lang.Object get(int)> to <android.widget.ImageView: void setVisibility(int)>
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=4
+4 taint flow paths FOUND from <java.util.Scanner: java.lang.Object next()> to <java.lang.String: boolean startsWith(java.lang.String)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.app.Activity: java.lang.Object getSystemService(java.lang.String)> to <android.content.ContextWrapper: android.content.ComponentName startService(android.content.Intent)>
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.content.ContextWrapper: android.content.res.AssetManager getAssets()> to <java.io.OutputStream: void write(byte[])>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.content.ContextWrapper: android.content.Context getBaseContext()> to <android.view.View: void setFocusableInTouchMode(boolean)>
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.content.ContextWrapper: android.content.res.AssetManager getAssets()> to <android.graphics.Paint: void setTextAlign(android.graphics.Paint$Align)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.app.Activity: java.lang.Object getSystemService(java.lang.String)> to <android.content.Intent: android.content.Intent setClass(android.content.Context,java.lang.Class)>
+maxpossibleFlows=3
+maxpossibleFlows=1
+maxpossibleFlows=3
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class zok.android.phonics.AnimationListenerAdapter
+[WARNING] [32mVERBOSE[0m Callback method :onAnimationEnd in Class zok.android.phonics.AnimationListenerAdapter
+[WARNING] [32mVERBOSE[0m Callback method :onAnimationRepeat in Class zok.android.phonics.AnimationListenerAdapter
+[WARNING] [32mVERBOSE[0m Callback method :onAnimationStart in Class zok.android.phonics.AnimationListenerAdapter
+[WARNING] [32mVERBOSE[0m Callback method :onDraw in Class zok.android.phonics.PuzzleView
+[WARNING] [32mVERBOSE[0m Callback method :onTouch in Class zok.android.phonics.PuzzleView
+Result for malicious-app-80-37B4CF755480F1B55E6140DB3A2CDB11CCB3771FEE1D001F79EE32B70FB28120.apkzok.android.phonics

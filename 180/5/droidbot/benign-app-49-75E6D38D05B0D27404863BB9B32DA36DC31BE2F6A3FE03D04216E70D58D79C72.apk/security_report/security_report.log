@@ -1,0 +1,291 @@
+DUA-Forensics args to Soot: -w -cp /home/hcosta/bench/benchmark/libs/droidfax.jar:/home/hcosta/Android/Sdk/platforms/android-28/android.jar -p cg verbose:false,implicit-entry:true -p cg.spark verbose:false,on-fly-cg:true,rta:false -d /home/hcosta/bench/benchmark/trace/180/1/droidbot/benign-app-49-75E6D38D05B0D27404863BB9B32DA36DC31BE2F6A3FE03D04216E70D58D79C72.apk.logcat -process-dir /home/hcosta/bench/benchmark/data/input/benign-app-49-75E6D38D05B0D27404863BB9B32DA36DC31BE2F6A3FE03D04216E70D58D79C72.apk 
+Soot started on Wed Apr 20 10:36:03 CEST 2022
+Warning: com.ironsource.mobilcore.BaseFlowBasedAdUnit is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+Warning: org.apache.tools.ant.BuildException is a phantom class!
+Warning: org.apache.tools.ant.Task is a phantom class!
+Warning: org.jdom.DefaultJDOMFactory is a phantom class!
+Warning: org.jdom.Element is a phantom class!
+Warning: org.jdom.Document is a phantom class!
+Warning: org.jdom.CDATA is a phantom class!
+Warning: org.jdom.Comment is a phantom class!
+Warning: org.jdom.Content is a phantom class!
+Warning: org.jdom.Namespace is a phantom class!
+Warning: org.jdom.Text is a phantom class!
+No main class given. Inferred 'org.htmlcleaner.CommandLine' as main class.
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.2 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 1.7 seconds.
+[Spark] Solution found in 1.7 seconds.
+hcai's internal transform
+Running static analysis for security-relevant feature characterization
+[GatorHierarchy] [32mVERBOSE[0m [HIER] All classes: 1546
+[GatorHierarchy] [32mVERBOSE[0m [App: 446, Lib : 1087, Phantom: 13]
+[GatorHierarchy] [32mVERBOSE[0m [HIER] Activities: 3, lib activities: 2
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App views: 8, Lib views: 20
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App Dialogs: 0, Lib Dialogs: 4
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing starting at 1650443766376
+array element type: (filled narr)int
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing finished at 1650443768147
+[Instantiated app classes] [32mVERBOSE[0m total number: 329
+[WARNING] [32mVERBOSE[0m Callback method :generateLayoutParams in Class android.support.v4.widget.DrawerLayout added
+[WARNING] [32mVERBOSE[0m Callback method :drawChild in Class android.support.v4.widget.DrawerLayout added
+[WARNING] [32mVERBOSE[0m Callback method :onRestoreInstanceState in Class android.support.v4.widget.DrawerLayout added
+[WARNING] [32mVERBOSE[0m Callback method :generateDefaultLayoutParams in Class android.support.v4.widget.DrawerLayout added
+[WARNING] [32mVERBOSE[0m Callback method :onMeasure in Class android.support.v4.widget.DrawerLayout added
+[WARNING] [32mVERBOSE[0m Callback method :onSaveInstanceState in Class android.support.v4.widget.DrawerLayout added
+[WARNING] [32mVERBOSE[0m Callback method :requestLayout in Class android.support.v4.widget.DrawerLayout added
+[WARNING] [32mVERBOSE[0m Callback method :onLayout in Class android.support.v4.widget.DrawerLayout added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class android.support.v4.widget.DrawerLayout added
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class android.support.v4.widget.DrawerLayout added
+[WARNING] [32mVERBOSE[0m Callback method :onDetachedFromWindow in Class android.support.v4.widget.DrawerLayout added
+[WARNING] [32mVERBOSE[0m Callback method :computeScroll in Class android.support.v4.widget.DrawerLayout added
+[WARNING] [32mVERBOSE[0m Callback method :onAttachedToWindow in Class android.support.v4.widget.DrawerLayout added
+[WARNING] [32mVERBOSE[0m Callback method :onInterceptTouchEvent in Class android.support.v4.widget.DrawerLayout added
+[WARNING] [32mVERBOSE[0m Callback method :requestDisallowInterceptTouchEvent in Class android.support.v4.widget.DrawerLayout added
+[WARNING] [32mVERBOSE[0m Callback method :generateLayoutParams in Class android.support.v4.widget.DrawerLayout added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyUp in Class android.support.v4.widget.DrawerLayout added
+[WARNING] [32mVERBOSE[0m Callback method :checkLayoutParams in Class android.support.v4.widget.DrawerLayout added
+[WARNING] [32mVERBOSE[0m Callback method :onLowMemory in Class android.support.v4.app.Fragment added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateContextMenu in Class android.support.v4.app.Fragment added
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class android.support.v4.app.Fragment added
+[WARNING] [32mVERBOSE[0m Callback method :getListAdapter in Class com.nesnet.android.cantonese.PhonoSearch added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.nesnet.android.cantonese.PhonoSearch added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class com.nesnet.android.cantonese.PhonoSearch added
+[WARNING] [32mVERBOSE[0m Callback method :onSaveInstanceState in Class com.nesnet.android.cantonese.PhonoSearch added
+[WARNING] [32mVERBOSE[0m Callback method :getItem in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getView in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getDropDownView in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getFilter in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getCount in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getItemId in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :hasStableIds in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getType in Class android.support.v4.content.FileProvider added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class android.support.v4.content.FileProvider added
+[WARNING] [32mVERBOSE[0m Callback method :query in Class android.support.v4.content.FileProvider added
+[WARNING] [32mVERBOSE[0m Callback method :update in Class android.support.v4.content.FileProvider added
+[WARNING] [32mVERBOSE[0m Callback method :openFile in Class android.support.v4.content.FileProvider added
+[WARNING] [32mVERBOSE[0m Callback method :insert in Class android.support.v4.content.FileProvider added
+[WARNING] [32mVERBOSE[0m Callback method :delete in Class android.support.v4.content.FileProvider added
+[WARNING] [32mVERBOSE[0m Callback method :attachInfo in Class android.support.v4.content.FileProvider added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateDialog in Class com.nesnet.android.cantonese.CantonesePhone added
+[WARNING] [32mVERBOSE[0m Callback method :onPrepareDialog in Class com.nesnet.android.cantonese.CantonesePhone added
+[WARNING] [32mVERBOSE[0m Callback method :onLoadComplete in Class com.nesnet.android.cantonese.CantonesePhone added
+[WARNING] [32mVERBOSE[0m Callback method :onPrepareOptionsMenu in Class com.nesnet.android.cantonese.CantonesePhone added
+[WARNING] [32mVERBOSE[0m Callback method :beforeTextChanged in Class com.nesnet.android.cantonese.CantonesePhone added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.nesnet.android.cantonese.CantonesePhone added
+[WARNING] [32mVERBOSE[0m Callback method :onEditorAction in Class com.nesnet.android.cantonese.CantonesePhone added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.nesnet.android.cantonese.CantonesePhone added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateOptionsMenu in Class com.nesnet.android.cantonese.CantonesePhone added
+[WARNING] [32mVERBOSE[0m Callback method :afterTextChanged in Class com.nesnet.android.cantonese.CantonesePhone added
+[WARNING] [32mVERBOSE[0m Callback method :onCheckedChanged in Class com.nesnet.android.cantonese.CantonesePhone added
+[WARNING] [32mVERBOSE[0m Callback method :onTextChanged in Class com.nesnet.android.cantonese.CantonesePhone added
+[WARNING] [32mVERBOSE[0m Callback method :onSaveInstanceState in Class com.nesnet.android.cantonese.CantonesePhone added
+[WARNING] [32mVERBOSE[0m Callback method :onOptionsItemSelected in Class com.nesnet.android.cantonese.CantonesePhone added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.nesnet.android.cantonese.CantonesePhone added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.nesnet.android.cantonese.CantonesePhone added
+[WARNING] [32mVERBOSE[0m Callback method :onLowMemory in Class android.support.v4.app.Fragment added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateContextMenu in Class android.support.v4.app.Fragment added
+[WARNING] [32mVERBOSE[0m Callback method :onCancel in Class android.support.v4.app.DialogFragment added
+[WARNING] [32mVERBOSE[0m Callback method :onDismiss in Class android.support.v4.app.DialogFragment added
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class android.support.v4.app.Fragment added
+[WARNING] [32mVERBOSE[0m Callback method :getItem in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getView in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getDropDownView in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getFilter in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getCount in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getItemId in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :hasStableIds in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPanelClosed in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onMenuItemSelected in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onBackPressed in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onRetainNonConfigurationInstance in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onNewIntent in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreatePanelMenu in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :dump in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateView in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPreparePanel in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onSaveInstanceState in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :startActivityForResult in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPostResume in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onLowMemory in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onMeasure in Class android.support.v4.view.PagerTitleStrip added
+[WARNING] [32mVERBOSE[0m Callback method :requestLayout in Class android.support.v4.view.PagerTitleStrip added
+[WARNING] [32mVERBOSE[0m Callback method :onLayout in Class android.support.v4.view.PagerTitleStrip added
+[WARNING] [32mVERBOSE[0m Callback method :setBackgroundColor in Class android.support.v4.view.PagerTabStrip added
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class android.support.v4.view.PagerTabStrip added
+[WARNING] [32mVERBOSE[0m Callback method :onDetachedFromWindow in Class android.support.v4.view.PagerTitleStrip added
+[WARNING] [32mVERBOSE[0m Callback method :onAttachedToWindow in Class android.support.v4.view.PagerTitleStrip added
+[WARNING] [32mVERBOSE[0m Callback method :setBackgroundResource in Class android.support.v4.view.PagerTabStrip added
+[WARNING] [32mVERBOSE[0m Callback method :setPadding in Class android.support.v4.view.PagerTabStrip added
+[WARNING] [32mVERBOSE[0m Callback method :onDraw in Class android.support.v4.view.PagerTabStrip added
+[WARNING] [32mVERBOSE[0m Callback method :setBackgroundDrawable in Class android.support.v4.view.PagerTabStrip added
+[WARNING] [32mVERBOSE[0m Callback method :generateLayoutParams in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :draw in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :onRestoreInstanceState in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :onRequestFocusInDescendants in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :generateDefaultLayoutParams in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :onMeasure in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :addView in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :onSaveInstanceState in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :onLayout in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :addTouchables in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :onDetachedFromWindow in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :computeScroll in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :onAttachedToWindow in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :onInterceptTouchEvent in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :verifyDrawable in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :dispatchPopulateAccessibilityEvent in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :onSizeChanged in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :dispatchKeyEvent in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :addFocusables in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :removeView in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :onDraw in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :generateLayoutParams in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :drawableStateChanged in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :getChildDrawingOrder in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :checkLayoutParams in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :onLowMemory in Class android.support.v4.app.Fragment added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateContextMenu in Class android.support.v4.app.Fragment added
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class android.support.v4.app.Fragment added
+[WARNING] [32mVERBOSE[0m Callback method :onRestoreInstanceState in Class android.support.v4.app.FragmentTabHost added
+[WARNING] [32mVERBOSE[0m Callback method :onTabChanged in Class android.support.v4.app.FragmentTabHost added
+[WARNING] [32mVERBOSE[0m Callback method :setOnTabChangedListener in Class android.support.v4.app.FragmentTabHost added
+[WARNING] [32mVERBOSE[0m Callback method :onSaveInstanceState in Class android.support.v4.app.FragmentTabHost added
+[WARNING] [32mVERBOSE[0m Callback method :onDetachedFromWindow in Class android.support.v4.app.FragmentTabHost added
+[WARNING] [32mVERBOSE[0m Callback method :onAttachedToWindow in Class android.support.v4.app.FragmentTabHost added
+[WARNING] [32mVERBOSE[0m Callback method :setup in Class android.support.v4.app.FragmentTabHost added
+[WARNING] [32mVERBOSE[0m Callback method :getItem in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getView in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getDropDownView in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getFilter in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getCount in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getItemId in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :hasStableIds in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :onMeasure in Class android.support.v4.view.PagerTitleStrip added
+[WARNING] [32mVERBOSE[0m Callback method :requestLayout in Class android.support.v4.view.PagerTitleStrip added
+[WARNING] [32mVERBOSE[0m Callback method :onLayout in Class android.support.v4.view.PagerTitleStrip added
+[WARNING] [32mVERBOSE[0m Callback method :onDetachedFromWindow in Class android.support.v4.view.PagerTitleStrip added
+[WARNING] [32mVERBOSE[0m Callback method :onAttachedToWindow in Class android.support.v4.view.PagerTitleStrip added
+[WARNING] [32mVERBOSE[0m Callback method :generateLayoutParams in Class android.support.v4.widget.SlidingPaneLayout added
+[WARNING] [32mVERBOSE[0m Callback method :drawChild in Class android.support.v4.widget.SlidingPaneLayout added
+[WARNING] [32mVERBOSE[0m Callback method :draw in Class android.support.v4.widget.SlidingPaneLayout added
+[WARNING] [32mVERBOSE[0m Callback method :onRestoreInstanceState in Class android.support.v4.widget.SlidingPaneLayout added
+[WARNING] [32mVERBOSE[0m Callback method :generateDefaultLayoutParams in Class android.support.v4.widget.SlidingPaneLayout added
+[WARNING] [32mVERBOSE[0m Callback method :onMeasure in Class android.support.v4.widget.SlidingPaneLayout added
+[WARNING] [32mVERBOSE[0m Callback method :requestChildFocus in Class android.support.v4.widget.SlidingPaneLayout added
+[WARNING] [32mVERBOSE[0m Callback method :onSaveInstanceState in Class android.support.v4.widget.SlidingPaneLayout added
+[WARNING] [32mVERBOSE[0m Callback method :onLayout in Class android.support.v4.widget.SlidingPaneLayout added
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class android.support.v4.widget.SlidingPaneLayout added
+[WARNING] [32mVERBOSE[0m Callback method :onDetachedFromWindow in Class android.support.v4.widget.SlidingPaneLayout added
+[WARNING] [32mVERBOSE[0m Callback method :computeScroll in Class android.support.v4.widget.SlidingPaneLayout added
+[WARNING] [32mVERBOSE[0m Callback method :onAttachedToWindow in Class android.support.v4.widget.SlidingPaneLayout added
+[WARNING] [32mVERBOSE[0m Callback method :onInterceptTouchEvent in Class android.support.v4.widget.SlidingPaneLayout added
+[WARNING] [32mVERBOSE[0m Callback method :onSizeChanged in Class android.support.v4.widget.SlidingPaneLayout added
+[WARNING] [32mVERBOSE[0m Callback method :generateLayoutParams in Class android.support.v4.widget.SlidingPaneLayout added
+[WARNING] [32mVERBOSE[0m Callback method :checkLayoutParams in Class android.support.v4.widget.SlidingPaneLayout added
+0 ICC links found and 0 cg edges added due to ICC links
+dynamic conflated call graph: 127 methods; 127 nodes; 161 edges.
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.content.ContextWrapper: android.content.res.Resources getResources()> to <android.content.res.Resources: java.io.InputStream openRawResource(int)>
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.content.ContextWrapper: android.content.Context getBaseContext()> to <android.content.res.Resources: java.io.InputStream openRawResource(int)>
+maxpossibleFlows=2
+2 taint flow paths FOUND from <android.view.ContextThemeWrapper: android.content.res.Resources getResources()> to <android.content.res.Resources: java.io.InputStream openRawResource(int)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=12
+12 taint flow paths FOUND from <android.view.View: int getId()> to <android.widget.TextView: void setText(java.lang.CharSequence)>
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.content.res.Resources: android.content.res.Configuration getConfiguration()> to <android.content.res.Resources: java.io.InputStream openRawResource(int)>
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.content.Context: java.lang.String getString(int)> to <android.content.res.Resources: java.io.InputStream openRawResource(int)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.preference.PreferenceManager: android.content.SharedPreferences getDefaultSharedPreferences(android.content.Context)> to <android.content.res.Resources: java.io.InputStream openRawResource(int)>
+maxpossibleFlows=2
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.content.ContextWrapper: android.content.res.Resources getResources()> to <android.content.res.Resources: java.io.InputStream openRawResource(int)>
+maxpossibleFlows=12
+12 taint flow paths FOUND from <android.view.View: int getId()> to <android.widget.TextView: void setText(java.lang.CharSequence)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.content.ContextWrapper: android.content.res.Resources getResources()> to <android.app.Activity: void setContentView(int)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.content.ContextWrapper: android.content.res.Resources getResources()> to <android.app.Activity: void setVolumeControlStream(int)>
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class android.support.v4.app.Fragment
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class android.support.v4.app.Fragment
+[WARNING] [32mVERBOSE[0m Callback method :onCreateContextMenu in Class android.support.v4.app.Fragment
+[WARNING] [32mVERBOSE[0m Callback method :onLowMemory in Class android.support.v4.app.Fragment
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class android.support.v4.app.DialogFragment
+[WARNING] [32mVERBOSE[0m Callback method :onCancel in Class android.support.v4.app.DialogFragment
+[WARNING] [32mVERBOSE[0m Callback method :onDismiss in Class android.support.v4.app.DialogFragment
+[WARNING] [32mVERBOSE[0m Callback method :onAttachedToWindow in Class android.support.v4.app.FragmentTabHost
+[WARNING] [32mVERBOSE[0m Callback method :onDetachedFromWindow in Class android.support.v4.app.FragmentTabHost
+[WARNING] [32mVERBOSE[0m Callback method :onRestoreInstanceState in Class android.support.v4.app.FragmentTabHost
+[WARNING] [32mVERBOSE[0m Callback method :onSaveInstanceState in Class android.support.v4.app.FragmentTabHost
+[WARNING] [32mVERBOSE[0m Callback method :onTabChanged in Class android.support.v4.app.FragmentTabHost
+[WARNING] [32mVERBOSE[0m Callback method :setOnTabChangedListener in Class android.support.v4.app.FragmentTabHost
+[WARNING] [32mVERBOSE[0m Callback method :setup in Class android.support.v4.app.FragmentTabHost
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.nesnet.android.cantonese.CantonesePhone
+[WARNING] [32mVERBOSE[0m Callback method :afterTextChanged in Class com.nesnet.android.cantonese.CantonesePhone
+[WARNING] [32mVERBOSE[0m Callback method :beforeTextChanged in Class com.nesnet.android.cantonese.CantonesePhone
+[WARNING] [32mVERBOSE[0m Callback method :onCheckedChanged in Class com.nesnet.android.cantonese.CantonesePhone
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.nesnet.android.cantonese.CantonesePhone
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.nesnet.android.cantonese.CantonesePhone
+[WARNING] [32mVERBOSE[0m Callback method :onCreateDialog in Class com.nesnet.android.cantonese.CantonesePhone
+[WARNING] [32mVERBOSE[0m Callback method :onCreateOptionsMenu in Class com.nesnet.android.cantonese.CantonesePhone
+[WARNING] [32mVERBOSE[0m Callback method :onEditorAction in Class com.nesnet.android.cantonese.CantonesePhone
+[WARNING] [32mVERBOSE[0m Callback method :onLoadComplete in Class com.nesnet.android.cantonese.CantonesePhone
+[WARNING] [32mVERBOSE[0m Callback method :onOptionsItemSelected in Class com.nesnet.android.cantonese.CantonesePhone
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.nesnet.android.cantonese.CantonesePhone
+[WARNING] [32mVERBOSE[0m Callback method :onPrepareDialog in Class com.nesnet.android.cantonese.CantonesePhone
+[WARNING] [32mVERBOSE[0m Callback method :onPrepareOptionsMenu in Class com.nesnet.android.cantonese.CantonesePhone
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.nesnet.android.cantonese.CantonesePhone
+[WARNING] [32mVERBOSE[0m Callback method :onSaveInstanceState in Class com.nesnet.android.cantonese.CantonesePhone
+[WARNING] [32mVERBOSE[0m Callback method :onTextChanged in Class com.nesnet.android.cantonese.CantonesePhone
+Result for benign-app-49-75E6D38D05B0D27404863BB9B32DA36DC31BE2F6A3FE03D04216E70D58D79C72.apkcom.nesnet.android.cantonese

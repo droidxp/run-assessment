@@ -1,0 +1,2374 @@
+DUA-Forensics args to Soot: -w -cp /home/hcosta/bench/benchmark/libs/droidfax.jar:/home/hcosta/Android/Sdk/platforms/android-28/android.jar -p cg verbose:false,implicit-entry:true -p cg.spark verbose:false,on-fly-cg:true,rta:false -d /home/hcosta/bench/benchmark/trace/180/5/droidbot/benign-app-85-C551C088CD78F8515E9166F47CFE5C54F9B5D1D2A5D0A78D220696449AC342BA.apk.logcat -process-dir /home/hcosta/bench/benchmark/data/input/benign-app-85-C551C088CD78F8515E9166F47CFE5C54F9B5D1D2A5D0A78D220696449AC342BA.apk 
+Soot started on Thu Apr 21 12:33:04 CEST 2022
+Warning: com.ironsource.mobilcore.BaseFlowBasedAdUnit is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+get type from 'Z'
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.0 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+hcai's internal transform
+Running static analysis for security-relevant feature characterization
+[GatorHierarchy] [32mVERBOSE[0m [HIER] All classes: 2473
+[GatorHierarchy] [32mVERBOSE[0m [App: 1329, Lib : 1141, Phantom: 3]
+[GatorHierarchy] [32mVERBOSE[0m [HIER] Activities: 181, lib activities: 4
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App views: 4, Lib views: 25
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App Dialogs: 0, Lib Dialogs: 4
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing starting at 1650537185492
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing finished at 1650537189765
+[Instantiated app classes] [32mVERBOSE[0m total number: 988
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.ylFunTone.DownloadedActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onItemLongClick in Class com.ylFunTone.DownloadedActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.ylFunTone.DownloadedActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onItemClick in Class com.ylFunTone.DownloadedActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.ylFunTone.DownloadedActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.ylFunTone.DownloadedActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.ylFunny.RingWallActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.lyElectronica.SetActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.lyElectronica.SetActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.fnXmas.SetActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.fnXmas.SetActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.effect.DownloadedActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onItemLongClick in Class com.effect.DownloadedActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.effect.DownloadedActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onItemClick in Class com.effect.DownloadedActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.effect.DownloadedActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.effect.DownloadedActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.ylKOF.DownloadedActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onItemLongClick in Class com.ylKOF.DownloadedActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.ylKOF.DownloadedActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onItemClick in Class com.ylKOF.DownloadedActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.ylKOF.DownloadedActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.ylKOF.DownloadedActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.fnXmas.TabActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class com.ylMSBeats.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStopTrackingTouch in Class com.ylMSBeats.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.ylMSBeats.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.ylMSBeats.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onProgressChanged in Class com.ylMSBeats.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.ylMSBeats.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStartTrackingTouch in Class com.ylMSBeats.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class com.ylMSBeats.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.ylMSBeats.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onWindowFocusChanged in Class com.google.ads.AdActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.google.ads.AdActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.google.ads.AdActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.google.ads.AdActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class com.google.ads.AdActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.google.ads.AdActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.lyCoolsms.AlbumActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onItemLongClick in Class com.lyCoolsms.AlbumActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.lyCoolsms.AlbumActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onItemClick in Class com.lyCoolsms.AlbumActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.lyCoolsms.AlbumActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.lyCoolsms.AlbumActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class com.lyFunny.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStopTrackingTouch in Class com.lyFunny.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.lyFunny.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.lyFunny.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onProgressChanged in Class com.lyFunny.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.lyFunny.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStartTrackingTouch in Class com.lyFunny.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class com.lyFunny.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.lyFunny.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.effect.RingWallActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.ylFunny.TabActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class com.lyCoolsms.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStopTrackingTouch in Class com.lyCoolsms.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.lyCoolsms.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.lyCoolsms.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onProgressChanged in Class com.lyCoolsms.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.lyCoolsms.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStartTrackingTouch in Class com.lyCoolsms.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class com.lyCoolsms.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.lyCoolsms.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.ylIslam.AlbumActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onItemLongClick in Class com.ylIslam.AlbumActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.ylIslam.AlbumActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onItemClick in Class com.ylIslam.AlbumActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.ylIslam.AlbumActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.ylIslam.AlbumActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class com.lyElectronica.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStopTrackingTouch in Class com.lyElectronica.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.lyElectronica.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.lyElectronica.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onProgressChanged in Class com.lyElectronica.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.lyElectronica.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStartTrackingTouch in Class com.lyElectronica.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class com.lyElectronica.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.lyElectronica.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class com.effect.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStopTrackingTouch in Class com.effect.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.effect.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.effect.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onProgressChanged in Class com.effect.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.effect.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStartTrackingTouch in Class com.effect.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class com.effect.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.effect.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.androidyl.DownloadedActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onItemLongClick in Class com.androidyl.DownloadedActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.androidyl.DownloadedActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onItemClick in Class com.androidyl.DownloadedActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.androidyl.DownloadedActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.androidyl.DownloadedActivity added
+[WARNING] [32mVERBOSE[0m Callback method :beforeTextChanged in Class com.lyElectronica.ChooseContactActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.lyElectronica.ChooseContactActivity added
+[WARNING] [32mVERBOSE[0m Callback method :afterTextChanged in Class com.lyElectronica.ChooseContactActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onTextChanged in Class com.lyElectronica.ChooseContactActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.lyFunny.MoreActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.lyFunny.MoreActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.lyFunny.MoreActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.lyFunny.MoreActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.nYearRTly.MoreActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.nYearRTly.MoreActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.nYearRTly.MoreActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.nYearRTly.MoreActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class com.ylKOF.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStopTrackingTouch in Class com.ylKOF.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.ylKOF.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.ylKOF.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onProgressChanged in Class com.ylKOF.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.ylKOF.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStartTrackingTouch in Class com.ylKOF.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class com.ylKOF.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.ylKOF.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :beforeTextChanged in Class com.lyFunny.ChooseContactActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.lyFunny.ChooseContactActivity added
+[WARNING] [32mVERBOSE[0m Callback method :afterTextChanged in Class com.lyFunny.ChooseContactActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onTextChanged in Class com.lyFunny.ChooseContactActivity added
+[WARNING] [32mVERBOSE[0m Callback method :beforeTextChanged in Class com.effect.ChooseContactActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.effect.ChooseContactActivity added
+[WARNING] [32mVERBOSE[0m Callback method :afterTextChanged in Class com.effect.ChooseContactActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onTextChanged in Class com.effect.ChooseContactActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.lyArabia.DownloadedActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onItemLongClick in Class com.lyArabia.DownloadedActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.lyArabia.DownloadedActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onItemClick in Class com.lyArabia.DownloadedActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.lyArabia.DownloadedActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.lyArabia.DownloadedActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.lyCoolsms.MoreFileActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.lyCoolsms.MoreFileActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.lyCoolsms.MoreFileActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.lyCoolsms.MoreFileActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.lyPolice.DownloadedActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onItemLongClick in Class com.lyPolice.DownloadedActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.lyPolice.DownloadedActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onItemClick in Class com.lyPolice.DownloadedActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.lyPolice.DownloadedActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.lyPolice.DownloadedActivity added
+[WARNING] [32mVERBOSE[0m Callback method :beforeTextChanged in Class com.ylBTAudio.ChooseContactActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.ylBTAudio.ChooseContactActivity added
+[WARNING] [32mVERBOSE[0m Callback method :afterTextChanged in Class com.ylBTAudio.ChooseContactActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onTextChanged in Class com.ylBTAudio.ChooseContactActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.ylCarEffect.TabActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.lyElectronica.AlbumActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onItemLongClick in Class com.lyElectronica.AlbumActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.lyElectronica.AlbumActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onItemClick in Class com.lyElectronica.AlbumActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.lyElectronica.AlbumActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.lyElectronica.AlbumActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.lyFunny.MoreFileActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.lyFunny.MoreFileActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.lyFunny.MoreFileActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.lyFunny.MoreFileActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.fnXmas.DownloadedActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onItemLongClick in Class com.fnXmas.DownloadedActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.fnXmas.DownloadedActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onItemClick in Class com.fnXmas.DownloadedActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.fnXmas.DownloadedActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.fnXmas.DownloadedActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.fnXmas.MoreActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.fnXmas.MoreActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.fnXmas.MoreActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.fnXmas.MoreActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class com.ylFunTone.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStopTrackingTouch in Class com.ylFunTone.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.ylFunTone.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.ylFunTone.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onProgressChanged in Class com.ylFunTone.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.ylFunTone.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStartTrackingTouch in Class com.ylFunTone.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class com.ylFunTone.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.ylFunTone.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.ylIslam.TabActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.lyGuitar.RingWallActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.yl4dRing.MoreFileActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.yl4dRing.MoreFileActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.yl4dRing.MoreFileActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.yl4dRing.MoreFileActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.ylFunny.SetActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.ylFunny.SetActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.ylCarEffect.RingWallActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.ylFunny.DownloadedActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onItemLongClick in Class com.ylFunny.DownloadedActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.ylFunny.DownloadedActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onItemClick in Class com.ylFunny.DownloadedActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.ylFunny.DownloadedActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.ylFunny.DownloadedActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.lyArabia.RingWallActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.ylKOF.SetActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.ylKOF.SetActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.lyFunny.AlbumActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onItemLongClick in Class com.lyFunny.AlbumActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.lyFunny.AlbumActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onItemClick in Class com.lyFunny.AlbumActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.lyFunny.AlbumActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.lyFunny.AlbumActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.nYearRTly.DownloadedActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onItemLongClick in Class com.nYearRTly.DownloadedActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.nYearRTly.DownloadedActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onItemClick in Class com.nYearRTly.DownloadedActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.nYearRTly.DownloadedActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.nYearRTly.DownloadedActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.lyFunny.DownloadedActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onItemLongClick in Class com.lyFunny.DownloadedActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.lyFunny.DownloadedActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onItemClick in Class com.lyFunny.DownloadedActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.lyFunny.DownloadedActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.lyFunny.DownloadedActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.ylFunXmas.MoreActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.ylFunXmas.MoreActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.ylFunXmas.MoreActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.ylFunXmas.MoreActivity added
+[WARNING] [32mVERBOSE[0m Callback method :beforeTextChanged in Class com.yl4dRing.ChooseContactActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.yl4dRing.ChooseContactActivity added
+[WARNING] [32mVERBOSE[0m Callback method :afterTextChanged in Class com.yl4dRing.ChooseContactActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onTextChanged in Class com.yl4dRing.ChooseContactActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.ylKOF.RingWallActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.androidyl.MoreFileActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.androidyl.MoreFileActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.androidyl.MoreFileActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.androidyl.MoreFileActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.ylIslam.DownloadedActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onItemLongClick in Class com.ylIslam.DownloadedActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.ylIslam.DownloadedActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onItemClick in Class com.ylIslam.DownloadedActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.ylIslam.DownloadedActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.ylIslam.DownloadedActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class com.ylIslam.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStopTrackingTouch in Class com.ylIslam.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.ylIslam.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.ylIslam.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onProgressChanged in Class com.ylIslam.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.ylIslam.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStartTrackingTouch in Class com.ylIslam.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class com.ylIslam.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.ylIslam.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :beforeTextChanged in Class com.lyCoolsms.ChooseContactActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.lyCoolsms.ChooseContactActivity added
+[WARNING] [32mVERBOSE[0m Callback method :afterTextChanged in Class com.lyCoolsms.ChooseContactActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onTextChanged in Class com.lyCoolsms.ChooseContactActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.lyPolice.RingWallActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.ylMSBeats.AlbumActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onItemLongClick in Class com.ylMSBeats.AlbumActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.ylMSBeats.AlbumActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onItemClick in Class com.ylMSBeats.AlbumActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.ylMSBeats.AlbumActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.ylMSBeats.AlbumActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.ylBTAudio.MoreFileActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.ylBTAudio.MoreFileActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.ylBTAudio.MoreFileActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.ylBTAudio.MoreFileActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.ylFunXmas.SetActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.ylFunXmas.SetActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.yl4dRing.TabActivity added
+[WARNING] [32mVERBOSE[0m Callback method :beforeTextChanged in Class com.ylKOF.ChooseContactActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.ylKOF.ChooseContactActivity added
+[WARNING] [32mVERBOSE[0m Callback method :afterTextChanged in Class com.ylKOF.ChooseContactActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onTextChanged in Class com.ylKOF.ChooseContactActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class com.ylBTAudio.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStopTrackingTouch in Class com.ylBTAudio.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.ylBTAudio.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.ylBTAudio.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onProgressChanged in Class com.ylBTAudio.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.ylBTAudio.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStartTrackingTouch in Class com.ylBTAudio.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class com.ylBTAudio.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.ylBTAudio.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class com.ylFunny.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStopTrackingTouch in Class com.ylFunny.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.ylFunny.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.ylFunny.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onProgressChanged in Class com.ylFunny.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.ylFunny.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStartTrackingTouch in Class com.ylFunny.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class com.ylFunny.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.ylFunny.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.ylFunTone.AlbumActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onItemLongClick in Class com.ylFunTone.AlbumActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.ylFunTone.AlbumActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onItemClick in Class com.ylFunTone.AlbumActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.ylFunTone.AlbumActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.ylFunTone.AlbumActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.ylCarEffect.MoreFileActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.ylCarEffect.MoreFileActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.ylCarEffect.MoreFileActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.ylCarEffect.MoreFileActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.ylFunny.MoreFileActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.ylFunny.MoreFileActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.ylFunny.MoreFileActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.ylFunny.MoreFileActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.nYearRTly.AlbumActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onItemLongClick in Class com.nYearRTly.AlbumActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.nYearRTly.AlbumActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onItemClick in Class com.nYearRTly.AlbumActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.nYearRTly.AlbumActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.nYearRTly.AlbumActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.lyGuitar.AlbumActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onItemLongClick in Class com.lyGuitar.AlbumActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.lyGuitar.AlbumActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onItemClick in Class com.lyGuitar.AlbumActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.lyGuitar.AlbumActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.lyGuitar.AlbumActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.yl4dRing.MoreActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.yl4dRing.MoreActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.yl4dRing.MoreActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.yl4dRing.MoreActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.ylMSBeats.RingWallActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.lyArabia.TabActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.ylFunTone.TabActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.androidyl.TabActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.nYearRTly.MoreFileActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.nYearRTly.MoreFileActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.nYearRTly.MoreFileActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.nYearRTly.MoreFileActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.ylKOF.MoreFileActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.ylKOF.MoreFileActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.ylKOF.MoreFileActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.ylKOF.MoreFileActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.merryly.MoreActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.merryly.MoreActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.merryly.MoreActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.merryly.MoreActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.ylKOF.AlbumActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onItemLongClick in Class com.ylKOF.AlbumActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.ylKOF.AlbumActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onItemClick in Class com.ylKOF.AlbumActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.ylKOF.AlbumActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.ylKOF.AlbumActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class com.lyGuitar.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStopTrackingTouch in Class com.lyGuitar.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.lyGuitar.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.lyGuitar.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onProgressChanged in Class com.lyGuitar.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.lyGuitar.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStartTrackingTouch in Class com.lyGuitar.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class com.lyGuitar.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.lyGuitar.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.lyArabia.MoreFileActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.lyArabia.MoreFileActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.lyArabia.MoreFileActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.lyArabia.MoreFileActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.lyPolice.TabActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.ylBTAudio.RingWallActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.ylCarEffect.SetActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.ylCarEffect.SetActivity added
+[WARNING] [32mVERBOSE[0m Callback method :beforeTextChanged in Class com.ylCarEffect.ChooseContactActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.ylCarEffect.ChooseContactActivity added
+[WARNING] [32mVERBOSE[0m Callback method :afterTextChanged in Class com.ylCarEffect.ChooseContactActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onTextChanged in Class com.ylCarEffect.ChooseContactActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.ylMSBeats.SetActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.ylMSBeats.SetActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.ylFunTone.MoreActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.ylFunTone.MoreActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.ylFunTone.MoreActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.ylFunTone.MoreActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.lyElectronica.RingWallActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class com.androidyl.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStopTrackingTouch in Class com.androidyl.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.androidyl.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.androidyl.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onProgressChanged in Class com.androidyl.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.androidyl.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStartTrackingTouch in Class com.androidyl.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class com.androidyl.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.androidyl.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.lyPolice.SetActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.lyPolice.SetActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.ylMSBeats.DownloadedActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onItemLongClick in Class com.ylMSBeats.DownloadedActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.ylMSBeats.DownloadedActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onItemClick in Class com.ylMSBeats.DownloadedActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.ylMSBeats.DownloadedActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.ylMSBeats.DownloadedActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.androidyl.AlbumActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onItemLongClick in Class com.androidyl.AlbumActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.androidyl.AlbumActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onItemClick in Class com.androidyl.AlbumActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.androidyl.AlbumActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.androidyl.AlbumActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.lyCoolsms.RingWallActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.merryly.SetActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.merryly.SetActivity added
+[WARNING] [32mVERBOSE[0m Callback method :beforeTextChanged in Class com.ylMSBeats.ChooseContactActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.ylMSBeats.ChooseContactActivity added
+[WARNING] [32mVERBOSE[0m Callback method :afterTextChanged in Class com.ylMSBeats.ChooseContactActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onTextChanged in Class com.ylMSBeats.ChooseContactActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.ylIslam.MoreActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.ylIslam.MoreActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.ylIslam.MoreActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.ylIslam.MoreActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.ylFunTone.RingWallActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.merryly.DownloadedActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onItemLongClick in Class com.merryly.DownloadedActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.merryly.DownloadedActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onItemClick in Class com.merryly.DownloadedActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.merryly.DownloadedActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.merryly.DownloadedActivity added
+[WARNING] [32mVERBOSE[0m Callback method :beforeTextChanged in Class com.ylFunTone.ChooseContactActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.ylFunTone.ChooseContactActivity added
+[WARNING] [32mVERBOSE[0m Callback method :afterTextChanged in Class com.ylFunTone.ChooseContactActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onTextChanged in Class com.ylFunTone.ChooseContactActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.lyCoolsms.SetActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.lyCoolsms.SetActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.effect.MoreFileActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.effect.MoreFileActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.effect.MoreFileActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.effect.MoreFileActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.ylMSBeats.MoreFileActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.ylMSBeats.MoreFileActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.ylMSBeats.MoreFileActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.ylMSBeats.MoreFileActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.ylIslam.SetActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.ylIslam.SetActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class com.lyArabia.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStopTrackingTouch in Class com.lyArabia.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.lyArabia.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.lyArabia.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onProgressChanged in Class com.lyArabia.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.lyArabia.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStartTrackingTouch in Class com.lyArabia.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class com.lyArabia.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.lyArabia.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.nYearRTly.SetActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.nYearRTly.SetActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class com.merryly.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStopTrackingTouch in Class com.merryly.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.merryly.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.merryly.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onProgressChanged in Class com.merryly.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.merryly.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStartTrackingTouch in Class com.merryly.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class com.merryly.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.merryly.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.androidyl.SetActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.androidyl.SetActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.ylFunny.MoreActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.ylFunny.MoreActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.ylFunny.MoreActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.ylFunny.MoreActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.yl4dRing.AlbumActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onItemLongClick in Class com.yl4dRing.AlbumActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.yl4dRing.AlbumActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onItemClick in Class com.yl4dRing.AlbumActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.yl4dRing.AlbumActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.yl4dRing.AlbumActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.ylIslam.MoreFileActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.ylIslam.MoreFileActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.ylIslam.MoreFileActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.ylIslam.MoreFileActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.lyElectronica.MoreActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.lyElectronica.MoreActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.lyElectronica.MoreActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.lyElectronica.MoreActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.merryly.MoreFileActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.merryly.MoreFileActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.merryly.MoreFileActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.merryly.MoreFileActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.ylKOF.MoreActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.ylKOF.MoreActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.ylKOF.MoreActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.ylKOF.MoreActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.yl4dRing.RingWallActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.ylFunXmas.TabActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class com.nYearRTly.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStopTrackingTouch in Class com.nYearRTly.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.nYearRTly.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.nYearRTly.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onProgressChanged in Class com.nYearRTly.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.nYearRTly.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStartTrackingTouch in Class com.nYearRTly.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class com.nYearRTly.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.nYearRTly.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.lyGuitar.MoreFileActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.lyGuitar.MoreFileActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.lyGuitar.MoreFileActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.lyGuitar.MoreFileActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.ylMSBeats.MoreActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.ylMSBeats.MoreActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.ylMSBeats.MoreActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.ylMSBeats.MoreActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.ylBTAudio.AlbumActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onItemLongClick in Class com.ylBTAudio.AlbumActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.ylBTAudio.AlbumActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onItemClick in Class com.ylBTAudio.AlbumActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.ylBTAudio.AlbumActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.ylBTAudio.AlbumActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.yl4dRing.DownloadedActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onItemLongClick in Class com.yl4dRing.DownloadedActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.yl4dRing.DownloadedActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onItemClick in Class com.yl4dRing.DownloadedActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.yl4dRing.DownloadedActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.yl4dRing.DownloadedActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.ylBTAudio.TabActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.lyArabia.SetActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.lyArabia.SetActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.nYearRTly.TabActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.ylKOF.TabActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.androidyl.MoreActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.androidyl.MoreActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.androidyl.MoreActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.androidyl.MoreActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.effect.AlbumActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onItemLongClick in Class com.effect.AlbumActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.effect.AlbumActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onItemClick in Class com.effect.AlbumActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.effect.AlbumActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.effect.AlbumActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.ylBTAudio.MoreActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.ylBTAudio.MoreActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.ylBTAudio.MoreActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.ylBTAudio.MoreActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class com.ylFunXmas.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStopTrackingTouch in Class com.ylFunXmas.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.ylFunXmas.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.ylFunXmas.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onProgressChanged in Class com.ylFunXmas.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.ylFunXmas.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStartTrackingTouch in Class com.ylFunXmas.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class com.ylFunXmas.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.ylFunXmas.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.androidyl.RingWallActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.effect.MoreActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.effect.MoreActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.effect.MoreActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.effect.MoreActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class com.ylCarEffect.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStopTrackingTouch in Class com.ylCarEffect.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.ylCarEffect.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.ylCarEffect.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onProgressChanged in Class com.ylCarEffect.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.ylCarEffect.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStartTrackingTouch in Class com.ylCarEffect.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class com.ylCarEffect.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.ylCarEffect.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.lyElectronica.MoreFileActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.lyElectronica.MoreFileActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.lyElectronica.MoreFileActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.lyElectronica.MoreFileActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.lyElectronica.DownloadedActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onItemLongClick in Class com.lyElectronica.DownloadedActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.lyElectronica.DownloadedActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onItemClick in Class com.lyElectronica.DownloadedActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.lyElectronica.DownloadedActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.lyElectronica.DownloadedActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.ylFunny.AlbumActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onItemLongClick in Class com.ylFunny.AlbumActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.ylFunny.AlbumActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onItemClick in Class com.ylFunny.AlbumActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.ylFunny.AlbumActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.ylFunny.AlbumActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.ylFunXmas.MoreFileActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.ylFunXmas.MoreFileActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.ylFunXmas.MoreFileActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.ylFunXmas.MoreFileActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.fnXmas.RingWallActivity added
+[WARNING] [32mVERBOSE[0m Callback method :beforeTextChanged in Class com.androidyl.ChooseContactActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.androidyl.ChooseContactActivity added
+[WARNING] [32mVERBOSE[0m Callback method :afterTextChanged in Class com.androidyl.ChooseContactActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onTextChanged in Class com.androidyl.ChooseContactActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class com.fnXmas.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStopTrackingTouch in Class com.fnXmas.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.fnXmas.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.fnXmas.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onProgressChanged in Class com.fnXmas.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.fnXmas.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStartTrackingTouch in Class com.fnXmas.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class com.fnXmas.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.fnXmas.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.ylCarEffect.DownloadedActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onItemLongClick in Class com.ylCarEffect.DownloadedActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.ylCarEffect.DownloadedActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onItemClick in Class com.ylCarEffect.DownloadedActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.ylCarEffect.DownloadedActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.ylCarEffect.DownloadedActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.lyFunny.SetActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.lyFunny.SetActivity added
+[WARNING] [32mVERBOSE[0m Callback method :beforeTextChanged in Class com.ylFunny.ChooseContactActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.ylFunny.ChooseContactActivity added
+[WARNING] [32mVERBOSE[0m Callback method :afterTextChanged in Class com.ylFunny.ChooseContactActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onTextChanged in Class com.ylFunny.ChooseContactActivity added
+[WARNING] [32mVERBOSE[0m Callback method :beforeTextChanged in Class com.lyPolice.ChooseContactActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.lyPolice.ChooseContactActivity added
+[WARNING] [32mVERBOSE[0m Callback method :afterTextChanged in Class com.lyPolice.ChooseContactActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onTextChanged in Class com.lyPolice.ChooseContactActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.ylMSBeats.TabActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.merryly.TabActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.ylFunXmas.DownloadedActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onItemLongClick in Class com.ylFunXmas.DownloadedActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.ylFunXmas.DownloadedActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onItemClick in Class com.ylFunXmas.DownloadedActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.ylFunXmas.DownloadedActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.ylFunXmas.DownloadedActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.lyElectronica.TabActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.lyGuitar.DownloadedActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onItemLongClick in Class com.lyGuitar.DownloadedActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.lyGuitar.DownloadedActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onItemClick in Class com.lyGuitar.DownloadedActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.lyGuitar.DownloadedActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.lyGuitar.DownloadedActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.ylCarEffect.AlbumActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onItemLongClick in Class com.ylCarEffect.AlbumActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.ylCarEffect.AlbumActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onItemClick in Class com.ylCarEffect.AlbumActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.ylCarEffect.AlbumActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.ylCarEffect.AlbumActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.nYearRTly.RingWallActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.yl4dRing.SetActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.yl4dRing.SetActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.lyArabia.AlbumActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onItemLongClick in Class com.lyArabia.AlbumActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.lyArabia.AlbumActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onItemClick in Class com.lyArabia.AlbumActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.lyArabia.AlbumActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.lyArabia.AlbumActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.lyFunny.RingWallActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.lyGuitar.SetActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.lyGuitar.SetActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.ylIslam.RingWallActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.lyGuitar.MoreActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.lyGuitar.MoreActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.lyGuitar.MoreActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.lyGuitar.MoreActivity added
+[WARNING] [32mVERBOSE[0m Callback method :beforeTextChanged in Class com.lyArabia.ChooseContactActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.lyArabia.ChooseContactActivity added
+[WARNING] [32mVERBOSE[0m Callback method :afterTextChanged in Class com.lyArabia.ChooseContactActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onTextChanged in Class com.lyArabia.ChooseContactActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.lyArabia.MoreActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.lyArabia.MoreActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.lyArabia.MoreActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.lyArabia.MoreActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.ylBTAudio.DownloadedActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onItemLongClick in Class com.ylBTAudio.DownloadedActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.ylBTAudio.DownloadedActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onItemClick in Class com.ylBTAudio.DownloadedActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.ylBTAudio.DownloadedActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.ylBTAudio.DownloadedActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class com.lyPolice.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStopTrackingTouch in Class com.lyPolice.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.lyPolice.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.lyPolice.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onProgressChanged in Class com.lyPolice.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.lyPolice.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStartTrackingTouch in Class com.lyPolice.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class com.lyPolice.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.lyPolice.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.fnXmas.MoreFileActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.fnXmas.MoreFileActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.fnXmas.MoreFileActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.fnXmas.MoreFileActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.lyPolice.MoreFileActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.lyPolice.MoreFileActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.lyPolice.MoreFileActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.lyPolice.MoreFileActivity added
+[WARNING] [32mVERBOSE[0m Callback method :beforeTextChanged in Class com.merryly.ChooseContactActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.merryly.ChooseContactActivity added
+[WARNING] [32mVERBOSE[0m Callback method :afterTextChanged in Class com.merryly.ChooseContactActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onTextChanged in Class com.merryly.ChooseContactActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.ylFunTone.SetActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.ylFunTone.SetActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class com.yl4dRing.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStopTrackingTouch in Class com.yl4dRing.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.yl4dRing.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.yl4dRing.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onProgressChanged in Class com.yl4dRing.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.yl4dRing.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStartTrackingTouch in Class com.yl4dRing.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class com.yl4dRing.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.yl4dRing.PlayerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.effect.SetActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.effect.SetActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.ylBTAudio.SetActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.ylBTAudio.SetActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.effect.TabActivity added
+[WARNING] [32mVERBOSE[0m Callback method :beforeTextChanged in Class com.ylFunXmas.ChooseContactActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.ylFunXmas.ChooseContactActivity added
+[WARNING] [32mVERBOSE[0m Callback method :afterTextChanged in Class com.ylFunXmas.ChooseContactActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onTextChanged in Class com.ylFunXmas.ChooseContactActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.lyPolice.AlbumActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onItemLongClick in Class com.lyPolice.AlbumActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.lyPolice.AlbumActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onItemClick in Class com.lyPolice.AlbumActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.lyPolice.AlbumActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.lyPolice.AlbumActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.ylFunXmas.RingWallActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.merryly.AlbumActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onItemLongClick in Class com.merryly.AlbumActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.merryly.AlbumActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onItemClick in Class com.merryly.AlbumActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.merryly.AlbumActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.merryly.AlbumActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.ylFunXmas.AlbumActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onItemLongClick in Class com.ylFunXmas.AlbumActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.ylFunXmas.AlbumActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onItemClick in Class com.ylFunXmas.AlbumActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.ylFunXmas.AlbumActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.ylFunXmas.AlbumActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.merryly.RingWallActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.ylCarEffect.MoreActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.ylCarEffect.MoreActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.ylCarEffect.MoreActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.ylCarEffect.MoreActivity added
+[WARNING] [32mVERBOSE[0m Callback method :beforeTextChanged in Class com.ylIslam.ChooseContactActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.ylIslam.ChooseContactActivity added
+[WARNING] [32mVERBOSE[0m Callback method :afterTextChanged in Class com.ylIslam.ChooseContactActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onTextChanged in Class com.ylIslam.ChooseContactActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.fnXmas.AlbumActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onItemLongClick in Class com.fnXmas.AlbumActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.fnXmas.AlbumActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onItemClick in Class com.fnXmas.AlbumActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.fnXmas.AlbumActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.fnXmas.AlbumActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.lyGuitar.TabActivity added
+[WARNING] [32mVERBOSE[0m Callback method :beforeTextChanged in Class com.lyGuitar.ChooseContactActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.lyGuitar.ChooseContactActivity added
+[WARNING] [32mVERBOSE[0m Callback method :afterTextChanged in Class com.lyGuitar.ChooseContactActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onTextChanged in Class com.lyGuitar.ChooseContactActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.lyCoolsms.TabActivity added
+[WARNING] [32mVERBOSE[0m Callback method :beforeTextChanged in Class com.nYearRTly.ChooseContactActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.nYearRTly.ChooseContactActivity added
+[WARNING] [32mVERBOSE[0m Callback method :afterTextChanged in Class com.nYearRTly.ChooseContactActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onTextChanged in Class com.nYearRTly.ChooseContactActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.lyCoolsms.DownloadedActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onItemLongClick in Class com.lyCoolsms.DownloadedActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.lyCoolsms.DownloadedActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onItemClick in Class com.lyCoolsms.DownloadedActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.lyCoolsms.DownloadedActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.lyCoolsms.DownloadedActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.ylFunTone.MoreFileActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.ylFunTone.MoreFileActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.ylFunTone.MoreFileActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.ylFunTone.MoreFileActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.lyCoolsms.MoreActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.lyCoolsms.MoreActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.lyCoolsms.MoreActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.lyCoolsms.MoreActivity added
+[WARNING] [32mVERBOSE[0m Callback method :beforeTextChanged in Class com.fnXmas.ChooseContactActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.fnXmas.ChooseContactActivity added
+[WARNING] [32mVERBOSE[0m Callback method :afterTextChanged in Class com.fnXmas.ChooseContactActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onTextChanged in Class com.fnXmas.ChooseContactActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.lyPolice.MoreActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.lyPolice.MoreActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.lyPolice.MoreActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.lyPolice.MoreActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.lyFunny.TabActivity added
+2 ICC links found and 2 cg edges added due to ICC links
+dynamic conflated call graph: 502 methods; 502 nodes; 712 edges.
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=3
+maxpossibleFlows=1
+maxpossibleFlows=3
+3 taint flow paths FOUND from <android.view.ContextThemeWrapper: android.content.res.Resources getResources()> to <android.widget.TabHost$TabSpec: android.widget.TabHost$TabSpec setContent(android.content.Intent)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=14
+4 taint flow paths FOUND from <android.content.ContextWrapper: android.content.ContentResolver getContentResolver()> to <android.util.Log: int i(java.lang.String,java.lang.String)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=7
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <java.util.ArrayList: java.lang.Object get(int)> to <android.app.Activity: void startActivity(android.content.Intent)>
+maxpossibleFlows=14
+4 taint flow paths FOUND from <java.io.File: java.lang.String getName()> to <android.util.Log: int i(java.lang.String,java.lang.String)>
+maxpossibleFlows=1
+maxpossibleFlows=6
+6 taint flow paths FOUND from <android.content.ContextWrapper: java.io.File getDatabasePath(java.lang.String)> to <android.webkit.WebSettings: void setDisplayZoomControls(boolean)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.app.Activity: android.app.Activity getParent()> to <android.util.Log: int i(java.lang.String,java.lang.String)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=7
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=4
+4 taint flow paths FOUND from <android.view.View: android.content.Context getContext()> to <android.webkit.WebSettings: void setUserAgentString(java.lang.String)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+2 taint flow paths FOUND from <android.content.res.Resources: android.graphics.drawable.Drawable getDrawable(int)> to <android.widget.TabHost$TabSpec: android.widget.TabHost$TabSpec setContent(android.content.Intent)>
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.view.MotionEvent: int getAction()> to <android.os.Handler: boolean sendEmptyMessage(int)>
+maxpossibleFlows=14
+4 taint flow paths FOUND from <android.provider.MediaStore$Audio$Media: android.net.Uri getContentUriForPath(java.lang.String)> to <android.util.Log: int i(java.lang.String,java.lang.String)>
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.os.Environment: java.io.File getExternalStorageDirectory()> to <android.util.Log: int i(java.lang.String,java.lang.String)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.widget.TabHost: android.widget.TabWidget getTabWidget()> to <android.view.View: void setBackgroundResource(int)>
+maxpossibleFlows=2
+maxpossibleFlows=1
+1 taint flow paths FOUND from <java.lang.StringBuilder: java.lang.String toString()> to <android.util.Log: int i(java.lang.String,java.lang.String)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=6
+6 taint flow paths FOUND from <java.lang.Long: long longValue()> to <android.webkit.WebSettings: void setDisplayZoomControls(boolean)>
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.view.ViewGroup: int getChildCount()> to <android.view.View: void setBackgroundResource(int)>
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.content.ContextWrapper: android.content.Context getApplicationContext()> to <android.util.Log: int i(java.lang.String,java.lang.String)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.content.res.Resources: int getIdentifier(java.lang.String,java.lang.String,java.lang.String)> to <android.view.Window: void setBackgroundDrawableResource(int)>
+maxpossibleFlows=1
+maxpossibleFlows=6
+6 taint flow paths FOUND from <java.io.File: java.lang.String getAbsolutePath()> to <android.webkit.WebSettings: void setDisplayZoomControls(boolean)>
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=6
+6 taint flow paths FOUND from <android.content.ContextWrapper: java.io.File getCacheDir()> to <android.webkit.WebSettings: void setDisplayZoomControls(boolean)>
+maxpossibleFlows=7
+maxpossibleFlows=2
+2 taint flow paths FOUND from <android.content.Context: java.lang.String getString(int)> to <android.widget.TabHost$TabSpec: android.widget.TabHost$TabSpec setContent(android.content.Intent)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.app.Activity: android.view.Window getWindow()> to <android.view.Window: void setBackgroundDrawableResource(int)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.content.ContextWrapper: java.lang.String getPackageName()> to <android.util.Log: int i(java.lang.String,java.lang.String)>
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=4
+4 taint flow paths FOUND from <android.webkit.WebView: android.webkit.WebSettings getSettings()> to <android.webkit.WebSettings: void setSavePassword(boolean)>
+maxpossibleFlows=1
+maxpossibleFlows=3
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=14
+4 taint flow paths FOUND from <android.content.ContextWrapper: android.content.ContentResolver getContentResolver()> to <android.util.Log: int i(java.lang.String,java.lang.String)>
+maxpossibleFlows=15
+maxpossibleFlows=16
+maxpossibleFlows=16
+6 taint flow paths FOUND from <android.provider.MediaStore$Audio$Media: android.net.Uri getContentUriForPath(java.lang.String)> to <android.content.ContextWrapper: void sendBroadcast(android.content.Intent)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.view.MotionEvent: int getAction()> to <android.os.Handler: boolean sendEmptyMessage(int)>
+maxpossibleFlows=7
+maxpossibleFlows=7
+maxpossibleFlows=7
+maxpossibleFlows=7
+maxpossibleFlows=7
+maxpossibleFlows=7
+maxpossibleFlows=7
+maxpossibleFlows=3
+3 taint flow paths FOUND from <android.view.ContextThemeWrapper: android.content.res.Resources getResources()> to <android.widget.TabHost$TabSpec: android.widget.TabHost$TabSpec setContent(android.content.Intent)>
+maxpossibleFlows=15
+maxpossibleFlows=16
+maxpossibleFlows=17
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.os.Environment: java.io.File getExternalStorageDirectory()> to <android.content.res.AssetManager: java.io.InputStream open(java.lang.String)>
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=6
+6 taint flow paths FOUND from <android.content.ContextWrapper: java.io.File getDatabasePath(java.lang.String)> to <android.webkit.WebSettings: void setDisplayZoomControls(boolean)>
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=4
+4 taint flow paths FOUND from <android.webkit.WebView: android.webkit.WebSettings getSettings()> to <android.webkit.WebSettings: void setSavePassword(boolean)>
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=6
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=6
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=6
+5 taint flow paths FOUND from <java.io.File: java.lang.String getAbsolutePath()> to <android.webkit.WebSettings: void setAppCacheEnabled(boolean)>
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=6
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=6
+6 taint flow paths FOUND from <java.lang.Long: long longValue()> to <android.webkit.WebSettings: void setAppCacheMaxSize(long)>
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=4
+4 taint flow paths FOUND from <android.webkit.WebView: android.webkit.WebSettings getSettings()> to <android.webkit.WebView: void setScrollBarStyle(int)>
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.widget.TabHost: android.widget.TabWidget getTabWidget()> to <android.view.View: void setBackgroundResource(int)>
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=4
+4 taint flow paths FOUND from <android.webkit.WebView: android.webkit.WebSettings getSettings()> to <android.webkit.WebSettings: void setSupportMultipleWindows(boolean)>
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=6
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=6
+6 taint flow paths FOUND from <java.lang.Long: long longValue()> to <android.webkit.WebSettings: void setDatabaseEnabled(boolean)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <java.util.ArrayList: java.lang.Object get(int)> to <android.app.Activity: void startActivity(android.content.Intent)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=6
+6 taint flow paths FOUND from <android.content.ContextWrapper: java.io.File getDatabasePath(java.lang.String)> to <android.webkit.WebSettings: void setDomStorageEnabled(boolean)>
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <java.util.ArrayList: java.lang.Object get(int)> to <android.view.View: void setVisibility(int)>
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=4
+4 taint flow paths FOUND from <android.webkit.WebView: android.webkit.WebSettings getSettings()> to <android.webkit.WebView: void setWebChromeClient(android.webkit.WebChromeClient)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.view.ContextThemeWrapper: android.content.res.Resources getResources()> to <android.view.Window: void setBackgroundDrawableResource(int)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.content.Context: java.lang.String getString(int)> to <android.widget.AbsSeekBar: void setMax(int)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+2 taint flow paths FOUND from <android.content.Context: java.lang.String getString(int)> to <android.widget.TextView: void setText(java.lang.CharSequence)>
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <java.util.ArrayList: java.lang.Object get(int)> to <android.content.Intent: android.content.Intent putExtra(java.lang.String,java.lang.String)>
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=6
+6 taint flow paths FOUND from <android.content.ContextWrapper: java.io.File getDatabasePath(java.lang.String)> to <android.webkit.WebSettings: void setSupportZoom(boolean)>
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=4
+4 taint flow paths FOUND from <android.webkit.WebView: android.webkit.WebSettings getSettings()> to <android.webkit.WebSettings: void setJavaScriptEnabled(boolean)>
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=6
+6 taint flow paths FOUND from <android.content.ContextWrapper: java.io.File getDatabasePath(java.lang.String)> to <android.webkit.WebSettings: void setBuiltInZoomControls(boolean)>
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=6
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=6
+6 taint flow paths FOUND from <java.lang.Long: long longValue()> to <android.webkit.WebSettings: void setAppCachePath(java.lang.String)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=4
+4 taint flow paths FOUND from <android.webkit.WebView: android.webkit.WebSettings getSettings()> to <android.webkit.WebView: void setDownloadListener(android.webkit.DownloadListener)>
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=6
+6 taint flow paths FOUND from <android.content.ContextWrapper: java.io.File getDatabasePath(java.lang.String)> to <android.webkit.WebSettings: void setDatabasePath(java.lang.String)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.app.Activity: android.app.Activity getParent()> to <android.app.Activity: void setTitle(int)>
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=4
+4 taint flow paths FOUND from <android.view.View: android.content.Context getContext()> to <android.webkit.WebSettings: void setUserAgentString(java.lang.String)>
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.lyFunny.AlbumActivity
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.lyFunny.AlbumActivity
+[WARNING] [32mVERBOSE[0m Callback method :onItemClick in Class com.lyFunny.AlbumActivity
+[WARNING] [32mVERBOSE[0m Callback method :onItemLongClick in Class com.lyFunny.AlbumActivity
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.lyFunny.AlbumActivity
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.lyFunny.AlbumActivity
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.lyFunny.AlbumActivity
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.androidyl.AlbumActivity
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.androidyl.AlbumActivity
+[WARNING] [32mVERBOSE[0m Callback method :onItemClick in Class com.androidyl.AlbumActivity
+[WARNING] [32mVERBOSE[0m Callback method :onItemLongClick in Class com.androidyl.AlbumActivity
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.androidyl.AlbumActivity
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.androidyl.AlbumActivity
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.androidyl.AlbumActivity
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.androidyl.DownloadedActivity
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.androidyl.DownloadedActivity
+[WARNING] [32mVERBOSE[0m Callback method :onItemClick in Class com.androidyl.DownloadedActivity
+[WARNING] [32mVERBOSE[0m Callback method :onItemLongClick in Class com.androidyl.DownloadedActivity
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.androidyl.DownloadedActivity
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.androidyl.DownloadedActivity
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.androidyl.DownloadedActivity
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.androidyl.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class com.androidyl.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.androidyl.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.androidyl.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.androidyl.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.androidyl.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onProgressChanged in Class com.androidyl.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onStartTrackingTouch in Class com.androidyl.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onStopTrackingTouch in Class com.androidyl.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class com.androidyl.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.androidyl.SetActivity
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.androidyl.SetActivity
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.androidyl.SetActivity
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.effect.AlbumActivity
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.effect.AlbumActivity
+[WARNING] [32mVERBOSE[0m Callback method :onItemClick in Class com.effect.AlbumActivity
+[WARNING] [32mVERBOSE[0m Callback method :onItemLongClick in Class com.effect.AlbumActivity
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.effect.AlbumActivity
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.effect.AlbumActivity
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.effect.AlbumActivity
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.effect.DownloadedActivity
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.effect.DownloadedActivity
+[WARNING] [32mVERBOSE[0m Callback method :onItemClick in Class com.effect.DownloadedActivity
+[WARNING] [32mVERBOSE[0m Callback method :onItemLongClick in Class com.effect.DownloadedActivity
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.effect.DownloadedActivity
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.effect.DownloadedActivity
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.effect.DownloadedActivity
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.effect.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class com.effect.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.effect.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.effect.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.effect.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.effect.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onProgressChanged in Class com.effect.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onStartTrackingTouch in Class com.effect.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onStopTrackingTouch in Class com.effect.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class com.effect.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.effect.SetActivity
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.effect.SetActivity
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.effect.SetActivity
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.fnXmas.AlbumActivity
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.fnXmas.AlbumActivity
+[WARNING] [32mVERBOSE[0m Callback method :onItemClick in Class com.fnXmas.AlbumActivity
+[WARNING] [32mVERBOSE[0m Callback method :onItemLongClick in Class com.fnXmas.AlbumActivity
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.fnXmas.AlbumActivity
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.fnXmas.AlbumActivity
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.fnXmas.AlbumActivity
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.fnXmas.DownloadedActivity
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.fnXmas.DownloadedActivity
+[WARNING] [32mVERBOSE[0m Callback method :onItemClick in Class com.fnXmas.DownloadedActivity
+[WARNING] [32mVERBOSE[0m Callback method :onItemLongClick in Class com.fnXmas.DownloadedActivity
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.fnXmas.DownloadedActivity
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.fnXmas.DownloadedActivity
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.fnXmas.DownloadedActivity
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.fnXmas.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class com.fnXmas.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.fnXmas.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.fnXmas.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.fnXmas.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.fnXmas.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onProgressChanged in Class com.fnXmas.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onStartTrackingTouch in Class com.fnXmas.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onStopTrackingTouch in Class com.fnXmas.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class com.fnXmas.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.fnXmas.SetActivity
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.fnXmas.SetActivity
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.fnXmas.SetActivity
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.google.ads.AdActivity
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class com.google.ads.AdActivity
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.google.ads.AdActivity
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.google.ads.AdActivity
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.google.ads.AdActivity
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.google.ads.AdActivity
+[WARNING] [32mVERBOSE[0m Callback method :onWindowFocusChanged in Class com.google.ads.AdActivity
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.lyArabia.AlbumActivity
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.lyArabia.AlbumActivity
+[WARNING] [32mVERBOSE[0m Callback method :onItemClick in Class com.lyArabia.AlbumActivity
+[WARNING] [32mVERBOSE[0m Callback method :onItemLongClick in Class com.lyArabia.AlbumActivity
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.lyArabia.AlbumActivity
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.lyArabia.AlbumActivity
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.lyArabia.AlbumActivity
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.lyArabia.DownloadedActivity
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.lyArabia.DownloadedActivity
+[WARNING] [32mVERBOSE[0m Callback method :onItemClick in Class com.lyArabia.DownloadedActivity
+[WARNING] [32mVERBOSE[0m Callback method :onItemLongClick in Class com.lyArabia.DownloadedActivity
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.lyArabia.DownloadedActivity
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.lyArabia.DownloadedActivity
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.lyArabia.DownloadedActivity
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.lyArabia.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class com.lyArabia.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.lyArabia.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.lyArabia.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.lyArabia.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.lyArabia.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onProgressChanged in Class com.lyArabia.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onStartTrackingTouch in Class com.lyArabia.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onStopTrackingTouch in Class com.lyArabia.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class com.lyArabia.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.lyArabia.SetActivity
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.lyArabia.SetActivity
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.lyArabia.SetActivity
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.lyCoolsms.AlbumActivity
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.lyCoolsms.AlbumActivity
+[WARNING] [32mVERBOSE[0m Callback method :onItemClick in Class com.lyCoolsms.AlbumActivity
+[WARNING] [32mVERBOSE[0m Callback method :onItemLongClick in Class com.lyCoolsms.AlbumActivity
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.lyCoolsms.AlbumActivity
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.lyCoolsms.AlbumActivity
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.lyCoolsms.AlbumActivity
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.lyCoolsms.DownloadedActivity
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.lyCoolsms.DownloadedActivity
+[WARNING] [32mVERBOSE[0m Callback method :onItemClick in Class com.lyCoolsms.DownloadedActivity
+[WARNING] [32mVERBOSE[0m Callback method :onItemLongClick in Class com.lyCoolsms.DownloadedActivity
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.lyCoolsms.DownloadedActivity
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.lyCoolsms.DownloadedActivity
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.lyCoolsms.DownloadedActivity
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.lyCoolsms.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class com.lyCoolsms.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.lyCoolsms.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.lyCoolsms.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.lyCoolsms.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.lyCoolsms.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onProgressChanged in Class com.lyCoolsms.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onStartTrackingTouch in Class com.lyCoolsms.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onStopTrackingTouch in Class com.lyCoolsms.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class com.lyCoolsms.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.lyCoolsms.SetActivity
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.lyCoolsms.SetActivity
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.lyCoolsms.SetActivity
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.lyElectronica.AlbumActivity
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.lyElectronica.AlbumActivity
+[WARNING] [32mVERBOSE[0m Callback method :onItemClick in Class com.lyElectronica.AlbumActivity
+[WARNING] [32mVERBOSE[0m Callback method :onItemLongClick in Class com.lyElectronica.AlbumActivity
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.lyElectronica.AlbumActivity
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.lyElectronica.AlbumActivity
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.lyElectronica.AlbumActivity
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.lyElectronica.DownloadedActivity
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.lyElectronica.DownloadedActivity
+[WARNING] [32mVERBOSE[0m Callback method :onItemClick in Class com.lyElectronica.DownloadedActivity
+[WARNING] [32mVERBOSE[0m Callback method :onItemLongClick in Class com.lyElectronica.DownloadedActivity
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.lyElectronica.DownloadedActivity
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.lyElectronica.DownloadedActivity
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.lyElectronica.DownloadedActivity
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.lyElectronica.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class com.lyElectronica.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.lyElectronica.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.lyElectronica.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.lyElectronica.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.lyElectronica.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onProgressChanged in Class com.lyElectronica.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onStartTrackingTouch in Class com.lyElectronica.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onStopTrackingTouch in Class com.lyElectronica.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class com.lyElectronica.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.lyElectronica.SetActivity
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.lyElectronica.SetActivity
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.lyElectronica.SetActivity
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.lyFunny.DownloadedActivity
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.lyFunny.DownloadedActivity
+[WARNING] [32mVERBOSE[0m Callback method :onItemClick in Class com.lyFunny.DownloadedActivity
+[WARNING] [32mVERBOSE[0m Callback method :onItemLongClick in Class com.lyFunny.DownloadedActivity
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.lyFunny.DownloadedActivity
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.lyFunny.DownloadedActivity
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.lyFunny.DownloadedActivity
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.lyFunny.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class com.lyFunny.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.lyFunny.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.lyFunny.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.lyFunny.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.lyFunny.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onProgressChanged in Class com.lyFunny.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onStartTrackingTouch in Class com.lyFunny.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onStopTrackingTouch in Class com.lyFunny.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class com.lyFunny.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.lyFunny.SetActivity
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.lyFunny.SetActivity
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.lyFunny.SetActivity
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.lyGuitar.AlbumActivity
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.lyGuitar.AlbumActivity
+[WARNING] [32mVERBOSE[0m Callback method :onItemClick in Class com.lyGuitar.AlbumActivity
+[WARNING] [32mVERBOSE[0m Callback method :onItemLongClick in Class com.lyGuitar.AlbumActivity
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.lyGuitar.AlbumActivity
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.lyGuitar.AlbumActivity
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.lyGuitar.AlbumActivity
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.lyGuitar.DownloadedActivity
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.lyGuitar.DownloadedActivity
+[WARNING] [32mVERBOSE[0m Callback method :onItemClick in Class com.lyGuitar.DownloadedActivity
+[WARNING] [32mVERBOSE[0m Callback method :onItemLongClick in Class com.lyGuitar.DownloadedActivity
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.lyGuitar.DownloadedActivity
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.lyGuitar.DownloadedActivity
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.lyGuitar.DownloadedActivity
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.lyGuitar.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class com.lyGuitar.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.lyGuitar.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.lyGuitar.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.lyGuitar.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.lyGuitar.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onProgressChanged in Class com.lyGuitar.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onStartTrackingTouch in Class com.lyGuitar.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onStopTrackingTouch in Class com.lyGuitar.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class com.lyGuitar.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.lyGuitar.SetActivity
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.lyGuitar.SetActivity
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.lyGuitar.SetActivity
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.lyPolice.AlbumActivity
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.lyPolice.AlbumActivity
+[WARNING] [32mVERBOSE[0m Callback method :onItemClick in Class com.lyPolice.AlbumActivity
+[WARNING] [32mVERBOSE[0m Callback method :onItemLongClick in Class com.lyPolice.AlbumActivity
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.lyPolice.AlbumActivity
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.lyPolice.AlbumActivity
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.lyPolice.AlbumActivity
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.lyPolice.DownloadedActivity
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.lyPolice.DownloadedActivity
+[WARNING] [32mVERBOSE[0m Callback method :onItemClick in Class com.lyPolice.DownloadedActivity
+[WARNING] [32mVERBOSE[0m Callback method :onItemLongClick in Class com.lyPolice.DownloadedActivity
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.lyPolice.DownloadedActivity
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.lyPolice.DownloadedActivity
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.lyPolice.DownloadedActivity
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.lyPolice.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class com.lyPolice.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.lyPolice.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.lyPolice.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.lyPolice.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.lyPolice.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onProgressChanged in Class com.lyPolice.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onStartTrackingTouch in Class com.lyPolice.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onStopTrackingTouch in Class com.lyPolice.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class com.lyPolice.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.lyPolice.SetActivity
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.lyPolice.SetActivity
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.lyPolice.SetActivity
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.merryly.AlbumActivity
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.merryly.AlbumActivity
+[WARNING] [32mVERBOSE[0m Callback method :onItemClick in Class com.merryly.AlbumActivity
+[WARNING] [32mVERBOSE[0m Callback method :onItemLongClick in Class com.merryly.AlbumActivity
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.merryly.AlbumActivity
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.merryly.AlbumActivity
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.merryly.AlbumActivity
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.merryly.DownloadedActivity
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.merryly.DownloadedActivity
+[WARNING] [32mVERBOSE[0m Callback method :onItemClick in Class com.merryly.DownloadedActivity
+[WARNING] [32mVERBOSE[0m Callback method :onItemLongClick in Class com.merryly.DownloadedActivity
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.merryly.DownloadedActivity
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.merryly.DownloadedActivity
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.merryly.DownloadedActivity
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.merryly.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class com.merryly.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.merryly.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.merryly.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.merryly.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.merryly.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onProgressChanged in Class com.merryly.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onStartTrackingTouch in Class com.merryly.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onStopTrackingTouch in Class com.merryly.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class com.merryly.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.merryly.SetActivity
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.merryly.SetActivity
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.merryly.SetActivity
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.nYearRTly.AlbumActivity
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.nYearRTly.AlbumActivity
+[WARNING] [32mVERBOSE[0m Callback method :onItemClick in Class com.nYearRTly.AlbumActivity
+[WARNING] [32mVERBOSE[0m Callback method :onItemLongClick in Class com.nYearRTly.AlbumActivity
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.nYearRTly.AlbumActivity
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.nYearRTly.AlbumActivity
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.nYearRTly.AlbumActivity
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.nYearRTly.DownloadedActivity
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.nYearRTly.DownloadedActivity
+[WARNING] [32mVERBOSE[0m Callback method :onItemClick in Class com.nYearRTly.DownloadedActivity
+[WARNING] [32mVERBOSE[0m Callback method :onItemLongClick in Class com.nYearRTly.DownloadedActivity
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.nYearRTly.DownloadedActivity
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.nYearRTly.DownloadedActivity
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.nYearRTly.DownloadedActivity
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.nYearRTly.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class com.nYearRTly.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.nYearRTly.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.nYearRTly.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.nYearRTly.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.nYearRTly.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onProgressChanged in Class com.nYearRTly.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onStartTrackingTouch in Class com.nYearRTly.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onStopTrackingTouch in Class com.nYearRTly.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class com.nYearRTly.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.nYearRTly.SetActivity
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.nYearRTly.SetActivity
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.nYearRTly.SetActivity
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.yl4dRing.AlbumActivity
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.yl4dRing.AlbumActivity
+[WARNING] [32mVERBOSE[0m Callback method :onItemClick in Class com.yl4dRing.AlbumActivity
+[WARNING] [32mVERBOSE[0m Callback method :onItemLongClick in Class com.yl4dRing.AlbumActivity
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.yl4dRing.AlbumActivity
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.yl4dRing.AlbumActivity
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.yl4dRing.AlbumActivity
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.yl4dRing.DownloadedActivity
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.yl4dRing.DownloadedActivity
+[WARNING] [32mVERBOSE[0m Callback method :onItemClick in Class com.yl4dRing.DownloadedActivity
+[WARNING] [32mVERBOSE[0m Callback method :onItemLongClick in Class com.yl4dRing.DownloadedActivity
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.yl4dRing.DownloadedActivity
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.yl4dRing.DownloadedActivity
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.yl4dRing.DownloadedActivity
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.yl4dRing.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class com.yl4dRing.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.yl4dRing.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.yl4dRing.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.yl4dRing.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.yl4dRing.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onProgressChanged in Class com.yl4dRing.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onStartTrackingTouch in Class com.yl4dRing.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onStopTrackingTouch in Class com.yl4dRing.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class com.yl4dRing.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.yl4dRing.SetActivity
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.yl4dRing.SetActivity
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.yl4dRing.SetActivity
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.ylBTAudio.AlbumActivity
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.ylBTAudio.AlbumActivity
+[WARNING] [32mVERBOSE[0m Callback method :onItemClick in Class com.ylBTAudio.AlbumActivity
+[WARNING] [32mVERBOSE[0m Callback method :onItemLongClick in Class com.ylBTAudio.AlbumActivity
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.ylBTAudio.AlbumActivity
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.ylBTAudio.AlbumActivity
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.ylBTAudio.AlbumActivity
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.ylBTAudio.DownloadedActivity
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.ylBTAudio.DownloadedActivity
+[WARNING] [32mVERBOSE[0m Callback method :onItemClick in Class com.ylBTAudio.DownloadedActivity
+[WARNING] [32mVERBOSE[0m Callback method :onItemLongClick in Class com.ylBTAudio.DownloadedActivity
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.ylBTAudio.DownloadedActivity
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.ylBTAudio.DownloadedActivity
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.ylBTAudio.DownloadedActivity
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.ylBTAudio.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class com.ylBTAudio.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.ylBTAudio.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.ylBTAudio.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.ylBTAudio.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.ylBTAudio.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onProgressChanged in Class com.ylBTAudio.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onStartTrackingTouch in Class com.ylBTAudio.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onStopTrackingTouch in Class com.ylBTAudio.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class com.ylBTAudio.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.ylBTAudio.SetActivity
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.ylBTAudio.SetActivity
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.ylBTAudio.SetActivity
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.ylCarEffect.AlbumActivity
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.ylCarEffect.AlbumActivity
+[WARNING] [32mVERBOSE[0m Callback method :onItemClick in Class com.ylCarEffect.AlbumActivity
+[WARNING] [32mVERBOSE[0m Callback method :onItemLongClick in Class com.ylCarEffect.AlbumActivity
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.ylCarEffect.AlbumActivity
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.ylCarEffect.AlbumActivity
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.ylCarEffect.AlbumActivity
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.ylCarEffect.DownloadedActivity
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.ylCarEffect.DownloadedActivity
+[WARNING] [32mVERBOSE[0m Callback method :onItemClick in Class com.ylCarEffect.DownloadedActivity
+[WARNING] [32mVERBOSE[0m Callback method :onItemLongClick in Class com.ylCarEffect.DownloadedActivity
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.ylCarEffect.DownloadedActivity
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.ylCarEffect.DownloadedActivity
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.ylCarEffect.DownloadedActivity
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.ylCarEffect.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class com.ylCarEffect.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.ylCarEffect.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.ylCarEffect.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.ylCarEffect.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.ylCarEffect.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onProgressChanged in Class com.ylCarEffect.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onStartTrackingTouch in Class com.ylCarEffect.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onStopTrackingTouch in Class com.ylCarEffect.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class com.ylCarEffect.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.ylCarEffect.SetActivity
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.ylCarEffect.SetActivity
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.ylCarEffect.SetActivity
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.ylFunTone.AlbumActivity
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.ylFunTone.AlbumActivity
+[WARNING] [32mVERBOSE[0m Callback method :onItemClick in Class com.ylFunTone.AlbumActivity
+[WARNING] [32mVERBOSE[0m Callback method :onItemLongClick in Class com.ylFunTone.AlbumActivity
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.ylFunTone.AlbumActivity
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.ylFunTone.AlbumActivity
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.ylFunTone.AlbumActivity
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.ylFunTone.DownloadedActivity
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.ylFunTone.DownloadedActivity
+[WARNING] [32mVERBOSE[0m Callback method :onItemClick in Class com.ylFunTone.DownloadedActivity
+[WARNING] [32mVERBOSE[0m Callback method :onItemLongClick in Class com.ylFunTone.DownloadedActivity
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.ylFunTone.DownloadedActivity
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.ylFunTone.DownloadedActivity
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.ylFunTone.DownloadedActivity
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.ylFunTone.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class com.ylFunTone.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.ylFunTone.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.ylFunTone.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.ylFunTone.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.ylFunTone.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onProgressChanged in Class com.ylFunTone.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onStartTrackingTouch in Class com.ylFunTone.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onStopTrackingTouch in Class com.ylFunTone.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class com.ylFunTone.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.ylFunTone.SetActivity
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.ylFunTone.SetActivity
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.ylFunTone.SetActivity
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.ylFunXmas.AlbumActivity
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.ylFunXmas.AlbumActivity
+[WARNING] [32mVERBOSE[0m Callback method :onItemClick in Class com.ylFunXmas.AlbumActivity
+[WARNING] [32mVERBOSE[0m Callback method :onItemLongClick in Class com.ylFunXmas.AlbumActivity
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.ylFunXmas.AlbumActivity
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.ylFunXmas.AlbumActivity
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.ylFunXmas.AlbumActivity
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.ylFunXmas.DownloadedActivity
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.ylFunXmas.DownloadedActivity
+[WARNING] [32mVERBOSE[0m Callback method :onItemClick in Class com.ylFunXmas.DownloadedActivity
+[WARNING] [32mVERBOSE[0m Callback method :onItemLongClick in Class com.ylFunXmas.DownloadedActivity
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.ylFunXmas.DownloadedActivity
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.ylFunXmas.DownloadedActivity
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.ylFunXmas.DownloadedActivity
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.ylFunXmas.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class com.ylFunXmas.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.ylFunXmas.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.ylFunXmas.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.ylFunXmas.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.ylFunXmas.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onProgressChanged in Class com.ylFunXmas.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onStartTrackingTouch in Class com.ylFunXmas.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onStopTrackingTouch in Class com.ylFunXmas.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class com.ylFunXmas.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.ylFunXmas.SetActivity
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.ylFunXmas.SetActivity
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.ylFunXmas.SetActivity
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.ylFunny.AlbumActivity
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.ylFunny.AlbumActivity
+[WARNING] [32mVERBOSE[0m Callback method :onItemClick in Class com.ylFunny.AlbumActivity
+[WARNING] [32mVERBOSE[0m Callback method :onItemLongClick in Class com.ylFunny.AlbumActivity
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.ylFunny.AlbumActivity
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.ylFunny.AlbumActivity
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.ylFunny.AlbumActivity
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.ylFunny.DownloadedActivity
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.ylFunny.DownloadedActivity
+[WARNING] [32mVERBOSE[0m Callback method :onItemClick in Class com.ylFunny.DownloadedActivity
+[WARNING] [32mVERBOSE[0m Callback method :onItemLongClick in Class com.ylFunny.DownloadedActivity
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.ylFunny.DownloadedActivity
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.ylFunny.DownloadedActivity
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.ylFunny.DownloadedActivity
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.ylFunny.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class com.ylFunny.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.ylFunny.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.ylFunny.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.ylFunny.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.ylFunny.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onProgressChanged in Class com.ylFunny.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onStartTrackingTouch in Class com.ylFunny.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onStopTrackingTouch in Class com.ylFunny.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class com.ylFunny.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.ylFunny.SetActivity
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.ylFunny.SetActivity
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.ylFunny.SetActivity
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.ylIslam.AlbumActivity
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.ylIslam.AlbumActivity
+[WARNING] [32mVERBOSE[0m Callback method :onItemClick in Class com.ylIslam.AlbumActivity
+[WARNING] [32mVERBOSE[0m Callback method :onItemLongClick in Class com.ylIslam.AlbumActivity
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.ylIslam.AlbumActivity
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.ylIslam.AlbumActivity
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.ylIslam.AlbumActivity
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.ylIslam.DownloadedActivity
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.ylIslam.DownloadedActivity
+[WARNING] [32mVERBOSE[0m Callback method :onItemClick in Class com.ylIslam.DownloadedActivity
+[WARNING] [32mVERBOSE[0m Callback method :onItemLongClick in Class com.ylIslam.DownloadedActivity
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.ylIslam.DownloadedActivity
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.ylIslam.DownloadedActivity
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.ylIslam.DownloadedActivity
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.ylIslam.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class com.ylIslam.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.ylIslam.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.ylIslam.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.ylIslam.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.ylIslam.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onProgressChanged in Class com.ylIslam.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onStartTrackingTouch in Class com.ylIslam.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onStopTrackingTouch in Class com.ylIslam.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class com.ylIslam.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.ylIslam.SetActivity
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.ylIslam.SetActivity
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.ylIslam.SetActivity
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.ylKOF.AlbumActivity
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.ylKOF.AlbumActivity
+[WARNING] [32mVERBOSE[0m Callback method :onItemClick in Class com.ylKOF.AlbumActivity
+[WARNING] [32mVERBOSE[0m Callback method :onItemLongClick in Class com.ylKOF.AlbumActivity
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.ylKOF.AlbumActivity
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.ylKOF.AlbumActivity
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.ylKOF.AlbumActivity
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.ylKOF.DownloadedActivity
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.ylKOF.DownloadedActivity
+[WARNING] [32mVERBOSE[0m Callback method :onItemClick in Class com.ylKOF.DownloadedActivity
+[WARNING] [32mVERBOSE[0m Callback method :onItemLongClick in Class com.ylKOF.DownloadedActivity
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.ylKOF.DownloadedActivity
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.ylKOF.DownloadedActivity
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.ylKOF.DownloadedActivity
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.ylKOF.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class com.ylKOF.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.ylKOF.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.ylKOF.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.ylKOF.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.ylKOF.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onProgressChanged in Class com.ylKOF.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onStartTrackingTouch in Class com.ylKOF.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onStopTrackingTouch in Class com.ylKOF.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class com.ylKOF.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.ylKOF.SetActivity
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.ylKOF.SetActivity
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.ylKOF.SetActivity
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.ylMSBeats.AlbumActivity
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.ylMSBeats.AlbumActivity
+[WARNING] [32mVERBOSE[0m Callback method :onItemClick in Class com.ylMSBeats.AlbumActivity
+[WARNING] [32mVERBOSE[0m Callback method :onItemLongClick in Class com.ylMSBeats.AlbumActivity
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.ylMSBeats.AlbumActivity
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.ylMSBeats.AlbumActivity
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.ylMSBeats.AlbumActivity
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.ylMSBeats.DownloadedActivity
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.ylMSBeats.DownloadedActivity
+[WARNING] [32mVERBOSE[0m Callback method :onItemClick in Class com.ylMSBeats.DownloadedActivity
+[WARNING] [32mVERBOSE[0m Callback method :onItemLongClick in Class com.ylMSBeats.DownloadedActivity
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.ylMSBeats.DownloadedActivity
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.ylMSBeats.DownloadedActivity
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.ylMSBeats.DownloadedActivity
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.ylMSBeats.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class com.ylMSBeats.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.ylMSBeats.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.ylMSBeats.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.ylMSBeats.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.ylMSBeats.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onProgressChanged in Class com.ylMSBeats.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onStartTrackingTouch in Class com.ylMSBeats.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onStopTrackingTouch in Class com.ylMSBeats.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class com.ylMSBeats.PlayerActivity
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.ylMSBeats.SetActivity
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.ylMSBeats.SetActivity
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.ylMSBeats.SetActivity
+Result for benign-app-85-C551C088CD78F8515E9166F47CFE5C54F9B5D1D2A5D0A78D220696449AC342BA.apkcom.yl4dRing

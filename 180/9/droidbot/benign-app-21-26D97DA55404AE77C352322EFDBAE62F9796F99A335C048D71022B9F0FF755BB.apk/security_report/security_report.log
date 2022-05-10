@@ -1,0 +1,393 @@
+DUA-Forensics args to Soot: -w -cp /home/hcosta/bench/benchmark/libs/droidfax.jar:/home/hcosta/Android/Sdk/platforms/android-28/android.jar -p cg verbose:false,implicit-entry:true -p cg.spark verbose:false,on-fly-cg:true,rta:false -d /home/hcosta/bench/benchmark/trace/180/5/droidbot/benign-app-21-26D97DA55404AE77C352322EFDBAE62F9796F99A335C048D71022B9F0FF755BB.apk.logcat -process-dir /home/hcosta/bench/benchmark/data/input/benign-app-21-26D97DA55404AE77C352322EFDBAE62F9796F99A335C048D71022B9F0FF755BB.apk 
+Soot started on Thu Apr 21 12:38:57 CEST 2022
+Warning: com.ironsource.mobilcore.BaseFlowBasedAdUnit is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+Warning: winterwell.bob.BuildTask is a phantom class!
+Warning: org.apache.http.client.methods.HttpUriRequest is a phantom class!
+Warning: org.apache.http.HttpResponse is a phantom class!
+Warning: org.apache.http.HttpEntity is a phantom class!
+Warning: org.apache.http.NameValuePair is a phantom class!
+Warning: org.apache.http.impl.client.BasicCookieStore is a phantom class!
+Warning: org.apache.http.impl.cookie.BasicClientCookie is a phantom class!
+Warning: org.apache.http.cookie.Cookie is a phantom class!
+Warning: org.apache.http.impl.client.AbstractHttpClient is a phantom class!
+Warning: org.apache.http.impl.client.DefaultHttpClient is a phantom class!
+Warning: org.apache.http.conn.ClientConnectionManager is a phantom class!
+Warning: org.apache.http.client.ResponseHandler is a phantom class!
+Warning: org.apache.http.protocol.HttpContext is a phantom class!
+Warning: org.apache.http.client.ClientProtocolException is a phantom class!
+Warning: org.apache.http.HttpRequestInterceptor is a phantom class!
+Warning: org.apache.http.HttpRequest is a phantom class!
+Warning: org.apache.http.HttpException is a phantom class!
+Warning: org.apache.http.HttpResponseInterceptor is a phantom class!
+Warning: org.apache.http.entity.HttpEntityWrapper is a phantom class!
+Warning: org.apache.http.Header is a phantom class!
+Warning: junit.framework.TestCase is a phantom class!
+Warning: junit.framework.TestResult is a phantom class!
+Warning: org.apache.http.client.HttpClient is a phantom class!
+Warning: org.apache.http.HeaderElement is a phantom class!
+Warning: org.apache.http.HttpEntityEnclosingRequest is a phantom class!
+Warning: org.apache.http.HttpHost is a phantom class!
+Warning: org.apache.http.RequestLine is a phantom class!
+Warning: org.apache.http.StatusLine is a phantom class!
+Warning: org.apache.http.client.CookieStore is a phantom class!
+Warning: org.apache.http.client.entity.UrlEncodedFormEntity is a phantom class!
+Warning: org.apache.http.client.methods.HttpDelete is a phantom class!
+Warning: org.apache.http.client.methods.HttpEntityEnclosingRequestBase is a phantom class!
+Warning: org.apache.http.client.methods.HttpGet is a phantom class!
+Warning: org.apache.http.client.methods.HttpPost is a phantom class!
+Warning: org.apache.http.client.methods.HttpPut is a phantom class!
+Warning: org.apache.http.conn.scheme.PlainSocketFactory is a phantom class!
+Warning: org.apache.http.conn.scheme.Scheme is a phantom class!
+Warning: org.apache.http.conn.scheme.SchemeRegistry is a phantom class!
+Warning: org.apache.http.entity.ByteArrayEntity is a phantom class!
+Warning: org.apache.http.impl.conn.tsccm.ThreadSafeClientConnManager is a phantom class!
+Warning: org.apache.http.impl.cookie.DateParseException is a phantom class!
+Warning: org.apache.http.impl.cookie.DateUtils is a phantom class!
+Warning: org.apache.http.message.BasicHeader is a phantom class!
+Warning: org.apache.http.message.BasicNameValuePair is a phantom class!
+Warning: org.apache.http.params.BasicHttpParams is a phantom class!
+Warning: org.apache.http.protocol.BasicHttpContext is a phantom class!
+Warning: org.apache.http.util.EntityUtils is a phantom class!
+Warning: org.junit.Test is a phantom class!
+Warning: org.scribe.http.Request$Verb is a phantom class!
+Warning: org.scribe.http.Request is a phantom class!
+Warning: org.scribe.http.Response is a phantom class!
+Warning: org.scribe.oauth.Scribe is a phantom class!
+Warning: org.scribe.oauth.Token is a phantom class!
+Warning: winterwell.bob.tasks.CompileTask is a phantom class!
+Warning: winterwell.bob.tasks.CopyTask is a phantom class!
+Warning: winterwell.bob.tasks.GitTask is a phantom class!
+Warning: winterwell.bob.tasks.JarTask is a phantom class!
+Warning: winterwell.bob.tasks.JavaDocTask is a phantom class!
+Warning: winterwell.utils.Printer is a phantom class!
+Warning: winterwell.utils.StringUtils is a phantom class!
+Warning: winterwell.utils.TodoException is a phantom class!
+Warning: winterwell.utils.Utils is a phantom class!
+Warning: winterwell.utils.containers.ArrayMap is a phantom class!
+Warning: winterwell.utils.io.FileUtils is a phantom class!
+Warning: winterwell.utils.io.XStreamBinaryConverter is a phantom class!
+No main class given. Inferred 'winterwell.jtwitter.TwitterTest' as main class.
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.1 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+hcai's internal transform
+Running static analysis for security-relevant feature characterization
+[GatorHierarchy] [32mVERBOSE[0m [HIER] All classes: 1989
+[GatorHierarchy] [32mVERBOSE[0m [App: 655, Lib : 1266, Phantom: 68]
+[GatorHierarchy] [32mVERBOSE[0m [HIER] Activities: 21, lib activities: 2
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App views: 2, Lib views: 14
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App Dialogs: 1, Lib Dialogs: 4
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing starting at 1650537538560
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing finished at 1650537541850
+[Instantiated app classes] [32mVERBOSE[0m total number: 547
+[WARNING] [32mVERBOSE[0m Callback method :onBackPressed in Class ru.qixi.android.smartrabbits.SmartRabbits added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class ru.qixi.android.smartrabbits.SmartRabbits added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class ru.qixi.android.smartrabbits.SmartRabbits added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class ru.qixi.android.smartrabbits.SmartRabbits added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class ru.qixi.android.smartrabbits.SmartRabbits added
+[WARNING] [32mVERBOSE[0m Callback method :onSaveInstanceState in Class ru.qixi.android.smartrabbits.SmartRabbits added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class ru.qixi.android.smartrabbits.SmartRabbits added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.openfeint.internal.ui.WebNav added
+[WARNING] [32mVERBOSE[0m Callback method :onWindowFocusChanged in Class com.openfeint.internal.ui.WebNav added
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class com.openfeint.internal.ui.WebNav added
+[WARNING] [32mVERBOSE[0m Callback method :onRestoreInstanceState in Class com.openfeint.internal.ui.WebNav added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.openfeint.internal.ui.WebNav added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.openfeint.internal.ui.WebNav added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.openfeint.internal.ui.WebNav added
+[WARNING] [32mVERBOSE[0m Callback method :onSaveInstanceState in Class com.openfeint.internal.ui.WebNav added
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class com.openfeint.internal.ui.Settings added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.openfeint.internal.ui.Settings added
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class com.openfeint.internal.ui.NestedWindow added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.openfeint.internal.ui.NativeBrowser added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class ru.qixi.android.openfeint.Main added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class ru.qixi.android.openfeint.Main added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class ru.qixi.android.openfeint.AchievementExplorer added
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class ru.qixi.android.openfeint.AchievementExplorer added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class ru.qixi.android.openfeint.ScoreExplorer added
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class ru.qixi.android.openfeint.ScoreExplorer added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.openfeint.internal.ui.WebNav added
+[WARNING] [32mVERBOSE[0m Callback method :onWindowFocusChanged in Class com.openfeint.internal.ui.WebNav added
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class com.openfeint.internal.ui.WebNav added
+[WARNING] [32mVERBOSE[0m Callback method :onRestoreInstanceState in Class com.openfeint.internal.ui.WebNav added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.openfeint.internal.ui.WebNav added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.openfeint.internal.ui.WebNav added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.openfeint.internal.ui.WebNav added
+[WARNING] [32mVERBOSE[0m Callback method :onSaveInstanceState in Class com.openfeint.internal.ui.WebNav added
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class com.openfeint.internal.ui.IntroFlow added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.openfeint.internal.ui.WebNav added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class ru.qixi.android.openfeint.MainActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.openfeint.internal.ui.WebNav added
+[WARNING] [32mVERBOSE[0m Callback method :onWindowFocusChanged in Class com.openfeint.internal.ui.WebNav added
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class com.openfeint.internal.ui.WebNav added
+[WARNING] [32mVERBOSE[0m Callback method :onRestoreInstanceState in Class com.openfeint.internal.ui.WebNav added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.openfeint.internal.ui.WebNav added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.openfeint.internal.ui.WebNav added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.openfeint.internal.ui.WebNav added
+[WARNING] [32mVERBOSE[0m Callback method :onSaveInstanceState in Class com.openfeint.internal.ui.WebNav added
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class com.openfeint.internal.ui.WebNav added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.openfeint.internal.ui.WebNav added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class ru.qixi.android.openfeint.CloudStorageInvestigator added
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class com.openfeint.internal.ui.NestedWindow added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.openfeint.internal.ui.NestedWindow added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class ru.qixi.android.openfeint.CloudStorageExplorer added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateOptionsMenu in Class ru.qixi.android.openfeint.CloudStorageExplorer added
+[WARNING] [32mVERBOSE[0m Callback method :onOptionsItemSelected in Class ru.qixi.android.openfeint.CloudStorageExplorer added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class ru.qixi.android.openfeint.CloudStorageExplorer added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class ru.qixi.android.openfeint.OpenFeintApplication added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.openfeint.internal.ui.WebNav added
+[WARNING] [32mVERBOSE[0m Callback method :onWindowFocusChanged in Class com.openfeint.internal.ui.WebNav added
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class com.openfeint.internal.ui.WebNav added
+[WARNING] [32mVERBOSE[0m Callback method :onPrepareOptionsMenu in Class com.openfeint.api.ui.Dashboard added
+[WARNING] [32mVERBOSE[0m Callback method :onRestoreInstanceState in Class com.openfeint.internal.ui.WebNav added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.openfeint.internal.ui.WebNav added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.openfeint.internal.ui.WebNav added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateOptionsMenu in Class com.openfeint.api.ui.Dashboard added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.openfeint.api.ui.Dashboard added
+[WARNING] [32mVERBOSE[0m Callback method :onSaveInstanceState in Class com.openfeint.internal.ui.WebNav added
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class com.openfeint.internal.ui.WebNav added
+[WARNING] [32mVERBOSE[0m Callback method :onOptionsItemSelected in Class com.openfeint.api.ui.Dashboard added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.openfeint.api.ui.Dashboard added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class ru.qixi.android.openfeint.ScorePoster added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class ru.qixi.android.openfeint.TimeExplorer added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class ru.qixi.android.openfeint.UserExplorer added
+[WARNING] [32mVERBOSE[0m Callback method :onLayout in Class com.openfeint.internal.ui.PadLogoImageView added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class ru.qixi.android.openfeint.AddScore added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class ru.qixi.android.facebook.ShareOnFacebook added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class ru.qixi.android.openfeint.AchievementInvestigator added
+[WARNING] [32mVERBOSE[0m Callback method :onNewIntent in Class ru.qixi.android.twitter.ShareOnTwitter added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class ru.qixi.android.twitter.ShareOnTwitter added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class ru.qixi.android.openfeint.LeaderboardExplorer added
+0 ICC links found and 0 cg edges added due to ICC links
+dynamic conflated call graph: 688 methods; 688 nodes; 1100 edges.
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=89
+23 taint flow paths FOUND from <android.content.ContextWrapper: android.content.res.AssetManager getAssets()> to <android.content.res.AssetManager: java.io.InputStream open(java.lang.String)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <java.io.File: java.lang.String getCanonicalPath()> to <java.lang.String: boolean startsWith(java.lang.String)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=4
+1 taint flow paths FOUND from <android.app.Activity: android.view.WindowManager getWindowManager()> to <android.content.res.Resources: java.io.InputStream openRawResource(int)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=8
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=8
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <org.apache.http.conn.scheme.PlainSocketFactory: org.apache.http.conn.scheme.PlainSocketFactory getSocketFactory()> to <org.apache.http.conn.scheme.SchemeRegistry: org.apache.http.conn.scheme.Scheme register(org.apache.http.conn.scheme.Scheme)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <java.lang.StringBuilder: java.lang.String toString()> to <android.util.Log: int i(java.lang.String,java.lang.String)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=8
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.content.ContextWrapper: android.content.pm.PackageManager getPackageManager()> to <java.lang.String: boolean startsWith(java.lang.String)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=4
+1 taint flow paths FOUND from <android.content.ContextWrapper: android.content.res.Resources getResources()> to <android.content.res.Resources: java.io.InputStream openRawResource(int)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.view.LayoutInflater: android.view.View inflate(int,android.view.ViewGroup)> to <android.widget.TextView: void setText(java.lang.CharSequence)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <java.util.AbstractList: java.util.Iterator iterator()> to <java.lang.String: boolean startsWith(java.lang.String)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.content.ContextWrapper: java.io.File getFileStreamPath(java.lang.String)> to <java.lang.String: boolean startsWith(java.lang.String)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.app.Activity: java.lang.Object getSystemService(java.lang.String)> to <android.widget.TextView: void setText(java.lang.CharSequence)>
+maxpossibleFlows=78
+maxpossibleFlows=17
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <java.util.HashSet: java.util.Iterator iterator()> to <java.lang.String: boolean startsWith(java.lang.String)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <java.security.Provider: java.lang.Object put(java.lang.Object,java.lang.Object)> to <android.view.View: void setClickable(boolean)>
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.content.ContextWrapper: java.lang.String getPackageName()> to <android.util.Log: int i(java.lang.String,java.lang.String)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <java.lang.StringBuilder: java.lang.String toString()> to <android.util.Log: int i(java.lang.String,java.lang.String)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=89
+23 taint flow paths FOUND from <android.content.ContextWrapper: android.content.res.AssetManager getAssets()> to <android.content.res.AssetManager: java.io.InputStream open(java.lang.String)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <java.security.Provider: java.lang.Object put(java.lang.Object,java.lang.Object)> to <android.view.View: void setClickable(boolean)>
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.view.LayoutInflater: android.view.View inflate(int,android.view.ViewGroup)> to <android.widget.TextView: void setText(java.lang.CharSequence)>
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.view.LayoutInflater: android.view.View inflate(int,android.view.ViewGroup)> to <android.widget.ImageView: void setVisibility(int)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <java.io.File: java.lang.String getCanonicalPath()> to <java.lang.String: boolean startsWith(java.lang.String)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=4
+1 taint flow paths FOUND from <android.app.Activity: android.view.WindowManager getWindowManager()> to <android.content.res.Resources: java.io.InputStream openRawResource(int)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <java.security.Provider: java.lang.Object put(java.lang.Object,java.lang.Object)> to <android.app.Activity: void setContentView(android.view.View)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <org.apache.http.conn.scheme.PlainSocketFactory: org.apache.http.conn.scheme.PlainSocketFactory getSocketFactory()> to <org.apache.http.conn.scheme.SchemeRegistry: org.apache.http.conn.scheme.Scheme register(org.apache.http.conn.scheme.Scheme)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+Result for benign-app-21-26D97DA55404AE77C352322EFDBAE62F9796F99A335C048D71022B9F0FF755BB.apkru.qixi.android.smartrabbits

@@ -1,0 +1,246 @@
+DUA-Forensics args to Soot: -w -cp /home/hcosta/bench/benchmark/libs/droidfax.jar:/home/hcosta/Android/Sdk/platforms/android-28/android.jar -p cg verbose:false,implicit-entry:true -p cg.spark verbose:false,on-fly-cg:true,rta:false -d /home/hcosta/bench/benchmark/trace/180/3/droidbot/benign-app-47-72ACC63208C5518BDF8E745BCA1B264866D27704D0B0CA89559CBE593A0D840A.apk.logcat -process-dir /home/hcosta/bench/benchmark/data/input/benign-app-47-72ACC63208C5518BDF8E745BCA1B264866D27704D0B0CA89559CBE593A0D840A.apk 
+Soot started on Wed Apr 20 23:50:04 CEST 2022
+Warning: com.ironsource.mobilcore.BaseFlowBasedAdUnit is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+Warning: org.apache.http.HttpEntity is a phantom class!
+Warning: org.apache.http.HttpHost is a phantom class!
+Warning: org.apache.http.HttpRequest is a phantom class!
+Warning: org.apache.http.HttpResponse is a phantom class!
+Warning: org.apache.http.StatusLine is a phantom class!
+Warning: org.apache.http.client.ClientProtocolException is a phantom class!
+Warning: org.apache.http.client.HttpClient is a phantom class!
+Warning: org.apache.http.client.methods.HttpGet is a phantom class!
+Warning: org.apache.http.impl.client.DefaultHttpClient is a phantom class!
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.0 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+hcai's internal transform
+Running static analysis for security-relevant feature characterization
+[GatorHierarchy] [32mVERBOSE[0m [HIER] All classes: 1055
+[GatorHierarchy] [32mVERBOSE[0m [App: 65, Lib : 978, Phantom: 12]
+[GatorHierarchy] [32mVERBOSE[0m [HIER] Activities: 9, lib activities: 3
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App views: 3, Lib views: 14
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App Dialogs: 0, Lib Dialogs: 3
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing starting at 1650491405514
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing finished at 1650491406174
+[Instantiated app classes] [32mVERBOSE[0m total number: 61
+[WARNING] [32mVERBOSE[0m Callback method :onTouch in Class com.zincfish.android.Screen added
+[WARNING] [32mVERBOSE[0m Callback method :surfaceCreated in Class com.zincfish.android.Screen added
+[WARNING] [32mVERBOSE[0m Callback method :surfaceDestroyed in Class com.zincfish.android.Screen added
+[WARNING] [32mVERBOSE[0m Callback method :surfaceChanged in Class com.zincfish.android.Screen added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.gau.screenguru.finger.GatherFinger added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.gau.screenguru.finger.GatherFinger added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.gau.screenguru.finger.mainmenu.StartScreenActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPrepareOptionsMenu in Class com.gau.screenguru.finger.mainmenu.StartScreenActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.gau.screenguru.finger.mainmenu.StartScreenActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateOptionsMenu in Class com.gau.screenguru.finger.mainmenu.StartScreenActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onOptionsItemSelected in Class com.gau.screenguru.finger.mainmenu.StartScreenActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onReceive in Class com.gau.screenguru.finger.service.BootReceiver added
+[WARNING] [32mVERBOSE[0m Callback method :onSharedPreferenceChanged in Class com.gau.screenguru.finger.mainmenu.SettingActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.gau.screenguru.finger.mainmenu.SettingActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onScroll in Class com.gau.screenguru.finger.unlockslide.SlidelockComponent added
+[WARNING] [32mVERBOSE[0m Callback method :onSingleTapUp in Class com.gau.screenguru.finger.unlockslide.SlidelockComponent added
+[WARNING] [32mVERBOSE[0m Callback method :onDown in Class com.gau.screenguru.finger.unlockslide.SlidelockComponent added
+[WARNING] [32mVERBOSE[0m Callback method :onShowPress in Class com.gau.screenguru.finger.unlockslide.SlidelockComponent added
+[WARNING] [32mVERBOSE[0m Callback method :onFling in Class com.gau.screenguru.finger.unlockslide.SlidelockComponent added
+[WARNING] [32mVERBOSE[0m Callback method :onLongPress in Class com.gau.screenguru.finger.unlockslide.SlidelockComponent added
+[WARNING] [32mVERBOSE[0m Callback method :onBind in Class com.gau.screenguru.finger.service.ScreenService added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.gau.screenguru.finger.service.ScreenService added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class com.gau.screenguru.finger.service.ScreenService added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.gau.screenguru.finger.mainmenu.PreviewActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onRestoreInstanceState in Class com.gau.screenguru.finger.unlockgesture.CreateGestureActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.gau.screenguru.finger.unlockgesture.CreateGestureActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onSaveInstanceState in Class com.gau.screenguru.finger.unlockgesture.CreateGestureActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.gau.screenguru.finger.Finger added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.gau.screenguru.finger.Finger added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.gau.screenguru.finger.Finger added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyUp in Class com.gau.screenguru.finger.Finger added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class com.gau.screenguru.finger.Finger added
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class com.gau.screenguru.finger.Finger added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.gau.screenguru.finger.Finger added
+[WARNING] [32mVERBOSE[0m Callback method :onGesturePerformed in Class com.gau.screenguru.finger.unlockgesture.GestureUnlockActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.gau.screenguru.finger.unlockgesture.GestureUnlockActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.gau.screenguru.finger.unlock9grid.CreatePatternActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.gau.screenguru.finger.mainmenu.Help added
+[WARNING] [32mVERBOSE[0m Callback method :onReceive in Class com.gau.screenguru.finger.service.ShutDownReceiver added
+0 ICC links found and 0 cg edges added due to ICC links
+dynamic conflated call graph: 139 methods; 139 nodes; 192 edges.
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.view.Display: int getWidth()> to <android.app.Activity: void setContentView(android.view.View)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.view.ContextThemeWrapper: android.content.res.Resources getResources()> to <android.widget.TextView: void setTextColor(int)>
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=3
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=3
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=3
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.content.ContextWrapper: android.content.res.Resources getResources()> to <android.content.res.Resources: java.io.InputStream openRawResource(int)>
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=3
+3 taint flow paths FOUND from <android.view.View: int getId()> to <android.widget.ImageView: void setImageBitmap(android.graphics.Bitmap)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.app.Activity: android.view.WindowManager getWindowManager()> to <android.app.Activity: void setContentView(android.view.View)>
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.view.View: android.content.Context getContext()> to <android.app.AlertDialog: void setMessage(java.lang.CharSequence)>
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.app.AlertDialog$Builder: android.app.AlertDialog create()> to <android.app.AlertDialog: void setMessage(java.lang.CharSequence)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.app.Activity: android.view.Window getWindow()> to <android.view.Window: void setFlags(int,int)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=10
+10 taint flow paths FOUND from <android.view.View: android.content.res.Resources getResources()> to <android.content.res.Resources: java.io.InputStream openRawResource(int)>
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.content.res.Resources: android.graphics.drawable.Drawable getDrawable(int)> to <android.widget.TextView: void setTextColor(int)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.view.Display: int getHeight()> to <android.app.Activity: void setContentView(android.view.View)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.view.ContextThemeWrapper: android.content.res.Resources getResources()> to <android.widget.TextView: void setTextColor(int)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.view.ContextThemeWrapper: android.content.res.Resources getResources()> to <android.widget.TextView: void setText(java.lang.CharSequence)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.view.ContextThemeWrapper: android.content.res.Resources getResources()> to <android.widget.ImageView: void setVisibility(int)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.view.View: android.content.Context getContext()> to <android.app.AlertDialog: void setMessage(java.lang.CharSequence)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.view.ContextThemeWrapper: android.content.res.Resources getResources()> to <android.widget.ImageView: void setImageDrawable(android.graphics.drawable.Drawable)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.app.Activity: android.view.Window getWindow()> to <android.view.Window: void setFlags(int,int)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=20
+20 taint flow paths FOUND from <android.view.ContextThemeWrapper: android.content.res.Resources getResources()> to <android.content.res.Resources: java.io.InputStream openRawResource(int)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.view.View: android.content.Context getContext()> to <android.app.AlertDialog: void setTitle(java.lang.CharSequence)>
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.view.Display: int getWidth()> to <android.app.Activity: void setContentView(android.view.View)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+3 taint flow paths FOUND from <android.view.View: int getId()> to <android.widget.ImageView: void setImageBitmap(android.graphics.Bitmap)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.view.View: android.content.Context getContext()> to <android.app.AlertDialog: void setButton(int,java.lang.CharSequence,android.content.DialogInterface$OnClickListener)>
+[WARNING] [32mVERBOSE[0m Callback method :onTouch in Class com.zincfish.android.Screen
+[WARNING] [32mVERBOSE[0m Callback method :surfaceChanged in Class com.zincfish.android.Screen
+[WARNING] [32mVERBOSE[0m Callback method :surfaceCreated in Class com.zincfish.android.Screen
+[WARNING] [32mVERBOSE[0m Callback method :surfaceDestroyed in Class com.zincfish.android.Screen
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.gau.screenguru.finger.unlockgesture.GestureUnlockActivity
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.gau.screenguru.finger.unlockgesture.GestureUnlockActivity
+[WARNING] [32mVERBOSE[0m Callback method :onGesturePerformed in Class com.gau.screenguru.finger.unlockgesture.GestureUnlockActivity
+[WARNING] [32mVERBOSE[0m Callback method :onDown in Class com.gau.screenguru.finger.unlockslide.SlidelockComponent
+[WARNING] [32mVERBOSE[0m Callback method :onFling in Class com.gau.screenguru.finger.unlockslide.SlidelockComponent
+[WARNING] [32mVERBOSE[0m Callback method :onLongPress in Class com.gau.screenguru.finger.unlockslide.SlidelockComponent
+[WARNING] [32mVERBOSE[0m Callback method :onScroll in Class com.gau.screenguru.finger.unlockslide.SlidelockComponent
+[WARNING] [32mVERBOSE[0m Callback method :onShowPress in Class com.gau.screenguru.finger.unlockslide.SlidelockComponent
+[WARNING] [32mVERBOSE[0m Callback method :onSingleTapUp in Class com.gau.screenguru.finger.unlockslide.SlidelockComponent
+Result for benign-app-47-72ACC63208C5518BDF8E745BCA1B264866D27704D0B0CA89559CBE593A0D840A.apkcom.gau.screenguru.finger

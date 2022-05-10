@@ -1,0 +1,28 @@
+DUA-Forensics args to Soot: -w -cp /home/hcosta/bench/benchmark/libs/droidfax.jar:/home/hcosta/Android/Sdk/platforms/android-28/android.jar -p cg verbose:false,implicit-entry:true -p cg.spark verbose:false,on-fly-cg:true,rta:false -d /home/hcosta/bench/benchmark/trace/180/1/droidbot/benign-app-49-75E6D38D05B0D27404863BB9B32DA36DC31BE2F6A3FE03D04216E70D58D79C72.apk.logcat -process-dir /home/hcosta/bench/benchmark/data/input/benign-app-49-75E6D38D05B0D27404863BB9B32DA36DC31BE2F6A3FE03D04216E70D58D79C72.apk 
+Soot started on Tue Apr 19 16:32:51 CEST 2022
+Warning: com.ironsource.mobilcore.BaseFlowBasedAdUnit is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+Warning: org.apache.tools.ant.BuildException is a phantom class!
+Warning: org.apache.tools.ant.Task is a phantom class!
+Warning: org.jdom.DefaultJDOMFactory is a phantom class!
+Warning: org.jdom.Element is a phantom class!
+Warning: org.jdom.Document is a phantom class!
+Warning: org.jdom.CDATA is a phantom class!
+Warning: org.jdom.Comment is a phantom class!
+Warning: org.jdom.Content is a phantom class!
+Warning: org.jdom.Namespace is a phantom class!
+Warning: org.jdom.Text is a phantom class!
+No main class given. Inferred 'org.htmlcleaner.CommandLine' as main class.
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.2 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 1.3 seconds.
+[Spark] Solution found in 1.3 seconds.
+hcai's internal transform
+Running static analysis for method/class coverage characterization
+0 ICC links found and 0 cg edges added due to ICC links
+dynamic conflated call graph: 179 methods; 179 nodes; 218 edges.
+feature-vector-key = benign-app-49-75E6D38D05B0D27404863BB9B32DA36DC31BE2F6A3FE03D04216E70D58D79C72.apk
+Result for benign-app-49-75E6D38D05B0D27404863BB9B32DA36DC31BE2F6A3FE03D04216E70D58D79C72.apkcom.nesnet.android.cantonese

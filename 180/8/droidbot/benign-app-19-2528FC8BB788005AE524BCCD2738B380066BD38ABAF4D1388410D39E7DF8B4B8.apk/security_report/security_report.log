@@ -1,0 +1,220 @@
+DUA-Forensics args to Soot: -w -cp /home/hcosta/bench/benchmark/libs/droidfax.jar:/home/hcosta/Android/Sdk/platforms/android-28/android.jar -p cg verbose:false,implicit-entry:true -p cg.spark verbose:false,on-fly-cg:true,rta:false -d /home/hcosta/bench/benchmark/trace/180/4/droidbot/benign-app-19-2528FC8BB788005AE524BCCD2738B380066BD38ABAF4D1388410D39E7DF8B4B8.apk.logcat -process-dir /home/hcosta/bench/benchmark/data/input/benign-app-19-2528FC8BB788005AE524BCCD2738B380066BD38ABAF4D1388410D39E7DF8B4B8.apk 
+Soot started on Thu Apr 21 06:07:20 CEST 2022
+Warning: com.ironsource.mobilcore.BaseFlowBasedAdUnit is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.0 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+hcai's internal transform
+Running static analysis for security-relevant feature characterization
+[GatorHierarchy] [32mVERBOSE[0m [HIER] All classes: 1115
+[GatorHierarchy] [32mVERBOSE[0m [App: 167, Lib : 945, Phantom: 3]
+[GatorHierarchy] [32mVERBOSE[0m [HIER] Activities: 1, lib activities: 1
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App views: 2, Lib views: 7
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App Dialogs: 0, Lib Dialogs: 2
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing starting at 1650514041645
+array element type (narr range): int
+array element type (narr range): int
+array element type (narr range): int
+array element type (narr range): int
+array element type: (filled narr)int
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing finished at 1650514045011
+[Instantiated app classes] [32mVERBOSE[0m total number: 120
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class Mag3DLite.SF3D.GameMain added
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class Mag3DLite.SF3D.GameMain added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class Mag3DLite.SF3D.GameMain added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class Mag3DLite.SF3D.GameMain added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyUp in Class Mag3DLite.SF3D.GameMain added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class Mag3DLite.SF3D.GameMain added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class Mag3DLite.SF3D.GameMain added
+[WARNING] [32mVERBOSE[0m Callback method :onWindowFocusChanged in Class Mag3DLite.Renderer.GLSurfaceView added
+[WARNING] [32mVERBOSE[0m Callback method :surfaceCreated in Class Mag3DLite.Renderer.GLSurfaceView added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class Mag3DLite.Renderer.GLSurfaceView added
+[WARNING] [32mVERBOSE[0m Callback method :onDetachedFromWindow in Class Mag3DLite.Renderer.GLSurfaceView added
+[WARNING] [32mVERBOSE[0m Callback method :surfaceDestroyed in Class Mag3DLite.Renderer.GLSurfaceView added
+[WARNING] [32mVERBOSE[0m Callback method :surfaceChanged in Class Mag3DLite.Renderer.GLSurfaceView added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyUp in Class Mag3DLite.Renderer.GLSurfaceView added
+[WARNING] [32mVERBOSE[0m Callback method :handleMessage in Class Mag3DLite.Core.ViewAnimator added
+0 ICC links found and 0 cg edges added due to ICC links
+dynamic conflated call graph: 507 methods; 507 nodes; 961 edges.
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.content.ContextWrapper: android.content.res.Resources getResources()> to <android.content.res.Resources: java.io.InputStream openRawResource(int)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+2 taint flow paths FOUND from <java.lang.String: java.lang.String trim()> to <android.util.Log: int i(java.lang.String,java.lang.String)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.content.res.Resources: int getIdentifier(java.lang.String,java.lang.String,java.lang.String)> to <android.content.res.Resources: java.io.InputStream openRawResource(int)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=156
+156 taint flow paths FOUND from <java.util.Vector: java.lang.Object get(int)> to <java.util.Vector: java.lang.Object set(int,java.lang.Object)>
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.app.Activity: java.lang.Object getSystemService(java.lang.String)> to <android.app.Activity: void setContentView(android.view.View)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+2 taint flow paths FOUND from <java.lang.StringBuilder: java.lang.String toString()> to <android.util.Log: int i(java.lang.String,java.lang.String)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.os.PowerManager: android.os.PowerManager$WakeLock newWakeLock(int,java.lang.String)> to <android.app.Activity: void setContentView(android.view.View)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=3
+3 taint flow paths FOUND from <java.lang.Class: java.lang.reflect.Constructor getConstructor(java.lang.Class[])> to <android.util.Log: int i(java.lang.String,java.lang.String)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.app.Activity: android.view.Window getWindow()> to <android.view.Window: void setFlags(int,int)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.content.ContextWrapper: java.lang.String getPackageName()> to <android.content.res.Resources: java.io.InputStream openRawResource(int)>
+maxpossibleFlows=1
+maxpossibleFlows=28
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=156
+156 taint flow paths FOUND from <java.util.Vector: java.lang.Object get(int)> to <java.util.Vector: java.lang.Object set(int,java.lang.Object)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.content.ContextWrapper: android.content.res.Resources getResources()> to <android.content.res.Resources: java.io.InputStream openRawResource(int)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.app.Activity: java.lang.Object getSystemService(java.lang.String)> to <android.app.Activity: void setContentView(android.view.View)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.app.Activity: android.view.Window getWindow()> to <android.view.Window: void setFlags(int,int)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+2 taint flow paths FOUND from <java.lang.String: java.lang.String trim()> to <android.util.Log: int i(java.lang.String,java.lang.String)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=112
+[WARNING] [32mVERBOSE[0m Callback method :onDetachedFromWindow in Class Mag3DLite.Renderer.GLSurfaceView
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class Mag3DLite.Renderer.GLSurfaceView
+[WARNING] [32mVERBOSE[0m Callback method :onKeyUp in Class Mag3DLite.Renderer.GLSurfaceView
+[WARNING] [32mVERBOSE[0m Callback method :onWindowFocusChanged in Class Mag3DLite.Renderer.GLSurfaceView
+[WARNING] [32mVERBOSE[0m Callback method :surfaceChanged in Class Mag3DLite.Renderer.GLSurfaceView
+[WARNING] [32mVERBOSE[0m Callback method :surfaceCreated in Class Mag3DLite.Renderer.GLSurfaceView
+[WARNING] [32mVERBOSE[0m Callback method :surfaceDestroyed in Class Mag3DLite.Renderer.GLSurfaceView
+Result for benign-app-19-2528FC8BB788005AE524BCCD2738B380066BD38ABAF4D1388410D39E7DF8B4B8.apkMag3DLite.SF3D

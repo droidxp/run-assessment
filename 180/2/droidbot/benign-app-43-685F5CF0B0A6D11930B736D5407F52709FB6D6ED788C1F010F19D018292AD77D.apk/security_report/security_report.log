@@ -1,0 +1,68 @@
+DUA-Forensics args to Soot: -w -cp /home/handrick/Documents/UNB/benchmark/libs/droidfax.jar:/home/handrick/Android/Sdk/platforms/android-19/android.jar -p cg verbose:false,implicit-entry:true -p cg.spark verbose:false,on-fly-cg:true,rta:false -d /home/handrick/Documents/UNB/benchmark/trace/180/2/droidbot/benign-app-43-685F5CF0B0A6D11930B736D5407F52709FB6D6ED788C1F010F19D018292AD77D.apk.logcat -process-dir /home/handrick/Documents/UNB/benchmark/data/input/benign-app-43-685F5CF0B0A6D11930B736D5407F52709FB6D6ED788C1F010F19D018292AD77D.apk 
+Soot started on Fri Apr 15 12:42:20 CEST 2022
+Warning: com.ironsource.mobilcore.BaseFlowBasedAdUnit is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.0 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+hcai's internal transform
+Running static analysis for security-relevant feature characterization
+[GatorHierarchy] [32mVERBOSE[0m [HIER] All classes: 878
+[GatorHierarchy] [32mVERBOSE[0m [App: 119, Lib : 756, Phantom: 3]
+[GatorHierarchy] [32mVERBOSE[0m [HIER] Activities: 7, lib activities: 1
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App views: 4, Lib views: 21
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App Dialogs: 0, Lib Dialogs: 4
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing starting at 1650019341253
+second round from stmt: $u19#190 = $u19#189[$u8#61]
+second round from stmt: $u19#190 = $u19#189[$u8#61]
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing finished at 1650019342924
+[Instantiated app classes] [32mVERBOSE[0m total number: 129
+[WARNING] [32mVERBOSE[0m Callback method :finish in Class com.omesoft.childhooddreams.ShowPicture added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.omesoft.childhooddreams.ShowPicture added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.omesoft.childhooddreams.ShowPicture added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.omesoft.childhooddreams.WebAbout added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateDialog in Class com.omesoft.childhooddreams.game.Jigsaw added
+[WARNING] [32mVERBOSE[0m Callback method :finish in Class com.omesoft.childhooddreams.game.Jigsaw added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.omesoft.childhooddreams.game.Jigsaw added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.omesoft.childhooddreams.game.Jigsaw added
+[WARNING] [32mVERBOSE[0m Callback method :finish in Class com.omesoft.childhooddreams.First added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.omesoft.childhooddreams.First added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.omesoft.childhooddreams.First added
+[WARNING] [32mVERBOSE[0m Callback method :getItem in Class com.omesoft.childhooddreams.ShowAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getView in Class com.omesoft.childhooddreams.ShowAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getCount in Class com.omesoft.childhooddreams.ShowAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getItemId in Class com.omesoft.childhooddreams.ShowAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.omesoft.childhooddreams.Setting added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.omesoft.childhooddreams.Setting added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.omesoft.childhooddreams.Setting added
+[WARNING] [32mVERBOSE[0m Callback method :finish in Class com.omesoft.childhooddreams.AddPic added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.omesoft.childhooddreams.AddPic added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.omesoft.childhooddreams.AddPic added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.omesoft.childhooddreams.ActivityMain added
+0 ICC links found and 0 cg edges added due to ICC links
+dynamic conflated call graph: 47 methods; 47 nodes; 51 edges.
+maxpossibleFlows=5
+5 taint flow paths FOUND from <java.lang.StringBuilder: java.lang.String toString()> to <android.util.Log: int i(java.lang.String,java.lang.String)>
+maxpossibleFlows=1
+maxpossibleFlows=5
+5 taint flow paths FOUND from <java.text.DateFormat: java.lang.String format(java.util.Date)> to <android.util.Log: int i(java.lang.String,java.lang.String)>
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.webkit.WebView: android.webkit.WebSettings getSettings()> to <android.webkit.WebSettings: void setJavaScriptEnabled(boolean)>
+maxpossibleFlows=5
+5 taint flow paths FOUND from <java.lang.StringBuilder: java.lang.String toString()> to <android.util.Log: int i(java.lang.String,java.lang.String)>
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.webkit.WebView: android.webkit.WebSettings getSettings()> to <android.webkit.WebSettings: void setJavaScriptEnabled(boolean)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.omesoft.childhooddreams.Setting
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.omesoft.childhooddreams.Setting
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.omesoft.childhooddreams.Setting
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.omesoft.childhooddreams.Setting
+Result for benign-app-43-685F5CF0B0A6D11930B736D5407F52709FB6D6ED788C1F010F19D018292AD77D.apkcom.omesoft.childhooddreams

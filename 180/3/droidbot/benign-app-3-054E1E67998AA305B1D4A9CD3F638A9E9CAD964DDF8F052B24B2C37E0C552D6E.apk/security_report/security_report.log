@@ -1,0 +1,123 @@
+DUA-Forensics args to Soot: -w -cp /home/handrick/Documents/UNB/benchmark/libs/droidfax.jar:/home/handrick/Android/Sdk/platforms/android-19/android.jar -p cg verbose:false,implicit-entry:true -p cg.spark verbose:false,on-fly-cg:true,rta:false -d /home/handrick/Documents/UNB/benchmark/trace/180/3/droidbot/benign-app-3-054E1E67998AA305B1D4A9CD3F638A9E9CAD964DDF8F052B24B2C37E0C552D6E.apk.logcat -process-dir /home/handrick/Documents/UNB/benchmark/data/input/benign-app-3-054E1E67998AA305B1D4A9CD3F638A9E9CAD964DDF8F052B24B2C37E0C552D6E.apk 
+Soot started on Sat Apr 16 00:31:29 CEST 2022
+Warning: com.ironsource.mobilcore.BaseFlowBasedAdUnit is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.0 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+hcai's internal transform
+Running static analysis for security-relevant feature characterization
+[GatorHierarchy] [32mVERBOSE[0m [HIER] All classes: 1016
+[GatorHierarchy] [32mVERBOSE[0m [App: 102, Lib : 911, Phantom: 3]
+[GatorHierarchy] [32mVERBOSE[0m [HIER] Activities: 10, lib activities: 5
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App views: 8, Lib views: 18
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App Dialogs: 0, Lib Dialogs: 3
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing starting at 1650061890939
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing finished at 1650061899992
+[Instantiated app classes] [32mVERBOSE[0m total number: 133
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.textualindices.refractionlite.SolutionsActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.textualindices.refractionlite.LevelActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onNewIntent in Class com.textualindices.refractionlite.LevelActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.textualindices.refractionlite.LevelActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.textualindices.refractionlite.LevelActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.textualindices.refractionlite.LevelActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateOptionsMenu in Class com.textualindices.refractionlite.LevelActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onMenuOpened in Class com.textualindices.refractionlite.LevelActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.textualindices.refractionlite.LevelActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onRestart in Class com.textualindices.refractionlite.LevelActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onOptionsItemSelected in Class com.textualindices.refractionlite.LevelActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.textualindices.refractionlite.LevelActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onOptionsMenuClosed in Class com.textualindices.refractionlite.LevelActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateContextMenu in Class com.textualindices.refractionlite.SolutionsLocalActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.textualindices.refractionlite.SolutionsLocalActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onContextItemSelected in Class com.textualindices.refractionlite.SolutionsLocalActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDraw in Class com.textualindices.refractionlite.MenuViewBackup added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.textualindices.refractionlite.Options added
+[WARNING] [32mVERBOSE[0m Callback method :onPrepareDialogBuilder in Class com.textualindices.refractionlite.ListPreferenceMultiSelect added
+[WARNING] [32mVERBOSE[0m Callback method :onDialogClosed in Class com.textualindices.refractionlite.ListPreferenceMultiSelect added
+[WARNING] [32mVERBOSE[0m Callback method :setEntries in Class com.textualindices.refractionlite.ListPreferenceMultiSelect added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.textualindices.refractionlite.Menu added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.textualindices.refractionlite.Menu added
+[WARNING] [32mVERBOSE[0m Callback method :onScroll in Class com.textualindices.refractionlite.SolutionsOnlineActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.textualindices.refractionlite.SolutionsOnlineActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onScrollStateChanged in Class com.textualindices.refractionlite.SolutionsOnlineActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.textualindices.refractionlite.Credits added
+[WARNING] [32mVERBOSE[0m Callback method :onItemClick in Class com.textualindices.refractionlite.LevelSelectGridView added
+[WARNING] [32mVERBOSE[0m Callback method :onDraw in Class com.textualindices.refractionlite.LevelSelectGridView added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.textualindices.refractionlite.Help added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.textualindices.refractionlite.Help added
+[WARNING] [32mVERBOSE[0m Callback method :onReceive in Class com.aduru.sdk.receivers.AduruInstallReceiver added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.textualindices.refractionlite.SectorActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.textualindices.refractionlite.SectorActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.textualindices.refractionlite.SectorActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.textualindices.refractionlite.SectorActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.textualindices.refractionlite.LevelSelect added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.textualindices.refractionlite.LevelSelect added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.textualindices.refractionlite.LevelSelect added
+0 ICC links found and 0 cg edges added due to ICC links
+dynamic conflated call graph: 83 methods; 83 nodes; 104 edges.
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.content.ContextWrapper: android.content.Context getApplicationContext()> to <android.app.Activity: void setContentView(android.view.View)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.preference.PreferenceManager: android.content.SharedPreferences getDefaultSharedPreferences(android.content.Context)> to <android.view.View: void setKeepScreenOn(boolean)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.preference.PreferenceManager: android.content.SharedPreferences getDefaultSharedPreferences(android.content.Context)> to <android.view.View: void setKeepScreenOn(boolean)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.content.ContextWrapper: android.content.Context getApplicationContext()> to <android.app.Activity: void setContentView(android.view.View)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.content.ContextWrapper: android.content.Context getApplicationContext()> to <android.app.Activity: void setVolumeControlStream(int)>
+[WARNING] [32mVERBOSE[0m Callback method :onDraw in Class com.textualindices.refractionlite.LevelSelectGridView
+[WARNING] [32mVERBOSE[0m Callback method :onItemClick in Class com.textualindices.refractionlite.LevelSelectGridView
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.textualindices.refractionlite.SolutionsOnlineActivity
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.textualindices.refractionlite.SolutionsOnlineActivity
+[WARNING] [32mVERBOSE[0m Callback method :onScroll in Class com.textualindices.refractionlite.SolutionsOnlineActivity
+[WARNING] [32mVERBOSE[0m Callback method :onScrollStateChanged in Class com.textualindices.refractionlite.SolutionsOnlineActivity
+Result for benign-app-3-054E1E67998AA305B1D4A9CD3F638A9E9CAD964DDF8F052B24B2C37E0C552D6E.apkcom.textualindices.refractionlite

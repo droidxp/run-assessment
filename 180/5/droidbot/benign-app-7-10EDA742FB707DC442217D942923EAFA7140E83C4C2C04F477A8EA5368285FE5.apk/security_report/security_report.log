@@ -1,0 +1,472 @@
+DUA-Forensics args to Soot: -w -cp /home/hcosta/bench/benchmark/libs/droidfax.jar:/home/hcosta/Android/Sdk/platforms/android-28/android.jar -p cg verbose:false,implicit-entry:true -p cg.spark verbose:false,on-fly-cg:true,rta:false -d /home/hcosta/bench/benchmark/trace/180/1/droidbot/benign-app-7-10EDA742FB707DC442217D942923EAFA7140E83C4C2C04F477A8EA5368285FE5.apk.logcat -process-dir /home/hcosta/bench/benchmark/data/input/benign-app-7-10EDA742FB707DC442217D942923EAFA7140E83C4C2C04F477A8EA5368285FE5.apk 
+Soot started on Wed Apr 20 10:48:44 CEST 2022
+Warning: com.ironsource.mobilcore.BaseFlowBasedAdUnit is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+Warning: org.apache.http.client.methods.HttpRequestBase is a phantom class!
+Warning: org.apache.http.Header is a phantom class!
+Warning: org.apache.http.NameValuePair is a phantom class!
+Warning: org.apache.http.HttpEntity is a phantom class!
+Warning: org.apache.http.HttpHost is a phantom class!
+Warning: org.apache.http.HttpResponse is a phantom class!
+Warning: org.apache.http.StatusLine is a phantom class!
+Warning: org.apache.http.client.ClientProtocolException is a phantom class!
+Warning: org.apache.http.client.HttpClient is a phantom class!
+Warning: org.apache.http.client.entity.UrlEncodedFormEntity is a phantom class!
+Warning: org.apache.http.client.methods.HttpGet is a phantom class!
+Warning: org.apache.http.client.methods.HttpPost is a phantom class!
+Warning: org.apache.http.client.methods.HttpUriRequest is a phantom class!
+Warning: org.apache.http.conn.params.ConnManagerParams is a phantom class!
+Warning: org.apache.http.entity.InputStreamEntity is a phantom class!
+Warning: org.apache.http.impl.client.DefaultHttpClient is a phantom class!
+Warning: org.apache.http.message.BasicHeader is a phantom class!
+Warning: org.apache.http.message.BasicNameValuePair is a phantom class!
+Warning: org.apache.http.params.BasicHttpParams is a phantom class!
+Warning: org.apache.http.util.EntityUtils is a phantom class!
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.0 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+hcai's internal transform
+Running static analysis for security-relevant feature characterization
+[GatorHierarchy] [32mVERBOSE[0m [HIER] All classes: 1150
+[GatorHierarchy] [32mVERBOSE[0m [App: 93, Lib : 1034, Phantom: 23]
+[GatorHierarchy] [32mVERBOSE[0m [HIER] Activities: 12, lib activities: 4
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App views: 2, Lib views: 22
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App Dialogs: 0, Lib Dialogs: 3
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing starting at 1650444524957
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing finished at 1650444526178
+[Instantiated app classes] [32mVERBOSE[0m total number: 96
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.cjdao.trackback.AboutActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.cjdao.trackback.MainActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.cjdao.trackback.CjdaoBaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onItemClick in Class com.cjdao.trackback.FavoritesActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.cjdao.trackback.FavoritesActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onRestart in Class com.cjdao.trackback.FavoritesActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.cjdao.trackback.FavoritesActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.cjdao.trackback.CjdaoBaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onSizeChanged in Class com.feedback.ui.ThreadView added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.cjdao.trackback.LandingActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.cjdao.trackback.LandingActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.cjdao.trackback.LandingActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.cjdao.trackback.LandingActivity added
+[WARNING] [32mVERBOSE[0m Callback method :beforeTextChanged in Class com.cjdao.trackback.SearchActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.cjdao.trackback.CjdaoBaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onItemClick in Class com.cjdao.trackback.SearchActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.cjdao.trackback.SearchActivity added
+[WARNING] [32mVERBOSE[0m Callback method :afterTextChanged in Class com.cjdao.trackback.SearchActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onTextChanged in Class com.cjdao.trackback.SearchActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.cjdao.trackback.SearchActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.cjdao.trackback.CjdaoBaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.cjdao.trackback.CjdaoBaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.cjdao.trackback.ProductsActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.cjdao.trackback.CjdaoBaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.cjdao.trackback.CjdaoBaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.cjdao.trackback.HomeActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.cjdao.trackback.HomeActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.cjdao.trackback.CjdaoBaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.feedback.ui.FeedbackConversation added
+[WARNING] [32mVERBOSE[0m Callback method :onListItemClick in Class com.feedback.ui.FeedbackConversation added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.feedback.ui.FeedbackConversation added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.feedback.ui.FeedbackConversation added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class com.feedback.ui.FeedbackConversation added
+[WARNING] [32mVERBOSE[0m Callback method :onTerminate in Class com.cjdao.trackback.CjdaoApplication added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.cjdao.trackback.CjdaoApplication added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.feedback.ui.SendFeedback added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.cjdao.trackback.CjdaoBaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.cjdao.trackback.DetailActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCheckedChanged in Class com.cjdao.trackback.DetailActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.cjdao.trackback.DetailActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.cjdao.trackback.CjdaoBaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.cjdao.trackback.CjdaoBaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.cjdao.trackback.CjdaoBaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onListItemClick in Class com.feedback.ui.FeedbackConversations added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.feedback.ui.FeedbackConversations added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateContextMenu in Class com.feedback.ui.FeedbackConversations added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.feedback.ui.FeedbackConversations added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class com.feedback.ui.FeedbackConversations added
+[WARNING] [32mVERBOSE[0m Callback method :onRestart in Class com.feedback.ui.FeedbackConversations added
+[WARNING] [32mVERBOSE[0m Callback method :onContextItemSelected in Class com.feedback.ui.FeedbackConversations added
+0 ICC links found and 0 cg edges added due to ICC links
+dynamic conflated call graph: 307 methods; 307 nodes; 501 edges.
+maxpossibleFlows=3
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+2 taint flow paths FOUND from <java.lang.String: byte[] getBytes(java.lang.String)> to <java.util.zip.Deflater: void setInput(byte[])>
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=3
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=3
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=3
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=6
+3 taint flow paths FOUND from <java.util.Date: long getTime()> to <android.util.Log: int i(java.lang.String,java.lang.String)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=5
+maxpossibleFlows=1
+1 taint flow paths FOUND from <java.lang.Class: java.lang.String getName()> to <android.util.Log: int e(java.lang.String,java.lang.String)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=3
+maxpossibleFlows=4
+4 taint flow paths FOUND from <java.lang.StringBuilder: java.lang.String toString()> to <android.widget.TextView: void setText(java.lang.CharSequence)>
+maxpossibleFlows=3
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=3
+1 taint flow paths FOUND from <android.content.ContextWrapper: android.content.ContentResolver getContentResolver()> to <org.json.JSONObject: org.json.JSONObject put(java.lang.String,double)>
+maxpossibleFlows=3
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=3
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=3
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=2
+2 taint flow paths FOUND from <org.json.JSONArray: org.json.JSONArray put(java.lang.Object)> to <org.json.JSONObject: org.json.JSONObject put(java.lang.String,long)>
+maxpossibleFlows=3
+1 taint flow paths FOUND from <android.content.ContextWrapper: android.content.pm.PackageManager getPackageManager()> to <org.json.JSONObject: org.json.JSONObject put(java.lang.String,int)>
+maxpossibleFlows=3
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=3
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=3
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=3
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=3
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=3
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=2
+2 taint flow paths FOUND from <org.json.JSONObject: java.lang.String getString(java.lang.String)> to <org.json.JSONObject: org.json.JSONObject put(java.lang.String,long)>
+maxpossibleFlows=3
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=3
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=3
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=1
+maxpossibleFlows=4
+4 taint flow paths FOUND from <android.view.LayoutInflater: android.view.View inflate(int,android.view.ViewGroup,boolean)> to <android.widget.TextView: void setText(java.lang.CharSequence)>
+maxpossibleFlows=2
+2 taint flow paths FOUND from <java.util.AbstractList: java.util.Iterator iterator()> to <android.os.Handler: boolean sendMessage(android.os.Message)>
+maxpossibleFlows=6
+3 taint flow paths FOUND from <android.app.Activity: java.lang.Object getSystemService(java.lang.String)> to <org.json.JSONObject: org.json.JSONObject put(java.lang.String,int)>
+maxpossibleFlows=3
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=3
+1 taint flow paths FOUND from <android.telephony.TelephonyManager: java.lang.String getNetworkOperatorName()> to <org.json.JSONObject: org.json.JSONObject put(java.lang.String,double)>
+maxpossibleFlows=3
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=3
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=3
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.app.Activity: android.view.Window getWindow()> to <android.view.Window: void setFlags(int,int)>
+maxpossibleFlows=3
+1 taint flow paths FOUND from <android.content.ContextWrapper: java.lang.String getPackageName()> to <org.json.JSONObject: org.json.JSONObject put(java.lang.String,int)>
+maxpossibleFlows=3
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=3
+1 taint flow paths FOUND from <android.content.ContextWrapper: android.content.pm.PackageManager getPackageManager()> to <org.json.JSONObject: org.json.JSONObject put(java.lang.String,int)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=4
+4 taint flow paths FOUND from <java.lang.StringBuilder: java.lang.String toString()> to <android.widget.TextView: void setText(java.lang.CharSequence)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.app.Activity: android.view.Window getWindow()> to <android.view.Window: void setFlags(int,int)>
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+2 taint flow paths FOUND from <java.lang.String: byte[] getBytes(java.lang.String)> to <java.util.zip.Deflater: void setInput(byte[])>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.app.Activity: android.view.Window getWindow()> to <android.app.Activity: void setContentView(int)>
+maxpossibleFlows=3
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=2
+maxpossibleFlows=3
+1 taint flow paths FOUND from <java.lang.StringBuilder: java.lang.String toString()> to <org.json.JSONObject: org.json.JSONObject put(java.lang.String,double)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+1 taint flow paths FOUND from <java.lang.StringBuilder: java.lang.String toString()> to <org.json.JSONObject: org.json.JSONObject put(java.lang.String,long)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=6
+3 taint flow paths FOUND from <java.util.Date: long getTime()> to <android.util.Log: int i(java.lang.String,java.lang.String)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <java.lang.Class: java.lang.String getName()> to <android.util.Log: int e(java.lang.String,java.lang.String)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=4
+4 taint flow paths FOUND from <java.lang.StringBuilder: java.lang.String toString()> to <android.widget.TabHost$TabSpec: android.widget.TabHost$TabSpec setIndicator(android.view.View)>
+maxpossibleFlows=2
+2 taint flow paths FOUND from <java.lang.StringBuilder: java.lang.String toString()> to <android.os.Handler: boolean sendMessage(android.os.Message)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=4
+4 taint flow paths FOUND from <java.lang.StringBuilder: java.lang.String toString()> to <android.widget.TabHost$TabSpec: android.widget.TabHost$TabSpec setContent(android.content.Intent)>
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.cjdao.trackback.DetailActivity
+[WARNING] [32mVERBOSE[0m Callback method :onCheckedChanged in Class com.cjdao.trackback.DetailActivity
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.cjdao.trackback.DetailActivity
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.cjdao.trackback.DetailActivity
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.cjdao.trackback.FavoritesActivity
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.cjdao.trackback.FavoritesActivity
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.cjdao.trackback.FavoritesActivity
+[WARNING] [32mVERBOSE[0m Callback method :onItemClick in Class com.cjdao.trackback.FavoritesActivity
+[WARNING] [32mVERBOSE[0m Callback method :onRestart in Class com.cjdao.trackback.FavoritesActivity
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.cjdao.trackback.HomeActivity
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.cjdao.trackback.HomeActivity
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.cjdao.trackback.HomeActivity
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.cjdao.trackback.LandingActivity
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.cjdao.trackback.LandingActivity
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.cjdao.trackback.LandingActivity
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.cjdao.trackback.LandingActivity
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.cjdao.trackback.LandingActivity
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.cjdao.trackback.SearchActivity
+[WARNING] [32mVERBOSE[0m Callback method :afterTextChanged in Class com.cjdao.trackback.SearchActivity
+[WARNING] [32mVERBOSE[0m Callback method :beforeTextChanged in Class com.cjdao.trackback.SearchActivity
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.cjdao.trackback.SearchActivity
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.cjdao.trackback.SearchActivity
+[WARNING] [32mVERBOSE[0m Callback method :onItemClick in Class com.cjdao.trackback.SearchActivity
+[WARNING] [32mVERBOSE[0m Callback method :onTextChanged in Class com.cjdao.trackback.SearchActivity
+Result for benign-app-7-10EDA742FB707DC442217D942923EAFA7140E83C4C2C04F477A8EA5368285FE5.apkcom.cjdao.trackback

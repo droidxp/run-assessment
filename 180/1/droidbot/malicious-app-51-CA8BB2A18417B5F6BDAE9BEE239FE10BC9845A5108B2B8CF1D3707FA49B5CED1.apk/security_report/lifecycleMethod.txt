@@ -1,0 +1,5 @@
+ContentProvider	2	0	0	5	5	5
+Activity	44	16	27	1	1	1
+Service	14	3	3	2	2	2
+BroadcastReceiver	8	2	2	3	3	3
+Application	7	2	2	4	3	3

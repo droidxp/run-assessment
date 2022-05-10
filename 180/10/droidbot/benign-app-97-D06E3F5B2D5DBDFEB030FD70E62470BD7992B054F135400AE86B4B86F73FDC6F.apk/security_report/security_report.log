@@ -1,0 +1,954 @@
+DUA-Forensics args to Soot: -w -cp /home/hcosta/bench/benchmark/libs/droidfax.jar:/home/hcosta/Android/Sdk/platforms/android-28/android.jar -p cg verbose:false,implicit-entry:true -p cg.spark verbose:false,on-fly-cg:true,rta:false -d /home/hcosta/bench/benchmark/trace/180/6/droidbot/benign-app-97-D06E3F5B2D5DBDFEB030FD70E62470BD7992B054F135400AE86B4B86F73FDC6F.apk.logcat -process-dir /home/hcosta/bench/benchmark/data/input/benign-app-97-D06E3F5B2D5DBDFEB030FD70E62470BD7992B054F135400AE86B4B86F73FDC6F.apk 
+Soot started on Fri Apr 22 09:09:12 CEST 2022
+Warning: com.ironsource.mobilcore.BaseFlowBasedAdUnit is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+get type from 'Z'
+Warning: org.apache.http.client.HttpClient is a phantom class!
+Warning: org.apache.http.HttpEntityEnclosingRequest is a phantom class!
+Warning: org.apache.http.HttpResponse is a phantom class!
+Warning: org.apache.http.client.methods.HttpPost is a phantom class!
+Warning: com.sun.msv.datatype.DatabindableDatatype is a phantom class!
+Warning: com.sun.msv.datatype.SerializationContext is a phantom class!
+Warning: com.sun.msv.datatype.xsd.DatatypeFactory is a phantom class!
+Warning: com.sun.msv.datatype.xsd.TypeIncubator is a phantom class!
+Warning: com.sun.msv.datatype.xsd.XSDatatype is a phantom class!
+Warning: com.sun.msv.datatype.xsd.XSDatatypeImpl is a phantom class!
+Warning: java.beans.BeanInfo is a phantom class!
+Warning: java.beans.IntrospectionException is a phantom class!
+Warning: java.beans.Introspector is a phantom class!
+Warning: java.beans.PropertyDescriptor is a phantom class!
+Warning: javax.swing.table.AbstractTableModel is a phantom class!
+Warning: javax.swing.tree.DefaultTreeModel is a phantom class!
+Warning: javax.swing.tree.TreeNode is a phantom class!
+Warning: javax.xml.bind.Element is a phantom class!
+Warning: javax.xml.bind.JAXBContext is a phantom class!
+Warning: javax.xml.bind.JAXBException is a phantom class!
+Warning: javax.xml.bind.Marshaller is a phantom class!
+Warning: javax.xml.bind.Unmarshaller is a phantom class!
+Warning: javax.xml.stream.Location is a phantom class!
+Warning: javax.xml.stream.XMLEventFactory is a phantom class!
+Warning: javax.xml.stream.XMLEventReader is a phantom class!
+Warning: javax.xml.stream.XMLEventWriter is a phantom class!
+Warning: javax.xml.stream.XMLInputFactory is a phantom class!
+Warning: javax.xml.stream.XMLOutputFactory is a phantom class!
+Warning: javax.xml.stream.XMLStreamException is a phantom class!
+Warning: javax.xml.stream.events.Attribute is a phantom class!
+Warning: javax.xml.stream.events.Characters is a phantom class!
+Warning: javax.xml.stream.events.Comment is a phantom class!
+Warning: javax.xml.stream.events.DTD is a phantom class!
+Warning: javax.xml.stream.events.EndDocument is a phantom class!
+Warning: javax.xml.stream.events.EndElement is a phantom class!
+Warning: javax.xml.stream.events.EntityDeclaration is a phantom class!
+Warning: javax.xml.stream.events.EntityReference is a phantom class!
+Warning: javax.xml.stream.events.Namespace is a phantom class!
+Warning: javax.xml.stream.events.ProcessingInstruction is a phantom class!
+Warning: javax.xml.stream.events.StartDocument is a phantom class!
+Warning: javax.xml.stream.events.StartElement is a phantom class!
+Warning: javax.xml.stream.events.XMLEvent is a phantom class!
+Warning: javax.xml.stream.util.XMLEventConsumer is a phantom class!
+Warning: nu.xom.Attribute is a phantom class!
+Warning: nu.xom.Builder is a phantom class!
+Warning: nu.xom.Comment is a phantom class!
+Warning: nu.xom.Document is a phantom class!
+Warning: nu.xom.Element is a phantom class!
+Warning: nu.xom.Node is a phantom class!
+Warning: nu.xom.NodeFactory is a phantom class!
+Warning: nu.xom.ParentNode is a phantom class!
+Warning: nu.xom.ProcessingInstruction is a phantom class!
+Warning: nu.xom.Text is a phantom class!
+Warning: org.apache.http.Header is a phantom class!
+Warning: org.apache.http.HttpEntity is a phantom class!
+Warning: org.apache.http.HttpHost is a phantom class!
+Warning: org.apache.http.HttpRequest is a phantom class!
+Warning: org.apache.http.HttpStatus is a phantom class!
+Warning: org.apache.http.RequestLine is a phantom class!
+Warning: org.apache.http.StatusLine is a phantom class!
+Warning: org.apache.http.client.ClientProtocolException is a phantom class!
+Warning: org.apache.http.client.methods.HttpGet is a phantom class!
+Warning: org.apache.http.client.methods.HttpUriRequest is a phantom class!
+Warning: org.apache.http.conn.ClientConnectionManager is a phantom class!
+Warning: org.apache.http.entity.BufferedHttpEntity is a phantom class!
+Warning: org.apache.http.entity.ByteArrayEntity is a phantom class!
+Warning: org.apache.http.entity.StringEntity is a phantom class!
+Warning: org.apache.http.impl.client.DefaultHttpClient is a phantom class!
+Warning: org.apache.http.message.BasicHttpEntityEnclosingRequest is a phantom class!
+Warning: org.apache.http.params.BasicHttpParams is a phantom class!
+Warning: org.apache.http.util.EntityUtils is a phantom class!
+Warning: org.relaxng.datatype.ValidationContext is a phantom class!
+Warning: org.gjt.xpp.XmlPullParserFactory is a phantom class!
+Warning: org.gjt.xpp.XmlPullParser is a phantom class!
+Warning: org.gjt.xpp.XmlPullParserException is a phantom class!
+Warning: org.gjt.xpp.XmlStartTag is a phantom class!
+Warning: org.gjt.xpp.XmlEndTag is a phantom class!
+Warning: org.jdom.Element is a phantom class!
+Warning: org.jdom.Namespace is a phantom class!
+Warning: org.jdom.Attribute is a phantom class!
+Warning: org.jdom.CDATA is a phantom class!
+Warning: org.jdom.Comment is a phantom class!
+Warning: org.jdom.Document is a phantom class!
+Warning: org.jdom.Parent is a phantom class!
+Warning: org.jdom.ProcessingInstruction is a phantom class!
+Warning: org.jdom.Text is a phantom class!
+Warning: org.jdom.input.SAXBuilder is a phantom class!
+Warning: org.relaxng.datatype.DatatypeException is a phantom class!
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.0 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+hcai's internal transform
+Running static analysis for security-relevant feature characterization
+[GatorHierarchy] [32mVERBOSE[0m [HIER] All classes: 3267
+[GatorHierarchy] [32mVERBOSE[0m [App: 1791, Lib : 1385, Phantom: 91]
+[GatorHierarchy] [32mVERBOSE[0m [HIER] Activities: 11, lib activities: 1
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App views: 21, Lib views: 25
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App Dialogs: 2, Lib Dialogs: 3
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing starting at 1650611355047
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing finished at 1650611364840
+[Instantiated app classes] [32mVERBOSE[0m total number: 1237
+[WARNING] [32mVERBOSE[0m Callback method :getType in Class android.support.v4.content.FileProvider added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class android.support.v4.content.FileProvider added
+[WARNING] [32mVERBOSE[0m Callback method :query in Class android.support.v4.content.FileProvider added
+[WARNING] [32mVERBOSE[0m Callback method :update in Class android.support.v4.content.FileProvider added
+[WARNING] [32mVERBOSE[0m Callback method :openFile in Class android.support.v4.content.FileProvider added
+[WARNING] [32mVERBOSE[0m Callback method :insert in Class android.support.v4.content.FileProvider added
+[WARNING] [32mVERBOSE[0m Callback method :delete in Class android.support.v4.content.FileProvider added
+[WARNING] [32mVERBOSE[0m Callback method :attachInfo in Class android.support.v4.content.FileProvider added
+[WARNING] [32mVERBOSE[0m Callback method :hasFeature in Class org.dom4j.dom.DOMDocumentFactory added
+[WARNING] [32mVERBOSE[0m Callback method :createDocument in Class org.dom4j.dom.DOMDocumentFactory added
+[WARNING] [32mVERBOSE[0m Callback method :createDocumentType in Class org.dom4j.dom.DOMDocumentFactory added
+[WARNING] [32mVERBOSE[0m Callback method :generateLayoutParams in Class android.support.v4.widget.DrawerLayout added
+[WARNING] [32mVERBOSE[0m Callback method :drawChild in Class android.support.v4.widget.DrawerLayout added
+[WARNING] [32mVERBOSE[0m Callback method :onRestoreInstanceState in Class android.support.v4.widget.DrawerLayout added
+[WARNING] [32mVERBOSE[0m Callback method :generateDefaultLayoutParams in Class android.support.v4.widget.DrawerLayout added
+[WARNING] [32mVERBOSE[0m Callback method :onMeasure in Class android.support.v4.widget.DrawerLayout added
+[WARNING] [32mVERBOSE[0m Callback method :onSaveInstanceState in Class android.support.v4.widget.DrawerLayout added
+[WARNING] [32mVERBOSE[0m Callback method :requestLayout in Class android.support.v4.widget.DrawerLayout added
+[WARNING] [32mVERBOSE[0m Callback method :onLayout in Class android.support.v4.widget.DrawerLayout added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class android.support.v4.widget.DrawerLayout added
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class android.support.v4.widget.DrawerLayout added
+[WARNING] [32mVERBOSE[0m Callback method :onDetachedFromWindow in Class android.support.v4.widget.DrawerLayout added
+[WARNING] [32mVERBOSE[0m Callback method :computeScroll in Class android.support.v4.widget.DrawerLayout added
+[WARNING] [32mVERBOSE[0m Callback method :onAttachedToWindow in Class android.support.v4.widget.DrawerLayout added
+[WARNING] [32mVERBOSE[0m Callback method :onInterceptTouchEvent in Class android.support.v4.widget.DrawerLayout added
+[WARNING] [32mVERBOSE[0m Callback method :requestDisallowInterceptTouchEvent in Class android.support.v4.widget.DrawerLayout added
+[WARNING] [32mVERBOSE[0m Callback method :generateLayoutParams in Class android.support.v4.widget.DrawerLayout added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyUp in Class android.support.v4.widget.DrawerLayout added
+[WARNING] [32mVERBOSE[0m Callback method :checkLayoutParams in Class android.support.v4.widget.DrawerLayout added
+[WARNING] [32mVERBOSE[0m Callback method :onTouch in Class cz.rychtar.android.entangledgame.widget.RepeatableButton added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class cz.rychtar.android.entangledgame.ui.GameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class cz.rychtar.android.entangledgame.ui.GameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class cz.rychtar.android.entangledgame.ui.GameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class cz.rychtar.android.entangledgame.ui.GameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class cz.rychtar.android.entangledgame.ui.GameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class cz.rychtar.android.entangledgame.ui.GameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class cz.rychtar.android.entangledgame.ui.HelpActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class cz.rychtar.android.entangledgame.ui.HelpActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class cz.rychtar.android.entangledgame.ui.HelpActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPanelClosed in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onMenuItemSelected in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onBackPressed in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onRetainNonConfigurationInstance in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onNewIntent in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreatePanelMenu in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :dump in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateView in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPreparePanel in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onSaveInstanceState in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :startActivityForResult in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPostResume in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onLowMemory in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onTouch in Class android.support.v4.widget.AutoScrollHelper added
+[WARNING] [32mVERBOSE[0m Callback method :getItem in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getView in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getDropDownView in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getFilter in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getCount in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getItemId in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :hasStableIds in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getXMLReader in Class org.dom4j.io.DocumentSource added
+[WARNING] [32mVERBOSE[0m Callback method :setXMLReader in Class org.dom4j.io.DocumentSource added
+[WARNING] [32mVERBOSE[0m Callback method :setInputSource in Class org.dom4j.io.DocumentSource added
+[WARNING] [32mVERBOSE[0m Callback method :generateLayoutParams in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :draw in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :onRestoreInstanceState in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :onRequestFocusInDescendants in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :generateDefaultLayoutParams in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :onMeasure in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :addView in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :canScrollHorizontally in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :onSaveInstanceState in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :onLayout in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :addTouchables in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :onDetachedFromWindow in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :computeScroll in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :onAttachedToWindow in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :onInterceptTouchEvent in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :verifyDrawable in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :dispatchPopulateAccessibilityEvent in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :onSizeChanged in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :dispatchKeyEvent in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :addFocusables in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :removeView in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :onDraw in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :generateLayoutParams in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :drawableStateChanged in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :getChildDrawingOrder in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :checkLayoutParams in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :onMeasure in Class android.support.v4.view.PagerTitleStrip added
+[WARNING] [32mVERBOSE[0m Callback method :requestLayout in Class android.support.v4.view.PagerTitleStrip added
+[WARNING] [32mVERBOSE[0m Callback method :onLayout in Class android.support.v4.view.PagerTitleStrip added
+[WARNING] [32mVERBOSE[0m Callback method :onDetachedFromWindow in Class android.support.v4.view.PagerTitleStrip added
+[WARNING] [32mVERBOSE[0m Callback method :onAttachedToWindow in Class android.support.v4.view.PagerTitleStrip added
+[WARNING] [32mVERBOSE[0m Callback method :onLowMemory in Class android.support.v4.app.Fragment added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateContextMenu in Class android.support.v4.app.Fragment added
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class android.support.v4.app.Fragment added
+[WARNING] [32mVERBOSE[0m Callback method :setActionView in Class android.support.v4.internal.view.SupportMenuItem is not concrete
+[WARNING] [32mVERBOSE[0m Callback method :setShowAsAction in Class android.support.v4.internal.view.SupportMenuItem is not concrete
+[WARNING] [32mVERBOSE[0m Callback method :getActionView in Class android.support.v4.internal.view.SupportMenuItem is not concrete
+[WARNING] [32mVERBOSE[0m Callback method :collapseActionView in Class android.support.v4.internal.view.SupportMenuItem is not concrete
+[WARNING] [32mVERBOSE[0m Callback method :setShowAsActionFlags in Class android.support.v4.internal.view.SupportMenuItem is not concrete
+[WARNING] [32mVERBOSE[0m Callback method :setActionView in Class android.support.v4.internal.view.SupportMenuItem is not concrete
+[WARNING] [32mVERBOSE[0m Callback method :isActionViewExpanded in Class android.support.v4.internal.view.SupportMenuItem is not concrete
+[WARNING] [32mVERBOSE[0m Callback method :expandActionView in Class android.support.v4.internal.view.SupportMenuItem is not concrete
+[WARNING] [32mVERBOSE[0m Callback method :onTouch in Class android.support.v4.widget.AutoScrollHelper added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class cz.rychtar.android.entangledgame.ui.LevelChooserActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class cz.rychtar.android.entangledgame.ui.LevelChooserActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class cz.rychtar.android.entangledgame.ui.LevelChooserActivity added
+[WARNING] [32mVERBOSE[0m Callback method :setLexicalHandler in Class org.dom4j.io.DocumentResult added
+[WARNING] [32mVERBOSE[0m Callback method :setHandler in Class org.dom4j.io.DocumentResult added
+[WARNING] [32mVERBOSE[0m Callback method :endDTD in Class org.dom4j.io.SAXEventRecorder added
+[WARNING] [32mVERBOSE[0m Callback method :startDocument in Class org.dom4j.io.SAXEventRecorder added
+[WARNING] [32mVERBOSE[0m Callback method :endDocument in Class org.dom4j.io.SAXEventRecorder added
+[WARNING] [32mVERBOSE[0m Callback method :endPrefixMapping in Class org.dom4j.io.SAXEventRecorder added
+[WARNING] [32mVERBOSE[0m Callback method :comment in Class org.dom4j.io.SAXEventRecorder added
+[WARNING] [32mVERBOSE[0m Callback method :processingInstruction in Class org.dom4j.io.SAXEventRecorder added
+[WARNING] [32mVERBOSE[0m Callback method :startCDATA in Class org.dom4j.io.SAXEventRecorder added
+[WARNING] [32mVERBOSE[0m Callback method :endEntity in Class org.dom4j.io.SAXEventRecorder added
+[WARNING] [32mVERBOSE[0m Callback method :endCDATA in Class org.dom4j.io.SAXEventRecorder added
+[WARNING] [32mVERBOSE[0m Callback method :startDTD in Class org.dom4j.io.SAXEventRecorder added
+[WARNING] [32mVERBOSE[0m Callback method :startElement in Class org.dom4j.io.SAXEventRecorder added
+[WARNING] [32mVERBOSE[0m Callback method :startPrefixMapping in Class org.dom4j.io.SAXEventRecorder added
+[WARNING] [32mVERBOSE[0m Callback method :attributeDecl in Class org.dom4j.io.SAXEventRecorder added
+[WARNING] [32mVERBOSE[0m Callback method :startEntity in Class org.dom4j.io.SAXEventRecorder added
+[WARNING] [32mVERBOSE[0m Callback method :characters in Class org.dom4j.io.SAXEventRecorder added
+[WARNING] [32mVERBOSE[0m Callback method :internalEntityDecl in Class org.dom4j.io.SAXEventRecorder added
+[WARNING] [32mVERBOSE[0m Callback method :endElement in Class org.dom4j.io.SAXEventRecorder added
+[WARNING] [32mVERBOSE[0m Callback method :elementDecl in Class org.dom4j.io.SAXEventRecorder added
+[WARNING] [32mVERBOSE[0m Callback method :externalEntityDecl in Class org.dom4j.io.SAXEventRecorder added
+[WARNING] [32mVERBOSE[0m Callback method :onRestoreInstanceState in Class android.support.v4.app.FragmentTabHost added
+[WARNING] [32mVERBOSE[0m Callback method :onTabChanged in Class android.support.v4.app.FragmentTabHost added
+[WARNING] [32mVERBOSE[0m Callback method :setOnTabChangedListener in Class android.support.v4.app.FragmentTabHost added
+[WARNING] [32mVERBOSE[0m Callback method :onSaveInstanceState in Class android.support.v4.app.FragmentTabHost added
+[WARNING] [32mVERBOSE[0m Callback method :onDetachedFromWindow in Class android.support.v4.app.FragmentTabHost added
+[WARNING] [32mVERBOSE[0m Callback method :onAttachedToWindow in Class android.support.v4.app.FragmentTabHost added
+[WARNING] [32mVERBOSE[0m Callback method :setup in Class android.support.v4.app.FragmentTabHost added
+[WARNING] [32mVERBOSE[0m Callback method :onTerminate in Class cz.rychtar.android.entangledgame.UntangleMeApplication added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class cz.rychtar.android.entangledgame.UntangleMeApplication added
+[WARNING] [32mVERBOSE[0m Callback method :warning in Class org.dom4j.util.XMLErrorHandler added
+[WARNING] [32mVERBOSE[0m Callback method :error in Class org.dom4j.util.XMLErrorHandler added
+[WARNING] [32mVERBOSE[0m Callback method :fatalError in Class org.dom4j.util.XMLErrorHandler added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class cz.rychtar.android.entangledgame.ui.MainActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class cz.rychtar.android.entangledgame.ui.MainActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class cz.rychtar.android.entangledgame.ui.MainActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onReceive in Class com.google.analytics.tracking.android.CampaignTrackingReceiver added
+[WARNING] [32mVERBOSE[0m Callback method :onWindowFocusChanged in Class com.google.ads.AdActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.google.ads.AdActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.google.ads.AdActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.google.ads.AdActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.google.ads.AdActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onLowMemory in Class android.support.v4.app.Fragment added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateContextMenu in Class android.support.v4.app.Fragment added
+[WARNING] [32mVERBOSE[0m Callback method :onDismiss in Class android.support.v4.app.DialogFragment added
+[WARNING] [32mVERBOSE[0m Callback method :onCancel in Class android.support.v4.app.DialogFragment added
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class android.support.v4.app.Fragment added
+[WARNING] [32mVERBOSE[0m Callback method :onDetachedFromWindow in Class android.support.v4.widget.ContentLoadingProgressBar added
+[WARNING] [32mVERBOSE[0m Callback method :onAttachedToWindow in Class android.support.v4.widget.ContentLoadingProgressBar added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class cz.rychtar.android.entangledgame.ui.GeneratorActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class cz.rychtar.android.entangledgame.ui.GeneratorActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class cz.rychtar.android.entangledgame.ui.GeneratorActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class cz.rychtar.android.entangledgame.ui.GeneratorActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onMeasure in Class com.google.ads.AdView added
+[WARNING] [32mVERBOSE[0m Callback method :onWindowVisibilityChanged in Class com.google.ads.AdView added
+[WARNING] [32mVERBOSE[0m Callback method :onReceive in Class com.google.tagmanager.InstallReferrerReceiver added
+[WARNING] [32mVERBOSE[0m Callback method :getLexicalHandler in Class org.dom4j.io.XMLResult added
+[WARNING] [32mVERBOSE[0m Callback method :getHandler in Class org.dom4j.io.XMLResult added
+[WARNING] [32mVERBOSE[0m Callback method :onScrollStateChanged in Class com.nostra13.universalimageloader.core.assist.PauseOnScrollListener added
+[WARNING] [32mVERBOSE[0m Callback method :onScroll in Class com.nostra13.universalimageloader.core.assist.PauseOnScrollListener added
+[WARNING] [32mVERBOSE[0m Callback method :onMeasure in Class android.support.v4.view.PagerTitleStrip added
+[WARNING] [32mVERBOSE[0m Callback method :requestLayout in Class android.support.v4.view.PagerTitleStrip added
+[WARNING] [32mVERBOSE[0m Callback method :onLayout in Class android.support.v4.view.PagerTitleStrip added
+[WARNING] [32mVERBOSE[0m Callback method :setBackgroundColor in Class android.support.v4.view.PagerTabStrip added
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class android.support.v4.view.PagerTabStrip added
+[WARNING] [32mVERBOSE[0m Callback method :onDetachedFromWindow in Class android.support.v4.view.PagerTitleStrip added
+[WARNING] [32mVERBOSE[0m Callback method :onAttachedToWindow in Class android.support.v4.view.PagerTitleStrip added
+[WARNING] [32mVERBOSE[0m Callback method :setBackgroundResource in Class android.support.v4.view.PagerTabStrip added
+[WARNING] [32mVERBOSE[0m Callback method :setPadding in Class android.support.v4.view.PagerTabStrip added
+[WARNING] [32mVERBOSE[0m Callback method :onDraw in Class android.support.v4.view.PagerTabStrip added
+[WARNING] [32mVERBOSE[0m Callback method :setBackgroundDrawable in Class android.support.v4.view.PagerTabStrip added
+[WARNING] [32mVERBOSE[0m Callback method :onLowMemory in Class android.support.v4.app.Fragment added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateContextMenu in Class android.support.v4.app.Fragment added
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class android.support.v4.app.Fragment added
+[WARNING] [32mVERBOSE[0m Callback method :getItem in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getView in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getDropDownView in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getFilter in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getCount in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getItemId in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :hasStableIds in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class cz.rychtar.android.moreappslibraryonline.MoreAppsActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class cz.rychtar.android.moreappslibraryonline.MoreAppsActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onOptionsItemSelected in Class cz.rychtar.android.moreappslibraryonline.MoreAppsActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.google.tagmanager.PreviewActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class cz.rychtar.android.entangledgame.ui.ActivityAbout added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class cz.rychtar.android.entangledgame.ui.ActivityAbout added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class cz.rychtar.android.entangledgame.ui.ActivityAbout added
+[WARNING] [32mVERBOSE[0m Callback method :dispatchUnhandledMove in Class cz.rychtar.android.entangledgame.DragLayer added
+[WARNING] [32mVERBOSE[0m Callback method :generateLayoutParams in Class cz.rychtar.android.entangledgame.MyAbsoluteLayout added
+[WARNING] [32mVERBOSE[0m Callback method :generateDefaultLayoutParams in Class cz.rychtar.android.entangledgame.MyAbsoluteLayout added
+[WARNING] [32mVERBOSE[0m Callback method :onMeasure in Class cz.rychtar.android.entangledgame.MyAbsoluteLayout added
+[WARNING] [32mVERBOSE[0m Callback method :onLayout in Class cz.rychtar.android.entangledgame.MyAbsoluteLayout added
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class cz.rychtar.android.entangledgame.DragLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onInterceptTouchEvent in Class cz.rychtar.android.entangledgame.DragLayer added
+[WARNING] [32mVERBOSE[0m Callback method :dispatchKeyEvent in Class cz.rychtar.android.entangledgame.DragLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onDraw in Class cz.rychtar.android.entangledgame.DragLayer added
+[WARNING] [32mVERBOSE[0m Callback method :generateLayoutParams in Class cz.rychtar.android.entangledgame.MyAbsoluteLayout added
+[WARNING] [32mVERBOSE[0m Callback method :checkLayoutParams in Class cz.rychtar.android.entangledgame.MyAbsoluteLayout added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class cz.rychtar.android.entangledgame.ui.SettingsActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class cz.rychtar.android.entangledgame.ui.SettingsActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class cz.rychtar.android.entangledgame.ui.SettingsActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class cz.rychtar.android.entangledgame.ui.SettingsActivity added
+[WARNING] [32mVERBOSE[0m Callback method :getItem in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getView in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getDropDownView in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getFilter in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getCount in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getItemId in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :hasStableIds in Class android.support.v4.widget.CursorAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :generateLayoutParams in Class cz.rychtar.android.entangledgame.MyAbsoluteLayout added
+[WARNING] [32mVERBOSE[0m Callback method :generateDefaultLayoutParams in Class cz.rychtar.android.entangledgame.MyAbsoluteLayout added
+[WARNING] [32mVERBOSE[0m Callback method :onMeasure in Class cz.rychtar.android.entangledgame.MyAbsoluteLayout added
+[WARNING] [32mVERBOSE[0m Callback method :onLayout in Class cz.rychtar.android.entangledgame.MyAbsoluteLayout added
+[WARNING] [32mVERBOSE[0m Callback method :generateLayoutParams in Class cz.rychtar.android.entangledgame.MyAbsoluteLayout added
+[WARNING] [32mVERBOSE[0m Callback method :checkLayoutParams in Class cz.rychtar.android.entangledgame.MyAbsoluteLayout added
+[WARNING] [32mVERBOSE[0m Callback method :onTransact in Class com.google.android.gms.analytics.internal.IAnalyticsService$Stub added
+[WARNING] [32mVERBOSE[0m Callback method :asBinder in Class com.google.android.gms.analytics.internal.IAnalyticsService$Stub added
+[WARNING] [32mVERBOSE[0m Callback method :generateLayoutParams in Class android.support.v4.widget.SlidingPaneLayout added
+[WARNING] [32mVERBOSE[0m Callback method :drawChild in Class android.support.v4.widget.SlidingPaneLayout added
+[WARNING] [32mVERBOSE[0m Callback method :draw in Class android.support.v4.widget.SlidingPaneLayout added
+[WARNING] [32mVERBOSE[0m Callback method :onRestoreInstanceState in Class android.support.v4.widget.SlidingPaneLayout added
+[WARNING] [32mVERBOSE[0m Callback method :generateDefaultLayoutParams in Class android.support.v4.widget.SlidingPaneLayout added
+[WARNING] [32mVERBOSE[0m Callback method :onMeasure in Class android.support.v4.widget.SlidingPaneLayout added
+[WARNING] [32mVERBOSE[0m Callback method :requestChildFocus in Class android.support.v4.widget.SlidingPaneLayout added
+[WARNING] [32mVERBOSE[0m Callback method :onSaveInstanceState in Class android.support.v4.widget.SlidingPaneLayout added
+[WARNING] [32mVERBOSE[0m Callback method :onLayout in Class android.support.v4.widget.SlidingPaneLayout added
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class android.support.v4.widget.SlidingPaneLayout added
+[WARNING] [32mVERBOSE[0m Callback method :onDetachedFromWindow in Class android.support.v4.widget.SlidingPaneLayout added
+[WARNING] [32mVERBOSE[0m Callback method :computeScroll in Class android.support.v4.widget.SlidingPaneLayout added
+[WARNING] [32mVERBOSE[0m Callback method :onAttachedToWindow in Class android.support.v4.widget.SlidingPaneLayout added
+[WARNING] [32mVERBOSE[0m Callback method :onInterceptTouchEvent in Class android.support.v4.widget.SlidingPaneLayout added
+[WARNING] [32mVERBOSE[0m Callback method :onSizeChanged in Class android.support.v4.widget.SlidingPaneLayout added
+[WARNING] [32mVERBOSE[0m Callback method :generateLayoutParams in Class android.support.v4.widget.SlidingPaneLayout added
+[WARNING] [32mVERBOSE[0m Callback method :checkLayoutParams in Class android.support.v4.widget.SlidingPaneLayout added
+[WARNING] [32mVERBOSE[0m Callback method :onHandleIntent in Class com.google.tagmanager.InstallReferrerService added
+[WARNING] [32mVERBOSE[0m Callback method :onMeasure in Class com.google.ads.AdView added
+[WARNING] [32mVERBOSE[0m Callback method :onWindowVisibilityChanged in Class com.google.ads.AdView added
+0 ICC links found and 0 cg edges added due to ICC links
+dynamic conflated call graph: 1201 methods; 1201 nodes; 1785 edges.
+maxpossibleFlows=3
+3 taint flow paths FOUND from <android.content.ContextWrapper: android.content.res.AssetManager getAssets()> to <android.content.res.AssetManager: java.io.InputStream open(java.lang.String)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=4
+4 taint flow paths FOUND from <android.content.ContextWrapper: java.io.File getDatabasePath(java.lang.String)> to <android.webkit.WebSettings: void setDisplayZoomControls(boolean)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <java.text.NumberFormat: java.text.NumberFormat getInstance(java.util.Locale)> to <java.text.DecimalFormat: void setGroupingUsed(boolean)>
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+2 taint flow paths FOUND from <android.view.View: android.content.Context getContext()> to <android.webkit.WebSettings: void setUserAgentString(java.lang.String)>
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=3
+maxpossibleFlows=1
+maxpossibleFlows=3
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=4
+4 taint flow paths FOUND from <java.lang.Long: long longValue()> to <android.webkit.WebSettings: void setDisplayZoomControls(boolean)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.content.ContextWrapper: android.content.Context getApplicationContext()> to <java.util.TreeSet: boolean add(java.lang.Object)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.content.ContextWrapper: android.content.pm.PackageManager getPackageManager()> to <java.lang.String: boolean startsWith(java.lang.String)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=4
+4 taint flow paths FOUND from <java.io.File: java.lang.String getAbsolutePath()> to <android.webkit.WebSettings: void setDisplayZoomControls(boolean)>
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=4
+4 taint flow paths FOUND from <android.content.ContextWrapper: java.io.File getCacheDir()> to <android.webkit.WebSettings: void setDisplayZoomControls(boolean)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <java.util.TreeSet: java.util.Iterator iterator()> to <java.lang.String: boolean startsWith(java.lang.String)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.content.ContextWrapper: java.lang.String getPackageName()> to <java.util.TreeSet: boolean add(java.lang.Object)>
+maxpossibleFlows=2
+maxpossibleFlows=2
+2 taint flow paths FOUND from <android.webkit.WebView: android.webkit.WebSettings getSettings()> to <android.webkit.WebSettings: void setSavePassword(boolean)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=4
+4 taint flow paths FOUND from <android.content.ContextWrapper: java.io.File getDatabasePath(java.lang.String)> to <android.webkit.WebSettings: void setDisplayZoomControls(boolean)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.content.ContextWrapper: android.content.Context getApplicationContext()> to <java.util.TreeSet: boolean add(java.lang.Object)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=2
+2 taint flow paths FOUND from <android.webkit.WebView: android.webkit.WebSettings getSettings()> to <android.webkit.WebSettings: void setSavePassword(boolean)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.content.ContextWrapper: android.content.Context getApplicationContext()> to <java.lang.String: boolean startsWith(java.lang.String)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=4
+3 taint flow paths FOUND from <java.io.File: java.lang.String getAbsolutePath()> to <android.webkit.WebSettings: void setAppCacheEnabled(boolean)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=4
+4 taint flow paths FOUND from <java.lang.Long: long longValue()> to <android.webkit.WebSettings: void setAppCacheMaxSize(long)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=2
+2 taint flow paths FOUND from <android.webkit.WebView: android.webkit.WebSettings getSettings()> to <android.webkit.WebView: void setScrollBarStyle(int)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=2
+2 taint flow paths FOUND from <android.webkit.WebView: android.webkit.WebSettings getSettings()> to <android.webkit.WebSettings: void setSupportMultipleWindows(boolean)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=4
+4 taint flow paths FOUND from <java.lang.Long: long longValue()> to <android.webkit.WebSettings: void setDatabaseEnabled(boolean)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=4
+4 taint flow paths FOUND from <android.content.ContextWrapper: java.io.File getDatabasePath(java.lang.String)> to <android.webkit.WebSettings: void setDomStorageEnabled(boolean)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=2
+2 taint flow paths FOUND from <android.webkit.WebView: android.webkit.WebSettings getSettings()> to <android.webkit.WebView: void setWebChromeClient(android.webkit.WebChromeClient)>
+maxpossibleFlows=3
+maxpossibleFlows=3
+3 taint flow paths FOUND from <android.content.ContextWrapper: java.lang.String getPackageName()> to <android.content.ContextWrapper: boolean bindService(android.content.Intent,android.content.ServiceConnection,int)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=3
+3 taint flow paths FOUND from <android.content.ContextWrapper: java.lang.String getPackageName()> to <android.content.Intent: android.content.Intent putExtra(java.lang.String,java.lang.String)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=4
+4 taint flow paths FOUND from <android.content.ContextWrapper: java.io.File getDatabasePath(java.lang.String)> to <android.webkit.WebSettings: void setSupportZoom(boolean)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=2
+2 taint flow paths FOUND from <android.webkit.WebView: android.webkit.WebSettings getSettings()> to <android.webkit.WebSettings: void setJavaScriptEnabled(boolean)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=4
+4 taint flow paths FOUND from <android.content.ContextWrapper: java.io.File getDatabasePath(java.lang.String)> to <android.webkit.WebSettings: void setBuiltInZoomControls(boolean)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <java.text.NumberFormat: java.text.NumberFormat getInstance(java.util.Locale)> to <java.text.DecimalFormat: void setGroupingUsed(boolean)>
+maxpossibleFlows=1
+1 taint flow paths FOUND from <java.text.NumberFormat: java.text.NumberFormat getInstance(java.util.Locale)> to <java.text.DecimalFormat: void setDecimalFormatSymbols(java.text.DecimalFormatSymbols)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=4
+4 taint flow paths FOUND from <java.lang.Long: long longValue()> to <android.webkit.WebSettings: void setAppCachePath(java.lang.String)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=2
+2 taint flow paths FOUND from <android.webkit.WebView: android.webkit.WebSettings getSettings()> to <android.webkit.WebView: void setDownloadListener(android.webkit.DownloadListener)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=4
+4 taint flow paths FOUND from <android.content.ContextWrapper: java.io.File getDatabasePath(java.lang.String)> to <android.webkit.WebSettings: void setDatabasePath(java.lang.String)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+2 taint flow paths FOUND from <android.view.View: android.content.Context getContext()> to <android.webkit.WebSettings: void setUserAgentString(java.lang.String)>
+maxpossibleFlows=1
+1 taint flow paths FOUND from <java.text.NumberFormat: java.text.NumberFormat getInstance(java.util.Locale)> to <java.text.DecimalFormat: void setMaximumFractionDigits(int)>
+maxpossibleFlows=3
+3 taint flow paths FOUND from <android.content.ContextWrapper: android.content.res.AssetManager getAssets()> to <android.content.res.AssetManager: java.io.InputStream open(java.lang.String)>
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class android.support.v4.app.Fragment
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class android.support.v4.app.Fragment
+[WARNING] [32mVERBOSE[0m Callback method :onCreateContextMenu in Class android.support.v4.app.Fragment
+[WARNING] [32mVERBOSE[0m Callback method :onLowMemory in Class android.support.v4.app.Fragment
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class android.support.v4.app.DialogFragment
+[WARNING] [32mVERBOSE[0m Callback method :onCancel in Class android.support.v4.app.DialogFragment
+[WARNING] [32mVERBOSE[0m Callback method :onDismiss in Class android.support.v4.app.DialogFragment
+[WARNING] [32mVERBOSE[0m Callback method :onAttachedToWindow in Class android.support.v4.app.FragmentTabHost
+[WARNING] [32mVERBOSE[0m Callback method :onDetachedFromWindow in Class android.support.v4.app.FragmentTabHost
+[WARNING] [32mVERBOSE[0m Callback method :onRestoreInstanceState in Class android.support.v4.app.FragmentTabHost
+[WARNING] [32mVERBOSE[0m Callback method :onSaveInstanceState in Class android.support.v4.app.FragmentTabHost
+[WARNING] [32mVERBOSE[0m Callback method :onTabChanged in Class android.support.v4.app.FragmentTabHost
+[WARNING] [32mVERBOSE[0m Callback method :setOnTabChangedListener in Class android.support.v4.app.FragmentTabHost
+[WARNING] [32mVERBOSE[0m Callback method :setup in Class android.support.v4.app.FragmentTabHost
+[WARNING] [32mVERBOSE[0m Hierarchy.virtualDispatch called with non-concrete receiver class: android.support.v4.widget.AutoScrollHelper, subsig: boolean onTouch(android.view.View,android.view.MotionEvent)
+[WARNING] [32mVERBOSE[0m Callback method :onTouch in Class android.support.v4.widget.AutoScrollHelper
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.google.ads.AdActivity
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.google.ads.AdActivity
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.google.ads.AdActivity
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.google.ads.AdActivity
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.google.ads.AdActivity
+[WARNING] [32mVERBOSE[0m Callback method :onWindowFocusChanged in Class com.google.ads.AdActivity
+[WARNING] [32mVERBOSE[0m Callback method :onScroll in Class com.nostra13.universalimageloader.core.assist.PauseOnScrollListener
+[WARNING] [32mVERBOSE[0m Callback method :onScrollStateChanged in Class com.nostra13.universalimageloader.core.assist.PauseOnScrollListener
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class cz.rychtar.android.entangledgame.ui.GeneratorActivity
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class cz.rychtar.android.entangledgame.ui.GeneratorActivity
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class cz.rychtar.android.entangledgame.ui.GeneratorActivity
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class cz.rychtar.android.entangledgame.ui.GeneratorActivity
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class cz.rychtar.android.entangledgame.ui.GeneratorActivity
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class cz.rychtar.android.entangledgame.ui.SettingsActivity
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class cz.rychtar.android.entangledgame.ui.SettingsActivity
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class cz.rychtar.android.entangledgame.ui.SettingsActivity
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class cz.rychtar.android.entangledgame.ui.SettingsActivity
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class cz.rychtar.android.entangledgame.ui.SettingsActivity
+[WARNING] [32mVERBOSE[0m Callback method :onTouch in Class cz.rychtar.android.entangledgame.widget.RepeatableButton
+Result for benign-app-97-D06E3F5B2D5DBDFEB030FD70E62470BD7992B054F135400AE86B4B86F73FDC6F.apkcz.rychtar.android.entangledgame

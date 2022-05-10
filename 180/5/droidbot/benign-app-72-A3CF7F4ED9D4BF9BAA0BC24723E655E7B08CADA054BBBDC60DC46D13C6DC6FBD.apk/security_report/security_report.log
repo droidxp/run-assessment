@@ -1,0 +1,271 @@
+DUA-Forensics args to Soot: -w -cp /home/hcosta/bench/benchmark/libs/droidfax.jar:/home/hcosta/Android/Sdk/platforms/android-28/android.jar -p cg verbose:false,implicit-entry:true -p cg.spark verbose:false,on-fly-cg:true,rta:false -d /home/hcosta/bench/benchmark/trace/180/1/droidbot/benign-app-72-A3CF7F4ED9D4BF9BAA0BC24723E655E7B08CADA054BBBDC60DC46D13C6DC6FBD.apk.logcat -process-dir /home/hcosta/bench/benchmark/data/input/benign-app-72-A3CF7F4ED9D4BF9BAA0BC24723E655E7B08CADA054BBBDC60DC46D13C6DC6FBD.apk 
+Soot started on Wed Apr 20 10:56:22 CEST 2022
+Warning: com.ironsource.mobilcore.BaseFlowBasedAdUnit is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+Warning: org.apache.http.HttpEntity is a phantom class!
+Warning: org.apache.http.HttpResponse is a phantom class!
+Warning: org.apache.http.StatusLine is a phantom class!
+Warning: org.apache.http.client.ClientProtocolException is a phantom class!
+Warning: org.apache.http.client.HttpClient is a phantom class!
+Warning: org.apache.http.client.entity.UrlEncodedFormEntity is a phantom class!
+Warning: org.apache.http.client.methods.HttpPost is a phantom class!
+Warning: org.apache.http.client.methods.HttpUriRequest is a phantom class!
+Warning: org.apache.http.impl.client.DefaultHttpClient is a phantom class!
+Warning: org.apache.http.message.BasicNameValuePair is a phantom class!
+Warning: org.apache.http.params.BasicHttpParams is a phantom class!
+No main class given. Inferred 'cn.com.ckStudio.xBulkSMS.util.CnToSpell' as main class.
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.4 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+hcai's internal transform
+Running static analysis for security-relevant feature characterization
+[GatorHierarchy] [32mVERBOSE[0m [HIER] All classes: 1189
+[GatorHierarchy] [32mVERBOSE[0m [App: 115, Lib : 1060, Phantom: 14]
+[GatorHierarchy] [32mVERBOSE[0m [HIER] Activities: 15, lib activities: 6
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App views: 0, Lib views: 25
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App Dialogs: 0, Lib Dialogs: 4
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing starting at 1650444983609
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing finished at 1650444984277
+[Instantiated app classes] [32mVERBOSE[0m total number: 118
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.mobclick.android.UmengFeedback added
+[WARNING] [32mVERBOSE[0m Callback method :onListItemClick in Class cn.com.ckStudio.xBulkSMS.Group added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class cn.com.ckStudio.xBulkSMS.Group added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class cn.com.ckStudio.xBulkSMS.Group added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class cn.com.ckStudio.xBulkSMS.Group added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class cn.com.ckStudio.xBulkSMS.Group added
+[WARNING] [32mVERBOSE[0m Callback method :onListItemClick in Class cn.com.ckStudio.xBulkSMS.SmsOnline added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class cn.com.ckStudio.xBulkSMS.SmsOnline added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class cn.com.ckStudio.xBulkSMS.SmsOnline added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class cn.com.ckStudio.xBulkSMS.SmsOnline added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class cn.com.ckStudio.xBulkSMS.PreferencesFromXml added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateDialog in Class cn.com.ckStudio.xBulkSMS.Peoples added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class cn.com.ckStudio.xBulkSMS.Peoples added
+[WARNING] [32mVERBOSE[0m Callback method :onScroll in Class cn.com.ckStudio.xBulkSMS.Peoples added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class cn.com.ckStudio.xBulkSMS.Peoples added
+[WARNING] [32mVERBOSE[0m Callback method :onContentChanged in Class cn.com.ckStudio.xBulkSMS.Peoples added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class cn.com.ckStudio.xBulkSMS.Peoples added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class cn.com.ckStudio.xBulkSMS.Peoples added
+[WARNING] [32mVERBOSE[0m Callback method :onScrollStateChanged in Class cn.com.ckStudio.xBulkSMS.Peoples added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class cn.com.ckStudio.xBulkSMS.TimingTaskList added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class cn.com.ckStudio.xBulkSMS.TimingTaskList added
+[WARNING] [32mVERBOSE[0m Callback method :onContentChanged in Class cn.com.ckStudio.xBulkSMS.TimingTaskList added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class cn.com.ckStudio.xBulkSMS.TimingTaskList added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class cn.com.ckStudio.xBulkSMS.TimingTaskList added
+[WARNING] [32mVERBOSE[0m Callback method :onChildClick in Class cn.com.ckStudio.xBulkSMS.SmsGroup added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class cn.com.ckStudio.xBulkSMS.SmsGroup added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class cn.com.ckStudio.xBulkSMS.SmsGroup added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class cn.com.ckStudio.xBulkSMS.SmsGroup added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class cn.com.ckStudio.xBulkSMS.TimingTabs added
+[WARNING] [32mVERBOSE[0m Callback method :onListItemClick in Class cn.com.ckStudio.xBulkSMS.SMS added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class cn.com.ckStudio.xBulkSMS.SMS added
+[WARNING] [32mVERBOSE[0m Callback method :onScroll in Class cn.com.ckStudio.xBulkSMS.SMS added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class cn.com.ckStudio.xBulkSMS.SMS added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class cn.com.ckStudio.xBulkSMS.SMS added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class cn.com.ckStudio.xBulkSMS.SMS added
+[WARNING] [32mVERBOSE[0m Callback method :onScrollStateChanged in Class cn.com.ckStudio.xBulkSMS.SMS added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class cn.com.ckStudio.xBulkSMS.SendSms added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class cn.com.ckStudio.xBulkSMS.SendSms added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class cn.com.ckStudio.xBulkSMS.SetTiming added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class cn.com.ckStudio.xBulkSMS.SetTiming added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class cn.com.ckStudio.xBulkSMS.SetTiming added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class cn.com.ckStudio.xBulkSMS.SetTiming added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class cn.com.ckStudio.xBulkSMS.SmsTabs added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class cn.com.ckStudio.xBulkSMS.xBulkSMS added
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class cn.com.ckStudio.xBulkSMS.xBulkSMS added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class cn.com.ckStudio.xBulkSMS.xBulkSMS added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class cn.com.ckStudio.xBulkSMS.xBulkSMS added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class cn.com.ckStudio.xBulkSMS.xBulkSMS added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class cn.com.ckStudio.xBulkSMS.Main added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateDialog in Class cn.com.ckStudio.xBulkSMS.Main added
+[WARNING] [32mVERBOSE[0m Callback method :onMenuItemSelected in Class cn.com.ckStudio.xBulkSMS.Main added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class cn.com.ckStudio.xBulkSMS.Main added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class cn.com.ckStudio.xBulkSMS.Main added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateOptionsMenu in Class cn.com.ckStudio.xBulkSMS.Main added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class cn.com.ckStudio.xBulkSMS.Main added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class cn.com.ckStudio.xBulkSMS.Tabs3 added
+[WARNING] [32mVERBOSE[0m Callback method :onReceive in Class cn.com.ckStudio.xBulkSMS.CallSendSms added
+0 ICC links found and 0 cg edges added due to ICC links
+dynamic conflated call graph: 233 methods; 233 nodes; 376 edges.
+maxpossibleFlows=2
+2 taint flow paths FOUND from <android.app.Activity: android.app.Application getApplication()> to <android.widget.TextView: void setText(java.lang.CharSequence)>
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=6
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+1 taint flow paths FOUND from <java.lang.StringBuilder: java.lang.String toString()> to <android.widget.TextView: void setText(java.lang.CharSequence)>
+maxpossibleFlows=2
+2 taint flow paths FOUND from <android.content.ContextWrapper: android.content.ContentResolver getContentResolver()> to <org.json.JSONObject: org.json.JSONObject put(java.lang.String,int)>
+maxpossibleFlows=2
+2 taint flow paths FOUND from <android.telephony.TelephonyManager: java.lang.String getDeviceId()> to <org.json.JSONObject: org.json.JSONObject put(java.lang.String,int)>
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=6
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=2
+2 taint flow paths FOUND from <android.content.ContextWrapper: android.content.pm.PackageManager getPackageManager()> to <org.json.JSONObject: org.json.JSONObject put(java.lang.String,int)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.widget.EditText: android.text.Editable getText()> to <android.widget.TextView: void setText(java.lang.CharSequence)>
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.preference.PreferenceManager: android.content.SharedPreferences getDefaultSharedPreferences(android.content.Context)> to <android.widget.TextView: void setText(java.lang.CharSequence)>
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=6
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=6
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=2
+2 taint flow paths FOUND from <android.app.Activity: java.lang.Object getSystemService(java.lang.String)> to <org.json.JSONObject: org.json.JSONObject put(java.lang.String,int)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.telephony.TelephonyManager: java.lang.String getNetworkOperatorName()> to <org.json.JSONObject: org.json.JSONObject put(java.lang.String,double)>
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.app.Activity: android.view.Window getWindow()> to <android.widget.TextView: void setText(java.lang.CharSequence)>
+maxpossibleFlows=2
+2 taint flow paths FOUND from <android.content.ContextWrapper: java.lang.String getPackageName()> to <org.json.JSONObject: org.json.JSONObject put(java.lang.String,int)>
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+2 taint flow paths FOUND from <android.content.ContextWrapper: android.content.ContentResolver getContentResolver()> to <org.json.JSONObject: org.json.JSONObject put(java.lang.String,int)>
+maxpossibleFlows=2
+2 taint flow paths FOUND from <android.app.Activity: android.app.Application getApplication()> to <android.widget.TextView: void setText(java.lang.CharSequence)>
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.preference.PreferenceManager: android.content.SharedPreferences getDefaultSharedPreferences(android.content.Context)> to <android.app.Activity: void setContentView(int)>
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=2
+1 taint flow paths FOUND from <java.lang.StringBuilder: java.lang.String toString()> to <org.json.JSONObject: org.json.JSONObject put(java.lang.String,double)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=4
+4 taint flow paths FOUND from <java.lang.StringBuilder: java.lang.String toString()> to <android.util.Log: int i(java.lang.String,java.lang.String)>
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class cn.com.ckStudio.xBulkSMS.Peoples
+[WARNING] [32mVERBOSE[0m Callback method :onContentChanged in Class cn.com.ckStudio.xBulkSMS.Peoples
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class cn.com.ckStudio.xBulkSMS.Peoples
+[WARNING] [32mVERBOSE[0m Callback method :onCreateDialog in Class cn.com.ckStudio.xBulkSMS.Peoples
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class cn.com.ckStudio.xBulkSMS.Peoples
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class cn.com.ckStudio.xBulkSMS.Peoples
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class cn.com.ckStudio.xBulkSMS.Peoples
+[WARNING] [32mVERBOSE[0m Callback method :onScroll in Class cn.com.ckStudio.xBulkSMS.Peoples
+[WARNING] [32mVERBOSE[0m Callback method :onScrollStateChanged in Class cn.com.ckStudio.xBulkSMS.Peoples
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class cn.com.ckStudio.xBulkSMS.SMS
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class cn.com.ckStudio.xBulkSMS.SMS
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class cn.com.ckStudio.xBulkSMS.SMS
+[WARNING] [32mVERBOSE[0m Callback method :onListItemClick in Class cn.com.ckStudio.xBulkSMS.SMS
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class cn.com.ckStudio.xBulkSMS.SMS
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class cn.com.ckStudio.xBulkSMS.SMS
+[WARNING] [32mVERBOSE[0m Callback method :onScroll in Class cn.com.ckStudio.xBulkSMS.SMS
+[WARNING] [32mVERBOSE[0m Callback method :onScrollStateChanged in Class cn.com.ckStudio.xBulkSMS.SMS
+Result for benign-app-72-A3CF7F4ED9D4BF9BAA0BC24723E655E7B08CADA054BBBDC60DC46D13C6DC6FBD.apkcn.com.ckStudio.xBulkSMS

@@ -1,0 +1,54 @@
+DUA-Forensics args to Soot: -w -cp /home/handrick/Documents/UNB/benchmark/libs/droidfax.jar:/home/handrick/Android/Sdk/platforms/android-19/android.jar -p cg verbose:false,implicit-entry:true -p cg.spark verbose:false,on-fly-cg:true,rta:false -d /home/handrick/Documents/UNB/benchmark/trace/180/1/droidbot/benign-app-83-C06D8F084C95407F8637B1126AFEEA7B55C4D652CE6915E2251942F1B518142C.apk.logcat -process-dir /home/handrick/Documents/UNB/benchmark/data/input/benign-app-83-C06D8F084C95407F8637B1126AFEEA7B55C4D652CE6915E2251942F1B518142C.apk 
+Soot started on Fri Apr 15 01:20:50 CEST 2022
+Warning: com.ironsource.mobilcore.BaseFlowBasedAdUnit is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.0 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+hcai's internal transform
+Running static analysis for security-relevant feature characterization
+[GatorHierarchy] [32mVERBOSE[0m [HIER] All classes: 1387
+[GatorHierarchy] [32mVERBOSE[0m [App: 500, Lib : 884, Phantom: 3]
+[GatorHierarchy] [32mVERBOSE[0m [HIER] Activities: 3, lib activities: 1
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App views: 7, Lib views: 18
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App Dialogs: 0, Lib Dialogs: 3
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing starting at 1649978451900
+array element type: (filled narr)int
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing finished at 1649978458373
+[Instantiated app classes] [32mVERBOSE[0m total number: 428
+[WARNING] [32mVERBOSE[0m Callback method :onWindowFocusChanged in Class com.google.ads.AdActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.google.ads.AdActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.google.ads.AdActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.google.ads.AdActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class com.google.ads.AdActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.google.ads.AdActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class Runtime.MMFRuntime added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class Runtime.MMFRuntime added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class Runtime.MMFRuntime added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateOptionsMenu in Class Runtime.MMFRuntime added
+[WARNING] [32mVERBOSE[0m Callback method :dispatchKeyEvent in Class Runtime.MMFRuntime added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class Runtime.MMFRuntime added
+[WARNING] [32mVERBOSE[0m Callback method :onOptionsItemSelected in Class Runtime.MMFRuntime added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class Runtime.MMFRuntime added
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class Runtime.MMFRuntime added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class Runtime.MMFRuntime added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class Runtime.MMFRuntime added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateOptionsMenu in Class Runtime.MMFRuntime added
+[WARNING] [32mVERBOSE[0m Callback method :dispatchKeyEvent in Class Runtime.MMFRuntime added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class Runtime.MMFRuntime added
+[WARNING] [32mVERBOSE[0m Callback method :onOptionsItemSelected in Class Runtime.MMFRuntime added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class Runtime.MMFRuntime added
+0 ICC links found and 0 cg edges added due to ICC links
+dynamic conflated call graph: 0 methods; 0 nodes; 0 edges.
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.google.ads.AdActivity
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class com.google.ads.AdActivity
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.google.ads.AdActivity
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.google.ads.AdActivity
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.google.ads.AdActivity
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.google.ads.AdActivity
+[WARNING] [32mVERBOSE[0m Callback method :onWindowFocusChanged in Class com.google.ads.AdActivity
+Result for benign-app-83-C06D8F084C95407F8637B1126AFEEA7B55C4D652CE6915E2251942F1B518142C.apkcom.ColePowered.PlanetWars

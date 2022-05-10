@@ -1,0 +1,104 @@
+DUA-Forensics args to Soot: -w -cp /home/handrick/Documents/UNB/benchmark/libs/droidfax.jar:/home/handrick/Android/Sdk/platforms/android-19/android.jar -p cg verbose:false,implicit-entry:true -p cg.spark verbose:false,on-fly-cg:true,rta:false -d /home/handrick/Documents/UNB/benchmark/trace/180/1/droidbot/malicious-app-95-21C1C83B2CCA9CA8DE0CE57A3D5DA5BC07D5414D10B60C4C20C6EEA4D5277347.apk.logcat -process-dir /home/handrick/Documents/UNB/benchmark/data/input/malicious-app-95-21C1C83B2CCA9CA8DE0CE57A3D5DA5BC07D5414D10B60C4C20C6EEA4D5277347.apk 
+Soot started on Fri Apr 15 00:48:03 CEST 2022
+Warning: com.ironsource.mobilcore.BaseFlowBasedAdUnit is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.0 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+hcai's internal transform
+Running static analysis for security-relevant feature characterization
+[GatorHierarchy] [32mVERBOSE[0m [HIER] All classes: 1630
+[GatorHierarchy] [32mVERBOSE[0m [App: 576, Lib : 1051, Phantom: 3]
+[GatorHierarchy] [32mVERBOSE[0m [HIER] Activities: 7, lib activities: 1
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App views: 22, Lib views: 22
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App Dialogs: 1, Lib Dialogs: 4
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing starting at 1649976485114
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing finished at 1649976490496
+[Instantiated app classes] [32mVERBOSE[0m total number: 548
+[WARNING] [32mVERBOSE[0m Callback method :onBind in Class com.zbx.qjg.Khmv added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.zbx.qjg.Khmv added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.zbx.qjg.Khmv added
+[WARNING] [32mVERBOSE[0m Callback method :onStartCommand in Class com.zbx.qjg.Khmv added
+[WARNING] [32mVERBOSE[0m Callback method :onBind in Class com.ec.xdy.Vkxp added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.ec.xdy.Vkxp added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.ec.xdy.Vkxp added
+[WARNING] [32mVERBOSE[0m Callback method :onStartCommand in Class com.ec.xdy.Vkxp added
+[WARNING] [32mVERBOSE[0m Callback method :onBind in Class com.tsi.aspj.Nj added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.tsi.aspj.Nj added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class com.tsi.aspj.Nj added
+[WARNING] [32mVERBOSE[0m Callback method :onReceive in Class com.dw.ayi.Bk added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class org.apache.cordova.CordovaActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class org.apache.cordova.CordovaActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPrepareOptionsMenu in Class org.apache.cordova.CordovaActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onNewIntent in Class org.apache.cordova.CordovaActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class org.apache.cordova.CordovaActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.meiriyiwen.app.____________ added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateOptionsMenu in Class org.apache.cordova.CordovaActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyUp in Class org.apache.cordova.CordovaActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class org.apache.cordova.CordovaActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onSaveInstanceState in Class org.apache.cordova.CordovaActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class org.apache.cordova.CordovaActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onOptionsItemSelected in Class org.apache.cordova.CordovaActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class org.apache.cordova.CordovaActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onTransact in Class com.google.android.gms.analytics.internal.IAnalyticsService$Stub added
+[WARNING] [32mVERBOSE[0m Callback method :asBinder in Class com.google.android.gms.analytics.internal.IAnalyticsService$Stub added
+[WARNING] [32mVERBOSE[0m Callback method :onReceive in Class com.google.analytics.tracking.android.CampaignTrackingReceiver added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class org.apache.cordova.CordovaActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class org.apache.cordova.CordovaActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPrepareOptionsMenu in Class org.apache.cordova.CordovaActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onNewIntent in Class org.apache.cordova.CordovaActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class org.apache.cordova.CordovaActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class org.apache.cordova.CordovaActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateOptionsMenu in Class org.apache.cordova.CordovaActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyUp in Class org.apache.cordova.CordovaActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class org.apache.cordova.CordovaActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onSaveInstanceState in Class org.apache.cordova.CordovaActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class org.apache.cordova.CordovaActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onOptionsItemSelected in Class org.apache.cordova.CordovaActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class org.apache.cordova.CordovaActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.zbx.qjg.Vrg added
+[WARNING] [32mVERBOSE[0m Callback method :onWindowFocusChanged in Class com.zbx.qjg.Vrg added
+[WARNING] [32mVERBOSE[0m Callback method :finish in Class com.zbx.qjg.Vrg added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.zbx.qjg.Vrg added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.zbx.qjg.Vrg added
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class com.zbx.qjg.Vrg added
+[WARNING] [32mVERBOSE[0m Callback method :onReceive in Class com.ec.xdy.Pe added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.dw.ayi.Iyon added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.dw.ayi.Iyon added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.ec.xdy.Vuux added
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class com.ec.xdy.Vuux added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.ec.xdy.Vuux added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.ec.xdy.Vuux added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.ec.xdy.Vuux added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class com.ec.xdy.Vuux added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.ec.xdy.Vuux added
+[WARNING] [32mVERBOSE[0m Callback method :onHandleIntent in Class com.google.analytics.tracking.android.CampaignTrackingService added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.tsi.aspj.Zur added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.tsi.aspj.Zur added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.tsi.aspj.Zur added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.tsi.aspj.Zur added
+[WARNING] [32mVERBOSE[0m Callback method :onBind in Class com.dw.ayi.Es added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.dw.ayi.Es added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.dw.ayi.Es added
+[WARNING] [32mVERBOSE[0m Callback method :onStartCommand in Class com.dw.ayi.Es added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class org.apache.cordova.CordovaActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class org.apache.cordova.CordovaActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPrepareOptionsMenu in Class org.apache.cordova.CordovaActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onNewIntent in Class org.apache.cordova.CordovaActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class org.apache.cordova.CordovaActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class org.apache.cordova.CordovaActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateOptionsMenu in Class org.apache.cordova.CordovaActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyUp in Class org.apache.cordova.CordovaActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class org.apache.cordova.CordovaActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onSaveInstanceState in Class org.apache.cordova.CordovaActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class org.apache.cordova.CordovaActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onOptionsItemSelected in Class org.apache.cordova.CordovaActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class org.apache.cordova.CordovaActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onReceive in Class com.zbx.qjg.Teex added
+0 ICC links found and 0 cg edges added due to ICC links
+dynamic conflated call graph: 0 methods; 0 nodes; 0 edges.
+Result for malicious-app-95-21C1C83B2CCA9CA8DE0CE57A3D5DA5BC07D5414D10B60C4C20C6EEA4D5277347.apkcom.meiriyiwen.app

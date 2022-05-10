@@ -27,6 +27,7 @@ for root, dirs, files in os.walk('..'):
             tool = elements[3]
             apk = elements[4]
 
+            print(elements)
             print(f"[Info] {tool} - {execution} - {apk}")
             
             if (tool not in tools) or (execution not in executions):

@@ -1,0 +1,152 @@
+DUA-Forensics args to Soot: -w -cp /home/handrick/Documents/UNB/benchmark/libs/droidfax.jar:/home/handrick/Android/Sdk/platforms/android-19/android.jar -p cg verbose:false,implicit-entry:true -p cg.spark verbose:false,on-fly-cg:true,rta:false -d /home/handrick/Documents/UNB/benchmark/trace/180/1/droidbot/malicious-app-46-9F7FDE7B3D0A03654179FBA3477B063699D718B2484154C95077CE584CCD10B9.apk.logcat -process-dir /home/handrick/Documents/UNB/benchmark/data/input/malicious-app-46-9F7FDE7B3D0A03654179FBA3477B063699D718B2484154C95077CE584CCD10B9.apk 
+Soot started on Fri Apr 15 01:06:28 CEST 2022
+Warning: com.ironsource.mobilcore.BaseFlowBasedAdUnit is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.0 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+hcai's internal transform
+Running static analysis for security-relevant feature characterization
+[GatorHierarchy] [32mVERBOSE[0m [HIER] All classes: 805
+[GatorHierarchy] [32mVERBOSE[0m [App: 74, Lib : 728, Phantom: 3]
+[GatorHierarchy] [32mVERBOSE[0m [HIER] Activities: 8, lib activities: 1
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App views: 4, Lib views: 21
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App Dialogs: 0, Lib Dialogs: 3
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing starting at 1649977588917
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing finished at 1649977590199
+[Instantiated app classes] [32mVERBOSE[0m total number: 115
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class oms.sdt.first added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class oms.sdt.first added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class oms.sdt.light added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class oms.sdt.light added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class oms.sdt.main added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class oms.sdt.main added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class oms.sdt.main added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class oms.sdt.main added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class oms.sdt.main added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class oms.sdt.main added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class oms.sdt.multicolor added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class oms.sdt.multicolor added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class oms.sdt.settime added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class oms.sdt.settime added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class oms.sdt.deletecolor added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class oms.sdt.deletecolor added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class oms.sdt.colorlist added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class oms.sdt.colorlist added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class oms.sdt.setupcolor added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class oms.sdt.setupcolor added
+[WARNING] [32mVERBOSE[0m Callback method :onWindowFocusChanged in Class com.admob.android.ads.AdView added
+[WARNING] [32mVERBOSE[0m Callback method :onMeasure in Class com.admob.android.ads.AdView added
+[WARNING] [32mVERBOSE[0m Callback method :setEnabled in Class com.admob.android.ads.AdView added
+[WARNING] [32mVERBOSE[0m Callback method :setBackgroundColor in Class com.admob.android.ads.AdView added
+[WARNING] [32mVERBOSE[0m Callback method :onDetachedFromWindow in Class com.admob.android.ads.AdView added
+[WARNING] [32mVERBOSE[0m Callback method :onAttachedToWindow in Class com.admob.android.ads.AdView added
+[WARNING] [32mVERBOSE[0m Callback method :setVisibility in Class com.admob.android.ads.AdView added
+[WARNING] [32mVERBOSE[0m Callback method :onWindowVisibilityChanged in Class com.admob.android.ads.AdView added
+0 ICC links found and 0 cg edges added due to ICC links
+dynamic conflated call graph: 91 methods; 91 nodes; 111 edges.
+maxpossibleFlows=3
+1 taint flow paths FOUND from <android.view.Display: int getWidth()> to <android.widget.TextView: void setText(java.lang.CharSequence)>
+maxpossibleFlows=3
+maxpossibleFlows=1
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=1
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+1 taint flow paths FOUND from <android.app.Activity: android.content.Intent getIntent()> to <android.widget.TextView: void setText(java.lang.CharSequence)>
+maxpossibleFlows=3
+1 taint flow paths FOUND from <android.os.Bundle: int getInt(java.lang.String)> to <android.widget.TextView: void setText(java.lang.CharSequence)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.view.ContextThemeWrapper: android.content.res.Resources getResources()> to <android.content.res.Resources: java.io.InputStream openRawResource(int)>
+maxpossibleFlows=2
+2 taint flow paths FOUND from <android.view.Window: android.view.WindowManager getWindowManager()> to <android.app.Activity: void setContentView(int)>
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.view.View: int getId()> to <android.app.Activity: void startActivity(android.content.Intent)>
+maxpossibleFlows=3
+maxpossibleFlows=1
+1 taint flow paths FOUND from <java.lang.StringBuilder: java.lang.String toString()> to <android.content.res.Resources: java.io.InputStream openRawResource(int)>
+maxpossibleFlows=3
+1 taint flow paths FOUND from <android.content.Intent: android.os.Bundle getExtras()> to <android.widget.TextView: void setText(java.lang.CharSequence)>
+maxpossibleFlows=3
+1 taint flow paths FOUND from <android.app.Activity: android.view.WindowManager getWindowManager()> to <android.widget.TextView: void setText(java.lang.CharSequence)>
+maxpossibleFlows=3
+1 taint flow paths FOUND from <android.view.View: int getHeight()> to <android.widget.TextView: void setText(java.lang.CharSequence)>
+maxpossibleFlows=3
+maxpossibleFlows=1
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+3 taint flow paths FOUND from <android.app.Activity: android.view.Window getWindow()> to <android.widget.TextView: void setTextColor(int)>
+maxpossibleFlows=3
+1 taint flow paths FOUND from <android.view.Display: int getHeight()> to <android.widget.TextView: void setText(java.lang.CharSequence)>
+maxpossibleFlows=3
+maxpossibleFlows=1
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+3 taint flow paths FOUND from <android.app.Activity: android.view.Window getWindow()> to <android.widget.TextView: void setTextColor(int)>
+maxpossibleFlows=3
+1 taint flow paths FOUND from <android.view.Display: int getWidth()> to <android.widget.TextView: void setText(java.lang.CharSequence)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.view.ContextThemeWrapper: android.content.res.Resources getResources()> to <android.content.res.Resources: java.io.InputStream openRawResource(int)>
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.view.View: int getId()> to <android.app.Activity: void startActivity(android.content.Intent)>
+maxpossibleFlows=2
+2 taint flow paths FOUND from <android.view.Display: int getWidth()> to <android.app.Activity: void setContentView(int)>
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.view.View: int getId()> to <android.content.Intent: android.content.Intent setClass(android.content.Context,java.lang.Class)>
+maxpossibleFlows=2
+2 taint flow paths FOUND from <android.view.Display: int getWidth()> to <android.view.Window: void setFlags(int,int)>
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.view.ContextThemeWrapper: android.content.res.Resources getResources()> to <android.database.sqlite.SQLiteDatabase: android.database.sqlite.SQLiteDatabase openOrCreateDatabase(java.lang.String,android.database.sqlite.SQLiteDatabase$CursorFactory)>
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class oms.sdt.colorlist
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class oms.sdt.colorlist
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class oms.sdt.colorlist
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class oms.sdt.deletecolor
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class oms.sdt.deletecolor
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class oms.sdt.deletecolor
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class oms.sdt.first
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class oms.sdt.first
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class oms.sdt.first
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class oms.sdt.light
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class oms.sdt.light
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class oms.sdt.light
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class oms.sdt.main
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class oms.sdt.main
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class oms.sdt.main
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class oms.sdt.main
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class oms.sdt.main
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class oms.sdt.main
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class oms.sdt.main
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class oms.sdt.multicolor
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class oms.sdt.multicolor
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class oms.sdt.multicolor
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class oms.sdt.settime
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class oms.sdt.settime
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class oms.sdt.settime
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class oms.sdt.setupcolor
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class oms.sdt.setupcolor
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class oms.sdt.setupcolor
+Result for malicious-app-46-9F7FDE7B3D0A03654179FBA3477B063699D718B2484154C95077CE584CCD10B9.apkoms.sdt

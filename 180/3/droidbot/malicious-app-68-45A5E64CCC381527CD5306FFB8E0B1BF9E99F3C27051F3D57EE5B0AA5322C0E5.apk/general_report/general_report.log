@@ -1,0 +1,90 @@
+DUA-Forensics args to Soot: -w -cp /home/handrick/Documents/UNB/benchmark/libs/droidfax.jar:/home/handrick/Android/Sdk/platforms/android-19/android.jar -p cg verbose:false,implicit-entry:true -p cg.spark verbose:false,on-fly-cg:true,rta:false -d /home/handrick/Documents/UNB/benchmark/trace/180/3/droidbot/malicious-app-68-45A5E64CCC381527CD5306FFB8E0B1BF9E99F3C27051F3D57EE5B0AA5322C0E5.apk.logcat -process-dir /home/handrick/Documents/UNB/benchmark/data/input/malicious-app-68-45A5E64CCC381527CD5306FFB8E0B1BF9E99F3C27051F3D57EE5B0AA5322C0E5.apk 
+Soot started on Sat Apr 16 00:55:39 CEST 2022
+Warning: com.ironsource.mobilcore.BaseFlowBasedAdUnit is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+Warning: com.clarkware.junitperf.LoadTest is a phantom class!
+Warning: com.clarkware.junitperf.TimedTest is a phantom class!
+Warning: com.sun.msv.datatype.DatabindableDatatype is a phantom class!
+Warning: com.sun.msv.datatype.SerializationContext is a phantom class!
+Warning: com.sun.msv.datatype.xsd.DatatypeFactory is a phantom class!
+Warning: com.sun.msv.datatype.xsd.TypeIncubator is a phantom class!
+Warning: com.sun.msv.datatype.xsd.XSDatatype is a phantom class!
+Warning: com.sun.msv.datatype.xsd.XSDatatypeImpl is a phantom class!
+Warning: java.beans.BeanInfo is a phantom class!
+Warning: java.beans.IntrospectionException is a phantom class!
+Warning: java.beans.Introspector is a phantom class!
+Warning: java.beans.PropertyDescriptor is a phantom class!
+Warning: javax.swing.table.AbstractTableModel is a phantom class!
+Warning: javax.swing.table.TableModel is a phantom class!
+Warning: javax.swing.tree.DefaultTreeModel is a phantom class!
+Warning: javax.swing.tree.TreeNode is a phantom class!
+Warning: javax.xml.bind.Element is a phantom class!
+Warning: javax.xml.bind.JAXBContext is a phantom class!
+Warning: javax.xml.bind.JAXBException is a phantom class!
+Warning: javax.xml.bind.Marshaller is a phantom class!
+Warning: javax.xml.bind.Unmarshaller is a phantom class!
+Warning: javax.xml.stream.FactoryConfigurationError is a phantom class!
+Warning: javax.xml.stream.Location is a phantom class!
+Warning: javax.xml.stream.XMLEventFactory is a phantom class!
+Warning: javax.xml.stream.XMLEventReader is a phantom class!
+Warning: javax.xml.stream.XMLEventWriter is a phantom class!
+Warning: javax.xml.stream.XMLInputFactory is a phantom class!
+Warning: javax.xml.stream.XMLOutputFactory is a phantom class!
+Warning: javax.xml.stream.XMLStreamException is a phantom class!
+Warning: javax.xml.stream.events.Attribute is a phantom class!
+Warning: javax.xml.stream.events.Characters is a phantom class!
+Warning: javax.xml.stream.events.Comment is a phantom class!
+Warning: javax.xml.stream.events.DTD is a phantom class!
+Warning: javax.xml.stream.events.EndDocument is a phantom class!
+Warning: javax.xml.stream.events.EndElement is a phantom class!
+Warning: javax.xml.stream.events.EntityDeclaration is a phantom class!
+Warning: javax.xml.stream.events.EntityReference is a phantom class!
+Warning: javax.xml.stream.events.Namespace is a phantom class!
+Warning: javax.xml.stream.events.ProcessingInstruction is a phantom class!
+Warning: javax.xml.stream.events.StartDocument is a phantom class!
+Warning: javax.xml.stream.events.StartElement is a phantom class!
+Warning: javax.xml.stream.events.XMLEvent is a phantom class!
+Warning: javax.xml.stream.util.XMLEventConsumer is a phantom class!
+Warning: junit.extensions.RepeatedTest is a phantom class!
+Warning: junit.textui.TestRunner is a phantom class!
+Warning: nu.xom.Attribute is a phantom class!
+Warning: nu.xom.Builder is a phantom class!
+Warning: nu.xom.Comment is a phantom class!
+Warning: nu.xom.Document is a phantom class!
+Warning: nu.xom.Element is a phantom class!
+Warning: nu.xom.Node is a phantom class!
+Warning: nu.xom.NodeFactory is a phantom class!
+Warning: nu.xom.ParentNode is a phantom class!
+Warning: nu.xom.ProcessingInstruction is a phantom class!
+Warning: nu.xom.Text is a phantom class!
+Warning: org.relaxng.datatype.ValidationContext is a phantom class!
+Warning: org.gjt.xpp.XmlPullParserFactory is a phantom class!
+Warning: org.gjt.xpp.XmlPullParser is a phantom class!
+Warning: org.gjt.xpp.XmlPullParserException is a phantom class!
+Warning: org.gjt.xpp.XmlStartTag is a phantom class!
+Warning: org.gjt.xpp.XmlEndTag is a phantom class!
+Warning: org.jdom.Element is a phantom class!
+Warning: org.jdom.Namespace is a phantom class!
+Warning: org.jdom.Attribute is a phantom class!
+Warning: org.jdom.CDATA is a phantom class!
+Warning: org.jdom.Comment is a phantom class!
+Warning: org.jdom.Document is a phantom class!
+Warning: org.jdom.Parent is a phantom class!
+Warning: org.jdom.ProcessingInstruction is a phantom class!
+Warning: org.jdom.Text is a phantom class!
+Warning: org.jdom.input.SAXBuilder is a phantom class!
+Warning: org.relaxng.datatype.DatatypeException is a phantom class!
+No main class given. Inferred 'org.dom4j.xpath.MatrixConcatTest' as main class.
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.3 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+hcai's internal transform
+Running static analysis for method/class coverage characterization
+0 ICC links found and 0 cg edges added due to ICC links
+dynamic conflated call graph: 389 methods; 389 nodes; 487 edges.
+feature-vector-key = malicious-app-68-45A5E64CCC381527CD5306FFB8E0B1BF9E99F3C27051F3D57EE5B0AA5322C0E5.apk
+Result for malicious-app-68-45A5E64CCC381527CD5306FFB8E0B1BF9E99F3C27051F3D57EE5B0AA5322C0E5.apkcom.barbaricsaint.weathersaint

@@ -1,0 +1,153 @@
+DUA-Forensics args to Soot: -w -cp /home/handrick/Documents/UNB/benchmark/libs/droidfax.jar:/home/handrick/Android/Sdk/platforms/android-19/android.jar -p cg verbose:false,implicit-entry:true -p cg.spark verbose:false,on-fly-cg:true,rta:false -d /home/handrick/Documents/UNB/benchmark/trace/180/3/droidbot/malicious-app-65-D0590B2F405A44B4252FA128FEAC026BAF94BF8DCB4D1B3A77E6BEA8FC7A2729.apk.logcat -process-dir /home/handrick/Documents/UNB/benchmark/data/input/malicious-app-65-D0590B2F405A44B4252FA128FEAC026BAF94BF8DCB4D1B3A77E6BEA8FC7A2729.apk 
+Soot started on Sat Apr 16 00:48:18 CEST 2022
+Warning: com.ironsource.mobilcore.BaseFlowBasedAdUnit is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.0 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+hcai's internal transform
+Running static analysis for security-relevant feature characterization
+[GatorHierarchy] [32mVERBOSE[0m [HIER] All classes: 1262
+[GatorHierarchy] [32mVERBOSE[0m [App: 350, Lib : 909, Phantom: 3]
+[GatorHierarchy] [32mVERBOSE[0m [HIER] Activities: 4, lib activities: 1
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App views: 12, Lib views: 19
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App Dialogs: 2, Lib Dialogs: 3
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing starting at 1650062900072
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing finished at 1650062902495
+[Instantiated app classes] [32mVERBOSE[0m total number: 317
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.andoop.android.highscore.HighScoreActivity added
+[WARNING] [32mVERBOSE[0m Callback method :doInBackground in Class com.andoop.android.highscore.HighScoreActivity$BaseTask added
+[WARNING] [32mVERBOSE[0m Callback method :onPostExecute in Class com.andoop.android.highscore.HighScoreActivity$BaseTask added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.andoop.android.engine.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.andoop.android.engine.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onTrackballEvent in Class com.andoop.android.engine.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.andoop.android.engine.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyUp in Class com.andoop.android.engine.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.andoop.android.engine.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.andoop.android.engine.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class com.admob.android.ads.AdMobActivity added
+[WARNING] [32mVERBOSE[0m Callback method :finish in Class com.admob.android.ads.AdMobActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.admob.android.ads.AdMobActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.admob.android.ads.AdMobActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.andoop.android.engine.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateDialog in Class com.andoop.flyracing.Game added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.andoop.flyracing.Game added
+[WARNING] [32mVERBOSE[0m Callback method :onTrackballEvent in Class com.andoop.android.engine.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.andoop.android.engine.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyUp in Class com.andoop.android.engine.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.andoop.android.engine.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.andoop.flyracing.Game added
+[WARNING] [32mVERBOSE[0m Callback method :onDraw in Class com.andoop.android.highscore.HighScoreActivity$RankListView added
+[WARNING] [32mVERBOSE[0m Callback method :onReceive in Class com.admob.android.ads.analytics.InstallReceiver added
+0 ICC links found and 0 cg edges added due to ICC links
+dynamic conflated call graph: 182 methods; 182 nodes; 210 edges.
+maxpossibleFlows=18
+18 taint flow paths FOUND from <android.content.ContextWrapper: android.content.res.AssetManager getAssets()> to <android.content.res.AssetManager: android.content.res.AssetFileDescriptor openFd(java.lang.String)>
+maxpossibleFlows=18
+18 taint flow paths FOUND from <android.content.ContextWrapper: android.content.res.Resources getResources()> to <android.graphics.drawable.Drawable: void setBounds(int,int,int,int)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=18
+maxpossibleFlows=18
+maxpossibleFlows=18
+maxpossibleFlows=17
+maxpossibleFlows=17
+maxpossibleFlows=17
+maxpossibleFlows=17
+maxpossibleFlows=18
+maxpossibleFlows=17
+maxpossibleFlows=17
+maxpossibleFlows=17
+maxpossibleFlows=17
+maxpossibleFlows=17
+maxpossibleFlows=18
+maxpossibleFlows=36
+36 taint flow paths FOUND from <java.lang.StringBuilder: java.lang.String toString()> to <android.content.Intent: android.content.Intent putExtra(java.lang.String,java.lang.String)>
+maxpossibleFlows=18
+maxpossibleFlows=18
+maxpossibleFlows=17
+maxpossibleFlows=17
+maxpossibleFlows=18
+maxpossibleFlows=18
+18 taint flow paths FOUND from <android.graphics.Bitmap: android.graphics.Bitmap createScaledBitmap(android.graphics.Bitmap,int,int,boolean)> to <android.graphics.drawable.Drawable: void setBounds(int,int,int,int)>
+maxpossibleFlows=18
+18 taint flow paths FOUND from <android.app.Dialog: android.view.Window getWindow()> to <android.app.Dialog: void setContentView(int)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <java.net.URLConnection: java.io.InputStream getInputStream()> to <android.os.Handler: boolean sendMessage(android.os.Message)>
+maxpossibleFlows=18
+maxpossibleFlows=18
+maxpossibleFlows=18
+maxpossibleFlows=18
+maxpossibleFlows=18
+maxpossibleFlows=17
+maxpossibleFlows=18
+maxpossibleFlows=18
+maxpossibleFlows=17
+maxpossibleFlows=18
+maxpossibleFlows=18
+maxpossibleFlows=18
+maxpossibleFlows=18
+maxpossibleFlows=18
+18 taint flow paths FOUND from <android.content.ContextWrapper: android.content.pm.PackageManager getPackageManager()> to <android.widget.ImageView: void setImageDrawable(android.graphics.drawable.Drawable)>
+maxpossibleFlows=18
+maxpossibleFlows=17
+maxpossibleFlows=18
+maxpossibleFlows=18
+18 taint flow paths FOUND from <android.app.Dialog: android.view.Window getWindow()> to <android.app.Dialog: void setContentView(int)>
+maxpossibleFlows=18
+18 taint flow paths FOUND from <android.content.ContextWrapper: android.content.res.Resources getResources()> to <android.graphics.drawable.Drawable: void setBounds(int,int,int,int)>
+maxpossibleFlows=18
+maxpossibleFlows=18
+maxpossibleFlows=36
+36 taint flow paths FOUND from <java.lang.StringBuilder: java.lang.String toString()> to <android.content.Intent: android.content.Intent putExtra(java.lang.String,java.lang.String)>
+maxpossibleFlows=18
+maxpossibleFlows=18
+maxpossibleFlows=18
+maxpossibleFlows=18
+maxpossibleFlows=18
+18 taint flow paths FOUND from <java.lang.StringBuilder: java.lang.String toString()> to <android.app.Activity: void startActivity(android.content.Intent)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=17
+maxpossibleFlows=18
+maxpossibleFlows=18
+18 taint flow paths FOUND from <android.app.Dialog: android.view.Window getWindow()> to <android.view.Window: void setFlags(int,int)>
+maxpossibleFlows=18
+maxpossibleFlows=17
+maxpossibleFlows=17
+maxpossibleFlows=17
+maxpossibleFlows=18
+maxpossibleFlows=17
+maxpossibleFlows=18
+maxpossibleFlows=18
+18 taint flow paths FOUND from <android.content.ContextWrapper: android.content.pm.PackageManager getPackageManager()> to <android.widget.ImageView: void setImageDrawable(android.graphics.drawable.Drawable)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=18
+maxpossibleFlows=18
+maxpossibleFlows=17
+maxpossibleFlows=18
+maxpossibleFlows=17
+maxpossibleFlows=18
+maxpossibleFlows=18
+maxpossibleFlows=18
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <java.net.URLConnection: java.io.InputStream getInputStream()> to <android.os.Handler: boolean sendMessage(android.os.Message)>
+maxpossibleFlows=18
+18 taint flow paths FOUND from <android.content.ContextWrapper: android.content.res.AssetManager getAssets()> to <android.content.res.AssetManager: android.content.res.AssetFileDescriptor openFd(java.lang.String)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+Result for malicious-app-65-D0590B2F405A44B4252FA128FEAC026BAF94BF8DCB4D1B3A77E6BEA8FC7A2729.apkcom.andoop.flyracing

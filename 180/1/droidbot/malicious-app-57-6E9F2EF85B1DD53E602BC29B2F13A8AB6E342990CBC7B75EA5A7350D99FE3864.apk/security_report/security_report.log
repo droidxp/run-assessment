@@ -1,0 +1,384 @@
+DUA-Forensics args to Soot: -w -cp /home/handrick/Documents/UNB/benchmark/libs/droidfax.jar:/home/handrick/Android/Sdk/platforms/android-19/android.jar -p cg verbose:false,implicit-entry:true -p cg.spark verbose:false,on-fly-cg:true,rta:false -d /home/handrick/Documents/UNB/benchmark/trace/180/1/droidbot/malicious-app-57-6E9F2EF85B1DD53E602BC29B2F13A8AB6E342990CBC7B75EA5A7350D99FE3864.apk.logcat -process-dir /home/handrick/Documents/UNB/benchmark/data/input/malicious-app-57-6E9F2EF85B1DD53E602BC29B2F13A8AB6E342990CBC7B75EA5A7350D99FE3864.apk 
+Soot started on Fri Apr 15 00:30:28 CEST 2022
+Warning: com.ironsource.mobilcore.BaseFlowBasedAdUnit is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.0 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+hcai's internal transform
+Running static analysis for security-relevant feature characterization
+[GatorHierarchy] [32mVERBOSE[0m [HIER] All classes: 1947
+[GatorHierarchy] [32mVERBOSE[0m [App: 931, Lib : 1013, Phantom: 3]
+[GatorHierarchy] [32mVERBOSE[0m [HIER] Activities: 11, lib activities: 1
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App views: 13, Lib views: 24
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App Dialogs: 0, Lib Dialogs: 3
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing starting at 1649975429857
+array element type: (filled narr)int
+array element type: (filled narr)int
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing finished at 1649975437522
+[Instantiated app classes] [32mVERBOSE[0m total number: 829
+[WARNING] [32mVERBOSE[0m Callback method :onBackPressed in Class com.overcastgames.android.astrofrontier.lite.activity.SpaceQuestGameLiteActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onRestoreInstanceState in Class com.overcastgames.android.astrofrontier.lite.activity.SpaceQuestGameLiteActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.overcastgames.android.astrofrontier.activity.SpaceQuestBaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.overcastgames.android.astrofrontier.lite.activity.SpaceQuestGameLiteActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.overcastgames.android.astrofrontier.lite.activity.SpaceQuestGameLiteActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.overcastgames.android.astrofrontier.lite.activity.SpaceQuestGameLiteActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class com.overcastgames.android.astrofrontier.lite.activity.SpaceQuestGameLiteActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onRestart in Class com.overcastgames.android.games.SimpleActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onSaveInstanceState in Class com.overcastgames.android.astrofrontier.lite.activity.SpaceQuestGameLiteActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class com.overcastgames.android.astrofrontier.lite.activity.SpaceQuestGameLiteActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.overcastgames.android.astrofrontier.activity.SpaceQuestBaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onLowMemory in Class com.overcastgames.android.astrofrontier.activity.SpaceQuestBaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onBind in Class com.kuguo.ad.MainService added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.kuguo.ad.MainService added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.kuguo.ad.MainService added
+[WARNING] [32mVERBOSE[0m Callback method :onStartCommand in Class com.kuguo.ad.MainService added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class net.crazymedia.iad.AdPushActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onRestoreInstanceState in Class net.crazymedia.iad.AdPushActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class net.crazymedia.iad.AdPushActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class net.crazymedia.iad.AdPushActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onSaveInstanceState in Class net.crazymedia.iad.AdPushActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.overcastgames.android.games.SimpleActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onRestart in Class com.overcastgames.android.games.SimpleActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class com.overcastgames.android.games.SimpleActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.overcastgames.android.games.SimpleActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onReceive in Class com.google.android.apps.analytics.AnalyticsReceiver added
+[WARNING] [32mVERBOSE[0m Callback method :onReceive in Class net.crazymedia.iad.AdPushReceiver added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.overcastgames.android.games.SimpleActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.overcastgames.android.astrofrontier.activity.FlockMakerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onRestart in Class com.overcastgames.android.games.SimpleActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class com.overcastgames.android.games.SimpleActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.overcastgames.android.games.SimpleActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onWindowFocusChanged in Class com.google.ads.AdActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.google.ads.AdActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.google.ads.AdActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.google.ads.AdActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class com.google.ads.AdActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.google.ads.AdActivity added
+[WARNING] [32mVERBOSE[0m Callback method :finish in Class com.kuguo.ad.BoutiqueActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onItemClick in Class com.kuguo.ad.BoutiqueActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.kuguo.ad.BoutiqueActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.kuguo.ad.MainActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.kuguo.ad.MainActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class com.kuguo.ad.MainActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onBackPressed in Class com.overcastgames.android.astrofrontier.activity.SpaceQuestBaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.overcastgames.android.astrofrontier.activity.SpaceQuestBaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.overcastgames.android.astrofrontier.activity.SpaceQuestBaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.overcastgames.android.astrofrontier.activity.SpaceQuestBaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onRestart in Class com.overcastgames.android.games.SimpleActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class com.overcastgames.android.games.SimpleActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.overcastgames.android.astrofrontier.activity.SpaceQuestBaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onLowMemory in Class com.overcastgames.android.astrofrontier.activity.SpaceQuestBaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onReceive in Class com.kuguo.ad.MainReceiver added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.overcastgames.android.games.SimpleActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.overcastgames.android.astrofrontier.activity.EmitterMakerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onRestart in Class com.overcastgames.android.games.SimpleActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class com.overcastgames.android.games.SimpleActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.overcastgames.android.games.SimpleActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onBackPressed in Class com.overcastgames.android.astrofrontier.activity.SpaceQuestGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onRestoreInstanceState in Class com.overcastgames.android.astrofrontier.activity.SpaceQuestGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.overcastgames.android.astrofrontier.activity.SpaceQuestBaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.overcastgames.android.astrofrontier.activity.SpaceQuestGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.overcastgames.android.astrofrontier.activity.SpaceQuestGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.overcastgames.android.astrofrontier.activity.SpaceQuestGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class com.overcastgames.android.astrofrontier.activity.SpaceQuestGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onRestart in Class com.overcastgames.android.games.SimpleActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onSaveInstanceState in Class com.overcastgames.android.astrofrontier.activity.SpaceQuestGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class com.overcastgames.android.astrofrontier.activity.SpaceQuestGameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.overcastgames.android.astrofrontier.activity.SpaceQuestBaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onLowMemory in Class com.overcastgames.android.astrofrontier.activity.SpaceQuestBaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onUnbind in Class net.crazymedia.iad.AdPushService added
+[WARNING] [32mVERBOSE[0m Callback method :onBind in Class net.crazymedia.iad.AdPushService added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class net.crazymedia.iad.AdPushService added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class net.crazymedia.iad.AdPushService added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class net.crazymedia.iad.AdPushService added
+[WARNING] [32mVERBOSE[0m Callback method :onBind in Class com.umeng.common.net.DownloadingService added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.umeng.common.net.DownloadingService added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.umeng.common.net.DownloadingService added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class com.umeng.common.net.DownloadingService added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyLongPress in Class com.overcastgames.android.games.SimpleView added
+[WARNING] [32mVERBOSE[0m Callback method :surfaceCreated in Class com.overcastgames.android.games.SimpleView added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.overcastgames.android.games.SimpleView added
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class com.overcastgames.android.games.SimpleView added
+[WARNING] [32mVERBOSE[0m Callback method :surfaceDestroyed in Class com.overcastgames.android.games.SimpleView added
+[WARNING] [32mVERBOSE[0m Callback method :surfaceChanged in Class com.overcastgames.android.games.SimpleView added
+[WARNING] [32mVERBOSE[0m Callback method :onDraw in Class com.overcastgames.android.games.SimpleView added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyUp in Class com.overcastgames.android.games.SimpleView added
+[WARNING] [32mVERBOSE[0m Callback method :surfaceCreated in Class com.overcastgames.android.games.a added
+[WARNING] [32mVERBOSE[0m Callback method :surfaceDestroyed in Class com.overcastgames.android.games.a added
+[WARNING] [32mVERBOSE[0m Callback method :surfaceChanged in Class com.overcastgames.android.games.a added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.overcastgames.android.games.SimpleActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.overcastgames.android.astrofrontier.activity.MenuMakerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onRestart in Class com.overcastgames.android.games.SimpleActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class com.overcastgames.android.games.SimpleActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.overcastgames.android.games.SimpleActivity added
+0 ICC links found and 0 cg edges added due to ICC links
+dynamic conflated call graph: 428 methods; 428 nodes; 639 edges.
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <java.util.TimeZone: java.util.TimeZone getTimeZone(java.lang.String)> to <java.text.DateFormat: void setTimeZone(java.util.TimeZone)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+2 taint flow paths FOUND from <org.apache.http.impl.client.AbstractHttpClient: org.apache.http.params.HttpParams getParams()> to <org.apache.http.params.BasicHttpParams: org.apache.http.params.HttpParams setParameter(java.lang.String,java.lang.Object)>
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.app.PendingIntent: android.app.PendingIntent getBroadcast(android.content.Context,int,android.content.Intent,int)> to <android.app.AlarmManager: void setRepeating(int,long,long,android.app.PendingIntent)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <java.lang.StringBuilder: java.lang.String toString()> to <android.util.Log: int d(java.lang.String,java.lang.String)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.content.ContextWrapper: android.content.pm.PackageManager getPackageManager()> to <android.location.Criteria: void setAccuracy(int)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=9
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.app.Activity: java.lang.Object getSystemService(java.lang.String)> to <android.app.AlarmManager: void setRepeating(int,long,long,android.app.PendingIntent)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.content.ContextWrapper: java.lang.String getPackageName()> to <android.location.Criteria: void setAccuracy(int)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <java.util.Calendar: long getTimeInMillis()> to <android.app.AlarmManager: void setRepeating(int,long,long,android.app.PendingIntent)>
+maxpossibleFlows=1
+1 taint flow paths FOUND from <java.util.Calendar: java.util.Calendar getInstance()> to <android.app.AlarmManager: void setRepeating(int,long,long,android.app.PendingIntent)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.app.PendingIntent: android.app.PendingIntent getBroadcast(android.content.Context,int,android.content.Intent,int)> to <android.app.AlarmManager: void setRepeating(int,long,long,android.app.PendingIntent)>
+maxpossibleFlows=1
+1 taint flow paths FOUND from <java.util.TimeZone: java.util.TimeZone getTimeZone(java.lang.String)> to <java.text.DateFormat: void setTimeZone(java.util.TimeZone)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <java.lang.StringBuilder: java.lang.String toString()> to <android.util.Log: int d(java.lang.String,java.lang.String)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.content.ContextWrapper: android.content.pm.PackageManager getPackageManager()> to <android.location.Criteria: void setAccuracy(int)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+2 taint flow paths FOUND from <org.apache.http.impl.client.AbstractHttpClient: org.apache.http.params.HttpParams getParams()> to <org.apache.http.params.BasicHttpParams: org.apache.http.params.HttpParams setParameter(java.lang.String,java.lang.Object)>
+maxpossibleFlows=9
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.google.ads.AdActivity
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class com.google.ads.AdActivity
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.google.ads.AdActivity
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.google.ads.AdActivity
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.google.ads.AdActivity
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.google.ads.AdActivity
+[WARNING] [32mVERBOSE[0m Callback method :onWindowFocusChanged in Class com.google.ads.AdActivity
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.kuguo.ad.BoutiqueActivity
+[WARNING] [32mVERBOSE[0m Callback method :finish in Class com.kuguo.ad.BoutiqueActivity
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.kuguo.ad.BoutiqueActivity
+[WARNING] [32mVERBOSE[0m Callback method :onItemClick in Class com.kuguo.ad.BoutiqueActivity
+[WARNING] [32mVERBOSE[0m Callback method :onDraw in Class com.overcastgames.android.games.SimpleView
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.overcastgames.android.games.SimpleView
+[WARNING] [32mVERBOSE[0m Callback method :onKeyLongPress in Class com.overcastgames.android.games.SimpleView
+[WARNING] [32mVERBOSE[0m Callback method :onKeyUp in Class com.overcastgames.android.games.SimpleView
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class com.overcastgames.android.games.SimpleView
+[WARNING] [32mVERBOSE[0m Callback method :surfaceChanged in Class com.overcastgames.android.games.SimpleView
+[WARNING] [32mVERBOSE[0m Callback method :surfaceCreated in Class com.overcastgames.android.games.SimpleView
+[WARNING] [32mVERBOSE[0m Callback method :surfaceDestroyed in Class com.overcastgames.android.games.SimpleView
+[WARNING] [32mVERBOSE[0m Hierarchy.virtualDispatch called with non-concrete receiver class: com.overcastgames.android.games.a, subsig: void surfaceChanged(android.view.SurfaceHolder,int,int,int)
+[WARNING] [32mVERBOSE[0m Callback method :surfaceChanged in Class com.overcastgames.android.games.a
+[WARNING] [32mVERBOSE[0m Hierarchy.virtualDispatch called with non-concrete receiver class: com.overcastgames.android.games.a, subsig: void surfaceCreated(android.view.SurfaceHolder)
+[WARNING] [32mVERBOSE[0m Callback method :surfaceCreated in Class com.overcastgames.android.games.a
+[WARNING] [32mVERBOSE[0m Hierarchy.virtualDispatch called with non-concrete receiver class: com.overcastgames.android.games.a, subsig: void surfaceDestroyed(android.view.SurfaceHolder)
+[WARNING] [32mVERBOSE[0m Callback method :surfaceDestroyed in Class com.overcastgames.android.games.a
+Result for malicious-app-57-6E9F2EF85B1DD53E602BC29B2F13A8AB6E342990CBC7B75EA5A7350D99FE3864.apkcom.overcastgames.android.astrofrontier

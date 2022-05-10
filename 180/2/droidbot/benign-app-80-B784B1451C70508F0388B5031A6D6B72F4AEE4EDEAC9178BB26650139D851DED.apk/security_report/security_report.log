@@ -1,0 +1,170 @@
+DUA-Forensics args to Soot: -w -cp /home/handrick/Documents/UNB/benchmark/libs/droidfax.jar:/home/handrick/Android/Sdk/platforms/android-19/android.jar -p cg verbose:false,implicit-entry:true -p cg.spark verbose:false,on-fly-cg:true,rta:false -d /home/handrick/Documents/UNB/benchmark/trace/180/2/droidbot/benign-app-80-B784B1451C70508F0388B5031A6D6B72F4AEE4EDEAC9178BB26650139D851DED.apk.logcat -process-dir /home/handrick/Documents/UNB/benchmark/data/input/benign-app-80-B784B1451C70508F0388B5031A6D6B72F4AEE4EDEAC9178BB26650139D851DED.apk 
+Soot started on Fri Apr 15 13:16:19 CEST 2022
+Warning: com.ironsource.mobilcore.BaseFlowBasedAdUnit is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.0 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+hcai's internal transform
+Running static analysis for security-relevant feature characterization
+[GatorHierarchy] [32mVERBOSE[0m [HIER] All classes: 891
+[GatorHierarchy] [32mVERBOSE[0m [App: 148, Lib : 740, Phantom: 3]
+[GatorHierarchy] [32mVERBOSE[0m [HIER] Activities: 21, lib activities: 1
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App views: 2, Lib views: 11
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App Dialogs: 0, Lib Dialogs: 3
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing starting at 1650021380506
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing finished at 1650021381617
+[Instantiated app classes] [32mVERBOSE[0m total number: 144
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class zok.android.phonics.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class zok.android.phonics.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class zok.android.phonics.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class zok.android.phonics.MoreGamesActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class zok.android.phonics.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class zok.android.phonics.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class zok.android.phonics.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class zok.android.phonics.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class zok.android.phonics.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class zok.android.phonics.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class zok.android.phonics.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class zok.android.phonics.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class zok.android.phonics.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class zok.android.phonics.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class zok.android.phonics.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class zok.android.phonics.GetFullVersionActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class zok.android.phonics.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class zok.android.phonics.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onAnimationEnd in Class zok.android.phonics.AnimationListenerAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :onAnimationStart in Class zok.android.phonics.AnimationListenerAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :onAnimationRepeat in Class zok.android.phonics.AnimationListenerAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :onTouch in Class zok.android.phonics.PuzzleView added
+[WARNING] [32mVERBOSE[0m Callback method :onDraw in Class zok.android.phonics.PuzzleView added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class zok.android.phonics.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onWindowFocusChanged in Class zok.android.phonics.CubeActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class zok.android.phonics.CubeActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class zok.android.phonics.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class zok.android.phonics.CubeActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class zok.android.phonics.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class zok.android.phonics.CubeActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class zok.android.phonics.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class zok.android.phonics.BeginningSoundActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class zok.android.phonics.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class zok.android.phonics.BeginningSoundActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class zok.android.phonics.BeginningSoundActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class zok.android.phonics.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class zok.android.phonics.BeginningSoundActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class zok.android.phonics.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onWindowFocusChanged in Class zok.android.phonics.PuzzleActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPrepareOptionsMenu in Class zok.android.phonics.PuzzleActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class zok.android.phonics.PuzzleActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class zok.android.phonics.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class zok.android.phonics.PuzzleActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class zok.android.phonics.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class zok.android.phonics.PuzzleActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class zok.android.phonics.notification.ImageNotificationActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class zok.android.phonics.notification.ImageNotificationActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class zok.android.phonics.PromoActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class zok.android.phonics.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class zok.android.phonics.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class zok.android.phonics.PromoActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class zok.android.phonics.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class zok.android.phonics.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class zok.android.phonics.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class zok.android.phonics.BubblesActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class zok.android.phonics.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class zok.android.phonics.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class zok.android.phonics.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class zok.android.phonics.BubblesActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class zok.android.phonics.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class zok.android.phonics.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class zok.android.phonics.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class zok.android.phonics.SplashScreenActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class zok.android.phonics.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class zok.android.phonics.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class zok.android.phonics.HomeActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class zok.android.phonics.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class zok.android.phonics.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class zok.android.phonics.HomeActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class zok.android.phonics.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class zok.android.phonics.HomeActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class zok.android.phonics.HomeActivity added
+0 ICC links found and 0 cg edges added due to ICC links
+dynamic conflated call graph: 114 methods; 114 nodes; 129 edges.
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class zok.android.phonics.AnimationListenerAdapter
+[WARNING] [32mVERBOSE[0m Callback method :onAnimationEnd in Class zok.android.phonics.AnimationListenerAdapter
+[WARNING] [32mVERBOSE[0m Callback method :onAnimationRepeat in Class zok.android.phonics.AnimationListenerAdapter
+[WARNING] [32mVERBOSE[0m Callback method :onAnimationStart in Class zok.android.phonics.AnimationListenerAdapter
+[WARNING] [32mVERBOSE[0m Callback method :onDraw in Class zok.android.phonics.PuzzleView
+[WARNING] [32mVERBOSE[0m Callback method :onTouch in Class zok.android.phonics.PuzzleView
+Result for benign-app-80-B784B1451C70508F0388B5031A6D6B72F4AEE4EDEAC9178BB26650139D851DED.apkzok.android.phonics

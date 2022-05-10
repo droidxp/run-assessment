@@ -1,0 +1,2193 @@
+DUA-Forensics args to Soot: -w -cp /home/handrick/Documents/UNB/benchmark/libs/droidfax.jar:/home/handrick/Android/Sdk/platforms/android-19/android.jar -p cg verbose:false,implicit-entry:true -p cg.spark verbose:false,on-fly-cg:true,rta:false -d /home/handrick/Documents/UNB/benchmark/trace/180/1/droidbot/malicious-app-2-7EB06AA2DF84855EE73AB3D9DBD4F5128C5C0C98ED3C31901DFC7568B34B7B34.apk.logcat -process-dir /home/handrick/Documents/UNB/benchmark/data/input/malicious-app-2-7EB06AA2DF84855EE73AB3D9DBD4F5128C5C0C98ED3C31901DFC7568B34B7B34.apk 
+Soot started on Fri Apr 15 01:00:57 CEST 2022
+Warning: com.ironsource.mobilcore.BaseFlowBasedAdUnit is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+Warning: android.webkit.CacheManager is a phantom class!
+No main class given. Inferred 'org.kobjects.crypt.Crypt' as main class.
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.4 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+hcai's internal transform
+Running static analysis for security-relevant feature characterization
+[GatorHierarchy] [32mVERBOSE[0m [HIER] All classes: 1819
+[GatorHierarchy] [32mVERBOSE[0m [App: 662, Lib : 1153, Phantom: 4]
+[GatorHierarchy] [32mVERBOSE[0m [HIER] Activities: 32, lib activities: 6
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App views: 18, Lib views: 29
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App Dialogs: 1, Lib Dialogs: 4
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing starting at 1649977259345
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing finished at 1649977264181
+[Instantiated app classes] [32mVERBOSE[0m total number: 619
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class cn.cf.shop_ele.games.download.DownloadActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onItemLongClick in Class cn.cf.shop_ele.games.download.DownloadActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class cn.cf.shop_ele.games.download.DownloadActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class cn.cf.shop_ele.games.download.DownloadActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onItemClick in Class cn.cf.shop_ele.games.download.DownloadActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class cn.cf.shop_ele.games.download.DownloadActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class cn.cf.shop_ele.games.download.DownloadActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class cn.cf.shop_ele.games.download.DownloadActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onBind in Class cn.cf.shop_ele.download.DownloadService added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class cn.cf.shop_ele.download.DownloadService added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class cn.cf.shop_ele.download.DownloadService added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class cn.cf.shop_ele.download.DownloadService added
+[WARNING] [32mVERBOSE[0m Callback method :onLowMemory in Class cn.cf.shop_ele.download.DownloadService added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class cn.cf.shop_ele.ui.activities.base.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class cn.cf.shop_ele.ui.activities.AboutActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class cn.cf.shop_ele.ui.activities.base.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class cn.cf.shop_ele.ui.activities.base.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class cn.cf.shop_ele.ui.activities.ChangeSkinActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class cn.cf.shop_ele.ui.activities.base.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class cn.cf.shop_ele.ui.activities.StartActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyUp in Class cn.cf.shop_ele.ui.activities.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class cn.cf.shop_ele.ui.activities.base.BaseTabActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class cn.cf.shop_ele.ui.activities.base.BaseTabActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class cn.cf.shop_ele.ui.activities.preferences.BaseSpinnerCustomPreferenceActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class cn.cf.shop_ele.ui.activities.preferences.WeaveServerPreferenceActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class cn.cf.shop_ele.ui.activities.preferences.BaseSpinnerCustomPreferenceActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onItemClick in Class cn.cf.shop_ele.ui.activities.ElectricFrontPageActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class cn.cf.shop_ele.ui.activities.ElectricFrontPageActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyUp in Class cn.cf.shop_ele.ui.activities.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyUp in Class cn.cf.shop_ele.ui.activities.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class cn.cf.shop_ele.ui.activities.ElectricSearchActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyUp in Class cn.cf.shop_ele.ui.activities.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onFling in Class cn.cf.shop_ele.games.GalleryExt added
+[WARNING] [32mVERBOSE[0m Callback method :onMenuItemSelected in Class cn.cf.shop_ele.ui.activities.AdBlockerWhiteListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class cn.cf.shop_ele.ui.activities.base.BaseListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateContextMenu in Class cn.cf.shop_ele.ui.activities.AdBlockerWhiteListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class cn.cf.shop_ele.ui.activities.AdBlockerWhiteListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateOptionsMenu in Class cn.cf.shop_ele.ui.activities.AdBlockerWhiteListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class cn.cf.shop_ele.ui.activities.AdBlockerWhiteListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class cn.cf.shop_ele.ui.activities.base.BaseListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onContextItemSelected in Class cn.cf.shop_ele.ui.activities.AdBlockerWhiteListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :getType in Class cn.cf.shop_ele.providers.ZircoBookmarksContentProvider added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class cn.cf.shop_ele.providers.ZircoBookmarksContentProvider added
+[WARNING] [32mVERBOSE[0m Callback method :query in Class cn.cf.shop_ele.providers.ZircoBookmarksContentProvider added
+[WARNING] [32mVERBOSE[0m Callback method :update in Class cn.cf.shop_ele.providers.ZircoBookmarksContentProvider added
+[WARNING] [32mVERBOSE[0m Callback method :insert in Class cn.cf.shop_ele.providers.ZircoBookmarksContentProvider added
+[WARNING] [32mVERBOSE[0m Callback method :delete in Class cn.cf.shop_ele.providers.ZircoBookmarksContentProvider added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class cn.cf.shop_ele.ui.activities.base.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class cn.cf.shop_ele.ui.activities.EditBookmarkActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class cn.cf.shop_ele.ui.activities.base.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onMenuItemSelected in Class cn.cf.shop_ele.ui.activities.WeaveBookmarksListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class cn.cf.shop_ele.ui.activities.base.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateContextMenu in Class cn.cf.shop_ele.ui.activities.WeaveBookmarksListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class cn.cf.shop_ele.ui.activities.WeaveBookmarksListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateOptionsMenu in Class cn.cf.shop_ele.ui.activities.WeaveBookmarksListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyUp in Class cn.cf.shop_ele.ui.activities.WeaveBookmarksListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class cn.cf.shop_ele.ui.activities.WeaveBookmarksListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class cn.cf.shop_ele.ui.activities.base.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onContextItemSelected in Class cn.cf.shop_ele.ui.activities.WeaveBookmarksListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class cn.cf.shop_ele.ui.activities.preferences.WeavePreferencesActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onFling in Class cn.cf.shop_ele.ui.view.GalleryExt added
+[WARNING] [32mVERBOSE[0m Callback method :onMeasure in Class cn.cf.shop_ele.games.MyGridView added
+[WARNING] [32mVERBOSE[0m Callback method :setAdapter in Class cn.cf.shop_ele.ui.view.PullToRefreshListView added
+[WARNING] [32mVERBOSE[0m Callback method :onScrollStateChanged in Class cn.cf.shop_ele.ui.view.PullToRefreshListView added
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class cn.cf.shop_ele.ui.view.PullToRefreshListView added
+[WARNING] [32mVERBOSE[0m Callback method :onAttachedToWindow in Class cn.cf.shop_ele.ui.view.PullToRefreshListView added
+[WARNING] [32mVERBOSE[0m Callback method :setOnScrollListener in Class cn.cf.shop_ele.ui.view.PullToRefreshListView added
+[WARNING] [32mVERBOSE[0m Callback method :onScroll in Class cn.cf.shop_ele.ui.view.PullToRefreshListView added
+[WARNING] [32mVERBOSE[0m Callback method :onMenuItemSelected in Class cn.cf.shop_ele.ui.activities.DownloadsListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class cn.cf.shop_ele.ui.activities.base.BaseListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class cn.cf.shop_ele.ui.activities.DownloadsListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateOptionsMenu in Class cn.cf.shop_ele.ui.activities.DownloadsListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class cn.cf.shop_ele.ui.activities.DownloadsListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class cn.cf.shop_ele.ui.activities.base.BaseListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :getType in Class cn.cf.shop_ele1.taoxiaosan.providers.WeaveContentProvider added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class cn.cf.shop_ele1.taoxiaosan.providers.WeaveContentProvider added
+[WARNING] [32mVERBOSE[0m Callback method :query in Class cn.cf.shop_ele1.taoxiaosan.providers.WeaveContentProvider added
+[WARNING] [32mVERBOSE[0m Callback method :update in Class cn.cf.shop_ele1.taoxiaosan.providers.WeaveContentProvider added
+[WARNING] [32mVERBOSE[0m Callback method :insert in Class cn.cf.shop_ele1.taoxiaosan.providers.WeaveContentProvider added
+[WARNING] [32mVERBOSE[0m Callback method :delete in Class cn.cf.shop_ele1.taoxiaosan.providers.WeaveContentProvider added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class cn.cf.shop_ele.ui.activities.WebsiteActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class cn.cf.shop_ele.ui.activities.WebsiteActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class cn.cf.shop_ele.ui.activities.WebsiteActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class cn.cf.shop_ele.ui.activities.WebsiteActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class cn.cf.shop_ele.ui.activities.BookmarksHistoryActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class cn.cf.shop_ele.ui.activities.base.BaseTabActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class cn.cf.shop_ele.ui.activities.BookmarksHistoryActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class cn.cf.shop_ele.ui.activities.base.BaseTabActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onMenuItemSelected in Class cn.cf.shop_ele.ui.activities.MobileViewListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class cn.cf.shop_ele.ui.activities.base.BaseListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateContextMenu in Class cn.cf.shop_ele.ui.activities.MobileViewListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class cn.cf.shop_ele.ui.activities.MobileViewListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateOptionsMenu in Class cn.cf.shop_ele.ui.activities.MobileViewListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class cn.cf.shop_ele.ui.activities.MobileViewListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class cn.cf.shop_ele.ui.activities.base.BaseListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onContextItemSelected in Class cn.cf.shop_ele.ui.activities.MobileViewListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class cn.cf.shop_ele.ui.activities.preferences.PreferencesActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class cn.cf.shop_ele.ui.activities.preferences.PreferencesActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class cn.cf.shop_ele.ui.activities.preferences.PreferencesActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class cn.cf.shop_ele.ui.activities.preferences.BaseSpinnerCustomPreferenceActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class cn.cf.shop_ele.ui.activities.preferences.HomepagePreferenceActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class cn.cf.shop_ele.ui.activities.preferences.BaseSpinnerCustomPreferenceActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class cn.cf.shop_ele.ui.activities.preferences.BaseSpinnerCustomPreferenceActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class cn.cf.shop_ele.ui.activities.preferences.BaseSpinnerCustomPreferenceActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class cn.cf.shop_ele.ui.activities.preferences.BaseSpinnerCustomPreferenceActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onBind in Class cn.cf.shop_ele.games.ClearCacheService added
+[WARNING] [32mVERBOSE[0m Callback method :onStartCommand in Class cn.cf.shop_ele.games.ClearCacheService added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class cn.cf.shop_ele.ui.activities.preferences.BaseSpinnerCustomPreferenceActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class cn.cf.shop_ele.ui.activities.preferences.BaseSpinnerCustomPreferenceActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class cn.cf.shop_ele.ui.activities.preferences.BaseSpinnerCustomPreferenceActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPanelClosed in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onMenuItemSelected in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onBackPressed in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onRetainNonConfigurationInstance in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreatePanelMenu in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :dump in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateView in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPreparePanel in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onSaveInstanceState in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :startActivityForResult in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPostResume in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onLowMemory in Class android.support.v4.app.FragmentActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onReceive in Class cn.cf.shop_ele.utils.ProxyChangeReceiver added
+[WARNING] [32mVERBOSE[0m Callback method :onMenuItemSelected in Class cn.cf.shop_ele.ui.activities.HistoryListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onChildClick in Class cn.cf.shop_ele.ui.activities.HistoryListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class cn.cf.shop_ele.ui.activities.base.BaseExpandableListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateContextMenu in Class cn.cf.shop_ele.ui.activities.HistoryListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class cn.cf.shop_ele.ui.activities.HistoryListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateOptionsMenu in Class cn.cf.shop_ele.ui.activities.HistoryListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class cn.cf.shop_ele.ui.activities.base.BaseExpandableListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onContextItemSelected in Class cn.cf.shop_ele.ui.activities.HistoryListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class cn.cf.shop_ele.ui.activities.base.BaseExpandableListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class cn.cf.shop_ele.ui.activities.base.BaseExpandableListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onItemClick in Class cn.cf.shop_ele.ui.activities.Electric_ShopListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class cn.cf.shop_ele.ui.activities.Electric_ShopListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyUp in Class cn.cf.shop_ele.ui.activities.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :notifyDataSetChanged in Class cn.cf.shop_ele.download.DownloadBaseAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getItem in Class cn.cf.shop_ele.download.DownloadBaseAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getView in Class cn.cf.shop_ele.download.DownloadBaseAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getCount in Class cn.cf.shop_ele.download.DownloadBaseAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getItemId in Class cn.cf.shop_ele.download.DownloadBaseAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :onRestoreInstanceState in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :onMeasure in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :addView in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :onSaveInstanceState in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :onLayout in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :computeScroll in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :onAttachedToWindow in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :onInterceptTouchEvent in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :onSizeChanged in Class android.support.v4.view.ViewPager added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class cn.cf.shop_ele.games.MainApplication added
+[WARNING] [32mVERBOSE[0m Callback method :onLowMemory in Class cn.cf.shop_ele.games.MainApplication added
+[WARNING] [32mVERBOSE[0m Callback method :getType in Class cn.cf.shop_ele.providers.WeaveContentProvider added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class cn.cf.shop_ele.providers.WeaveContentProvider added
+[WARNING] [32mVERBOSE[0m Callback method :query in Class cn.cf.shop_ele.providers.WeaveContentProvider added
+[WARNING] [32mVERBOSE[0m Callback method :update in Class cn.cf.shop_ele.providers.WeaveContentProvider added
+[WARNING] [32mVERBOSE[0m Callback method :insert in Class cn.cf.shop_ele.providers.WeaveContentProvider added
+[WARNING] [32mVERBOSE[0m Callback method :delete in Class cn.cf.shop_ele.providers.WeaveContentProvider added
+[WARNING] [32mVERBOSE[0m Callback method :isFocused in Class cn.cf.shop_ele.games.ScrollForeverTextView added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class cn.cf.shop_ele.ui.activities.preferences.BaseSpinnerCustomPreferenceActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class cn.cf.shop_ele.ui.activities.preferences.SearchUrlPreferenceActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class cn.cf.shop_ele.ui.activities.preferences.BaseSpinnerCustomPreferenceActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onTransact in Class cn.cf.shop_ele.download.IMusicDownloadInterface$Stub added
+[WARNING] [32mVERBOSE[0m Callback method :asBinder in Class cn.cf.shop_ele.download.IMusicDownloadInterface$Stub added
+[WARNING] [32mVERBOSE[0m Callback method :getType in Class cn.cf.shop_ele1.taoxiaosan.providers.BookmarksContentProvider added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class cn.cf.shop_ele1.taoxiaosan.providers.BookmarksContentProvider added
+[WARNING] [32mVERBOSE[0m Callback method :query in Class cn.cf.shop_ele1.taoxiaosan.providers.BookmarksContentProvider added
+[WARNING] [32mVERBOSE[0m Callback method :update in Class cn.cf.shop_ele1.taoxiaosan.providers.BookmarksContentProvider added
+[WARNING] [32mVERBOSE[0m Callback method :insert in Class cn.cf.shop_ele1.taoxiaosan.providers.BookmarksContentProvider added
+[WARNING] [32mVERBOSE[0m Callback method :delete in Class cn.cf.shop_ele1.taoxiaosan.providers.BookmarksContentProvider added
+[WARNING] [32mVERBOSE[0m Callback method :onLowMemory in Class android.support.v4.app.Fragment added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateContextMenu in Class android.support.v4.app.Fragment added
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class android.support.v4.app.Fragment added
+[WARNING] [32mVERBOSE[0m Callback method :onMenuItemSelected in Class cn.cf.shop_ele.ui.activities.BookmarksListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class cn.cf.shop_ele.ui.activities.base.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateContextMenu in Class cn.cf.shop_ele.ui.activities.BookmarksListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class cn.cf.shop_ele.ui.activities.BookmarksListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateOptionsMenu in Class cn.cf.shop_ele.ui.activities.BookmarksListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class cn.cf.shop_ele.ui.activities.BookmarksListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class cn.cf.shop_ele.ui.activities.BookmarksListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class cn.cf.shop_ele.ui.activities.base.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onContextItemSelected in Class cn.cf.shop_ele.ui.activities.BookmarksListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class cn.cf.shop_ele.ui.activities.ElectricMoreActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class cn.cf.shop_ele.ui.activities.MainActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyLongPress in Class cn.cf.shop_ele.ui.activities.MainActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class cn.cf.shop_ele.ui.activities.MainActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPrepareOptionsMenu in Class cn.cf.shop_ele.ui.activities.MainActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onNewIntent in Class cn.cf.shop_ele.ui.activities.MainActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class cn.cf.shop_ele.ui.activities.MainActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class cn.cf.shop_ele.ui.activities.MainActivity added
+[WARNING] [32mVERBOSE[0m Callback method :dispatchTouchEvent in Class cn.cf.shop_ele.ui.activities.MainActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class cn.cf.shop_ele.ui.activities.MainActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onMenuOpened in Class cn.cf.shop_ele.ui.activities.MainActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyUp in Class cn.cf.shop_ele.ui.activities.MainActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class cn.cf.shop_ele.ui.activities.MainActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class cn.cf.shop_ele.ui.activities.MainActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onSaveInstanceState in Class cn.cf.shop_ele.ui.activities.MainActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class cn.cf.shop_ele.ui.activities.MainActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class cn.cf.shop_ele.ui.activities.MainActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onContextItemSelected in Class cn.cf.shop_ele.ui.activities.MainActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCheckedChanged in Class cn.cf.shop_ele.ui.activities.ElectricMainActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class cn.cf.shop_ele.ui.activities.ElectricMainActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDraw in Class cn.cf.shop_ele.ui.view.BorderImageView added
+[WARNING] [32mVERBOSE[0m Callback method :getType in Class cn.cf.shop_ele.providers.BookmarksContentProvider added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class cn.cf.shop_ele.providers.BookmarksContentProvider added
+[WARNING] [32mVERBOSE[0m Callback method :query in Class cn.cf.shop_ele.providers.BookmarksContentProvider added
+[WARNING] [32mVERBOSE[0m Callback method :update in Class cn.cf.shop_ele.providers.BookmarksContentProvider added
+[WARNING] [32mVERBOSE[0m Callback method :insert in Class cn.cf.shop_ele.providers.BookmarksContentProvider added
+[WARNING] [32mVERBOSE[0m Callback method :delete in Class cn.cf.shop_ele.providers.BookmarksContentProvider added
+[WARNING] [32mVERBOSE[0m Callback method :onMeasure in Class cn.cf.shop_ele.ui.view.PageScrollBar added
+[WARNING] [32mVERBOSE[0m Callback method :onDraw in Class cn.cf.shop_ele.ui.view.PageScrollBar added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class cn.cf.shop_ele.ui.activities.base.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class cn.cf.shop_ele.ui.activities.base.BaseActivity added
+[WARNING] [32mVERBOSE[0m Callback method :dispatchDraw in Class cn.cf.shop_ele.ui.view.CoverFlow added
+[WARNING] [32mVERBOSE[0m Callback method :getChildStaticTransformation in Class cn.cf.shop_ele.ui.view.CoverFlow added
+[WARNING] [32mVERBOSE[0m Callback method :onSizeChanged in Class cn.cf.shop_ele.ui.view.CoverFlow added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class cn.cf.shop_ele.ui.activities.base.BaseListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class cn.cf.shop_ele.ui.activities.base.BaseListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :doInBackground in Class cn.cf.shop_ele.utils.f added
+[WARNING] [32mVERBOSE[0m Callback method :getItem in Class cn.cf.shop_ele.f.a.p added
+[WARNING] [32mVERBOSE[0m Callback method :getView in Class cn.cf.shop_ele.f.a.p added
+[WARNING] [32mVERBOSE[0m Callback method :getCount in Class cn.cf.shop_ele.f.a.p added
+[WARNING] [32mVERBOSE[0m Callback method :getItemId in Class cn.cf.shop_ele.f.a.p added
+[WARNING] [32mVERBOSE[0m Callback method :doInBackground in Class cn.cf.shop_ele.utils.s added
+8 ICC links found and 1 cg edges added due to ICC links
+dynamic conflated call graph: 891 methods; 891 nodes; 1354 edges.
+maxpossibleFlows=8
+maxpossibleFlows=8
+8 taint flow paths FOUND from <java.util.Calendar: java.util.Calendar getInstance()> to <java.util.Calendar: void setTime(java.util.Date)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=13
+1 taint flow paths FOUND from <android.webkit.WebView: java.lang.String getTitle()> to <android.view.View: void setEnabled(boolean)>
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=6
+6 taint flow paths FOUND from <android.content.res.Resources: android.content.res.AssetManager getAssets()> to <android.content.res.AssetManager: java.io.InputStream open(java.lang.String)>
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+4 taint flow paths FOUND from <android.content.res.Resources: boolean getBoolean(int)> to <android.app.Activity: void setProgressBarVisibility(boolean)>
+maxpossibleFlows=4
+4 taint flow paths FOUND from <android.view.animation.AnimationUtils: android.view.animation.Animation loadAnimation(android.content.Context,int)> to <android.view.View: void startAnimation(android.view.animation.Animation)>
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+1 taint flow paths FOUND from <java.lang.Class: java.lang.reflect.Method getMethod(java.lang.String,java.lang.Class[])> to <android.util.Log: int e(java.lang.String,java.lang.String)>
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=2
+maxpossibleFlows=11
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=50
+50 taint flow paths FOUND from <android.view.MotionEvent: int getAction()> to <android.webkit.WebSettings: void setBuiltInZoomControls(boolean)>
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=3
+maxpossibleFlows=10
+maxpossibleFlows=3
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=2
+2 taint flow paths FOUND from <android.view.MotionEvent: float getY()> to <android.widget.AbsListView: boolean onTouchEvent(android.view.MotionEvent)>
+maxpossibleFlows=98
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.content.ContextWrapper: android.content.Context getApplicationContext()> to <android.util.Log: int e(java.lang.String,java.lang.String)>
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=14
+maxpossibleFlows=61
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=30
+maxpossibleFlows=4
+maxpossibleFlows=3
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=3
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=3
+maxpossibleFlows=10
+maxpossibleFlows=7
+maxpossibleFlows=14
+maxpossibleFlows=13
+maxpossibleFlows=79
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=7
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=7
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <java.lang.Throwable: java.lang.String getMessage()> to <android.util.Log: int e(java.lang.String,java.lang.String)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=16
+16 taint flow paths FOUND from <android.preference.PreferenceManager: android.content.SharedPreferences getDefaultSharedPreferences(android.content.Context)> to <android.app.Activity: boolean onKeyDown(int,android.view.KeyEvent)>
+maxpossibleFlows=4
+3 taint flow paths FOUND from <android.content.res.Resources: android.util.DisplayMetrics getDisplayMetrics()> to <android.view.View: void setBackgroundColor(int)>
+maxpossibleFlows=98
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=6
+6 taint flow paths FOUND from <android.content.ContextWrapper: android.content.res.Resources getResources()> to <android.content.res.AssetManager: java.io.InputStream open(java.lang.String)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+4 taint flow paths FOUND from <android.content.Intent: boolean getBooleanExtra(java.lang.String,boolean)> to <android.app.Activity: void setProgressBarVisibility(boolean)>
+maxpossibleFlows=28
+28 taint flow paths FOUND from <java.util.HashMap: java.lang.Object get(java.lang.Object)> to <android.view.View: void setEnabled(boolean)>
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.view.LayoutInflater: android.view.View inflate(int,android.view.ViewGroup)> to <android.widget.ProgressBar: void setVisibility(int)>
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=14
+maxpossibleFlows=61
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=30
+maxpossibleFlows=4
+maxpossibleFlows=3
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=3
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=3
+maxpossibleFlows=10
+maxpossibleFlows=7
+maxpossibleFlows=14
+maxpossibleFlows=13
+maxpossibleFlows=79
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=7
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=7
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=12
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=12
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=11
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=12
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=6
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=4
+4 taint flow paths FOUND from <android.content.ContextWrapper: java.lang.String getPackageName()> to <android.view.View: void startAnimation(android.view.animation.Animation)>
+maxpossibleFlows=11
+11 taint flow paths FOUND from <android.webkit.WebView: android.webkit.WebSettings getSettings()> to <android.webkit.CookieManager: void setAcceptCookie(boolean)>
+maxpossibleFlows=2
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.content.ContextWrapper: android.content.res.AssetManager getAssets()> to <android.content.res.AssetManager: java.io.InputStream open(java.lang.String)>
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.content.ContextWrapper: android.content.SharedPreferences getSharedPreferences(java.lang.String,int)> to <android.app.Activity: void setContentView(int)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=8
+maxpossibleFlows=8
+maxpossibleFlows=25
+1 taint flow paths FOUND from <android.view.MotionEvent: int getPointerCount()> to <android.webkit.WebSettings: void setBuiltInZoomControls(boolean)>
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=4
+4 taint flow paths FOUND from <android.net.Uri: android.net.Uri parse(java.lang.String)> to <android.app.Activity: void startActivity(android.content.Intent)>
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=4
+4 taint flow paths FOUND from <android.view.ContextThemeWrapper: android.content.res.Resources getResources()> to <android.widget.TabHost$TabSpec: android.widget.TabHost$TabSpec setContent(android.content.Intent)>
+maxpossibleFlows=16
+1 taint flow paths FOUND from <java.lang.String: java.lang.String toString()> to <android.view.View: void setEnabled(boolean)>
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=4
+4 taint flow paths FOUND from <android.widget.AbsSpinner: android.widget.Adapter getAdapter()> to <android.app.Activity: void startActivity(android.content.Intent)>
+maxpossibleFlows=98
+maxpossibleFlows=8
+maxpossibleFlows=3
+3 taint flow paths FOUND from <android.content.ContextWrapper: android.content.ContentResolver getContentResolver()> to <android.content.ContentResolver: void notifyChange(android.net.Uri,android.database.ContentObserver)>
+maxpossibleFlows=8
+maxpossibleFlows=16
+1 taint flow paths FOUND from <android.widget.ViewAnimator: int getDisplayedChild()> to <android.view.View: void setEnabled(boolean)>
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=14
+maxpossibleFlows=61
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=30
+maxpossibleFlows=4
+maxpossibleFlows=3
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=3
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=3
+maxpossibleFlows=10
+maxpossibleFlows=7
+maxpossibleFlows=14
+maxpossibleFlows=13
+maxpossibleFlows=79
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=7
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=7
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=12
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=12
+8 taint flow paths FOUND from <android.webkit.WebIconDatabase: android.webkit.WebIconDatabase getInstance()> to <android.view.View: void setFocusable(boolean)>
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+4 taint flow paths FOUND from <android.app.Activity: android.content.Intent getIntent()> to <android.app.Activity: void setProgressBarVisibility(boolean)>
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=7
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=7
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=7
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=4
+maxpossibleFlows=7
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=11
+11 taint flow paths FOUND from <android.webkit.CookieManager: android.webkit.CookieManager getInstance()> to <android.webkit.CookieManager: void setAcceptCookie(boolean)>
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=4
+4 taint flow paths FOUND from <android.content.res.Resources: android.graphics.drawable.Drawable getDrawable(int)> to <android.widget.TabHost$TabSpec: android.widget.TabHost$TabSpec setContent(android.content.Intent)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=24
+maxpossibleFlows=16
+maxpossibleFlows=12
+11 taint flow paths FOUND from <android.webkit.WebView: java.lang.String getUrl()> to <android.view.View: void setFocusable(boolean)>
+maxpossibleFlows=15
+maxpossibleFlows=15
+maxpossibleFlows=15
+maxpossibleFlows=15
+maxpossibleFlows=14
+maxpossibleFlows=15
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=1
+1 taint flow paths FOUND from <java.lang.StringBuilder: java.lang.String toString()> to <android.content.res.AssetManager: java.io.InputStream open(java.lang.String)>
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=1
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=1
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=1
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=79
+79 taint flow paths FOUND from <android.content.res.Resources: int getColor(int)> to <android.graphics.Paint: void setStyle(android.graphics.Paint$Style)>
+maxpossibleFlows=10
+maxpossibleFlows=4
+maxpossibleFlows=11
+11 taint flow paths FOUND from <java.lang.Enum: java.lang.String toString()> to <android.webkit.CookieManager: void setAcceptCookie(boolean)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=15
+1 taint flow paths FOUND from <android.widget.EditText: android.text.Editable getText()> to <android.view.View: void setEnabled(boolean)>
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=1
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=1
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=1
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.content.ContextWrapper: java.io.File getFilesDir()> to <android.content.res.AssetManager: java.io.InputStream open(java.lang.String)>
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=15
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=15
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.app.Activity: java.lang.Object getSystemService(java.lang.String)> to <android.app.Activity: void setContentView(int)>
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=3
+3 taint flow paths FOUND from <java.util.AbstractSequentialList: java.lang.Object get(int)> to <java.util.ArrayList: java.lang.Object set(int,java.lang.Object)>
+maxpossibleFlows=2
+maxpossibleFlows=16
+16 taint flow paths FOUND from <android.preference.PreferenceManager: android.content.SharedPreferences getDefaultSharedPreferences(android.content.Context)> to <android.app.Activity: boolean onKeyDown(int,android.view.KeyEvent)>
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=11
+11 taint flow paths FOUND from <android.webkit.WebView: android.webkit.WebSettings getSettings()> to <android.webkit.CookieManager: void setAcceptCookie(boolean)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=4
+4 taint flow paths FOUND from <android.view.ContextThemeWrapper: android.content.res.Resources getResources()> to <android.widget.TabHost$TabSpec: android.widget.TabHost$TabSpec setContent(android.content.Intent)>
+maxpossibleFlows=1
+maxpossibleFlows=6
+6 taint flow paths FOUND from <android.content.res.Resources: android.content.res.AssetManager getAssets()> to <android.content.res.AssetManager: java.io.InputStream open(java.lang.String)>
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+2 taint flow paths FOUND from <java.lang.StringBuilder: java.lang.String toString()> to <android.util.Log: int i(java.lang.String,java.lang.String)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <java.lang.Class: java.lang.reflect.Method getMethod(java.lang.String,java.lang.Class[])> to <android.util.Log: int e(java.lang.String,java.lang.String)>
+maxpossibleFlows=4
+4 taint flow paths FOUND from <android.view.animation.AnimationUtils: android.view.animation.Animation loadAnimation(android.content.Context,int)> to <android.view.View: void startAnimation(android.view.animation.Animation)>
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=11
+11 taint flow paths FOUND from <android.webkit.WebView: android.webkit.WebSettings getSettings()> to <android.webkit.WebSettings: void setSavePassword(boolean)>
+maxpossibleFlows=4
+4 taint flow paths FOUND from <android.content.ContextWrapper: android.content.Context getApplicationContext()> to <android.content.ContextWrapper: android.content.ComponentName startService(android.content.Intent)>
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=11
+11 taint flow paths FOUND from <android.webkit.WebView: android.webkit.WebSettings getSettings()> to <android.webkit.WebSettings: void setDefaultZoom(android.webkit.WebSettings$ZoomDensity)>
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=11
+11 taint flow paths FOUND from <android.webkit.WebView: android.webkit.WebSettings getSettings()> to <android.webkit.WebSettings: void setSaveFormData(boolean)>
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=4
+4 taint flow paths FOUND from <android.content.res.Resources: boolean getBoolean(int)> to <android.app.Activity: void setProgressBarVisibility(boolean)>
+maxpossibleFlows=4
+maxpossibleFlows=4
+3 taint flow paths FOUND from <android.content.res.Resources: android.util.DisplayMetrics getDisplayMetrics()> to <android.view.View: void setBackgroundColor(int)>
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=11
+11 taint flow paths FOUND from <android.webkit.WebView: android.webkit.WebSettings getSettings()> to <android.webkit.WebView: void setScrollBarStyle(int)>
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=11
+11 taint flow paths FOUND from <android.webkit.WebView: android.webkit.WebSettings getSettings()> to <android.webkit.WebSettings: void setCacheMode(int)>
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=4
+1 taint flow paths FOUND from <android.preference.PreferenceManager: android.content.SharedPreferences getDefaultSharedPreferences(android.content.Context)> to <android.view.View: void setBackgroundResource(int)>
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=11
+11 taint flow paths FOUND from <android.webkit.WebView: android.webkit.WebSettings getSettings()> to <android.webkit.WebSettings: void setJavaScriptCanOpenWindowsAutomatically(boolean)>
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=11
+11 taint flow paths FOUND from <android.webkit.WebView: android.webkit.WebSettings getSettings()> to <android.webkit.WebSettings: void setSupportMultipleWindows(boolean)>
+maxpossibleFlows=1
+maxpossibleFlows=13
+1 taint flow paths FOUND from <android.webkit.WebView: java.lang.String getTitle()> to <android.view.View: void setEnabled(boolean)>
+maxpossibleFlows=1
+maxpossibleFlows=16
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=6
+maxpossibleFlows=1
+maxpossibleFlows=61
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=16
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.view.LayoutInflater: android.view.View inflate(int,android.view.ViewGroup)> to <android.widget.ProgressBar: void setVisibility(int)>
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+4 taint flow paths FOUND from <android.net.Uri: android.net.Uri parse(java.lang.String)> to <android.app.Activity: void startActivity(android.content.Intent)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=11
+11 taint flow paths FOUND from <android.webkit.WebView: android.webkit.WebSettings getSettings()> to <android.webkit.WebSettings: void setLoadsImagesAutomatically(boolean)>
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=11
+11 taint flow paths FOUND from <android.webkit.WebView: android.webkit.WebSettings getSettings()> to <android.webkit.WebSettings: void setDomStorageEnabled(boolean)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.view.LayoutInflater: android.view.View inflate(int,android.view.ViewGroup)> to <android.widget.LinearLayout: void setWeightSum(float)>
+maxpossibleFlows=4
+maxpossibleFlows=4
+3 taint flow paths FOUND from <android.content.res.Resources: android.util.DisplayMetrics getDisplayMetrics()> to <android.view.View: void setClickable(boolean)>
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=11
+11 taint flow paths FOUND from <android.webkit.WebView: android.webkit.WebSettings getSettings()> to <android.webkit.WebSettings: void setRenderPriority(android.webkit.WebSettings$RenderPriority)>
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=11
+11 taint flow paths FOUND from <android.webkit.WebView: android.webkit.WebSettings getSettings()> to <android.webkit.WebSettings: void setJavaScriptEnabled(boolean)>
+maxpossibleFlows=1
+maxpossibleFlows=12
+12 taint flow paths FOUND from <android.webkit.WebView: java.lang.String getTitle()> to <android.view.View: void setFocusable(boolean)>
+maxpossibleFlows=16
+maxpossibleFlows=6
+maxpossibleFlows=30
+maxpossibleFlows=16
+maxpossibleFlows=30
+maxpossibleFlows=6
+maxpossibleFlows=16
+maxpossibleFlows=30
+30 taint flow paths FOUND from <android.widget.ViewAnimator: int getDisplayedChild()> to <android.widget.ProgressBar: void setProgress(int)>
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=50
+50 taint flow paths FOUND from <android.view.MotionEvent: int getAction()> to <android.webkit.WebSettings: void setBuiltInZoomControls(boolean)>
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=3
+3 taint flow paths FOUND from <android.view.LayoutInflater: android.view.View inflate(int,android.view.ViewGroup)> to <android.widget.TextView: void setText(int)>
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=11
+11 taint flow paths FOUND from <android.webkit.WebView: android.webkit.WebSettings getSettings()> to <android.webkit.WebSettings: void setLoadWithOverviewMode(boolean)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.content.ContextWrapper: android.content.res.Resources getResources()> to <android.content.res.Resources: java.io.InputStream openRawResource(int)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=4
+4 taint flow paths FOUND from <android.content.res.Resources: boolean getBoolean(int)> to <android.app.Activity: void setContentView(int)>
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+3 taint flow paths FOUND from <android.content.ContextWrapper: java.lang.String getPackageName()> to <android.app.AlertDialog$Builder: android.app.AlertDialog$Builder setNegativeButton(int,android.content.DialogInterface$OnClickListener)>
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=11
+11 taint flow paths FOUND from <android.webkit.WebView: android.webkit.WebSettings getSettings()> to <android.webkit.WebSettings: void setUserAgentString(java.lang.String)>
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=11
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=11
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=10
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.content.ContextWrapper: android.content.res.Resources getResources()> to <java.lang.String: boolean startsWith(java.lang.String)>
+maxpossibleFlows=4
+4 taint flow paths FOUND from <android.content.ContextWrapper: android.content.Context getApplicationContext()> to <android.content.Intent: android.content.Intent setAction(java.lang.String)>
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=11
+11 taint flow paths FOUND from <android.webkit.WebView: android.webkit.WebSettings getSettings()> to <android.webkit.WebSettings: void setAppCacheEnabled(boolean)>
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=11
+11 taint flow paths FOUND from <android.webkit.WebView: android.webkit.WebSettings getSettings()> to <android.webkit.WebSettings: void setPluginState(android.webkit.WebSettings$PluginState)>
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=11
+11 taint flow paths FOUND from <android.webkit.WebView: android.webkit.WebSettings getSettings()> to <android.view.View: void setLongClickable(boolean)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=4
+3 taint flow paths FOUND from <android.content.res.Resources: android.util.DisplayMetrics getDisplayMetrics()> to <android.widget.TextView: void setTextSize(float)>
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=11
+11 taint flow paths FOUND from <android.webkit.WebView: android.webkit.WebSettings getSettings()> to <android.webkit.WebSettings: void setDatabaseEnabled(boolean)>
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=11
+11 taint flow paths FOUND from <android.webkit.WebView: android.webkit.WebSettings getSettings()> to <android.webkit.WebSettings: void setPluginsEnabled(boolean)>
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+3 taint flow paths FOUND from <android.content.ContextWrapper: java.lang.String getPackageName()> to <android.app.AlertDialog$Builder: android.app.AlertDialog$Builder setPositiveButton(int,android.content.DialogInterface$OnClickListener)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=16
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=6
+maxpossibleFlows=2
+maxpossibleFlows=10
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=16
+15 taint flow paths FOUND from <java.util.HashMap: java.lang.Object get(java.lang.Object)> to <android.view.View: void setVisibility(int)>
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=7
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=7
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=3
+maxpossibleFlows=7
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=7
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=7
+maxpossibleFlows=3
+maxpossibleFlows=4
+maxpossibleFlows=3
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=14
+maxpossibleFlows=6
+maxpossibleFlows=14
+maxpossibleFlows=14
+maxpossibleFlows=14
+maxpossibleFlows=6
+maxpossibleFlows=14
+maxpossibleFlows=14
+14 taint flow paths FOUND from <android.widget.ViewAnimator: int getDisplayedChild()> to <android.widget.TextView: void setCompoundDrawablesWithIntrinsicBounds(android.graphics.drawable.Drawable,android.graphics.drawable.Drawable,android.graphics.drawable.Drawable,android.graphics.drawable.Drawable)>
+maxpossibleFlows=1
+maxpossibleFlows=13
+13 taint flow paths FOUND from <android.webkit.WebView: java.lang.String getTitle()> to <android.widget.TextView: void setText(java.lang.CharSequence)>
+maxpossibleFlows=79
+maxpossibleFlows=79
+78 taint flow paths FOUND from <android.content.ContextWrapper: android.content.res.Resources getResources()> to <android.graphics.Paint: void setStyle(android.graphics.Paint$Style)>
+maxpossibleFlows=1
+maxpossibleFlows=2
+2 taint flow paths FOUND from <android.view.MotionEvent: int getAction()> to <android.widget.AbsListView: boolean onTouchEvent(android.view.MotionEvent)>
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=50
+50 taint flow paths FOUND from <android.view.MotionEvent: int getAction()> to <android.webkit.WebSettings: void setSupportZoom(boolean)>
+maxpossibleFlows=8
+maxpossibleFlows=8
+8 taint flow paths FOUND from <java.util.Calendar: java.util.Calendar getInstance()> to <java.util.Calendar: void setTime(java.util.Date)>
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=11
+11 taint flow paths FOUND from <android.webkit.WebView: android.webkit.WebSettings getSettings()> to <android.webkit.WebSettings: void setLightTouchEnabled(boolean)>
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=7
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=7
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=3
+maxpossibleFlows=7
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=7
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=7
+maxpossibleFlows=3
+maxpossibleFlows=4
+maxpossibleFlows=3
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=3
+3 taint flow paths FOUND from <android.view.LayoutInflater: android.view.View inflate(int,android.view.ViewGroup)> to <android.view.View: void setFocusableInTouchMode(boolean)>
+maxpossibleFlows=1
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=1
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=1
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+3 taint flow paths FOUND from <java.util.AbstractSequentialList: java.lang.Object get(int)> to <java.util.ArrayList: java.lang.Object set(int,java.lang.Object)>
+maxpossibleFlows=3
+3 taint flow paths FOUND from <android.content.ContextWrapper: android.content.ContentResolver getContentResolver()> to <android.content.ContentResolver: void notifyChange(android.net.Uri,android.database.ContentObserver)>
+maxpossibleFlows=4
+maxpossibleFlows=4
+3 taint flow paths FOUND from <android.content.res.Resources: android.util.DisplayMetrics getDisplayMetrics()> to <android.widget.TextView: void setPadding(int,int,int,int)>
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=11
+11 taint flow paths FOUND from <android.webkit.WebView: android.webkit.WebSettings getSettings()> to <android.view.View: void setDrawingCacheEnabled(boolean)>
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=7
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=7
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=3
+maxpossibleFlows=7
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=7
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=7
+maxpossibleFlows=3
+maxpossibleFlows=4
+maxpossibleFlows=3
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=4
+maxpossibleFlows=11
+11 taint flow paths FOUND from <android.webkit.WebView: android.webkit.WebSettings getSettings()> to <android.webkit.WebSettings: void setUseWideViewPort(boolean)>
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class android.support.v4.app.Fragment
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class android.support.v4.app.Fragment
+[WARNING] [32mVERBOSE[0m Callback method :onCreateContextMenu in Class android.support.v4.app.Fragment
+[WARNING] [32mVERBOSE[0m Callback method :onLowMemory in Class android.support.v4.app.Fragment
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class cn.cf.shop_ele.games.download.DownloadActivity
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class cn.cf.shop_ele.games.download.DownloadActivity
+[WARNING] [32mVERBOSE[0m Callback method :onItemClick in Class cn.cf.shop_ele.games.download.DownloadActivity
+[WARNING] [32mVERBOSE[0m Callback method :onItemLongClick in Class cn.cf.shop_ele.games.download.DownloadActivity
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class cn.cf.shop_ele.games.download.DownloadActivity
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class cn.cf.shop_ele.games.download.DownloadActivity
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class cn.cf.shop_ele.games.download.DownloadActivity
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class cn.cf.shop_ele.games.download.DownloadActivity
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class cn.cf.shop_ele.games.download.DownloadActivity
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class cn.cf.shop_ele.ui.activities.ElectricFrontPageActivity
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class cn.cf.shop_ele.ui.activities.ElectricFrontPageActivity
+[WARNING] [32mVERBOSE[0m Callback method :onItemClick in Class cn.cf.shop_ele.ui.activities.ElectricFrontPageActivity
+[WARNING] [32mVERBOSE[0m Callback method :onAttachedToWindow in Class cn.cf.shop_ele.ui.view.PullToRefreshListView
+[WARNING] [32mVERBOSE[0m Callback method :onScroll in Class cn.cf.shop_ele.ui.view.PullToRefreshListView
+[WARNING] [32mVERBOSE[0m Callback method :onScrollStateChanged in Class cn.cf.shop_ele.ui.view.PullToRefreshListView
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class cn.cf.shop_ele.ui.view.PullToRefreshListView
+[WARNING] [32mVERBOSE[0m Callback method :setAdapter in Class cn.cf.shop_ele.ui.view.PullToRefreshListView
+[WARNING] [32mVERBOSE[0m Callback method :setOnScrollListener in Class cn.cf.shop_ele.ui.view.PullToRefreshListView
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class cn.cf.shop_ele.ui.activities.ElectricMainActivity
+[WARNING] [32mVERBOSE[0m Callback method :onCheckedChanged in Class cn.cf.shop_ele.ui.activities.ElectricMainActivity
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class cn.cf.shop_ele.ui.activities.ElectricMainActivity
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class cn.cf.shop_ele.ui.activities.Electric_ShopListActivity
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class cn.cf.shop_ele.ui.activities.Electric_ShopListActivity
+[WARNING] [32mVERBOSE[0m Callback method :onItemClick in Class cn.cf.shop_ele.ui.activities.Electric_ShopListActivity
+Result for malicious-app-2-7EB06AA2DF84855EE73AB3D9DBD4F5128C5C0C98ED3C31901DFC7568B34B7B34.apkcn.cf.shop_ele1.taoxiaosan

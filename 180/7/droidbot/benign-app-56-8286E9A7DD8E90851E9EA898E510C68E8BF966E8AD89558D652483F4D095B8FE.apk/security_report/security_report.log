@@ -1,0 +1,147 @@
+DUA-Forensics args to Soot: -w -cp /home/hcosta/bench/benchmark/libs/droidfax.jar:/home/hcosta/Android/Sdk/platforms/android-28/android.jar -p cg verbose:false,implicit-entry:true -p cg.spark verbose:false,on-fly-cg:true,rta:false -d /home/hcosta/bench/benchmark/trace/180/3/droidbot/benign-app-56-8286E9A7DD8E90851E9EA898E510C68E8BF966E8AD89558D652483F4D095B8FE.apk.logcat -process-dir /home/hcosta/bench/benchmark/data/input/benign-app-56-8286E9A7DD8E90851E9EA898E510C68E8BF966E8AD89558D652483F4D095B8FE.apk 
+Soot started on Wed Apr 20 23:50:49 CEST 2022
+Warning: com.ironsource.mobilcore.BaseFlowBasedAdUnit is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+Warning: dalvik.system.VMRuntime is a phantom class!
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.0 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+hcai's internal transform
+Running static analysis for security-relevant feature characterization
+[GatorHierarchy] [32mVERBOSE[0m [HIER] All classes: 1092
+[GatorHierarchy] [32mVERBOSE[0m [App: 146, Lib : 942, Phantom: 4]
+[GatorHierarchy] [32mVERBOSE[0m [HIER] Activities: 9, lib activities: 1
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App views: 2, Lib views: 15
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App Dialogs: 7, Lib Dialogs: 2
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing starting at 1650491450417
+array element type: (filled narr)int
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing finished at 1650491451098
+[Instantiated app classes] [32mVERBOSE[0m total number: 134
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.yy.fontmaster.c.a added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.yy.fontmaster.c.a added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.yy.fontmaster.c.a added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.yy.fontmaster.c.d added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.yy.fontmaster.pkg.ActFlashPkg added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.yy.fontmaster.c.e added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.yy.fontmaster.c.e added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.yy.fontmaster.c.d added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.yy.fontmaster.c.d added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.yy.fontmaster.c.d added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.yy.fontmaster.c.d added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.yy.fontmaster.c.a added
+[WARNING] [32mVERBOSE[0m Callback method :onItemClick in Class com.yy.fontmaster.online.ActOnline added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.yy.fontmaster.c.a added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.yy.fontmaster.online.ActOnline added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.yy.fontmaster.c.d added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.yy.fontmaster.c.d added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.yy.fontmaster.c.e added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.yy.fontmaster.c.e added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.yy.fontmaster.c.d added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.yy.fontmaster.c.d added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.yy.fontmaster.detail.ActFontDetail added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.yy.fontmaster.c.e added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class com.yy.fontmaster.detail.ActFontDetail added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.yy.fontmaster.detail.ActFontDetail added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.yy.fontmaster.c.d added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.yy.fontmaster.c.d added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.yy.fontmaster.welcome.ActWelcome added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.yy.fontmaster.c.d added
+[WARNING] [32mVERBOSE[0m Callback method :onFling in Class framework.view.OneShotGallery added
+[WARNING] [32mVERBOSE[0m Callback method :onTerminate in Class com.yy.fontmaster.SoftApplication added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.yy.fontmaster.SoftApplication added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.yy.fontmaster.c.a added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.yy.fontmaster.c.a added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.yy.fontmaster.more.ActMore added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.yy.fontmaster.c.d added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.yy.fontmaster.c.a added
+[WARNING] [32mVERBOSE[0m Callback method :onItemLongClick in Class com.yy.fontmaster.local.ActLocal added
+[WARNING] [32mVERBOSE[0m Callback method :onItemClick in Class com.yy.fontmaster.local.ActLocal added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.yy.fontmaster.c.a added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.yy.fontmaster.c.a added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.yy.fontmaster.local.ActLocal added
+0 ICC links found and 0 cg edges added due to ICC links
+dynamic conflated call graph: 226 methods; 226 nodes; 314 edges.
+maxpossibleFlows=3
+maxpossibleFlows=3
+1 taint flow paths FOUND from <android.app.Activity: android.app.Application getApplication()> to <android.widget.TextView: void setText(java.lang.CharSequence)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <dalvik.system.VMRuntime: dalvik.system.VMRuntime getRuntime()> to <dalvik.system.VMRuntime: float setTargetHeapUtilization(float)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=7
+7 taint flow paths FOUND from <android.net.NetworkInfo: int getType()> to <java.net.URL: java.net.URLConnection openConnection()>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=6
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=6
+1 taint flow paths FOUND from <android.net.ConnectivityManager: android.net.NetworkInfo getActiveNetworkInfo()> to <java.net.URL: java.net.URLConnection openConnection()>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=7
+7 taint flow paths FOUND from <android.app.Activity: java.lang.Object getSystemService(java.lang.String)> to <java.net.URL: java.net.URLConnection openConnection()>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+1 taint flow paths FOUND from <android.content.Context: java.lang.String getString(int,java.lang.Object[])> to <android.widget.TextView: void setText(java.lang.CharSequence)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=3
+maxpossibleFlows=1
+maxpossibleFlows=6
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+1 taint flow paths FOUND from <android.app.Activity: android.app.Application getApplication()> to <android.widget.TextView: void setText(java.lang.CharSequence)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <dalvik.system.VMRuntime: dalvik.system.VMRuntime getRuntime()> to <dalvik.system.VMRuntime: float setTargetHeapUtilization(float)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <dalvik.system.VMRuntime: dalvik.system.VMRuntime getRuntime()> to <dalvik.system.VMRuntime: long setMinimumHeapSize(long)>
+maxpossibleFlows=2
+maxpossibleFlows=7
+7 taint flow paths FOUND from <android.net.NetworkInfo: int getType()> to <java.net.URL: java.net.URLConnection openConnection()>
+[WARNING] [32mVERBOSE[0m Hierarchy.virtualDispatch called with non-concrete receiver class: com.yy.fontmaster.c.e, subsig: void <init>()
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.yy.fontmaster.c.e
+[WARNING] [32mVERBOSE[0m Hierarchy.virtualDispatch called with non-concrete receiver class: com.yy.fontmaster.c.e, subsig: void onClick(android.view.View)
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.yy.fontmaster.c.e
+[WARNING] [32mVERBOSE[0m Hierarchy.virtualDispatch called with non-concrete receiver class: com.yy.fontmaster.c.e, subsig: void onCreate(android.os.Bundle)
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.yy.fontmaster.c.e
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.yy.fontmaster.local.ActLocal
+[WARNING] [32mVERBOSE[0m Callback method :onItemClick in Class com.yy.fontmaster.local.ActLocal
+[WARNING] [32mVERBOSE[0m Callback method :onItemLongClick in Class com.yy.fontmaster.local.ActLocal
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.yy.fontmaster.local.ActLocal
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.yy.fontmaster.online.ActOnline
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.yy.fontmaster.online.ActOnline
+[WARNING] [32mVERBOSE[0m Callback method :onItemClick in Class com.yy.fontmaster.online.ActOnline
+Result for benign-app-56-8286E9A7DD8E90851E9EA898E510C68E8BF966E8AD89558D652483F4D095B8FE.apkcom.yy.fontmaster

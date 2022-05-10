@@ -1,0 +1,314 @@
+DUA-Forensics args to Soot: -w -cp /home/handrick/Documents/UNB/benchmark/libs/droidfax.jar:/home/handrick/Android/Sdk/platforms/android-19/android.jar -p cg verbose:false,implicit-entry:true -p cg.spark verbose:false,on-fly-cg:true,rta:false -d /home/handrick/Documents/UNB/benchmark/trace/180/3/droidbot/malicious-app-43-3F0880FFBF4F6460C88CBCDEAD1C756A91777E16DA81B856F2395F44CD644B33.apk.logcat -process-dir /home/handrick/Documents/UNB/benchmark/data/input/malicious-app-43-3F0880FFBF4F6460C88CBCDEAD1C756A91777E16DA81B856F2395F44CD644B33.apk 
+Soot started on Sat Apr 16 01:22:27 CEST 2022
+Warning: com.ironsource.mobilcore.BaseFlowBasedAdUnit is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.0 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+hcai's internal transform
+Running static analysis for security-relevant feature characterization
+[GatorHierarchy] [32mVERBOSE[0m [HIER] All classes: 782
+[GatorHierarchy] [32mVERBOSE[0m [App: 63, Lib : 716, Phantom: 3]
+[GatorHierarchy] [32mVERBOSE[0m [HIER] Activities: 7, lib activities: 1
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App views: 4, Lib views: 17
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App Dialogs: 0, Lib Dialogs: 3
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing starting at 1650064948166
+second round from stmt: $u19#190 = $u19#189[$u8#61]
+second round from stmt: $u19#190 = $u19#189[$u8#61]
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing finished at 1650064949653
+[Instantiated app classes] [32mVERBOSE[0m total number: 96
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.omesoft.childhooddreams.WebAbout added
+[WARNING] [32mVERBOSE[0m Callback method :onMeasure in Class com.wooboo.adlib_android.WoobooAdView added
+[WARNING] [32mVERBOSE[0m Callback method :setBackgroundColor in Class com.wooboo.adlib_android.WoobooAdView added
+[WARNING] [32mVERBOSE[0m Callback method :onDetachedFromWindow in Class com.wooboo.adlib_android.WoobooAdView added
+[WARNING] [32mVERBOSE[0m Callback method :onAttachedToWindow in Class com.wooboo.adlib_android.WoobooAdView added
+[WARNING] [32mVERBOSE[0m Callback method :getVisibility in Class com.wooboo.adlib_android.WoobooAdView added
+[WARNING] [32mVERBOSE[0m Callback method :setVisibility in Class com.wooboo.adlib_android.WoobooAdView added
+[WARNING] [32mVERBOSE[0m Callback method :onWindowVisibilityChanged in Class com.wooboo.adlib_android.WoobooAdView added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateDialog in Class com.omesoft.childhooddreams.game.Jigsaw added
+[WARNING] [32mVERBOSE[0m Callback method :finish in Class com.omesoft.childhooddreams.game.Jigsaw added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.omesoft.childhooddreams.game.Jigsaw added
+[WARNING] [32mVERBOSE[0m Callback method :finish in Class com.omesoft.childhooddreams.ShowPicture added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.omesoft.childhooddreams.ShowPicture added
+[WARNING] [32mVERBOSE[0m Callback method :finish in Class com.omesoft.childhooddreams.AddPic added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.omesoft.childhooddreams.AddPic added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.omesoft.childhooddreams.ActivityMain added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.omesoft.childhooddreams.ActivityMain added
+[WARNING] [32mVERBOSE[0m Callback method :finish in Class com.omesoft.childhooddreams.First added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.omesoft.childhooddreams.First added
+[WARNING] [32mVERBOSE[0m Callback method :getItem in Class com.omesoft.childhooddreams.ShowAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getView in Class com.omesoft.childhooddreams.ShowAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getCount in Class com.omesoft.childhooddreams.ShowAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getItemId in Class com.omesoft.childhooddreams.ShowAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.omesoft.childhooddreams.Setting added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.omesoft.childhooddreams.Setting added
+0 ICC links found and 0 cg edges added due to ICC links
+dynamic conflated call graph: 226 methods; 226 nodes; 296 edges.
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.content.ContextWrapper: android.content.res.AssetManager getAssets()> to <android.content.res.AssetManager: java.io.InputStream open(java.lang.String)>
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.graphics.Bitmap: int getHeight()> to <android.app.Activity: void setContentView(int)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=3
+3 taint flow paths FOUND from <java.lang.reflect.Array: java.lang.Object newInstance(java.lang.Class,int[])> to <android.view.View: void setBackgroundColor(int)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=30
+30 taint flow paths FOUND from <android.view.ContextThemeWrapper: android.content.res.Resources getResources()> to <android.content.res.Resources: java.io.InputStream openRawResource(int)>
+maxpossibleFlows=13
+13 taint flow paths FOUND from <java.net.URLConnection: java.io.OutputStream getOutputStream()> to <android.util.Log: int w(java.lang.String,java.lang.String)>
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=13
+13 taint flow paths FOUND from <java.lang.StringBuilder: java.lang.String toString()> to <android.util.Log: int w(java.lang.String,java.lang.String)>
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.graphics.Bitmap: int getWidth()> to <android.app.Activity: void setContentView(int)>
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.content.ContextWrapper: android.content.Context getApplicationContext()> to <android.content.res.AssetManager: java.io.InputStream open(java.lang.String)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+2 taint flow paths FOUND from <android.graphics.Bitmap: android.graphics.Bitmap createBitmap(android.graphics.Bitmap,int,int,int,int,android.graphics.Matrix,boolean)> to <android.view.View: void setBackgroundColor(int)>
+maxpossibleFlows=4
+4 taint flow paths FOUND from <android.content.ContextWrapper: android.content.pm.PackageManager getPackageManager()> to <android.util.Log: int d(java.lang.String,java.lang.String)>
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.content.res.Resources: android.util.DisplayMetrics getDisplayMetrics()> to <android.content.res.AssetManager: java.io.InputStream open(java.lang.String)>
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.content.ContextWrapper: android.content.res.Resources getResources()> to <android.content.res.AssetManager: java.io.InputStream open(java.lang.String)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=4
+4 taint flow paths FOUND from <android.os.Bundle: java.lang.String getString(java.lang.String)> to <android.util.Log: int d(java.lang.String,java.lang.String)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.app.Activity: android.content.Intent getIntent()> to <android.app.Activity: void setContentView(int)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.os.Bundle: int getInt(java.lang.String)> to <android.app.Activity: void setContentView(int)>
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=11
+maxpossibleFlows=11
+11 taint flow paths FOUND from <android.telephony.TelephonyManager: java.lang.String getLine1Number()> to <java.net.URL: java.net.URLConnection openConnection()>
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=5
+5 taint flow paths FOUND from <android.os.Bundle: int getInt(java.lang.String,int)> to <android.util.Log: int d(java.lang.String,java.lang.String)>
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.content.Intent: android.os.Bundle getExtras()> to <android.app.Activity: void setContentView(int)>
+maxpossibleFlows=2
+2 taint flow paths FOUND from <java.util.AbstractSequentialList: java.util.Iterator iterator()> to <android.content.res.Resources: java.io.InputStream openRawResource(int)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=11
+11 taint flow paths FOUND from <java.util.LinkedList: java.lang.Object get(int)> to <android.widget.ImageView: void setImageBitmap(android.graphics.Bitmap)>
+maxpossibleFlows=4
+4 taint flow paths FOUND from <android.content.ContextWrapper: java.lang.String getPackageName()> to <android.util.Log: int d(java.lang.String,java.lang.String)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=13
+13 taint flow paths FOUND from <java.net.URLConnection: java.io.OutputStream getOutputStream()> to <android.util.Log: int w(java.lang.String,java.lang.String)>
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=4
+4 taint flow paths FOUND from <java.lang.StringBuilder: java.lang.String toString()> to <android.util.Log: int d(java.lang.String,java.lang.String)>
+maxpossibleFlows=11
+11 taint flow paths FOUND from <java.net.URLConnection: java.io.OutputStream getOutputStream()> to <java.net.URL: java.net.URLConnection openConnection()>
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.content.ContextWrapper: android.content.res.AssetManager getAssets()> to <android.content.res.AssetManager: java.io.InputStream open(java.lang.String)>
+maxpossibleFlows=30
+30 taint flow paths FOUND from <android.view.ContextThemeWrapper: android.content.res.Resources getResources()> to <android.content.res.Resources: java.io.InputStream openRawResource(int)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.view.ContextThemeWrapper: android.content.res.Resources getResources()> to <android.content.res.Resources: android.content.res.AssetFileDescriptor openRawResourceFd(int)>
+maxpossibleFlows=11
+11 taint flow paths FOUND from <java.util.LinkedList: java.lang.Object get(int)> to <android.widget.ImageView: void setImageBitmap(android.graphics.Bitmap)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.graphics.Bitmap: int getHeight()> to <android.app.Activity: void setContentView(int)>
+maxpossibleFlows=13
+1 taint flow paths FOUND from <java.net.URLConnection: java.io.OutputStream getOutputStream()> to <java.net.URLConnection: void setRequestProperty(java.lang.String,java.lang.String)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=3
+3 taint flow paths FOUND from <java.lang.reflect.Array: java.lang.Object newInstance(java.lang.Class,int[])> to <android.view.View: void setBackgroundColor(int)>
+maxpossibleFlows=13
+13 taint flow paths FOUND from <java.net.URLConnection: java.io.OutputStream getOutputStream()> to <java.io.Writer: void write(java.lang.String)>
+maxpossibleFlows=30
+4 taint flow paths FOUND from <android.view.ContextThemeWrapper: android.content.res.Resources getResources()> to <android.graphics.BitmapFactory: android.graphics.Bitmap decodeStream(java.io.InputStream,android.graphics.Rect,android.graphics.BitmapFactory$Options)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=3
+3 taint flow paths FOUND from <java.lang.reflect.Array: java.lang.Object newInstance(java.lang.Class,int[])> to <android.widget.ImageView: void setImageDrawable(android.graphics.drawable.Drawable)>
+maxpossibleFlows=11
+11 taint flow paths FOUND from <java.net.URLConnection: java.io.OutputStream getOutputStream()> to <java.net.HttpURLConnection: void setRequestMethod(java.lang.String)>
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.omesoft.childhooddreams.Setting
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.omesoft.childhooddreams.Setting
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.omesoft.childhooddreams.Setting
+Result for malicious-app-43-3F0880FFBF4F6460C88CBCDEAD1C756A91777E16DA81B856F2395F44CD644B33.apkcom.omesoft.childhooddreams

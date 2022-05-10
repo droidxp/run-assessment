@@ -37,3 +37,19 @@ final_ds
 head(sqldf("select method, occurrences from methods order by 2 desc"))
 ```
 
+### False positive assessment
+
+```{r}
+fp <- read.csv("../output/fp.csv", head=T, sep=',')
+
+colnames(fp)
+
+fp_by_apk = sqldf("select apk, execution, count(*) as Total
+                   from fp
+                   where Diff > 0
+                   group by apk, execution ")
+
+summary(fp_by_apk$Total)
+
+fp_by_apk
+```

@@ -1,0 +1,287 @@
+DUA-Forensics args to Soot: -w -cp /home/handrick/Documents/UNB/benchmark/libs/droidfax.jar:/home/handrick/Android/Sdk/platforms/android-19/android.jar -p cg verbose:false,implicit-entry:true -p cg.spark verbose:false,on-fly-cg:true,rta:false -d /home/handrick/Documents/UNB/benchmark/trace/180/2/droidbot/malicious-app-94-817B27D87897913DD536DB18276BC15A45BD5001B6C4F355E97D83DC1461D2AD.apk.logcat -process-dir /home/handrick/Documents/UNB/benchmark/data/input/malicious-app-94-817B27D87897913DD536DB18276BC15A45BD5001B6C4F355E97D83DC1461D2AD.apk 
+Soot started on Fri Apr 15 12:37:11 CEST 2022
+Warning: com.ironsource.mobilcore.BaseFlowBasedAdUnit is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+Warning: org.apache.commons.codec.binary.Base64 is a phantom class!
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.0 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+hcai's internal transform
+Running static analysis for security-relevant feature characterization
+[GatorHierarchy] [32mVERBOSE[0m [HIER] All classes: 1167
+[GatorHierarchy] [32mVERBOSE[0m [App: 229, Lib : 934, Phantom: 4]
+[GatorHierarchy] [32mVERBOSE[0m [HIER] Activities: 11, lib activities: 3
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App views: 0, Lib views: 15
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App Dialogs: 0, Lib Dialogs: 4
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing starting at 1650019032711
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing finished at 1650019034712
+[Instantiated app classes] [32mVERBOSE[0m total number: 235
+[WARNING] [32mVERBOSE[0m Callback method :getType in Class org.tomdroid.NoteProvider added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class org.tomdroid.NoteProvider added
+[WARNING] [32mVERBOSE[0m Callback method :query in Class org.tomdroid.NoteProvider added
+[WARNING] [32mVERBOSE[0m Callback method :update in Class org.tomdroid.NoteProvider added
+[WARNING] [32mVERBOSE[0m Callback method :insert in Class org.tomdroid.NoteProvider added
+[WARNING] [32mVERBOSE[0m Callback method :delete in Class org.tomdroid.NoteProvider added
+[WARNING] [32mVERBOSE[0m Callback method :onPostCreate in Class org.tomdroid.ui.actionbar.ActionBarActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onTitleChanged in Class org.tomdroid.ui.actionbar.ActionBarActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class org.tomdroid.ui.CompareNotes added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateOptionsMenu in Class org.tomdroid.ui.actionbar.ActionBarActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class org.tomdroid.ui.CompareNotes added
+[WARNING] [32mVERBOSE[0m Callback method :getMenuInflater in Class org.tomdroid.ui.actionbar.ActionBarActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPostCreate in Class org.tomdroid.ui.actionbar.ActionBarListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onTitleChanged in Class org.tomdroid.ui.actionbar.ActionBarListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class org.tomdroid.ui.actionbar.ActionBarListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateOptionsMenu in Class org.tomdroid.ui.actionbar.ActionBarListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :getMenuInflater in Class org.tomdroid.ui.actionbar.ActionBarListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateDialog in Class org.tomdroid.ui.PreferencesActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPostCreate in Class org.tomdroid.ui.actionbar.ActionBarPreferenceActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onTitleChanged in Class org.tomdroid.ui.actionbar.ActionBarPreferenceActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class org.tomdroid.ui.PreferencesActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateOptionsMenu in Class org.tomdroid.ui.actionbar.ActionBarPreferenceActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onOptionsItemSelected in Class org.tomdroid.ui.PreferencesActivity added
+[WARNING] [32mVERBOSE[0m Callback method :getMenuInflater in Class org.tomdroid.ui.actionbar.ActionBarPreferenceActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPostCreate in Class org.tomdroid.ui.actionbar.ActionBarPreferenceActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onTitleChanged in Class org.tomdroid.ui.actionbar.ActionBarPreferenceActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class org.tomdroid.ui.actionbar.ActionBarPreferenceActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateOptionsMenu in Class org.tomdroid.ui.actionbar.ActionBarPreferenceActivity added
+[WARNING] [32mVERBOSE[0m Callback method :getMenuInflater in Class org.tomdroid.ui.actionbar.ActionBarPreferenceActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPostCreate in Class org.tomdroid.ui.actionbar.ActionBarListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onListItemClick in Class org.tomdroid.ui.ShortcutActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onTitleChanged in Class org.tomdroid.ui.actionbar.ActionBarListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class org.tomdroid.ui.ShortcutActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateOptionsMenu in Class org.tomdroid.ui.actionbar.ActionBarListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :getMenuInflater in Class org.tomdroid.ui.actionbar.ActionBarListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPostCreate in Class org.tomdroid.ui.actionbar.ActionBarActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onTitleChanged in Class org.tomdroid.ui.actionbar.ActionBarActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class org.tomdroid.ui.actionbar.ActionBarActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateOptionsMenu in Class org.tomdroid.ui.actionbar.ActionBarActivity added
+[WARNING] [32mVERBOSE[0m Callback method :getMenuInflater in Class org.tomdroid.ui.actionbar.ActionBarActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPostCreate in Class org.tomdroid.ui.actionbar.ActionBarListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onListItemClick in Class org.tomdroid.ui.FilePickerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onTitleChanged in Class org.tomdroid.ui.actionbar.ActionBarListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class org.tomdroid.ui.FilePickerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateOptionsMenu in Class org.tomdroid.ui.FilePickerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onOptionsItemSelected in Class org.tomdroid.ui.FilePickerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class org.tomdroid.ui.FilePickerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :getMenuInflater in Class org.tomdroid.ui.actionbar.ActionBarListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :getItem in Class org.tomdroid.util.NavButtonAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getView in Class org.tomdroid.util.NavButtonAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getCount in Class org.tomdroid.util.NavButtonAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :getItemId in Class org.tomdroid.util.NavButtonAdapter added
+[WARNING] [32mVERBOSE[0m Callback method :onPostCreate in Class org.tomdroid.ui.actionbar.ActionBarActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onTitleChanged in Class org.tomdroid.ui.actionbar.ActionBarActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class org.tomdroid.util.Receive added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateOptionsMenu in Class org.tomdroid.ui.actionbar.ActionBarActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class org.tomdroid.util.Receive added
+[WARNING] [32mVERBOSE[0m Callback method :getMenuInflater in Class org.tomdroid.ui.actionbar.ActionBarActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateDialog in Class org.tomdroid.ui.Tomdroid added
+[WARNING] [32mVERBOSE[0m Callback method :onPostCreate in Class org.tomdroid.ui.actionbar.ActionBarListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPrepareDialog in Class org.tomdroid.ui.Tomdroid added
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class org.tomdroid.ui.Tomdroid added
+[WARNING] [32mVERBOSE[0m Callback method :onListItemClick in Class org.tomdroid.ui.Tomdroid added
+[WARNING] [32mVERBOSE[0m Callback method :onTitleChanged in Class org.tomdroid.ui.actionbar.ActionBarListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateContextMenu in Class org.tomdroid.ui.Tomdroid added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class org.tomdroid.ui.Tomdroid added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateOptionsMenu in Class org.tomdroid.ui.Tomdroid added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class org.tomdroid.ui.Tomdroid added
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class org.tomdroid.ui.Tomdroid added
+[WARNING] [32mVERBOSE[0m Callback method :onOptionsItemSelected in Class org.tomdroid.ui.Tomdroid added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class org.tomdroid.ui.Tomdroid added
+[WARNING] [32mVERBOSE[0m Callback method :onContextItemSelected in Class org.tomdroid.ui.Tomdroid added
+[WARNING] [32mVERBOSE[0m Callback method :getMenuInflater in Class org.tomdroid.ui.actionbar.ActionBarListActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateDialog in Class org.tomdroid.ui.ViewNote added
+[WARNING] [32mVERBOSE[0m Callback method :onPostCreate in Class org.tomdroid.ui.actionbar.ActionBarActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPrepareDialog in Class org.tomdroid.ui.ViewNote added
+[WARNING] [32mVERBOSE[0m Callback method :onTitleChanged in Class org.tomdroid.ui.actionbar.ActionBarActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class org.tomdroid.ui.ViewNote added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateOptionsMenu in Class org.tomdroid.ui.ViewNote added
+[WARNING] [32mVERBOSE[0m Callback method :onOptionsItemSelected in Class org.tomdroid.ui.ViewNote added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class org.tomdroid.ui.ViewNote added
+[WARNING] [32mVERBOSE[0m Callback method :getMenuInflater in Class org.tomdroid.ui.actionbar.ActionBarActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPostCreate in Class org.tomdroid.ui.actionbar.ActionBarActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class org.tomdroid.ui.EditNote added
+[WARNING] [32mVERBOSE[0m Callback method :onTitleChanged in Class org.tomdroid.ui.actionbar.ActionBarActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class org.tomdroid.ui.EditNote added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateOptionsMenu in Class org.tomdroid.ui.EditNote added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class org.tomdroid.ui.EditNote added
+[WARNING] [32mVERBOSE[0m Callback method :onOptionsItemSelected in Class org.tomdroid.ui.EditNote added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class org.tomdroid.ui.EditNote added
+[WARNING] [32mVERBOSE[0m Callback method :getMenuInflater in Class org.tomdroid.ui.actionbar.ActionBarActivity added
+0 ICC links found and 0 cg edges added due to ICC links
+dynamic conflated call graph: 224 methods; 224 nodes; 279 edges.
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()> to <android.content.ContentResolver: void notifyChange(android.net.Uri,android.database.ContentObserver)>
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.app.Activity: android.app.ActionBar getActionBar()> to <android.app.ActionBar: void setHomeButtonEnabled(boolean)>
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=4
+4 taint flow paths FOUND from <android.widget.TextView: int getPaintFlags()> to <android.widget.TextView: void setPaintFlags(int)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=8
+8 taint flow paths FOUND from <java.text.DateFormat: java.lang.String format(java.util.Date)> to <android.widget.TextView: void setText(java.lang.CharSequence)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=8
+8 taint flow paths FOUND from <java.lang.StringBuilder: java.lang.String toString()> to <android.widget.TextView: void setText(java.lang.CharSequence)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.content.ContextWrapper: android.content.ContentResolver getContentResolver()> to <android.content.ContentResolver: void notifyChange(android.net.Uri,android.database.ContentObserver)>
+maxpossibleFlows=8
+8 taint flow paths FOUND from <java.lang.Long: long longValue()> to <android.widget.TextView: void setText(java.lang.CharSequence)>
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.content.ContentProvider: android.content.Context getContext()> to <android.content.ContentResolver: void notifyChange(android.net.Uri,android.database.ContentObserver)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+1 taint flow paths FOUND from <android.widget.CursorAdapter: android.view.View getView(int,android.view.View,android.view.ViewGroup)> to <android.widget.TextView: void setTextColor(int)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=4
+1 taint flow paths FOUND from <android.content.Context: java.lang.String getString(int)> to <android.widget.TextView: void setText(java.lang.CharSequence)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+1 taint flow paths FOUND from <android.widget.CursorAdapter: android.view.View getView(int,android.view.View,android.view.ViewGroup)> to <android.widget.TextView: void setTextColor(int)>
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=8
+8 taint flow paths FOUND from <java.text.DateFormat: java.lang.String format(java.util.Date)> to <android.widget.TextView: void setText(java.lang.CharSequence)>
+maxpossibleFlows=2
+maxpossibleFlows=4
+4 taint flow paths FOUND from <android.widget.TextView: int getPaintFlags()> to <android.widget.TextView: void setPaintFlags(int)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()> to <android.content.ContentResolver: void notifyChange(android.net.Uri,android.database.ContentObserver)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.app.Activity: android.app.ActionBar getActionBar()> to <android.app.ActionBar: void setHomeButtonEnabled(boolean)>
+maxpossibleFlows=2
+1 taint flow paths FOUND from <android.widget.CursorAdapter: android.view.View getView(int,android.view.View,android.view.ViewGroup)> to <android.view.View: void setBackgroundResource(int)>
+Result for malicious-app-94-817B27D87897913DD536DB18276BC15A45BD5001B6C4F355E97D83DC1461D2AD.apkorg.tomdroid

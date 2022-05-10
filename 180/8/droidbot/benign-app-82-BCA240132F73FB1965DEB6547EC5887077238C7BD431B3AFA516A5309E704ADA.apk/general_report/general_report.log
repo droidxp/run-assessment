@@ -1,0 +1,29 @@
+DUA-Forensics args to Soot: -w -cp /home/hcosta/bench/benchmark/libs/droidfax.jar:/home/hcosta/Android/Sdk/platforms/android-28/android.jar -p cg verbose:false,implicit-entry:true -p cg.spark verbose:false,on-fly-cg:true,rta:false -d /home/hcosta/bench/benchmark/trace/180/4/droidbot/benign-app-82-BCA240132F73FB1965DEB6547EC5887077238C7BD431B3AFA516A5309E704ADA.apk.logcat -process-dir /home/hcosta/bench/benchmark/data/input/benign-app-82-BCA240132F73FB1965DEB6547EC5887077238C7BD431B3AFA516A5309E704ADA.apk 
+Soot started on Thu Apr 21 05:57:54 CEST 2022
+Warning: com.ironsource.mobilcore.BaseFlowBasedAdUnit is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+Warning: android.graphics.AvoidXfermode$Mode is a phantom class!
+Warning: android.graphics.AvoidXfermode is a phantom class!
+get type from 'Z'
+Warning: org.apache.http.HttpEntity is a phantom class!
+Warning: org.apache.http.HttpResponse is a phantom class!
+Warning: org.apache.http.StatusLine is a phantom class!
+Warning: org.apache.http.client.HttpClient is a phantom class!
+Warning: org.apache.http.client.entity.UrlEncodedFormEntity is a phantom class!
+Warning: org.apache.http.client.methods.HttpPost is a phantom class!
+Warning: org.apache.http.client.methods.HttpUriRequest is a phantom class!
+Warning: org.apache.http.impl.client.DefaultHttpClient is a phantom class!
+Warning: org.apache.http.message.BasicNameValuePair is a phantom class!
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.2 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+hcai's internal transform
+Running static analysis for method/class coverage characterization
+0 ICC links found and 0 cg edges added due to ICC links
+dynamic conflated call graph: 778 methods; 778 nodes; 1058 edges.
+feature-vector-key = benign-app-82-BCA240132F73FB1965DEB6547EC5887077238C7BD431B3AFA516A5309E704ADA.apk
+Result for benign-app-82-BCA240132F73FB1965DEB6547EC5887077238C7BD431B3AFA516A5309E704ADA.apkcom.divmob.tangram

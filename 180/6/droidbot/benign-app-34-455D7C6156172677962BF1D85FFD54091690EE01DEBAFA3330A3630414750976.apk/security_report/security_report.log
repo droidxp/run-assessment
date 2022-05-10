@@ -1,0 +1,62 @@
+DUA-Forensics args to Soot: -w -cp /home/hcosta/bench/benchmark/libs/droidfax.jar:/home/hcosta/Android/Sdk/platforms/android-28/android.jar -p cg verbose:false,implicit-entry:true -p cg.spark verbose:false,on-fly-cg:true,rta:false -d /home/hcosta/bench/benchmark/trace/180/2/droidbot/benign-app-34-455D7C6156172677962BF1D85FFD54091690EE01DEBAFA3330A3630414750976.apk.logcat -process-dir /home/hcosta/bench/benchmark/data/input/benign-app-34-455D7C6156172677962BF1D85FFD54091690EE01DEBAFA3330A3630414750976.apk 
+Soot started on Wed Apr 20 17:23:26 CEST 2022
+Warning: com.ironsource.mobilcore.BaseFlowBasedAdUnit is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.0 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+hcai's internal transform
+Running static analysis for security-relevant feature characterization
+[GatorHierarchy] [32mVERBOSE[0m [HIER] All classes: 1265
+[GatorHierarchy] [32mVERBOSE[0m [App: 164, Lib : 1098, Phantom: 3]
+[GatorHierarchy] [32mVERBOSE[0m [HIER] Activities: 9, lib activities: 3
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App views: 11, Lib views: 19
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App Dialogs: 1, Lib Dialogs: 4
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing starting at 1650468206814
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing finished at 1650468208054
+[Instantiated app classes] [32mVERBOSE[0m total number: 192
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.circlethecat.Statistics added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateOptionsMenu in Class com.circlethecat.Statistics added
+[WARNING] [32mVERBOSE[0m Callback method :onOptionsItemSelected in Class com.circlethecat.Statistics added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.circlethecat.Home added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.circlethecat.Home added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.circlethecat.Splash added
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class com.admob.android.ads.AdMobActivity added
+[WARNING] [32mVERBOSE[0m Callback method :finish in Class com.admob.android.ads.AdMobActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.admob.android.ads.AdMobActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.admob.android.ads.AdMobActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.facebook.android.ScoreToFacebook added
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class com.facebook.android.ScoreToFacebook added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.circlethecat.About added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.circlethecat.Settings_Preferences added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.circlethecat.Instructions added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.circlethecat.CircleTheCat added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.circlethecat.CircleTheCat added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateOptionsMenu in Class com.circlethecat.CircleTheCat added
+[WARNING] [32mVERBOSE[0m Callback method :onOptionsItemSelected in Class com.circlethecat.CircleTheCat added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.circlethecat.CircleTheCat added
+[WARNING] [32mVERBOSE[0m Callback method :onReceive in Class com.admob.android.ads.analytics.InstallReceiver added
+0 ICC links found and 0 cg edges added due to ICC links
+dynamic conflated call graph: 27 methods; 27 nodes; 27 edges.
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.app.Activity: android.content.Intent getIntent()> to <android.view.View: void setBackgroundResource(int)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.content.Intent: boolean getBooleanExtra(java.lang.String,boolean)> to <android.view.View: void setBackgroundResource(int)>
+maxpossibleFlows=2
+2 taint flow paths FOUND from <android.view.View: int getId()> to <android.app.Activity: void startActivity(android.content.Intent)>
+maxpossibleFlows=2
+2 taint flow paths FOUND from <android.view.View: int getId()> to <android.app.Activity: void startActivity(android.content.Intent)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.app.Activity: android.content.Intent getIntent()> to <android.view.View: void setBackgroundResource(int)>
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.circlethecat.Home
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.circlethecat.Home
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.circlethecat.Home
+Result for benign-app-34-455D7C6156172677962BF1D85FFD54091690EE01DEBAFA3330A3630414750976.apkcom.circlethecat

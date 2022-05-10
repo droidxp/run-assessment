@@ -1,0 +1,97 @@
+DUA-Forensics args to Soot: -w -cp /home/handrick/Documents/UNB/benchmark/libs/droidfax.jar:/home/handrick/Android/Sdk/platforms/android-19/android.jar -p cg verbose:false,implicit-entry:true -p cg.spark verbose:false,on-fly-cg:true,rta:false -d /home/handrick/Documents/UNB/benchmark/trace/180/2/droidbot/malicious-app-87-8285337EFEF19C7B80ED5AA1CF11F45922A17C0E6CA26572D252D167447B83FA.apk.logcat -process-dir /home/handrick/Documents/UNB/benchmark/data/input/malicious-app-87-8285337EFEF19C7B80ED5AA1CF11F45922A17C0E6CA26572D252D167447B83FA.apk 
+Soot started on Fri Apr 15 12:49:07 CEST 2022
+Warning: com.ironsource.mobilcore.BaseFlowBasedAdUnit is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+Warning: cn.aduu.adsdk.AdManager is a phantom class!
+Warning: cn.aduu.adsdk.AdView is a phantom class!
+Warning: cn.aduu.adsdk.AdViewListener is a phantom class!
+Warning: cn.appmedia.ad.AdManager is a phantom class!
+Warning: cn.appmedia.ad.AdViewListener is a phantom class!
+Warning: cn.appmedia.ad.BannerAdView is a phantom class!
+Warning: cn.casee.adsdk.CaseeAdView$AdListener is a phantom class!
+Warning: cn.casee.adsdk.CaseeAdView is a phantom class!
+Warning: cn.domob.android.ads.DomobAdListener is a phantom class!
+Warning: cn.domob.android.ads.DomobAdView is a phantom class!
+Warning: com.adchina.android.ads.AdEngine is a phantom class!
+Warning: com.adchina.android.ads.AdListener is a phantom class!
+Warning: com.adchina.android.ads.AdManager is a phantom class!
+Warning: com.adchina.android.ads.views.AdView is a phantom class!
+Warning: com.baidu.mobads.AdViewListener is a phantom class!
+Warning: com.baidu.mobads.AdService is a phantom class!
+Warning: com.baidu.mobads.AdView is a phantom class!
+Warning: com.energysource.szj.embeded.AdListener is a phantom class!
+Warning: com.energysource.szj.embeded.AdView is a phantom class!
+Warning: com.adwo.adsdk.AdListener is a phantom class!
+Warning: com.adwo.adsdk.AdwoAdView is a phantom class!
+Warning: com.adwo.adsdk.ErrorCode is a phantom class!
+Warning: com.mt.airad.AirAD$AirADListener is a phantom class!
+Warning: com.mt.airad.AirAD is a phantom class!
+Warning: com.fractalist.android.ads.AdStatusListener is a phantom class!
+Warning: com.fractalist.android.ads.ADView is a phantom class!
+Warning: com.greystripe.android.sdk.BannerListener is a phantom class!
+Warning: com.greystripe.android.sdk.BannerView is a phantom class!
+Warning: com.inmobi.androidsdk.IMAdListener is a phantom class!
+Warning: com.inmobi.androidsdk.IMAdView is a phantom class!
+Warning: com.inmobi.androidsdk.IMAdRequest$ErrorCode is a phantom class!
+Warning: com.inmobi.androidsdk.IMAdRequest is a phantom class!
+Warning: com.izp.views.IZPDelegate is a phantom class!
+Warning: com.izp.views.IZPView is a phantom class!
+Warning: com.lmmob.ad.sdk.LmMobAdRequestListener is a phantom class!
+Warning: com.lmmob.ad.sdk.LmMobAdView is a phantom class!
+Warning: com.l.adlib_android.AdListenerEx is a phantom class!
+Warning: com.l.adlib_android.AdView is a phantom class!
+Warning: com.mdotm.android.ads.MdotMView$MdotMActionListener is a phantom class!
+Warning: com.mdotm.android.ads.MdotMView is a phantom class!
+Warning: com.millennialmedia.android.MMAdView$MMAdListener is a phantom class!
+Warning: com.millennialmedia.android.MMAdView is a phantom class!
+Warning: com.tencent.mobwin.AdListener is a phantom class!
+Warning: com.tencent.mobwin.AdView is a phantom class!
+Warning: com.mobisage.android.IMobiSageAdViewListener is a phantom class!
+Warning: com.mobisage.android.MobiSageAdBanner is a phantom class!
+Warning: com.donson.momark.util.AdViewListener is a phantom class!
+Warning: com.donson.momark.view.view.AdView is a phantom class!
+Warning: com.smaato.SOMA.AdListener is a phantom class!
+Warning: com.smaato.SOMA.SOMABanner is a phantom class!
+Warning: com.smaato.SOMA.AdDownloader is a phantom class!
+Warning: com.smaato.SOMA.ErrorCode is a phantom class!
+Warning: com.smaato.SOMA.SOMAReceivedBanner is a phantom class!
+Warning: com.madhouse.android.ads.AdListener is a phantom class!
+Warning: com.madhouse.android.ads.AdView is a phantom class!
+Warning: com.umengAd.controller.UmengAdListener is a phantom class!
+Warning: com.umengAd.android.AdView is a phantom class!
+Warning: com.vpon.adon.android.AdListener is a phantom class!
+Warning: com.vpon.adon.android.AdView is a phantom class!
+Warning: com.wooboo.adlib_android.AdListener is a phantom class!
+Warning: net.youmi.android.AdViewListener is a phantom class!
+Warning: net.youmi.android.AdView is a phantom class!
+Warning: com.zestadz.android.ZestADZAdView$ZestADZListener is a phantom class!
+Warning: com.zestadz.android.ZestADZAdView is a phantom class!
+Warning: com.baidu.mobads.AdType is a phantom class!
+Warning: com.donson.momark.AdManager is a phantom class!
+Warning: com.energysource.szj.embeded.AdManager is a phantom class!
+get type from 'Z'
+Warning: com.greystripe.android.sdk.GSSDK is a phantom class!
+Warning: com.ignitevision.android.ads.AdManager is a phantom class!
+Warning: com.ignitevision.android.ads.AdView is a phantom class!
+Warning: com.lmmob.ad.sdk.LmMobEngine is a phantom class!
+Warning: com.madhouse.android.ads.AdManager is a phantom class!
+Warning: com.mdotm.android.ads.MdotMManager is a phantom class!
+Warning: com.vpon.adon.android.AdOnPlatform is a phantom class!
+Warning: com.wiyun.ad.AdView is a phantom class!
+Warning: com.wooboo.adlib_android.WoobooAdView is a phantom class!
+Warning: com.wqmobile.sdk.widget.ADView is a phantom class!
+Warning: com.zestadz.android.AdManager is a phantom class!
+Warning: net.youmi.android.AdManager is a phantom class!
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.0 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+hcai's internal transform
+Running static analysis for method/class coverage characterization
+0 ICC links found and 0 cg edges added due to ICC links
+dynamic conflated call graph: 631 methods; 631 nodes; 995 edges.
+feature-vector-key = malicious-app-87-8285337EFEF19C7B80ED5AA1CF11F45922A17C0E6CA26572D252D167447B83FA.apk
+Result for malicious-app-87-8285337EFEF19C7B80ED5AA1CF11F45922A17C0E6CA26572D252D167447B83FA.apkcom.gamayun.biketothefuturefree

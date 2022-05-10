@@ -1,0 +1,83 @@
+DUA-Forensics args to Soot: -w -cp /home/handrick/Documents/UNB/benchmark/libs/droidfax.jar:/home/handrick/Android/Sdk/platforms/android-19/android.jar -p cg verbose:false,implicit-entry:true -p cg.spark verbose:false,on-fly-cg:true,rta:false -d /home/handrick/Documents/UNB/benchmark/trace/180/2/droidbot/malicious-app-37-DFE187680B20DD5119F08EDA71A317FC45139382CEE1466F21C3623C5F5A127D.apk.logcat -process-dir /home/handrick/Documents/UNB/benchmark/data/input/malicious-app-37-DFE187680B20DD5119F08EDA71A317FC45139382CEE1466F21C3623C5F5A127D.apk 
+Soot started on Fri Apr 15 13:16:23 CEST 2022
+Warning: com.ironsource.mobilcore.BaseFlowBasedAdUnit is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+Warning: cn.appmedia.ad.AdManager is a phantom class!
+Warning: cn.appmedia.ad.AdViewListener is a phantom class!
+Warning: cn.appmedia.ad.BannerAdView is a phantom class!
+Warning: com.adchina.android.ads.AdEngine is a phantom class!
+Warning: com.adchina.android.ads.AdListener is a phantom class!
+Warning: com.adchina.android.ads.AdManager is a phantom class!
+Warning: com.adchina.android.ads.views.AdView is a phantom class!
+Warning: com.adchina.android.ads.views.ShrinkFSAdView is a phantom class!
+Warning: com.energysource.szj.embeded.AdListener is a phantom class!
+Warning: com.energysource.szj.embeded.AdView is a phantom class!
+Warning: com.casee.adsdk.CaseeAdView$AdListener is a phantom class!
+Warning: com.casee.adsdk.CaseeAdView is a phantom class!
+Warning: com.greystripe.android.sdk.BannerListener is a phantom class!
+Warning: com.greystripe.android.sdk.BannerView is a phantom class!
+Warning: com.greystripe.android.sdk.GSSDK is a phantom class!
+Warning: com.izp.views.IZPDelegate is a phantom class!
+Warning: com.izp.views.IZPView is a phantom class!
+Warning: com.inmobi.androidsdk.InMobiAdDelegate is a phantom class!
+Warning: com.inmobi.androidsdk.impl.InMobiAdView is a phantom class!
+Warning: com.inmobi.androidsdk.EducationType is a phantom class!
+Warning: com.inmobi.androidsdk.EthnicityType is a phantom class!
+Warning: com.inmobi.androidsdk.GenderType is a phantom class!
+Warning: com.l.adlib_android.AdListenerEx is a phantom class!
+Warning: com.l.adlib_android.AdView is a phantom class!
+Warning: com.l.adlib_android.AdViewFull is a phantom class!
+Warning: com.lmmob.ad.sdk.LmMobAdRequestListener is a phantom class!
+Warning: com.lmmob.ad.sdk.LmMobAdView is a phantom class!
+Warning: com.smaato.SOMA.AdListener is a phantom class!
+Warning: com.smaato.SOMA.SOMABanner is a phantom class!
+Warning: com.smaato.SOMA.AdDownloader is a phantom class!
+Warning: com.smaato.SOMA.ErrorCode is a phantom class!
+Warning: com.smaato.SOMA.SOMAReceivedBanner is a phantom class!
+Warning: com.madhouse.android.ads.AdListener is a phantom class!
+Warning: com.madhouse.android.ads.AdView is a phantom class!
+Warning: com.vpon.adon.android.AdListener is a phantom class!
+Warning: com.apon.android.AponService is a phantom class!
+Warning: com.vpon.adon.android.AdView is a phantom class!
+Warning: com.winad.android.ads.ADListener is a phantom class!
+Warning: com.winad.android.ads.AdView is a phantom class!
+Warning: com.wiyun.ad.AdView$AdListener is a phantom class!
+Warning: com.wiyun.ad.AdView is a phantom class!
+Warning: com.wooboo.adlib_android.AdListener is a phantom class!
+Warning: com.wooboo.adlib_android.WoobooAdView is a phantom class!
+Warning: net.youmi.android.AdViewListener is a phantom class!
+Warning: net.youmi.android.AdView is a phantom class!
+Warning: com.oneriot.OneRiotAdActionListener is a phantom class!
+Warning: com.oneriot.OneRiotAd is a phantom class!
+Warning: com.qwapi.adclient.android.view.AdEventsListener is a phantom class!
+Warning: com.qwapi.adclient.android.view.QWAdView is a phantom class!
+Warning: com.qwapi.adclient.android.data.Ad is a phantom class!
+Warning: com.qwapi.adclient.android.requestparams.AdRequestParams is a phantom class!
+Warning: com.qwapi.adclient.android.data.Status is a phantom class!
+Warning: com.apon.android.ServicePlatform is a phantom class!
+Warning: com.energysource.szj.embeded.AdManager is a phantom class!
+Warning: com.lmmob.ad.sdk.LmMobEngine is a phantom class!
+Warning: com.madhouse.android.ads.AdManager is a phantom class!
+Warning: com.qwapi.adclient.android.requestparams.AnimationType is a phantom class!
+Warning: com.qwapi.adclient.android.requestparams.DisplayMode is a phantom class!
+Warning: com.qwapi.adclient.android.requestparams.Gender is a phantom class!
+Warning: com.qwapi.adclient.android.requestparams.MediaType is a phantom class!
+Warning: com.qwapi.adclient.android.requestparams.Placement is a phantom class!
+Warning: com.smaato.SOMA.AdDownloader$MediaType is a phantom class!
+Warning: com.smaato.SOMA.SOMABanner$AnimationType is a phantom class!
+Warning: com.vpon.adon.android.AdOnPlatform is a phantom class!
+Warning: net.youmi.android.AdManager is a phantom class!
+No main class given. Inferred 'com.baidu.AdType' as main class.
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.1 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+hcai's internal transform
+Running static analysis for method/class coverage characterization
+0 ICC links found and 0 cg edges added due to ICC links
+dynamic conflated call graph: 390 methods; 390 nodes; 503 edges.
+feature-vector-key = malicious-app-37-DFE187680B20DD5119F08EDA71A317FC45139382CEE1466F21C3623C5F5A127D.apk
+Result for malicious-app-37-DFE187680B20DD5119F08EDA71A317FC45139382CEE1466F21C3623C5F5A127D.apkcom.androgames.BubbleBurst

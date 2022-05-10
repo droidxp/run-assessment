@@ -1,0 +1,207 @@
+DUA-Forensics args to Soot: -w -cp /home/hcosta/bench/benchmark/libs/droidfax.jar:/home/hcosta/Android/Sdk/platforms/android-28/android.jar -p cg verbose:false,implicit-entry:true -p cg.spark verbose:false,on-fly-cg:true,rta:false -d /home/hcosta/bench/benchmark/trace/180/4/droidbot/benign-app-55-81091F430A6D82CE4FC51DD09D42E91DA246EC89053B79752A483C482DD33D45.apk.logcat -process-dir /home/hcosta/bench/benchmark/data/input/benign-app-55-81091F430A6D82CE4FC51DD09D42E91DA246EC89053B79752A483C482DD33D45.apk 
+Soot started on Thu Apr 21 06:01:15 CEST 2022
+Warning: com.ironsource.mobilcore.BaseFlowBasedAdUnit is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.0 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+hcai's internal transform
+Running static analysis for security-relevant feature characterization
+[GatorHierarchy] [32mVERBOSE[0m [HIER] All classes: 1254
+[GatorHierarchy] [32mVERBOSE[0m [App: 257, Lib : 994, Phantom: 3]
+[GatorHierarchy] [32mVERBOSE[0m [HIER] Activities: 40, lib activities: 1
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App views: 2, Lib views: 15
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App Dialogs: 0, Lib Dialogs: 2
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing starting at 1650513676076
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing finished at 1650513698842
+[Instantiated app classes] [32mVERBOSE[0m total number: 226
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class com.catapults.Multiplayer2 added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.catapults.Multiplayer2 added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.catapults.Multiplayer2 added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.catapults.Multiplayer2 added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateOptionsMenu in Class com.catapults.Multiplayer2 added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.catapults.Multiplayer2 added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class com.catapults.Multiplayer2 added
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class com.catapults.Multiplayer2 added
+[WARNING] [32mVERBOSE[0m Callback method :onOptionsItemSelected in Class com.catapults.Multiplayer2 added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.catapults.Multiplayer2 added
+[WARNING] [32mVERBOSE[0m Callback method :onBackPressed in Class com.catapults.WinScreen1 added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.catapults.WinScreen1 added
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class com.catapults.Level4_1 added
+[WARNING] [32mVERBOSE[0m Callback method :onBackPressed in Class com.catapults.Level4_1 added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.catapults.Level4_1 added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.catapults.Level4_1 added
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class com.catapults.Level4_2 added
+[WARNING] [32mVERBOSE[0m Callback method :onBackPressed in Class com.catapults.Level4_2 added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.catapults.Level4_2 added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.catapults.Level4_2 added
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class com.catapults.Level3_2 added
+[WARNING] [32mVERBOSE[0m Callback method :onBackPressed in Class com.catapults.Level3_2 added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.catapults.Level3_2 added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.catapults.Level3_2 added
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class com.catapults.Level5_2 added
+[WARNING] [32mVERBOSE[0m Callback method :onBackPressed in Class com.catapults.Level5_2 added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.catapults.Level5_2 added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.catapults.Level5_2 added
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class com.catapults.StartAnim added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.catapults.StartAnim added
+[WARNING] [32mVERBOSE[0m Callback method :onBackPressed in Class com.catapults.WinScreen5 added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.catapults.WinScreen5 added
+[WARNING] [32mVERBOSE[0m Callback method :onBackPressed in Class com.catapults.WinScreen3 added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.catapults.WinScreen3 added
+[WARNING] [32mVERBOSE[0m Callback method :onBackPressed in Class com.catapults.SecondActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.catapults.SecondActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.catapults.SecondActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.catapults.SecondActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.catapults.MultiplayerDeviceList added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.catapults.MultiplayerDeviceList added
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class com.catapults.Level1_1 added
+[WARNING] [32mVERBOSE[0m Callback method :onBackPressed in Class com.catapults.Level1_1 added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.catapults.Level1_1 added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.catapults.Level1_1 added
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class com.catapults.Level1_2 added
+[WARNING] [32mVERBOSE[0m Callback method :onBackPressed in Class com.catapults.Level1_2 added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.catapults.Level1_2 added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.catapults.Level1_2 added
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class com.catapults.Multiplayer4 added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.catapults.Multiplayer4 added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.catapults.Multiplayer4 added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.catapults.Multiplayer4 added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateOptionsMenu in Class com.catapults.Multiplayer4 added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.catapults.Multiplayer4 added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class com.catapults.Multiplayer4 added
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class com.catapults.Multiplayer4 added
+[WARNING] [32mVERBOSE[0m Callback method :onOptionsItemSelected in Class com.catapults.Multiplayer4 added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.catapults.Multiplayer4 added
+[WARNING] [32mVERBOSE[0m Callback method :onBackPressed in Class com.catapults.WinScreen2 added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.catapults.WinScreen2 added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.catapults.FifthActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onBackPressed in Class com.catapults.mainActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.catapults.mainActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.catapults.mainActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.catapults.mainActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class com.catapults.Level5_1 added
+[WARNING] [32mVERBOSE[0m Callback method :onBackPressed in Class com.catapults.Level5_1 added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.catapults.Level5_1 added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.catapults.Level5_1 added
+[WARNING] [32mVERBOSE[0m Callback method :onBackPressed in Class com.catapults.WinScreen4 added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.catapults.WinScreen4 added
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class com.catapults.Multiplayer added
+[WARNING] [32mVERBOSE[0m Callback method :onBackPressed in Class com.catapults.Multiplayer added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.catapults.Multiplayer added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.catapults.Multiplayer added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.catapults.Multiplayer added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateOptionsMenu in Class com.catapults.Multiplayer added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.catapults.Multiplayer added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class com.catapults.Multiplayer added
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class com.catapults.Multiplayer added
+[WARNING] [32mVERBOSE[0m Callback method :onOptionsItemSelected in Class com.catapults.Multiplayer added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.catapults.Multiplayer added
+[WARNING] [32mVERBOSE[0m Callback method :onBackPressed in Class com.catapults.Story1 added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.catapults.Story1 added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.catapults.Story2 added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.catapults.Story3 added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.catapults.Bluetooth added
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class com.catapults.Bluetooth added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.catapults.Story5 added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.catapults.FourthActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.catapults.FourthActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class com.catapults.Level2_1 added
+[WARNING] [32mVERBOSE[0m Callback method :onBackPressed in Class com.catapults.Level2_1 added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.catapults.Level2_1 added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.catapults.Level2_1 added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.catapults.Story4 added
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class com.catapults.Level1_3 added
+[WARNING] [32mVERBOSE[0m Callback method :onBackPressed in Class com.catapults.Level1_3 added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.catapults.Level1_3 added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.catapults.Level1_3 added
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class com.catapults.Multiplayer5 added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.catapults.Multiplayer5 added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.catapults.Multiplayer5 added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.catapults.Multiplayer5 added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateOptionsMenu in Class com.catapults.Multiplayer5 added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.catapults.Multiplayer5 added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class com.catapults.Multiplayer5 added
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class com.catapults.Multiplayer5 added
+[WARNING] [32mVERBOSE[0m Callback method :onOptionsItemSelected in Class com.catapults.Multiplayer5 added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.catapults.Multiplayer5 added
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class com.catapults.Level5_3 added
+[WARNING] [32mVERBOSE[0m Callback method :onBackPressed in Class com.catapults.Level5_3 added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.catapults.Level5_3 added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.catapults.Level5_3 added
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class com.catapults.Level2_3 added
+[WARNING] [32mVERBOSE[0m Callback method :onBackPressed in Class com.catapults.Level2_3 added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.catapults.Level2_3 added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.catapults.Level2_3 added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.catapults.ChooseLang added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.catapults.ChooseLang added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.catapults.ChooseLang added
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class com.catapults.Level4_3 added
+[WARNING] [32mVERBOSE[0m Callback method :onBackPressed in Class com.catapults.Level4_3 added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.catapults.Level4_3 added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.catapults.Level4_3 added
+[WARNING] [32mVERBOSE[0m Callback method :onDraw in Class com.catapults.DrawView added
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class com.catapults.Multiplayer3 added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.catapults.Multiplayer3 added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.catapults.Multiplayer3 added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.catapults.Multiplayer3 added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateOptionsMenu in Class com.catapults.Multiplayer3 added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.catapults.Multiplayer3 added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class com.catapults.Multiplayer3 added
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class com.catapults.Multiplayer3 added
+[WARNING] [32mVERBOSE[0m Callback method :onOptionsItemSelected in Class com.catapults.Multiplayer3 added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.catapults.Multiplayer3 added
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class com.catapults.Level3_1 added
+[WARNING] [32mVERBOSE[0m Callback method :onBackPressed in Class com.catapults.Level3_1 added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.catapults.Level3_1 added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.catapults.Level3_1 added
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class com.catapults.Level3_3 added
+[WARNING] [32mVERBOSE[0m Callback method :onBackPressed in Class com.catapults.Level3_3 added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.catapults.Level3_3 added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.catapults.Level3_3 added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.catapults.MultiplayerMain added
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class com.catapults.Level2_2 added
+[WARNING] [32mVERBOSE[0m Callback method :onBackPressed in Class com.catapults.Level2_2 added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.catapults.Level2_2 added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.catapults.Level2_2 added
+[WARNING] [32mVERBOSE[0m Callback method :onBackPressed in Class com.catapults.WinScreen_final added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.catapults.WinScreen_final added
+0 ICC links found and 0 cg edges added due to ICC links
+dynamic conflated call graph: 88 methods; 88 nodes; 121 edges.
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.app.Activity: android.app.Application getApplication()> to <android.widget.TextView: void setText(java.lang.CharSequence)>
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.content.ContextWrapper: android.content.SharedPreferences getSharedPreferences(java.lang.String,int)> to <android.widget.TextView: void setText(java.lang.CharSequence)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.view.View: android.view.ViewGroup$LayoutParams getLayoutParams()> to <android.view.View: void setBackgroundResource(int)>
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.app.Activity: android.view.Window getWindow()> to <android.widget.TextView: void setText(java.lang.CharSequence)>
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.app.Activity: android.app.Application getApplication()> to <android.widget.TextView: void setText(java.lang.CharSequence)>
+maxpossibleFlows=1
+maxpossibleFlows=2
+1 taint flow paths FOUND from <android.content.ContextWrapper: android.content.SharedPreferences getSharedPreferences(java.lang.String,int)> to <android.content.ContextWrapper: java.io.FileInputStream openFileInput(java.lang.String)>
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.app.Activity: android.app.Application getApplication()> to <android.content.ContextWrapper: java.io.FileOutputStream openFileOutput(java.lang.String,int)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.content.ContextWrapper: android.content.SharedPreferences getSharedPreferences(java.lang.String,int)> to <android.app.Activity: void setContentView(int)>
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.app.Activity: android.app.Application getApplication()> to <android.view.View: void setBackgroundColor(int)>
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.app.Activity: android.app.Application getApplication()> to <java.io.Writer: void write(java.lang.String)>
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.app.Activity: android.app.Application getApplication()> to <android.app.Activity: void setRequestedOrientation(int)>
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.app.Activity: android.app.Application getApplication()> to <android.view.Window: void setFlags(int,int)>
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.view.View: android.view.ViewGroup$LayoutParams getLayoutParams()> to <android.view.View: void setBackgroundResource(int)>
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.app.Activity: android.app.Application getApplication()> to <android.widget.TextView: void setTypeface(android.graphics.Typeface)>
+Result for benign-app-55-81091F430A6D82CE4FC51DD09D42E91DA246EC89053B79752A483C482DD33D45.apkcom.catapults

@@ -1,0 +1,196 @@
+DUA-Forensics args to Soot: -w -cp /home/hcosta/bench/benchmark/libs/droidfax.jar:/home/hcosta/Android/Sdk/platforms/android-28/android.jar -p cg verbose:false,implicit-entry:true -p cg.spark verbose:false,on-fly-cg:true,rta:false -d /home/hcosta/bench/benchmark/trace/180/5/droidbot/benign-app-102-D87EF9BC6DFAF5F4521C6BD2CE702BF56C66B19150B45358BC94D67AB28111BD.apk.logcat -process-dir /home/hcosta/bench/benchmark/data/input/benign-app-102-D87EF9BC6DFAF5F4521C6BD2CE702BF56C66B19150B45358BC94D67AB28111BD.apk 
+Soot started on Thu Apr 21 12:41:34 CEST 2022
+Warning: com.ironsource.mobilcore.BaseFlowBasedAdUnit is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+Warning: java.awt.Graphics is a phantom class!
+Warning: java.awt.GraphicsEnvironment is a phantom class!
+Warning: java.awt.Image is a phantom class!
+Warning: java.awt.Point is a phantom class!
+Warning: java.awt.Toolkit is a phantom class!
+Warning: java.awt.color.ColorSpace is a phantom class!
+Warning: java.awt.datatransfer.Clipboard is a phantom class!
+Warning: java.awt.datatransfer.DataFlavor is a phantom class!
+Warning: java.awt.datatransfer.FlavorMap is a phantom class!
+Warning: java.awt.datatransfer.SystemFlavorMap is a phantom class!
+Warning: java.awt.datatransfer.Transferable is a phantom class!
+Warning: java.awt.datatransfer.UnsupportedFlavorException is a phantom class!
+Warning: java.awt.dnd.DragGestureEvent is a phantom class!
+Warning: java.awt.dnd.DragSourceContext is a phantom class!
+Warning: java.awt.dnd.DragSourceDragEvent is a phantom class!
+Warning: java.awt.dnd.DragSourceDropEvent is a phantom class!
+Warning: java.awt.dnd.DragSourceEvent is a phantom class!
+Warning: java.awt.dnd.DropTargetContext is a phantom class!
+Warning: java.awt.dnd.peer.DragSourceContextPeer is a phantom class!
+Warning: java.awt.dnd.peer.DropTargetContextPeer is a phantom class!
+Warning: java.awt.image.BufferedImage is a phantom class!
+Warning: java.awt.image.ColorModel is a phantom class!
+Warning: java.awt.image.ComponentColorModel is a phantom class!
+Warning: java.awt.image.DataBuffer is a phantom class!
+Warning: java.awt.image.DataBufferByte is a phantom class!
+Warning: java.awt.image.DataBufferInt is a phantom class!
+Warning: java.awt.image.DataBufferUShort is a phantom class!
+Warning: java.awt.image.DirectColorModel is a phantom class!
+Warning: java.awt.image.ImageObserver is a phantom class!
+Warning: java.awt.image.Raster is a phantom class!
+Warning: java.awt.image.WritableRaster is a phantom class!
+Warning: java.beans.Beans is a phantom class!
+Warning: javax.security.auth.callback.NameCallback is a phantom class!
+Warning: javax.security.sasl.RealmCallback is a phantom class!
+Warning: javax.security.sasl.RealmChoiceCallback is a phantom class!
+Warning: javax.security.sasl.Sasl is a phantom class!
+Warning: javax.security.sasl.SaslClient is a phantom class!
+Warning: javax.security.sasl.SaslException is a phantom class!
+Warning: org.apache.http.HttpEntity is a phantom class!
+Warning: org.apache.http.HttpResponse is a phantom class!
+Warning: org.apache.http.StatusLine is a phantom class!
+Warning: org.apache.http.client.ClientProtocolException is a phantom class!
+Warning: org.apache.http.client.HttpClient is a phantom class!
+Warning: org.apache.http.client.entity.UrlEncodedFormEntity is a phantom class!
+Warning: org.apache.http.client.methods.HttpPost is a phantom class!
+Warning: org.apache.http.client.methods.HttpUriRequest is a phantom class!
+Warning: org.apache.http.impl.client.DefaultHttpClient is a phantom class!
+Warning: org.apache.http.message.BasicNameValuePair is a phantom class!
+Warning: org.apache.http.params.BasicHttpParams is a phantom class!
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.0 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+hcai's internal transform
+Running static analysis for security-relevant feature characterization
+[GatorHierarchy] [32mVERBOSE[0m [HIER] All classes: 1537
+[GatorHierarchy] [32mVERBOSE[0m [App: 388, Lib : 1097, Phantom: 52]
+[GatorHierarchy] [32mVERBOSE[0m [HIER] Activities: 3, lib activities: 2
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App views: 0, Lib views: 15
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App Dialogs: 0, Lib Dialogs: 4
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing starting at 1650537695666
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing finished at 1650537699129
+[Instantiated app classes] [32mVERBOSE[0m total number: 369
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.mobclick.android.UmengFeedback added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class cn.etouch.tool.report.CrashApplication added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class cn.etouch.tool.logcat.LogCatViewerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class cn.etouch.tool.logcat.LogCatViewerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class cn.etouch.tool.logcat.LogCatViewerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateOptionsMenu in Class cn.etouch.tool.logcat.LogCatViewerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class cn.etouch.tool.logcat.LogCatViewerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onOptionsItemSelected in Class cn.etouch.tool.logcat.LogCatViewerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class cn.etouch.tool.logcat.LogCatViewerActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onListItemClick in Class cn.etouch.tool.logcat.explorer.SelectFolderActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class cn.etouch.tool.logcat.explorer.SelectFolderActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class cn.etouch.tool.logcat.explorer.SelectFolderActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class cn.etouch.tool.logcat.explorer.SelectFolderActivity added
+0 ICC links found and 0 cg edges added due to ICC links
+dynamic conflated call graph: 226 methods; 226 nodes; 323 edges.
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+3 taint flow paths FOUND from <org.json.JSONObject: java.lang.String getString(java.lang.String)> to <android.util.Log: int i(java.lang.String,java.lang.String)>
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=3
+1 taint flow paths FOUND from <java.lang.StringBuilder: java.lang.String toString()> to <org.json.JSONObject: org.json.JSONObject put(java.lang.String,double)>
+maxpossibleFlows=6
+3 taint flow paths FOUND from <android.app.Activity: java.lang.Object getSystemService(java.lang.String)> to <org.json.JSONObject: org.json.JSONObject put(java.lang.String,int)>
+maxpossibleFlows=3
+maxpossibleFlows=3
+1 taint flow paths FOUND from <android.content.ContextWrapper: android.content.ContentResolver getContentResolver()> to <org.json.JSONObject: org.json.JSONObject put(java.lang.String,double)>
+maxpossibleFlows=3
+1 taint flow paths FOUND from <android.telephony.TelephonyManager: java.lang.String getDeviceId()> to <org.json.JSONObject: org.json.JSONObject put(java.lang.String,int)>
+maxpossibleFlows=3
+maxpossibleFlows=3
+1 taint flow paths FOUND from <android.telephony.TelephonyManager: java.lang.String getNetworkOperatorName()> to <org.json.JSONObject: org.json.JSONObject put(java.lang.String,double)>
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+3 taint flow paths FOUND from <org.json.JSONArray: org.json.JSONArray put(java.lang.Object)> to <android.util.Log: int i(java.lang.String,java.lang.String)>
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+1 taint flow paths FOUND from <android.content.ContextWrapper: android.content.Context getApplicationContext()> to <android.view.View: void setClickable(boolean)>
+maxpossibleFlows=3
+1 taint flow paths FOUND from <android.content.ContextWrapper: java.lang.String getPackageName()> to <org.json.JSONObject: org.json.JSONObject put(java.lang.String,int)>
+maxpossibleFlows=3
+1 taint flow paths FOUND from <android.content.ContextWrapper: android.content.pm.PackageManager getPackageManager()> to <org.json.JSONObject: org.json.JSONObject put(java.lang.String,int)>
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+1 taint flow paths FOUND from <android.content.ContextWrapper: android.content.Context getApplicationContext()> to <android.view.View: void setClickable(boolean)>
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=6
+3 taint flow paths FOUND from <android.app.Activity: java.lang.Object getSystemService(java.lang.String)> to <org.json.JSONObject: org.json.JSONObject put(java.lang.String,int)>
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+1 taint flow paths FOUND from <android.content.ContextWrapper: android.content.Context getApplicationContext()> to <android.widget.TextView: void setSelected(boolean)>
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+1 taint flow paths FOUND from <java.lang.StringBuilder: java.lang.String toString()> to <org.json.JSONObject: org.json.JSONObject put(java.lang.String,double)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=3
+maxpossibleFlows=2
+maxpossibleFlows=3
+3 taint flow paths FOUND from <org.json.JSONObject: java.lang.String getString(java.lang.String)> to <android.util.Log: int i(java.lang.String,java.lang.String)>
+Result for benign-app-102-D87EF9BC6DFAF5F4521C6BD2CE702BF56C66B19150B45358BC94D67AB28111BD.apkcn.etouch.tool

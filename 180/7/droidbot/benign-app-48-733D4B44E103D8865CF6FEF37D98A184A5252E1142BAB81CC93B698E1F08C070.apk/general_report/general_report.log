@@ -1,0 +1,178 @@
+DUA-Forensics args to Soot: -w -cp /home/hcosta/bench/benchmark/libs/droidfax.jar:/home/hcosta/Android/Sdk/platforms/android-28/android.jar -p cg verbose:false,implicit-entry:true -p cg.spark verbose:false,on-fly-cg:true,rta:false -d /home/hcosta/bench/benchmark/trace/180/3/droidbot/benign-app-48-733D4B44E103D8865CF6FEF37D98A184A5252E1142BAB81CC93B698E1F08C070.apk.logcat -process-dir /home/hcosta/bench/benchmark/data/input/benign-app-48-733D4B44E103D8865CF6FEF37D98A184A5252E1142BAB81CC93B698E1F08C070.apk 
+Soot started on Wed Apr 20 23:34:28 CEST 2022
+Warning: com.ironsource.mobilcore.BaseFlowBasedAdUnit is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+Warning: cl.eye.CLCamera is a phantom class!
+Warning: org.apache.http.entity.InputStreamEntity is a phantom class!
+Warning: org.apache.http.client.HttpClient is a phantom class!
+Warning: org.apache.http.client.methods.HttpPost is a phantom class!
+get type from 'Z'
+get type from 'Z'
+get type from 'Z'
+Warning: com.baidu.android.pushservice.internal.BasicPushNotificationBuilder is a phantom class!
+Warning: com.baidu.android.pushservice.internal.CustomPushNotificationBuilder is a phantom class!
+Warning: com.baidu.android.pushservice.internal.PushNotificationBuilder is a phantom class!
+Warning: com.baidu.android.pushservice.internal.PushConstants is a phantom class!
+Warning: com.baidu.android.pushservice.internal.PushManager is a phantom class!
+Warning: com.baidu.android.pushservice.internal.PushSettings is a phantom class!
+Warning: com.baidu.android.pushservice.util.Internal is a phantom class!
+Warning: com.baidu.frontia.base.impl.FrontiaImpl is a phantom class!
+Warning: com.baidu.frontia.module.deeplink.FrontiaDeepLinkImpl is a phantom class!
+Warning: com.baidu.frontia.module.push.FrontiaPushImpl is a phantom class!
+Warning: com.baidu.frontia.base.impl.FrontiaQueryImpl is a phantom class!
+Warning: com.baidu.frontia.module.push.FrontiaPushUtilImpl$MessageContentImpl is a phantom class!
+Warning: com.baidu.frontia.module.push.FrontiaPushUtilImpl$TriggerImpl is a phantom class!
+Warning: com.baidu.frontia.module.push.FrontiaPushListenerImpl$DescribeMessageResult is a phantom class!
+Warning: com.baidu.frontia.module.push.FrontiaPushUtilImpl$NotificationContentImpl is a phantom class!
+Warning: com.baidu.frontia.module.push.FrontiaPushUtilImpl$AndroidContentImpl is a phantom class!
+Warning: com.baidu.frontia.module.push.FrontiaPushUtilImpl$IOSContentImpl is a phantom class!
+Warning: com.baidu.frontia.module.push.FrontiaPushUtilImpl$DefaultNotificationStyleImpl is a phantom class!
+Warning: com.baidu.frontia.module.push.FrontiaPushListenerImpl$CommonMessageListenerImpl is a phantom class!
+Warning: com.baidu.frontia.module.push.FrontiaPushListenerImpl$DescribeMessageListenerImpl is a phantom class!
+Warning: com.baidu.frontia.module.push.FrontiaPushListenerImpl$ListMessageListenerImpl is a phantom class!
+Warning: com.baidu.frontia.module.push.FrontiaPushListenerImpl$PushMessageListenerImpl is a phantom class!
+Warning: com.baidu.frontia.base.impl.FrontiaQueryImpl$SortOrder is a phantom class!
+Warning: com.baidu.frontia.base.stat.StatUtils is a phantom class!
+Warning: org.apache.http.HttpEntity is a phantom class!
+Warning: org.apache.maven.plugin.AbstractMojo is a phantom class!
+Warning: org.apache.maven.plugin.MojoExecutionException is a phantom class!
+get type from 'I'
+get type from 'Z'
+get type from 'I'
+get type from 'Z'
+Warning: java.beans.PropertyVetoException is a phantom class!
+Warning: java.beans.beancontext.BeanContextChildSupport is a phantom class!
+Warning: java.beans.beancontext.BeanContextSupport is a phantom class!
+Warning: java.awt.image.BufferedImage is a phantom class!
+Warning: java.awt.Rectangle is a phantom class!
+Warning: java.awt.color.ColorSpace is a phantom class!
+Warning: javax.swing.JFrame is a phantom class!
+Warning: java.awt.DisplayMode is a phantom class!
+Warning: java.awt.Canvas is a phantom class!
+Warning: java.awt.Color is a phantom class!
+Warning: java.awt.Image is a phantom class!
+Warning: java.awt.event.KeyEvent is a phantom class!
+Warning: java.awt.KeyEventDispatcher is a phantom class!
+Warning: java.awt.GraphicsConfiguration is a phantom class!
+Warning: java.awt.GraphicsDevice is a phantom class!
+Warning: java.awt.Graphics2D is a phantom class!
+Warning: java.awt.Dimension is a phantom class!
+Warning: java.awt.event.ComponentAdapter is a phantom class!
+Warning: java.awt.event.ComponentEvent is a phantom class!
+Warning: java.awt.Graphics is a phantom class!
+Warning: java.beans.PropertyEditorSupport is a phantom class!
+Warning: javax.media.opengl.GLCapabilitiesImmutable is a phantom class!
+Warning: javax.media.opengl.GLContext is a phantom class!
+Warning: javax.media.opengl.GLEventListener is a phantom class!
+Warning: javax.media.opengl.awt.GLCanvas is a phantom class!
+Warning: javax.media.opengl.GLAutoDrawable is a phantom class!
+Warning: com.jogamp.opencl.CLImage2d is a phantom class!
+Warning: com.jogamp.opencl.gl.CLGLImage2d is a phantom class!
+Warning: com.jogamp.opencl.CLCommandQueue is a phantom class!
+Warning: com.jogamp.opencl.CLContext is a phantom class!
+Warning: javax.media.opengl.glu.GLU is a phantom class!
+Warning: javax.media.opengl.GLPbuffer is a phantom class!
+Warning: com.jogamp.opencl.CLKernel is a phantom class!
+Warning: com.jogamp.opencl.CLDevice is a phantom class!
+Warning: javax.media.opengl.GLCapabilities is a phantom class!
+Warning: javax.media.opengl.GLProfile is a phantom class!
+Warning: com.jogamp.opencl.CLObject is a phantom class!
+Warning: com.jogamp.opencl.CLMemory$Mem is a phantom class!
+Warning: com.jogamp.opencl.CLBuffer is a phantom class!
+Warning: com.jogamp.opencl.CLEventList is a phantom class!
+Warning: com.jogamp.opencl.gl.CLGLContext is a phantom class!
+Warning: javax.media.opengl.GL is a phantom class!
+Warning: javax.media.opengl.GL2 is a phantom class!
+Warning: java.awt.Component is a phantom class!
+Warning: com.jogamp.common.os.Platform is a phantom class!
+Warning: com.jogamp.opencl.CLImageFormat$ChannelOrder is a phantom class!
+Warning: com.jogamp.opencl.CLImageFormat$ChannelType is a phantom class!
+Warning: com.jogamp.opencl.CLImageFormat is a phantom class!
+Warning: com.jogamp.opencl.CLMemory$Map is a phantom class!
+Warning: com.jogamp.opencl.CLMemory is a phantom class!
+Warning: com.jogamp.opencl.CLPlatform is a phantom class!
+Warning: com.jogamp.opencl.CLProgram is a phantom class!
+Warning: com.jogamp.opencl.gl.CLGLObject is a phantom class!
+Warning: com.jogamp.opengl.util.Gamma is a phantom class!
+Warning: org.apache.http.entity.ByteArrayEntity is a phantom class!
+Warning: java.awt.Container is a phantom class!
+Warning: java.awt.EventQueue is a phantom class!
+Warning: java.awt.GraphicsEnvironment is a phantom class!
+Warning: java.awt.KeyboardFocusManager is a phantom class!
+Warning: java.awt.Point is a phantom class!
+Warning: java.awt.Window is a phantom class!
+Warning: java.awt.color.ICC_ColorSpace is a phantom class!
+Warning: java.awt.color.ICC_Profile is a phantom class!
+Warning: java.awt.color.ICC_ProfileRGB is a phantom class!
+Warning: java.awt.event.ComponentListener is a phantom class!
+Warning: java.awt.image.BufferStrategy is a phantom class!
+Warning: java.awt.image.ColorModel is a phantom class!
+Warning: java.awt.image.ComponentColorModel is a phantom class!
+Warning: java.awt.image.ComponentSampleModel is a phantom class!
+Warning: java.awt.image.DataBuffer is a phantom class!
+Warning: java.awt.image.DataBufferByte is a phantom class!
+Warning: java.awt.image.DataBufferDouble is a phantom class!
+Warning: java.awt.image.DataBufferFloat is a phantom class!
+Warning: java.awt.image.DataBufferInt is a phantom class!
+Warning: java.awt.image.DataBufferShort is a phantom class!
+Warning: java.awt.image.DataBufferUShort is a phantom class!
+Warning: java.awt.image.ImageObserver is a phantom class!
+Warning: java.awt.image.MultiPixelPackedSampleModel is a phantom class!
+Warning: java.awt.image.Raster is a phantom class!
+Warning: java.awt.image.SampleModel is a phantom class!
+Warning: java.awt.image.SinglePixelPackedSampleModel is a phantom class!
+Warning: java.awt.image.WritableRaster is a phantom class!
+Warning: javax.media.nativewindow.AbstractGraphicsDevice is a phantom class!
+Warning: javax.media.opengl.GLCapabilitiesChooser is a phantom class!
+Warning: javax.media.opengl.GLDrawable is a phantom class!
+Warning: javax.media.opengl.GLDrawableFactory is a phantom class!
+Warning: javax.media.opengl.GLException is a phantom class!
+Warning: javax.security.sasl.AuthenticationException is a phantom class!
+Warning: javax.security.sasl.SaslException is a phantom class!
+Warning: javax.swing.JOptionPane is a phantom class!
+Warning: javax.swing.JRootPane is a phantom class!
+Warning: org.apache.http.HttpHost is a phantom class!
+Warning: org.apache.http.HttpResponse is a phantom class!
+Warning: org.apache.http.HttpVersion is a phantom class!
+Warning: org.apache.http.ProtocolVersion is a phantom class!
+Warning: org.apache.http.StatusLine is a phantom class!
+Warning: org.apache.http.client.ClientProtocolException is a phantom class!
+Warning: org.apache.http.client.entity.UrlEncodedFormEntity is a phantom class!
+Warning: org.apache.http.client.methods.HttpGet is a phantom class!
+Warning: org.apache.http.client.methods.HttpPut is a phantom class!
+Warning: org.apache.http.client.methods.HttpUriRequest is a phantom class!
+Warning: org.apache.http.conn.ClientConnectionManager is a phantom class!
+Warning: org.apache.http.conn.params.ConnManagerParams is a phantom class!
+Warning: org.apache.http.conn.scheme.PlainSocketFactory is a phantom class!
+Warning: org.apache.http.conn.scheme.Scheme is a phantom class!
+Warning: org.apache.http.conn.scheme.SchemeRegistry is a phantom class!
+Warning: org.apache.http.entity.FileEntity is a phantom class!
+Warning: org.apache.http.entity.StringEntity is a phantom class!
+Warning: org.apache.http.impl.client.DefaultHttpClient is a phantom class!
+Warning: org.apache.http.impl.conn.tsccm.ThreadSafeClientConnManager is a phantom class!
+Warning: org.apache.http.message.BasicNameValuePair is a phantom class!
+Warning: org.apache.http.params.BasicHttpParams is a phantom class!
+Warning: org.apache.http.params.HttpProtocolParams is a phantom class!
+Warning: org.apache.http.util.EntityUtils is a phantom class!
+Warning: org.apache.maven.plugin.logging.Log is a phantom class!
+Warning: org.ietf.jgss.GSSException is a phantom class!
+Warning: org.ietf.jgss.GSSContext is a phantom class!
+Warning: org.ietf.jgss.GSSCredential is a phantom class!
+Warning: org.ietf.jgss.GSSManager is a phantom class!
+Warning: org.ietf.jgss.GSSName is a phantom class!
+Warning: org.ietf.jgss.Oid is a phantom class!
+Warning: sun.misc.Unsafe is a phantom class!
+No main class given. Inferred 'com.googlecode.javacv.ObjectFinder' as main class.
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.4 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.4 seconds.
+[Spark] Solution found in 0.4 seconds.
+hcai's internal transform
+Running static analysis for method/class coverage characterization
+0 ICC links found and 0 cg edges added due to ICC links
+dynamic conflated call graph: 776 methods; 776 nodes; 1024 edges.
+feature-vector-key = benign-app-48-733D4B44E103D8865CF6FEF37D98A184A5252E1142BAB81CC93B698E1F08C070.apk
+Result for benign-app-48-733D4B44E103D8865CF6FEF37D98A184A5252E1142BAB81CC93B698E1F08C070.apkandroid

@@ -1,0 +1,87 @@
+DUA-Forensics args to Soot: -w -cp /home/handrick/Documents/UNB/benchmark/libs/droidfax.jar:/home/handrick/Android/Sdk/platforms/android-19/android.jar -p cg verbose:false,implicit-entry:true -p cg.spark verbose:false,on-fly-cg:true,rta:false -d /home/handrick/Documents/UNB/benchmark/trace/180/1/droidbot/benign-app-20-268ACDFDAB9F6F187640789D5849CE53E810AD9A30EC67E1033403E198C4B7F5.apk.logcat -process-dir /home/handrick/Documents/UNB/benchmark/data/input/benign-app-20-268ACDFDAB9F6F187640789D5849CE53E810AD9A30EC67E1033403E198C4B7F5.apk 
+Soot started on Fri Apr 15 01:22:23 CEST 2022
+Warning: com.ironsource.mobilcore.BaseFlowBasedAdUnit is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.0 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+hcai's internal transform
+Running static analysis for security-relevant feature characterization
+[GatorHierarchy] [32mVERBOSE[0m [HIER] All classes: 614
+[GatorHierarchy] [32mVERBOSE[0m [App: 26, Lib : 585, Phantom: 3]
+[GatorHierarchy] [32mVERBOSE[0m [HIER] Activities: 8, lib activities: 3
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App views: 3, Lib views: 8
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App Dialogs: 0, Lib Dialogs: 3
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing starting at 1649978544606
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing finished at 1649978544906
+[Instantiated app classes] [32mVERBOSE[0m total number: 13
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.griffin.brain.JigsawActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.griffin.brainteasermain.SplashScreen added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.griffin.brainteasermain.BrainteaserActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onListItemClick in Class com.griffin.brainteasermain.Brainteasermain added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.griffin.brainteasermain.Brainteasermain added
+0 ICC links found and 0 cg edges added due to ICC links
+dynamic conflated call graph: 125 methods; 125 nodes; 153 edges.
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=24
+23 taint flow paths FOUND from <android.view.View: int getBottom()> to <android.graphics.Paint: void setStyle(android.graphics.Paint$Style)>
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.widget.ArrayAdapter: java.lang.Object getItem(int)> to <android.content.Intent: android.content.Intent putExtra(java.lang.String,java.lang.String)>
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.accounts.Account: java.lang.String toString()> to <android.content.Intent: android.content.Intent putExtra(java.lang.String,java.lang.String)>
+maxpossibleFlows=9
+9 taint flow paths FOUND from <android.view.LayoutInflater: android.view.View inflate(int,android.view.ViewGroup,boolean)> to <android.widget.TextView: void setText(java.lang.CharSequence)>
+maxpossibleFlows=1
+maxpossibleFlows=24
+23 taint flow paths FOUND from <android.view.View: int getLeft()> to <android.graphics.Paint: void setStyle(android.graphics.Paint$Style)>
+maxpossibleFlows=9
+9 taint flow paths FOUND from <android.app.Activity: android.view.LayoutInflater getLayoutInflater()> to <android.widget.TextView: void setText(java.lang.CharSequence)>
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.app.ListActivity: android.widget.ListAdapter getListAdapter()> to <android.content.Intent: android.content.Intent putExtra(java.lang.String,java.lang.String)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=24
+23 taint flow paths FOUND from <android.view.View: int getRight()> to <android.graphics.Paint: void setStyle(android.graphics.Paint$Style)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=24
+23 taint flow paths FOUND from <android.view.View: int getTop()> to <android.graphics.Paint: void setStyle(android.graphics.Paint$Style)>
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.view.View: android.content.res.Resources getResources()> to <android.content.res.Resources: java.io.InputStream openRawResource(int)>
+maxpossibleFlows=9
+9 taint flow paths FOUND from <android.view.LayoutInflater: android.view.View inflate(int,android.view.ViewGroup,boolean)> to <android.widget.TextView: void setText(java.lang.CharSequence)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.view.View: android.content.res.Resources getResources()> to <android.content.res.Resources: java.io.InputStream openRawResource(int)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=24
+23 taint flow paths FOUND from <android.view.View: int getBottom()> to <android.graphics.Paint: void setStyle(android.graphics.Paint$Style)>
+maxpossibleFlows=9
+2 taint flow paths FOUND from <android.view.LayoutInflater: android.view.View inflate(int,android.view.ViewGroup,boolean)> to <java.lang.String: boolean startsWith(java.lang.String)>
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.widget.ArrayAdapter: java.lang.Object getItem(int)> to <android.content.Intent: android.content.Intent putExtra(java.lang.String,java.lang.String)>
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.widget.ArrayAdapter: java.lang.Object getItem(int)> to <android.app.Activity: void startActivity(android.content.Intent)>
+Result for benign-app-20-268ACDFDAB9F6F187640789D5849CE53E810AD9A30EC67E1033403E198C4B7F5.apkcom.griffin.brainteasermain

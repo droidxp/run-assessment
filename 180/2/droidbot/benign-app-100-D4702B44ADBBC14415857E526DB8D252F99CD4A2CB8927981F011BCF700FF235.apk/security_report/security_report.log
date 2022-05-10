@@ -1,0 +1,149 @@
+DUA-Forensics args to Soot: -w -cp /home/handrick/Documents/UNB/benchmark/libs/droidfax.jar:/home/handrick/Android/Sdk/platforms/android-19/android.jar -p cg verbose:false,implicit-entry:true -p cg.spark verbose:false,on-fly-cg:true,rta:false -d /home/handrick/Documents/UNB/benchmark/trace/180/2/droidbot/benign-app-100-D4702B44ADBBC14415857E526DB8D252F99CD4A2CB8927981F011BCF700FF235.apk.logcat -process-dir /home/handrick/Documents/UNB/benchmark/data/input/benign-app-100-D4702B44ADBBC14415857E526DB8D252F99CD4A2CB8927981F011BCF700FF235.apk 
+Soot started on Fri Apr 15 12:52:04 CEST 2022
+Warning: com.ironsource.mobilcore.BaseFlowBasedAdUnit is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+Warning: javax.naming.Context is a phantom class!
+Warning: javax.naming.Name is a phantom class!
+Warning: javax.naming.NamingEnumeration is a phantom class!
+Warning: javax.naming.NamingException is a phantom class!
+Warning: javax.naming.RefAddr is a phantom class!
+Warning: javax.naming.Reference is a phantom class!
+Warning: javax.naming.Referenceable is a phantom class!
+Warning: javax.naming.StringRefAddr is a phantom class!
+Warning: javax.naming.directory.Attribute is a phantom class!
+Warning: javax.naming.directory.Attributes is a phantom class!
+Warning: javax.naming.directory.DirContext is a phantom class!
+Warning: javax.naming.directory.InitialDirContext is a phantom class!
+Warning: javax.naming.spi.ObjectFactory is a phantom class!
+Warning: javax.sql.XAConnection is a phantom class!
+Warning: javax.sql.XADataSource is a phantom class!
+Warning: javax.transaction.xa.XAException is a phantom class!
+Warning: javax.transaction.xa.XAResource is a phantom class!
+Warning: javax.transaction.xa.Xid is a phantom class!
+No main class given. Inferred 'oracle.sql.converter.CharacterConverterGB18030' as main class.
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 1.7 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.1 seconds.
+[Spark] Solution found in 0.1 seconds.
+hcai's internal transform
+Running static analysis for security-relevant feature characterization
+[GatorHierarchy] [32mVERBOSE[0m [HIER] All classes: 1230
+[GatorHierarchy] [32mVERBOSE[0m [App: 482, Lib : 727, Phantom: 21]
+[GatorHierarchy] [32mVERBOSE[0m [HIER] Activities: 10, lib activities: 1
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App views: 1, Lib views: 16
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App Dialogs: 0, Lib Dialogs: 4
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing starting at 1650019928328
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing finished at 1650019947859
+[Instantiated app classes] [32mVERBOSE[0m total number: 386
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.liuyu.goOracle.CurrentInfo added
+[WARNING] [32mVERBOSE[0m Callback method :setLogWriter in Class oracle.jdbc.pool.OracleDataSource added
+[WARNING] [32mVERBOSE[0m Callback method :getLogWriter in Class oracle.jdbc.pool.OracleDataSource added
+[WARNING] [32mVERBOSE[0m Callback method :getConnection in Class oracle.jdbc.pool.OracleConnectionCacheImpl added
+[WARNING] [32mVERBOSE[0m Callback method :setLoginTimeout in Class oracle.jdbc.pool.OracleDataSource added
+[WARNING] [32mVERBOSE[0m Callback method :getLoginTimeout in Class oracle.jdbc.pool.OracleDataSource added
+[WARNING] [32mVERBOSE[0m Callback method :getConnection in Class oracle.jdbc.pool.OracleConnectionCacheImpl added
+[WARNING] [32mVERBOSE[0m Callback method :onPrepareOptionsMenu in Class com.liuyu.goOracle.MonitorActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateContextMenu in Class com.liuyu.goOracle.MonitorActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.liuyu.goOracle.MonitorActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateOptionsMenu in Class com.liuyu.goOracle.MonitorActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onMenuOpened in Class com.liuyu.goOracle.MonitorActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.liuyu.goOracle.MonitorActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onContextItemSelected in Class com.liuyu.goOracle.MonitorActivity added
+[WARNING] [32mVERBOSE[0m Callback method :finish in Class com.liuyu.goOracle.SiteActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateContextMenu in Class com.liuyu.goOracle.SiteActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.liuyu.goOracle.SiteActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.liuyu.goOracle.SiteActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onContextItemSelected in Class com.liuyu.goOracle.SiteActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.liuyu.goOracle.MonitorSetup added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.liuyu.goOracle.OutputSetup added
+[WARNING] [32mVERBOSE[0m Callback method :onPrepareOptionsMenu in Class com.liuyu.goOracle.SqlActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.liuyu.goOracle.SqlActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateOptionsMenu in Class com.liuyu.goOracle.SqlActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onMenuOpened in Class com.liuyu.goOracle.SqlActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.liuyu.goOracle.SqlActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.liuyu.goOracle.SqlActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPrepareOptionsMenu in Class com.liuyu.goOracle.OutPutActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateContextMenu in Class com.liuyu.goOracle.OutPutActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.liuyu.goOracle.OutPutActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateOptionsMenu in Class com.liuyu.goOracle.OutPutActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onMenuOpened in Class com.liuyu.goOracle.OutPutActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.liuyu.goOracle.OutPutActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onContextItemSelected in Class com.liuyu.goOracle.OutPutActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.liuyu.goOracle.FilterActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onItemSelected in Class com.liuyu.goOracle.SetupActivity$cSpinnerSelectedListener added
+[WARNING] [32mVERBOSE[0m Callback method :onNothingSelected in Class com.liuyu.goOracle.SetupActivity$cSpinnerSelectedListener added
+[WARNING] [32mVERBOSE[0m Callback method :setLogWriter in Class oracle.jdbc.pool.OracleDataSource added
+[WARNING] [32mVERBOSE[0m Callback method :getPooledConnection in Class oracle.jdbc.pool.OracleConnectionPoolDataSource added
+[WARNING] [32mVERBOSE[0m Callback method :getLogWriter in Class oracle.jdbc.pool.OracleDataSource added
+[WARNING] [32mVERBOSE[0m Callback method :getConnection in Class oracle.jdbc.pool.OracleDataSource added
+[WARNING] [32mVERBOSE[0m Callback method :getPooledConnection in Class oracle.jdbc.pool.OracleConnectionPoolDataSource added
+[WARNING] [32mVERBOSE[0m Callback method :setLoginTimeout in Class oracle.jdbc.pool.OracleDataSource added
+[WARNING] [32mVERBOSE[0m Callback method :getLoginTimeout in Class oracle.jdbc.pool.OracleDataSource added
+[WARNING] [32mVERBOSE[0m Callback method :getConnection in Class oracle.jdbc.pool.OracleDataSource added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.liuyu.goOracle.MainActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.liuyu.goOracle.MainActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.liuyu.goOracle.SetupActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.liuyu.goOracle.SetupActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.liuyu.goOracle.SetupActivity added
+[WARNING] [32mVERBOSE[0m Callback method :removeConnectionEventListener in Class oracle.jdbc.pool.OraclePooledConnection added
+[WARNING] [32mVERBOSE[0m Callback method :getConnection in Class oracle.jdbc.xa.OracleXAConnection added
+[WARNING] [32mVERBOSE[0m Callback method :addConnectionEventListener in Class oracle.jdbc.pool.OraclePooledConnection added
+[WARNING] [32mVERBOSE[0m Callback method :close in Class oracle.jdbc.pool.OraclePooledConnection added
+0 ICC links found and 0 cg edges added due to ICC links
+dynamic conflated call graph: 76 methods; 76 nodes; 101 edges.
+maxpossibleFlows=2
+2 taint flow paths FOUND from <java.lang.StringBuilder: java.lang.String toString()> to <android.util.Log: int d(java.lang.String,java.lang.String)>
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=1
+maxpossibleFlows=3
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=12
+12 taint flow paths FOUND from <android.content.ContentValues: java.lang.Object get(java.lang.String)> to <android.widget.TextView: void setText(java.lang.CharSequence)>
+maxpossibleFlows=2
+2 taint flow paths FOUND from <java.lang.StringBuilder: java.lang.String toString()> to <android.util.Log: int d(java.lang.String,java.lang.String)>
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=12
+12 taint flow paths FOUND from <android.content.ContentValues: java.lang.Object get(java.lang.String)> to <android.widget.TextView: void setText(java.lang.CharSequence)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.liuyu.goOracle.SetupActivity
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.liuyu.goOracle.SetupActivity
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.liuyu.goOracle.SetupActivity
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.liuyu.goOracle.SetupActivity
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.liuyu.goOracle.SqlActivity
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.liuyu.goOracle.SqlActivity
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.liuyu.goOracle.SqlActivity
+[WARNING] [32mVERBOSE[0m Callback method :onCreateOptionsMenu in Class com.liuyu.goOracle.SqlActivity
+[WARNING] [32mVERBOSE[0m Callback method :onMenuOpened in Class com.liuyu.goOracle.SqlActivity
+[WARNING] [32mVERBOSE[0m Callback method :onPrepareOptionsMenu in Class com.liuyu.goOracle.SqlActivity
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.liuyu.goOracle.SqlActivity
+Result for benign-app-100-D4702B44ADBBC14415857E526DB8D252F99CD4A2CB8927981F011BCF700FF235.apkcom.liuyu.goOracle

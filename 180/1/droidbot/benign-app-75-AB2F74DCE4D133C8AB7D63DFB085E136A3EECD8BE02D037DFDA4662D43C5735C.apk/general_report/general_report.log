@@ -1,0 +1,21 @@
+DUA-Forensics args to Soot: -w -cp /home/handrick/Documents/UNB/benchmark/libs/droidfax.jar:/home/handrick/Android/Sdk/platforms/android-19/android.jar -p cg verbose:false,implicit-entry:true -p cg.spark verbose:false,on-fly-cg:true,rta:false -d /home/handrick/Documents/UNB/benchmark/trace/180/1/droidbot/benign-app-75-AB2F74DCE4D133C8AB7D63DFB085E136A3EECD8BE02D037DFDA4662D43C5735C.apk.logcat -process-dir /home/handrick/Documents/UNB/benchmark/data/input/benign-app-75-AB2F74DCE4D133C8AB7D63DFB085E136A3EECD8BE02D037DFDA4662D43C5735C.apk 
+Soot started on Fri Apr 15 01:23:40 CEST 2022
+Warning: com.ironsource.mobilcore.BaseFlowBasedAdUnit is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+Warning: android.os.ServiceManager is a phantom class!
+Warning: com.android.internal.app.IBatteryStats is a phantom class!
+Warning: com.android.internal.os.BatteryStatsImpl is a phantom class!
+Warning: com.android.internal.app.IBatteryStats$Stub is a phantom class!
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.0 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+hcai's internal transform
+Running static analysis for method/class coverage characterization
+0 ICC links found and 0 cg edges added due to ICC links
+dynamic conflated call graph: 218 methods; 218 nodes; 308 edges.
+feature-vector-key = benign-app-75-AB2F74DCE4D133C8AB7D63DFB085E136A3EECD8BE02D037DFDA4662D43C5735C.apk
+Result for benign-app-75-AB2F74DCE4D133C8AB7D63DFB085E136A3EECD8BE02D037DFDA4662D43C5735C.apkcom.anddoes.notifier

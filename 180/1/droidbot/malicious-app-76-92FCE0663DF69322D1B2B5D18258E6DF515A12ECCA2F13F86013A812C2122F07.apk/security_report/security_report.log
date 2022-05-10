@@ -1,0 +1,998 @@
+DUA-Forensics args to Soot: -w -cp /home/handrick/Documents/UNB/benchmark/libs/droidfax.jar:/home/handrick/Android/Sdk/platforms/android-19/android.jar -p cg verbose:false,implicit-entry:true -p cg.spark verbose:false,on-fly-cg:true,rta:false -d /home/handrick/Documents/UNB/benchmark/trace/180/1/droidbot/malicious-app-76-92FCE0663DF69322D1B2B5D18258E6DF515A12ECCA2F13F86013A812C2122F07.apk.logcat -process-dir /home/handrick/Documents/UNB/benchmark/data/input/malicious-app-76-92FCE0663DF69322D1B2B5D18258E6DF515A12ECCA2F13F86013A812C2122F07.apk 
+Soot started on Fri Apr 15 01:02:08 CEST 2022
+Warning: com.ironsource.mobilcore.BaseFlowBasedAdUnit is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+Warning: org.cocos2d.R$raw is a phantom class!
+No main class given. Inferred 'com.badlogic.gdx.math.Intersector' as main class.
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.2 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+hcai's internal transform
+Running static analysis for security-relevant feature characterization
+[GatorHierarchy] [32mVERBOSE[0m [HIER] All classes: 2129
+[GatorHierarchy] [32mVERBOSE[0m [App: 1073, Lib : 1052, Phantom: 4]
+[GatorHierarchy] [32mVERBOSE[0m [HIER] Activities: 29, lib activities: 2
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App views: 19, Lib views: 22
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App Dialogs: 0, Lib Dialogs: 4
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing starting at 1649977330985
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing finished at 1649977518646
+[Instantiated app classes] [32mVERBOSE[0m total number: 758
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class org.cocos2d.tests.FontTest added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class org.cocos2d.tests.FontTest added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class org.cocos2d.tests.FontTest added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class org.cocos2d.tests.FontTest added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class org.cocos2d.tests.FontTest added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onReceive in Class com.kuguo.ad.MainReceiver added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class org.cocos2d.tests.SchedulerTest added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class org.cocos2d.tests.SchedulerTest added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class org.cocos2d.tests.SchedulerTest added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class org.cocos2d.tests.SchedulerTest added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class org.cocos2d.tests.SchedulerTest added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class org.cocos2d.tests.SpritesTest added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class org.cocos2d.tests.SpritesTest added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class org.cocos2d.tests.SpritesTest added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class org.cocos2d.tests.SpritesTest added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class org.cocos2d.tests.SpritesTest added
+[WARNING] [32mVERBOSE[0m Callback method :finish in Class com.kuguo.ad.BoutiqueActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onItemClick in Class com.kuguo.ad.BoutiqueActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.kuguo.ad.BoutiqueActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class org.cocos2d.tests.SoundEngineTest added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class org.cocos2d.tests.SoundEngineTest added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class org.cocos2d.tests.SoundEngineTest added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class org.cocos2d.tests.SoundEngineTest added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class org.cocos2d.tests.SoundEngineTest added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class org.cocos2d.tests.SceneTest added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class org.cocos2d.tests.SceneTest added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class org.cocos2d.tests.SceneTest added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class org.cocos2d.tests.SceneTest added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class org.cocos2d.tests.MenuTest added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class org.cocos2d.tests.MenuTest added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class org.cocos2d.tests.MenuTest added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class org.cocos2d.tests.MenuTest added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class org.cocos2d.tests.MenuTest added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onListItemClick in Class org.cocos2d.Cocos2D added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class org.cocos2d.Cocos2D added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class org.cocos2d.tests.Box2dTest added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class org.cocos2d.tests.Box2dTest added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class org.cocos2d.tests.Box2dTest added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class org.cocos2d.tests.Box2dTest added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class org.cocos2d.tests.Box2dTest added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class com.ins.r2.R2_Run_Activity added
+[WARNING] [32mVERBOSE[0m Callback method :onBackPressed in Class com.ins.r2.R2_Run_Activity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.ins.r2.R2_Run_Activity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.ins.r2.R2_Run_Activity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.ins.r2.R2_Run_Activity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.ins.r2.R2_Run_Activity added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class com.ins.r2.R2_Run_Activity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.ins.r2.R2_Run_Activity added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class org.cocos2d.tests.ParallaxTest added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class org.cocos2d.tests.ParallaxTest added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class org.cocos2d.tests.ParallaxTest added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class org.cocos2d.tests.ParallaxTest added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class org.cocos2d.tests.ParallaxTest added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :wrap in Class org.cocos2d.opengl.GLDebugWrapper added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class org.cocos2d.tests.EffectsTest added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class org.cocos2d.tests.EffectsTest added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class org.cocos2d.tests.EffectsTest added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class org.cocos2d.tests.EffectsTest added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class org.cocos2d.tests.EffectsTest added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class org.cocos2d.tests.DrawPrimitivesTest added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class org.cocos2d.tests.DrawPrimitivesTest added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class org.cocos2d.tests.DrawPrimitivesTest added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class org.cocos2d.tests.DrawPrimitivesTest added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class org.cocos2d.tests.DrawPrimitivesTest added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onMeasure in Class net.miidi.credit.AdView added
+[WARNING] [32mVERBOSE[0m Callback method :onLayout in Class net.miidi.credit.AdView added
+[WARNING] [32mVERBOSE[0m Callback method :onWindowVisibilityChanged in Class net.miidi.credit.AdView added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class org.cocos2d.tests.ParticleTest added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class org.cocos2d.tests.ParticleTest added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class org.cocos2d.tests.ParticleTest added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class org.cocos2d.tests.ParticleTest added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class org.cocos2d.tests.ParticleTest added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class org.cocos2d.tests.CocosNodeTest added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class org.cocos2d.tests.CocosNodeTest added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class org.cocos2d.tests.CocosNodeTest added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class org.cocos2d.tests.CocosNodeTest added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class org.cocos2d.tests.CocosNodeTest added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class org.cocos2d.tests.RotateWorldTest added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class org.cocos2d.tests.RotateWorldTest added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class org.cocos2d.tests.RotateWorldTest added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class org.cocos2d.tests.RotateWorldTest added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class org.cocos2d.tests.RotateWorldTest added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.kuguo.ad.MainActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.kuguo.ad.MainActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class com.kuguo.ad.MainActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onReceive in Class net.miidi.credit.CPAFeeReceiver added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onMeasure in Class com.ins.r2.credits.MyVideoView added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.ins.r2.credits.CreditsActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class org.cocos2d.tests.ActionManagerTest added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class org.cocos2d.tests.ActionManagerTest added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class org.cocos2d.tests.ActionManagerTest added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class org.cocos2d.tests.ActionManagerTest added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class org.cocos2d.tests.ActionManagerTest added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class org.cocos2d.tests.AtlasTest added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class org.cocos2d.tests.AtlasTest added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class org.cocos2d.tests.AtlasTest added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class org.cocos2d.tests.AtlasTest added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class org.cocos2d.tests.AtlasTest added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class org.cocos2d.tests.EaseActionsTest added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class org.cocos2d.tests.EaseActionsTest added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class org.cocos2d.tests.EaseActionsTest added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class org.cocos2d.tests.EaseActionsTest added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class org.cocos2d.tests.EaseActionsTest added
+[WARNING] [32mVERBOSE[0m Callback method :onWindowFocusChanged in Class org.cocos2d.opengl.GLSurfaceView added
+[WARNING] [32mVERBOSE[0m Callback method :surfaceCreated in Class org.cocos2d.opengl.GLSurfaceView added
+[WARNING] [32mVERBOSE[0m Callback method :onDetachedFromWindow in Class org.cocos2d.opengl.GLSurfaceView added
+[WARNING] [32mVERBOSE[0m Callback method :surfaceDestroyed in Class org.cocos2d.opengl.GLSurfaceView added
+[WARNING] [32mVERBOSE[0m Callback method :surfaceChanged in Class org.cocos2d.opengl.GLSurfaceView added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class org.cocos2d.tests.MotionStreakTest added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class org.cocos2d.tests.MotionStreakTest added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class org.cocos2d.tests.MotionStreakTest added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class org.cocos2d.tests.MotionStreakTest added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class org.cocos2d.tests.MotionStreakTest added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onBind in Class com.kuguo.ad.MainService added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.kuguo.ad.MainService added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.kuguo.ad.MainService added
+[WARNING] [32mVERBOSE[0m Callback method :onStartCommand in Class com.kuguo.ad.MainService added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class net.miidi.credit.MiidiWebViewActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onRestoreInstanceState in Class net.miidi.credit.MiidiWebViewActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class net.miidi.credit.MiidiWebViewActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class net.miidi.credit.MiidiWebViewActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onSaveInstanceState in Class net.miidi.credit.MiidiWebViewActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.ins.r2.facebook.NewsActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.ins.r2.facebook.NewsActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.ins.r2.facebook.NewsActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.ins.r2.facebook.NewsActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class org.cocos2d.tests.ClickAndMoveTest added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class org.cocos2d.tests.ClickAndMoveTest added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class org.cocos2d.tests.ClickAndMoveTest added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class org.cocos2d.tests.ClickAndMoveTest added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class org.cocos2d.tests.ClickAndMoveTest added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class org.cocos2d.tests.EffectsAdvancedTest added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class org.cocos2d.tests.EffectsAdvancedTest added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class org.cocos2d.tests.EffectsAdvancedTest added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class org.cocos2d.tests.EffectsAdvancedTest added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class org.cocos2d.tests.EffectsAdvancedTest added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onBind in Class com.umeng.common.net.DownloadingService added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.umeng.common.net.DownloadingService added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.umeng.common.net.DownloadingService added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class com.umeng.common.net.DownloadingService added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class org.cocos2d.tests.TileMapTest added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class org.cocos2d.tests.TileMapTest added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class org.cocos2d.tests.TileMapTest added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class org.cocos2d.tests.TileMapTest added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class org.cocos2d.tests.TileMapTest added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class org.cocos2d.tests.TransitionsTest added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class org.cocos2d.tests.TransitionsTest added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class org.cocos2d.tests.TransitionsTest added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class org.cocos2d.tests.TransitionsTest added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class org.cocos2d.tests.TransitionsTest added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class org.cocos2d.tests.ActionsTest added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class org.cocos2d.tests.ActionsTest added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class org.cocos2d.tests.ActionsTest added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class org.cocos2d.tests.ActionsTest added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class org.cocos2d.tests.ActionsTest added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onBind in Class net.miidi.credit.MiidiCreditService added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class net.miidi.credit.MiidiCreditService added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class net.miidi.credit.MiidiCreditService added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class net.miidi.credit.MiidiCreditService added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class org.cocos2d.layers.CCLayer added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class org.cocos2d.layers.CCLayer added
+0 ICC links found and 0 cg edges added due to ICC links
+dynamic conflated call graph: 939 methods; 939 nodes; 1518 edges.
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=3
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.telephony.TelephonyManager: java.lang.String getNetworkOperator()> to <org.json.JSONObject: org.json.JSONObject put(java.lang.String,int)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <org.json.JSONArray: org.json.JSONArray put(java.lang.Object)> to <org.apache.http.params.BasicHttpParams: org.apache.http.params.HttpParams setParameter(java.lang.String,java.lang.Object)>
+maxpossibleFlows=255
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=3
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+1 taint flow paths FOUND from <java.lang.String: byte[] getBytes(java.lang.String)> to <java.util.zip.Deflater: void setInput(byte[])>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <java.util.TimeZone: java.util.TimeZone getTimeZone(java.lang.String)> to <java.text.DateFormat: void setTimeZone(java.util.TimeZone)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=2
+2 taint flow paths FOUND from <org.apache.http.impl.client.AbstractHttpClient: org.apache.http.params.HttpParams getParams()> to <org.apache.http.params.BasicHttpParams: org.apache.http.params.HttpParams setParameter(java.lang.String,java.lang.Object)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.app.PendingIntent: android.app.PendingIntent getBroadcast(android.content.Context,int,android.content.Intent,int)> to <android.app.AlarmManager: void setRepeating(int,long,long,android.app.PendingIntent)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=3
+3 taint flow paths FOUND from <android.os.Environment: java.io.File getExternalStorageDirectory()> to <java.io.OutputStream: void write(byte[])>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+2 taint flow paths FOUND from <java.lang.StringBuilder: java.lang.String toString()> to <android.util.Log: int d(java.lang.String,java.lang.String)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=3
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=3
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.app.Activity: java.lang.Object getSystemService(java.lang.String)> to <android.app.AlarmManager: void setRepeating(int,long,long,android.app.PendingIntent)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.os.PowerManager: android.os.PowerManager$WakeLock newWakeLock(int,java.lang.String)> to <android.content.ContextWrapper: android.content.ComponentName startService(android.content.Intent)>
+maxpossibleFlows=3
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.app.Activity: android.view.Window getWindow()> to <android.app.Activity: void setContentView(android.view.View)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=3
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.telephony.TelephonyManager: android.telephony.CellLocation getCellLocation()> to <org.json.JSONObject: org.json.JSONObject put(java.lang.String,int)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.telephony.gsm.GsmCellLocation: int getCid()> to <org.json.JSONObject: org.json.JSONObject put(java.lang.String,int)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.telephony.gsm.GsmCellLocation: int getLac()> to <org.json.JSONObject: org.json.JSONObject put(java.lang.String,int)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <java.util.Calendar: long getTimeInMillis()> to <android.app.AlarmManager: void setRepeating(int,long,long,android.app.PendingIntent)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <java.util.Calendar: java.util.Calendar getInstance()> to <android.app.AlarmManager: void setRepeating(int,long,long,android.app.PendingIntent)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+2 taint flow paths FOUND from <java.lang.StringBuilder: java.lang.String toString()> to <android.util.Log: int d(java.lang.String,java.lang.String)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.app.PendingIntent: android.app.PendingIntent getBroadcast(android.content.Context,int,android.content.Intent,int)> to <android.app.AlarmManager: void setRepeating(int,long,long,android.app.PendingIntent)>
+maxpossibleFlows=1
+1 taint flow paths FOUND from <java.util.TimeZone: java.util.TimeZone getTimeZone(java.lang.String)> to <java.text.DateFormat: void setTimeZone(java.util.TimeZone)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.telephony.TelephonyManager: java.lang.String getNetworkOperator()> to <org.json.JSONObject: org.json.JSONObject put(java.lang.String,int)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.telephony.TelephonyManager: java.lang.String getNetworkOperator()> to <org.json.JSONObject: org.json.JSONObject put(java.lang.String,boolean)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.app.Activity: java.lang.Object getSystemService(java.lang.String)> to <android.content.ContextWrapper: android.content.ComponentName startService(android.content.Intent)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.app.Activity: android.view.Window getWindow()> to <android.app.Activity: void setContentView(android.view.View)>
+maxpossibleFlows=255
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <java.lang.String: byte[] getBytes(java.lang.String)> to <java.util.zip.Deflater: void setInput(byte[])>
+maxpossibleFlows=1
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=2
+maxpossibleFlows=3
+3 taint flow paths FOUND from <java.lang.String: byte[] getBytes(java.lang.String)> to <java.io.OutputStream: void write(byte[])>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.app.Activity: java.lang.Object getSystemService(java.lang.String)> to <android.content.Intent: android.content.Intent setClass(android.content.Context,java.lang.Class)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=2
+2 taint flow paths FOUND from <android.app.Activity: android.view.Window getWindow()> to <android.view.Window: void setFlags(int,int)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.telephony.TelephonyManager: java.lang.String getNetworkOperator()> to <org.apache.http.params.BasicHttpParams: org.apache.http.params.HttpParams setParameter(java.lang.String,java.lang.Object)>
+[WARNING] [32mVERBOSE[0m Callback method :onDetachedFromWindow in Class org.cocos2d.opengl.GLSurfaceView
+[WARNING] [32mVERBOSE[0m Callback method :onWindowFocusChanged in Class org.cocos2d.opengl.GLSurfaceView
+[WARNING] [32mVERBOSE[0m Callback method :surfaceChanged in Class org.cocos2d.opengl.GLSurfaceView
+[WARNING] [32mVERBOSE[0m Callback method :surfaceCreated in Class org.cocos2d.opengl.GLSurfaceView
+[WARNING] [32mVERBOSE[0m Callback method :surfaceDestroyed in Class org.cocos2d.opengl.GLSurfaceView
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.kuguo.ad.BoutiqueActivity
+[WARNING] [32mVERBOSE[0m Callback method :finish in Class com.kuguo.ad.BoutiqueActivity
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.kuguo.ad.BoutiqueActivity
+[WARNING] [32mVERBOSE[0m Callback method :onItemClick in Class com.kuguo.ad.BoutiqueActivity
+Result for malicious-app-76-92FCE0663DF69322D1B2B5D18258E6DF515A12ECCA2F13F86013A812C2122F07.apkcom.ins.r2

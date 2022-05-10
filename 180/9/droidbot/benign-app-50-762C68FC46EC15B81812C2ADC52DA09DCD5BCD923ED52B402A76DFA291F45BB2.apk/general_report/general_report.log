@@ -1,0 +1,57 @@
+DUA-Forensics args to Soot: -w -cp /home/hcosta/bench/benchmark/libs/droidfax.jar:/home/hcosta/Android/Sdk/platforms/android-28/android.jar -p cg verbose:false,implicit-entry:true -p cg.spark verbose:false,on-fly-cg:true,rta:false -d /home/hcosta/bench/benchmark/trace/180/5/droidbot/benign-app-50-762C68FC46EC15B81812C2ADC52DA09DCD5BCD923ED52B402A76DFA291F45BB2.apk.logcat -process-dir /home/hcosta/bench/benchmark/data/input/benign-app-50-762C68FC46EC15B81812C2ADC52DA09DCD5BCD923ED52B402A76DFA291F45BB2.apk 
+Soot started on Thu Apr 21 12:24:48 CEST 2022
+Warning: com.ironsource.mobilcore.BaseFlowBasedAdUnit is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+Warning: java.lang.management.ManagementFactory is a phantom class!
+Warning: javax.management.Attribute is a phantom class!
+Warning: javax.management.AttributeList is a phantom class!
+Warning: javax.management.AttributeNotFoundException is a phantom class!
+Warning: javax.management.DynamicMBean is a phantom class!
+Warning: javax.management.InstanceAlreadyExistsException is a phantom class!
+Warning: javax.management.MBeanInfo is a phantom class!
+Warning: javax.management.MBeanRegistrationException is a phantom class!
+Warning: javax.management.MBeanServer is a phantom class!
+Warning: javax.management.MalformedObjectNameException is a phantom class!
+Warning: javax.management.NotCompliantMBeanException is a phantom class!
+Warning: javax.management.ObjectInstance is a phantom class!
+Warning: javax.management.ObjectName is a phantom class!
+Warning: javax.management.ReflectionException is a phantom class!
+Warning: javax.management.openmbean.CompositeData is a phantom class!
+Warning: javax.management.openmbean.CompositeDataSupport is a phantom class!
+Warning: javax.management.openmbean.CompositeType is a phantom class!
+Warning: javax.management.openmbean.OpenDataException is a phantom class!
+Warning: javax.management.openmbean.OpenMBeanAttributeInfoSupport is a phantom class!
+Warning: javax.management.openmbean.OpenMBeanConstructorInfoSupport is a phantom class!
+Warning: javax.management.openmbean.OpenMBeanInfoSupport is a phantom class!
+Warning: javax.management.openmbean.OpenMBeanOperationInfoSupport is a phantom class!
+Warning: javax.management.openmbean.OpenType is a phantom class!
+Warning: javax.management.openmbean.SimpleType is a phantom class!
+Warning: javax.management.openmbean.TabularDataSupport is a phantom class!
+Warning: javax.management.openmbean.TabularType is a phantom class!
+Warning: org.apache.commons.logging.Log is a phantom class!
+Warning: org.apache.commons.logging.LogFactory is a phantom class!
+Warning: org.apache.log4j.Level is a phantom class!
+Warning: org.apache.log4j.Logger is a phantom class!
+Warning: org.apache.log4j.Priority is a phantom class!
+Warning: org.slf4j.Logger is a phantom class!
+Warning: org.slf4j.LoggerFactory is a phantom class!
+Warning: javax.management.MBeanNotificationInfo is a phantom class!
+Warning: javax.management.openmbean.OpenMBeanAttributeInfo is a phantom class!
+Warning: javax.management.openmbean.OpenMBeanConstructorInfo is a phantom class!
+Warning: javax.management.openmbean.OpenMBeanOperationInfo is a phantom class!
+Warning: javax.management.openmbean.OpenMBeanParameterInfo is a phantom class!
+Warning: javax.management.openmbean.OpenMBeanParameterInfoSupport is a phantom class!
+No main class given. Inferred 'twitter4j.Version' as main class.
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.0 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+hcai's internal transform
+Running static analysis for method/class coverage characterization
+0 ICC links found and 0 cg edges added due to ICC links
+dynamic conflated call graph: 368 methods; 368 nodes; 578 edges.
+feature-vector-key = benign-app-50-762C68FC46EC15B81812C2ADC52DA09DCD5BCD923ED52B402A76DFA291F45BB2.apk
+Result for benign-app-50-762C68FC46EC15B81812C2ADC52DA09DCD5BCD923ED52B402A76DFA291F45BB2.apkcom.b3u.gobobonuki

@@ -1,0 +1,68 @@
+DUA-Forensics args to Soot: -w -cp /home/handrick/Documents/UNB/benchmark/libs/droidfax.jar:/home/handrick/Android/Sdk/platforms/android-19/android.jar -p cg verbose:false,implicit-entry:true -p cg.spark verbose:false,on-fly-cg:true,rta:false -d /home/handrick/Documents/UNB/benchmark/trace/180/1/droidbot/benign-app-16-23480B1F2E2EBF81CA14A367CC6447D4B97A01E3B734A2080A22EAA669FB88E5.apk.logcat -process-dir /home/handrick/Documents/UNB/benchmark/data/input/benign-app-16-23480B1F2E2EBF81CA14A367CC6447D4B97A01E3B734A2080A22EAA669FB88E5.apk 
+Soot started on Fri Apr 15 01:01:33 CEST 2022
+Warning: com.ironsource.mobilcore.BaseFlowBasedAdUnit is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.0 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+hcai's internal transform
+Running static analysis for security-relevant feature characterization
+[GatorHierarchy] [32mVERBOSE[0m [HIER] All classes: 718
+[GatorHierarchy] [32mVERBOSE[0m [App: 51, Lib : 664, Phantom: 3]
+[GatorHierarchy] [32mVERBOSE[0m [HIER] Activities: 3, lib activities: 3
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App views: 0, Lib views: 10
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App Dialogs: 0, Lib Dialogs: 3
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing starting at 1649977294312
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing finished at 1649977295571
+[Instantiated app classes] [32mVERBOSE[0m total number: 42
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.chessquare.cchess.commonui.Help added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.chessquare.cchess.ui.SettingsActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPreferenceChange in Class com.chessquare.cchess.ui.SettingsActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class com.chessquare.cchess.ui.BoardActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.chessquare.cchess.ui.BoardActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateOptionsMenu in Class com.chessquare.cchess.ui.BoardActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onSaveInstanceState in Class com.chessquare.cchess.ui.BoardActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onOptionsItemSelected in Class com.chessquare.cchess.ui.BoardActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.chessquare.cchess.ui.BoardActivity added
+0 ICC links found and 0 cg edges added due to ICC links
+dynamic conflated call graph: 128 methods; 128 nodes; 147 edges.
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=11
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.view.View: android.view.View getRootView()> to <android.view.View: void setKeepScreenOn(boolean)>
+maxpossibleFlows=6
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.view.View: int getVisibility()> to <android.widget.ImageView: void setVisibility(int)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=11
+maxpossibleFlows=2
+2 taint flow paths FOUND from <android.view.View: android.content.Context getContext()> to <android.widget.ImageView: void setVisibility(int)>
+maxpossibleFlows=11
+maxpossibleFlows=11
+11 taint flow paths FOUND from <java.util.ArrayList: java.lang.Object get(int)> to <android.widget.ImageView: void setVisibility(int)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=11
+maxpossibleFlows=6
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.view.View: int getVisibility()> to <android.widget.ImageView: void setVisibility(int)>
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.view.View: android.view.View getRootView()> to <android.view.View: void setKeepScreenOn(boolean)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.chessquare.cchess.ui.SettingsActivity
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.chessquare.cchess.ui.SettingsActivity
+[WARNING] [32mVERBOSE[0m Callback method :onPreferenceChange in Class com.chessquare.cchess.ui.SettingsActivity
+Result for benign-app-16-23480B1F2E2EBF81CA14A367CC6447D4B97A01E3B734A2080A22EAA669FB88E5.apkcom.cchess

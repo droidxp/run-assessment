@@ -1,0 +1,34 @@
+DUA-Forensics args to Soot: -w -cp /home/handrick/Documents/UNB/benchmark/libs/droidfax.jar:/home/handrick/Android/Sdk/platforms/android-19/android.jar -p cg verbose:false,implicit-entry:true -p cg.spark verbose:false,on-fly-cg:true,rta:false -d /home/handrick/Documents/UNB/benchmark/trace/180/3/droidbot/benign-app-37-4A9246E4D7C054563187716BF66918843837EA27D56EAFF3D01724A4BF42A8DE.apk.logcat -process-dir /home/handrick/Documents/UNB/benchmark/data/input/benign-app-37-4A9246E4D7C054563187716BF66918843837EA27D56EAFF3D01724A4BF42A8DE.apk 
+Soot started on Sat Apr 16 01:18:19 CEST 2022
+Warning: com.ironsource.mobilcore.BaseFlowBasedAdUnit is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+Warning: com.inmobi.androidsdk.InMobiAdDelegate is a phantom class!
+Warning: com.inmobi.androidsdk.impl.InMobiAdView is a phantom class!
+Warning: com.inmobi.androidsdk.EducationType is a phantom class!
+Warning: com.inmobi.androidsdk.EthnicityType is a phantom class!
+Warning: com.inmobi.androidsdk.GenderType is a phantom class!
+Warning: com.oneriot.OneRiotAdActionListener is a phantom class!
+Warning: com.oneriot.OneRiotAd is a phantom class!
+Warning: com.qwapi.adclient.android.view.AdEventsListener is a phantom class!
+Warning: com.qwapi.adclient.android.view.QWAdView is a phantom class!
+Warning: com.qwapi.adclient.android.data.Ad is a phantom class!
+Warning: com.qwapi.adclient.android.requestparams.AdRequestParams is a phantom class!
+Warning: com.qwapi.adclient.android.data.Status is a phantom class!
+Warning: com.qwapi.adclient.android.requestparams.AnimationType is a phantom class!
+Warning: com.qwapi.adclient.android.requestparams.DisplayMode is a phantom class!
+Warning: com.qwapi.adclient.android.requestparams.Gender is a phantom class!
+Warning: com.qwapi.adclient.android.requestparams.MediaType is a phantom class!
+Warning: com.qwapi.adclient.android.requestparams.Placement is a phantom class!
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.0 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+hcai's internal transform
+Running static analysis for method/class coverage characterization
+0 ICC links found and 0 cg edges added due to ICC links
+dynamic conflated call graph: 436 methods; 436 nodes; 546 edges.
+feature-vector-key = benign-app-37-4A9246E4D7C054563187716BF66918843837EA27D56EAFF3D01724A4BF42A8DE.apk
+Result for benign-app-37-4A9246E4D7C054563187716BF66918843837EA27D56EAFF3D01724A4BF42A8DE.apkcom.androgames.BubbleBurst
