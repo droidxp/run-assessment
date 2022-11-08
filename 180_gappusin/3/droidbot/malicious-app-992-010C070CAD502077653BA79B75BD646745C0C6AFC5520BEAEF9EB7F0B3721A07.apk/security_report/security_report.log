@@ -1,0 +1,118 @@
+DUA-Forensics args to Soot: -w -cp /home/hcosta/bench/benchmark/libs/droidfax.jar:/home/hcosta/Android/Sdk/platforms/android-28/android.jar -p cg verbose:false,implicit-entry:true -p cg.spark verbose:false,on-fly-cg:true,rta:false -d /home/hcosta/bench/benchmark/trace/180/3/droidbot/malicious-app-992-010C070CAD502077653BA79B75BD646745C0C6AFC5520BEAEF9EB7F0B3721A07.apk.logcat -process-dir /home/hcosta/bench/benchmark/data/input/malicious-app-992-010C070CAD502077653BA79B75BD646745C0C6AFC5520BEAEF9EB7F0B3721A07.apk 
+Soot started on Sun May 15 22:34:42 CEST 2022
+Warning: com.ironsource.mobilcore.BaseFlowBasedAdUnit is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+Warning: org.apache.http.client.methods.HttpPost is a phantom class!
+Warning: org.apache.http.client.HttpClient is a phantom class!
+Warning: com.flurry.android.InstallReceiver is a phantom class!
+Warning: org.apache.http.HttpEntity is a phantom class!
+Warning: org.apache.http.HttpResponse is a phantom class!
+Warning: org.apache.http.StatusLine is a phantom class!
+Warning: org.apache.http.client.ClientProtocolException is a phantom class!
+Warning: org.apache.http.client.entity.UrlEncodedFormEntity is a phantom class!
+Warning: org.apache.http.client.methods.HttpGet is a phantom class!
+Warning: org.apache.http.client.methods.HttpUriRequest is a phantom class!
+Warning: org.apache.http.client.utils.URIUtils is a phantom class!
+Warning: org.apache.http.client.utils.URLEncodedUtils is a phantom class!
+Warning: org.apache.http.conn.ClientConnectionManager is a phantom class!
+Warning: org.apache.http.conn.scheme.PlainSocketFactory is a phantom class!
+Warning: org.apache.http.conn.scheme.Scheme is a phantom class!
+Warning: org.apache.http.conn.scheme.SchemeRegistry is a phantom class!
+Warning: org.apache.http.entity.ByteArrayEntity is a phantom class!
+Warning: org.apache.http.impl.client.DefaultHttpClient is a phantom class!
+Warning: org.apache.http.impl.conn.tsccm.ThreadSafeClientConnManager is a phantom class!
+Warning: org.apache.http.message.BasicNameValuePair is a phantom class!
+Warning: org.apache.http.params.BasicHttpParams is a phantom class!
+Warning: org.apache.http.util.EntityUtils is a phantom class!
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.0 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+hcai's internal transform
+Running static analysis for security-relevant feature characterization
+[GatorHierarchy] [32mVERBOSE[0m [HIER] All classes: 1814
+[GatorHierarchy] [32mVERBOSE[0m [App: 544, Lib : 1245, Phantom: 25]
+[GatorHierarchy] [32mVERBOSE[0m [HIER] Activities: 9, lib activities: 1
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App views: 18, Lib views: 19
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App Dialogs: 5, Lib Dialogs: 4
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing starting at 1652646883084
+array element type: (filled narr)int
+array element type: (filled narr)int
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing finished at 1652646888773
+[Instantiated app classes] [32mVERBOSE[0m total number: 461
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.doodlemobile.gamecenter.facebook.stream.App added
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class com.doodlemobile.gamecenter.facebook.stream.App added
+[WARNING] [32mVERBOSE[0m Callback method :dispatchDraw in Class com.doodlemobile.gamecenter.DMTabWidget added
+[WARNING] [32mVERBOSE[0m Callback method :addView in Class com.doodlemobile.gamecenter.DMTabWidget added
+[WARNING] [32mVERBOSE[0m Callback method :setEnabled in Class com.doodlemobile.gamecenter.DMTabWidget added
+[WARNING] [32mVERBOSE[0m Callback method :onFocusChange in Class com.doodlemobile.gamecenter.DMTabWidget added
+[WARNING] [32mVERBOSE[0m Callback method :onSizeChanged in Class com.doodlemobile.gamecenter.DMTabWidget added
+[WARNING] [32mVERBOSE[0m Callback method :childDrawableStateChanged in Class com.doodlemobile.gamecenter.DMTabWidget added
+[WARNING] [32mVERBOSE[0m Callback method :getChildDrawingOrder in Class com.doodlemobile.gamecenter.DMTabWidget added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.doodlemobile.gamecenter.GameCenterActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateDialog in Class com.doodlemobile.gamecenter.GameCenterActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPrepareDialog in Class com.doodlemobile.gamecenter.GameCenterActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onNewIntent in Class com.doodlemobile.gamecenter.GameCenterActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.doodlemobile.gamecenter.GameCenterActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class com.doodlemobile.gamecenter.GameCenterActivity added
+[WARNING] [32mVERBOSE[0m Callback method :setVisibility in Class com.doodlemobile.basket.test.IEditText added
+[WARNING] [32mVERBOSE[0m Callback method :onEndBatchEdit in Class com.doodlemobile.basket.test.IEditText added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.doodlemobile.gamecenter.GameAdActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.doodle.ltcsmyb.VideoActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onReceive in Class com.games.AdReciver added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.doodlemobile.basket.GameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onWindowFocusChanged in Class com.doodle.ltcsmyb.MainActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class com.doodle.ltcsmyb.MainActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.doodle.ltcsmyb.MainActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.doodle.ltcsmyb.MainActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.doodle.ltcsmyb.MainActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyUp in Class com.doodlemobile.basket.GameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.doodle.ltcsmyb.MainActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class com.doodle.ltcsmyb.MainActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class com.doodle.ltcsmyb.MainActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.doodle.ltcsmyb.MainActivity added
+[WARNING] [32mVERBOSE[0m Callback method :dispatchWindowFocusChanged in Class com.doodlemobile.gamecenter.DMTabHost added
+[WARNING] [32mVERBOSE[0m Callback method :onDetachedFromWindow in Class com.doodlemobile.gamecenter.DMTabHost added
+[WARNING] [32mVERBOSE[0m Callback method :onAttachedToWindow in Class com.doodlemobile.gamecenter.DMTabHost added
+[WARNING] [32mVERBOSE[0m Callback method :onTouchModeChanged in Class com.doodlemobile.gamecenter.DMTabHost added
+[WARNING] [32mVERBOSE[0m Callback method :dispatchKeyEvent in Class com.doodlemobile.gamecenter.DMTabHost added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateDialog in Class com.doodlemobile.gamecenter.GameTestActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.doodlemobile.gamecenter.GameTestActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.doodlemobile.gamecenter.GameTestActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class com.doodlemobile.gamecenter.GameTestActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.m.s.AdActivity added
+[WARNING] [32mVERBOSE[0m Callback method :finish in Class com.flurry.android.CatalogActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.flurry.android.CatalogActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.flurry.android.CatalogActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.flurry.android.CatalogActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.doodlemobile.basket.GameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.doodlemobile.basket.GameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.doodlemobile.basket.GameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyUp in Class com.doodlemobile.basket.GameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.doodlemobile.basket.GameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.doodlemobile.basket.GameActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onLayout in Class com.doodlemobile.gamecenter.FeatureView added
+[WARNING] [32mVERBOSE[0m Callback method :onWindowVisibilityChanged in Class com.doodlemobile.gamecenter.FeatureView added
+0 ICC links found and 0 cg edges added due to ICC links
+dynamic conflated call graph: 0 methods; 0 nodes; 0 edges.
+[WARNING] [32mVERBOSE[0m Callback method :dispatchKeyEvent in Class com.doodlemobile.gamecenter.DMTabHost
+[WARNING] [32mVERBOSE[0m Callback method :dispatchWindowFocusChanged in Class com.doodlemobile.gamecenter.DMTabHost
+[WARNING] [32mVERBOSE[0m Callback method :onAttachedToWindow in Class com.doodlemobile.gamecenter.DMTabHost
+[WARNING] [32mVERBOSE[0m Callback method :onDetachedFromWindow in Class com.doodlemobile.gamecenter.DMTabHost
+[WARNING] [32mVERBOSE[0m Callback method :onTouchModeChanged in Class com.doodlemobile.gamecenter.DMTabHost
+[WARNING] [32mVERBOSE[0m Callback method :addView in Class com.doodlemobile.gamecenter.DMTabWidget
+[WARNING] [32mVERBOSE[0m Callback method :childDrawableStateChanged in Class com.doodlemobile.gamecenter.DMTabWidget
+[WARNING] [32mVERBOSE[0m Callback method :dispatchDraw in Class com.doodlemobile.gamecenter.DMTabWidget
+[WARNING] [32mVERBOSE[0m Callback method :getChildDrawingOrder in Class com.doodlemobile.gamecenter.DMTabWidget
+[WARNING] [32mVERBOSE[0m Callback method :onFocusChange in Class com.doodlemobile.gamecenter.DMTabWidget
+[WARNING] [32mVERBOSE[0m Callback method :onSizeChanged in Class com.doodlemobile.gamecenter.DMTabWidget
+[WARNING] [32mVERBOSE[0m Callback method :setEnabled in Class com.doodlemobile.gamecenter.DMTabWidget
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.flurry.android.CatalogActivity
+[WARNING] [32mVERBOSE[0m Callback method :finish in Class com.flurry.android.CatalogActivity
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.flurry.android.CatalogActivity
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.flurry.android.CatalogActivity
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.flurry.android.CatalogActivity
+Result for malicious-app-992-010C070CAD502077653BA79B75BD646745C0C6AFC5520BEAEF9EB7F0B3721A07.apkcom.doodle.ltcsmyb

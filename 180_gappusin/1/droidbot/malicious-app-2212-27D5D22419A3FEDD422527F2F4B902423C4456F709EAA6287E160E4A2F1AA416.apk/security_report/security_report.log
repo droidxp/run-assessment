@@ -1,0 +1,143 @@
+DUA-Forensics args to Soot: -w -cp /home/hcosta/bench/benchmark/libs/droidfax.jar:/home/hcosta/Android/Sdk/platforms/android-28/android.jar -p cg verbose:false,implicit-entry:true -p cg.spark verbose:false,on-fly-cg:true,rta:false -d /home/hcosta/bench/benchmark/trace/180/1/droidbot/malicious-app-2212-27D5D22419A3FEDD422527F2F4B902423C4456F709EAA6287E160E4A2F1AA416.apk.logcat -process-dir /home/hcosta/bench/benchmark/data/input/malicious-app-2212-27D5D22419A3FEDD422527F2F4B902423C4456F709EAA6287E160E4A2F1AA416.apk 
+Soot started on Tue Aug 09 14:52:57 CEST 2022
+Warning: com.ironsource.mobilcore.BaseFlowBasedAdUnit is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+Warning: org.apache.http.client.HttpClient is a phantom class!
+Warning: org.apache.http.HttpEntity is a phantom class!
+Warning: org.apache.http.HttpResponse is a phantom class!
+Warning: org.apache.http.StatusLine is a phantom class!
+Warning: org.apache.http.client.ClientProtocolException is a phantom class!
+Warning: org.apache.http.client.methods.HttpGet is a phantom class!
+Warning: org.apache.http.client.methods.HttpUriRequest is a phantom class!
+Warning: org.apache.http.client.params.HttpClientParams is a phantom class!
+Warning: org.apache.http.impl.client.DefaultHttpClient is a phantom class!
+Warning: org.apache.http.params.BasicHttpParams is a phantom class!
+Warning: org.apache.http.params.HttpProtocolParams is a phantom class!
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.0 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+hcai's internal transform
+Running static analysis for security-relevant feature characterization
+[GatorHierarchy] [32mVERBOSE[0m [HIER] All classes: 1203
+[GatorHierarchy] [32mVERBOSE[0m [App: 104, Lib : 1085, Phantom: 14]
+[GatorHierarchy] [32mVERBOSE[0m [HIER] Activities: 6, lib activities: 1
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App views: 5, Lib views: 16
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App Dialogs: 0, Lib Dialogs: 3
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing starting at 1660049578616
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing finished at 1660049579728
+[Instantiated app classes] [32mVERBOSE[0m total number: 146
+[WARNING] [32mVERBOSE[0m Callback method :onWindowFocusChanged in Class com.admob.android.ads.AdView added
+[WARNING] [32mVERBOSE[0m Callback method :onMeasure in Class com.admob.android.ads.AdView added
+[WARNING] [32mVERBOSE[0m Callback method :setEnabled in Class com.admob.android.ads.AdView added
+[WARNING] [32mVERBOSE[0m Callback method :setBackgroundColor in Class com.admob.android.ads.AdView added
+[WARNING] [32mVERBOSE[0m Callback method :onDetachedFromWindow in Class com.admob.android.ads.AdView added
+[WARNING] [32mVERBOSE[0m Callback method :onAttachedToWindow in Class com.admob.android.ads.AdView added
+[WARNING] [32mVERBOSE[0m Callback method :setVisibility in Class com.admob.android.ads.AdView added
+[WARNING] [32mVERBOSE[0m Callback method :onWindowVisibilityChanged in Class com.admob.android.ads.AdView added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.ccx.xm.AdActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.funbox.game.ang.Main added
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class com.funbox.game.ang.Main added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.funbox.game.ang.Main added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.funbox.game.ang.Main added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.funbox.game.ang.Main added
+[WARNING] [32mVERBOSE[0m Callback method :onSaveInstanceState in Class com.funbox.game.ang.Main added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.funbox.game.ang.Main added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.funbox.game.promote.AdSplash added
+[WARNING] [32mVERBOSE[0m Callback method :finish in Class com.funbox.game.promote.AdSplash added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.funbox.game.promote.AdSplash added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.funbox.game.promote.AdSplash added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.funbox.game.promote.AdSplash added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.funbox.game.promote.AdSplash added
+[WARNING] [32mVERBOSE[0m Callback method :onReceive in Class com.games.AdReciver added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.funbox.game.ang.OptionActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.funbox.game.ang.ScoreList added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.funbox.game.ang.GMenu added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.funbox.game.ang.GMenu added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.funbox.game.ang.GMenu added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.funbox.game.ang.GMenu added
+[WARNING] [32mVERBOSE[0m Callback method :onActivityResult in Class com.funbox.game.ang.GMenu added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.funbox.game.ang.GMenu added
+[WARNING] [32mVERBOSE[0m Callback method :surfaceCreated in Class com.funbox.game.ang.GameView added
+[WARNING] [32mVERBOSE[0m Callback method :surfaceDestroyed in Class com.funbox.game.ang.GameView added
+[WARNING] [32mVERBOSE[0m Callback method :surfaceChanged in Class com.funbox.game.ang.GameView added
+10 ICC links found and 1 cg edges added due to ICC links
+dynamic conflated call graph: 247 methods; 247 nodes; 361 edges.
+maxpossibleFlows=2
+maxpossibleFlows=6
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=3
+maxpossibleFlows=4
+maxpossibleFlows=3
+maxpossibleFlows=1
+maxpossibleFlows=4
+maxpossibleFlows=6
+maxpossibleFlows=3
+maxpossibleFlows=10
+maxpossibleFlows=3
+maxpossibleFlows=10
+maxpossibleFlows=3
+maxpossibleFlows=1
+maxpossibleFlows=10
+2 taint flow paths FOUND from <android.app.Activity: android.content.Intent getIntent()> to <android.util.Log: int v(java.lang.String,java.lang.String)>
+maxpossibleFlows=2
+maxpossibleFlows=6
+3 taint flow paths FOUND from <java.lang.StringBuilder: java.lang.String toString()> to <android.content.Intent: android.content.Intent putExtra(java.lang.String,int)>
+maxpossibleFlows=10
+2 taint flow paths FOUND from <android.content.Intent: android.os.Bundle getExtras()> to <android.util.Log: int v(java.lang.String,java.lang.String)>
+maxpossibleFlows=10
+2 taint flow paths FOUND from <android.app.Activity: android.view.Window getWindow()> to <android.util.Log: int v(java.lang.String,java.lang.String)>
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=10
+2 taint flow paths FOUND from <android.app.Activity: android.content.Intent getIntent()> to <android.util.Log: int v(java.lang.String,java.lang.String)>
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=6
+maxpossibleFlows=6
+3 taint flow paths FOUND from <java.lang.StringBuilder: java.lang.String toString()> to <android.content.Intent: android.content.Intent putExtra(java.lang.String,int)>
+maxpossibleFlows=1
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+3 taint flow paths FOUND from <java.lang.StringBuilder: java.lang.String toString()> to <android.app.Activity: void startActivity(android.content.Intent)>
+maxpossibleFlows=4
+maxpossibleFlows=10
+maxpossibleFlows=10
+maxpossibleFlows=2
+maxpossibleFlows=10
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.app.Activity: android.view.Window getWindow()> to <android.app.Activity: void setContentView(int)>
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+3 taint flow paths FOUND from <java.lang.StringBuilder: java.lang.String toString()> to <android.content.Intent: android.content.Intent setClass(android.content.Context,java.lang.Class)>
+maxpossibleFlows=2
+2 taint flow paths FOUND from <android.app.Activity: android.view.Window getWindow()> to <android.view.View: void setVisibility(int)>
+maxpossibleFlows=4
+maxpossibleFlows=10
+maxpossibleFlows=10
+maxpossibleFlows=2
+maxpossibleFlows=10
+maxpossibleFlows=2
+2 taint flow paths FOUND from <android.app.Activity: android.view.Window getWindow()> to <android.view.Window: void setFlags(int,int)>
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+3 taint flow paths FOUND from <java.lang.StringBuilder: java.lang.String toString()> to <android.content.Intent: android.content.Intent putExtra(java.lang.String,boolean)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+[WARNING] [32mVERBOSE[0m Callback method :surfaceChanged in Class com.funbox.game.ang.GameView
+[WARNING] [32mVERBOSE[0m Callback method :surfaceCreated in Class com.funbox.game.ang.GameView
+[WARNING] [32mVERBOSE[0m Callback method :surfaceDestroyed in Class com.funbox.game.ang.GameView
+Result for malicious-app-2212-27D5D22419A3FEDD422527F2F4B902423C4456F709EAA6287E160E4A2F1AA416.apkcom.funbox.game.ang

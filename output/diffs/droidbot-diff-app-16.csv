@@ -1,1 +1,0 @@
-"<android.telephony.TelephonyManager: java.lang.String getSubscriberId()>""<android.telephony.TelephonyManager: java.lang.String getDeviceId()>""<android.location.LocationManager: java.lang.String getBestProvider(android.location.Criteria,boolean)>"

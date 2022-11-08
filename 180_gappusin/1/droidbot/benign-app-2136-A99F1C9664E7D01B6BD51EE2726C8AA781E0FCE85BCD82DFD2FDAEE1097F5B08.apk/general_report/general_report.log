@@ -1,0 +1,30 @@
+DUA-Forensics args to Soot: -w -cp /home/hcosta/bench/benchmark/libs/droidfax.jar:/home/hcosta/Android/Sdk/platforms/android-28/android.jar -p cg verbose:false,implicit-entry:true -p cg.spark verbose:false,on-fly-cg:true,rta:false -d /home/hcosta/bench/benchmark/trace/180/1/droidbot/benign-app-2136-A99F1C9664E7D01B6BD51EE2726C8AA781E0FCE85BCD82DFD2FDAEE1097F5B08.apk.logcat -process-dir /home/hcosta/bench/benchmark/data/input/benign-app-2136-A99F1C9664E7D01B6BD51EE2726C8AA781E0FCE85BCD82DFD2FDAEE1097F5B08.apk 
+Soot started on Wed Aug 03 02:34:53 CEST 2022
+Warning: com.ironsource.mobilcore.BaseFlowBasedAdUnit is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+Warning: org.apache.http.HttpEntity is a phantom class!
+Warning: org.apache.http.HttpResponse is a phantom class!
+Warning: org.apache.http.NameValuePair is a phantom class!
+Warning: org.apache.http.StatusLine is a phantom class!
+Warning: org.apache.http.client.HttpClient is a phantom class!
+Warning: org.apache.http.client.entity.UrlEncodedFormEntity is a phantom class!
+Warning: org.apache.http.client.methods.HttpGet is a phantom class!
+Warning: org.apache.http.client.methods.HttpPost is a phantom class!
+Warning: org.apache.http.client.methods.HttpUriRequest is a phantom class!
+Warning: org.apache.http.impl.client.DefaultHttpClient is a phantom class!
+Warning: org.apache.http.message.BasicNameValuePair is a phantom class!
+Warning: org.apache.http.util.EncodingUtils is a phantom class!
+Warning: org.apache.http.util.EntityUtils is a phantom class!
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.0 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+hcai's internal transform
+Running static analysis for method/class coverage characterization
+0 ICC links found and 0 cg edges added due to ICC links
+dynamic conflated call graph: 21 methods; 21 nodes; 18 edges.
+feature-vector-key = benign-app-2136-A99F1C9664E7D01B6BD51EE2726C8AA781E0FCE85BCD82DFD2FDAEE1097F5B08.apk
+Result for benign-app-2136-A99F1C9664E7D01B6BD51EE2726C8AA781E0FCE85BCD82DFD2FDAEE1097F5B08.apkcom.calmei.jmsn

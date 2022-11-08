@@ -1,0 +1,17 @@
+DUA-Forensics args to Soot: -w -cp /home/handrick/Documents/UNB/benchmark/libs/droidfax.jar:/home/handrick/Android/Sdk/platforms/android-19/android.jar -p cg verbose:false,implicit-entry:true -p cg.spark verbose:false,on-fly-cg:true,rta:false -d /home/handrick/Documents/UNB/benchmark/trace/180/1/droidbot/malicious-app-659-17722D98079552D4C2F99434B400A306FCDE0D1BDA8637AA6B180820C94E6678.apk.logcat -process-dir /home/handrick/Documents/UNB/benchmark/data/input/malicious-app-659-17722D98079552D4C2F99434B400A306FCDE0D1BDA8637AA6B180820C94E6678.apk 
+Soot started on Thu May 12 03:24:25 CEST 2022
+Warning: com.ironsource.mobilcore.BaseFlowBasedAdUnit is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.0 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+hcai's internal transform
+Running static analysis for method/class coverage characterization
+2 ICC links found and 1 cg edges added due to ICC links
+dynamic conflated call graph: 69 methods; 69 nodes; 68 edges.
+feature-vector-key = malicious-app-659-17722D98079552D4C2F99434B400A306FCDE0D1BDA8637AA6B180820C94E6678.apk
+Result for malicious-app-659-17722D98079552D4C2F99434B400A306FCDE0D1BDA8637AA6B180820C94E6678.apkcom.Ina.Notegre

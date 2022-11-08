@@ -55,6 +55,7 @@ for f in files:
         continue
 
 summary = {} 
+malicousMethodsAccess = {}
 
 for (tool, apk), bMethods in benign_apps.items():
     mMethods = malicious_apps.get((tool, apk), set())
@@ -62,6 +63,8 @@ for (tool, apk), bMethods in benign_apps.items():
     dMethods = mMethods.difference(bMethods)
 
     summary[(tool, apk)] = len(dMethods)
+    
+    malicousMethodsAccess[(tool, apk)] = len(mMethods)
 
     file_name = f"{diffs_dir}/{tool}-diff-{apk}.csv"
     
@@ -74,11 +77,17 @@ for (tool, apk), bMethods in benign_apps.items():
 
 summary_file = f"{diffs_dir}/summary.csv"
 methods_in_diff_file = f"{diffs_dir}/methods_in_diff.csv"
+malicousMethodsAccess_file = f"{diffs_dir}/malicousMethodsAccess.csv"
 
 with open(summary_file, 'w') as fh:
     fh.write("tool,apk,methods_in_diff\n")
     for ((tool, apk), ms) in summary.items():
         fh.write(f"{tool},{apk},{ms}\n")
+
+with open(malicousMethodsAccess_file, 'w') as fh:
+    fh.write("tool,apk,maliciousMethods_access\n")
+    for ((tool, apk), ma) in malicousMethodsAccess.items():
+        fh.write(f"{tool},{apk},{ma}\n")
 
 with open(methods_in_diff_file, 'w') as fh:
     fh.write("method,occurrences\n")

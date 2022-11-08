@@ -1,1 +1,0 @@
-"<android.telephony.TelephonyManager: java.lang.String getSubscriberId()>""<android.telephony.TelephonyManager: java.lang.String getDeviceId()>""<android.telephony.TelephonyManager: java.lang.String getLine1Number()>""<android.telephony.TelephonyManager: android.telephony.CellLocation getCellLocation()>"

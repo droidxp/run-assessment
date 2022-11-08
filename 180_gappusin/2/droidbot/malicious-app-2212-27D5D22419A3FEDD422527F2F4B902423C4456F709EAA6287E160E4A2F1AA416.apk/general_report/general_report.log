@@ -1,0 +1,28 @@
+DUA-Forensics args to Soot: -w -cp /home/hcosta/bench/benchmark/libs/droidfax.jar:/home/hcosta/Android/Sdk/platforms/android-28/android.jar -p cg verbose:false,implicit-entry:true -p cg.spark verbose:false,on-fly-cg:true,rta:false -d /home/hcosta/bench/benchmark/trace/180/1/droidbot/malicious-app-2212-27D5D22419A3FEDD422527F2F4B902423C4456F709EAA6287E160E4A2F1AA416.apk.logcat -process-dir /home/hcosta/bench/benchmark/data/input/malicious-app-2212-27D5D22419A3FEDD422527F2F4B902423C4456F709EAA6287E160E4A2F1AA416.apk 
+Soot started on Tue Aug 09 20:40:18 CEST 2022
+Warning: com.ironsource.mobilcore.BaseFlowBasedAdUnit is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+Warning: org.apache.http.client.HttpClient is a phantom class!
+Warning: org.apache.http.HttpEntity is a phantom class!
+Warning: org.apache.http.HttpResponse is a phantom class!
+Warning: org.apache.http.StatusLine is a phantom class!
+Warning: org.apache.http.client.ClientProtocolException is a phantom class!
+Warning: org.apache.http.client.methods.HttpGet is a phantom class!
+Warning: org.apache.http.client.methods.HttpUriRequest is a phantom class!
+Warning: org.apache.http.client.params.HttpClientParams is a phantom class!
+Warning: org.apache.http.impl.client.DefaultHttpClient is a phantom class!
+Warning: org.apache.http.params.BasicHttpParams is a phantom class!
+Warning: org.apache.http.params.HttpProtocolParams is a phantom class!
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.0 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+hcai's internal transform
+Running static analysis for method/class coverage characterization
+9 ICC links found and 1 cg edges added due to ICC links
+dynamic conflated call graph: 222 methods; 222 nodes; 314 edges.
+feature-vector-key = malicious-app-2212-27D5D22419A3FEDD422527F2F4B902423C4456F709EAA6287E160E4A2F1AA416.apk
+Result for malicious-app-2212-27D5D22419A3FEDD422527F2F4B902423C4456F709EAA6287E160E4A2F1AA416.apkcom.funbox.game.ang

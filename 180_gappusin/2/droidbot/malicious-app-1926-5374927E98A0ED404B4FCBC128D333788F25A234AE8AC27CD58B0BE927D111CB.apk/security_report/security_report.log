@@ -1,0 +1,257 @@
+DUA-Forensics args to Soot: -w -cp /home/handrick/Documents/UNB/benchmark/libs/droidfax.jar:/home/handrick/Android/Sdk/platforms/android-19/android.jar -p cg verbose:false,implicit-entry:true -p cg.spark verbose:false,on-fly-cg:true,rta:false -d /home/handrick/Documents/UNB/benchmark/trace/180/1/droidbot/malicious-app-1926-5374927E98A0ED404B4FCBC128D333788F25A234AE8AC27CD58B0BE927D111CB.apk.logcat -process-dir /home/handrick/Documents/UNB/benchmark/data/input/malicious-app-1926-5374927E98A0ED404B4FCBC128D333788F25A234AE8AC27CD58B0BE927D111CB.apk 
+Soot started on Sun Jul 31 01:11:50 CEST 2022
+Warning: com.ironsource.mobilcore.BaseFlowBasedAdUnit is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+Warning: com.wiyun.game.WiGame is a phantom class!
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.0 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+hcai's internal transform
+Running static analysis for security-relevant feature characterization
+[GatorHierarchy] [32mVERBOSE[0m [HIER] All classes: 645
+[GatorHierarchy] [32mVERBOSE[0m [App: 43, Lib : 598, Phantom: 4]
+[GatorHierarchy] [32mVERBOSE[0m [HIER] Activities: 6, lib activities: 1
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App views: 2, Lib views: 5
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App Dialogs: 0, Lib Dialogs: 2
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing starting at 1659222711505
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing finished at 1659222711938
+[Instantiated app classes] [32mVERBOSE[0m total number: 31
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class org.nwhy.Whackczkm.About added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class org.nwhy.Whackczkm.WhackAMole added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class org.nwhy.Whackczkm.WhackAMole added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.ccx.xm.AdActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class org.nwhy.Whackczkm.Game added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateOptionsMenu in Class org.nwhy.Whackczkm.Game added
+[WARNING] [32mVERBOSE[0m Callback method :onOptionsItemSelected in Class org.nwhy.Whackczkm.Game added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class org.nwhy.Whackczkm.VSGame added
+[WARNING] [32mVERBOSE[0m Callback method :onCreateOptionsMenu in Class org.nwhy.Whackczkm.VSGame added
+[WARNING] [32mVERBOSE[0m Callback method :onOptionsItemSelected in Class org.nwhy.Whackczkm.VSGame added
+[WARNING] [32mVERBOSE[0m Callback method :onReceive in Class com.games.AdReciver added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class org.nwhy.Whackczkm.Splash added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class org.nwhy.Whackczkm.Splash added
+0 ICC links found and 0 cg edges added due to ICC links
+dynamic conflated call graph: 432 methods; 432 nodes; 630 edges.
+maxpossibleFlows=7
+maxpossibleFlows=10
+maxpossibleFlows=7
+maxpossibleFlows=7
+maxpossibleFlows=10
+maxpossibleFlows=7
+maxpossibleFlows=7
+maxpossibleFlows=10
+maxpossibleFlows=7
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.content.ContextWrapper: android.content.res.AssetManager getAssets()> to <android.util.Log: int e(java.lang.String,java.lang.String)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.content.ContextWrapper: android.content.SharedPreferences getSharedPreferences(java.lang.String,int)> to <java.lang.String: boolean startsWith(java.lang.String)>
+maxpossibleFlows=7
+maxpossibleFlows=10
+maxpossibleFlows=7
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=7
+maxpossibleFlows=10
+maxpossibleFlows=7
+maxpossibleFlows=7
+maxpossibleFlows=8
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=9
+maxpossibleFlows=7
+maxpossibleFlows=9
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.content.ContextWrapper: android.content.pm.ApplicationInfo getApplicationInfo()> to <android.util.Log: int e(java.lang.String,java.lang.String)>
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.content.Intent: android.net.Uri getData()> to <android.content.ContextWrapper: android.content.ComponentName startService(android.content.Intent)>
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.app.Activity: android.app.Application getApplication()> to <android.util.Log: int w(java.lang.String,java.lang.String)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <java.util.Properties: java.lang.String getProperty(java.lang.String)> to <java.util.Properties: java.lang.Object setProperty(java.lang.String,java.lang.String)>
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.content.Intent: java.lang.String getAction()> to <android.content.ContextWrapper: android.content.ComponentName startService(android.content.Intent)>
+maxpossibleFlows=9
+9 taint flow paths FOUND from <java.lang.StringBuilder: java.lang.String toString()> to <android.util.Log: int i(java.lang.String,java.lang.String)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.content.ContextWrapper: android.content.pm.PackageManager getPackageManager()> to <android.util.Log: int w(java.lang.String,java.lang.String)>
+maxpossibleFlows=7
+maxpossibleFlows=10
+maxpossibleFlows=7
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.content.ContextWrapper: java.lang.Object getSystemService(java.lang.String)> to <java.lang.String: boolean startsWith(java.lang.String)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=7
+maxpossibleFlows=10
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=7
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.app.Activity: android.view.Window getWindow()> to <android.view.Window: void setFlags(int,int)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.content.ContextWrapper: java.lang.String getPackageName()> to <java.lang.String: boolean startsWith(java.lang.String)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.app.Activity: android.app.Application getApplication()> to <android.util.Log: int w(java.lang.String,java.lang.String)>
+maxpossibleFlows=7
+maxpossibleFlows=7
+maxpossibleFlows=7
+maxpossibleFlows=7
+maxpossibleFlows=7
+maxpossibleFlows=7
+maxpossibleFlows=9
+maxpossibleFlows=9
+9 taint flow paths FOUND from <java.lang.StringBuilder: java.lang.String toString()> to <android.util.Log: int i(java.lang.String,java.lang.String)>
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.content.ContextWrapper: android.content.res.AssetManager getAssets()> to <android.util.Log: int e(java.lang.String,java.lang.String)>
+maxpossibleFlows=10
+maxpossibleFlows=10
+maxpossibleFlows=10
+maxpossibleFlows=10
+maxpossibleFlows=10
+maxpossibleFlows=8
+maxpossibleFlows=7
+maxpossibleFlows=21
+1 taint flow paths FOUND from <java.lang.StringBuilder: java.lang.String toString()> to <org.json.JSONObject: org.json.JSONObject put(java.lang.String,int)>
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.content.Intent: android.net.Uri getData()> to <android.content.ContextWrapper: android.content.ComponentName startService(android.content.Intent)>
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.content.ContextWrapper: android.content.SharedPreferences getSharedPreferences(java.lang.String,int)> to <java.lang.String: boolean startsWith(java.lang.String)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=15
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <java.util.Properties: java.lang.String getProperty(java.lang.String)> to <java.util.Properties: java.lang.Object setProperty(java.lang.String,java.lang.String)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.app.Activity: android.view.Window getWindow()> to <android.view.Window: void setFlags(int,int)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.app.Activity: android.app.Application getApplication()> to <android.app.Activity: void setContentView(int)>
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.content.Intent: android.net.Uri getData()> to <android.content.Intent: android.content.Intent putExtra(java.lang.String,android.os.Parcelable)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.app.Activity: android.app.Application getApplication()> to <android.app.Activity: void setVolumeControlStream(int)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=15
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=7
+maxpossibleFlows=7
+maxpossibleFlows=7
+maxpossibleFlows=7
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=7
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=9
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=15
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=7
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=7
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.content.ContextWrapper: android.content.res.AssetManager getAssets()> to <android.content.res.AssetManager: java.io.InputStream open(java.lang.String)>
+Result for malicious-app-1926-5374927E98A0ED404B4FCBC128D333788F25A234AE8AC27CD58B0BE927D111CB.apkorg.nwhy.Whackczkm

@@ -1,1 +1,0 @@
-"<android.telephony.TelephonyManager: java.lang.String getSimSerialNumber()>""<android.telephony.TelephonyManager: java.lang.String getSubscriberId()>""<android.telephony.TelephonyManager: android.telephony.CellLocation getCellLocation()>""<android.location.LocationManager: java.lang.String getBestProvider(android.location.Criteria,boolean)>"

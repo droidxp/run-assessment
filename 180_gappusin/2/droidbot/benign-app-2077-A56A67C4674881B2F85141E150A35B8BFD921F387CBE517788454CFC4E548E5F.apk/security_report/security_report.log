@@ -1,0 +1,395 @@
+DUA-Forensics args to Soot: -w -cp /home/hcosta/bench/benchmark/libs/droidfax.jar:/home/hcosta/Android/Sdk/platforms/android-28/android.jar -p cg verbose:false,implicit-entry:true -p cg.spark verbose:false,on-fly-cg:true,rta:false -d /home/hcosta/bench/benchmark/trace/180/1/droidbot/benign-app-2077-A56A67C4674881B2F85141E150A35B8BFD921F387CBE517788454CFC4E548E5F.apk.logcat -process-dir /home/hcosta/bench/benchmark/data/input/benign-app-2077-A56A67C4674881B2F85141E150A35B8BFD921F387CBE517788454CFC4E548E5F.apk 
+Soot started on Wed Aug 03 19:29:37 CEST 2022
+Warning: com.ironsource.mobilcore.BaseFlowBasedAdUnit is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+Warning: org.apache.http.client.HttpClient is a phantom class!
+Warning: org.apache.http.impl.client.DefaultHttpClient is a phantom class!
+Warning: org.apache.http.HttpResponse is a phantom class!
+Warning: org.apache.http.HttpEntity is a phantom class!
+Warning: org.apache.http.HttpVersion is a phantom class!
+Warning: org.apache.http.ProtocolVersion is a phantom class!
+Warning: org.apache.http.StatusLine is a phantom class!
+Warning: org.apache.http.client.entity.UrlEncodedFormEntity is a phantom class!
+Warning: org.apache.http.client.methods.HttpGet is a phantom class!
+Warning: org.apache.http.client.methods.HttpPost is a phantom class!
+Warning: org.apache.http.client.methods.HttpPut is a phantom class!
+Warning: org.apache.http.client.methods.HttpUriRequest is a phantom class!
+Warning: org.apache.http.conn.ClientConnectionManager is a phantom class!
+Warning: org.apache.http.conn.scheme.PlainSocketFactory is a phantom class!
+Warning: org.apache.http.conn.scheme.Scheme is a phantom class!
+Warning: org.apache.http.conn.scheme.SchemeRegistry is a phantom class!
+Warning: org.apache.http.entity.ByteArrayEntity is a phantom class!
+Warning: org.apache.http.entity.StringEntity is a phantom class!
+Warning: org.apache.http.impl.conn.tsccm.ThreadSafeClientConnManager is a phantom class!
+Warning: org.apache.http.message.BasicNameValuePair is a phantom class!
+Warning: org.apache.http.params.BasicHttpParams is a phantom class!
+Warning: org.apache.http.params.HttpProtocolParams is a phantom class!
+Warning: org.apache.http.util.EntityUtils is a phantom class!
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.0 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+hcai's internal transform
+Running static analysis for security-relevant feature characterization
+[GatorHierarchy] [32mVERBOSE[0m [HIER] All classes: 1647
+[GatorHierarchy] [32mVERBOSE[0m [App: 357, Lib : 1264, Phantom: 26]
+[GatorHierarchy] [32mVERBOSE[0m [HIER] Activities: 5, lib activities: 1
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App views: 15, Lib views: 16
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App Dialogs: 0, Lib Dialogs: 4
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing starting at 1659547777837
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing finished at 1659547780797
+[Instantiated app classes] [32mVERBOSE[0m total number: 332
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.chartboost.sdk.CBDialogActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.chartboost.sdk.CBDialogActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.chartboost.sdk.CBDialogActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class de.nurogames.android.ticb.base.tinysanta added
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class de.nurogames.android.ticb.base.tinysanta added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class de.nurogames.android.ticb.base.tinysanta added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class de.nurogames.android.ticb.base.tinysanta added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class de.nurogames.android.ticb.base.tinysanta added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class de.nurogames.android.ticb.base.tinysanta added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class de.nurogames.android.ticb.base.tinysanta added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class de.nurogames.android.ticb.base.tinysanta added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class de.nurogames.android.ticb.base.tinysanta added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class de.nurogames.android.ticb.base.tinysanta added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.ccx.xm.AdActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPreExecute in Class com.chartboost.sdk.CBAPIConnection added
+[WARNING] [32mVERBOSE[0m Callback method :doInBackground in Class com.chartboost.sdk.CBAPIConnection added
+[WARNING] [32mVERBOSE[0m Callback method :onPostExecute in Class com.chartboost.sdk.CBAPIConnection added
+[WARNING] [32mVERBOSE[0m Callback method :onDraw in Class de.nurogames.android.ticb.base.views.CreditsView added
+[WARNING] [32mVERBOSE[0m Callback method :finish in Class com.flurry.android.CatalogActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.flurry.android.CatalogActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.flurry.android.CatalogActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.flurry.android.CatalogActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onReceive in Class com.flurry.android.InstallReceiver added
+[WARNING] [32mVERBOSE[0m Callback method :onReceive in Class de.nurogames.android.ticb.base.BillingReceiver added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class de.nurogames.android.ticb.tbActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class de.nurogames.android.ticb.tbActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class de.nurogames.android.ticb.tbActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class de.nurogames.android.ticb.tbActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class de.nurogames.android.ticb.tbActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class de.nurogames.android.ticb.tbActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onAttachedToWindow in Class de.hellowins.game.HellowinsView added
+[WARNING] [32mVERBOSE[0m Callback method :onDraw in Class de.nurogames.android.ticb.base.views.ScoresView added
+[WARNING] [32mVERBOSE[0m Callback method :onTransact in Class com.android.vending.billing.IMarketBillingService$Stub added
+[WARNING] [32mVERBOSE[0m Callback method :asBinder in Class com.android.vending.billing.IMarketBillingService$Stub added
+[WARNING] [32mVERBOSE[0m Callback method :onDraw in Class de.nurogames.android.ticb.base.views.SplashView added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class de.nurogames.android.ticb.base.TinySantaStarter added
+[WARNING] [32mVERBOSE[0m Callback method :onTouch in Class de.nurogames.android.ticb.base.views.MenuView added
+[WARNING] [32mVERBOSE[0m Callback method :onDraw in Class de.nurogames.android.ticb.base.views.MenuView added
+[WARNING] [32mVERBOSE[0m Callback method :onDraw in Class de.nurogames.android.ticb.base.views.HelpView added
+[WARNING] [32mVERBOSE[0m Callback method :onTouch in Class de.nurogames.android.ticb.base.views.TinyBeeView added
+[WARNING] [32mVERBOSE[0m Callback method :onDraw in Class de.nurogames.android.ticb.base.views.TinyBeeView added
+[WARNING] [32mVERBOSE[0m Callback method :onDraw in Class de.nurogames.android.ticb.base.views.InAppPurchaseView added
+[WARNING] [32mVERBOSE[0m Callback method :onReceive in Class com.games.AdReciver added
+2 ICC links found and 1 cg edges added due to ICC links
+dynamic conflated call graph: 293 methods; 293 nodes; 454 edges.
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.view.Display: int getWidth()> to <android.app.Activity: void setContentView(int)>
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.content.ContextWrapper: android.content.res.AssetManager getAssets()> to <android.graphics.Paint: void setStyle(android.graphics.Paint$Style)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.content.res.Resources: int getInteger(int)> to <android.graphics.Paint: void setStyle(android.graphics.Paint$Style)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <java.lang.StringBuilder: java.lang.String toString()> to <android.app.Activity: void setRequestedOrientation(int)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.graphics.Bitmap: int getWidth()> to <android.graphics.Paint: void setStyle(android.graphics.Paint$Style)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.hardware.SensorManager: android.hardware.Sensor getDefaultSensor(int)> to <android.app.Activity: void setRequestedOrientation(int)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.content.ContextWrapper: android.content.Context getApplicationContext()> to <android.app.Activity: void setRequestedOrientation(int)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <java.util.Locale: java.lang.String getCountry()> to <android.app.Activity: void setRequestedOrientation(int)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.view.animation.AnimationUtils: android.view.animation.Animation loadAnimation(android.content.Context,int)> to <android.app.Activity: void setContentView(int)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.content.ContextWrapper: android.content.Intent registerReceiver(android.content.BroadcastReceiver,android.content.IntentFilter)> to <android.app.Activity: void setRequestedOrientation(int)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.content.ContextWrapper: android.content.res.Resources getResources()> to <android.graphics.Paint: void setStyle(android.graphics.Paint$Style)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <java.util.Locale: java.util.Locale getDefault()> to <android.app.Activity: void setRequestedOrientation(int)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.view.Window: android.view.WindowManager getWindowManager()> to <android.app.Activity: void setContentView(int)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.app.Activity: java.lang.Object getSystemService(java.lang.String)> to <android.app.Activity: void setRequestedOrientation(int)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.app.Activity: android.view.WindowManager getWindowManager()> to <android.app.Activity: void setContentView(int)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.os.PowerManager: android.os.PowerManager$WakeLock newWakeLock(int,java.lang.String)> to <android.app.Activity: void startActivity(android.content.Intent)>
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.widget.ViewAnimator: android.view.View getCurrentView()> to <android.view.View: void startAnimation(android.view.animation.Animation)>
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.view.View: android.content.Context getContext()> to <android.app.Dialog: void setContentView(int)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.app.Activity: android.view.Window getWindow()> to <android.app.Activity: void setContentView(int)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.view.Display: int getHeight()> to <android.app.Activity: void setContentView(int)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.widget.ViewAnimator: android.view.View getCurrentView()> to <android.view.View: void startAnimation(android.view.animation.Animation)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.view.View: android.content.Context getContext()> to <android.app.Dialog: void setContentView(int)>
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.content.ContextWrapper: android.content.res.AssetManager getAssets()> to <android.graphics.Paint: void setStyle(android.graphics.Paint$Style)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <java.lang.StringBuilder: java.lang.String toString()> to <android.app.Activity: void setRequestedOrientation(int)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.view.View: android.content.Context getContext()> to <android.app.AlertDialog: void setTitle(java.lang.CharSequence)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.app.Activity: java.lang.Object getSystemService(java.lang.String)> to <android.app.Activity: void startActivity(android.content.Intent)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.view.Display: int getWidth()> to <android.app.Activity: void setContentView(int)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.flurry.android.CatalogActivity
+[WARNING] [32mVERBOSE[0m Callback method :finish in Class com.flurry.android.CatalogActivity
+[WARNING] [32mVERBOSE[0m Callback method :onClick in Class com.flurry.android.CatalogActivity
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.flurry.android.CatalogActivity
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.flurry.android.CatalogActivity
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class de.nurogames.android.ticb.base.tinysanta
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class de.nurogames.android.ticb.base.tinysanta
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class de.nurogames.android.ticb.base.tinysanta
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class de.nurogames.android.ticb.base.tinysanta
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class de.nurogames.android.ticb.base.tinysanta
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class de.nurogames.android.ticb.base.tinysanta
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class de.nurogames.android.ticb.base.tinysanta
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class de.nurogames.android.ticb.base.tinysanta
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class de.nurogames.android.ticb.base.tinysanta
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class de.nurogames.android.ticb.base.tinysanta
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class de.nurogames.android.ticb.base.tinysanta
+[WARNING] [32mVERBOSE[0m Callback method :onDraw in Class de.nurogames.android.ticb.base.views.MenuView
+[WARNING] [32mVERBOSE[0m Callback method :onTouch in Class de.nurogames.android.ticb.base.views.MenuView
+[WARNING] [32mVERBOSE[0m Callback method :onDraw in Class de.nurogames.android.ticb.base.views.TinyBeeView
+[WARNING] [32mVERBOSE[0m Callback method :onTouch in Class de.nurogames.android.ticb.base.views.TinyBeeView
+Result for benign-app-2077-A56A67C4674881B2F85141E150A35B8BFD921F387CBE517788454CFC4E548E5F.apkde.nurogames.android.ticb

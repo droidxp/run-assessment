@@ -1,0 +1,89 @@
+DUA-Forensics args to Soot: -w -cp /home/hcosta/bench/benchmark/libs/droidfax.jar:/home/hcosta/Android/Sdk/platforms/android-28/android.jar -p cg verbose:false,implicit-entry:true -p cg.spark verbose:false,on-fly-cg:true,rta:false -d /home/hcosta/bench/benchmark/trace/180/1/droidbot/malicious-app-1749-114C5C8DA67FA372934807368BDDA06B1937B900DFA204A644FB1FC4F664BA2B.apk.logcat -process-dir /home/hcosta/bench/benchmark/data/input/malicious-app-1749-114C5C8DA67FA372934807368BDDA06B1937B900DFA204A644FB1FC4F664BA2B.apk 
+Soot started on Fri May 20 14:20:32 CEST 2022
+Warning: com.ironsource.mobilcore.BaseFlowBasedAdUnit is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+Warning: org.apache.http.client.HttpRequestRetryHandler is a phantom class!
+Warning: org.apache.http.protocol.HttpContext is a phantom class!
+Warning: org.apache.http.impl.client.DefaultHttpClient is a phantom class!
+Warning: org.apache.http.client.methods.HttpPost is a phantom class!
+Warning: org.apache.http.client.methods.HttpGet is a phantom class!
+Warning: org.apache.http.HttpResponse is a phantom class!
+Warning: org.apache.http.HttpRequestInterceptor is a phantom class!
+Warning: org.apache.http.HttpRequest is a phantom class!
+Warning: org.apache.http.client.methods.HttpRequestBase is a phantom class!
+Warning: org.apache.http.client.CookieStore is a phantom class!
+Warning: org.apache.http.HttpResponseInterceptor is a phantom class!
+Warning: org.apache.http.entity.HttpEntityWrapper is a phantom class!
+Warning: org.apache.http.HttpEntity is a phantom class!
+Warning: org.apache.http.client.HttpClient is a phantom class!
+Warning: org.apache.http.client.methods.HttpUriRequest is a phantom class!
+Warning: org.apache.http.cookie.Cookie is a phantom class!
+Warning: org.apache.http.impl.cookie.BasicClientCookie is a phantom class!
+Warning: javax.script.CompiledScript is a phantom class!
+Warning: javax.script.ScriptContext is a phantom class!
+Warning: javax.script.ScriptException is a phantom class!
+Warning: javax.script.ScriptEngine is a phantom class!
+Warning: javax.script.AbstractScriptEngine is a phantom class!
+Warning: javax.script.Compilable is a phantom class!
+Warning: javax.script.Invocable is a phantom class!
+Warning: javax.script.Bindings is a phantom class!
+Warning: javax.script.ScriptEngineFactory is a phantom class!
+Warning: org.apache.http.NameValuePair is a phantom class!
+Warning: org.apache.http.impl.client.BasicCookieStore is a phantom class!
+Warning: org.apache.http.impl.client.AbstractHttpClient is a phantom class!
+Warning: org.apache.http.conn.ClientConnectionManager is a phantom class!
+Warning: org.apache.http.client.ResponseHandler is a phantom class!
+Warning: org.apache.http.client.ClientProtocolException is a phantom class!
+Warning: org.apache.http.HttpException is a phantom class!
+Warning: org.apache.http.Header is a phantom class!
+Warning: org.apache.http.HeaderElement is a phantom class!
+Warning: org.apache.http.HttpEntityEnclosingRequest is a phantom class!
+Warning: org.apache.http.HttpHost is a phantom class!
+Warning: org.apache.http.HttpVersion is a phantom class!
+Warning: org.apache.http.NoHttpResponseException is a phantom class!
+Warning: org.apache.http.ProtocolVersion is a phantom class!
+Warning: org.apache.http.StatusLine is a phantom class!
+Warning: org.apache.http.auth.AuthSchemeRegistry is a phantom class!
+Warning: org.apache.http.client.CredentialsProvider is a phantom class!
+Warning: org.apache.http.client.HttpResponseException is a phantom class!
+Warning: org.apache.http.client.entity.UrlEncodedFormEntity is a phantom class!
+Warning: org.apache.http.client.methods.HttpDelete is a phantom class!
+Warning: org.apache.http.client.methods.HttpEntityEnclosingRequestBase is a phantom class!
+Warning: org.apache.http.client.methods.HttpHead is a phantom class!
+Warning: org.apache.http.client.methods.HttpPut is a phantom class!
+Warning: org.apache.http.client.params.HttpClientParams is a phantom class!
+Warning: org.apache.http.client.utils.URLEncodedUtils is a phantom class!
+Warning: org.apache.http.conn.params.ConnManagerParams is a phantom class!
+Warning: org.apache.http.conn.params.ConnPerRoute is a phantom class!
+Warning: org.apache.http.conn.params.ConnPerRouteBean is a phantom class!
+Warning: org.apache.http.conn.scheme.PlainSocketFactory is a phantom class!
+Warning: org.apache.http.conn.scheme.Scheme is a phantom class!
+Warning: org.apache.http.conn.scheme.SchemeRegistry is a phantom class!
+Warning: org.apache.http.cookie.CookieSpecRegistry is a phantom class!
+Warning: org.apache.http.entity.BufferedHttpEntity is a phantom class!
+Warning: org.apache.http.entity.ByteArrayEntity is a phantom class!
+Warning: org.apache.http.entity.StringEntity is a phantom class!
+Warning: org.apache.http.impl.conn.tsccm.ThreadSafeClientConnManager is a phantom class!
+Warning: org.apache.http.impl.cookie.DateParseException is a phantom class!
+Warning: org.apache.http.impl.cookie.DateUtils is a phantom class!
+Warning: org.apache.http.message.BasicHeader is a phantom class!
+Warning: org.apache.http.message.BasicNameValuePair is a phantom class!
+Warning: org.apache.http.params.BasicHttpParams is a phantom class!
+Warning: org.apache.http.params.HttpProtocolParams is a phantom class!
+Warning: org.apache.http.protocol.BasicHttpContext is a phantom class!
+Warning: org.apache.http.protocol.SyncBasicHttpContext is a phantom class!
+Warning: org.apache.http.util.EntityUtils is a phantom class!
+No main class given. Inferred 'com.naef.jnlua.console.LuaConsole' as main class.
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.0 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.5 seconds.
+[Spark] Solution found in 0.5 seconds.
+hcai's internal transform
+Running static analysis for method/class coverage characterization
+0 ICC links found and 0 cg edges added due to ICC links
+dynamic conflated call graph: 0 methods; 0 nodes; 0 edges.
+feature-vector-key = malicious-app-1749-114C5C8DA67FA372934807368BDDA06B1937B900DFA204A644FB1FC4F664BA2B.apk
+Result for malicious-app-1749-114C5C8DA67FA372934807368BDDA06B1937B900DFA204A644FB1FC4F664BA2B.apkcom.GaoErFu.likzdg

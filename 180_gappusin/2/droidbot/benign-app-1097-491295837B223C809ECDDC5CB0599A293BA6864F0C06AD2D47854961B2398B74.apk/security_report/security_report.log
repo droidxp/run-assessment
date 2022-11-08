@@ -1,0 +1,92 @@
+DUA-Forensics args to Soot: -w -cp /home/hcosta/bench/benchmark/libs/droidfax.jar:/home/hcosta/Android/Sdk/platforms/android-28/android.jar -p cg verbose:false,implicit-entry:true -p cg.spark verbose:false,on-fly-cg:true,rta:false -d /home/hcosta/bench/benchmark/trace/180/2/droidbot/benign-app-1097-491295837B223C809ECDDC5CB0599A293BA6864F0C06AD2D47854961B2398B74.apk.logcat -process-dir /home/hcosta/bench/benchmark/data/input/benign-app-1097-491295837B223C809ECDDC5CB0599A293BA6864F0C06AD2D47854961B2398B74.apk 
+Soot started on Sun May 15 00:39:27 CEST 2022
+Warning: com.ironsource.mobilcore.BaseFlowBasedAdUnit is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.0 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+hcai's internal transform
+Running static analysis for security-relevant feature characterization
+[GatorHierarchy] [32mVERBOSE[0m [HIER] All classes: 995
+[GatorHierarchy] [32mVERBOSE[0m [App: 47, Lib : 945, Phantom: 3]
+[GatorHierarchy] [32mVERBOSE[0m [HIER] Activities: 2, lib activities: 1
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App views: 3, Lib views: 11
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App Dialogs: 0, Lib Dialogs: 2
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing starting at 1652567968082
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing finished at 1652567970172
+[Instantiated app classes] [32mVERBOSE[0m total number: 41
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.zhuoqiu.goodgx.Vapp added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.zhuoqiu.goodgx.Vapp added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.zhuoqiu.goodgx.Vapp added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyUp in Class com.zhuoqiu.goodgx.Vapp added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.zhuoqiu.goodgx.Vapp added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.zhuoqiu.goodgx.Vapp added
+[WARNING] [32mVERBOSE[0m Callback method :reset in Class com.google.ads.GoogleAdView added
+[WARNING] [32mVERBOSE[0m Callback method :setDisplayedChild in Class com.google.ads.GoogleAdView added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.ccx.xm.AdActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onReceive in Class com.games.AdReciver added
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class com.google.ads.GoogleAdView$AdWebView added
+0 ICC links found and 0 cg edges added due to ICC links
+dynamic conflated call graph: 203 methods; 203 nodes; 268 edges.
+maxpossibleFlows=1
+maxpossibleFlows=6
+maxpossibleFlows=1
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=1
+maxpossibleFlows=6
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=8
+8 taint flow paths FOUND from <android.content.res.Resources: int getIdentifier(java.lang.String,java.lang.String,java.lang.String)> to <android.content.res.Resources: java.io.InputStream openRawResource(int)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=8
+8 taint flow paths FOUND from <android.view.ContextThemeWrapper: android.content.res.Resources getResources()> to <android.content.res.Resources: java.io.InputStream openRawResource(int)>
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.app.Activity: android.view.Window getWindow()> to <android.app.Activity: void setContentView(android.view.View)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=8
+8 taint flow paths FOUND from <android.content.ContextWrapper: java.lang.String getPackageName()> to <android.content.res.Resources: java.io.InputStream openRawResource(int)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=8
+8 taint flow paths FOUND from <android.content.res.Resources: int getIdentifier(java.lang.String,java.lang.String,java.lang.String)> to <android.content.res.Resources: java.io.InputStream openRawResource(int)>
+maxpossibleFlows=6
+maxpossibleFlows=3
+maxpossibleFlows=6
+maxpossibleFlows=7
+maxpossibleFlows=7
+maxpossibleFlows=7
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.app.Activity: android.view.Window getWindow()> to <android.app.Activity: void setContentView(android.view.View)>
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=3
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+maxpossibleFlows=1
+1 taint flow paths FOUND from <android.app.Activity: android.view.Window getWindow()> to <android.view.Window: void setFlags(int,int)>
+Result for benign-app-1097-491295837B223C809ECDDC5CB0599A293BA6864F0C06AD2D47854961B2398B74.apkcom.zhuoqiu.goodgx

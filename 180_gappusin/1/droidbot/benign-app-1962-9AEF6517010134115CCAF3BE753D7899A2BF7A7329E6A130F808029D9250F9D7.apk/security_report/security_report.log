@@ -1,0 +1,874 @@
+DUA-Forensics args to Soot: -w -cp /home/handrick/Documents/UNB/benchmark/libs/droidfax.jar:/home/handrick/Android/Sdk/platforms/android-19/android.jar -p cg verbose:false,implicit-entry:true -p cg.spark verbose:false,on-fly-cg:true,rta:false -d /home/handrick/Documents/UNB/benchmark/trace/180/1/droidbot/benign-app-1962-9AEF6517010134115CCAF3BE753D7899A2BF7A7329E6A130F808029D9250F9D7.apk.logcat -process-dir /home/handrick/Documents/UNB/benchmark/data/input/benign-app-1962-9AEF6517010134115CCAF3BE753D7899A2BF7A7329E6A130F808029D9250F9D7.apk 
+Soot started on Sun Jul 31 21:28:54 CEST 2022
+Warning: com.ironsource.mobilcore.BaseFlowBasedAdUnit is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.0 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+hcai's internal transform
+Running static analysis for security-relevant feature characterization
+[GatorHierarchy] [32mVERBOSE[0m [HIER] All classes: 780
+[GatorHierarchy] [32mVERBOSE[0m [App: 79, Lib : 698, Phantom: 3]
+[GatorHierarchy] [32mVERBOSE[0m [HIER] Activities: 8, lib activities: 1
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App views: 0, Lib views: 9
+[GatorHierarchy] [32mVERBOSE[0m [HIER] App Dialogs: 0, Lib Dialogs: 3
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing starting at 1659295735665
+[TIMECOST] [32mVERBOSE[0m buildApplicationCodeMap parsing finished at 1659295736892
+[Instantiated app classes] [32mVERBOSE[0m total number: 82
+[WARNING] [32mVERBOSE[0m Callback method :onReceive in Class com.games.AdReciver added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.nobleempire.GunDisassembly2.NvEventQueueActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class com.nobleempire.GunDisassembly2.NvEventQueueActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPostCreate in Class com.nobleempire.GunDisassembly2.NvEventQueueActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class com.nobleempire.GunDisassembly2.NvEventQueueActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onRestoreInstanceState in Class com.nobleempire.GunDisassembly2.NvEventQueueActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onNewIntent in Class com.nobleempire.GunDisassembly2.NvEventQueueActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.nobleempire.GunDisassembly2.NvEventQueueActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.nobleempire.GunDisassembly2.NvEventQueueActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.nobleempire.GunDisassembly2.NvEventQueueActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class com.nobleempire.GunDisassembly2.NvEventQueueActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyUp in Class com.nobleempire.GunDisassembly2.NvEventQueueActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.nobleempire.GunDisassembly2.NvEventQueueActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class com.nobleempire.GunDisassembly2.NvEventQueueActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class com.nobleempire.GunDisassembly2.NvEventQueueActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onRestart in Class com.nobleempire.GunDisassembly2.NvEventQueueActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onSaveInstanceState in Class com.nobleempire.GunDisassembly2.NvEventQueueActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPostResume in Class com.nobleempire.GunDisassembly2.NvEventQueueActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.nobleempire.GunDisassembly2.NvEventQueueActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.nvidia.devtech.NvEventQueueActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class com.nvidia.devtech.NvEventQueueActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.nvidia.devtech.NvEventQueueActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.nvidia.devtech.NvEventQueueActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.nvidia.devtech.NvEventQueueActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class com.nvidia.devtech.NvEventQueueActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyUp in Class com.nvidia.devtech.NvEventQueueActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.nvidia.devtech.NvEventQueueActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class com.nvidia.devtech.NvEventQueueActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onRestart in Class com.nvidia.devtech.NvEventQueueActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.nvidia.devtech.NvEventQueueActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.nobleempire.GunDisassembly2.NvEventQueueActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class com.nobleempire.GunDisassembly2.NvEventQueueActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPostCreate in Class com.nobleempire.GunDisassembly2.NvEventQueueActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class com.nobleempire.GunDisassembly2.NvEventQueueActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onRestoreInstanceState in Class com.nobleempire.GunDisassembly2.NvEventQueueActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onNewIntent in Class com.nobleempire.GunDisassembly2.NvEventQueueActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.nobleempire.GunDisassembly2.NvEventQueueActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.nobleempire.GunDisassembly2.NvEventQueueActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.nobleempire.BikeDisassemblyxq.BikeDisassembly added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class com.nobleempire.GunDisassembly2.NvEventQueueActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyUp in Class com.nobleempire.GunDisassembly2.NvEventQueueActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.nobleempire.GunDisassembly2.NvEventQueueActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class com.nobleempire.GunDisassembly2.NvEventQueueActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class com.nobleempire.GunDisassembly2.NvEventQueueActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onRestart in Class com.nobleempire.GunDisassembly2.NvEventQueueActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onSaveInstanceState in Class com.nobleempire.GunDisassembly2.NvEventQueueActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPostResume in Class com.nobleempire.GunDisassembly2.NvEventQueueActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.nobleempire.GunDisassembly2.NvEventQueueActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.mode.sdk.AdActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.nvidia.devtech.NvActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class com.nvidia.devtech.NvActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.nvidia.devtech.NvActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.nvidia.devtech.NvActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class com.nvidia.devtech.NvActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyUp in Class com.nvidia.devtech.NvActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.nvidia.devtech.NvActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class com.nvidia.devtech.NvActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.nvidia.devtech.NvActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.nvidia.devtech.NvActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class com.nvidia.devtech.NvActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.nvidia.devtech.NvGLESActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.nvidia.devtech.NvActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.nvidia.devtech.NvActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class com.nvidia.devtech.NvActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyUp in Class com.nvidia.devtech.NvActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.nvidia.devtech.NvActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class com.nvidia.devtech.NvActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.nvidia.devtech.NvGLESActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onReceive in Class com.nobleempire.GunDisassembly2.BillingReceiver added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.nvidia.devtech.NvActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class com.nvidia.devtech.NvActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.nvidia.devtech.NvGLESActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.nvidia.devtech.NvActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.nvidia.devtech.NvActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class com.nvidia.devtech.NvActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyUp in Class com.nvidia.devtech.NvActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.nvidia.devtech.NvActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class com.nvidia.devtech.NvActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.nvidia.devtech.NvGLESActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.nobleempire.GunDisassembly2.NvEventQueueActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class com.nobleempire.GunDisassembly2.NvEventQueueActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPostCreate in Class com.nobleempire.GunDisassembly2.NvEventQueueActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class com.nobleempire.GunDisassembly2.NvEventQueueActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onRestoreInstanceState in Class com.nobleempire.GunDisassembly2.NvEventQueueActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onNewIntent in Class com.nobleempire.GunDisassembly2.NvEventQueueActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.nobleempire.GunDisassembly2.NvEventQueueActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.nobleempire.GunDisassembly2.NvEventQueueActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.nobleempire.GunDisassembly2.GunDisassembly2 added
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class com.nobleempire.GunDisassembly2.NvEventQueueActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onKeyUp in Class com.nobleempire.GunDisassembly2.NvEventQueueActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.nobleempire.GunDisassembly2.NvEventQueueActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class com.nobleempire.GunDisassembly2.NvEventQueueActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class com.nobleempire.GunDisassembly2.NvEventQueueActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onRestart in Class com.nobleempire.GunDisassembly2.NvEventQueueActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onSaveInstanceState in Class com.nobleempire.GunDisassembly2.NvEventQueueActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onPostResume in Class com.nobleempire.GunDisassembly2.NvEventQueueActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.nobleempire.GunDisassembly2.NvEventQueueActivity added
+[WARNING] [32mVERBOSE[0m Callback method :onTransact in Class com.android.vending.billing.IMarketBillingService$Stub added
+[WARNING] [32mVERBOSE[0m Callback method :asBinder in Class com.android.vending.billing.IMarketBillingService$Stub added
+0 ICC links found and 0 cg edges added due to ICC links
+dynamic conflated call graph: 973 methods; 973 nodes; 1651 edges.
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+2 taint flow paths FOUND from <android.content.ContextWrapper: android.content.res.AssetManager getAssets()> to <android.content.res.AssetManager: java.io.InputStream open(java.lang.String)>
+maxpossibleFlows=4
+4 taint flow paths FOUND from <android.content.ContextWrapper: android.content.SharedPreferences getSharedPreferences(java.lang.String,int)> to <java.lang.String: boolean startsWith(java.lang.String)>
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=3
+3 taint flow paths FOUND from <android.os.HandlerThread: android.os.Looper getLooper()> to <android.os.Handler: boolean sendEmptyMessage(int)>
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=12
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+1 taint flow paths FOUND from <android.os.Bundle: java.lang.String getString(java.lang.String)> to <android.util.Log: int d(java.lang.String,java.lang.String)>
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=5
+maxpossibleFlows=2
+maxpossibleFlows=5
+maxpossibleFlows=2
+maxpossibleFlows=5
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=12
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=4
+4 taint flow paths FOUND from <android.content.Intent: android.net.Uri getData()> to <android.content.ContextWrapper: android.content.ComponentName startService(android.content.Intent)>
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=9
+maxpossibleFlows=9
+maxpossibleFlows=9
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=14
+14 taint flow paths FOUND from <org.apache.http.impl.client.AbstractHttpClient: org.apache.http.params.HttpParams getParams()> to <android.util.Log: int d(java.lang.String,java.lang.String)>
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=3
+3 taint flow paths FOUND from <android.app.PendingIntent: android.app.PendingIntent getBroadcast(android.content.Context,int,android.content.Intent,int)> to <android.app.AlarmManager: void set(int,long,android.app.PendingIntent)>
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=4
+4 taint flow paths FOUND from <android.content.Intent: java.lang.String getAction()> to <android.content.ContextWrapper: android.content.ComponentName startService(android.content.Intent)>
+maxpossibleFlows=3
+maxpossibleFlows=2
+2 taint flow paths FOUND from <java.lang.StringBuilder: java.lang.String toString()> to <android.util.Log: int d(java.lang.String,java.lang.String)>
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=12
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+2 taint flow paths FOUND from <android.content.ContextWrapper: android.content.pm.PackageManager getPackageManager()> to <android.util.Log: int d(java.lang.String,java.lang.String)>
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=4
+4 taint flow paths FOUND from <android.content.ContextWrapper: java.lang.Object getSystemService(java.lang.String)> to <java.lang.String: boolean startsWith(java.lang.String)>
+maxpossibleFlows=12
+maxpossibleFlows=2
+1 taint flow paths FOUND from <android.os.Bundle: int getInt(java.lang.String)> to <android.util.Log: int d(java.lang.String,java.lang.String)>
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=8
+8 taint flow paths FOUND from <java.io.File: java.lang.String getAbsolutePath()> to <android.content.ContextWrapper: java.io.FileInputStream openFileInput(java.lang.String)>
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=8
+8 taint flow paths FOUND from <android.content.ContextWrapper: java.io.File getFilesDir()> to <android.content.ContextWrapper: java.io.FileInputStream openFileInput(java.lang.String)>
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=2
+maxpossibleFlows=7
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=7
+maxpossibleFlows=3
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=7
+maxpossibleFlows=3
+maxpossibleFlows=2
+maxpossibleFlows=3
+3 taint flow paths FOUND from <android.app.Activity: java.lang.Object getSystemService(java.lang.String)> to <android.location.LocationManager: boolean addGpsStatusListener(android.location.GpsStatus$Listener)>
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=9
+maxpossibleFlows=9
+maxpossibleFlows=9
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+2 taint flow paths FOUND from <android.content.ContextWrapper: java.lang.String getPackageName()> to <android.util.Log: int d(java.lang.String,java.lang.String)>
+maxpossibleFlows=2
+1 taint flow paths FOUND from <java.security.Provider: java.lang.Object put(java.lang.Object,java.lang.Object)> to <android.util.Log: int d(java.lang.String,java.lang.String)>
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+3 taint flow paths FOUND from <android.os.HandlerThread: android.os.Looper getLooper()> to <android.os.Handler: boolean sendEmptyMessage(int)>
+maxpossibleFlows=9
+maxpossibleFlows=7
+maxpossibleFlows=9
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+2 taint flow paths FOUND from <android.os.HandlerThread: android.os.Looper getLooper()> to <android.util.Log: int d(java.lang.String,java.lang.String)>
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+2 taint flow paths FOUND from <java.lang.StringBuilder: java.lang.String toString()> to <android.content.ContextWrapper: boolean bindService(android.content.Intent,android.content.ServiceConnection,int)>
+maxpossibleFlows=4
+4 taint flow paths FOUND from <android.content.Intent: android.net.Uri getData()> to <android.content.ContextWrapper: android.content.ComponentName startService(android.content.Intent)>
+maxpossibleFlows=4
+4 taint flow paths FOUND from <android.content.ContextWrapper: android.content.SharedPreferences getSharedPreferences(java.lang.String,int)> to <java.lang.String: boolean startsWith(java.lang.String)>
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+1 taint flow paths FOUND from <java.lang.StringBuilder: java.lang.String toString()> to <android.content.Intent: android.content.Intent putExtra(java.lang.String,java.lang.String)>
+maxpossibleFlows=9
+maxpossibleFlows=7
+maxpossibleFlows=9
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+1 taint flow paths FOUND from <java.lang.StringBuilder: java.lang.String toString()> to <android.content.Intent: android.content.Intent putExtra(java.lang.String,boolean)>
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=5
+maxpossibleFlows=26
+23 taint flow paths FOUND from <org.apache.http.impl.client.AbstractHttpClient: org.apache.http.params.HttpParams getParams()> to <org.apache.http.message.AbstractHttpMessage: void setHeader(java.lang.String,java.lang.String)>
+maxpossibleFlows=2
+maxpossibleFlows=4
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=8
+8 taint flow paths FOUND from <java.lang.StringBuilder: java.lang.String toString()> to <android.content.ContextWrapper: java.io.FileInputStream openFileInput(java.lang.String)>
+maxpossibleFlows=4
+4 taint flow paths FOUND from <android.content.Intent: android.net.Uri getData()> to <android.content.Intent: android.content.Intent putExtra(java.lang.String,android.os.Parcelable)>
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=12
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=5
+maxpossibleFlows=36
+36 taint flow paths FOUND from <org.apache.http.impl.client.AbstractHttpClient: org.apache.http.params.HttpParams getParams()> to <org.apache.http.params.BasicHttpParams: org.apache.http.params.HttpParams setParameter(java.lang.String,java.lang.Object)>
+maxpossibleFlows=9
+maxpossibleFlows=7
+maxpossibleFlows=9
+maxpossibleFlows=3
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+3 taint flow paths FOUND from <android.app.Activity: java.lang.Object getSystemService(java.lang.String)> to <android.location.LocationManager: boolean addGpsStatusListener(android.location.GpsStatus$Listener)>
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=3
+maxpossibleFlows=2
+maxpossibleFlows=3
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=3
+3 taint flow paths FOUND from <android.app.PendingIntent: android.app.PendingIntent getBroadcast(android.content.Context,int,android.content.Intent,int)> to <android.app.AlarmManager: void set(int,long,android.app.PendingIntent)>
+maxpossibleFlows=2
+maxpossibleFlows=2
+maxpossibleFlows=2
+2 taint flow paths FOUND from <android.content.ContextWrapper: android.content.res.AssetManager getAssets()> to <android.content.res.AssetManager: java.io.InputStream open(java.lang.String)>
+[WARNING] [32mVERBOSE[0m Hierarchy.virtualDispatch called with non-concrete receiver class: com.nobleempire.GunDisassembly2.NvEventQueueActivity, subsig: void <init>()
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.nobleempire.GunDisassembly2.NvEventQueueActivity
+[WARNING] [32mVERBOSE[0m Hierarchy.virtualDispatch called with non-concrete receiver class: com.nobleempire.GunDisassembly2.NvEventQueueActivity, subsig: void onAccuracyChanged(android.hardware.Sensor,int)
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class com.nobleempire.GunDisassembly2.NvEventQueueActivity
+[WARNING] [32mVERBOSE[0m Hierarchy.virtualDispatch called with non-concrete receiver class: com.nobleempire.GunDisassembly2.NvEventQueueActivity, subsig: void onConfigurationChanged(android.content.res.Configuration)
+[WARNING] [32mVERBOSE[0m Callback method :onConfigurationChanged in Class com.nobleempire.GunDisassembly2.NvEventQueueActivity
+[WARNING] [32mVERBOSE[0m Hierarchy.virtualDispatch called with non-concrete receiver class: com.nobleempire.GunDisassembly2.NvEventQueueActivity, subsig: void onCreate(android.os.Bundle)
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.nobleempire.GunDisassembly2.NvEventQueueActivity
+[WARNING] [32mVERBOSE[0m Hierarchy.virtualDispatch called with non-concrete receiver class: com.nobleempire.GunDisassembly2.NvEventQueueActivity, subsig: void onDestroy()
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.nobleempire.GunDisassembly2.NvEventQueueActivity
+[WARNING] [32mVERBOSE[0m Hierarchy.virtualDispatch called with non-concrete receiver class: com.nobleempire.GunDisassembly2.NvEventQueueActivity, subsig: boolean onKeyDown(int,android.view.KeyEvent)
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.nobleempire.GunDisassembly2.NvEventQueueActivity
+[WARNING] [32mVERBOSE[0m Hierarchy.virtualDispatch called with non-concrete receiver class: com.nobleempire.GunDisassembly2.NvEventQueueActivity, subsig: boolean onKeyUp(int,android.view.KeyEvent)
+[WARNING] [32mVERBOSE[0m Callback method :onKeyUp in Class com.nobleempire.GunDisassembly2.NvEventQueueActivity
+[WARNING] [32mVERBOSE[0m Hierarchy.virtualDispatch called with non-concrete receiver class: com.nobleempire.GunDisassembly2.NvEventQueueActivity, subsig: void onNewIntent(android.content.Intent)
+[WARNING] [32mVERBOSE[0m Callback method :onNewIntent in Class com.nobleempire.GunDisassembly2.NvEventQueueActivity
+[WARNING] [32mVERBOSE[0m Hierarchy.virtualDispatch called with non-concrete receiver class: com.nobleempire.GunDisassembly2.NvEventQueueActivity, subsig: void onPause()
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.nobleempire.GunDisassembly2.NvEventQueueActivity
+[WARNING] [32mVERBOSE[0m Hierarchy.virtualDispatch called with non-concrete receiver class: com.nobleempire.GunDisassembly2.NvEventQueueActivity, subsig: void onPostCreate(android.os.Bundle)
+[WARNING] [32mVERBOSE[0m Callback method :onPostCreate in Class com.nobleempire.GunDisassembly2.NvEventQueueActivity
+[WARNING] [32mVERBOSE[0m Hierarchy.virtualDispatch called with non-concrete receiver class: com.nobleempire.GunDisassembly2.NvEventQueueActivity, subsig: void onPostResume()
+[WARNING] [32mVERBOSE[0m Callback method :onPostResume in Class com.nobleempire.GunDisassembly2.NvEventQueueActivity
+[WARNING] [32mVERBOSE[0m Hierarchy.virtualDispatch called with non-concrete receiver class: com.nobleempire.GunDisassembly2.NvEventQueueActivity, subsig: void onRestart()
+[WARNING] [32mVERBOSE[0m Callback method :onRestart in Class com.nobleempire.GunDisassembly2.NvEventQueueActivity
+[WARNING] [32mVERBOSE[0m Hierarchy.virtualDispatch called with non-concrete receiver class: com.nobleempire.GunDisassembly2.NvEventQueueActivity, subsig: void onRestoreInstanceState(android.os.Bundle)
+[WARNING] [32mVERBOSE[0m Callback method :onRestoreInstanceState in Class com.nobleempire.GunDisassembly2.NvEventQueueActivity
+[WARNING] [32mVERBOSE[0m Hierarchy.virtualDispatch called with non-concrete receiver class: com.nobleempire.GunDisassembly2.NvEventQueueActivity, subsig: void onResume()
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.nobleempire.GunDisassembly2.NvEventQueueActivity
+[WARNING] [32mVERBOSE[0m Hierarchy.virtualDispatch called with non-concrete receiver class: com.nobleempire.GunDisassembly2.NvEventQueueActivity, subsig: void onSaveInstanceState(android.os.Bundle)
+[WARNING] [32mVERBOSE[0m Callback method :onSaveInstanceState in Class com.nobleempire.GunDisassembly2.NvEventQueueActivity
+[WARNING] [32mVERBOSE[0m Hierarchy.virtualDispatch called with non-concrete receiver class: com.nobleempire.GunDisassembly2.NvEventQueueActivity, subsig: void onSensorChanged(android.hardware.SensorEvent)
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class com.nobleempire.GunDisassembly2.NvEventQueueActivity
+[WARNING] [32mVERBOSE[0m Hierarchy.virtualDispatch called with non-concrete receiver class: com.nobleempire.GunDisassembly2.NvEventQueueActivity, subsig: void onStart()
+[WARNING] [32mVERBOSE[0m Callback method :onStart in Class com.nobleempire.GunDisassembly2.NvEventQueueActivity
+[WARNING] [32mVERBOSE[0m Hierarchy.virtualDispatch called with non-concrete receiver class: com.nobleempire.GunDisassembly2.NvEventQueueActivity, subsig: void onStop()
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.nobleempire.GunDisassembly2.NvEventQueueActivity
+[WARNING] [32mVERBOSE[0m Hierarchy.virtualDispatch called with non-concrete receiver class: com.nobleempire.GunDisassembly2.NvEventQueueActivity, subsig: boolean onTouchEvent(android.view.MotionEvent)
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class com.nobleempire.GunDisassembly2.NvEventQueueActivity
+[WARNING] [32mVERBOSE[0m Hierarchy.virtualDispatch called with non-concrete receiver class: com.nvidia.devtech.NvActivity, subsig: void <init>()
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.nvidia.devtech.NvActivity
+[WARNING] [32mVERBOSE[0m Hierarchy.virtualDispatch called with non-concrete receiver class: com.nvidia.devtech.NvActivity, subsig: void onAccuracyChanged(android.hardware.Sensor,int)
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class com.nvidia.devtech.NvActivity
+[WARNING] [32mVERBOSE[0m Hierarchy.virtualDispatch called with non-concrete receiver class: com.nvidia.devtech.NvActivity, subsig: void onCreate(android.os.Bundle)
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.nvidia.devtech.NvActivity
+[WARNING] [32mVERBOSE[0m Hierarchy.virtualDispatch called with non-concrete receiver class: com.nvidia.devtech.NvActivity, subsig: void onDestroy()
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.nvidia.devtech.NvActivity
+[WARNING] [32mVERBOSE[0m Hierarchy.virtualDispatch called with non-concrete receiver class: com.nvidia.devtech.NvActivity, subsig: boolean onKeyDown(int,android.view.KeyEvent)
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.nvidia.devtech.NvActivity
+[WARNING] [32mVERBOSE[0m Hierarchy.virtualDispatch called with non-concrete receiver class: com.nvidia.devtech.NvActivity, subsig: boolean onKeyUp(int,android.view.KeyEvent)
+[WARNING] [32mVERBOSE[0m Callback method :onKeyUp in Class com.nvidia.devtech.NvActivity
+[WARNING] [32mVERBOSE[0m Hierarchy.virtualDispatch called with non-concrete receiver class: com.nvidia.devtech.NvActivity, subsig: void onResume()
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.nvidia.devtech.NvActivity
+[WARNING] [32mVERBOSE[0m Hierarchy.virtualDispatch called with non-concrete receiver class: com.nvidia.devtech.NvActivity, subsig: void onSensorChanged(android.hardware.SensorEvent)
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class com.nvidia.devtech.NvActivity
+[WARNING] [32mVERBOSE[0m Hierarchy.virtualDispatch called with non-concrete receiver class: com.nvidia.devtech.NvActivity, subsig: void onStop()
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.nvidia.devtech.NvActivity
+[WARNING] [32mVERBOSE[0m Hierarchy.virtualDispatch called with non-concrete receiver class: com.nvidia.devtech.NvActivity, subsig: boolean onTouchEvent(android.view.MotionEvent)
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class com.nvidia.devtech.NvActivity
+[WARNING] [32mVERBOSE[0m Hierarchy.virtualDispatch called with non-concrete receiver class: com.nvidia.devtech.NvEventQueueActivity, subsig: void <init>()
+[WARNING] [32mVERBOSE[0m Callback method :<init> in Class com.nvidia.devtech.NvEventQueueActivity
+[WARNING] [32mVERBOSE[0m Hierarchy.virtualDispatch called with non-concrete receiver class: com.nvidia.devtech.NvEventQueueActivity, subsig: void onAccuracyChanged(android.hardware.Sensor,int)
+[WARNING] [32mVERBOSE[0m Callback method :onAccuracyChanged in Class com.nvidia.devtech.NvEventQueueActivity
+[WARNING] [32mVERBOSE[0m Hierarchy.virtualDispatch called with non-concrete receiver class: com.nvidia.devtech.NvEventQueueActivity, subsig: void onCreate(android.os.Bundle)
+[WARNING] [32mVERBOSE[0m Callback method :onCreate in Class com.nvidia.devtech.NvEventQueueActivity
+[WARNING] [32mVERBOSE[0m Hierarchy.virtualDispatch called with non-concrete receiver class: com.nvidia.devtech.NvEventQueueActivity, subsig: void onDestroy()
+[WARNING] [32mVERBOSE[0m Callback method :onDestroy in Class com.nvidia.devtech.NvEventQueueActivity
+[WARNING] [32mVERBOSE[0m Hierarchy.virtualDispatch called with non-concrete receiver class: com.nvidia.devtech.NvEventQueueActivity, subsig: boolean onKeyDown(int,android.view.KeyEvent)
+[WARNING] [32mVERBOSE[0m Callback method :onKeyDown in Class com.nvidia.devtech.NvEventQueueActivity
+[WARNING] [32mVERBOSE[0m Hierarchy.virtualDispatch called with non-concrete receiver class: com.nvidia.devtech.NvEventQueueActivity, subsig: boolean onKeyUp(int,android.view.KeyEvent)
+[WARNING] [32mVERBOSE[0m Callback method :onKeyUp in Class com.nvidia.devtech.NvEventQueueActivity
+[WARNING] [32mVERBOSE[0m Hierarchy.virtualDispatch called with non-concrete receiver class: com.nvidia.devtech.NvEventQueueActivity, subsig: void onPause()
+[WARNING] [32mVERBOSE[0m Callback method :onPause in Class com.nvidia.devtech.NvEventQueueActivity
+[WARNING] [32mVERBOSE[0m Hierarchy.virtualDispatch called with non-concrete receiver class: com.nvidia.devtech.NvEventQueueActivity, subsig: void onRestart()
+[WARNING] [32mVERBOSE[0m Callback method :onRestart in Class com.nvidia.devtech.NvEventQueueActivity
+[WARNING] [32mVERBOSE[0m Hierarchy.virtualDispatch called with non-concrete receiver class: com.nvidia.devtech.NvEventQueueActivity, subsig: void onResume()
+[WARNING] [32mVERBOSE[0m Callback method :onResume in Class com.nvidia.devtech.NvEventQueueActivity
+[WARNING] [32mVERBOSE[0m Hierarchy.virtualDispatch called with non-concrete receiver class: com.nvidia.devtech.NvEventQueueActivity, subsig: void onSensorChanged(android.hardware.SensorEvent)
+[WARNING] [32mVERBOSE[0m Callback method :onSensorChanged in Class com.nvidia.devtech.NvEventQueueActivity
+[WARNING] [32mVERBOSE[0m Hierarchy.virtualDispatch called with non-concrete receiver class: com.nvidia.devtech.NvEventQueueActivity, subsig: void onStop()
+[WARNING] [32mVERBOSE[0m Callback method :onStop in Class com.nvidia.devtech.NvEventQueueActivity
+[WARNING] [32mVERBOSE[0m Hierarchy.virtualDispatch called with non-concrete receiver class: com.nvidia.devtech.NvEventQueueActivity, subsig: boolean onTouchEvent(android.view.MotionEvent)
+[WARNING] [32mVERBOSE[0m Callback method :onTouchEvent in Class com.nvidia.devtech.NvEventQueueActivity
+Result for benign-app-1962-9AEF6517010134115CCAF3BE753D7899A2BF7A7329E6A130F808029D9250F9D7.apkcom.nobleempire.BikeDisassemblyxq
